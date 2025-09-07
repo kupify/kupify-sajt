@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+
+  <!-- meta name="viewport" je ključno za responsivni dizajn i prilagođavanje sajta mobilnim uređajima.-->
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <title>KUPIFY.rs</title>
+
+  <meta name="description"
+    content="Dobrodošli na zvanični sajt KUPIFY, gde ćete pronaći kvalitetne proizvode po povoljnim cenama, sa garancijom i podrškom.">
+
+  <style>
+    body {
+      display: none;
+    }
+  </style>
+
+  <!-- Učitavanje css -->
+  <link rel="stylesheet" href="/css/style.css" />
+
+  <!-- Font Awesome za ikonice -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- favicon -->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <meta name="theme-color" content="#ffffff">
+
+  <!-- Za indexiranje -->
+  <link rel="canonical" href="https://kupify.rs/" />
+
+  <!-- Pinterest Verify -->
+  <meta name="p:domain_verify" content="e0efd6030e483b2e2b8ab9f416a15e12" />
+
+</head>
+
+<body>
+
+  <div id="header"></div>
+
+  <main>
+
+    <section class="hero hero-uskoro" aria-label="Hero sekcija">
+      <div class="hero-content">
+        <h2>Dobrodošli na zvaničnu prezentaciju<br>internet prodavnice KUPIFY</h2>
+        <p class="subtitle">Završavamo poslednje detalje sajta. Stranica uskoro u punom sjaju.</p>
+        <p> Kompletnu ponudu i dalje možete pogledati na našem KP izlogu. </p>
+      </div>
+    </section>
+
+    <section class="gallery">
+      <div class="item">
+        <img src="images/kategorija1.jpg" alt="Kategorija 1" loading="lazy">
+        <p>Kategorija 1</p>
+      </div>
+      <div class="item">
+        <img src="images/kategorija2.jpg" alt="Kategorija 2" loading="lazy">
+        <p>Kategorija 2</p>
+      </div>
+      <div class="item">
+        <img src="images/kategorija3.jpg" alt="Kategorija 3" loading="lazy">
+        <p>Kategorija 3</p>
+      </div>
+      <div class="item">
+        <img src="images/kategorija4.jpg" alt="Kategorija 4" loading="lazy">
+        <p>Kategorija 4</p>
+      </div>
+      <div class="item">
+        <img src="images/kategorija5.jpg" alt="Kategorija 5" loading="lazy">
+        <p>Kategorija 5</p>
+      </div>
+      <div class="item">
+        <img src="images/kategorija6.jpg" alt="Kategorija 6" loading="lazy">
+        <p>Kategorija 6</p>
+      </div>
+      <div class="item">
+        <img src="images/kategorija7.jpg" alt="Kategorija 7" loading="lazy">
+        <p>Kategorija 7</p>
+      </div>
+      <div class="item">
+        <img src="images/kategorija8.jpg" alt="Kategorija 8" loading="lazy">
+        <p>Kategorija 8</p>
+      </div>
+      <div class="item">
+        <img src="images/kategorija9.jpg" alt="Kategorija 9" loading="lazy">
+        <p>Kategorija 9</p>
+      </div>
+    </section>
+
+    <section class="cta" aria-label="Poziv na akciju">
+      <a href="https://kupify.kpizlog.rs" target="_blank" rel="noopener noreferrer" class="cta-button">
+        <span class="cta-content">
+          <span>Posetite naš izlog na</span>
+          <img src="images/kp-logo.svg" alt="KupujemProdajem logo" class="kp-logo" />
+        </span>
+      </a>
+    </section>
+  </main>
+
+  <!-- Cookie Banner -->
+  <script src="/js/cookie-banner.js"></script>
+
+  <div id="cookie-banner-placeholder"></div>
+
+  <!-- GA CTA tracking -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const cta = document.querySelector(".cta-button");
+
+      if (cta) {
+        cta.addEventListener("click", function () {
+          gtag('event', 'cta_klik', {
+            'event_category': 'interakcija',
+            'event_label': 'CTA - kpizlog.rs'
+          });
+        });
+      }
+    });
+  </script>
+
+  <div id="footer"></div>
+
+  <script src="/js/header-footer.js"></script>
+
+</body>
+
+</html>
