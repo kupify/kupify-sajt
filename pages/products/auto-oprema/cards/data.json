@@ -1,0 +1,16 @@
+{
+  "category": "auto-oprema",
+  "total_products": 1,
+  "page_size": 12,
+  "products": [
+    {
+      "name": "Podesivi podupirači - stubići za automobil 3t Big Red - 2kom",
+      "price_rsd": 3699,
+      "slug": "klocne-stubici-podupiraci-za-automobil-big-red-3t",
+      "category": "auto-oprema",
+      "img_thumb": "/images/products/klocne-stubici-podupiraci-za-automobil-big-red-3t-01-thumb.webp",
+      "brand": "Big Red",
+      "gtin13": "4260109136925"
+    }
+  ]
+}

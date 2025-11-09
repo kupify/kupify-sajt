@@ -11,19 +11,13 @@
     <meta name="description" content="Detaljne informacije o isporuci i načinima plaćanja poručene robe u internet prodavnici KUPIFY.rs.
     Brza i sigurna dostava, različiti načini plaćanja.">
 
-    <style>
-        body {
-            display: none;
-        }
-    </style>
-
-    <!-- Učitavanje css -->
+    <!-- CSS -->
     <link rel="stylesheet" href="/css/style.css" />
 
-    <!-- Font Awesome za ikonice -->
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-    <!-- favicon -->
+    <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -31,16 +25,45 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <meta name="theme-color" content="#ffffff">
 
-    <!-- Za indexiranje -->
+    <!-- GA4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EBNDR2EZ07"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'G-EBNDR2EZ07', { send_page_view: true });
+    </script>
+
+    <!-- Canonical -->
     <link rel="canonical" href="https://kupify.rs/pages/plaćanje-i-isporuka.html">
 
 </head>
 
-<body>
+<body class="js-hidden">
 
     <div id="header"></div>
 
+    <!-- BREADCRUMB -->
+    <nav class="breadcrumb" aria-label="Putanja">
+        <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a itemprop="item" href="/"><span itemprop="name">Početna</span></a>
+                <meta itemprop="position" content="1" />
+            </li>
+            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <span itemprop="name">Plaćanje i isporuka</span>
+                <meta itemprop="position" content="2" />
+            </li>
+        </ol>
+    </nav>
+
     <main>
+
+        <section class="main-sections" aria-hidden="true">
+            <!-- Visual spacer to maintain consistent layout with category pages -->
+            <h2 class="section-title"></h2>
+        </section>
+
         <section class="hero" aria-label="Hero sekcija plaćanje i isporuka">
             <h2>Plaćanje i isporuka</h2>
         </section>
@@ -75,11 +98,10 @@
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>
-
     <div id="cookie-banner-placeholder"></div>
 
+    <!-- Header/Footer Loading -->
     <div id="footer"></div>
-
     <script src="/js/header-footer.js"></script>
 
 </body>

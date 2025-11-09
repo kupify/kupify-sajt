@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="sr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pretraga | KUPIFY.rs</title>
+  <meta name="robots" content="noindex, follow">
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="canonical" href="https://kupify.rs/pages/search/">
+</head>
+<body class="js-hidden">
+  <div id="header"></div>
+
+  <nav class="breadcrumb" aria-label="Putanja">
+    <ol>
+      <li><a href="/">Početna</a></li>
+      <li>Pretraga</li>
+    </ol>
+  </nav>
+
+  <main>
+    <section class="main-sections" aria-label="Pretraga">
+      <h2 class="section-title">Rezultati pretrage</h2>
+
+      <div class="section-controls">
+    
+        <label for="sort-select">Sortiraj:</label>
+        <select id="sort-select" aria-label="Sortiraj rezultate">
+          <option value="relevance">Relevantnost</option>
+          <option value="name-asc">Naziv A-Š</option>
+          <option value="name-desc">Naziv Š-A</option>
+          <option value="price-asc">Cena rastuće</option>
+          <option value="price-desc">Cena opadajuće</option>
+        </select>
+      </div>
+
+      <p id="search-summary" style="margin:.25rem 0 1rem;"></p>
+
+      <section class="products-grid" aria-label="Rezultati">
+        <!-- JS ubacuje kartice -->
+      </section>
+    </section>
+
+    <nav id="paginator" class="paginator" aria-label="Paginacija" data-items-per-page="12">
+      <button class="pag-btn" data-action="prev" aria-label="Prethodna stranica" disabled>&lt;</button>
+      <ul class="pag-pages" role="list"></ul>
+      <button class="pag-btn" data-action="next" aria-label="Sledeća stranica">&gt;</button>
+    </nav>
+  </main>
+
+  <div id="footer"></div>
+  <script src="/js/header-footer.js"></script>
+  <script src="/js/search.js" defer></script>
+</body>
+</html>

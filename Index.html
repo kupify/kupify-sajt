@@ -2,29 +2,37 @@
 <html lang="sr">
 
 <head>
-
-  <!-- meta name="viewport" je ključno za responsivni dizajn i prilagođavanje sajta mobilnim uređajima.-->
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <title>KUPIFY.rs</title>
 
   <meta name="description"
-    content="Dobrodošli na zvanični sajt KUPIFY, gde ćete pronaći kvalitetne proizvode po povoljnim cenama, sa garancijom i podrškom.">
+    content="Dobrodošli na zvanični sajt KUPIFY.rs, gde ćete pronaći kvalitetne proizvode po povoljnim cenama, sa garancijom i podrškom.">
 
-  <style>
-    body {
-      display: none;
-    }
-  </style>
+  <!-- GA4 -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EBNDR2EZ07"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-EBNDR2EZ07', {
+      send_page_view: true
+    });
+  </script>
 
-  <!-- Učitavanje css -->
+  <!-- CSS -->
   <link rel="stylesheet" href="/css/style.css" />
 
-  <!-- Font Awesome za ikonice -->
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-  <!-- favicon -->
+  <!-- Google Font Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Favicons -->
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -32,80 +40,445 @@
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <meta name="theme-color" content="#ffffff">
 
-  <!-- Za indexiranje -->
-  <link rel="canonical" href="https://kupify.rs/" />
+  <!-- Canonical -->
+  <link rel="canonical" href="https://kupify.rs/">
 
   <!-- Pinterest Verify -->
   <meta name="p:domain_verify" content="e0efd6030e483b2e2b8ab9f416a15e12" />
 
 </head>
 
-<body>
+<body class="js-hidden">
 
   <div id="header"></div>
 
   <main>
 
-    <section class="hero hero-uskoro" aria-label="Hero sekcija">
-      <div class="hero-content">
-        <h2>Dobrodošli na zvaničnu prezentaciju<br>internet prodavnice KUPIFY</h2>
-        <p class="subtitle">Završavamo poslednje detalje sajta. Stranica uskoro u punom sjaju.</p>
-        <p> Kompletnu ponudu i dalje možete pogledati na našem KP izlogu. </p>
+    <!-- HERO / KARUSEL -->
+    <section class="hero-carousel" aria-label="Promo karusel">
+      <div class="carousel-track" id="carousel-track">
+        <!-- Slide 1 -->
+        <article class="slide" aria-roledescription="slide" aria-label="Slajd 1 od 3">
+          <img src="/images/hero/slide-1.webp" alt="Akcija na računarsku opremu" loading="eager" fetchpriority="high"
+            decoding="async" />
+          <div class="slide-content">
+            <h3>Akcija: računarska oprema</h3>
+            <a class="btn-cta" href="/pages/products/kompjuteri/">Pogledaj ponudu</a>
+          </div>
+        </article>
+
+        <!-- Slide 2 -->
+        <article class="slide" aria-roledescription="slide">
+          <img src="/images/hero/slide-2.webp" alt="Top izbor: mobilna oprema" loading="lazy" />
+          <div class="slide-content">
+            <h3>Top mobilna oprema</h3>
+            <a class="btn-cta" href="/pages/products/mobilni-telefoni-oprema/">Istraži</a>
+          </div>
+        </article>
+
+        <!-- Slide 3 -->
+        <article class="slide" aria-roledescription="slide">
+          <img src="/images/hero/slide-3.webp" alt="Pametna rasveta i elektro" loading="lazy" />
+          <div class="slide-content">
+            <h3>Pametna rasveta</h3>
+            <a class="btn-cta" href="/pages/products/elektro-i-rasveta/">Kupi sada</a>
+          </div>
+        </article>
+
+
+        <!-- Slide 4 -->
+        <article class="slide" aria-roledescription="slide" aria-label="Slajd 4 od 5">
+          <img src="/images/hero/slide-4.webp" alt="Nova akcija" loading="lazy" />
+          <div class="slide-content">
+            <h3>Nova ponuda</h3>
+            <a class="btn-cta" href="/pages/products/nova-kategorija/">Pogledaj</a>
+          </div>
+        </article>
+
+        <!-- Slide 5 -->
+        <article class="slide" aria-roledescription="slide" aria-label="Slajd 5 od 5">
+          <img src="/images/hero/slide-5.webp" alt="Ekskluzivni popust" loading="lazy" />
+          <div class="slide-content">
+            <h3>Ekskluzivni popust</h3>
+            <a class="btn-cta" href="/pages/products/popusti/">Kupite odmah</a>
+          </div>
+        </article>
+      </div>
+
+      <!-- Carousel Controls -->
+      <div class="carousel-controls">
+        <button type="button" class="carousel-btn prev" aria-label="Prethodni slajd" aria-controls="carousel-track"
+          onclick="scrollCarousel(-1)">
+          <span class="arrow">&lt;</span>
+        </button>
+
+        <button type="button" class="carousel-btn next" aria-label="Sledeći slajd" aria-controls="carousel-track"
+          onclick="scrollCarousel(1)">
+          <span class="arrow">&gt;</span>
+        </button>
+      </div>
+
+      <!-- Indicator Lines -->
+      <div class="carousel-lines" role="tablist" aria-label="Navigacija slajdova">
+        <button type="button" class="line" aria-label="Slajd 1" onclick="goToSlide(0)"></button>
+        <button type="button" class="line" aria-label="Slajd 2" onclick="goToSlide(1)"></button>
+        <button type="button" class="line" aria-label="Slajd 3" onclick="goToSlide(2)"></button>
+        <button type="button" class="line" aria-label="Slajd 4" onclick="goToSlide(3)"></button>
+        <button type="button" class="line" aria-label="Slajd 5" onclick="goToSlide(4)"></button>
       </div>
     </section>
 
-    <section class="gallery">
-      <div class="item">
-        <img src="images/kategorija1.jpg" alt="Kategorija 1" loading="lazy">
-        <p>Kategorija 1</p>
-      </div>
-      <div class="item">
-        <img src="images/kategorija2.jpg" alt="Kategorija 2" loading="lazy">
-        <p>Kategorija 2</p>
-      </div>
-      <div class="item">
-        <img src="images/kategorija3.jpg" alt="Kategorija 3" loading="lazy">
-        <p>Kategorija 3</p>
-      </div>
-      <div class="item">
-        <img src="images/kategorija4.jpg" alt="Kategorija 4" loading="lazy">
-        <p>Kategorija 4</p>
-      </div>
-      <div class="item">
-        <img src="images/kategorija5.jpg" alt="Kategorija 5" loading="lazy">
-        <p>Kategorija 5</p>
-      </div>
-      <div class="item">
-        <img src="images/kategorija6.jpg" alt="Kategorija 6" loading="lazy">
-        <p>Kategorija 6</p>
-      </div>
-      <div class="item">
-        <img src="images/kategorija7.jpg" alt="Kategorija 7" loading="lazy">
-        <p>Kategorija 7</p>
-      </div>
-      <div class="item">
-        <img src="images/kategorija8.jpg" alt="Kategorija 8" loading="lazy">
-        <p>Kategorija 8</p>
-      </div>
-      <div class="item">
-        <img src="images/kategorija9.jpg" alt="Kategorija 9" loading="lazy">
-        <p>Kategorija 9</p>
+    <!-- NAJPRODAVANIJE -->
+    <section class="main-sections" aria-label="Najprodavaniji proizvodi">
+      <h2 class="section-title">Najprodavaniji proizvodi</h2>
+
+      <div class="products-grid">
+
+        <!-- Kartica proizvoda 1 -->
+        <article class="product-card">
+          <a href="/pages/products/elektro-i-rasveta/pametna-wifi-uticnica-sa-monitoringom-gembird-smart-mon16a.html"
+            class="product-link">
+            <img class="product-img"
+              src="/images/products/pametna-wifi-uticnica-sa-monitoringom-gembird-smart-mon16a-01-thumb.webp"
+              alt="Pametna WiFi utičnica Gembird SMART-MON16A sa tajmerom i monitoringom potrošnje." loading="lazy"
+              width="150" height="150" />
+            <h4 class="product-title">WiFi pametna utičnica - tajmer i monitoring Gembird SMART-MON16A </h4>
+            <p class="product-price">999 RSD</p>
+            <span class="btn-cta btn-ghost">Detaljnije</span>
+          </a>
+        </article>
+
+        <!-- Kartica proizvoda 2 -->
+        <article class="product-card">
+          <a href="/pages/products/kompjuteri-i-oprema/stoni-nosac-ruka-za-monitor-gembird-ma-da1-05.html"
+            class="product-link">
+            <img class="product-img" src="/images/products/stoni-nosac-ruka-za-monitor-gembird-ma-da1-05-01-thumb.webp"
+              alt="Ruka za monitor Gembird MA-DA1-05 podesiva za monitore 17-32 inča" loading="lazy" width="150"
+              height="150" />
+            <h4 class="product-title">Stoni nosač za monitor Gembird MA-DA1-05</h4>
+            <p class="product-price">1.999 RSD</p>
+            <span class="btn-cta btn-ghost">Detaljnije</span>
+          </a>
+        </article>
+
+        <!-- Kartica proizvoda 3 -->
+        <article class="product-card">
+          <a href="/pages/products/bela-tehnika-i-kucni-aparati/zidni-nosaci-za-mikrotalasnu-pec-gembird-wm-u35-01-w.html"
+            class="product-link">
+            <img class="product-img"
+              src="/images/products/zidni-nosaci-za-mikrotalasnu-pec-gembird-wm-u35-01-w-01-thumb.webp"
+              alt="Univerzalni čelični zidni nosači za mikrotalasnu peć Gembird WM-U35-01-W" loading="lazy" width="150"
+              height="150" />
+            <h4 class="product-title">Zidni nosači za mikrotalasnu peć Gembird WM-U35-01-W</h4>
+            <p class="product-price">1.599 RSD</p>
+            <span class="btn-cta btn-ghost">Detaljnije</span>
+          </a>
+        </article>
+
+        <!-- Kartica proizvoda 4 -->
+        <article class="product-card">
+          <a href="/pages/products/auto-oprema/klocne-stubici-podupiraci-za-automobil-big-red-3t.html"
+            class="product-link">
+            <img class="product-img"
+              src="/images/products/klocne-stubici-podupiraci-za-automobil-big-red-3t-01-thumb.webp"
+              alt="Big Red podesive klocne - stubići za automobil 3t" loading="lazy" width="150" height="150" />
+            <h4 class="product-title">Podesivi podupirači - stubići za automobil 3t Big Red - 2kom</h4>
+            <p class="product-price">3699 RSD</p>
+            <span class="btn-cta btn-ghost">Detaljnije</span>
+          </a>
+        </article>
+
+        <!-- Kartica proizvoda 5 -->
+        <article class="product-card">
+          <a href="/pages/products/tv-i-video/spoljna-mrezasta-tv-antena-sa-pojacivacem-ant-408al.html"
+            class="product-link">
+            <img class="product-img"
+              src="/images/products/spoljna-mrezasta-tv-antena-sa-pojacivacem-ant-408al-01-thumb.webp"
+              alt="Spoljna mrežasta TV antena ANT-408AL sa pojačivačem 35 dB i aluminijumskim panelom" loading="lazy"
+              width="150" height="150" />
+            <h4 class="product-title">Spoljna mrežasta TV antena sa pojačivačem 17-35 dB ANT-408AL</h4>
+            <p class="product-price">2.199 RSD</p>
+            <span class="btn-cta btn-ghost">Detaljnije</span>
+          </a>
+        </article>
+
+
+        <!-- Kartica proizvoda 6 -->
+        <article class="product-card">
+          <a href="/pages/products/mobilni-telefoni-i-oprema/magnetni-drzac-za-telefon-za-auto-ventilaciju-gembird-ta-chm-03.html"
+            class="product-link">
+            <img class="product-img"
+              src="/images/products/magnetni-drzac-za-telefon-za-auto-ventilaciju-gembird-ta-chm-03-01-thumb.webp"
+              alt="Magnetni rotirajući držač za telefon za auto ventilaciju Gembird ta-chm-03" loading="lazy"
+              width="150" height="150" />
+            <h4 class="product-title">Magnetni rotirajući držač za telefon za auto ventilaciju Gembird TA-CHM-03</h4>
+            <p class="product-price">499 RSD</p>
+            <span class="btn-cta btn-ghost">Detaljnije</span>
+          </a>
+        </article>
+
       </div>
     </section>
 
-    <section class="cta" aria-label="Poziv na akciju">
-      <a href="https://kupify.kpizlog.rs" target="_blank" rel="noopener noreferrer" class="cta-button">
-        <span class="cta-content">
-          <span>Posetite naš izlog na</span>
-          <img src="images/kp-logo.svg" alt="KupujemProdajem logo" class="kp-logo" />
-        </span>
-      </a>
+    <!-- Ekskluzivna ponuda 
+    <section class="main-sections" aria-label="Ekskluzivna ponuda">
+      <h2 class="section-title">Ekskluzivna ponuda</h2>
+
+      <div class="products-grid">-->
+
+    <!-- Kartica proizvoda 
+        <article class="product-card">
+          <a href="/pages/products/ugreen-bt-adapter.html" class="product-link">
+            <img class="product-img" src="/images/products/ugreen-bt-01-thumb.webp" alt="UGREEN Bluetooth adapter"
+              loading="lazy" width="150" height="150" />
+            <h4 class="product-title">UGREEN Bluetooth adapter</h4>
+            <p class="product-price">1.999 RSD</p>
+            <span class="btn-cta btn-ghost">Detaljnije</span>
+          </a>
+        </article>
+
+        <article class="product-card">
+          <a href="/pages/products/gembird-mis.html" class="product-link">
+            <img class="product-img" src="/images/products/gembird-mis-01-thumb.webp" alt="Gembird bežični miš"
+              loading="lazy" width="150" height="150" />
+            <h4 class="product-title">Gembird bežični miš</h4>
+            <p class="product-price">1.299 RSD</p>
+            <span class="btn-cta btn-ghost">Detaljnije</span>
+          </a>
+        </article>
+
+        <article class="product-card">
+          <a href="/pages/products/usb-c-kabal.html" class="product-link">
+            <img class="product-img" src="/images/products/usb-c-kabal-01-thumb.webp" alt="USB-C kabl 60W" loading="lazy"
+              width="150" height="150" />
+            <h4 class="product-title">USB-C kabl 60W</h4>
+            <p class="product-price">799 RSD</p>
+            <span class="btn-cta btn-ghost">Detaljnije</span>
+          </a>
+        </article>
+
+        <article class="product-card">
+          <a href="/pages/products/pametna-sijalica.html" class="product-link">
+            <img class="product-img" src="/images/products/pametna-sijalica-01-thumb.webp" alt="Pametna sijalica E27"
+              loading="lazy" width="150" height="150" />
+            <h4 class="product-title">Pametna sijalica E27</h4>
+            <p class="product-price">1.499 RSD</p>
+            <span class="btn-cta btn-ghost">Detaljnije</span>
+          </a>
+        </article>
+
+        <article class="product-card">
+          <a href="/pages/products/ugreen-bt-adapter.html" class="product-link">
+            <img class="product-img" src="/images/products/ugreen-bt-01-thumb.webp" alt="UGREEN Bluetooth adapter"
+              loading="lazy" width="150" height="150" />
+            <h4 class="product-title">UGREEN Bluetooth adapter</h4>
+            <p class="product-price">1.999 RSD</p>
+            <span class="btn-cta btn-ghost">Detaljnije</span>
+          </a>
+        </article>
+
+        <article class="product-card">
+          <a href="/pages/products/ugreen-bt-adapter.html" class="product-link">
+            <img class="product-img" src="/images/products/ugreen-bt-01-thumb.webp" alt="UGREEN Bluetooth adapter"
+              loading="lazy" width="150" height="150" />
+            <h4 class="product-title">UGREEN Bluetooth adapter</h4>
+            <p class="product-price">1.999 RSD</p>
+            <span class="btn-cta btn-ghost">Detaljnije</span>
+          </a>
+        </article>
+
+      </div>
+    </section>-->
+
+    <!-- SAMO KOD NAS 
+    <section class="main-sections" aria-label="Samo kod nas">
+      <h2 class="section-title">Samo kod nas</h2>
+
+      <div class="products-grid">-->
+
+    <!-- Kartica proizvoda 
+        <article class="product-card">
+          <a href="/pages/products/ugreen-bt-adapter.html" class="product-link">
+            <img class="product-img" src="/images/products/ugreen-bt-01-thumb.webp" alt="UGREEN Bluetooth adapter"
+              loading="lazy" width="150" height="150" />
+            <h4 class="product-title">UGREEN Bluetooth adapter</h4>
+            <p class="product-price">1.999 RSD</p>
+            <span class="btn-cta btn-ghost">Detaljnije</span>
+          </a>
+        </article>
+
+        <article class="product-card">
+          <a href="/pages/products/gembird-mis.html" class="product-link">
+            <img class="product-img" src="/images/products/gembird-mis-01-thumb.webp" alt="Gembird bežični miš"
+              loading="lazy" width="150" height="150" />
+            <h4 class="product-title">Gembird bežični miš</h4>
+            <p class="product-price">1.299 RSD</p>
+            <span class="btn-cta btn-ghost">Detaljnije</span>
+          </a>
+        </article>
+
+        <article class="product-card">
+          <a href="/pages/products/usb-c-kabal.html" class="product-link">
+            <img class="product-img" src="/images/products/usb-c-kabal-01-01-thumb.webp" alt="USB-C kabl 60W" loading="lazy"
+              width="150" height="150" />
+            <h4 class="product-title">USB-C kabl 60W</h4>
+            <p class="product-price">799 RSD</p>
+            <span class="btn-cta btn-ghost">Detaljnije</span>
+          </a>
+        </article>
+
+        <article class="product-card">
+          <a href="/pages/products/pametna-sijalica.html" class="product-link">
+            <img class="product-img" src="/images/products/pametna-sijalica-01-01-thumb.webp" alt="Pametna sijalica E27"
+              loading="lazy" width="150" height="150" />
+            <h4 class="product-title">Pametna sijalica E27</h4>
+            <p class="product-price">1.499 RSD</p>
+            <span class="btn-cta btn-ghost">Detaljnije</span>
+          </a>
+        </article>
+
+        <article class="product-card">
+          <a href="/pages/products/ugreen-bt-adapter.html" class="product-link">
+            <img class="product-img" src="/images/products/ugreen-bt-01-01-thumb.webp" alt="UGREEN Bluetooth adapter"
+              loading="lazy" width="150" height="150" />
+            <h4 class="product-title">UGREEN Bluetooth adapter</h4>
+            <p class="product-price">1.999 RSD</p>
+            <span class="btn-cta btn-ghost">Detaljnije</span>
+          </a>
+        </article>
+
+        <article class="product-card">
+          <a href="/pages/products/ugreen-bt-adapter.html" class="product-link">
+            <img class="product-img" src="/images/products/ugreen-bt-01-01-thumb.webp" alt="UGREEN Bluetooth adapter"
+              loading="lazy" width="150" height="150" />
+            <h4 class="product-title">UGREEN Bluetooth adapter</h4>
+            <p class="product-price">1.999 RSD</p>
+            <span class="btn-cta btn-ghost">Detaljnije</span>
+          </a>
+        </article>
+
+      </div>
+    </section>-->
+
+    <!-- Kategorije -->
+    <section id="kategorije" class="main-sections" aria-label="Kategorije proizvoda">
+      <h2 class="section-title">Kategorije</h2>
+
+      <!-- Grid kategorija (bez podkategorija) -->
+      <section class="categories-grid" aria-label="Sve kategorije proizvoda">
+        <article class="category">
+          <h4><a href="/pages/products/alati-i-orudja/">Alati i oruđa</a>
+            <span class="material-icons placeholder-icon" aria-hidden="true">handyman</span>
+          </h4>
+        </article>
+
+        <article class="category">
+          <h4><a href="/pages/products/audio-oprema/">Audio oprema</a>
+            <span class="material-icons placeholder-icon" aria-hidden="true">speaker</span>
+          </h4>
+        </article>
+
+        <article class="category">
+          <h4><a href="/pages/products/auto-oprema/">Auto oprema</a>
+            <span class="material-icons placeholder-icon" aria-hidden="true">directions_car</span>
+          </h4>
+        </article>
+
+        <article class="category">
+          <h4><a href="/pages/products/bela-tehnika-i-kucni-aparati/">Bela tehnika i kućni aparati</a>
+            <span class="material-icons placeholder-icon" aria-hidden="true">local_laundry_service</span>
+          </h4>
+        </article>
+
+        <article class="category">
+          <h4><a href="/pages/products/dvoriste-i-basta/">Dvorište i bašta</a>
+            <span class="material-icons placeholder-icon" aria-hidden="true">deck</span>
+          </h4>
+        </article>
+
+        <article class="category">
+          <h4><a href="/pages/products/elektro-i-rasveta/">Elektro i rasveta</a>
+            <span class="material-icons placeholder-icon" aria-hidden="true">emoji_objects</span>
+          </h4>
+        </article>
+
+        <article class="category">
+          <h4><a href="/pages/products/elektronika-i-komponente/">Elektronika i komponente</a>
+            <span class="material-icons placeholder-icon" aria-hidden="true">memory</span>
+          </h4>
+        </article>
+
+        <article class="category">
+          <h4><a href="/pages/products/foto-aparati-i-kamere/">Foto-aparati i kamere</a>
+            <span class="material-icons placeholder-icon" aria-hidden="true">photo_camera</span>
+          </h4>
+        </article>
+
+        <article class="category">
+          <h4><a href="/pages/products/gradjevinarstvo/">Građevinarstvo</a>
+            <span class="material-icons placeholder-icon" aria-hidden="true">imagesearch_roller</span>
+          </h4>
+        </article>
+
+        <article class="category">
+          <h4><a href="/pages/products/kompjuteri-i-oprema/">Kompjuteri i oprema</a>
+            <span class="material-icons placeholder-icon" aria-hidden="true">computer</span>
+          </h4>
+        </article>
+
+        <article class="category">
+          <h4><a href="/pages/products/kupatilo-i-oprema/">Kupatilo i oprema</a>
+            <span class="material-icons placeholder-icon" aria-hidden="true">shower</span>
+          </h4>
+        </article>
+
+        <article class="category">
+          <h4><a href="/pages/products/mobilni-telefoni-i-oprema/">Mobilni telefoni i oprema</a>
+            <span class="material-icons placeholder-icon" aria-hidden="true">phone_in_talk</span>
+          </h4>
+        </article>
+
+        <article class="category">
+          <h4><a href="/pages/products/nega-i-licna-higijena/">Nega i lična higijena</a>
+            <span class="material-icons placeholder-icon" aria-hidden="true">soap</span>
+          </h4>
+        </article>
+
+        <article class="category">
+          <h4><a href="/pages/products/sport-razonoda-i-zabava/">Sport, razonoda i zabava</a>
+            <span class="material-icons placeholder-icon" aria-hidden="true">sports_basketball</span>
+          </h4>
+        </article>
+
+        <article class="category">
+          <h4><a href="/pages/products/tv-i-video/">TV i video</a>
+            <span class="material-icons placeholder-icon" aria-hidden="true">tv</span>
+          </h4>
+        </article>
+
+        <article class="category">
+          <h4><a href="/pages/products/uredjenje-kuce/">Uređenje kuće</a>
+            <span class="material-icons placeholder-icon" aria-hidden="true">house</span>
+          </h4>
+        </article>
+      </section>
     </section>
+  </main>
+
+
+  <section class="cta" aria-label="Poziv na akciju">
+    <a href="https://kupify.kpizlog.rs" target="_blank" rel="noopener noreferrer" class="cta-button">
+      <span class="cta-content">
+        <span>Posetite naš izlog i na</span>
+        <img src="/images/kp-logo.svg" alt="KupujemProdajem logo" class="kp-logo" />
+      </span>
+    </a>
+  </section>
+
   </main>
 
   <!-- Cookie Banner -->
   <script src="/js/cookie-banner.js"></script>
-
   <div id="cookie-banner-placeholder"></div>
 
   <!-- GA CTA tracking -->
@@ -124,8 +497,8 @@
     });
   </script>
 
+  <!-- Header/Footer Loading -->
   <div id="footer"></div>
-
   <script src="/js/header-footer.js"></script>
 
 </body>

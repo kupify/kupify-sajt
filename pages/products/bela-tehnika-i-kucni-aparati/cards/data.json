@@ -1,0 +1,17 @@
+{
+  "category": "bela-tehnika-i-kucni-aparati",
+  "total_products": 1,
+  "page_size": 12,
+  "products": [
+    {
+      "name": "Zidni nosači za mikrotalasnu peć Gembird WM-U35-01-W",
+      "price_rsd": 1599,
+      "slug": "zidni-nosaci-za-mikrotalasnu-pec-gembird-wm-u35-01-w",
+      "category": "bela-tehnika-i-kucni-aparati",
+      "img_thumb": "/images/products/zidni-nosaci-za-mikrotalasnu-pec-gembird-wm-u35-01-w-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "WM-U35-01-W",
+      "gtin13": "8716309126236"
+    }
+  ]
+}

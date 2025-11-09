@@ -1,0 +1,17 @@
+{
+  "category": "mobilni-telefoni-i-oprema",
+  "total_products": 1,
+  "page_size": 12,
+  "products": [
+    {
+      "name": "Magnetni rotirajući držač za telefon za auto ventilaciju Gembird TA-CHM-03",
+      "price_rsd": 499,
+      "slug": "magnetni-drzac-za-telefon-za-auto-ventilaciju-gembird-ta-chm-03",
+      "category": "mobilni-telefoni-i-oprema",
+      "img_thumb": "/images/products/magnetni-drzac-za-telefon-za-auto-ventilaciju-gembird-ta-chm-03-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "TA-CHM-03",
+      "gtin13": "8979812154589"
+    }
+  ]
+}

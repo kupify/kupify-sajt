@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Mobilni telefoni i oprema | KUPIFY.rs</title>
+    <meta name="description"
+        content="Pogledajte ponudu mobilnih telefona i opreme na KUPIFY.rs. Futrole, punjači, držači, kablovi i dodaci za sve modele telefona.">
+
+    <!-- CSS (preload pa stylesheet) -->
+    <link rel="preload" href="/css/style.css" as="style" />
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <!-- Font Awesome za ikonice -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- OG / Twitter -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Mobilni telefoni i oprema | KUPIFY.rs">
+    <meta property="og:description"
+        content="Pogledajte ponudu mobilnih telefona i opreme na KUPIFY.rs. Futrole, punjači, držači, kablovi i dodaci za sve modele telefona.">
+    <meta property="og:url" content="https://kupify.rs/pages/products/mobilni-telefoni-i-oprema/">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- canonical -->
+    <link rel="canonical" href="https://kupify.rs/pages/products/mobilni-telefoni-i-oprema/">
+</head>
+
+<body class="js-hidden">
+
+    <div id="header"></div>
+
+    <!-- BREADCRUMB -->
+    <nav class="breadcrumb" aria-label="Putanja">
+        <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a itemprop="item" href="/"><span itemprop="name">Početna</span></a>
+                <meta itemprop="position" content="1" />
+            </li>
+            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <span itemprop="name">Mobilni telefoni i oprema</span>
+                <meta itemprop="position" content="2" />
+            </li>
+        </ol>
+    </nav>
+
+    <main>
+
+        <section class="main-sections" aria-label="Mobilni telefoni i oprema">
+            <h2 class="section-title">Mobilni telefoni i oprema</h2>
+
+            <div class="section-controls">
+                <label for="sort-select">Sortiraj</label>
+                <select id="sort-select" aria-label="Sortiraj proizvode">
+                    <option value="name-asc">Naziv A-Š</option>
+                    <option value="name-desc">Naziv Š-A</option>
+                    <option value="price-asc">Cena rastuće</option>
+                    <option value="price-desc">Cena opadajuće</option>
+                </select>
+            </div>
+
+            <!-- GRID PROIZVODA -->
+            <section class="products-grid" aria-label="Proizvodi u kategoriji">
+                <ul id="products-list" role="list" aria-live="polite" aria-busy="true"></ul>
+            </section>
+        </section>
+
+        <!-- PAGINATION -->
+        <nav id="paginator" class="paginator" aria-label="Paginacija proizvoda" data-items-per-page="12">
+            <button class="pag-btn" data-action="prev" aria-label="Prethodna stranica" disabled>&lt;</button>
+            <ul class="pag-pages" role="list"></ul>
+            <button class="pag-btn" data-action="next" aria-label="Sledeća stranica">&gt;</button>
+        </nav>
+
+    </main>
+
+    <!-- Cookie Banner -->
+    <script src="/js/cookie-banner.js"></script>
+    <div id="cookie-banner-placeholder"></div>
+
+    <div id="footer"></div>
+    <script src="/js/header-footer.js"></script>
+
+    <script src="/js/category-listing.js" defer></script>
+
+</body>
+
+</html>

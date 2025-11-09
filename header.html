@@ -1,21 +1,29 @@
 <header>
-    <div class="header-content">
-      <a href="/" class="images/logo-link" aria-label="Početna">
-        <img src="/images/kupify-logo.svg" alt="Kupify logo" class="logo" />
-      </a>
+  <div class="header-content">
+    <a href="/" class="images/logo-link" aria-label="Početna">
+      <img src="/images/kupify-logo.svg" alt="Kupify logo" class="logo" />
+    </a>
 
-      <div class="header-text">
-        <h1><strong>Internet prodavnica KUPIFY</strong></h1>
-        <p>Vaše mesto sigurne kupovine</p>
-      </div>
-
-      <div class="nav-sticky-wrapper"></div>
-      <nav class="header-nav">
-        <a href="/" class="nav-button">Početna</a>
-        <a href="/pages/uskoro.html" class="nav-button">Proizvodi</a>
-        <a href="/pages/uskoro.html" class="nav-button">O nama</a>
-        <a href="/pages/kontakt.html" class="nav-button">Kontakt</a>
-        <a href="/pages/blog/blog-stranica-1.html" class="nav-button">Korisni saveti</a>
-      </nav>
+    <div class="header-text">
+      <h1><strong>Internet prodavnica KUPIFY</strong></h1>
+      <p class="fade-in">Konačno radi sajt! Konačno radi sajt!</p>
     </div>
-  </header>
+
+    <div class="nav-sticky-wrapper"></div>
+    <nav class="header-nav">
+      <a href="/" class="nav-button">Početna</a>
+      <a href="/#kategorije" class="nav-button">Proizvodi</a>
+      <a href="/pages/uskoro.html" class="nav-button">O nama</a>
+      <a href="/pages/kontakt.html" class="nav-button">Kontakt</a>
+      <a href="/pages/blog/blog-stranica-1.html" class="nav-button">Korisni saveti</a>
+    </nav>
+  </div>
+  <form action="/pages/search/" method="get" class="site-search" role="search">
+    <label for="q" class="sr-only">Pretraga</label>
+    <input id="q" name="q" type="search" placeholder="Pretražite proizvode..." />
+    <button type="submit" class="btn-cta">
+      <img src="/images/search.svg" alt="Traži" width="16" height="16">
+    </button>
+  </form>
+  </div>
+</header>

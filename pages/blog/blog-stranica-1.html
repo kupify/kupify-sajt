@@ -2,7 +2,6 @@
 <html lang="sr">
 
 <head>
-    <!-- meta name="viewport" je ključno za responsivni dizajn i prilagođavanje sajta mobilnim uređajima.-->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -11,19 +10,14 @@
     <meta name="description" content="Frustriran zbog montaže tuša?
     Otkrijte kako vakumski držač za tuš bez bušenja pločica rešava problem stabilnog držanja ručice.">
 
-    <style>
-        body {
-            display: none;
-        }
-    </style>
 
-    <!-- Učitavanje css -->
+    <!-- CSS -->
     <link rel="stylesheet" href="/css/style.css" />
 
-    <!-- Font Awesome za ikonice -->
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
-    <!-- favicon -->
+    <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -31,19 +25,48 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <meta name="theme-color" content="#ffffff">
 
-    <!-- Za indexiranje -->
+    <!-- GA4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EBNDR2EZ07"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-EBNDR2EZ07');
+    </script>
+
+    <!-- Canonical -->
     <link rel="canonical" href="https://kupify.rs/pages/blog/blog-stranica-1.html">
 
 </head>
 
-<body>
+<body class="js-hidden">
 
     <div id="header"></div>
 
+    <!-- BREADCRUMB -->
+    <nav class="breadcrumb" aria-label="Putanja">
+        <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <a itemprop="item" href="/"><span itemprop="name">Početna</span></a>
+                <meta itemprop="position" content="1" />
+            </li>
+            <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+                <span itemprop="name">Blog</span>
+                <meta itemprop="position" content="2" />
+            </li>
+        </ol>
+    </nav>
+
     <main>
 
+        <section class="main-sections" aria-hidden="true">
+            <!-- Visual spacer to maintain consistent layout with category pages -->
+            <h2 class="section-title"></h2>
+        </section>
+
         <section class="hero" aria-label="Hero sekcija vakumski držač tuš ručice">
-            
+
             <img src="/images/blog/kupify.rs-vakuumski-drzac-tus-rucice-1.webp" alt="3D render vakumski držač za tuš">
 
             <h2>Vakuumski držač za tuš -<br>
@@ -104,7 +127,8 @@
 
             <div class="cta-zavrsni-blok-content">
                 <a href="https://www.kupujemprodajem.com/kupatilo-i-oprema/galanterija/vakuumski-drzac-za-tus-vakumski-bez-busenja-samolepljivi/oglas/165917074"
-                    target="_blank" rel="noopener noreferrer" class="cta-zavrsni-blok-button">
+                    target="_blank" rel="noopener noreferrer" class="cta-zavrsni-blok-button"
+                    data-cta="KP CTA - Vakuumski držač za tuš">
                     Pogledajte vakuumski držač za tuš
                 </a>
             </div>
@@ -113,12 +137,65 @@
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>
-
     <div id="cookie-banner-placeholder"></div>
 
+    <!-- Header/Footer Loading -->
     <div id="footer"></div>
-
     <script src="/js/header-footer.js"></script>
+
+    <!-- GA4 Clicks -->
+    <script>
+        (function () {
+            "use strict";
+
+            // ————————————————————————————————
+            // 1️⃣ Link clicks
+            // ————————————————————————————————
+            const blogText = document.querySelector('.blog-content');
+            if (blogText) {
+                blogText.addEventListener('click', function (e) {
+                    const a = e.target.closest('a');
+                    if (!a) return;
+
+                    const href = a.getAttribute('href') || '';
+                    const text = a.textContent.trim().slice(0, 100);
+                    const outbound = href.startsWith('http') && !href.includes(location.host);
+
+                    gtag('event', 'blog_link_click', {
+                        link_text: text,
+                        link_url: href,
+                        link_type: outbound ? 'outbound' : 'internal',
+                        page_path: location.pathname,
+                        page_title: document.title
+                    });
+                }, { capture: true });
+            }
+
+            // ————————————————————————————————
+            // 2️⃣ CTA clicks
+            // ————————————————————————————————
+            const ctaZone = document.querySelector('.cta-zavrsni-blok-content');
+            if (ctaZone) {
+                ctaZone.addEventListener('click', function (e) {
+                    const a = e.target.closest('a, button');
+                    if (!a) return;
+
+                    const label = a.getAttribute('data-cta') || a.textContent.trim().slice(0, 100);
+                    const href = a.getAttribute('href') || '';
+                    const type = a.tagName.toLowerCase();
+
+                    gtag('event', 'blog_cta_click', {
+                        cta_label: label,
+                        link_url: href,
+                        element_type: type,
+                        page_path: location.pathname,
+                        page_title: document.title
+                    });
+                }, { capture: true });
+            }
+
+        })();
+    </script>
 
 </body>
 

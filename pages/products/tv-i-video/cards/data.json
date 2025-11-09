@@ -1,0 +1,37 @@
+{
+  "category": "tv-i-video",
+  "total_products": 3,
+  "page_size": 12,
+  "products": [
+    {
+      "name": "Podni stalak za TV 32–55\" Kettz TVN-K3255",
+      "price_rsd": 5999,
+      "slug": "stalak-za-tv-podni-kettz-tvn-K3255",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/stalak-za-tv-podni-kettz-tvn-K3255-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "TVN-K3255",
+      "gtin13": "8605054706810"
+    },
+    {
+      "name": "Spoljna mrežasta TV antena sa pojačivačem 17-35 dB ANT-408AL",
+      "price_rsd": 2199,
+      "slug": "spoljna-mrezasta-tv-antena-sa-pojacivacem-ant-408al",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/spoljna-mrezasta-tv-antena-sa-pojacivacem-ant-408al-01-thumb.webp",
+      "brand": "Vega",
+      "sku": "ANT-408AL",
+      "gtin13": "3856001016260"
+    },
+    {
+      "name": "Zglobni TV nosač Gembird WM-55RT-07 za televizore 14–55 inča",
+      "price_rsd": 1399,
+      "slug": "zglobni-tv-nosac-gembird-wm-55rt-07-14-55-inca",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/zglobni-tv-nosac-gembird-wm-55rt-07-14-55-inca-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "WM-55RT-07",
+      "gtin13": "8607855734238"
+    }
+  ]
+}

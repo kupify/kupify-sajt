@@ -1,0 +1,27 @@
+{
+  "category": "kompjuteri-i-oprema",
+  "total_products": 2,
+  "page_size": 12,
+  "products": [
+    {
+      "name": "Bežični optički miš Gembird MUSW-4B-01-W",
+      "price_rsd": 599,
+      "slug": "bezicni-opticki-mis-gembird-musw-4b-01-w",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/bezicni-opticki-mis-gembird-musw-4b-01-w-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MUSW-4B-01-W",
+      "gtin13": "8716309104159"
+    },
+    {
+      "name": "Stoni nosač – ruka za monitor Gembird MA-DA1-05",
+      "price_rsd": 3199,
+      "slug": "stoni-nosac-ruka-za-monitor-gembird-ma-da1-05",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/stoni-nosac-ruka-za-monitor-gembird-ma-da1-05-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MA-DA1-05",
+      "gtin13": "8716309127707"
+    }
+  ]
+}
