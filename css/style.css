@@ -1147,15 +1147,17 @@
          line-height: 1.3;
      }
  }
-/* Phone click Desktop*/
 
-@media (min-width: 769px) {
-  .phone-link {
-    pointer-events: none; /* onemogućava klik */
-    text-decoration: none;
-    color: inherit;
-  }
-}
+ /* Phone click Desktop*/
+
+ @media (min-width: 769px) {
+     .phone-link {
+         pointer-events: none;
+         /* onemogućava klik */
+         text-decoration: none;
+         color: inherit;
+     }
+ }
 
  /************Orange Teal Style CSS****************/
  .gradient-line {
@@ -1724,6 +1726,14 @@
      border-image: linear-gradient(to right, rgba(var(--brand-accent), .3), rgba(var(--brand-accent), .8)) 1;
      /* orange gradient */
      padding-bottom: .3rem;
+ }
+
+ .ekskluzivna-ponuda {
+     display: none;
+ }
+
+ .samo-kod-nas {
+     display: none;
  }
 
  /* ===== Grid proizvoda: baza ===== */

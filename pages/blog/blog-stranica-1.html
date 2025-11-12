@@ -5,14 +5,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+    <!-- CSS (preload pa stylesheet) -->
+    <link rel="preload" href="/css/style.css" as="style" />
+    <link rel="stylesheet" href="/css/style.css" />
+    
     <title>Vakumski držač za tuš - Kako sam rešio problem bez bušenja pločica</title>
 
     <meta name="description" content="Frustriran zbog montaže tuša?
     Otkrijte kako vakumski držač za tuš bez bušenja pločica rešava problem stabilnog držanja ručice.">
-
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="/css/style.css" />
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -25,14 +25,15 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <meta name="theme-color" content="#ffffff">
 
-    <!-- GA4 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EBNDR2EZ07"></script>
+    <!-- GA4 Blocker -->
     <script>
+        window['ga-disable-G-EBNDR2EZ07'] = true;
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-EBNDR2EZ07');
+        gtag('consent', 'default', {
+            ad_storage: 'denied',
+            analytics_storage: 'denied'
+        });
     </script>
 
     <!-- Canonical -->

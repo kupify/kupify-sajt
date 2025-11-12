@@ -2,17 +2,18 @@
 <html lang="sr">
 
 <head>
-  <!-- meta name="viewport" je ključno za responsivni dizajn i prilagođavanje sajta mobilnim uređajima.-->
+
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- CSS (preload pa stylesheet) -->
+  <link rel="preload" href="/css/style.css" as="style" />
+  <link rel="stylesheet" href="/css/style.css" />
 
   <title>Kontakt - Internet prodavnica KUPIFY.rs</title>
 
   <meta name="description"
     content="Kontaktirajte internet prodavnicu KUPIFY.rs putem telefona, emaila ili posetite našu radnju. Saznajte radno vreme i lokaciju.">
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="/css/style.css" />
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -25,14 +26,15 @@
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <meta name="theme-color" content="#ffffff">
 
-  <!-- GA4 -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EBNDR2EZ07"></script>
+  <!-- GA4 Blocker -->
   <script>
+    window['ga-disable-G-EBNDR2EZ07'] = true;
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-EBNDR2EZ07');
+    gtag('consent', 'default', {
+      ad_storage: 'denied',
+      analytics_storage: 'denied'
+    });
   </script>
 
   <!-- Canonical -->

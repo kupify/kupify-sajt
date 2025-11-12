@@ -2,17 +2,18 @@
 <html lang="sr">
 
 <head>
-    <!-- meta name="viewport" je ključno za responsivni dizajn i prilagođavanje sajta mobilnim uređajima.-->
+
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- CSS (preload pa stylesheet) -->
+    <link rel="preload" href="/css/style.css" as="style" />
+    <link rel="stylesheet" href="/css/style.css" />
 
     <title>Plaćanje i isporuka - Internet prodavnica KUPIFY.rs</title>
 
     <meta name="description" content="Detaljne informacije o isporuci i načinima plaćanja poručene robe u internet prodavnici KUPIFY.rs.
     Brza i sigurna dostava, različiti načini plaćanja.">
-
-    <!-- CSS -->
-    <link rel="stylesheet" href="/css/style.css" />
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -25,17 +26,19 @@
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <meta name="theme-color" content="#ffffff">
 
-    <!-- GA4 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EBNDR2EZ07"></script>
+    <!-- GA4 Blocker -->
     <script>
+        window['ga-disable-G-EBNDR2EZ07'] = true;
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-        gtag('config', 'G-EBNDR2EZ07', { send_page_view: true });
+        gtag('consent', 'default', {
+            ad_storage: 'denied',
+            analytics_storage: 'denied'
+        });
     </script>
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://kupify.rs/pages/plaćanje-i-isporuka.html">
+    <link rel="canonical" href="https://kupify.rs/pages/placanje-i-isporuka.html">
 
 </head>
 

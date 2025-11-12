@@ -5,24 +5,14 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
+  <!-- CSS (preload pa stylesheet) -->
+  <link rel="preload" href="/css/style.css" as="style" />
+  <link rel="stylesheet" href="/css/style.css" />
+
   <title>KUPIFY.rs</title>
 
   <meta name="description"
     content="Dobrodošli na zvanični sajt KUPIFY.rs, gde ćete pronaći kvalitetne proizvode po povoljnim cenama, sa garancijom i podrškom.">
-
-  <!-- GA4 -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EBNDR2EZ07"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-    gtag('config', 'G-EBNDR2EZ07', {
-      send_page_view: true
-    });
-  </script>
-
-  <!-- CSS -->
-  <link rel="stylesheet" href="/css/style.css" />
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
@@ -39,6 +29,17 @@
   <link rel="manifest" href="/site.webmanifest">
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
   <meta name="theme-color" content="#ffffff">
+
+  <!-- GA4 Blocker -->
+  <script>
+    window['ga-disable-G-EBNDR2EZ07'] = true;
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('consent', 'default', {
+      ad_storage: 'denied',
+      analytics_storage: 'denied'
+    });
+  </script>
 
   <!-- Canonical -->
   <link rel="canonical" href="https://kupify.rs/">
@@ -220,13 +221,13 @@
       </div>
     </section>
 
-    <!-- Ekskluzivna ponuda 
-    <section class="main-sections" aria-label="Ekskluzivna ponuda">
+    <!-- Ekskluzivna ponuda -->
+    <section class="main-sections ekskluzivna-ponuda" aria-label="Ekskluzivna ponuda">
       <h2 class="section-title">Ekskluzivna ponuda</h2>
 
-      <div class="products-grid">-->
+      <div class="products-grid">
 
-    <!-- Kartica proizvoda 
+        <!-- Kartica proizvoda -->
         <article class="product-card">
           <a href="/pages/products/ugreen-bt-adapter.html" class="product-link">
             <img class="product-img" src="/images/products/ugreen-bt-01-thumb.webp" alt="UGREEN Bluetooth adapter"
@@ -249,8 +250,8 @@
 
         <article class="product-card">
           <a href="/pages/products/usb-c-kabal.html" class="product-link">
-            <img class="product-img" src="/images/products/usb-c-kabal-01-thumb.webp" alt="USB-C kabl 60W" loading="lazy"
-              width="150" height="150" />
+            <img class="product-img" src="/images/products/usb-c-kabal-01-thumb.webp" alt="USB-C kabl 60W"
+              loading="lazy" width="150" height="150" />
             <h4 class="product-title">USB-C kabl 60W</h4>
             <p class="product-price">799 RSD</p>
             <span class="btn-cta btn-ghost">Detaljnije</span>
@@ -288,15 +289,15 @@
         </article>
 
       </div>
-    </section>-->
+    </section>
 
-    <!-- SAMO KOD NAS 
-    <section class="main-sections" aria-label="Samo kod nas">
+    <!-- SAMO KOD NAS -->
+    <section class="main-sections samo-kod-nas" aria-label="Samo kod nas">
       <h2 class="section-title">Samo kod nas</h2>
 
-      <div class="products-grid">-->
+      <div class="products-grid">
 
-    <!-- Kartica proizvoda 
+        <!-- Kartica proizvoda -->
         <article class="product-card">
           <a href="/pages/products/ugreen-bt-adapter.html" class="product-link">
             <img class="product-img" src="/images/products/ugreen-bt-01-thumb.webp" alt="UGREEN Bluetooth adapter"
@@ -319,8 +320,8 @@
 
         <article class="product-card">
           <a href="/pages/products/usb-c-kabal.html" class="product-link">
-            <img class="product-img" src="/images/products/usb-c-kabal-01-01-thumb.webp" alt="USB-C kabl 60W" loading="lazy"
-              width="150" height="150" />
+            <img class="product-img" src="/images/products/usb-c-kabal-01-01-thumb.webp" alt="USB-C kabl 60W"
+              loading="lazy" width="150" height="150" />
             <h4 class="product-title">USB-C kabl 60W</h4>
             <p class="product-price">799 RSD</p>
             <span class="btn-cta btn-ghost">Detaljnije</span>
@@ -358,7 +359,7 @@
         </article>
 
       </div>
-    </section>-->
+    </section>
 
     <!-- Kategorije -->
     <section id="kategorije" class="main-sections" aria-label="Kategorije proizvoda">

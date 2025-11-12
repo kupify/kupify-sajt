@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 3,
+  "total_products": 4,
   "page_size": 12,
   "products": [
     {
@@ -22,6 +22,16 @@
       "brand": "Vega",
       "sku": "ANT-408AL",
       "gtin13": "3856001016260"
+    },
+    {
+      "name": "Zglobni nosač za TV 43\"-100\" do 75kg Kettz TVN-9900",
+      "price_rsd": 8699,
+      "slug": "zglobni-nosac-za-tv-43-100-do-75kg-kettz-tvn-9900",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/zglobni-nosac-za-tv-43-100-do-75kg-kettz-tvn-9900-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "TVN-9900",
+      "gtin13": "8605054708258"
     },
     {
       "name": "Zglobni TV nosač Gembird WM-55RT-07 za televizore 14–55 inča",
