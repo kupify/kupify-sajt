@@ -55,7 +55,7 @@
 
     <!-- Product JSON-LD -->
     <script type="application/ld+json">
-  {
+{
     "@context": "https://schema.org",
     "@type": "Product",
     "@id": "https://kupify.rs/pages/products/kompjuteri-i-oprema/stoni-nosac-ruka-za-monitor-gembird-ma-da1-05.html#product",
@@ -68,6 +68,7 @@
       "https://kupify.rs/images/products/stoni-nosac-ruka-za-monitor-gembird-ma-da1-05-04.webp",
       "https://kupify.rs/images/products/stoni-nosac-ruka-za-monitor-gembird-ma-da1-05-05.webp"
     ],
+
     "description": "Stoni nosač – ruka za monitor Gembird MA-DA1-05 - Stoni nosač – ruka za monitor Gembird MA-DA1-05. Rotacija ±180°, nagib ±55°, VESA 75×75/100×100 mm, za monitore 17–32 inča.",
     "sku": "MA-DA1-05",
     "gtin13": "8716309127707",
@@ -79,9 +80,38 @@
       "priceCurrency": "RSD",
       "price": "3199",
       "availability": "https://schema.org/InStock",
-      "seller": { "@type": "Organization", "name": "Kupify" }
+      "seller": { "@type": "Organization", "name": "KUPIFY.rs" },
+
+    "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "merchantReturnDays": 14
+        },
+    
+    "shippingDetails": {
+    "@type": "OfferShippingDetails",
+    "shippingRate": {
+      "@type": "MonetaryAmount",
+      "value": "600",
+      "currency": "RSD"
+        },
+    
+    "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "handlingTime": {
+        "@type": "QuantitativeValue",
+        "minValue": 0,
+        "maxValue": 2
+        },
+
+    "transitTime": {
+        "@type": "QuantitativeValue",
+        "minValue": 1,
+        "maxValue": 5
+        }
+      }
     }
   }
+}
   </script>
 
     <!-- BreadcrumbList JSON-LD -->
@@ -229,12 +259,30 @@ Zemlja porekla: Kina</p>
         </section>
 
         <!-- TRUST_BADGES -->
-        <div class="trust-container">
-            <aside class="trust-badges">
-                <p class="trust-item">✅ Sigurna kupovina</p>
-                <p class="trust-item">✅ Fiskalni račun</p>
-                <p class="trust-item">✅ Registrovana prodavnica</p>
-            </aside>
+        <div class="trust-root">
+            <div class="trust-container">
+                <aside class="trust-badges">
+                    <p class="trust-item">✔️ Sigurna kupovina</p>
+                    <p class="trust-item">🧾 Fiskalni račun</p>
+                    <p class="trust-item">🔰 Registrovana prodavnica</p>
+                    <p class="trust-item">↩️ Moguć povrat u roku od 14 dana</p>
+                </aside>
+            </div>
+
+            <div class="ocene-container">
+                <aside class="ocene-badges">
+                    <p class="ocene-item">⭐ 900+ zadovoljnih kupaca na KupujemProdajem</p>
+                    <p class="ocene-item">⭐ 300+ pozitivnih ocena na Google Reviews</p>
+                </aside>
+            </div>
+        </div>
+
+        <!-- RELATED PRODUCTS -->
+        <div class="related-products">
+            <a href="/pages/products/kompjuteri-i-oprema/" class="related-link">
+                <span class="rp-line-1">Pogledajte slične proizvode u kategoriji</span>
+                <span class="rp-line-2">Kompjuteri i oprema</span>
+            </a>
         </div>
 
     </main>

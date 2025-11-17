@@ -55,7 +55,7 @@
 
     <!-- Product JSON-LD -->
     <script type="application/ld+json">
-  {
+{
     "@context": "https://schema.org",
     "@type": "Product",
     "@id": "https://kupify.rs/pages/products/mobilni-telefoni-i-oprema/magnetni-drzac-za-telefon-za-auto-ventilaciju-gembird-ta-chm-03.html#product",
@@ -68,6 +68,7 @@
       "https://kupify.rs/images/products/magnetni-drzac-za-telefon-za-auto-ventilaciju-gembird-ta-chm-03-04.webp",
       "https://kupify.rs/images/products/magnetni-drzac-za-telefon-za-auto-ventilaciju-gembird-ta-chm-03-05.webp"
     ],
+
     "description": "Magnetni rotirajući držač za telefon za auto ventilaciju Gembird TA-CHM-03 - Magnetni rotirajući držač za telefon Gembird TA-CHM-03 za auto ventilaciju – sigurno i praktično rešenje sa 360° rotacijom i gumiranom zaštitom.",
     "sku": "TA-CHM-03",
     "gtin13": "8979812154589",
@@ -79,9 +80,38 @@
       "priceCurrency": "RSD",
       "price": "499",
       "availability": "https://schema.org/InStock",
-      "seller": { "@type": "Organization", "name": "Kupify" }
+      "seller": { "@type": "Organization", "name": "KUPIFY.rs" },
+
+    "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "merchantReturnDays": 14
+        },
+    
+    "shippingDetails": {
+    "@type": "OfferShippingDetails",
+    "shippingRate": {
+      "@type": "MonetaryAmount",
+      "value": "600",
+      "currency": "RSD"
+        },
+    
+    "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "handlingTime": {
+        "@type": "QuantitativeValue",
+        "minValue": 0,
+        "maxValue": 2
+        },
+
+    "transitTime": {
+        "@type": "QuantitativeValue",
+        "minValue": 1,
+        "maxValue": 5
+        }
+      }
     }
   }
+}
   </script>
 
     <!-- BreadcrumbList JSON-LD -->
@@ -227,12 +257,30 @@ Zemlja porekla: Kina
         </section>
 
         <!-- TRUST_BADGES -->
-        <div class="trust-container">
-            <aside class="trust-badges">
-                <p class="trust-item">✅ Sigurna kupovina</p>
-                <p class="trust-item">✅ Fiskalni račun</p>
-                <p class="trust-item">✅ Registrovana prodavnica</p>
-            </aside>
+        <div class="trust-root">
+            <div class="trust-container">
+                <aside class="trust-badges">
+                    <p class="trust-item">✔️ Sigurna kupovina</p>
+                    <p class="trust-item">🧾 Fiskalni račun</p>
+                    <p class="trust-item">🔰 Registrovana prodavnica</p>
+                    <p class="trust-item">↩️ Moguć povrat u roku od 14 dana</p>
+                </aside>
+            </div>
+
+            <div class="ocene-container">
+                <aside class="ocene-badges">
+                    <p class="ocene-item">⭐ 900+ zadovoljnih kupaca na KupujemProdajem</p>
+                    <p class="ocene-item">⭐ 300+ pozitivnih ocena na Google Reviews</p>
+                </aside>
+            </div>
+        </div>
+
+        <!-- RELATED PRODUCTS -->
+        <div class="related-products">
+            <a href="/pages/products/mobilni-telefoni-i-oprema/" class="related-link">
+                <span class="rp-line-1">Pogledajte slične proizvode u kategoriji</span>
+                <span class="rp-line-2">Mobilni telefoni i oprema</span>
+            </a>
         </div>
 
     </main>

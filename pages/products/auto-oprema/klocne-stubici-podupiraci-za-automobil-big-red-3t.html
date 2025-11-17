@@ -55,7 +55,7 @@
 
     <!-- Product JSON-LD -->
     <script type="application/ld+json">
-  {
+{
     "@context": "https://schema.org",
     "@type": "Product",
     "@id": "https://kupify.rs/pages/products/auto-oprema/klocne-stubici-podupiraci-za-automobil-big-red-3t.html#product",
@@ -68,6 +68,7 @@
       "https://kupify.rs/images/products/klocne-stubici-podupiraci-za-automobil-big-red-3t-04.webp",
       "https://kupify.rs/images/products/klocne-stubici-podupiraci-za-automobil-big-red-3t-05.webp"
     ],
+
     "description": "Podesivi podupirači - stubići za automobil 3t Big Red - 2kom - Big Red podesivi stubići klocne za automobil 3t. Sklopivi, stabilni i lagani, idealni za sigurno podupiranje tokom servisa.",
     "sku": "",
     "gtin13": "4260109136925",
@@ -79,9 +80,38 @@
       "priceCurrency": "RSD",
       "price": "3699",
       "availability": "https://schema.org/InStock",
-      "seller": { "@type": "Organization", "name": "Kupify" }
+      "seller": { "@type": "Organization", "name": "KUPIFY.rs" },
+
+    "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "merchantReturnDays": 14
+        },
+    
+    "shippingDetails": {
+    "@type": "OfferShippingDetails",
+    "shippingRate": {
+      "@type": "MonetaryAmount",
+      "value": "600",
+      "currency": "RSD"
+        },
+    
+    "deliveryTime": {
+      "@type": "ShippingDeliveryTime",
+      "handlingTime": {
+        "@type": "QuantitativeValue",
+        "minValue": 0,
+        "maxValue": 2
+        },
+
+    "transitTime": {
+        "@type": "QuantitativeValue",
+        "minValue": 1,
+        "maxValue": 5
+        }
+      }
     }
   }
+}
   </script>
 
     <!-- BreadcrumbList JSON-LD -->
@@ -223,12 +253,30 @@ Zemlja porekla: Kina
         </section>
 
         <!-- TRUST_BADGES -->
-        <div class="trust-container">
-            <aside class="trust-badges">
-                <p class="trust-item">✅ Sigurna kupovina</p>
-                <p class="trust-item">✅ Fiskalni račun</p>
-                <p class="trust-item">✅ Registrovana prodavnica</p>
-            </aside>
+        <div class="trust-root">
+            <div class="trust-container">
+                <aside class="trust-badges">
+                    <p class="trust-item">✔️ Sigurna kupovina</p>
+                    <p class="trust-item">🧾 Fiskalni račun</p>
+                    <p class="trust-item">🔰 Registrovana prodavnica</p>
+                    <p class="trust-item">↩️ Moguć povrat u roku od 14 dana</p>
+                </aside>
+            </div>
+
+            <div class="ocene-container">
+                <aside class="ocene-badges">
+                    <p class="ocene-item">⭐ 900+ zadovoljnih kupaca na KupujemProdajem</p>
+                    <p class="ocene-item">⭐ 300+ pozitivnih ocena na Google Reviews</p>
+                </aside>
+            </div>
+        </div>
+
+        <!-- RELATED PRODUCTS -->
+        <div class="related-products">
+            <a href="/pages/products/auto-oprema/" class="related-link">
+                <span class="rp-line-1">Pogledajte slične proizvode u kategoriji</span>
+                <span class="rp-line-2">Auto oprema</span>
+            </a>
         </div>
 
     </main>

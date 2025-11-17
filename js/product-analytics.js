@@ -1,23 +1,23 @@
 // /js/product-analytics.js
-(function(){
+(function () {
   "use strict";
-  function parseProductData(){
-    try{
+  function parseProductData() {
+    try {
       const el = document.getElementById("ga-product");
-      if(!el) return null;
+      if (!el) return null;
       return JSON.parse(el.textContent || "{}");
-    }catch(e){ return null; }
+    } catch (e) { return null; }
   }
 
-  function toNumberRSD(s){
-    if(!s) return undefined;
-    const n = Number(String(s).replace(/\./g,"").replace(",","."));
+  function toNumberRSD(s) {
+    if (!s) return undefined;
+    const n = Number(String(s).replace(/\./g, "").replace(",", "."));
     return Number.isFinite(n) ? n : undefined;
   }
 
-  document.addEventListener("DOMContentLoaded", function(){
+  document.addEventListener("DOMContentLoaded", function () {
     const data = parseProductData();
-    if(!data || typeof gtag !== "function") return;
+    if (!data || typeof gtag !== "function") return;
 
     const price = toNumberRSD(data.price);
     const item = {
@@ -37,20 +37,28 @@
     // 2) CTA: Viber klik
     const viberBtn = document.querySelector(".product-page-cta-button-1");
     if (viberBtn) {
-      viberBtn.addEventListener("click", function(){
+      viberBtn.addEventListener("click", function (e) {
+        e.preventDefault();
+
         gtag('event', 'cta_click', {
           cta: 'viber',
           page_section: 'product',
           item_name: data.name,
           item_category: item.item_category
         });
-      });
+
+
+        // sačekaj 200 ms pa onda otvori Viber
+        setTimeout(() => {
+          window.location.href = viberBtn.href;
+        }, 200);
+      }, { once: true });
     }
 
     // 3) CTA: KP klik
     const kpBtn = document.querySelector(".product-page-cta-button-2");
     if (kpBtn) {
-      kpBtn.addEventListener("click", function(){
+      kpBtn.addEventListener("click", function () {
         gtag('event', 'cta_click', {
           cta: 'kp',
           page_section: 'product',
@@ -61,8 +69,8 @@
     }
 
     // 4) Galerija: klik na thumbnail
-    document.querySelectorAll(".thumbnails img").forEach(function(img, idx){
-      img.addEventListener("click", function(){
+    document.querySelectorAll(".thumbnails img").forEach(function (img, idx) {
+      img.addEventListener("click", function () {
         gtag('event', 'gallery_thumb_click', {
           item_name: data.name,
           item_category: item.item_category,

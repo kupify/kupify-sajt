@@ -1,8 +1,18 @@
 {
   "category": "tv-i-video",
-  "total_products": 4,
+  "total_products": 5,
   "page_size": 12,
   "products": [
+    {
+      "name": "Mini polica za TV Set Top Box - Android box - ruter Kettz NAV-K91",
+      "price_rsd": 569,
+      "slug": "mini-polica-za-tv-set-top-android-box-ruter-kettz-nav-k91",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/mini-polica-za-tv-set-top-android-box-ruter-kettz-nav-k91-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "NAV-K91",
+      "gtin13": "8605054706759"
+    },
     {
       "name": "Podni stalak za TV 32–55\" Kettz TVN-K3255",
       "price_rsd": 5999,
