@@ -191,6 +191,8 @@
       "drzac": ["stalak", "nosac", "postolje"],
       "postolje": ["stalak", "nosac", "drzac"],
       "polica": ["stalak", "nosac"],
+      "rotirajuci": ["rotacioni"],
+      "rotacioni": ["rotirajuci"],
 
       // === Kablovi / adapteri / napajanja ===
       "adapter": ["konektor", "pretvarac"],
@@ -217,6 +219,17 @@
       "uticnica": ["steker"],
       "utikac": ["steker"],
       "steker": ["uticnica", "utikac"],
+
+      // === Automobili ===
+      "auto": ["kola", "automobil"],
+      "kola": ["auto", "automobil"],
+      "automobil": ["auto", "kola"],
+
+      // === Telefoni ===
+      "telefon": ["mobilni", "smartphone", "smartfon"],
+      "mobilni": ["telefon", "smartphone", "smartfon"],
+      "smartphone": ["telefon", "mobilni", "smartfon"],
+      "smartfon": ["telefon", "mobilni", "smartphone"],
 
     };
 

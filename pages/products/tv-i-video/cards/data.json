@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 5,
+  "total_products": 6,
   "page_size": 12,
   "products": [
     {
@@ -12,6 +12,16 @@
       "brand": "Kettz",
       "sku": "NAV-K91",
       "gtin13": "8605054706759"
+    },
+    {
+      "name": "Plafonski rotirajući nosač za TV 37\"-70\" do 50kg Kettz TVN-K1103",
+      "price_rsd": 4999,
+      "slug": "plafonski-nosac-za-tv-rotirajuci-kettz-tvn-k1103",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/plafonski-nosac-za-tv-rotirajuci-kettz-tvn-k1103-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "TVN-K1103",
+      "gtin13": "8606018839728"
     },
     {
       "name": "Podni stalak za TV 32–55\" Kettz TVN-K3255",

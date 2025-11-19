@@ -73,7 +73,7 @@
  header {
      background-color: #fff;
      padding: 1.25rem 0;
-     margin-bottom: 3rem;
+     margin-bottom: 2rem;
      box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.05);
      transition: box-shadow 0.4s ease, background-color 0.4s ease;
  }
@@ -182,13 +182,6 @@
 
  }
 
- /*.fade-in {
-    
-     animation: fadeIn 3s ease forwards;
-     text-align: justify;
-
- }*/
-
  .header-nav {
      display: flex;
      gap: 0.0625rem;
@@ -198,23 +191,21 @@
  .nav-button {
      display: inline-block;
      padding: 0.5rem 0.625rem;
-     font-size: 0.85rem;
+     font-size: 0.9rem;
      background-color: transparent;
      color: rgb(var(--text-dark));
      border: 0 solid rgba(0, 0, 0, 0.1);
-     /*povećaj ako hoćeš ivice*/
      border-radius: 0.375rem;
      text-decoration: none;
      font-weight: 500;
-     transition: background-color 0.3s ease, color 0.3s ease;
+     transition: color 0.3s;
      box-sizing: border-box;
      white-space: nowrap;
      /* da tekst ne prelazi u novi red unutar dugmeta */
  }
 
  .nav-button:hover {
-     background-color: rgba(0, 0, 0, 0.07);
-     color: rgb(var(--text-dark));
+     color: rgba(var(--brand-teal), 1);
  }
 
  .nav-button:focus {
@@ -800,14 +791,10 @@
  .product-page-title {
      max-width: 40rem;
      margin: 0 auto;
-     padding: 1.1rem 1rem;
+     padding: 0.4rem 1rem;
      text-align: left;
      line-height: 1.6;
      overflow: hidden;
-     border-bottom: 2px solid transparent;
-     border-image: linear-gradient(to right, rgba(var(--brand-accent), 0.3), rgba(var(--brand-accent), 0.8));
-     border-image-slice: 1;
-
  }
 
  .product-page-title h2 {
@@ -821,7 +808,8 @@
  .product-page-title p {
      font-size: 1.2rem;
      text-align: left;
-     margin-top: 0.2rem;
+     margin-top: 0.4rem;
+     margin-bottom: 0.2rem;
      font-weight: 700;
      color: rgb(var(--brand-teal));
 
@@ -874,97 +862,72 @@
  /* opis proizvoda */
  .product-description {
      max-width: 40rem;
-     margin: 1rem auto 2rem;
+     margin: 1rem auto 2.5rem;
      padding: 0 0.94rem 1.5rem 0.7rem;
      text-align: left;
+     font-size: 1rem;
      line-height: 1.6;
      padding-left: 0.7rem;
      overflow: hidden;
      border-bottom: 2px solid transparent;
-     border-image: linear-gradient(to right, rgba(var(--brand-teal), 0.3), rgba(var(--brand-teal), 0.8));
+     border-image: linear-gradient(to right, rgba(var(--brand-accent), 0.3), rgba(var(--brand-accent), 0.8));
      border-image-slice: 1;
+ }
 
+ .product-description h4 {
+     font-size: 1.1rem;
+     font-weight: 700;
+     margin-bottom: -0.6rem;
  }
 
  .internal-code {
      font-size: 0.9rem;
      color: rgba(var(--text-light), 0.7);
      margin-top: 2rem;
+     margin-bottom: 0rem;
  }
 
  /* CTA dugmići */
  .product-page-cta {
      display: flex;
+     max-width: 40rem;
      flex-direction: column;
-     /* vertikalno slaganje */
-     align-items: center;
-     /* centriraj po širini */
+     align-items: flex-start;
      gap: 0.9rem;
-     margin: 2rem auto;
-     padding: 1rem;
+     margin: 0 auto;
+     padding: 0 1rem;
+     border-bottom: 2px solid transparent;
+     border-image: linear-gradient(to right, rgba(var(--brand-accent), 0.3), rgba(var(--brand-accent), 0.8));
+     border-image-slice: 1;
  }
 
  .product-page-cta-button-1 {
      float: none;
      width: 100%;
-     max-width: 26rem;
-     padding: 0.9rem 0.5rem;
-     font-size: 1.1rem;
+     max-width: 16rem;
+     padding: 0.5rem 0.2rem;
+     font-size: 1rem;
      background-color: #f9f9f9;
      color: rgb(var(--text-mid));
-     border: 0.05rem solid;
+     border: 0.12rem solid;
      border-radius: 0.6rem;
      box-shadow: 0 0.15rem 0.35rem rgba(0, 0, 0, 0.05);
      text-decoration: none;
      font-weight: 600;
      transition: all 0.25s ease;
-     margin: 0 auto 1.5rem;
      box-sizing: border-box;
      justify-content: center;
-     /* ako kasnije koristiš flex */
      display: flex;
      align-items: center;
-     /* vertikalno centriraj sadržaj */
-     gap: 0.5rem;
-     /* razmak između ikonice i teksta */
- }
+     gap: 0.2rem;
+     border-color: rgb(var(--brand-teal), 0.4);
 
- .product-page-cta-button-2 {
-
-     float: none;
-     width: 100%;
-     max-width: 26rem;
-     padding: 0.9rem 0.5rem;
-     font-size: 0.9rem;
-     color: rgb(var(--text-light));
-     font-weight: 500;
-     margin: 0 auto 1.5rem;
-     box-sizing: border-box;
-     justify-content: center;
-     /* ako kasnije koristiš flex */
-     display: flex;
-     align-items: center;
-     /* vertikalno centriraj sadržaj */
-     gap: 0.3rem;
-     /* razmak između ikonice i teksta */
-     text-decoration: none;
-     display: none;
-     /* isključeno */
  }
 
  .product-page-cta-button-1 img.viber-icon {
-     width: 22px;
-     height: 22px;
-     margin-right: 0.2rem;
-     position: static;
-     transform: translateY(0.5px);
-     /* minimalni vizuelni balans */
- }
-
- .product-page-cta-button-2 img.kp-logo-mali {
-     width: 18px;
-     height: 18px;
-     margin-right: 0.2rem;
+     width: 25px;
+     height: 25px;
+     margin-right: 0.4rem;
      position: static;
      transform: translateY(0.5px);
      /* minimalni vizuelni balans */
@@ -977,32 +940,19 @@
      transform: translateY(-2px);
  }
 
- .product-page-cta-button-2:hover {
-     text-decoration: underline;
- }
-
- /* Razlike između dugmića */
- .product-page-cta-button-1 {
-     border-color: rgb(var(--brand-accent), 0.4);
- }
-
- .product-page-cta-button-2 {
-     border-color: rgba(var(--brand-accent), 0.4);
-     /* narandžasta za KP */
- }
-
  .cta-phone {
      font-size: 0.91rem;
-     color: rgba(var(--text-dark), 0.8);
-     margin-top: -0.5rem;
-     text-align: center;
+     color: rgba(var(--text-dark), 0.7);
+     margin-top: -0.2rem;
+     margin-bottom: 1.5rem;
+     text-align: left;
      line-height: 1.4;
  }
 
  .cta-phone a {
      text-decoration: none;
      font-weight: 600;
-     color: rgb(var(--text-dark));
+     color: rgb(var(--text-dark), 0.7);
  }
 
  .cta-phone a:hover {
@@ -1012,12 +962,18 @@
 
  /* Trust Badges */
  .trust-root {
-     margin: 3rem auto;
-     max-width: 47rem;
-     padding: 0.5rem;
-     background: rgba(0, 0, 0, 0.01);
+     margin: 0rem auto;
+     max-width: 48rem;
+     padding-top: 1.5rem;
+     padding-bottom: 1.5rem;
+     background: rgba(0, 0, 0, 0.02);
      border-radius: 10px;
      /*border: 1px solid rgba(0, 0, 0, 0.05);*/
+     /* border-top: 1px solid rgba(0, 0, 0, 0.05);
+     border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+     border-bottom: 2px solid transparent;
+     border-image: linear-gradient(to right, rgba(var(--brand-accent), 0.3), rgba(var(--brand-accent), 0.8));
+     border-image-slice: 1;*/
  }
 
  .trust-container,
@@ -1062,23 +1018,26 @@
  /*RELATED products blok*/
 
  .related-products {
-     margin-top: 1.5rem;
-     text-align: center;
+     margin: 2.5rem auto 0;
+     padding-top: 0rem;
      padding-bottom: 0.5rem;
+     /*border-top: 1px solid rgba(0, 0, 0, 0.05);*/
+     text-align: center;
+     max-width: 75rem;
  }
 
  .related-link {
-     font-size: 0.95rem;
-     font-weight: 400;
+     font-size: 1rem;
+     font-weight: 600;
      color: rgba(var(--text-dark), 0.85);
      text-decoration: none;
      white-space: normal;
      /* za svaki slučaj, da poništiš neki nowrap */
+     transition: color 0.3s;
  }
 
  .related-link:hover {
-     text-decoration: underline;
-     color: rgba(var(--text-dark), 1);
+     color: rgba(var(--brand-teal), 1);
  }
 
  /* default – desktop: sve u jednom redu */
@@ -1096,26 +1055,33 @@
 
      .product-page-title {
          max-width: 95%;
-         padding: 0.8rem 0.75rem;
+         padding: 0.2rem 0.75rem;
      }
 
      .product-page-title h2 {
-         font-size: 1.2rem;
+         font-size: 1.1rem;
          line-height: 1.3;
      }
 
      .product-page-title p {
          font-size: 1rem;
-         margin-top: 0.1rem;
+         margin-top: 0.2rem;
      }
 
      .product-description {
          max-width: 95%;
-         margin: 0rem auto 1.8rem;
+         margin: 0rem auto 1.5rem;
          padding: 0.5rem 0.7rem 1rem;
+         font-size: 0.9rem;
          line-height: 1.4;
          font-size: 0.875rem;
          word-break: break-word;
+     }
+
+     .product-description h4 {
+         font-size: 0.95rem;
+         font-weight: 700;
+         margin-bottom: -0.5rem;
      }
 
      .internal-code {
@@ -1128,44 +1094,35 @@
  @media (max-width: 768px) {
 
      .product-page-cta {
-         margin: 0.5rem auto;
-         max-width: 25rem;
-         padding: 0.1rem;
+         max-width: 95%;
+         align-items: flex-start;
+         text-align: left;
+         padding-left: 0.75rem;
      }
 
      .product-page-cta-button-1 {
-         width: 89%;
-         padding: 1rem 0.5rem;
-         font-size: 0.92rem;
-         margin: 0.5rem auto 1rem;
-         box-sizing: border-box;
-     }
+         width: 95%;
+         /* full širina kontejnera */
+         max-width: 13rem;
+         /* da ne bude ogromno */
+         padding: 0.5rem 0.1rem;
+         font-size: 0.9rem;
+         gap: 0.2rem;
+         align-self: flex-start;
 
-     .product-page-cta-button-2 {
-         width: 89%;
-         padding: 1rem 0.5rem;
-         font-size: 0.8rem;
-         margin: 0.5rem auto 1rem;
-         box-sizing: border-box;
      }
 
      .product-page-cta-button-1 img.viber-icon {
          width: 18px;
          height: 18px;
-         margin-right: 0rem;
-     }
-
-     .product-page-cta-button-2 img.kp-logo-mali {
-         width: 16px;
-         height: 16px;
-         margin-right: 0rem;
+         transform: translateY(0.3px);
      }
 
      .cta-phone {
          font-size: 0.8rem;
          line-height: 1.3;
-         margin-top: 0rem;
-         padding: 0 1rem;
+         margin-top: -0.2rem;
+         text-align: left;
      }
 
      .product-page-gallery .main-image img {
@@ -1184,8 +1141,9 @@
  @media (max-width: 768px) {
 
      .trust-root {
-         margin: 2rem 2rem;
-         padding: 0.4rem 0;
+         max-width: 95%;
+         padding-top: 1rem;
+         padding-bottom: 1rem;
      }
 
      .trust-badges {
@@ -1211,13 +1169,13 @@
      }
 
      .related-products {
-         margin-top: 1rem;
+         margin-top: 1.5rem;
          padding-bottom: 0.2rem;
 
      }
 
      .related-link {
-         font-size: 0.89rem;
+         font-size: 0.8rem;
      }
 
      .rp-line-1,
@@ -1392,12 +1350,16 @@
      color: rgb(var(--text-dark));
      max-width: 100%;
      word-wrap: break-word;
+     font-size: 1.2rem;
+     font-weight: 700;
  }
 
  .footer-section ul {
      list-style: none;
      padding: 0;
      margin: 0;
+     font-size: 0.9;
+     font-weight: 400;
  }
 
  .footer-section ul li {
@@ -1424,12 +1386,7 @@
 
  .footer-copy {
      font-size: 0.9rem;
-     color: rgba(var(--text-dark), 0.45);
-     /*display: inline-flex;
-      tekst i slika u istom redu */
-     /* align-items: center;
-      poravnaj vertikalno 
-     gap: 0.5rem;*/
+     color: rgba(var(--text-dark), 0.5);
  }
 
  .copy-break {
@@ -1443,9 +1400,7 @@
      opacity: 0.8;
      vertical-align: middle;
      display: block;
-     /* da zauzme novi red */
      margin: 1rem auto 0;
-     /* razmak iznad i centrirano */
      transition: opacity 0.6s ease;
  }
 
@@ -1454,6 +1409,14 @@
  @media (max-width: 768px) {
      .footer-section {
          text-align: center;
+     }
+
+     .footer-section h3 {
+         font-size: 1rem;
+     }
+
+     .footer-section ul {
+         font-size: 0.8rem;
      }
  }
 
@@ -1544,7 +1507,7 @@
 
  @media (max-width: 480px) {
      .social a {
-         font-size: 1rem;
+         font-size: 1.1rem;
      }
  }
 
@@ -1885,13 +1848,13 @@
      color: rgb(var(--text-dark));
      margin: 0.5rem 0;
      display: -webkit-box;
-     -webkit-line-clamp: 3;
-     /* max 3 reda */
+     -webkit-line-clamp: 4;
+     /* max 4 reda */
      -webkit-box-orient: vertical;
      overflow: hidden;
      line-height: 1.3;
-     min-height: calc(1.3em * 3);
-     /* visina za 3 reda i kada je naslov kratak */
+     min-height: calc(1.3em * 4);
+     /* visina za 4 reda i kada je naslov kratak */
 
      /* === Anti-overflow fix === */
      word-wrap: break-word;
@@ -1917,7 +1880,7 @@
      max-width: 75rem;
      margin: 1rem auto 1.5rem;
      padding: 0 1.25rem;
-     font-size: .8rem;
+     font-size: .9rem;
  }
 
  .breadcrumb ol {
@@ -1944,6 +1907,14 @@
      color: rgba(var(--brand-teal), 1);
  }
 
+ @media (max-width: 768px) {
+     .breadcrumb {
+         max-width: 95%;
+         margin: 1rem auto 1.5rem;
+         padding: 0 1.25rem;
+         font-size: .8rem;
+     }
+ }
 
  .categories-grid {
      display: grid;
@@ -2216,9 +2187,9 @@
      /* manji unutrašnji padding */
      .product-title {
          font-size: .9rem;
-         -webkit-line-clamp: 2;
+         -webkit-line-clamp: 3;
          /* 1 red (kompaktnije) */
-         min-height: calc(1.3em * 2);
+         min-height: calc(1.3em * 3);
          margin: .35rem 0;
      }
 
