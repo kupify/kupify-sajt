@@ -784,7 +784,7 @@
      overflow: hidden;
  }
 
- .product-page-title h2 {
+ .product-page-title h1 {
      font-size: 1.4rem;
      font-weight: 700;
      line-height: 1.2;
@@ -795,8 +795,8 @@
  .product-page-title p {
      font-size: 1.2rem;
      text-align: left;
-     margin-top: 0.4rem;
-     margin-bottom: 0.2rem;
+     margin-top: 0.1rem;
+     margin-bottom: 0rem;
      font-weight: 700;
      color: rgb(var(--brand-teal));
 
@@ -861,7 +861,7 @@
      border-image-slice: 1;
  }
 
- .product-description h4 {
+ .product-description h2 {
      font-size: 1.1rem;
      font-weight: 700;
      margin-bottom: -0.6rem;
@@ -921,7 +921,7 @@
  }
 
  .product-page-cta-button-1:hover {
-     background-color: rgba(var(--brand-accent), 0.02);
+     background-color: rgba(var(--brand-teal), 0.02);
      color: rgb(var(--text-dark));
      box-shadow: 0 0.25rem 0.45rem rgba(0, 0, 0, 0.1);
      transform: translateY(-2px);
@@ -1045,14 +1045,14 @@
          padding: 0.2rem 0.75rem;
      }
 
-     .product-page-title h2 {
+     .product-page-title h1 {
          font-size: 1.1rem;
          line-height: 1.3;
      }
 
      .product-page-title p {
          font-size: 1rem;
-         margin-top: 0.2rem;
+         margin-top: 0.1rem;
      }
 
      .product-description {
@@ -1065,7 +1065,7 @@
          word-break: break-word;
      }
 
-     .product-description h4 {
+     .product-description h2 {
          font-size: 0.95rem;
          font-weight: 700;
          margin-bottom: -0.5rem;

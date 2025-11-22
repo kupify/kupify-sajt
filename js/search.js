@@ -214,6 +214,9 @@
       // === TV sinonimi ===
       "tv": ["televizor"],
       "televizor": ["tv"],
+      "spoljna": ["spoljasna"],
+      "spoljasna": ["spoljna"],
+      
 
       // === Elektrika / elektronika ===
       "uticnica": ["steker"],
