@@ -71,14 +71,14 @@
       "q_ascii": "podesivi podupiraci - stubici za automobil 3t big red - 2kom big red auto-oprema klocne-stubici-podupiraci-za-automobil-big-red-3t 4260109136925"
     },
     {
-      "name": "WiFi pametna utičnica - tajmer i monitoring Gembird SMART-MON16A",
-      "slug": "pametna-wifi-uticnica-sa-monitoringom-gembird-smart-mon16a",
+      "name": "Smart WiFi utičnica sa tajmerom i merenjem potrošnje Gembird SMART-MON16A",
+      "slug": "pametna-wifi-uticnica-tajmer-merenje-potrosnje-gembird-smart-mon16a",
       "category": "elektro-i-rasveta",
       "brand": "Gembird",
       "sku": "SMART-MON16A",
       "price_rsd": "1399",
-      "img_thumb": "/images/products/pametna-wifi-uticnica-sa-monitoringom-gembird-smart-mon16a-01-thumb.webp",
-      "q_ascii": "wifi pametna uticnica - tajmer i monitoring gembird smart-mon16a gembird smart-mon16a elektro-i-rasveta pametna-wifi-uticnica-sa-monitoringom-gembird-smart-mon16a 8601237217357"
+      "img_thumb": "/images/products/pametna-wifi-uticnica-tajmer-merenje-potrosnje-gembird-smart-mon16a-01-thumb.webp",
+      "q_ascii": "smart wifi uticnica sa tajmerom i merenjem potrosnje gembird smart-mon16a gembird smart-mon16a elektro-i-rasveta pametna-wifi-uticnica-tajmer-merenje-potrosnje-gembird-smart-mon16a 8601237217357"
     },
     {
       "name": "Spoljna mrežasta TV antena sa pojačivačem 17-35 dB ANT-408AL",
@@ -111,14 +111,14 @@
       "q_ascii": "zglobni nosac za tv 43\"-100\" do 75kg kettz tvn-9900 kettz tvn-9900 tv-i-video zglobni-nosac-za-tv-43-100-do-75kg-kettz-tvn-9900 8605054708258"
     },
     {
-      "name": "Mini polica za TV Set Top Box - Android box - ruter Kettz NAV-K91",
-      "slug": "mini-polica-za-tv-set-top-android-box-ruter-kettz-nav-k91",
+      "name": "Mini polica za Set Top Box i TV risiver Kettz NAV-K91",
+      "slug": "mini-polica-za-set-top-box-risiver-kettz-nav-k91",
       "category": "tv-i-video",
       "brand": "Kettz",
       "sku": "NAV-K91",
       "price_rsd": "569",
-      "img_thumb": "/images/products/mini-polica-za-tv-set-top-android-box-ruter-kettz-nav-k91-01-thumb.webp",
-      "q_ascii": "mini polica za tv set top box - android box - ruter kettz nav-k91 kettz nav-k91 tv-i-video mini-polica-za-tv-set-top-android-box-ruter-kettz-nav-k91 8605054706759"
+      "img_thumb": "/images/products/mini-polica-za-set-top-box-risiver-kettz-nav-k91-01-thumb.webp",
+      "q_ascii": "mini polica za set top box i tv risiver kettz nav-k91 kettz nav-k91 tv-i-video mini-polica-za-set-top-box-risiver-kettz-nav-k91 8605054706759"
     },
     {
       "name": "Plafonski rotirajući nosač za TV 37\"-70\" do 50kg Kettz TVN-K1103",
@@ -191,14 +191,14 @@
       "q_ascii": "sobna tv/fm antena kettz dt-k035 sa pojacivacem do 30 db kettz dt-k035 tv-i-video sobna-tv-fm-antena-sa-pojacivacem-kettz-dt-k035 8606018832798"
     },
     {
-      "name": "Sobna ili spoljna unutrašnja TV antena sa 10 m kabla Kettz DT-K090",
+      "name": "Sobna ili spoljna TV antena sa 10 m kabla Kettz DT-K090",
       "slug": "sobna-spoljna-tv-antena-10m-kabla-kettz-dt-k090",
       "category": "tv-i-video",
       "brand": "Kettz",
       "sku": "DT-K090",
       "price_rsd": "1599",
       "img_thumb": "/images/products/sobna-spoljna-tv-antena-10m-kabla-kettz-dt-k090-01-thumb.webp",
-      "q_ascii": "sobna ili spoljna unutrasnja tv antena sa 10 m kabla kettz dt-k090 kettz dt-k090 tv-i-video sobna-spoljna-tv-antena-10m-kabla-kettz-dt-k090 8605054711050"
+      "q_ascii": "sobna ili spoljna tv antena sa 10 m kabla kettz dt-k090 kettz dt-k090 tv-i-video sobna-spoljna-tv-antena-10m-kabla-kettz-dt-k090 8605054711050"
     }
   ]
 }
