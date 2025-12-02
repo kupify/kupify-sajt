@@ -1,11 +1,39 @@
 # PROIZVODI
-/pages/products/:category/:slug.html   /pages/products/:category/:slug/   301
+/pages/products/tv-i-video/mini-polica-za-tv-set-top-android-box-ruter-kettz-nav-k91.html  /pages/products/tv-i-video/mini-polica-za-set-top-box-risiver-kettz-nav-k91/  301
+/pages/products/elektro-i-rasveta/pametna-wifi-uticnica-sa-monitoringom-gembird-smart-mon16a /pages/products/elektro-i-rasveta/pametna-wifi-uticnica-tajmer-merenje-potrosnje-gembird-smart-mon16a/ 301
+
+# PROIZVODI prelaz na clean slugove
+/pages/products/kompjuteri-i-oprema/bezicni-opticki-mis-gembird-musw-4b-01-w.html  /pages/products/kompjuteri-i-oprema/bezicni-opticki-mis-gembird-musw-4b-01-w/  301
+/pages/products/sport-razonoda-i-zabava/thug-life-naocare-piksel-retro-meme.html  /pages/products/sport-razonoda-i-zabava/thug-life-naocare-piksel-retro-meme/  301
+/pages/products/tv-i-video/stalak-za-tv-podni-kettz-tvn-K3255.html  /pages/products/tv-i-video/stalak-za-tv-podni-kettz-tvn-K3255/  301
+/pages/products/tv-i-video/zglobni-tv-nosac-gembird-wm-55rt-07-14-55-inca.html  /pages/products/tv-i-video/zglobni-tv-nosac-gembird-wm-55rt-07-14-55-inca/  301
+/pages/products/kompjuteri-i-oprema/stoni-nosac-ruka-za-monitor-gembird-ma-da1-05.html  /pages/products/kompjuteri-i-oprema/stoni-nosac-ruka-za-monitor-gembird-ma-da1-05/  301
+/pages/products/bela-tehnika-i-kucni-aparati/zidni-nosaci-za-mikrotalasnu-pec-gembird-wm-u35-01-w.html  /pages/products/bela-tehnika-i-kucni-aparati/zidni-nosaci-za-mikrotalasnu-pec-gembird-wm-u35-01-w/  301
+/pages/products/auto-oprema/klocne-stubici-podupiraci-za-automobil-big-red-3t.html  /pages/products/auto-oprema/klocne-stubici-podupiraci-za-automobil-big-red-3t/  301
+/pages/products/elektro-i-rasveta/pametna-wifi-uticnica-tajmer-merenje-potrosnje-gembird-smart-mon16a.html  /pages/products/elektro-i-rasveta/pametna-wifi-uticnica-tajmer-merenje-potrosnje-gembird-smart-mon16a/  301
+/pages/products/tv-i-video/spoljna-mrezasta-tv-antena-sa-pojacivacem-ant-408al.html  /pages/products/tv-i-video/spoljna-mrezasta-tv-antena-sa-pojacivacem-ant-408al/  301
+/pages/products/mobilni-telefoni-i-oprema/magnetni-drzac-za-telefon-za-auto-ventilaciju-gembird-ta-chm-03.html  /pages/products/mobilni-telefoni-i-oprema/magnetni-drzac-za-telefon-za-auto-ventilaciju-gembird-ta-chm-03/  301
+/pages/products/tv-i-video/zglobni-nosac-za-tv-43-100-do-75kg-kettz-tvn-9900.html  /pages/products/tv-i-video/zglobni-nosac-za-tv-43-100-do-75kg-kettz-tvn-9900/  301
+/pages/products/tv-i-video/mini-polica-za-set-top-box-risiver-kettz-nav-k91.html  /pages/products/tv-i-video/mini-polica-za-set-top-box-risiver-kettz-nav-k91/  301
+/pages/products/tv-i-video/plafonski-nosac-za-tv-rotirajuci-kettz-tvn-k1103.html  /pages/products/tv-i-video/plafonski-nosac-za-tv-rotirajuci-kettz-tvn-k1103/  301
+/pages/products/tv-i-video/zidni-nosac-za-tv-42-100-inca-do-60kg-kettz-tvn-939t.html  /pages/products/tv-i-video/zidni-nosac-za-tv-42-100-inca-do-60kg-kettz-tvn-939t/  301
+/pages/products/tv-i-video/sobna-spoljna-tv-antena-sa-pojacivacem-kettz-dt-k833usb.html  /pages/products/tv-i-video/sobna-spoljna-tv-antena-sa-pojacivacem-kettz-dt-k833usb/  301
+/pages/products/tv-i-video/spoljna-tv-fm-antena-midi-loga-kettz-as-k020.html  /pages/products/tv-i-video/spoljna-tv-fm-antena-midi-loga-kettz-as-k020/  301
+/pages/products/tv-i-video/sobna-tv-fm-antena-sa-pojacivacem-48db-kettz-dt-k028.html  /pages/products/tv-i-video/sobna-tv-fm-antena-sa-pojacivacem-48db-kettz-dt-k028/  301
+/pages/products/tv-i-video/sobna-tv-antena-sa-pojacivacem-kettz-dt-k024.html  /pages/products/tv-i-video/sobna-tv-antena-sa-pojacivacem-kettz-dt-k024/  301
+/pages/products/tv-i-video/sobna-tv-fm-antena-sa-pojacivacem-kettz-dt-k035.html  /pages/products/tv-i-video/sobna-tv-fm-antena-sa-pojacivacem-kettz-dt-k035/  301
+/pages/products/tv-i-video/sobna-spoljna-tv-antena-10m-kabla-kettz-dt-k090.html  /pages/products/tv-i-video/sobna-spoljna-tv-antena-10m-kabla-kettz-dt-k090/  301
+
 
 # Kategorije
 /pages/products/:category/index.html   /pages/products/:category/         301
 
 # STATIČNE STRANICE U /pages ROOT-U
-/pages/:page.html                      /pages/:page/                      301
+/pages/uskoro.html                      /pages/uskoro/                      301
+/pages/kontakt.html                     /pages/kontakt/                     301
+/pages/placanje-i-isporuka.html         /pages/placanje-i-isporuka/         301
+/pages/politika-privatnosti.html        /pages/politika-privatnosti/        301
+/pages/poslovni-podaci.html             /pages/poslovni-podaci/             301
 
 #SEARCH
 /pages/search/index.html               /pages/search/                     301
