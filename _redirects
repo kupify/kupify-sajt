@@ -1,5 +1,7 @@
 # PROIZVODI
 /pages/products/:category/:slug.html   /pages/products/:category/:slug/   301
+
+# Kategorije
 /pages/products/:category/index.html   /pages/products/:category/         301
 
 # STATIČNE STRANICE U /pages ROOT-U
