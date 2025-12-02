@@ -75,7 +75,7 @@
 
   function buildCardHTML(p, category) {
     const name = p.name || "";
-    const href = `/pages/products/${encodeURIComponent(category)}/${encodeURIComponent(p.slug)}.html`;
+    const href = `/pages/products/${encodeURIComponent(category)}/${encodeURIComponent(p.slug)}/`;
     const price = formatPriceRSD(p.price_rsd);
     const img = p.img_thumb || "";
     const imgTag = img

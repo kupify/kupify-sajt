@@ -1,0 +1,15 @@
+# PROIZVODI
+/pages/products/:category/:slug.html   /pages/products/:category/:slug/   301
+/pages/products/:category/index.html   /pages/products/:category/         301
+
+# STATIČNE STRANICE U /pages ROOT-U
+/pages/:page.html                      /pages/:page/                      301
+
+#SEARCH
+/pages/search/index.html               /pages/search/                     301
+
+#Blog
+/pages/blog/blog-stranica-1.html   /pages/blog/blog-vakuumski-drzac-za-tus-bez-busenja/   301
+/pages/blog/blog-stranica-1        /pages/blog/blog-vakuumski-drzac-za-tus-bez-busenja/   301
+
+

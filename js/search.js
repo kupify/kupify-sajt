@@ -42,28 +42,28 @@
 
   // HTML jedne kartice (isti markup/klase kao u kategorijama)
   function buildCardHTML(p) {
-    const href = `/pages/products/${encodeURIComponent(p.category)}/${encodeURIComponent(p.slug)}.html`;
-    const img = p.img_thumb
-      ? `<img class="product-img" src="${p.img_thumb}" alt="${p.name || ""}"
-              loading="lazy" decoding="async" width="150" height="150"
-              onerror="this.style.display='none';">`
-      : "";
-    const price = (() => {
-      const v = priceVal(p);
-      if (v === null) return "Na upit";
-      return v.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + " RSD";
-    })();
+  const href = `/pages/products/${encodeURIComponent(p.category)}/${encodeURIComponent(p.slug)}/`;
+  const img = p.img_thumb
+    ? `<img class="product-img" src="${p.img_thumb}" alt="${p.name || ""}"
+            loading="lazy" decoding="async" width="150" height="150"
+            onerror="this.style.display='none';">`
+    : "";
+  const price = (() => {
+    const v = priceVal(p);
+    if (v === null) return "Na upit";
+    return v.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + " RSD";
+  })();
 
-    return `
-      <article class="product-card">
-        <a class="product-link" href="${href}">
-          ${img}
-          <h4 class="product-title">${p.name || ""}</h4>
-          <p class="product-price">${price}</p>
-          <span class="btn-cta btn-ghost">Detaljnije</span>
-        </a>
-      </article>`;
-  }
+  return `
+    <article class="product-card">
+      <a class="product-link" href="${href}">
+        ${img}
+        <h4 class="product-title">${p.name || ""}</h4>
+        <p class="product-price">${price}</p>
+        <span class="btn-cta btn-ghost">Detaljnije</span>
+      </a>
+    </article>`;
+}
 
   // Render grida — poruka ide ispod <h2.section-title>, ne u grid
   function renderGrid(list, page, size) {

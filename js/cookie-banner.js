@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
   if (placeholder) {
     // Dinamičko učitavanje HTML-a banera
-    fetch('/pages/cookie-banner.html')
+    fetch('/cookie-banner.html', { cache: 'no-store' })
       .then(r => r.text())
       .then(html => { placeholder.innerHTML = html; wireCookieBanner(); })
       .catch(err => {

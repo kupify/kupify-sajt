@@ -1,0 +1,16 @@
+{
+  "category": "kupatilo-i-oprema",
+  "total_products": 1,
+  "page_size": 12,
+  "products": [
+    {
+      "name": "Vakuumski držač za tuš bez bušenja – univerzalni nosač za ručicu tuša",
+      "price_rsd": 999,
+      "slug": "vakuumski-drzac-za-tus-bez-busenja-univerzalni",
+      "category": "kupatilo-i-oprema",
+      "img_thumb": "/images/products/vakuumski-drzac-za-tus-bez-busenja-univerzalni-01-thumb.webp",
+      "brand": "Kupify",
+      "sku": "Vakuum za tuš"
+    }
+  ]
+}
