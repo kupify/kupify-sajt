@@ -25,15 +25,13 @@
 /pages/products/tv-i-video/sobna-spoljna-tv-antena-10m-kabla-kettz-dt-k090.html  /pages/products/tv-i-video/sobna-spoljna-tv-antena-10m-kabla-kettz-dt-k090/  301
 
 
-# Kategorije
-/pages/products/:category/index.html   /pages/products/:category/         301
-
 # STATIČNE STRANICE U /pages ROOT-U
 /pages/uskoro.html                      /pages/uskoro/                      301
 /pages/kontakt.html                     /pages/kontakt/                     301
 /pages/placanje-i-isporuka.html         /pages/placanje-i-isporuka/         301
 /pages/politika-privatnosti.html        /pages/politika-privatnosti/        301
 /pages/poslovni-podaci.html             /pages/poslovni-podaci/             301
+/pages/uskoro.html                      /pages/uskoro/                     301
 
 #SEARCH
 /pages/search/index.html               /pages/search/                     301
