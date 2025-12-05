@@ -1,8 +1,18 @@
 {
   "category": "tv-i-video",
-  "total_products": 13,
+  "total_products": 14,
   "page_size": 12,
   "products": [
+    {
+      "name": "Fiksni zidni TV nosač Tuarex OLIMP-311 – 32-85\", nosivost 70 kg",
+      "price_rsd": 1299,
+      "slug": "fiksni-zidni-tv-nosac-tuarex-olimp-311",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/fiksni-zidni-tv-nosac-tuarex-olimp-311-01-thumb.webp",
+      "brand": "Tuarex",
+      "sku": "OLIMP-311",
+      "gtin13": "4630034136121"
+    },
     {
       "name": "Mini polica za Set Top Box i TV risiver Kettz NAV-K91",
       "price_rsd": 569,
