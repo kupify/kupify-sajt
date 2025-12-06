@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 14,
+  "total_products": 15,
   "page_size": 12,
   "products": [
     {
@@ -72,6 +72,16 @@
       "brand": "Kettz",
       "sku": "DT-K024",
       "gtin13": "8605054711043"
+    },
+    {
+      "name": "Sobna TV-FM antena Kettz DT-K101 sa pojačivačem signala",
+      "price_rsd": 1489,
+      "slug": "sobna-tv-antena-kettz-dt-k101-sa-pojacivacem",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/sobna-tv-antena-kettz-dt-k101-sa-pojacivacem-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "DT-K101",
+      "gtin13": "8606018832774"
     },
     {
       "name": "Sobna TV/FM antena Kettz DT-K035 sa pojačivačem do 30 dB",
