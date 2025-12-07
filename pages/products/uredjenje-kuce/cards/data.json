@@ -1,0 +1,15 @@
+{
+  "category": "uredjenje-kuce",
+  "total_products": 1,
+  "page_size": 12,
+  "products": [
+    {
+      "name": "Sigurnosna bravica za prozor – reza za zaštitu dece",
+      "price_rsd": 1199,
+      "slug": "sigurnosna-bravica-za-prozor-zastita-za-decu",
+      "category": "uredjenje-kuce",
+      "img_thumb": "/images/products/sigurnosna-bravica-za-prozor-zastita-za-decu-01-thumb.webp",
+      "brand": "Kupify"
+    }
+  ]
+}

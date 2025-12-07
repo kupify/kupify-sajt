@@ -36,6 +36,10 @@
      --brand-orange-text: 163, 90, 0;
      /* #a35a00 */
 
+     /* Narandžasta za tekst tamija */
+     --brand-orange-dark: 135, 72, 0;
+     /* #874800 */
+
      /* Svetla pozadina sekcija */
      --brand-soft: 233, 248, 248;
      /* #E9F8F8 */
@@ -814,7 +818,7 @@
      margin-top: 0.1rem;
      margin-bottom: 0rem;
      font-weight: 700;
-     color: rgb(var(--brand-teal));
+     color: rgb(var(--brand-orange-dark));
 
  }
 
@@ -1727,7 +1731,7 @@
 
  .btn-ghost {
      display: inline-block;
-     font-size: 0.9rem;
+     font-size: 0.85rem;
      padding: 0.4rem 0.9rem;
      color: rgb(var(--brand-teal));
      border: 1px solid rgba(var(--brand-teal), .25);
@@ -1857,8 +1861,8 @@
  }
 
  .product-card:hover {
-     transform: translateY(-4px);
-     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+     transform: translateY(-2px);
+     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
  }
 
  .product-link {
@@ -1881,7 +1885,7 @@
  }
 
  .product-title {
-     font-size: 1rem;
+     font-size: 0.9rem;
      font-weight: 600;
      color: rgb(var(--text-dark));
      margin: 0.5rem 0;
@@ -1902,7 +1906,7 @@
  }
 
  .product-price {
-     font-size: 0.95rem;
+     font-size: 0.85rem;
      font-weight: 600;
      color: rgba(var(--brand-orange-text));
      margin: 0.25rem 0 0.5rem;
@@ -2225,14 +2229,14 @@
      /* manji unutrašnji padding */
      .product-title {
          font-size: .9rem;
-         -webkit-line-clamp: 3;
+         -webkit-line-clamp: 4;
          /* 1 red (kompaktnije) */
-         min-height: calc(1.3em * 3);
+         min-height: calc(1.3em * 4);
          margin: .35rem 0;
      }
 
      .product-price {
-         font-size: .85rem;
+         font-size: .8rem;
          margin: .2rem 0 .6rem;
      }
  }

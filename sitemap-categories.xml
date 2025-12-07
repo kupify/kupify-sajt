@@ -14,7 +14,7 @@
   </url>
   <url>
     <loc>https://kupify.rs/pages/products/elektro-i-rasveta/</loc>
-    <lastmod>2025-12-02</lastmod>
+    <lastmod>2025-12-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
@@ -45,6 +45,12 @@
   <url>
     <loc>https://kupify.rs/pages/products/tv-i-video/</loc>
     <lastmod>2025-12-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://kupify.rs/pages/products/uredjenje-kuce/</loc>
+    <lastmod>2025-12-07</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
