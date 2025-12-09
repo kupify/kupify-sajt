@@ -1,6 +1,6 @@
 {
   "category": "mobilni-telefoni-i-oprema",
-  "total_products": 1,
+  "total_products": 2,
   "page_size": 12,
   "products": [
     {
@@ -12,6 +12,14 @@
       "brand": "Gembird",
       "sku": "TA-CHM-03",
       "gtin13": "8979812154589"
+    },
+    {
+      "name": "Univerzalni adapter držač za mobilni telefon na stativ, tripod ili monopod",
+      "price_rsd": 399,
+      "slug": "adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod",
+      "category": "mobilni-telefoni-i-oprema",
+      "img_thumb": "/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-01-thumb.webp",
+      "brand": "Kupify"
     }
   ]
 }
