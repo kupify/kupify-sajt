@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 16,
+  "total_products": 18,
   "page_size": 12,
   "products": [
     {
@@ -124,7 +124,17 @@
       "gtin13": "8605054708265"
     },
     {
-      "name": "Zglobni nosač za TV 37-80 inča, max 40 kg – Gembird WM-80ST-033",
+      "name": "TV stalak – postolje sa točkićima i policama 32-70\" – Kettz TVN-P1575",
+      "price_rsd": 12999,
+      "slug": "tv-stalak-sa-tockicima-i-policama-32-70-inca-100-kg-kettz-tvn-p1575",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/tv-stalak-sa-tockicima-i-policama-32-70-inca-100-kg-kettz-tvn-p1575-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "TVN-P1575",
+      "gtin13": "8605054708111"
+    },
+    {
+      "name": "Zglobni nosač za TV 37-80\" do 40 kg – Gembird WM-80ST-033",
       "price_rsd": 2399,
       "slug": "zglobni-tv-nosac-37-80-inca-gembird-wm-80st-033",
       "category": "tv-i-video",
@@ -152,6 +162,16 @@
       "brand": "Gembird",
       "sku": "WM-55RT-07",
       "gtin13": "8607855734238"
+    },
+    {
+      "name": "Zglobni zidni nosač za TV 32-58\" do 40 kg - Tuarex ALTA-652",
+      "price_rsd": 2199,
+      "slug": "zglobni-zidni-nosac-za-tv-32-58-inca-tuarex-alta-652",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/zglobni-zidni-nosac-za-tv-32-58-inca-tuarex-alta-652-01-thumb.webp",
+      "brand": "Tuarex",
+      "sku": "ALTA-652",
+      "gtin13": "4630034136282"
     },
     {
       "name": "Zidni nosač za TV 42-100\" do 60kg Kettz TVN-939T",
