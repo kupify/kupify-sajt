@@ -1,6 +1,7 @@
 // /js/product-analytics.js
-(function () {
+window.initProductAnalytics = function () {
   "use strict";
+
   function parseProductData() {
     try {
       const el = document.getElementById("ga-product");
@@ -15,68 +16,64 @@
     return Number.isFinite(n) ? n : undefined;
   }
 
-  document.addEventListener("DOMContentLoaded", function () {
-    const data = parseProductData();
-    if (!data || typeof gtag !== "function") return;
+  const data = parseProductData();
+  if (!data || typeof gtag !== "function") return;
 
-    const price = toNumberRSD(data.price);
-    const item = {
-      item_id: data.sku || data.slug,
-      item_name: data.name,
-      item_category: data.category_name || data.category,
-      price: price
-    };
+  const price = toNumberRSD(data.price);
+  const item = {
+    item_id: data.sku || data.slug,
+    item_name: data.name,
+    item_category: data.category_name || data.category,
+    price: price
+  };
 
-    // 1) Prikaz proizvoda (GA4)
-    gtag('event', 'view_item', {
-      currency: 'RSD',
-      value: price,
-      items: [item]
-    });
+  // 1) Prikaz proizvoda (GA4)
+  gtag('event', 'view_item', {
+    currency: 'RSD',
+    value: price,
+    items: [item]
+  });
 
-    // 2) CTA: Viber klik
-    const viberBtn = document.querySelector(".product-page-cta-button-1");
-    if (viberBtn) {
-      viberBtn.addEventListener("click", function (e) {
-        e.preventDefault();
+  // 2) CTA: Viber klik
+  const viberBtn = document.querySelector(".product-page-cta-button-1");
+  if (viberBtn) {
+    viberBtn.addEventListener("click", function (e) {
+      e.preventDefault();
 
-        gtag('event', 'cta_click', {
-          cta: 'viber',
-          page_section: 'product',
-          item_name: data.name,
-          item_category: item.item_category
-        });
-
-
-        // sačekaj 200 ms pa onda otvori Viber
-        setTimeout(() => {
-          window.location.href = viberBtn.href;
-        }, 200);
-      }, { once: true });
-    }
-
-    // 3) CTA: KP klik
-    const kpBtn = document.querySelector(".product-page-cta-button-2");
-    if (kpBtn) {
-      kpBtn.addEventListener("click", function () {
-        gtag('event', 'cta_click', {
-          cta: 'kp',
-          page_section: 'product',
-          item_name: data.name,
-          item_category: item.item_category
-        });
+      gtag('event', 'cta_click', {
+        cta: 'viber',
+        page_section: 'product',
+        item_name: data.name,
+        item_category: item.item_category
       });
-    }
 
-    // 4) Galerija: klik na thumbnail
-    document.querySelectorAll(".thumbnails img").forEach(function (img, idx) {
-      img.addEventListener("click", function () {
-        gtag('event', 'gallery_thumb_click', {
-          item_name: data.name,
-          item_category: item.item_category,
-          thumb_index: idx + 1
-        });
+      setTimeout(() => {
+        window.location.href = viberBtn.href;
+      }, 200);
+    }, { once: true });
+  }
+
+  // 3) CTA: KP klik
+  const kpBtn = document.querySelector(".product-page-cta-button-2");
+  if (kpBtn) {
+    kpBtn.addEventListener("click", function () {
+      gtag('event', 'cta_click', {
+        cta: 'kp',
+        page_section: 'product',
+        item_name: data.name,
+        item_category: item.item_category
+      });
+    });
+  }
+
+  // 4) Galerija: klik na thumbnail
+  document.querySelectorAll(".thumbnails img").forEach(function (img, idx) {
+    img.addEventListener("click", function () {
+      gtag('event', 'gallery_thumb_click', {
+        item_name: data.name,
+        item_category: item.item_category,
+        thumb_index: idx + 1
       });
     });
   });
-})();
+};

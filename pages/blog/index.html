@@ -10,28 +10,30 @@
   <link rel="preload" href="/css/style.css" as="style" />
   <link rel="stylesheet" href="/css/style.css" />
 
-  <title>Uskoro - Novi sadržaj stiže na KUPIFY.rs</title>
+  <title>Blog – Saveti, vodiči i iskustva iz prakse | KUPIFY.rs</title>
 
   <meta name="description"
-    content="Hvala na strpljenju! Pripremamo nove proizvode i sadržaje na KUPIFY.rs. Posetite nas uskoro za najnovije ponude i informacije.">
+    content="Blog sa realnim savetima, vodičima i iskustvima iz prakse o proizvodima i online kupovini.">
 
-  <!-- Open Graph (za deljenje na društvenim mrežama) -->
+  <!-- Open Graph (Blog) -->
   <meta property="og:type" content="website">
-  <meta property="og:title" content="Novi sadržaj uskoro – KUPIFY.rs">
-  <meta property="og:description" content="Pripremamo nove proizvode i sadržaje na KUPIFY.rs. Posetite nas uskoro!">
-  <meta property="og:url" content="https://kupify.rs/pages/uskoro/">
+  <meta property="og:title" content="Blog – Saveti, vodiči i iskustva iz prakse | KUPIFY.rs">
+  <meta property="og:description"
+    content="Blog sa realnim savetima, vodičima i iskustvima iz prakse o proizvodima i online kupovini.">
+  <meta property="og:url" content="https://kupify.rs/pages/blog/">
   <meta property="og:image" content="https://kupify.rs/images/kupify-og-default.webp">
   <meta property="og:site_name" content="KUPIFY.rs">
   <meta property="og:locale" content="sr_RS">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Novi sadržaj uskoro – KUPIFY.rs">
-  <meta name="twitter:description" content="Pripremamo nove proizvode i sadržaje na KUPIFY.rs. Posetite nas uskoro!">
+  <meta name="twitter:title" content="Blog – Saveti, vodiči i iskustva iz prakse | KUPIFY.rs">
+  <meta name="twitter:description"
+    content="Blog sa realnim savetima, vodičima i iskustvima iz prakse o proizvodima i online kupovini.">
   <meta name="twitter:image" content="https://kupify.rs/images/kupify-og-default.webp">
 
 
-  <!-- Font Awesome  -->
+  <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
   <!-- Favicons -->
@@ -43,7 +45,7 @@
   <meta name="theme-color" content="#ffffff">
 
   <!-- Canonical -->
-  <link rel="canonical" href="https://kupify.rs/pages/uskoro/">
+  <link rel="canonical" href="https://kupify.rs/pages/blog/">
 </head>
 
 <body class="js-hidden">
@@ -58,7 +60,7 @@
         <meta itemprop="position" content="1" />
       </li>
       <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-        <span itemprop="name">Uskoro</span>
+        <span itemprop="name">Blog</span>
         <meta itemprop="position" content="2" />
       </li>
     </ol>
@@ -71,43 +73,34 @@
       <h2 class="section-title"></h2>
     </section>
 
-    <section class="hero hero-uskoro" aria-label="Hero sekcija">
-      <h1 class="tekst-title">Stranica će uskoro biti dostupna</h1>
-      <p>Hvala na strpljenju, uskoro stižemo sa novim sadržajem!</p>
-      <p>Do tada, pogledajte kompletnu ponudu u našem KP izlogu.</p>
-    </section>
+
+    <section class="tekst-blok-blog" aria-label="Lista blogova">
+      
+      <div class="blog-title-wrapper">
+      <h1 class="blog-title">Blog – Saveti, vodiči i iskustva iz prakse</h1>
+      <p class="blog-subtitle">Kratki tekstovi sa praktičnim savetima i iskustvima iz realne upotrebe proizvoda i online kupovine.</p>
+      </div>
+
+    <ul class="blog-lista">
+      <li>
+        <a href="/pages/blog/blog-vakuumski-drzac-za-tus-bez-busenja/">
+          Vakuumski držač za tuš bez bušenja – lično iskustvo
+        </a>
+      </li>
+      <li>
+        <a href="/pages/blog/fizicka-zastita-prozora-za-decu/">
+          Sigurnosna bravica za prozor – praktičan savet
+        </a>
+      </li>
+    </ul>
+  </section>
 
 
-
-    <section class="cta" aria-label="Poziv na akciju">
-      <a href="https://kupify.kpizlog.rs" target="_blank" rel="noopener noreferrer" class="cta-button">
-        <span class="cta-content">
-          <span>Posetite naš izlog na</span>
-          <img src="/images/kp-logo.svg" alt="KupujemProdajem logo" class="kp-logo" />
-        </span>
-      </a>
-    </section>
   </main>
 
   <!-- Cookie Banner -->
   <script src="/js/cookie-banner.js"></script>
   <div id="cookie-banner-placeholder"></div>
-
-  <!-- GA CTA tracking -->
-  <script>
-    document.addEventListener("DOMContentLoaded", function () {
-      const cta = document.querySelector(".cta-button");
-
-      if (cta) {
-        cta.addEventListener("click", function () {
-          gtag('event', 'cta_klik', {
-            'event_category': 'interakcija',
-            'event_label': 'CTA - kpizlog.rs'
-          });
-        });
-      }
-    });
-  </script>
 
   <!-- Header/Footer Loading -->
   <div id="footer"></div>

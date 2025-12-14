@@ -8,37 +8,49 @@
   </url>
   <url>
     <loc>https://kupify.rs/pages/uskoro/</loc>
-    <lastmod>2025-12-02</lastmod>
+    <lastmod>2025-12-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
     <loc>https://kupify.rs/pages/poslovni-podaci/</loc>
-    <lastmod>2025-12-02</lastmod>
+    <lastmod>2025-12-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://kupify.rs/pages/placanje-i-isporuka/</loc>
-    <lastmod>2025-12-02</lastmod>
+    <lastmod>2025-12-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://kupify.rs/pages/politika-privatnosti/</loc>
-    <lastmod>2025-12-02</lastmod>
+    <lastmod>2025-12-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://kupify.rs/pages/kontakt/</loc>
-    <lastmod>2025-12-02</lastmod>
+    <lastmod>2025-12-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://kupify.rs/pages/blog/</loc>
+    <lastmod>2025-12-14</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://kupify.rs/pages/blog/blog-vakuumski-drzac-za-tus-bez-busenja/</loc>
-    <lastmod>2025-12-02</lastmod>
+    <lastmod>2025-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kupify.rs/pages/blog/fizicka-zastita-prozora-za-decu/</loc>
+    <lastmod>2025-12-14</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
