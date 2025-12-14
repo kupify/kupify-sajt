@@ -1011,7 +1011,7 @@
      top: auto !important;
      transform: none !important;
 
-     width: 30px;
+     width: 44px;
      height: 70px;
      border: none;
      cursor: pointer;
@@ -1053,7 +1053,6 @@
      text-align: left;
      font-size: 1rem;
      line-height: 1.6;
-     padding-left: 0.7rem;
      overflow: hidden;
      border-bottom: 1px solid transparent;
      border-image: linear-gradient(to right, rgba(var(--brand-accent), 0.3), rgba(var(--brand-accent), 0.8));
@@ -1282,7 +1281,6 @@
          max-width: 95%;
          margin: 0rem auto 1.5rem;
          padding: 0.5rem 0.7rem 1rem;
-         font-size: 0.9rem;
          line-height: 1.4;
          font-size: 0.875rem;
          word-break: break-word;
@@ -1301,6 +1299,18 @@
          margin-top: 1.2rem;
      }
  }
+
+@media (hover: none) {
+  .product-page-gallery .gallery-arrow {
+    -webkit-tap-highlight-color: transparent;
+  }
+  .product-page-gallery .gallery-arrow:focus,
+  .product-page-gallery .gallery-arrow:active {
+    outline: none;
+    background: transparent;
+  }
+}
+
 
  @media (max-width: 768px) {
 
@@ -1352,6 +1362,7 @@
      }
 
      .product-page-gallery .gallery-arrow {
+         width: 44px;
          font-size: 4rem;
      }
 
@@ -1400,7 +1411,7 @@
      }
 
      .ocene-item {
-         margin: 0.rem;
+         margin: 0;
          font-size: 0.75rem;
          line-height: 1.25;
      }
