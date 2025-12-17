@@ -687,7 +687,7 @@
 
  /***********************************************/
  .cta {
-     margin: 2rem auto 4rem auto;
+     margin: 1rem auto 3rem;
      text-align: center;
      max-width: 37.5rem;
      padding: 1rem;
@@ -1177,18 +1177,25 @@
 
  /* Trust Badges */
  .trust-root {
-     margin: 0rem auto;
-     max-width: 48rem;
-     padding-top: 1.5rem;
-     padding-bottom: 1.5rem;
-     background: rgba(0, 0, 0, 0.02);
+     margin: 0rem auto 4rem;
+     max-width: 35rem;
+     padding-top: 1rem;
+     padding-bottom: 1rem;
+     background: rgba(255, 255, 255, 0.8);
      border-radius: 10px;
+     border: 1px solid rgba(0,0,0,0.06);
  }
 
- .trust-container,
+ .trust-container{
+     text-align: center;
+     padding-bottom: 0.5rem;
+     border-bottom: 0.5px solid rgba(0,0,0,0.06);
+ }
+ 
  .ocene-container {
      text-align: center;
  }
+
 
  .trust-badges {
      display: inline-flex;
@@ -1202,26 +1209,27 @@
 
  .trust-item {
      font-size: 0.85rem;
-     font-weight: 500;
+     font-weight: 450;
      letter-spacing: 0.02em;
-     color: rgba(var(--text-mid), 0.75);
+     color: rgba(var(--text-dark), 0.7);
      margin: 0;
  }
 
  .ocene-badges {
-     margin-top: 1rem;
+     margin-top: 0.6rem;
      display: inline-flex;
      flex-direction: column;
      align-items: center;
      gap: 0.35rem;
+     line-height: 0.9;
  }
 
  .ocene-item {
      margin: 0.3rem;
-     font-size: 0.83rem;
-     font-weight: 450;
+     font-size: 0.9rem;
+     font-weight: 600;
      letter-spacing: 0.01em;
-     color: rgba(var(--text-mid), 0.8);
+     color: rgba(var(--text-dark), 0.8);
  }
 
  /*RELATED products blok*/
