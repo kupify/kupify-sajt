@@ -231,14 +231,14 @@
       "q_ascii": "sobna tv-fm antena kettz dt-k101 sa pojacivacem signala kettz dt-k101 tv-i-video sobna-tv-antena-kettz-dt-k101-sa-pojacivacem 8606018832774"
     },
     {
-      "name": "Sigurnosna bravica za prozor – reza za zaštitu dece",
+      "name": "Sigurnosna bravica za prozor sa ključem za zaštitu dece",
       "slug": "sigurnosna-bravica-za-prozor-zastita-za-decu",
       "category": "uredjenje-kuce",
       "brand": "Kupify",
       "sku": "",
       "price_rsd": "1199",
       "img_thumb": "/images/products/sigurnosna-bravica-za-prozor-zastita-za-decu-01-thumb.webp",
-      "q_ascii": "sigurnosna bravica za prozor – reza za zastitu dece kupify uredjenje-kuce sigurnosna-bravica-za-prozor-zastita-za-decu"
+      "q_ascii": "sigurnosna bravica za prozor sa kljucem za zastitu dece kupify uredjenje-kuce sigurnosna-bravica-za-prozor-zastita-za-decu"
     },
     {
       "name": "Univerzalni adapter držač za mobilni telefon na stativ, tripod ili monopod",
@@ -329,6 +329,26 @@
       "price_rsd": "1999",
       "img_thumb": "/images/products/kvarcna-grejalica-3-stapa-400-800-1200w-zilan-zln1084-bk-01-thumb.webp",
       "q_ascii": "kvarcna grejalica sa 3 stapa 400/800/1200 w zilan zln1084 bk zilan zln1084 bk bela-tehnika-i-kucni-aparati kvarcna-grejalica-3-stapa-400-800-1200w-zilan-zln1084-bk 6423154021501"
+    },
+    {
+      "name": "Plafonski nosač za TV 19-43\" sa punim pokretom Gembird CM-43ST-0",
+      "slug": "plafonski-nosac-za-tv-19-43-inca-gembird-cm-43st-01",
+      "category": "tv-i-video",
+      "brand": "Gembird",
+      "sku": "CM-43ST-01",
+      "price_rsd": "1999",
+      "img_thumb": "/images/products/plafonski-nosac-za-tv-19-43-inca-gembird-cm-43st-01-01-thumb.webp",
+      "q_ascii": "plafonski nosac za tv 19-43\" sa punim pokretom gembird cm-43st-0 gembird cm-43st-01 tv-i-video plafonski-nosac-za-tv-19-43-inca-gembird-cm-43st-01 8716309135191"
+    },
+    {
+      "name": "Zidni nosač za TV 43-100“ sa nagibom Gembird WM-100T-01",
+      "slug": "zidni-nosac-za-tv-43-100-inca-sa-nagibom-gembird-wm-100t-01",
+      "category": "tv-i-video",
+      "brand": "Gembird",
+      "sku": "WM-100T-01",
+      "price_rsd": "2199",
+      "img_thumb": "/images/products/zidni-nosac-za-tv-43-100-inca-sa-nagibom-gembird-wm-100t-01-01-thumb.webp",
+      "q_ascii": "zidni nosac za tv 43-100“ sa nagibom gembird wm-100t-01 gembird wm-100t-01 tv-i-video zidni-nosac-za-tv-43-100-inca-sa-nagibom-gembird-wm-100t-01 8716309135269"
     }
   ]
 }

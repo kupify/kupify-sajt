@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 18,
+  "total_products": 20,
   "page_size": 12,
   "products": [
     {
@@ -22,6 +22,16 @@
       "brand": "Kettz",
       "sku": "NAV-K91",
       "gtin13": "8605054706759"
+    },
+    {
+      "name": "Plafonski nosač za TV 19-43\" sa punim pokretom Gembird CM-43ST-0",
+      "price_rsd": 1999,
+      "slug": "plafonski-nosac-za-tv-19-43-inca-gembird-cm-43st-01",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/plafonski-nosac-za-tv-19-43-inca-gembird-cm-43st-01-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "CM-43ST-01",
+      "gtin13": "8716309135191"
     },
     {
       "name": "Plafonski rotirajući nosač za TV 37\"-70\" do 50kg Kettz TVN-K1103",
@@ -182,6 +192,16 @@
       "brand": "Kettz",
       "sku": "TVN-939T",
       "gtin13": "8605054709583"
+    },
+    {
+      "name": "Zidni nosač za TV 43-100“ sa nagibom Gembird WM-100T-01",
+      "price_rsd": 2199,
+      "slug": "zidni-nosac-za-tv-43-100-inca-sa-nagibom-gembird-wm-100t-01",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/zidni-nosac-za-tv-43-100-inca-sa-nagibom-gembird-wm-100t-01-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "WM-100T-01",
+      "gtin13": "8716309135269"
     }
   ]
 }
