@@ -205,6 +205,9 @@
 
       // === Računari / monitori ===
       "monitor": ["ekran", "display", "displej"],
+      "ekran": ["monitor", "display", "displej"],
+      "display": ["monitor", "ekran", "displej"],
+      "displej": ["monitor", "ekran", "display"],
       "racunar": ["kompjuter", "pc"],
       "kompjuter": ["racunar", "pc"],
       "pc": ["kompjuter", "racunar"],
@@ -216,7 +219,11 @@
       "televizor": ["tv"],
       "spoljna": ["spoljasna"],
       "spoljasna": ["spoljna"],
-      
+      "sobna": ["unutrasnja"],
+      "unutrasnja": ["sobna"],
+      "pojacivac": ["pojacalo", "pojacavac"],
+      "pojacavac": ["pojacalo", "pojacivac"],
+      "pojacalo": ["pojacavac", "pojacivac"],
 
       // === Elektrika / elektronika ===
       "uticnica": ["steker"],

@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 20,
+  "total_products": 22,
   "page_size": 12,
   "products": [
     {
@@ -184,6 +184,16 @@
       "gtin13": "4630034136282"
     },
     {
+      "name": "Zidni nosač za TV 35-75“ sa nagibom Gembird WM-75T-04",
+      "price_rsd": 1399,
+      "slug": "zidni-nosac-za-tv-37-75-inca-sa-nagibom-gembird-wm-75t-04",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/zidni-nosac-za-tv-37-75-inca-sa-nagibom-gembird-wm-75t-04-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "WM-75T-04",
+      "gtin13": "8716309135306"
+    },
+    {
       "name": "Zidni nosač za TV 42-100\" do 60kg Kettz TVN-939T",
       "price_rsd": 1899,
       "slug": "zidni-nosac-za-tv-42-100-inca-do-60kg-kettz-tvn-939t",
@@ -202,6 +212,16 @@
       "brand": "Gembird",
       "sku": "WM-100T-01",
       "gtin13": "8716309135269"
+    },
+    {
+      "name": "Zidni nosač za TV 43-90“ sa nagibom Gembird WM-90T-01",
+      "price_rsd": 2569,
+      "slug": "zidni-nosac-za-tv-43-90-inca-sa-nagibom-gembird-wm-90t-01",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/zidni-nosac-za-tv-43-90-inca-sa-nagibom-gembird-wm-90t-01-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "WM-90T-01",
+      "gtin13": "8716309126182"
     }
   ]
 }
