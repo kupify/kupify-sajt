@@ -159,26 +159,27 @@
      display: flex;
      flex-direction: column;
      justify-content: center;
-     text-align: left;
+     text-align: center;
  }
 
  .site-title {
+
      margin-top: 0.73rem;
      margin-bottom: 0.2rem;
      font-weight: 700;
      font-size: 1.6rem;
-
+     text-align: center;
  }
 
  .site-subtitle {
      margin-top: 0.1rem;
-     font-size: 1.1rem;
-     font-weight: 400;
+     font-size: 1rem;
+     font-weight: 500;
      font-style: normal;
      letter-spacing: 0.10rem;
      color: rgb(var(--text-mid));
      animation: fadeIn 3s ease forwards;
-     text-align: justify;
+     text-align: center;
 
  }
 
@@ -218,7 +219,7 @@
      .header-text,
      .site-title,
      .site-subtitle {
-         text-align: left;
+         /*text-align: left;*/
      }
  }
 
@@ -948,7 +949,7 @@
      overflow: hidden;
  }
 
- .product-page-title h1 {
+ .product-page-name {
      font-size: 1.4rem;
      font-weight: 700;
      line-height: 1.2;
@@ -956,14 +957,26 @@
 
  }
 
- .product-page-title p {
+ .product-page-price {
      font-size: 1.2rem;
      text-align: left;
      margin-top: 0.1rem;
      margin-bottom: 0rem;
      font-weight: 700;
      color: rgb(var(--brand-orange-dark));
+ }
 
+ .price-note {
+     list-style: none;
+     padding: 0;
+     margin: 0.45rem 0 0;
+     font-size: 0.82rem;
+     line-height: 1.4;
+     color: rgba(var(--text-dark), 0.7);
+ }
+
+ .price-note li {
+     margin: 0;
  }
 
  /* galerija */
@@ -1079,7 +1092,7 @@
      display: flex;
      max-width: 40rem;
      justify-content: space-between;
-     align-items: flex-start;
+     align-items: flex-end;
      gap: 2rem;
      margin: 0 auto;
      padding: 0 1rem;
@@ -1090,10 +1103,11 @@
 
  .product-page-cta {
      display: flex;
+     width: 20rem;
      flex-direction: column;
      align-items: flex-start;
      gap: 0.9rem;
-     flex: 1;
+
  }
 
  .product-page-cta-button-1 {
@@ -1136,12 +1150,15 @@
  }
 
  .cta-phone {
-     font-size: 0.91rem;
+     width: 100%;
+     max-width: 16rem;
+     font-size: 0.80rem;
      color: rgba(var(--text-dark), 0.7);
-     margin-top: -0.2rem;
+     margin-top: -0.4rem;
      margin-bottom: 1.5rem;
      text-align: left;
      line-height: 1.4;
+     letter-spacing: 0.03em;
  }
 
  .cta-phone a {
@@ -1161,18 +1178,28 @@
  }
 
  .delivery-block ul {
-     list-style: disc;
-     text-align: left;
-     margin-left: 1.2rem;
-     margin-top: 1.9rem;
-     margin-bottom: 1.4rem;
+     list-style: none;
+     margin: 1.9rem 0 1.4rem;
+     padding: 0;
  }
 
  .delivery-block li {
-     text-indent: -0.25rem;
-     font-size: 0.8rem;
-     color: rgba(var(--text-dark), 0.7);
+     position: relative;
+     padding-left: 1.1rem;
+     /* prostor za ✓ */
+     text-indent: 0;
+     /* izbaci negativni indent */
+     font-size: 0.85rem;
+     color: rgba(var(--text-dark), 0.75);
      margin-bottom: 0.3rem;
+ }
+
+ .delivery-block li::before {
+     content: "✓";
+     position: absolute;
+     left: 0;
+     top: 0;
+     opacity: 0.8;
  }
 
  /* Trust Badges */
@@ -1183,15 +1210,15 @@
      padding-bottom: 1rem;
      background: rgba(255, 255, 255, 0.8);
      border-radius: 10px;
-     border: 1px solid rgba(0,0,0,0.06);
+     border: 1px solid rgba(0, 0, 0, 0.06);
  }
 
- .trust-container{
+ .trust-container {
      text-align: center;
      padding-bottom: 0.5rem;
-     border-bottom: 0.5px solid rgba(0,0,0,0.06);
+     border-bottom: 0.5px solid rgba(0, 0, 0, 0.06);
  }
- 
+
  .ocene-container {
      text-align: center;
  }
@@ -1211,7 +1238,7 @@
      font-size: 0.85rem;
      font-weight: 450;
      letter-spacing: 0.02em;
-     color: rgba(var(--text-dark), 0.7);
+     color: rgba(var(--text-dark), 0.75);
      margin: 0;
  }
 
@@ -1273,16 +1300,22 @@
      .product-page-title {
          max-width: 95%;
          padding: 0.2rem 0.75rem;
+         margin-bottom: 1rem;
      }
 
-     .product-page-title h1 {
+     .product-page-name {
          font-size: 1.1rem;
          line-height: 1.3;
      }
 
-     .product-page-title p {
+     .product-page-price {
          font-size: 1rem;
          margin-top: 0.1rem;
+     }
+
+     .price-note {
+         margin: 0.4rem 0 0;
+         font-size: 0.72rem;
      }
 
      .product-description {
@@ -1308,16 +1341,17 @@
      }
  }
 
-@media (hover: none) {
-  .product-page-gallery .gallery-arrow {
-    -webkit-tap-highlight-color: transparent;
-  }
-  .product-page-gallery .gallery-arrow:focus,
-  .product-page-gallery .gallery-arrow:active {
-    outline: none;
-    background: transparent;
-  }
-}
+ @media (hover: none) {
+     .product-page-gallery .gallery-arrow {
+         -webkit-tap-highlight-color: transparent;
+     }
+
+     .product-page-gallery .gallery-arrow:focus,
+     .product-page-gallery .gallery-arrow:active {
+         outline: none;
+         background: transparent;
+     }
+ }
 
 
  @media (max-width: 768px) {
@@ -1331,8 +1365,9 @@
      }
 
      .product-page-cta {
-         flex: none;
-
+         display: flex;
+         flex-direction: column;
+         align-items: flex-start;
      }
 
      .product-page-cta-button-1 {
@@ -1352,11 +1387,14 @@
      }
 
      .cta-phone {
-         font-size: 0.8rem;
+         width: 100%;
+         max-width: 14rem;
+         font-size: 0.7rem;
          line-height: 1.3;
-         margin-top: -0.2rem;
+         margin-top: -0.4rem;
          margin-bottom: 0.6rem;
-         text-align: left;
+         text-align: center;
+         letter-spacing: 0.00em;
      }
 
      .product-page-gallery .main-image {
@@ -1379,18 +1417,18 @@
      }
 
      .delivery-block {
-         padding: 0.6rem 0;
+         padding: 0.4rem 0;
          width: 100%;
      }
 
      .delivery-block ul {
          margin: 0.3rem 0 0.6rem;
-         padding-left: 1rem;
+
 
      }
 
      .delivery-block li {
-         font-size: 0.75rem;
+         font-size: 0.74rem;
      }
  }
 
