@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 6,
+  "total_products": 8,
   "page_size": 12,
   "products": [
     {
@@ -22,6 +22,16 @@
       "brand": "Gembird",
       "sku": "GMB-650-12",
       "gtin13": "6945398958472"
+    },
+    {
+      "name": "Podesivi dupli stoni nosač za dva monitora 17-32 inča Gembird MA-D2-011",
+      "price_rsd": 2799,
+      "slug": "podesivi-dupli-stoni-nosac-za-dva-monitora-17-32-inca-gembird-ma-d2-011",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/podesivi-dupli-stoni-nosac-za-dva-monitora-17-32-inca-gembird-ma-d2-011-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MA-D2-011",
+      "gtin13": "6951939631213"
     },
     {
       "name": "Podesivi stoni nosač – ruka držač za monitor Gembird MA-D1-02",
@@ -52,6 +62,16 @@
       "brand": "Gembird",
       "sku": "MA-DA1-05",
       "gtin13": "8716309127707"
+    },
+    {
+      "name": "Univerzalno stono postolje za monitor 13-32\" do 8 kg – Gembird MS-D1ST-04",
+      "price_rsd": 2699,
+      "slug": "univerzalno-stono-postolje-za-monitor-13-32-inca-gembird-ms-d1st-04",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/univerzalno-stono-postolje-za-monitor-13-32-inca-gembird-ms-d1st-04-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MS-D1ST-04",
+      "gtin13": "8716309135405"
     },
     {
       "name": "Volan sa pedalama za PC Gembird STR-ShockForce-II",
