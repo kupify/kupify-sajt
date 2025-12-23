@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 8,
+  "total_products": 9,
   "page_size": 12,
   "products": [
     {
@@ -42,6 +42,16 @@
       "brand": "Gembird",
       "sku": "MA-D1-02",
       "gtin13": "8716309127561"
+    },
+    {
+      "name": "Podesivi stoni nosač – ruka za monitor 17-32“ Gembird MA-DA1-055",
+      "price_rsd": 2799,
+      "slug": "podesivi-stoni-nosac-ruka-za-monitor-17-32-inca-gembird-ma-da1-055",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/podesivi-stoni-nosac-ruka-za-monitor-17-32-inca-gembird-ma-da1-055-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MA-DA1-055",
+      "gtin13": "6951939631190"
     },
     {
       "name": "Stoni držač za monitor 17-32\" sa jednom rukom Gembird MA-D1-033",
