@@ -1,6 +1,6 @@
 {
   "category": "auto-oprema",
-  "total_products": 1,
+  "total_products": 3,
   "page_size": 12,
   "products": [
     {
@@ -11,6 +11,26 @@
       "img_thumb": "/images/products/klocne-stubici-podupiraci-za-automobil-big-red-3t-01-thumb.webp",
       "brand": "Big Red",
       "gtin13": "4260109136925"
+    },
+    {
+      "name": "Sklopiva barijera za parking mesto 4 kg Gembird SMART-PARKING-RAMPA-4",
+      "price_rsd": 2299,
+      "slug": "sklopiva-mehanicka-barijera-gembird-smart-parking-rampa-4",
+      "category": "auto-oprema",
+      "img_thumb": "/images/products/sklopiva-mehanicka-barijera-gembird-smart-parking-rampa-4-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "SMART-PARKING-RAMPA-4",
+      "gtin13": "8606519444445"
+    },
+    {
+      "name": "Sklopiva barijera za parking mesto 6 kg Gembird SMART-PARKING-RAMPA-6",
+      "price_rsd": 2999,
+      "slug": "sklopiva-mehanicka-barijera-gembird-smart-parking-rampa-6",
+      "category": "auto-oprema",
+      "img_thumb": "/images/products/sklopiva-mehanicka-barijera-gembird-smart-parking-rampa-6-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "SMART-PARKING-RAMPA-6",
+      "gtin13": "8606519444452"
     }
   ]
 }
