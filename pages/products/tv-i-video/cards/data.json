@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 22,
+  "total_products": 23,
   "page_size": 12,
   "products": [
     {
@@ -22,6 +22,16 @@
       "brand": "Kettz",
       "sku": "NAV-K91",
       "gtin13": "8605054706759"
+    },
+    {
+      "name": "Mini polica za Set Top Box i TV risiver Kettz NAV-K92",
+      "price_rsd": 999,
+      "slug": "mini-polica-za-set-top-box-i-tv-risiver-kettz-nav-k92",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/mini-polica-za-set-top-box-i-tv-risiver-kettz-nav-k92-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "NAV-K92",
+      "gtin13": "8605054706766"
     },
     {
       "name": "Plafonski nosač za TV 19-43\" sa punim pokretom Gembird CM-43ST-0",
