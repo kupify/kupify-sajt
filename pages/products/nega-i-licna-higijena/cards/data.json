@@ -1,8 +1,17 @@
 {
   "category": "nega-i-licna-higijena",
-  "total_products": 1,
+  "total_products": 2,
   "page_size": 12,
   "products": [
+    {
+      "name": "Staklene dekant bočice za dekantovanje parfema 5 ml i 10 ml",
+      "price_rsd": 99,
+      "slug": "staklene-dekant-bocice-za-parfem-5ml-10ml",
+      "category": "nega-i-licna-higijena",
+      "img_thumb": "/images/products/staklene-dekant-bocice-za-parfem-5ml-10ml-01-thumb.webp",
+      "brand": "Kupify",
+      "sku": "Staklena bočica"
+    },
     {
       "name": "Velika grickalica za zadebljane i urasle nokte – otvor sekača 15 mm",
       "price_rsd": 1499,
