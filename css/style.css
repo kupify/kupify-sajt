@@ -1062,7 +1062,7 @@
  .product-description {
      max-width: 40rem;
      margin: -0.5rem auto 2.5rem;
-     padding: 0 0.94rem 1.5rem 0.7rem;
+     padding: 0 0.94rem 2rem 0.7rem;
      text-align: left;
      font-size: 1rem;
      line-height: 1.6;
@@ -1078,6 +1078,41 @@
      margin-bottom: -0.6rem;
      margin-top: 2rem;
  }
+
+ .deklaracija-wrapper {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 1rem;
+ }
+
+ .deklaracija>summary {
+     margin-top: 0.5rem;
+     cursor: pointer;
+     color: rgba(var(--text-light), 0.7);
+     font-size: 0.9rem;
+     list-style: none;
+ }
+
+ .deklaracija>summary::-webkit-details-marker {
+     display: none;
+ }
+
+ .deklaracija>summary::after {
+     content: " +";
+     color: rgba(var(--text-light), 0.7);
+ }
+
+ .deklaracija[open]>summary::after {
+     content: " −";
+ }
+
+ .deklaracija p {
+     margin-top: 0.5rem;
+     font-size: 0.85rem;
+     color: rgba(var(--text-light), 0.7);
+ }
+
 
  .internal-code {
      font-size: 0.9rem;
@@ -1321,7 +1356,7 @@
      .product-description {
          max-width: 95%;
          margin: 0rem auto 1.5rem;
-         padding: 0.5rem 0.7rem 1rem;
+         padding: 0.5rem 0.7rem 1.5rem;
          line-height: 1.4;
          font-size: 0.875rem;
          word-break: break-word;
@@ -1335,9 +1370,18 @@
      }
 
      .internal-code {
-         font-size: 0.7rem;
-         color: #777;
+         font-size: 0.75rem;
          margin-top: 1.2rem;
+     }
+
+     .deklaracija>summary {
+         margin-top: 0.5rem;
+         font-size: 0.75rem;
+     }
+
+     .deklaracija p {
+         margin-top: 0.3rem;
+         font-size: 0.7rem;
      }
  }
 
@@ -1436,8 +1480,9 @@
 
      .trust-root {
          max-width: 95%;
-         padding-top: 1rem;
+         padding-top: 0.8rem;
          padding-bottom: 1rem;
+         margin: 2.5rem auto 2.5rem;
      }
 
      .trust-badges {
