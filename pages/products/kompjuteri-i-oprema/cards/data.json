@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 9,
+  "total_products": 11,
   "page_size": 12,
   "products": [
     {
@@ -24,6 +24,16 @@
       "gtin13": "6945398958472"
     },
     {
+      "name": "Podesivi dupli stoni nosač za dva monitora 10-32\" Kettz NM-K290",
+      "price_rsd": 6699,
+      "slug": "podesivi-dupli-stoni-nosac-za-dva-monitora-10-32-inca-kettz-nm-k290",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/podesivi-dupli-stoni-nosac-za-dva-monitora-10-32-inca-kettz-nm-k290-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "NM-K290",
+      "gtin13": "8605054709576"
+    },
+    {
       "name": "Podesivi dupli stoni nosač za dva monitora 17-32 inča Gembird MA-D2-011",
       "price_rsd": 2799,
       "slug": "podesivi-dupli-stoni-nosac-za-dva-monitora-17-32-inca-gembird-ma-d2-011",
@@ -42,6 +52,16 @@
       "brand": "Gembird",
       "sku": "MA-D1-02",
       "gtin13": "8716309127561"
+    },
+    {
+      "name": "Podesivi stoni nosač – ruka za monitor 10-32“ Kettz NM-K190",
+      "price_rsd": 3999,
+      "slug": "podesivi-stoni-drzac-za-monitor-10-32-inca-kettz-nm-k190",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/podesivi-stoni-drzac-za-monitor-10-32-inca-kettz-nm-k190-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "NM-K190",
+      "gtin13": "8605054709569"
     },
     {
       "name": "Podesivi stoni nosač – ruka za monitor 17-32“ Gembird MA-DA1-055",
