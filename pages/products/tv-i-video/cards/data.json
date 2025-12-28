@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 23,
+  "total_products": 24,
   "page_size": 12,
   "products": [
     {
@@ -42,6 +42,16 @@
       "brand": "Gembird",
       "sku": "CM-43ST-01",
       "gtin13": "8716309135191"
+    },
+    {
+      "name": "Plafonski nosač za TV 23-55“, nosivost do 20 kg – Gembird CM-55ST-01",
+      "price_rsd": 2599,
+      "slug": "plafonski-nosac-za-tv-23-55-inca-gembird-cm-55st-01",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/plafonski-nosac-za-tv-23-55-inca-gembird-cm-55st-01-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "CM-55ST-01",
+      "gtin13": "8716309135184"
     },
     {
       "name": "Plafonski rotirajući nosač za TV 37\"-70\" do 50kg Kettz TVN-K1103",

@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 11,
+  "total_products": 12,
   "page_size": 12,
   "products": [
     {
@@ -62,6 +62,16 @@
       "brand": "Kettz",
       "sku": "NM-K190",
       "gtin13": "8605054709569"
+    },
+    {
+      "name": "Podesivi stoni nosač – ruka za monitor 17-32“ Gembird MA-DA1-04",
+      "price_rsd": 2999,
+      "slug": "podesivi-stoni-nosac-za-monitor-17-32-inca-gembird-ma-da1-04",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/podesivi-stoni-nosac-za-monitor-17-32-inca-gembird-ma-da1-04-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MA-DA1-04",
+      "gtin13": "8716309135429"
     },
     {
       "name": "Podesivi stoni nosač – ruka za monitor 17-32“ Gembird MA-DA1-055",
