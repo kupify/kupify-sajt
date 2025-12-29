@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 12,
+  "total_products": 14,
   "page_size": 12,
   "products": [
     {
@@ -44,6 +44,16 @@
       "gtin13": "6951939631213"
     },
     {
+      "name": "Podesivi stoni nosač - ruka za monitor 17-32\" sa USB portovima Gembird MA-DA1U-01",
+      "price_rsd": 3199,
+      "slug": "podesivi-stoni-nosac-za-monitor-17-32-inca-sa-usb-gembird-ma-da1u-01",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/podesivi-stoni-nosac-za-monitor-17-32-inca-sa-usb-gembird-ma-da1u-01-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MA-DA1U-01",
+      "gtin13": "8716309135375"
+    },
+    {
       "name": "Podesivi stoni nosač – ruka držač za monitor Gembird MA-D1-02",
       "price_rsd": 1779,
       "slug": "podesivi-nosac-ruka-za-monitor-gembird-ma-d1-02",
@@ -82,6 +92,16 @@
       "brand": "Gembird",
       "sku": "MA-DA1-055",
       "gtin13": "6951939631190"
+    },
+    {
+      "name": "Postolje – stoni nosač za dva monitora 17-32“ sa staklenom bazom Gembird MS-D2ST-01",
+      "price_rsd": 3499,
+      "slug": "postolje-nosac-za-dva-monitora-17-32-inca-gembird-ms-d2st-01",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/postolje-nosac-za-dva-monitora-17-32-inca-gembird-ms-d2st-01-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MS-D2ST-01",
+      "gtin13": "8716309135245"
     },
     {
       "name": "Stoni držač za monitor 17-32\" sa jednom rukom Gembird MA-D1-033",

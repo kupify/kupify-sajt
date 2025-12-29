@@ -481,14 +481,14 @@
       "q_ascii": "podesivi dupli stoni nosac za dva monitora 10-32\" kettz nm-k290 kettz nm-k290 kompjuteri-i-oprema podesivi-dupli-stoni-nosac-za-dva-monitora-10-32-inca-kettz-nm-k290 8605054709576"
     },
     {
-      "name": "Plafonski nosač za TV 23-55“, nosivost do 20 kg – Gembird CM-55ST-01",
+      "name": "Plafonski nosač za TV 23-55“, nosivost do 20 kg - Gembird CM-55ST-01",
       "slug": "plafonski-nosac-za-tv-23-55-inca-gembird-cm-55st-01",
       "category": "tv-i-video",
       "brand": "Gembird",
       "sku": "CM-55ST-01",
       "price_rsd": "2599",
       "img_thumb": "/images/products/plafonski-nosac-za-tv-23-55-inca-gembird-cm-55st-01-01-thumb.webp",
-      "q_ascii": "plafonski nosac za tv 23-55“, nosivost do 20 kg – gembird cm-55st-01 gembird cm-55st-01 tv-i-video plafonski-nosac-za-tv-23-55-inca-gembird-cm-55st-01 8716309135184"
+      "q_ascii": "plafonski nosac za tv 23-55“, nosivost do 20 kg - gembird cm-55st-01 gembird cm-55st-01 tv-i-video plafonski-nosac-za-tv-23-55-inca-gembird-cm-55st-01 8716309135184"
     },
     {
       "name": "Podesivi stoni nosač – ruka za monitor 17-32“ Gembird MA-DA1-04",
@@ -499,6 +499,26 @@
       "price_rsd": "2999",
       "img_thumb": "/images/products/podesivi-stoni-nosac-za-monitor-17-32-inca-gembird-ma-da1-04-01-thumb.webp",
       "q_ascii": "podesivi stoni nosac – ruka za monitor 17-32“ gembird ma-da1-04 gembird ma-da1-04 kompjuteri-i-oprema podesivi-stoni-nosac-za-monitor-17-32-inca-gembird-ma-da1-04 8716309135429"
+    },
+    {
+      "name": "Postolje – stoni nosač za dva monitora 17-32“ sa staklenom bazom Gembird MS-D2ST-01",
+      "slug": "postolje-nosac-za-dva-monitora-17-32-inca-gembird-ms-d2st-01",
+      "category": "kompjuteri-i-oprema",
+      "brand": "Gembird",
+      "sku": "MS-D2ST-01",
+      "price_rsd": "3499",
+      "img_thumb": "/images/products/postolje-nosac-za-dva-monitora-17-32-inca-gembird-ms-d2st-01-01-thumb.webp",
+      "q_ascii": "postolje – stoni nosac za dva monitora 17-32“ sa staklenom bazom gembird ms-d2st-01 gembird ms-d2st-01 kompjuteri-i-oprema postolje-nosac-za-dva-monitora-17-32-inca-gembird-ms-d2st-01 8716309135245"
+    },
+    {
+      "name": "Podesivi stoni nosač - ruka za monitor 17-32\" sa USB portovima Gembird MA-DA1U-01",
+      "slug": "podesivi-stoni-nosac-za-monitor-17-32-inca-sa-usb-gembird-ma-da1u-01",
+      "category": "kompjuteri-i-oprema",
+      "brand": "Gembird",
+      "sku": "MA-DA1U-01",
+      "price_rsd": "3199",
+      "img_thumb": "/images/products/podesivi-stoni-nosac-za-monitor-17-32-inca-sa-usb-gembird-ma-da1u-01-01-thumb.webp",
+      "q_ascii": "podesivi stoni nosac - ruka za monitor 17-32\" sa usb portovima gembird ma-da1u-01 gembird ma-da1u-01 kompjuteri-i-oprema podesivi-stoni-nosac-za-monitor-17-32-inca-sa-usb-gembird-ma-da1u-01 8716309135375"
     }
   ]
 }
