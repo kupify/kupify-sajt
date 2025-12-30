@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 24,
+  "total_products": 25,
   "page_size": 12,
   "products": [
     {
@@ -152,6 +152,16 @@
       "brand": "Kettz",
       "sku": "AS-K020",
       "gtin13": "8605054708265"
+    },
+    {
+      "name": "Stono postolje – stalak za TV 32-65\" Gembird TVS-D65S-01",
+      "price_rsd": 3299,
+      "slug": "stoni-stalak-za-tv-32-65-inca-gembird-tvs-d65s-01",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/stoni-stalak-za-tv-32-65-inca-gembird-tvs-d65s-01-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "TVS-D65S-01",
+      "gtin13": "8716309135061"
     },
     {
       "name": "TV stalak – postolje sa točkićima i policama 32-70\" – Kettz TVN-P1575",

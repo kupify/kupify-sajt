@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 14,
+  "total_products": 15,
   "page_size": 12,
   "products": [
     {
@@ -112,6 +112,16 @@
       "brand": "Gembird",
       "sku": "MA-D1-033",
       "gtin13": "6951939631206"
+    },
+    {
+      "name": "Stoni nosač – postolje za 2 monitora 13-32\" Gembird MS-D2ST-02",
+      "price_rsd": 3699,
+      "slug": "stoni-nosac-postolje-za-dva-monitora-13-32-inca-gembird-ms-d2st-02",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/stoni-nosac-postolje-za-dva-monitora-13-32-inca-gembird-ms-d2st-02-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MS-D2ST-02",
+      "gtin13": "8716309135412"
     },
     {
       "name": "Stoni nosač – ruka za monitor Gembird MA-DA1-05",
