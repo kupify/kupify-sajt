@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 15,
+  "total_products": 16,
   "page_size": 12,
   "products": [
     {
@@ -42,6 +42,16 @@
       "brand": "Gembird",
       "sku": "MA-D2-011",
       "gtin13": "6951939631213"
+    },
+    {
+      "name": "Podesivi stoni nosač - ruka za monitor 17-32\" Gembird MA-DA1-02",
+      "price_rsd": 3299,
+      "slug": "podesivi-stoni-nosac-ruka-za-monitor-gembird-ma-da1-02",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/podesivi-stoni-nosac-ruka-za-monitor-gembird-ma-da1-02-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MA-DA1-02",
+      "gtin13": "8716309126090"
     },
     {
       "name": "Podesivi stoni nosač - ruka za monitor 17-32\" sa USB portovima Gembird MA-DA1U-01",
