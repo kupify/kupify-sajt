@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 16,
+  "total_products": 18,
   "page_size": 12,
   "products": [
     {
@@ -64,7 +64,27 @@
       "gtin13": "8716309135375"
     },
     {
-      "name": "Podesivi stoni nosač – ruka držač za monitor Gembird MA-D1-02",
+      "name": "Podesivi stoni nosač za dva monitora 17–32\" Gembird MA-DA2P-02",
+      "price_rsd": 4699,
+      "slug": "podesivi-stoni-nosac-za-dva-monitora-17-32-inca-gembird-ma-da2p-02",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/podesivi-stoni-nosac-za-dva-monitora-17-32-inca-gembird-ma-da2p-02-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MA-DA2P-02",
+      "gtin13": "8716309135351"
+    },
+    {
+      "name": "Podesivi stoni nosač za četiri monitora 13–32\" Gembird MA-D4-01",
+      "price_rsd": 5999,
+      "slug": "podesivi-stoni-nosac-za-cetiri-monitora-13-32-inca-gembird-ma-d4-01",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/podesivi-stoni-nosac-za-cetiri-monitora-13-32-inca-gembird-ma-d4-01-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MA-D4-01",
+      "gtin13": "8716309135399"
+    },
+    {
+      "name": "Podesivi stoni nosač – ruka držač za monitor 17-32\" Gembird MA-D1-02",
       "price_rsd": 1779,
       "slug": "podesivi-nosac-ruka-za-monitor-gembird-ma-d1-02",
       "category": "kompjuteri-i-oprema",
@@ -114,7 +134,7 @@
       "gtin13": "8716309135245"
     },
     {
-      "name": "Stoni držač za monitor 17-32\" sa jednom rukom Gembird MA-D1-033",
+      "name": "Stoni držač za monitor 17-32\" sa jednom rukom – Gembird MA-D1-033",
       "price_rsd": 1899,
       "slug": "stoni-drzac-ruka-za-monitor-17-32-inca-gembird-ma-d1-033",
       "category": "kompjuteri-i-oprema",
@@ -134,7 +154,7 @@
       "gtin13": "8716309135412"
     },
     {
-      "name": "Stoni nosač – ruka za monitor Gembird MA-DA1-05",
+      "name": "Stoni nosač – ruka za monitor 17-32\" Gembird MA-DA1-05",
       "price_rsd": 3199,
       "slug": "stoni-nosac-ruka-za-monitor-gembird-ma-da1-05",
       "category": "kompjuteri-i-oprema",
@@ -154,7 +174,7 @@
       "gtin13": "8716309135405"
     },
     {
-      "name": "Volan sa pedalama za PC Gembird STR-ShockForce-II",
+      "name": "Volan sa pedalama za PC – Gembird STR-ShockForce-II",
       "price_rsd": 4699,
       "slug": "volan-pedale-za-pc-gembird-str-shockforce-ii",
       "category": "kompjuteri-i-oprema",
