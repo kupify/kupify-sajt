@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 26,
+  "total_products": 28,
   "page_size": 12,
   "products": [
     {
@@ -94,6 +94,26 @@
       "gtin13": "8605054709316"
     },
     {
+      "name": "Sobna TV antena sa pojačivačem 21 dB i kablom 5 m – Gembird GMB-533USB",
+      "price_rsd": 899,
+      "slug": "sobna-tv-antena-sa-pojacivacem-i-kablom-5-metara-gembird-gmb-533usb",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/sobna-tv-antena-sa-pojacivacem-i-kablom-5-metara-gembird-gmb-533usb-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "GMB-533USB",
+      "gtin13": "9780111227190"
+    },
+    {
+      "name": "Sobna TV antena sa pojačivačem 36 dB i 10 m kablom – Gembird GMB-DUA10",
+      "price_rsd": 1799,
+      "slug": "sobna-antena-za-tv-sa-pojacivacem-i-kablom-10-metara-gembird-gmb-dua10",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/sobna-antena-za-tv-sa-pojacivacem-i-kablom-10-metara-gembird-gmb-dua10-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "GMB-DUA10",
+      "gtin13": "9780111228197"
+    },
+    {
       "name": "Sobna TV antena sa pojačivačem – Kettz DT-K024",
       "price_rsd": 1299,
       "slug": "sobna-tv-antena-sa-pojacivacem-kettz-dt-k024",
@@ -174,7 +194,7 @@
       "gtin13": "8716309135061"
     },
     {
-      "name": "Stono postolje – stalak za TV 45–90\" Gembird TVS-D90F-01",
+      "name": "Stono postolje – stalak za TV 45-90\" Gembird TVS-D90F-01",
       "price_rsd": 4199,
       "slug": "stono-postolje-stalak-za-tv-45-90-inca-gembird-tvs-d90f-01",
       "category": "tv-i-video",

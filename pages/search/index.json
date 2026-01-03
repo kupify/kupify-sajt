@@ -551,34 +551,64 @@
       "q_ascii": "podesivi stoni nosac - ruka za monitor 17-32\" gembird ma-da1-02 gembird ma-da1-02 kompjuteri-i-oprema podesivi-stoni-nosac-ruka-za-monitor-gembird-ma-da1-02 8716309126090"
     },
     {
-      "name": "Podesivi stoni nosač za četiri monitora 13–32\" Gembird MA-D4-01",
+      "name": "Podesivi stoni nosač za četiri monitora 13-32\" Gembird MA-D4-01",
       "slug": "podesivi-stoni-nosac-za-cetiri-monitora-13-32-inca-gembird-ma-d4-01",
       "category": "kompjuteri-i-oprema",
       "brand": "Gembird",
       "sku": "MA-D4-01",
       "price_rsd": "5999",
       "img_thumb": "/images/products/podesivi-stoni-nosac-za-cetiri-monitora-13-32-inca-gembird-ma-d4-01-01-thumb.webp",
-      "q_ascii": "podesivi stoni nosac za cetiri monitora 13–32\" gembird ma-d4-01 gembird ma-d4-01 kompjuteri-i-oprema podesivi-stoni-nosac-za-cetiri-monitora-13-32-inca-gembird-ma-d4-01 8716309135399"
+      "q_ascii": "podesivi stoni nosac za cetiri monitora 13-32\" gembird ma-d4-01 gembird ma-d4-01 kompjuteri-i-oprema podesivi-stoni-nosac-za-cetiri-monitora-13-32-inca-gembird-ma-d4-01 8716309135399"
     },
     {
-      "name": "Podesivi stoni nosač za dva monitora 17–32\" Gembird MA-DA2P-02",
+      "name": "Podesivi stoni nosač za dva monitora 17-32\" Gembird MA-DA2P-02",
       "slug": "podesivi-stoni-nosac-za-dva-monitora-17-32-inca-gembird-ma-da2p-02",
       "category": "kompjuteri-i-oprema",
       "brand": "Gembird",
       "sku": "MA-DA2P-02",
       "price_rsd": "4699",
       "img_thumb": "/images/products/podesivi-stoni-nosac-za-dva-monitora-17-32-inca-gembird-ma-da2p-02-01-thumb.webp",
-      "q_ascii": "podesivi stoni nosac za dva monitora 17–32\" gembird ma-da2p-02 gembird ma-da2p-02 kompjuteri-i-oprema podesivi-stoni-nosac-za-dva-monitora-17-32-inca-gembird-ma-da2p-02 8716309135351"
+      "q_ascii": "podesivi stoni nosac za dva monitora 17-32\" gembird ma-da2p-02 gembird ma-da2p-02 kompjuteri-i-oprema podesivi-stoni-nosac-za-dva-monitora-17-32-inca-gembird-ma-da2p-02 8716309135351"
     },
     {
-      "name": "Stono postolje – stalak za TV 45–90\" Gembird TVS-D90F-01",
+      "name": "Stono postolje – stalak za TV 45-90\" Gembird TVS-D90F-01",
       "slug": "stono-postolje-stalak-za-tv-45-90-inca-gembird-tvs-d90f-01",
       "category": "tv-i-video",
       "brand": "Gembird",
       "sku": "TVS-D90F-01",
       "price_rsd": "4199",
       "img_thumb": "/images/products/stono-postolje-stalak-za-tv-45-90-inca-gembird-tvs-d90f-01-01-thumb.webp",
-      "q_ascii": "stono postolje – stalak za tv 45–90\" gembird tvs-d90f-01 gembird tvs-d90f-01 tv-i-video stono-postolje-stalak-za-tv-45-90-inca-gembird-tvs-d90f-01 8716309135115"
+      "q_ascii": "stono postolje – stalak za tv 45-90\" gembird tvs-d90f-01 gembird tvs-d90f-01 tv-i-video stono-postolje-stalak-za-tv-45-90-inca-gembird-tvs-d90f-01 8716309135115"
+    },
+    {
+      "name": "Podesivi stoni nosač sa dve ruke za dva monitora 17-32\" Gembird MA-DA2P-01",
+      "slug": "podesivi-stoni-nosac-za-dva-monitora-17-32-inca-gembird-ma-da2p-01",
+      "category": "kompjuteri-i-oprema",
+      "brand": "Gembird",
+      "sku": "MA-DA2P-01",
+      "price_rsd": "7899",
+      "img_thumb": "/images/products/podesivi-stoni-nosac-za-dva-monitora-17-32-inca-gembird-ma-da2p-01-01-thumb.webp",
+      "q_ascii": "podesivi stoni nosac sa dve ruke za dva monitora 17-32\" gembird ma-da2p-01 gembird ma-da2p-01 kompjuteri-i-oprema podesivi-stoni-nosac-za-dva-monitora-17-32-inca-gembird-ma-da2p-01 8716309126144"
+    },
+    {
+      "name": "Sobna TV antena sa pojačivačem 36 dB i 10 m kablom – Gembird GMB-DUA10",
+      "slug": "sobna-antena-za-tv-sa-pojacivacem-i-kablom-10-metara-gembird-gmb-dua10",
+      "category": "tv-i-video",
+      "brand": "Gembird",
+      "sku": "GMB-DUA10",
+      "price_rsd": "1799",
+      "img_thumb": "/images/products/sobna-antena-za-tv-sa-pojacivacem-i-kablom-10-metara-gembird-gmb-dua10-01-thumb.webp",
+      "q_ascii": "sobna tv antena sa pojacivacem 36 db i 10 m kablom – gembird gmb-dua10 gembird gmb-dua10 tv-i-video sobna-antena-za-tv-sa-pojacivacem-i-kablom-10-metara-gembird-gmb-dua10 9780111228197"
+    },
+    {
+      "name": "Sobna TV antena sa pojačivačem 21 dB i kablom 5 m – Gembird GMB-533USB",
+      "slug": "sobna-tv-antena-sa-pojacivacem-i-kablom-5-metara-gembird-gmb-533usb",
+      "category": "tv-i-video",
+      "brand": "Gembird",
+      "sku": "GMB-533USB",
+      "price_rsd": "899",
+      "img_thumb": "/images/products/sobna-tv-antena-sa-pojacivacem-i-kablom-5-metara-gembird-gmb-533usb-01-thumb.webp",
+      "q_ascii": "sobna tv antena sa pojacivacem 21 db i kablom 5 m – gembird gmb-533usb gembird gmb-533usb tv-i-video sobna-tv-antena-sa-pojacivacem-i-kablom-5-metara-gembird-gmb-533usb 9780111227190"
     }
   ]
 }

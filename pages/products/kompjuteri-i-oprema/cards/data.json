@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 18,
+  "total_products": 19,
   "page_size": 12,
   "products": [
     {
@@ -64,7 +64,17 @@
       "gtin13": "8716309135375"
     },
     {
-      "name": "Podesivi stoni nosač za dva monitora 17–32\" Gembird MA-DA2P-02",
+      "name": "Podesivi stoni nosač sa dve ruke za dva monitora 17-32\" Gembird MA-DA2P-01",
+      "price_rsd": 7899,
+      "slug": "podesivi-stoni-nosac-za-dva-monitora-17-32-inca-gembird-ma-da2p-01",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/podesivi-stoni-nosac-za-dva-monitora-17-32-inca-gembird-ma-da2p-01-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MA-DA2P-01",
+      "gtin13": "8716309126144"
+    },
+    {
+      "name": "Podesivi stoni nosač za dva monitora 17-32\" Gembird MA-DA2P-02",
       "price_rsd": 4699,
       "slug": "podesivi-stoni-nosac-za-dva-monitora-17-32-inca-gembird-ma-da2p-02",
       "category": "kompjuteri-i-oprema",
@@ -74,7 +84,7 @@
       "gtin13": "8716309135351"
     },
     {
-      "name": "Podesivi stoni nosač za četiri monitora 13–32\" Gembird MA-D4-01",
+      "name": "Podesivi stoni nosač za četiri monitora 13-32\" Gembird MA-D4-01",
       "price_rsd": 5999,
       "slug": "podesivi-stoni-nosac-za-cetiri-monitora-13-32-inca-gembird-ma-d4-01",
       "category": "kompjuteri-i-oprema",
