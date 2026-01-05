@@ -2,12 +2,13 @@
   "use strict";
   const qs = (s, r = document) => r.querySelector(s);
 
-  // Normalizacija (č/ć/š/ž/đ -> c/c/s/z/dj) + lowercase
+  // Normalizacija (č/ć/š/ž/đ -> c/c/s/z/dj) + lowercase + dash
   const norm = (s) => (s || "")
     .toLowerCase()
     .replace(/[čćšžđ]/g, m => ({ 'č': 'c', 'ć': 'c', 'š': 's', 'ž': 'z', 'đ': 'dj' }[m]))
     .normalize("NFKD")
-    .replace(/[\u0300-\u036f]/g, "");
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[-_/]/g, " ");
 
   // Cena u broju (za sortiranje)
   const priceVal = (p) => {
@@ -316,7 +317,7 @@
         let total = 0;
         for (const group of groupsArr) {
           let groupBest = 0;
-          const usable = group.filter(g => g.length >= 2);  // tvoj minimum 3 slova
+          const usable = group.filter(g => g.length >= 2);  // search minimum 2 slova
           if (usable.length === 0) return { ok: false, score: 0 };
 
           for (const g of usable) {
