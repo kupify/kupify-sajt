@@ -1,8 +1,28 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 19,
+  "total_products": 25,
   "page_size": 12,
   "products": [
+    {
+      "name": "ATX Napajanje 500W za PC kompjuter – Gembird GMB-500-12",
+      "price_rsd": 1599,
+      "slug": "atx-napajanje-500w-za-pc-kompjuter-gembird-gmb-500-12",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/atx-napajanje-500w-za-pc-kompjuter-gembird-gmb-500-12-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "GMB-500-12",
+      "gtin13": "6945398958468"
+    },
+    {
+      "name": "ATX napajanje za PC 600W – Gembird GMB-600-PRO 80 PLUS Bronze",
+      "price_rsd": 5199,
+      "slug": "atx-pc-napajanje-600w-gembird-gmb-600-pro-80-plus-bronze",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/atx-pc-napajanje-600w-gembird-gmb-600-pro-80-plus-bronze-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "GMB-600-PRO",
+      "gtin13": "9780300520200"
+    },
     {
       "name": "Bežični optički miš Gembird MUSW-4B-01-W",
       "price_rsd": 599,
@@ -14,7 +34,7 @@
       "gtin13": "8716309104159"
     },
     {
-      "name": "Napajanje za PC kompjuter 650W Gembird GMB-650-12",
+      "name": "Napajanje za PC kompjuter 650W – Gembird GMB-650-12",
       "price_rsd": 2749,
       "slug": "napajanje-za-pc-650w-gembird-gmb-650-12",
       "category": "kompjuteri-i-oprema",
@@ -34,7 +54,7 @@
       "gtin13": "8605054709576"
     },
     {
-      "name": "Podesivi dupli stoni nosač za dva monitora 17-32 inča Gembird MA-D2-011",
+      "name": "Podesivi dupli stoni nosač za dva monitora 17-32“ Gembird MA-D2-011",
       "price_rsd": 2799,
       "slug": "podesivi-dupli-stoni-nosac-za-dva-monitora-17-32-inca-gembird-ma-d2-011",
       "category": "kompjuteri-i-oprema",
@@ -154,6 +174,26 @@
       "gtin13": "6951939631206"
     },
     {
+      "name": "Stoni mikrofon za PC ili laptop – Gembird MIC-205",
+      "price_rsd": 599,
+      "slug": "stoni-mikrofon-za-pc-laptop-gembird-mic-205",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/stoni-mikrofon-za-pc-laptop-gembird-mic-205-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MIC-205",
+      "gtin13": "8716309079914"
+    },
+    {
+      "name": "Stoni mikrofon za PC ili laptop – Gembird MIC-D-02",
+      "price_rsd": 479,
+      "slug": "stoni-mikrofon-za-pc-laptop-gembird-mic-d-02",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/stoni-mikrofon-za-pc-laptop-gembird-mic-d-02-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MIC-D-02",
+      "gtin13": "8716309100557"
+    },
+    {
       "name": "Stoni nosač – postolje za 2 monitora 13-32\" Gembird MS-D2ST-02",
       "price_rsd": 3699,
       "slug": "stoni-nosac-postolje-za-dva-monitora-13-32-inca-gembird-ms-d2st-02",
@@ -174,6 +214,16 @@
       "gtin13": "8716309127707"
     },
     {
+      "name": "Univerzalni plafonski nosač za projektor – Gembird CM-B-01",
+      "price_rsd": 1599,
+      "slug": "univerzalni-plafonski-nosac-za-projektor-gembird-cm-b-01",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/univerzalni-plafonski-nosac-za-projektor-gembird-cm-b-01-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "CM-B-01",
+      "gtin13": "8716309128070"
+    },
+    {
       "name": "Univerzalno stono postolje za monitor 13-32\" do 8 kg – Gembird MS-D1ST-04",
       "price_rsd": 2699,
       "slug": "univerzalno-stono-postolje-za-monitor-13-32-inca-gembird-ms-d1st-04",
@@ -192,6 +242,16 @@
       "brand": "Gembird",
       "sku": "STR-ShockForce-II",
       "gtin13": "11223355669"
+    },
+    {
+      "name": "Zidni zglobni nosač za monitor 13-27\" – Kettz TVN-4003",
+      "price_rsd": 1199,
+      "slug": "zidni-zglobni-nosac-za-monitor-kettz-tvn-4003",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/zidni-zglobni-nosac-za-monitor-kettz-tvn-4003-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "TVN-4003",
+      "gtin13": "8605054704878"
     }
   ]
 }

@@ -1,8 +1,18 @@
 {
   "category": "tv-i-video",
-  "total_products": 28,
+  "total_products": 32,
   "page_size": 12,
   "products": [
+    {
+      "name": "Fiksni zidni nosač za TV 15-42\" do 25kg – Gembird WM-42F-05",
+      "price_rsd": 399,
+      "slug": "fiksni-zidni-nosac-za-tv-gembird-wm-42f-05",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/fiksni-zidni-nosac-za-tv-gembird-wm-42f-05-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "WM-42F-05",
+      "gtin13": "8607826723438"
+    },
     {
       "name": "Fiksni zidni nosač za TV 32-85\" do 70 kg – Tuarex OLIMP-311",
       "price_rsd": 1299,
@@ -12,16 +22,6 @@
       "brand": "Tuarex",
       "sku": "OLIMP-311",
       "gtin13": "4630034136121"
-    },
-    {
-      "name": "Mini polica za Set Top Box i TV risiver Kettz NAV-K92",
-      "price_rsd": 999,
-      "slug": "mini-polica-za-set-top-box-i-tv-risiver-kettz-nav-k92",
-      "category": "tv-i-video",
-      "img_thumb": "/images/products/mini-polica-za-set-top-box-i-tv-risiver-kettz-nav-k92-01-thumb.webp",
-      "brand": "Kettz",
-      "sku": "NAV-K92",
-      "gtin13": "8605054706766"
     },
     {
       "name": "Mini polica za Set Top Box i TV risiver – Kettz NAV-K91",
@@ -34,7 +34,17 @@
       "gtin13": "8605054706759"
     },
     {
-      "name": "Plafonski nosač za TV 19-43\" sa punim pokretom Gembird CM-43ST-0",
+      "name": "Mini polica za Set Top Box i TV risiver – Kettz NAV-K92",
+      "price_rsd": 999,
+      "slug": "mini-polica-za-set-top-box-i-tv-risiver-kettz-nav-k92",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/mini-polica-za-set-top-box-i-tv-risiver-kettz-nav-k92-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "NAV-K92",
+      "gtin13": "8605054706766"
+    },
+    {
+      "name": "Plafonski nosač za TV 19-43\" sa punim pokretom –  Gembird CM-43ST-01",
       "price_rsd": 1999,
       "slug": "plafonski-nosac-za-tv-19-43-inca-gembird-cm-43st-01",
       "category": "tv-i-video",
@@ -104,7 +114,7 @@
       "gtin13": "9780111227190"
     },
     {
-      "name": "Sobna TV antena sa pojačivačem 36 dB i 10 m kablom – Gembird GMB-DUA10",
+      "name": "Sobna TV antena sa pojačivačem 36 dB i 10 m kabla – Gembird GMB-DUA10",
       "price_rsd": 1799,
       "slug": "sobna-antena-za-tv-sa-pojacivacem-i-kablom-10-metara-gembird-gmb-dua10",
       "category": "tv-i-video",
@@ -134,7 +144,17 @@
       "gtin13": "8606018832774"
     },
     {
-      "name": "Sobna TV/FM antena Kettz DT-K035 sa pojačivačem",
+      "name": "Sobna TV/FM antena sa pojačivačem – Kettz DT-K028",
+      "price_rsd": 1489,
+      "slug": "sobna-tv-fm-antena-sa-pojacivacem-48db-kettz-dt-k028",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/sobna-tv-fm-antena-sa-pojacivacem-48db-kettz-dt-k028-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "DT-K028",
+      "gtin13": "8606018832781"
+    },
+    {
+      "name": "Sobna TV/FM antena sa pojačivačem – Kettz DT-K035",
       "price_rsd": 1699,
       "slug": "sobna-tv-fm-antena-sa-pojacivacem-kettz-dt-k035",
       "category": "tv-i-video",
@@ -144,14 +164,14 @@
       "gtin13": "8606018832798"
     },
     {
-      "name": "Sobna TV/FM antena sa pojačivačem – Kettz DT-K028",
-      "price_rsd": 1489,
-      "slug": "sobna-tv-fm-antena-sa-pojacivacem-48db-kettz-dt-k028",
+      "name": "Spoljna mrežasta TV antena sa pojačivačem 15-32 dB – ANT-408",
+      "price_rsd": 1499,
+      "slug": "spoljna-mrezasta-tv-antena-sa-pojacivacem-ant-408",
       "category": "tv-i-video",
-      "img_thumb": "/images/products/sobna-tv-fm-antena-sa-pojacivacem-48db-kettz-dt-k028-01-thumb.webp",
-      "brand": "Kettz",
-      "sku": "DT-K028",
-      "gtin13": "8606018832781"
+      "img_thumb": "/images/products/spoljna-mrezasta-tv-antena-sa-pojacivacem-ant-408-01-thumb.webp",
+      "brand": "Vega",
+      "sku": "ANT-408",
+      "gtin13": "3856001016277"
     },
     {
       "name": "Spoljna mrežasta TV antena sa pojačivačem 17-35 dB ANT-408AL",
@@ -234,6 +254,16 @@
       "gtin13": "8607855734238"
     },
     {
+      "name": "Zglobni zidni nosač za TV 17-43\" do 25kg – Kettz TVN-5503",
+      "price_rsd": 1199,
+      "slug": "zglobni-zidni-nosac-za-tv-kettz-tvn-5503",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/zglobni-zidni-nosac-za-tv-kettz-tvn-5503-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "TVN-5503",
+      "gtin13": "8606018858374"
+    },
+    {
       "name": "Zglobni zidni nosač za TV 32-58\" do 40 kg – Tuarex ALTA-652",
       "price_rsd": 2199,
       "slug": "zglobni-zidni-nosac-za-tv-32-58-inca-tuarex-alta-652",
@@ -244,7 +274,17 @@
       "gtin13": "4630034136282"
     },
     {
-      "name": "Zidni nosač za TV 35-75“ sa nagibom Gembird WM-75T-04",
+      "name": "Zidni nosač sa nagibom za TV 15-42\" do 20 kg – Gembird WM-42T-05",
+      "price_rsd": 619,
+      "slug": "zidni-tv-nosac-sa-nagibom-gembird-wm-42t-05",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/zidni-tv-nosac-sa-nagibom-gembird-wm-42t-05-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "WM-42T-05",
+      "gtin13": "8607832788728"
+    },
+    {
+      "name": "Zidni nosač za TV 35-75“ sa nagibom – Gembird WM-75T-04",
       "price_rsd": 1399,
       "slug": "zidni-nosac-za-tv-37-75-inca-sa-nagibom-gembird-wm-75t-04",
       "category": "tv-i-video",
@@ -264,7 +304,7 @@
       "gtin13": "8605054709583"
     },
     {
-      "name": "Zidni nosač za TV 43-100“ sa nagibom Gembird WM-100T-01",
+      "name": "Zidni nosač za TV 43-100“ sa nagibom – Gembird WM-100T-01",
       "price_rsd": 2199,
       "slug": "zidni-nosac-za-tv-43-100-inca-sa-nagibom-gembird-wm-100t-01",
       "category": "tv-i-video",
@@ -274,7 +314,7 @@
       "gtin13": "8716309135269"
     },
     {
-      "name": "Zidni nosač za TV 43-90“ sa nagibom Gembird WM-90T-01",
+      "name": "Zidni nosač za TV 43-90“ sa nagibom – Gembird WM-90T-01",
       "price_rsd": 2569,
       "slug": "zidni-nosac-za-tv-43-90-inca-sa-nagibom-gembird-wm-90t-01",
       "category": "tv-i-video",
