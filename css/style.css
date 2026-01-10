@@ -264,6 +264,9 @@ header {
 /* Media query za manje ekrane (npr. mobilni telefoni) */
 @media (max-width: 950px) {
 
+    header {
+        margin-bottom: 1.5rem;
+    }
     /* Header sadržaj prebacujemo u kolonu i centriramo */
     .header-content {
         flex-direction: column;
@@ -278,7 +281,7 @@ header {
     }
 
     .header-nav {
-        gap: 0.5rem;
+        gap: 0.2rem;
         padding: 0.5rem;
         margin-bottom: 0;
         /* ukini razmak ispod menija */
@@ -1019,7 +1022,12 @@ div.tekst-lista {
 
 /* galerija */
 .product-page-gallery {
-    margin: 2.5rem auto;
+    max-width: 40rem;
+    margin: 1rem auto;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid transparent;
+    border-image: linear-gradient(to right, rgba(var(--brand-accent), 0.3), rgba(var(--brand-accent), 0.8));
+    border-image-slice: 1;
 }
 
 .product-page-gallery .main-image {
@@ -1167,8 +1175,9 @@ div.tekst-lista {
     justify-content: space-between;
     align-items: flex-end;
     gap: 2rem;
-    margin: 0 auto;
+    margin: 0 auto 0.5rem;
     padding: 0 1rem;
+    padding-bottom: 0rem;
     border-bottom: 1px solid transparent;
     border-image: linear-gradient(to right, rgba(var(--brand-accent), 0.3), rgba(var(--brand-accent), 0.8));
     border-image-slice: 1;
@@ -1367,13 +1376,14 @@ div.tekst-lista {
 
 @media (max-width: 480px) {
     .product-page-gallery {
-        margin: 2rem auto;
+        max-width: 95%;
+        margin: 0.5rem auto 1rem;
     }
 
     .product-page-title {
         max-width: 95%;
         padding: 0.2rem 0.75rem;
-        margin-bottom: 1rem;
+        margin-bottom: 1.5rem;
     }
 
     .product-page-name {
@@ -1394,7 +1404,7 @@ div.tekst-lista {
     .product-description {
         max-width: 95%;
         margin: 0rem auto 1.5rem;
-        padding: 0.5rem 0.7rem 1.5rem;
+        padding: 0rem 0.7rem 1.5rem;
         line-height: 1.4;
         font-size: 0.875rem;
         word-break: break-word;
@@ -1445,7 +1455,9 @@ div.tekst-lista {
         flex-direction: column;
         gap: 0rem;
         align-items: stretch;
-        padding: 0 0.75rem 0.8rem;
+        padding: 0 0.75rem 0.3rem;
+        margin: 0 auto;
+        
     }
 
     .product-page-cta {
