@@ -709,6 +709,56 @@
       "price_rsd": "1499",
       "img_thumb": "/images/products/spoljna-mrezasta-tv-antena-sa-pojacivacem-ant-408-01-thumb.webp",
       "q_ascii": "spoljna mrezasta tv antena sa pojacivacem 15-32 db – ant-408 vega ant-408 tv-i-video spoljna-mrezasta-tv-antena-sa-pojacivacem-ant-408 3856001016277"
+    },
+    {
+      "name": "Univerzalni zidni nosači za zvučnike ili soundbar Gembird WM-SB-01",
+      "slug": "univerzalni-zidni-nosaci-za-zvucnike-soundbar-gembird-wm-sb-01",
+      "category": "audio-oprema",
+      "brand": "Gembird",
+      "sku": "WM-SB-01",
+      "price_rsd": "999",
+      "img_thumb": "/images/products/univerzalni-zidni-nosaci-za-zvucnike-soundbar-gembird-wm-sb-01-01-thumb.webp",
+      "q_ascii": "univerzalni zidni nosaci za zvucnike ili soundbar gembird wm-sb-01 gembird wm-sb-01 audio-oprema univerzalni-zidni-nosaci-za-zvucnike-soundbar-gembird-wm-sb-01 8716309128056"
+    },
+    {
+      "name": "HD Web kamera 720p sa mikrofonom Gembird CAM83U",
+      "slug": "hd-web-kamera-sa-mikrofonom-gembird-cam83u",
+      "category": "kompjuteri-i-oprema",
+      "brand": "Gembird",
+      "sku": "CAM83U",
+      "price_rsd": "1399",
+      "img_thumb": "/images/products/hd-web-kamera-sa-mikrofonom-gembird-cam83u-01-thumb.webp",
+      "q_ascii": "hd web kamera 720p sa mikrofonom gembird cam83u gembird cam83u kompjuteri-i-oprema hd-web-kamera-sa-mikrofonom-gembird-cam83u 4711421695152"
+    },
+    {
+      "name": "Stoni nosač sa rukama za monitor i laptop Gembird MA-DA-03",
+      "slug": "stoni-nosac-za-monitor-laptop-gembird-ma-da-03",
+      "category": "kompjuteri-i-oprema",
+      "brand": "Gembird",
+      "sku": "MA-DA-03",
+      "price_rsd": "4799",
+      "img_thumb": "/images/products/stoni-nosac-za-monitor-laptop-gembird-ma-da-03-01-thumb.webp",
+      "q_ascii": "stoni nosac sa rukama za monitor i laptop gembird ma-da-03 gembird ma-da-03 kompjuteri-i-oprema stoni-nosac-za-monitor-laptop-gembird-ma-da-03 8716309126083"
+    },
+    {
+      "name": "Univerzalni plafonski nosač za projektor Kettz PN-K10",
+      "slug": "plafonski-nosac-za-projektor-kettz-pn-k10",
+      "category": "kompjuteri-i-oprema",
+      "brand": "Kettz",
+      "sku": "PN-K10",
+      "price_rsd": "2599",
+      "img_thumb": "/images/products/plafonski-nosac-za-projektor-kettz-pn-k10-01-thumb.webp",
+      "q_ascii": "univerzalni plafonski nosac za projektor kettz pn-k10 kettz pn-k10 kompjuteri-i-oprema plafonski-nosac-za-projektor-kettz-pn-k10 8605054706780"
+    },
+    {
+      "name": "Sklopivo postolje - stalak za projektor Kettz NP-K220",
+      "slug": "sklopivo-postolje-stalak-za-projektor-kettz-np-k220",
+      "category": "kompjuteri-i-oprema",
+      "brand": "Kettz",
+      "sku": "NP-K220",
+      "price_rsd": "3799",
+      "img_thumb": "/images/products/sklopivo-postolje-stalak-za-projektor-kettz-np-k220-01-thumb.webp",
+      "q_ascii": "sklopivo postolje - stalak za projektor kettz np-k220 kettz np-k220 kompjuteri-i-oprema sklopivo-postolje-stalak-za-projektor-kettz-np-k220 8605054706711"
     }
   ]
 }

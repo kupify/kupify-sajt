@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 25,
+  "total_products": 29,
   "page_size": 12,
   "products": [
     {
@@ -32,6 +32,16 @@
       "brand": "Gembird",
       "sku": "MUSW-4B-01-W",
       "gtin13": "8716309104159"
+    },
+    {
+      "name": "HD Web kamera 720p sa mikrofonom Gembird CAM83U",
+      "price_rsd": 1399,
+      "slug": "hd-web-kamera-sa-mikrofonom-gembird-cam83u",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/hd-web-kamera-sa-mikrofonom-gembird-cam83u-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "CAM83U",
+      "gtin13": "4711421695152"
     },
     {
       "name": "Napajanje za PC kompjuter 650W – Gembird GMB-650-12",
@@ -164,6 +174,16 @@
       "gtin13": "8716309135245"
     },
     {
+      "name": "Sklopivo postolje - stalak za projektor Kettz NP-K220",
+      "price_rsd": 3799,
+      "slug": "sklopivo-postolje-stalak-za-projektor-kettz-np-k220",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/sklopivo-postolje-stalak-za-projektor-kettz-np-k220-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "NP-K220",
+      "gtin13": "8605054706711"
+    },
+    {
       "name": "Stoni držač za monitor 17-32\" sa jednom rukom – Gembird MA-D1-033",
       "price_rsd": 1899,
       "slug": "stoni-drzac-ruka-za-monitor-17-32-inca-gembird-ma-d1-033",
@@ -194,6 +214,16 @@
       "gtin13": "8716309100557"
     },
     {
+      "name": "Stoni nosač sa rukama za monitor i laptop Gembird MA-DA-03",
+      "price_rsd": 4799,
+      "slug": "stoni-nosac-za-monitor-laptop-gembird-ma-da-03",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/stoni-nosac-za-monitor-laptop-gembird-ma-da-03-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MA-DA-03",
+      "gtin13": "8716309126083"
+    },
+    {
       "name": "Stoni nosač – postolje za 2 monitora 13-32\" Gembird MS-D2ST-02",
       "price_rsd": 3699,
       "slug": "stoni-nosac-postolje-za-dva-monitora-13-32-inca-gembird-ms-d2st-02",
@@ -212,6 +242,16 @@
       "brand": "Gembird",
       "sku": "MA-DA1-05",
       "gtin13": "8716309127707"
+    },
+    {
+      "name": "Univerzalni plafonski nosač za projektor Kettz PN-K10",
+      "price_rsd": 2599,
+      "slug": "plafonski-nosac-za-projektor-kettz-pn-k10",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/plafonski-nosac-za-projektor-kettz-pn-k10-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "PN-K10",
+      "gtin13": "8605054706780"
     },
     {
       "name": "Univerzalni plafonski nosač za projektor – Gembird CM-B-01",

@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://kupify.rs/pages/products/audio-oprema/</loc>
+    <lastmod>2026-01-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://kupify.rs/pages/products/auto-oprema/</loc>
     <lastmod>2025-12-24</lastmod>
     <changefreq>weekly</changefreq>
@@ -20,7 +26,7 @@
   </url>
   <url>
     <loc>https://kupify.rs/pages/products/kompjuteri-i-oprema/</loc>
-    <lastmod>2026-01-09</lastmod>
+    <lastmod>2026-01-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
