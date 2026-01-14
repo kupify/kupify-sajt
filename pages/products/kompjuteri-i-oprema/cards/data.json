@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 29,
+  "total_products": 33,
   "page_size": 12,
   "products": [
     {
@@ -24,6 +24,16 @@
       "gtin13": "9780300520200"
     },
     {
+      "name": "ATX napajanje za PC 650W – UGD Power G650",
+      "price_rsd": 4799,
+      "slug": "atx-pc-napajanje-ugd-power-g650",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/atx-pc-napajanje-ugd-power-g650-01-thumb.webp",
+      "brand": "UGD Power",
+      "sku": "G650",
+      "gtin13": "8606112328135"
+    },
+    {
       "name": "Bežični optički miš Gembird MUSW-4B-01-W",
       "price_rsd": 599,
       "slug": "bezicni-opticki-mis-gembird-musw-4b-01-w",
@@ -45,13 +55,23 @@
     },
     {
       "name": "Napajanje za PC kompjuter 650W – Gembird GMB-650-12",
-      "price_rsd": 2749,
+      "price_rsd": 2799,
       "slug": "napajanje-za-pc-650w-gembird-gmb-650-12",
       "category": "kompjuteri-i-oprema",
       "img_thumb": "/images/products/napajanje-za-pc-650w-gembird-gmb-650-12-01-thumb.webp",
       "brand": "Gembird",
       "sku": "GMB-650-12",
       "gtin13": "6945398958472"
+    },
+    {
+      "name": "Podesivi dupli stoni nosač za 2 monitora – Gembird MA-D2-03",
+      "price_rsd": 3199,
+      "slug": "stoni-nosac-za-2-monitora-gembird-ma-d2-03",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/stoni-nosac-za-2-monitora-gembird-ma-d2-03-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MA-D2-03",
+      "gtin13": "8716309128155"
     },
     {
       "name": "Podesivi dupli stoni nosač za dva monitora 10-32\" Kettz NM-K290",
@@ -222,6 +242,26 @@
       "brand": "Gembird",
       "sku": "MA-DA-03",
       "gtin13": "8716309126083"
+    },
+    {
+      "name": "Stoni nosač za monitore sa dve ruke – Gembird MA-DA2-02",
+      "price_rsd": 5499,
+      "slug": "stoni-nosac-za-2-monitora-gembird-ma-da2-02",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/stoni-nosac-za-2-monitora-gembird-ma-da2-02-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MA-DA2-02",
+      "gtin13": "8716309126106"
+    },
+    {
+      "name": "Stoni nosač za monitore sa dve ruke – Gembird MA-DA2-05",
+      "price_rsd": 5499,
+      "slug": "stoni-nosac-za-2-monitora-gembird-ma-da2-05",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/stoni-nosac-za-2-monitora-gembird-ma-da2-05-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MA-DA2-05",
+      "gtin13": "8716309127714"
     },
     {
       "name": "Stoni nosač – postolje za 2 monitora 13-32\" Gembird MS-D2ST-02",

@@ -376,7 +376,7 @@
       "category": "kompjuteri-i-oprema",
       "brand": "Gembird",
       "sku": "GMB-650-12",
-      "price_rsd": "2749",
+      "price_rsd": "2799",
       "img_thumb": "/images/products/napajanje-za-pc-650w-gembird-gmb-650-12-01-thumb.webp",
       "q_ascii": "napajanje za pc kompjuter 650w – gembird gmb-650-12 gembird gmb-650-12 kompjuteri-i-oprema napajanje-za-pc-650w-gembird-gmb-650-12 6945398958472"
     },
@@ -759,6 +759,56 @@
       "price_rsd": "3799",
       "img_thumb": "/images/products/sklopivo-postolje-stalak-za-projektor-kettz-np-k220-01-thumb.webp",
       "q_ascii": "sklopivo postolje - stalak za projektor kettz np-k220 kettz np-k220 kompjuteri-i-oprema sklopivo-postolje-stalak-za-projektor-kettz-np-k220 8605054706711"
+    },
+    {
+      "name": "ATX napajanje za PC 650W – UGD Power G650",
+      "slug": "atx-pc-napajanje-ugd-power-g650",
+      "category": "kompjuteri-i-oprema",
+      "brand": "UGD Power",
+      "sku": "G650",
+      "price_rsd": "4799",
+      "img_thumb": "/images/products/atx-pc-napajanje-ugd-power-g650-01-thumb.webp",
+      "q_ascii": "atx napajanje za pc 650w – ugd power g650 ugd power g650 kompjuteri-i-oprema atx-pc-napajanje-ugd-power-g650 8606112328135"
+    },
+    {
+      "name": "Stoni nosač za monitore sa dve ruke – Gembird MA-DA2-05",
+      "slug": "stoni-nosac-za-2-monitora-gembird-ma-da2-05",
+      "category": "kompjuteri-i-oprema",
+      "brand": "Gembird",
+      "sku": "MA-DA2-05",
+      "price_rsd": "5499",
+      "img_thumb": "/images/products/stoni-nosac-za-2-monitora-gembird-ma-da2-05-01-thumb.webp",
+      "q_ascii": "stoni nosac za monitore sa dve ruke – gembird ma-da2-05 gembird ma-da2-05 kompjuteri-i-oprema stoni-nosac-za-2-monitora-gembird-ma-da2-05 8716309127714"
+    },
+    {
+      "name": "Stoni nosač za monitore sa dve ruke – Gembird MA-DA2-02",
+      "slug": "stoni-nosac-za-2-monitora-gembird-ma-da2-02",
+      "category": "kompjuteri-i-oprema",
+      "brand": "Gembird",
+      "sku": "MA-DA2-02",
+      "price_rsd": "5499",
+      "img_thumb": "/images/products/stoni-nosac-za-2-monitora-gembird-ma-da2-02-01-thumb.webp",
+      "q_ascii": "stoni nosac za monitore sa dve ruke – gembird ma-da2-02 gembird ma-da2-02 kompjuteri-i-oprema stoni-nosac-za-2-monitora-gembird-ma-da2-02 8716309126106"
+    },
+    {
+      "name": "Podesivi dupli stoni nosač za 2 monitora – Gembird MA-D2-03",
+      "slug": "stoni-nosac-za-2-monitora-gembird-ma-d2-03",
+      "category": "kompjuteri-i-oprema",
+      "brand": "Gembird",
+      "sku": "MA-D2-03",
+      "price_rsd": "3199",
+      "img_thumb": "/images/products/stoni-nosac-za-2-monitora-gembird-ma-d2-03-01-thumb.webp",
+      "q_ascii": "podesivi dupli stoni nosac za 2 monitora – gembird ma-d2-03 gembird ma-d2-03 kompjuteri-i-oprema stoni-nosac-za-2-monitora-gembird-ma-d2-03 8716309128155"
+    },
+    {
+      "name": "Fiksni zidni nosač za TV 23-60\" do 50 kg – Kettz TVN-440F",
+      "slug": "fiksni-zidni-tv-nosac-kettz-tvn-440f",
+      "category": "tv-i-video",
+      "brand": "Kettz",
+      "sku": "TVN-440F",
+      "price_rsd": "799",
+      "img_thumb": "/images/products/fiksni-zidni-tv-nosac-kettz-tvn-440f-01-thumb.webp",
+      "q_ascii": "fiksni zidni nosac za tv 23-60\" do 50 kg – kettz tvn-440f kettz tvn-440f tv-i-video fiksni-zidni-tv-nosac-kettz-tvn-440f 8605054709200"
     }
   ]
 }
