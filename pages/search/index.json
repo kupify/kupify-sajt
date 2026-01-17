@@ -331,14 +331,14 @@
       "q_ascii": "kvarcna grejalica sa 3 stapa 400/800/1200w – zilan zln1084 bk zilan zln1084 bk bela-tehnika-i-kucni-aparati kvarcna-grejalica-3-stapa-400-800-1200w-zilan-zln1084-bk 6423154021501"
     },
     {
-      "name": "Plafonski nosač za TV 19-43\" sa punim pokretom –  Gembird CM-43ST-01",
+      "name": "Plafonski nosač za TV 19-43\" sa punim pokretom – Gembird CM-43ST-01",
       "slug": "plafonski-nosac-za-tv-19-43-inca-gembird-cm-43st-01",
       "category": "tv-i-video",
       "brand": "Gembird",
       "sku": "CM-43ST-01",
       "price_rsd": "1999",
       "img_thumb": "/images/products/plafonski-nosac-za-tv-19-43-inca-gembird-cm-43st-01-01-thumb.webp",
-      "q_ascii": "plafonski nosac za tv 19-43\" sa punim pokretom –  gembird cm-43st-01 gembird cm-43st-01 tv-i-video plafonski-nosac-za-tv-19-43-inca-gembird-cm-43st-01 8716309135191"
+      "q_ascii": "plafonski nosac za tv 19-43\" sa punim pokretom – gembird cm-43st-01 gembird cm-43st-01 tv-i-video plafonski-nosac-za-tv-19-43-inca-gembird-cm-43st-01 8716309135191"
     },
     {
       "name": "Zidni nosač za TV 43-100“ sa nagibom – Gembird WM-100T-01",
@@ -426,7 +426,7 @@
       "category": "auto-oprema",
       "brand": "Gembird",
       "sku": "SMART-PARKING-RAMPA-4",
-      "price_rsd": "2299",
+      "price_rsd": "2399",
       "img_thumb": "/images/products/sklopiva-mehanicka-barijera-gembird-smart-parking-rampa-4-01-thumb.webp",
       "q_ascii": "sklopiva barijera za parking mesto 4 kg gembird smart-parking-rampa-4 gembird smart-parking-rampa-4 auto-oprema sklopiva-mehanicka-barijera-gembird-smart-parking-rampa-4 8606519444445"
     },
@@ -761,14 +761,14 @@
       "q_ascii": "sklopivo postolje - stalak za projektor kettz np-k220 kettz np-k220 kompjuteri-i-oprema sklopivo-postolje-stalak-za-projektor-kettz-np-k220 8605054706711"
     },
     {
-      "name": "ATX napajanje za PC 650W – UGD Power G650",
+      "name": "ATX napajanje za PC 650W 80 Plus – UGD Power G650",
       "slug": "atx-pc-napajanje-ugd-power-g650",
       "category": "kompjuteri-i-oprema",
       "brand": "UGD Power",
       "sku": "G650",
       "price_rsd": "4799",
       "img_thumb": "/images/products/atx-pc-napajanje-ugd-power-g650-01-thumb.webp",
-      "q_ascii": "atx napajanje za pc 650w – ugd power g650 ugd power g650 kompjuteri-i-oprema atx-pc-napajanje-ugd-power-g650 8606112328135"
+      "q_ascii": "atx napajanje za pc 650w 80 plus – ugd power g650 ugd power g650 kompjuteri-i-oprema atx-pc-napajanje-ugd-power-g650 8606112328135"
     },
     {
       "name": "Stoni nosač za monitore sa dve ruke – Gembird MA-DA2-05",
@@ -809,6 +809,56 @@
       "price_rsd": "799",
       "img_thumb": "/images/products/fiksni-zidni-tv-nosac-kettz-tvn-440f-01-thumb.webp",
       "q_ascii": "fiksni zidni nosac za tv 23-60\" do 50 kg – kettz tvn-440f kettz tvn-440f tv-i-video fiksni-zidni-tv-nosac-kettz-tvn-440f 8605054709200"
+    },
+    {
+      "name": "USB 3.0 docking stanica za 2.5\" i 3.5\" SATA hard diskove  – Gembird HD32-U3S-2",
+      "slug": "usb-docking-stanica-za-sata-hard-diskove-gembird-hd32-u3s-2",
+      "category": "kompjuteri-i-oprema",
+      "brand": "Gembird",
+      "sku": "HD32-U3S-2",
+      "price_rsd": "3099",
+      "img_thumb": "/images/products/usb-docking-stanica-za-sata-hard-diskove-gembird-hd32-u3s-2-01-thumb.webp",
+      "q_ascii": "usb 3.0 docking stanica za 2.5\" i 3.5\" sata hard diskove  – gembird hd32-u3s-2 gembird hd32-u3s-2 kompjuteri-i-oprema usb-docking-stanica-za-sata-hard-diskove-gembird-hd32-u3s-2 8716309084734"
+    },
+    {
+      "name": "Zglobni zidni nosač za TV 17-56\" do 30kg – Kettz TVN-6602",
+      "slug": "zglobni-zidni-tv-nosac-kettz-tvn-6602",
+      "category": "tv-i-video",
+      "brand": "Kettz",
+      "sku": "TVN-6602",
+      "price_rsd": "1499",
+      "img_thumb": "/images/products/zglobni-zidni-tv-nosac-kettz-tvn-6602-01-thumb.webp",
+      "q_ascii": "zglobni zidni nosac za tv 17-56\" do 30kg – kettz tvn-6602 kettz tvn-6602 tv-i-video zglobni-zidni-tv-nosac-kettz-tvn-6602 8605054704861"
+    },
+    {
+      "name": "Zglobni zidni nosač za TV 17-56\" do 30kg – Kettz TVN-6010",
+      "slug": "zglobni-zidni-tv-nosac-kettz-tvn-6010",
+      "category": "tv-i-video",
+      "brand": "Kettz",
+      "sku": "TVN-6010",
+      "price_rsd": "1569",
+      "img_thumb": "/images/products/zglobni-zidni-tv-nosac-kettz-tvn-6010-01-thumb.webp",
+      "q_ascii": "zglobni zidni nosac za tv 17-56\" do 30kg – kettz tvn-6010 kettz tvn-6010 tv-i-video zglobni-zidni-tv-nosac-kettz-tvn-6010 8605054709217"
+    },
+    {
+      "name": "Zglobni zidni nosač za TV 17-43\" do 25kg – Kettz TVN-6503",
+      "slug": "zglobni-zidni-tv-nosac-kettz-tvn-6503",
+      "category": "tv-i-video",
+      "brand": "Kettz",
+      "sku": "TVN-6503",
+      "price_rsd": "1469",
+      "img_thumb": "/images/products/zglobni-zidni-tv-nosac-kettz-tvn-6503-01-thumb.webp",
+      "q_ascii": "zglobni zidni nosac za tv 17-43\" do 25kg – kettz tvn-6503 kettz tvn-6503 tv-i-video zglobni-zidni-tv-nosac-kettz-tvn-6503 8605054704816"
+    },
+    {
+      "name": "ATX napajanje za PC 600W – UGD Power D600",
+      "slug": "atx-pc-napajanje-ugd-power-d600",
+      "category": "kompjuteri-i-oprema",
+      "brand": "UGD Power",
+      "sku": "D600",
+      "price_rsd": "3799",
+      "img_thumb": "/images/products/atx-pc-napajanje-ugd-power-d600-01-thumb.webp",
+      "q_ascii": "atx napajanje za pc 600w – ugd power d600 ugd power d600 kompjuteri-i-oprema atx-pc-napajanje-ugd-power-d600 8606112328128"
     }
   ]
 }

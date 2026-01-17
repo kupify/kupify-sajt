@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 33,
+  "total_products": 35,
   "page_size": 12,
   "products": [
     {
@@ -24,7 +24,17 @@
       "gtin13": "9780300520200"
     },
     {
-      "name": "ATX napajanje za PC 650W – UGD Power G650",
+      "name": "ATX napajanje za PC 600W – UGD Power D600",
+      "price_rsd": 3799,
+      "slug": "atx-pc-napajanje-ugd-power-d600",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/atx-pc-napajanje-ugd-power-d600-01-thumb.webp",
+      "brand": "UGD Power",
+      "sku": "D600",
+      "gtin13": "8606112328128"
+    },
+    {
+      "name": "ATX napajanje za PC 650W 80 Plus – UGD Power G650",
       "price_rsd": 4799,
       "slug": "atx-pc-napajanje-ugd-power-g650",
       "category": "kompjuteri-i-oprema",
@@ -312,6 +322,16 @@
       "brand": "Gembird",
       "sku": "MS-D1ST-04",
       "gtin13": "8716309135405"
+    },
+    {
+      "name": "USB 3.0 docking stanica za 2.5\" i 3.5\" SATA hard diskove  – Gembird HD32-U3S-2",
+      "price_rsd": 3099,
+      "slug": "usb-docking-stanica-za-sata-hard-diskove-gembird-hd32-u3s-2",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/usb-docking-stanica-za-sata-hard-diskove-gembird-hd32-u3s-2-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "HD32-U3S-2",
+      "gtin13": "8716309084734"
     },
     {
       "name": "Volan sa pedalama za PC – Gembird STR-ShockForce-II",

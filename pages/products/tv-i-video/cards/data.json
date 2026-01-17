@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 33,
+  "total_products": 36,
   "page_size": 12,
   "products": [
     {
@@ -54,7 +54,7 @@
       "gtin13": "8605054706766"
     },
     {
-      "name": "Plafonski nosač za TV 19-43\" sa punim pokretom –  Gembird CM-43ST-01",
+      "name": "Plafonski nosač za TV 19-43\" sa punim pokretom – Gembird CM-43ST-01",
       "price_rsd": 1999,
       "slug": "plafonski-nosac-za-tv-19-43-inca-gembird-cm-43st-01",
       "category": "tv-i-video",
@@ -272,6 +272,36 @@
       "brand": "Kettz",
       "sku": "TVN-5503",
       "gtin13": "8606018858374"
+    },
+    {
+      "name": "Zglobni zidni nosač za TV 17-43\" do 25kg – Kettz TVN-6503",
+      "price_rsd": 1469,
+      "slug": "zglobni-zidni-tv-nosac-kettz-tvn-6503",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/zglobni-zidni-tv-nosac-kettz-tvn-6503-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "TVN-6503",
+      "gtin13": "8605054704816"
+    },
+    {
+      "name": "Zglobni zidni nosač za TV 17-56\" do 30kg – Kettz TVN-6010",
+      "price_rsd": 1569,
+      "slug": "zglobni-zidni-tv-nosac-kettz-tvn-6010",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/zglobni-zidni-tv-nosac-kettz-tvn-6010-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "TVN-6010",
+      "gtin13": "8605054709217"
+    },
+    {
+      "name": "Zglobni zidni nosač za TV 17-56\" do 30kg – Kettz TVN-6602",
+      "price_rsd": 1499,
+      "slug": "zglobni-zidni-tv-nosac-kettz-tvn-6602",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/zglobni-zidni-tv-nosac-kettz-tvn-6602-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "TVN-6602",
+      "gtin13": "8605054704861"
     },
     {
       "name": "Zglobni zidni nosač za TV 32-58\" do 40 kg – Tuarex ALTA-652",
