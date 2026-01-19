@@ -1,8 +1,38 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 35,
+  "total_products": 40,
   "page_size": 12,
   "products": [
+    {
+      "name": "2-u-1 Čitač kartica SD i Micro SD (USB 3.0 + USB-C) – Ugreen CM185",
+      "price_rsd": 1399,
+      "slug": "citac-memorijskih-kartica-sd-micro-sd-ugreen-cm185",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/citac-memorijskih-kartica-sd-micro-sd-ugreen-cm185-01-thumb.webp",
+      "brand": "Ugreen",
+      "sku": "CM185 50706",
+      "gtin13": "6957303857067"
+    },
+    {
+      "name": "A-RGB ventilator kuler za PC kućište 120mm – DeepCool FC120",
+      "price_rsd": 2099,
+      "slug": "a-rgb-ventilator-kuler-za-pc-kuciste-deepcool-fc120",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/a-rgb-ventilator-kuler-za-pc-kuciste-deepcool-fc120-01-thumb.webp",
+      "brand": "DeepCool",
+      "sku": "FK120",
+      "gtin13": "6933412710554"
+    },
+    {
+      "name": "A-RGB ventilator kuler za PC kućište 120mm – DeepCool FL12 SE",
+      "price_rsd": 1699,
+      "slug": "a-rgb-ventilator-kuler-za-pc-kuciste-deepcool-fl12-se",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/a-rgb-ventilator-kuler-za-pc-kuciste-deepcool-fl12-se-01-thumb.webp",
+      "brand": "DeepCool",
+      "sku": "FL12 SE",
+      "gtin13": "6933412785309"
+    },
     {
       "name": "ATX Napajanje 500W za PC kompjuter – Gembird GMB-500-12",
       "price_rsd": 1599,
@@ -52,6 +82,16 @@
       "brand": "Gembird",
       "sku": "MUSW-4B-01-W",
       "gtin13": "8716309104159"
+    },
+    {
+      "name": "Dual-Bay SATA Docking stanica USB 3.0 za 2.5\" i 3.5\" HDD i SSD – Ugreen CM198",
+      "price_rsd": 4399,
+      "slug": "dual-bay-usb-docking-stanica-za-sata-hdd-ssd-ugreen-cm198",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/dual-bay-usb-docking-stanica-za-sata-hdd-ssd-ugreen-cm198-01-thumb.webp",
+      "brand": "Ugreen",
+      "sku": "CM198 50857",
+      "gtin13": "6957303858576"
     },
     {
       "name": "HD Web kamera 720p sa mikrofonom Gembird CAM83U",
@@ -332,6 +372,16 @@
       "brand": "Gembird",
       "sku": "HD32-U3S-2",
       "gtin13": "8716309084734"
+    },
+    {
+      "name": "USB čitač ID smart i SIM kartica Kettz KTZ-CR100A",
+      "price_rsd": 1199,
+      "slug": "usb-citac-id-smart-sim-kartica-kettz-ktz-cr100a",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/usb-citac-id-smart-sim-kartica-kettz-ktz-cr100a-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "KTZ-CR100A",
+      "gtin13": "8605054711555"
     },
     {
       "name": "Volan sa pedalama za PC – Gembird STR-ShockForce-II",

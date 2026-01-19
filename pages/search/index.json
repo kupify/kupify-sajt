@@ -859,6 +859,56 @@
       "price_rsd": "3799",
       "img_thumb": "/images/products/atx-pc-napajanje-ugd-power-d600-01-thumb.webp",
       "q_ascii": "atx napajanje za pc 600w – ugd power d600 ugd power d600 kompjuteri-i-oprema atx-pc-napajanje-ugd-power-d600 8606112328128"
+    },
+    {
+      "name": "A-RGB ventilator kuler za PC kućište 120mm – DeepCool FC120",
+      "slug": "a-rgb-ventilator-kuler-za-pc-kuciste-deepcool-fc120",
+      "category": "kompjuteri-i-oprema",
+      "brand": "DeepCool",
+      "sku": "FK120",
+      "price_rsd": "2099",
+      "img_thumb": "/images/products/a-rgb-ventilator-kuler-za-pc-kuciste-deepcool-fc120-01-thumb.webp",
+      "q_ascii": "a-rgb ventilator kuler za pc kuciste 120mm – deepcool fc120 deepcool fk120 kompjuteri-i-oprema a-rgb-ventilator-kuler-za-pc-kuciste-deepcool-fc120 6933412710554"
+    },
+    {
+      "name": "A-RGB ventilator kuler za PC kućište 120mm – DeepCool FL12 SE",
+      "slug": "a-rgb-ventilator-kuler-za-pc-kuciste-deepcool-fl12-se",
+      "category": "kompjuteri-i-oprema",
+      "brand": "DeepCool",
+      "sku": "FL12 SE",
+      "price_rsd": "1699",
+      "img_thumb": "/images/products/a-rgb-ventilator-kuler-za-pc-kuciste-deepcool-fl12-se-01-thumb.webp",
+      "q_ascii": "a-rgb ventilator kuler za pc kuciste 120mm – deepcool fl12 se deepcool fl12 se kompjuteri-i-oprema a-rgb-ventilator-kuler-za-pc-kuciste-deepcool-fl12-se 6933412785309"
+    },
+    {
+      "name": "Dual-Bay SATA Docking stanica USB 3.0 za 2.5\" i 3.5\" HDD i SSD – Ugreen CM198",
+      "slug": "dual-bay-usb-docking-stanica-za-sata-hdd-ssd-ugreen-cm198",
+      "category": "kompjuteri-i-oprema",
+      "brand": "Ugreen",
+      "sku": "CM198 50857",
+      "price_rsd": "4399",
+      "img_thumb": "/images/products/dual-bay-usb-docking-stanica-za-sata-hdd-ssd-ugreen-cm198-01-thumb.webp",
+      "q_ascii": "dual-bay sata docking stanica usb 3.0 za 2.5\" i 3.5\" hdd i ssd – ugreen cm198 ugreen cm198 50857 kompjuteri-i-oprema dual-bay-usb-docking-stanica-za-sata-hdd-ssd-ugreen-cm198 6957303858576"
+    },
+    {
+      "name": "2-u-1 Čitač kartica SD i Micro SD (USB 3.0 + USB-C) – Ugreen CM185",
+      "slug": "citac-memorijskih-kartica-sd-micro-sd-ugreen-cm185",
+      "category": "kompjuteri-i-oprema",
+      "brand": "Ugreen",
+      "sku": "CM185 50706",
+      "price_rsd": "1399",
+      "img_thumb": "/images/products/citac-memorijskih-kartica-sd-micro-sd-ugreen-cm185-01-thumb.webp",
+      "q_ascii": "2-u-1 citac kartica sd i micro sd (usb 3.0 + usb-c) – ugreen cm185 ugreen cm185 50706 kompjuteri-i-oprema citac-memorijskih-kartica-sd-micro-sd-ugreen-cm185 6957303857067"
+    },
+    {
+      "name": "USB čitač ID smart i SIM kartica Kettz KTZ-CR100A",
+      "slug": "usb-citac-id-smart-sim-kartica-kettz-ktz-cr100a",
+      "category": "kompjuteri-i-oprema",
+      "brand": "Kettz",
+      "sku": "KTZ-CR100A",
+      "price_rsd": "1199",
+      "img_thumb": "/images/products/usb-citac-id-smart-sim-kartica-kettz-ktz-cr100a-01-thumb.webp",
+      "q_ascii": "usb citac id smart i sim kartica kettz ktz-cr100a kettz ktz-cr100a kompjuteri-i-oprema usb-citac-id-smart-sim-kartica-kettz-ktz-cr100a 8605054711555"
     }
   ]
 }
