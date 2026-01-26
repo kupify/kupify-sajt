@@ -1,0 +1,27 @@
+{
+  "category": "elektronika-i-komponente",
+  "total_products": 2,
+  "page_size": 12,
+  "products": [
+    {
+      "name": "USB-C punjive AA baterije 1.5V Li-Ion 1400mAh – MediaRange MRBAT161 - 4 komada",
+      "price_rsd": 1499,
+      "slug": "punjive-aaa-baterije-usb-c-1-5-v-mediarange-mrbat161",
+      "category": "elektronika-i-komponente",
+      "img_thumb": "/images/products/punjive-aaa-baterije-usb-c-1-5-v-mediarange-mrbat161-01-thumb.webp",
+      "brand": "MediaRange",
+      "sku": "MRBAT161",
+      "gtin13": "4260664875840"
+    },
+    {
+      "name": "USB-C punjive AAA baterije 1.5V Li-Ion 500mAh – MediaRange MRBAT160 - 4 komada",
+      "price_rsd": 1499,
+      "slug": "punjive-aaa-baterije-usb-c-1-5-v-mediarange-mrbat160",
+      "category": "elektronika-i-komponente",
+      "img_thumb": "/images/products/punjive-aaa-baterije-usb-c-1-5-v-mediarange-mrbat160-01-thumb.webp",
+      "brand": "MediaRange",
+      "sku": "MRBAT160",
+      "gtin13": "4260664875826"
+    }
+  ]
+}

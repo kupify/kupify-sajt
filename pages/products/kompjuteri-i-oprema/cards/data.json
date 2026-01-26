@@ -74,7 +74,7 @@
       "gtin13": "8606112328135"
     },
     {
-      "name": "Bežični optički miš Gembird MUSW-4B-01-W",
+      "name": "Bežični optički miš 2.4 GHz 800-1600 DPI – Gembird MUSW-4B-01-W",
       "price_rsd": 599,
       "slug": "bezicni-opticki-mis-gembird-musw-4b-01-w",
       "category": "kompjuteri-i-oprema",
@@ -82,6 +82,16 @@
       "brand": "Gembird",
       "sku": "MUSW-4B-01-W",
       "gtin13": "8716309104159"
+    },
+    {
+      "name": "Bluetooth 5.3 Nano USB Adapter za PC - Cudy BU530",
+      "price_rsd": null,
+      "slug": "bluetooth-nano-usb-adapter-cudy-bu530",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/bluetooth-nano-usb-adapter-cudy-bu530-01-thumb.webp",
+      "brand": "Cudy",
+      "sku": "BU530",
+      "gtin13": "6971690793913"
     },
     {
       "name": "Dual-Bay SATA Docking stanica USB 3.0 za 2.5\" i 3.5\" HDD i SSD – Ugreen CM198",
@@ -244,16 +254,6 @@
       "gtin13": "8716309135245"
     },
     {
-      "name": "Sklopivo postolje - stalak za projektor Kettz NP-K220",
-      "price_rsd": 3799,
-      "slug": "sklopivo-postolje-stalak-za-projektor-kettz-np-k220",
-      "category": "kompjuteri-i-oprema",
-      "img_thumb": "/images/products/sklopivo-postolje-stalak-za-projektor-kettz-np-k220-01-thumb.webp",
-      "brand": "Kettz",
-      "sku": "NP-K220",
-      "gtin13": "8605054706711"
-    },
-    {
       "name": "Stoni držač za monitor 17-32\" sa jednom rukom – Gembird MA-D1-033",
       "price_rsd": 1899,
       "slug": "stoni-drzac-ruka-za-monitor-17-32-inca-gembird-ma-d1-033",
@@ -284,7 +284,7 @@
       "gtin13": "8716309100557"
     },
     {
-      "name": "Stoni nosač sa rukama za monitor i laptop Gembird MA-DA-03",
+      "name": "Stoni nosač sa rukama za monitor i laptop – Gembird MA-DA-03",
       "price_rsd": 4799,
       "slug": "stoni-nosac-za-monitor-laptop-gembird-ma-da-03",
       "category": "kompjuteri-i-oprema",
@@ -334,26 +334,6 @@
       "gtin13": "8716309127707"
     },
     {
-      "name": "Univerzalni plafonski nosač za projektor Kettz PN-K10",
-      "price_rsd": 2599,
-      "slug": "plafonski-nosac-za-projektor-kettz-pn-k10",
-      "category": "kompjuteri-i-oprema",
-      "img_thumb": "/images/products/plafonski-nosac-za-projektor-kettz-pn-k10-01-thumb.webp",
-      "brand": "Kettz",
-      "sku": "PN-K10",
-      "gtin13": "8605054706780"
-    },
-    {
-      "name": "Univerzalni plafonski nosač za projektor – Gembird CM-B-01",
-      "price_rsd": 1599,
-      "slug": "univerzalni-plafonski-nosac-za-projektor-gembird-cm-b-01",
-      "category": "kompjuteri-i-oprema",
-      "img_thumb": "/images/products/univerzalni-plafonski-nosac-za-projektor-gembird-cm-b-01-01-thumb.webp",
-      "brand": "Gembird",
-      "sku": "CM-B-01",
-      "gtin13": "8716309128070"
-    },
-    {
       "name": "Univerzalno stono postolje za monitor 13-32\" do 8 kg – Gembird MS-D1ST-04",
       "price_rsd": 2699,
       "slug": "univerzalno-stono-postolje-za-monitor-13-32-inca-gembird-ms-d1st-04",
@@ -362,6 +342,16 @@
       "brand": "Gembird",
       "sku": "MS-D1ST-04",
       "gtin13": "8716309135405"
+    },
+    {
+      "name": "USB 2.0 čitač svih tipova memorijskih kartica – Gembird FD2-ALLIN1-BLK",
+      "price_rsd": null,
+      "slug": "usb-2-0-univerzalni-citac-memorijskih-kartica-gembird-fd2-allin1-blk",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/usb-2-0-univerzalni-citac-memorijskih-kartica-gembird-fd2-allin1-blk-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "FD2-ALLIN1-BLK",
+      "gtin13": "9780201376944"
     },
     {
       "name": "USB 3.0 docking stanica za 2.5\" i 3.5\" SATA hard diskove  – Gembird HD32-U3S-2",
@@ -392,6 +382,16 @@
       "brand": "Gembird",
       "sku": "STR-ShockForce-II",
       "gtin13": "11223355669"
+    },
+    {
+      "name": "Zidni nosač - ruka za monitor 17-27“ do 7 kg – Gembird MA-WA1-02",
+      "price_rsd": 3899,
+      "slug": "zidni-nosac-ruka-za-monitor-gembird-ma-wa1-02",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/zidni-nosac-ruka-za-monitor-gembird-ma-wa1-02-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MA-WA1-02",
+      "gtin13": "8716309126113"
     },
     {
       "name": "Zidni zglobni nosač za monitor 13-27\" – Kettz TVN-4003",

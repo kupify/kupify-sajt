@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 36,
+  "total_products": 41,
   "page_size": 12,
   "products": [
     {
@@ -84,6 +84,16 @@
       "gtin13": "8606018839728"
     },
     {
+      "name": "Plafonski zglobni nosač za projektor – Nedis PJCM100BK",
+      "price_rsd": 1799,
+      "slug": "plafonski-zglobni-nosac-projektora-nedis-pjcm100bk",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/plafonski-zglobni-nosac-projektora-nedis-pjcm100bk-01-thumb.webp",
+      "brand": "Nedis",
+      "sku": "PJCM100BK",
+      "gtin13": "5412810274239"
+    },
+    {
       "name": "Podni stalak – postolje za TV 32-55\" Kettz TVN-K3255",
       "price_rsd": 5999,
       "slug": "stalak-za-tv-podni-kettz-tvn-K3255",
@@ -92,6 +102,16 @@
       "brand": "Kettz",
       "sku": "TVN-K3255",
       "gtin13": "8605054706810"
+    },
+    {
+      "name": "Sklopivo postolje - stalak za projektor Kettz NP-K220",
+      "price_rsd": 3799,
+      "slug": "sklopivo-postolje-projektora-kettz-np-k220",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/sklopivo-postolje-projektora-kettz-np-k220-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "NP-K220",
+      "gtin13": "8605054706711"
     },
     {
       "name": "Sobna ili spoljna TV antena sa 10m kabla – Kettz DT-K090",
@@ -234,6 +254,26 @@
       "gtin13": "8716309135115"
     },
     {
+      "name": "Univerzalni plafonski nosač za projektor – Gembird CM-B-01",
+      "price_rsd": 1599,
+      "slug": "plafonski-nosac-projektora-gembird-cm-b-01",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/plafonski-nosac-projektora-gembird-cm-b-01-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "CM-B-01",
+      "gtin13": "8716309128070"
+    },
+    {
+      "name": "Univerzalni plafonski nosač za projektor – Kettz PN-K10",
+      "price_rsd": 2599,
+      "slug": "plafonski-nosac-projektora-kettz-pn-k10",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/plafonski-nosac-projektora-kettz-pn-k10-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "PN-K10",
+      "gtin13": "8605054706780"
+    },
+    {
       "name": "Zglobni nosač za TV 37-80\" do 40 kg – Gembird WM-80ST-033",
       "price_rsd": 2399,
       "slug": "zglobni-tv-nosac-37-80-inca-gembird-wm-80st-033",
@@ -302,6 +342,16 @@
       "brand": "Kettz",
       "sku": "TVN-6602",
       "gtin13": "8605054704861"
+    },
+    {
+      "name": "Zglobni zidni nosač za TV 26-55\" do 45 kg – Gembird WM-55RT-08",
+      "price_rsd": 1699,
+      "slug": "zglobni-zidni-tv-nosac-gembird-wm-55rt-08",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/zglobni-zidni-tv-nosac-gembird-wm-55rt-08-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "WM-55RT-08",
+      "gtin13": "8607864612312"
     },
     {
       "name": "Zglobni zidni nosač za TV 32-58\" do 40 kg – Tuarex ALTA-652",
