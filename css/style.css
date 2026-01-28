@@ -217,7 +217,7 @@ header {
     letter-spacing: 0.10rem;
     color: rgb(var(--text-mid));
     animation: fadeIn 3s ease forwards;
-    text-align: center;
+    text-align: left;
 
 }
 
@@ -650,7 +650,21 @@ div.tekst-lista {
     border-image: linear-gradient(to right, rgba(var(--brand-accent), 0.3), rgba(var(--brand-accent), 0.8));
     border-image-slice: 1;
     padding-bottom: 0.3rem;
+}
 
+.tekst-lista a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+.tekst-lista a:hover {
+    color: rgb(var(--brand-teal));
+}
+.tekst-lista a:focus-visible {
+    outline: 2px solid rgba(var(--brand-teal), 0.2);
+    outline-offset: 2px;
+    border-radius: 6px;
 }
 
 /* Mapa */
@@ -1041,17 +1055,17 @@ div.tekst-lista {
 .product-page-gallery .thumbnails {
     display: flex;
     justify-content: center;
-    gap: 0.3rem;
-    margin-top: 0.75rem;
-    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+    flex-wrap: nowrap;
 }
 
 .product-page-gallery .thumbnails img {
     box-sizing: border-box;
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
-    margin: 0 5px;
+    margin: 0;
     cursor: pointer;
     border-radius: 0.3rem;
     border: 1px solid rgba(0, 0, 0, 0.1);
@@ -1288,7 +1302,7 @@ div.tekst-lista {
 .trust-root {
     margin: 0rem auto 4rem;
     max-width: 35rem;
-    padding-top: 1rem;
+    padding-top: 0.7rem;
     padding-bottom: 1rem;
     background: rgba(255, 255, 255, 0.8);
     border-radius: 10px;
@@ -1497,10 +1511,16 @@ div.tekst-lista {
         gap: 0px;
     }
 
+    .product-page-gallery .thumbnails {
+    gap: 0.6rem;
+    margin-top: 1rem;
+    
+}
+
     .product-page-gallery .thumbnails img {
         width: 60px;
         height: 60px;
-        margin: 0 4px;
+        margin: 0;
     }
 
     .product-page-gallery .gallery-arrow {
@@ -1519,8 +1539,6 @@ div.tekst-lista {
 
     .delivery-block ul {
         margin: 0.3rem 0 0.6rem;
-
-
     }
 
     .delivery-block li {
