@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 40,
+  "total_products": 41,
   "page_size": 12,
   "products": [
     {
@@ -34,11 +34,11 @@
       "gtin13": "6933412785309"
     },
     {
-      "name": "ATX Napajanje 500W za PC kompjuter – Gembird GMB-500-12",
+      "name": "ATX napajanje za PC 500W – Gembird GMB-500-12",
       "price_rsd": 1599,
-      "slug": "atx-napajanje-500w-za-pc-kompjuter-gembird-gmb-500-12",
+      "slug": "atx-pc-napajanje-500w-gembird-gmb-500-12",
       "category": "kompjuteri-i-oprema",
-      "img_thumb": "/images/products/atx-napajanje-500w-za-pc-kompjuter-gembird-gmb-500-12-01-thumb.webp",
+      "img_thumb": "/images/products/atx-pc-napajanje-500w-gembird-gmb-500-12-01-thumb.webp",
       "brand": "Gembird",
       "sku": "GMB-500-12",
       "gtin13": "6945398958468"
@@ -72,6 +72,16 @@
       "brand": "UGD Power",
       "sku": "G650",
       "gtin13": "8606112328135"
+    },
+    {
+      "name": "ATX napajanje za PC 650W – Gembird GMB-650-12",
+      "price_rsd": 2799,
+      "slug": "atx-pc-napajanje-650w-gembird-gmb-650-12",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/atx-pc-napajanje-650w-gembird-gmb-650-12-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "GMB-650-12",
+      "gtin13": "6945398958472"
     },
     {
       "name": "Bežični optički miš 2.4 GHz 800-1600 DPI – Gembird MUSW-4B-01-W",
@@ -112,16 +122,6 @@
       "brand": "Gembird",
       "sku": "CAM83U",
       "gtin13": "4711421695152"
-    },
-    {
-      "name": "Napajanje za PC kompjuter 650W – Gembird GMB-650-12",
-      "price_rsd": 2799,
-      "slug": "napajanje-za-pc-650w-gembird-gmb-650-12",
-      "category": "kompjuteri-i-oprema",
-      "img_thumb": "/images/products/napajanje-za-pc-650w-gembird-gmb-650-12-01-thumb.webp",
-      "brand": "Gembird",
-      "sku": "GMB-650-12",
-      "gtin13": "6945398958472"
     },
     {
       "name": "Podesivi dupli stoni nosač za 2 monitora – Gembird MA-D2-03",
@@ -364,11 +364,21 @@
       "gtin13": "8716309084734"
     },
     {
-      "name": "USB čitač ID smart i SIM kartica Kettz KTZ-CR100A",
-      "price_rsd": 1199,
-      "slug": "usb-citac-id-smart-sim-kartica-kettz-ktz-cr100a",
+      "name": "USB čitač za lične karte i saobraćajne dozvole – Gembird CRDR-CT400",
+      "price_rsd": 1299,
+      "slug": "usb-citac-licnih-karata-gembird-crdr-ct400",
       "category": "kompjuteri-i-oprema",
-      "img_thumb": "/images/products/usb-citac-id-smart-sim-kartica-kettz-ktz-cr100a-01-thumb.webp",
+      "img_thumb": "/images/products/usb-citac-licnih-karata-gembird-crdr-ct400-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "CRDR-CT400",
+      "gtin13": "8609252403724"
+    },
+    {
+      "name": "USB čitač za lične karte, saobraćajne dozvole i SIM kartice – Kettz KTZ-CR100A",
+      "price_rsd": 1199,
+      "slug": "usb-citac-licnih-karata-sim-kartica-kettz-ktz-cr100a",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/usb-citac-licnih-karata-sim-kartica-kettz-ktz-cr100a-01-thumb.webp",
       "brand": "Kettz",
       "sku": "KTZ-CR100A",
       "gtin13": "8605054711555"

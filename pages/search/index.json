@@ -371,14 +371,14 @@
       "q_ascii": "zidni nosac za tv 43-90“ sa nagibom – gembird wm-90t-01 gembird wm-90t-01 tv-i-video zidni-nosac-za-tv-43-90-inca-sa-nagibom-gembird-wm-90t-01 8716309126182"
     },
     {
-      "name": "Napajanje za PC kompjuter 650W – Gembird GMB-650-12",
-      "slug": "napajanje-za-pc-650w-gembird-gmb-650-12",
+      "name": "ATX napajanje za PC 650W – Gembird GMB-650-12",
+      "slug": "atx-pc-napajanje-650w-gembird-gmb-650-12",
       "category": "kompjuteri-i-oprema",
       "brand": "Gembird",
       "sku": "GMB-650-12",
       "price_rsd": "2799",
-      "img_thumb": "/images/products/napajanje-za-pc-650w-gembird-gmb-650-12-01-thumb.webp",
-      "q_ascii": "napajanje za pc kompjuter 650w – gembird gmb-650-12 gembird gmb-650-12 kompjuteri-i-oprema napajanje-za-pc-650w-gembird-gmb-650-12 6945398958472"
+      "img_thumb": "/images/products/atx-pc-napajanje-650w-gembird-gmb-650-12-01-thumb.webp",
+      "q_ascii": "atx napajanje za pc 650w – gembird gmb-650-12 gembird gmb-650-12 kompjuteri-i-oprema atx-pc-napajanje-650w-gembird-gmb-650-12 6945398958472"
     },
     {
       "name": "Velika grickalica za zadebljane i urasle nokte – otvor sekača 15 mm",
@@ -631,14 +631,14 @@
       "q_ascii": "zglobni zidni nosac za tv 17-43\" do 25kg – kettz tvn-5503 kettz tvn-5503 tv-i-video zglobni-zidni-nosac-za-tv-kettz-tvn-5503 8606018858374"
     },
     {
-      "name": "ATX Napajanje 500W za PC kompjuter – Gembird GMB-500-12",
-      "slug": "atx-napajanje-500w-za-pc-kompjuter-gembird-gmb-500-12",
+      "name": "ATX napajanje za PC 500W – Gembird GMB-500-12",
+      "slug": "atx-pc-napajanje-500w-gembird-gmb-500-12",
       "category": "kompjuteri-i-oprema",
       "brand": "Gembird",
       "sku": "GMB-500-12",
       "price_rsd": "1599",
-      "img_thumb": "/images/products/atx-napajanje-500w-za-pc-kompjuter-gembird-gmb-500-12-01-thumb.webp",
-      "q_ascii": "atx napajanje 500w za pc kompjuter – gembird gmb-500-12 gembird gmb-500-12 kompjuteri-i-oprema atx-napajanje-500w-za-pc-kompjuter-gembird-gmb-500-12 6945398958468"
+      "img_thumb": "/images/products/atx-pc-napajanje-500w-gembird-gmb-500-12-01-thumb.webp",
+      "q_ascii": "atx napajanje za pc 500w – gembird gmb-500-12 gembird gmb-500-12 kompjuteri-i-oprema atx-pc-napajanje-500w-gembird-gmb-500-12 6945398958468"
     },
     {
       "name": "Zidni nosač sa nagibom za TV 15-42\" do 20 kg – Gembird WM-42T-05",
@@ -901,14 +901,14 @@
       "q_ascii": "2-u-1 citac kartica sd i micro sd (usb 3.0 + usb-c) – ugreen cm185 ugreen cm185 50706 kompjuteri-i-oprema citac-memorijskih-kartica-sd-micro-sd-ugreen-cm185 6957303857067"
     },
     {
-      "name": "USB čitač ID smart i SIM kartica Kettz KTZ-CR100A",
-      "slug": "usb-citac-id-smart-sim-kartica-kettz-ktz-cr100a",
+      "name": "USB čitač za lične karte, saobraćajne dozvole i SIM kartice – Kettz KTZ-CR100A",
+      "slug": "usb-citac-licnih-karata-sim-kartica-kettz-ktz-cr100a",
       "category": "kompjuteri-i-oprema",
       "brand": "Kettz",
       "sku": "KTZ-CR100A",
       "price_rsd": "1199",
-      "img_thumb": "/images/products/usb-citac-id-smart-sim-kartica-kettz-ktz-cr100a-01-thumb.webp",
-      "q_ascii": "usb citac id smart i sim kartica kettz ktz-cr100a kettz ktz-cr100a kompjuteri-i-oprema usb-citac-id-smart-sim-kartica-kettz-ktz-cr100a 8605054711555"
+      "img_thumb": "/images/products/usb-citac-licnih-karata-sim-kartica-kettz-ktz-cr100a-01-thumb.webp",
+      "q_ascii": "usb citac za licne karte, saobracajne dozvole i sim kartice – kettz ktz-cr100a kettz ktz-cr100a kompjuteri-i-oprema usb-citac-licnih-karata-sim-kartica-kettz-ktz-cr100a 8605054711555"
     },
     {
       "name": "USB-C punjive AA baterije 1.5V Li-Ion 1400mAh – MediaRange MRBAT161 - 4 komada",
@@ -979,6 +979,26 @@
       "price_rsd": "599",
       "img_thumb": "/images/products/usb-2-0-univerzalni-citac-memorijskih-kartica-gembird-fd2-allin1-blk-01-thumb.webp",
       "q_ascii": "usb 2.0 citac svih tipova memorijskih kartica – gembird fd2-allin1-blk gembird fd2-allin1-blk kompjuteri-i-oprema usb-2-0-univerzalni-citac-memorijskih-kartica-gembird-fd2-allin1-blk 9780201376944"
+    },
+    {
+      "name": "Komplet univerzalnih klizača za popravku rajfešlusa 3 veličine – 6 komada",
+      "slug": "komplet-univerzalnih-klizaca-za-popravku-rajfeslusa",
+      "category": "alati-i-orudja",
+      "brand": "Kupify",
+      "sku": "",
+      "price_rsd": "699",
+      "img_thumb": "/images/products/komplet-univerzalnih-klizaca-za-popravku-rajfeslusa-01-thumb.webp",
+      "q_ascii": "komplet univerzalnih klizaca za popravku rajfeslusa 3 velicine – 6 komada kupify alati-i-orudja komplet-univerzalnih-klizaca-za-popravku-rajfeslusa"
+    },
+    {
+      "name": "USB čitač za lične karte i saobraćajne dozvole – Gembird CRDR-CT400",
+      "slug": "usb-citac-licnih-karata-gembird-crdr-ct400",
+      "category": "kompjuteri-i-oprema",
+      "brand": "Gembird",
+      "sku": "CRDR-CT400",
+      "price_rsd": "1299",
+      "img_thumb": "/images/products/usb-citac-licnih-karata-gembird-crdr-ct400-01-thumb.webp",
+      "q_ascii": "usb citac za licne karte i saobracajne dozvole – gembird crdr-ct400 gembird crdr-ct400 kompjuteri-i-oprema usb-citac-licnih-karata-gembird-crdr-ct400 8609252403724"
     }
   ]
 }
