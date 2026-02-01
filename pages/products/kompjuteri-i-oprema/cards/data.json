@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 41,
+  "total_products": 43,
   "page_size": 12,
   "products": [
     {
@@ -362,6 +362,26 @@
       "brand": "Gembird",
       "sku": "HD32-U3S-2",
       "gtin13": "8716309084734"
+    },
+    {
+      "name": "USB 3.0 eksterno kućište za M.2 SATA SSD NGFF – Gembird EE2280-U3C-01",
+      "price_rsd": 1699,
+      "slug": "usb-3-0-eksterno-kuciste-m2-sata-ssd-gembird-ee2280-u3c-01",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/usb-3-0-eksterno-kuciste-m2-sata-ssd-gembird-ee2280-u3c-01-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "EE2280-U3C-01",
+      "gtin13": "8716309100823"
+    },
+    {
+      "name": "USB čitač za lične karte i memorijske kartice – Gembird CRDR-CT405",
+      "price_rsd": 1699,
+      "slug": "usb-citac-licne-karte-memorijske-kartice-gembird-crdr-ct405",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/usb-citac-licne-karte-memorijske-kartice-gembird-crdr-ct405-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "CRDR-CT405",
+      "gtin13": "8609262521326"
     },
     {
       "name": "USB čitač za lične karte i saobraćajne dozvole – Gembird CRDR-CT400",
