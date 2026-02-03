@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 43,
+  "total_products": 45,
   "page_size": 12,
   "products": [
     {
@@ -94,6 +94,16 @@
       "gtin13": "8716309104159"
     },
     {
+      "name": "Bluetooth 5.0 USB adapter za PC ili Laptop – Gembird BTD-MINI8",
+      "price_rsd": 799,
+      "slug": "bluetooth-5-0-usb-adapter-gembird-btd-mini8",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/bluetooth-5-0-usb-adapter-gembird-btd-mini8-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "BTD-MINI8",
+      "gtin13": "8601872452342"
+    },
+    {
       "name": "Bluetooth 5.3 Nano USB Adapter za PC - Cudy BU530",
       "price_rsd": 999,
       "slug": "bluetooth-nano-usb-adapter-cudy-bu530",
@@ -112,6 +122,16 @@
       "brand": "Ugreen",
       "sku": "CM198 50857",
       "gtin13": "6957303858576"
+    },
+    {
+      "name": "Eksterna USB zvučna kartica za PC ili Laptop – Gembird Virtus Plus SC-USB2.0-01",
+      "price_rsd": 799,
+      "slug": "eksterna-usb-zvucna-kartica-gembird-virtus-plus-sc-usb2-0-01",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/eksterna-usb-zvucna-kartica-gembird-virtus-plus-sc-usb2-0-01-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "Virtus Plus SC-USB2.0-01",
+      "gtin13": "8716309100441"
     },
     {
       "name": "HD Web kamera 720p sa mikrofonom Gembird CAM83U",

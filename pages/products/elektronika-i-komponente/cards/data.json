@@ -1,8 +1,18 @@
 {
   "category": "elektronika-i-komponente",
-  "total_products": 2,
+  "total_products": 3,
   "page_size": 12,
   "products": [
+    {
+      "name": "2 u 1 - USB brzi punjač za AA, AAA, 18650 baterije sa Powerbank funkcijom – Gembird BC-USB-02",
+      "price_rsd": 2999,
+      "slug": "usb-brzi-punjac-za-baterije-powerbank-gembird-bc-usb-02",
+      "category": "elektronika-i-komponente",
+      "img_thumb": "/images/products/usb-brzi-punjac-za-baterije-powerbank-gembird-bc-usb-02-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "BC-USB-02",
+      "gtin13": "8716309121064"
+    },
     {
       "name": "USB-C punjive AA baterije 1.5V Li-Ion 1400mAh – MediaRange MRBAT161 - 4 komada",
       "price_rsd": 1499,
