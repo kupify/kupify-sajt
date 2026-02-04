@@ -276,7 +276,7 @@
       "category": "kompjuteri-i-oprema",
       "brand": "Gembird",
       "sku": "MA-D1-02",
-      "price_rsd": "1779",
+      "price_rsd": "1799",
       "img_thumb": "/images/products/podesivi-nosac-ruka-za-monitor-gembird-ma-d1-02-01-thumb.webp",
       "q_ascii": "podesivi stoni nosac – ruka drzac za monitor 17-32\" gembird ma-d1-02 gembird ma-d1-02 kompjuteri-i-oprema podesivi-nosac-ruka-za-monitor-gembird-ma-d1-02 8716309127561"
     },
@@ -1049,6 +1049,26 @@
       "price_rsd": "799",
       "img_thumb": "/images/products/bluetooth-5-0-usb-adapter-gembird-btd-mini8-01-thumb.webp",
       "q_ascii": "bluetooth 5.0 usb adapter za pc ili laptop – gembird btd-mini8 gembird btd-mini8 kompjuteri-i-oprema bluetooth-5-0-usb-adapter-gembird-btd-mini8 8601872452342"
+    },
+    {
+      "name": "Spoljna TV antena Mini Loga 39cm, 6dB – Gembird GMB-20E",
+      "slug": "spoljna-tv-antena-mini-loga-gembird-gmb-20e",
+      "category": "tv-i-video",
+      "brand": "Gembird",
+      "sku": "GMB-20E",
+      "price_rsd": "839",
+      "img_thumb": "/images/products/spoljna-tv-antena-mini-loga-gembird-gmb-20e-01-thumb.webp",
+      "q_ascii": "spoljna tv antena mini loga 39cm, 6db – gembird gmb-20e gembird gmb-20e tv-i-video spoljna-tv-antena-mini-loga-gembird-gmb-20e 9780111220191"
+    },
+    {
+      "name": "Spoljna TV antena Loga 84cm 12dB – Gembird GMB-2814R",
+      "slug": "spoljna-tv-antena-loga-gembird-gmb-2814r",
+      "category": "tv-i-video",
+      "brand": "Gembird",
+      "sku": "GMB-2814R",
+      "price_rsd": "1199",
+      "img_thumb": "/images/products/spoljna-tv-antena-loga-gembird-gmb-2814r-01-thumb.webp",
+      "q_ascii": "spoljna tv antena loga 84cm 12db – gembird gmb-2814r gembird gmb-2814r tv-i-video spoljna-tv-antena-loga-gembird-gmb-2814r 9780111224199"
     }
   ]
 }

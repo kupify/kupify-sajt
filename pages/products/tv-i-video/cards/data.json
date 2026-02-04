@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 41,
+  "total_products": 43,
   "page_size": 12,
   "products": [
     {
@@ -212,6 +212,26 @@
       "brand": "Vega",
       "sku": "ANT-408AL",
       "gtin13": "3856001016260"
+    },
+    {
+      "name": "Spoljna TV antena Loga 84cm 12dB – Gembird GMB-2814R",
+      "price_rsd": 1199,
+      "slug": "spoljna-tv-antena-loga-gembird-gmb-2814r",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/spoljna-tv-antena-loga-gembird-gmb-2814r-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "GMB-2814R",
+      "gtin13": "9780111224199"
+    },
+    {
+      "name": "Spoljna TV antena Mini Loga 39cm, 6dB – Gembird GMB-20E",
+      "price_rsd": 839,
+      "slug": "spoljna-tv-antena-mini-loga-gembird-gmb-20e",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/spoljna-tv-antena-mini-loga-gembird-gmb-20e-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "GMB-20E",
+      "gtin13": "9780111220191"
     },
     {
       "name": "Spoljna TV/FM antena Midi Loga sa RF konektorom – Kettz AS-K020",
