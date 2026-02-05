@@ -641,7 +641,7 @@ div.tekst-lista {
 
 .tekst-lista h2 {
     font-size: 1.15rem;
-    font-weight: 600;
+    font-weight: 650;
     color: rgb(var(--text-dark));
     margin-top: 2rem;
     margin-bottom: 0.5rem;
@@ -650,6 +650,14 @@ div.tekst-lista {
     border-image: linear-gradient(to right, rgba(var(--brand-accent), 0.3), rgba(var(--brand-accent), 0.8));
     border-image-slice: 1;
     padding-bottom: 0.3rem;
+}
+
+.tekst-lista strong {
+    display: inline-block;
+    font-weight: 650;
+    font-size: 0.95rem;
+    text-transform: none;
+    color: rgb(var(--text-mid));
 }
 
 .tekst-lista a {
