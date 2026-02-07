@@ -1,8 +1,18 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 45,
+  "total_products": 47,
   "page_size": 12,
   "products": [
+    {
+      "name": "2-u-1 Fleš memorija 128GB (USB 3.2, Type-C + USB-A) – MediaRange MR938",
+      "price_rsd": 2099,
+      "slug": "usb-a-usb-c-fles-memorija-128gb-mediarange-mr938",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/usb-a-usb-c-fles-memorija-128gb-mediarange-mr938-01-thumb.webp",
+      "brand": "MediaRange",
+      "sku": "MR938",
+      "gtin13": "4260664870791"
+    },
     {
       "name": "2-u-1 Čitač kartica SD i Micro SD (USB 3.0 + USB-C) – Ugreen CM185",
       "price_rsd": 1399,
@@ -272,6 +282,15 @@
       "brand": "Gembird",
       "sku": "MS-D2ST-01",
       "gtin13": "8716309135245"
+    },
+    {
+      "name": "Shockproof eksterno kućište za 2.5\" HDD i SSD (USB 3.0) – Silicon Power Armor A30",
+      "price_rsd": 1699,
+      "slug": "eksterno-kuciste-2-5-inca-hdd-ssd-usb-3-0-silicon-power-armor-a30",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/eksterno-kuciste-2-5-inca-hdd-ssd-usb-3-0-silicon-power-armor-a30-01-thumb.webp",
+      "brand": "Silicon Power",
+      "sku": "Armor A30"
     },
     {
       "name": "Stoni držač za monitor 17-32\" sa jednom rukom – Gembird MA-D1-033",

@@ -1069,6 +1069,36 @@
       "price_rsd": "1199",
       "img_thumb": "/images/products/spoljna-tv-antena-loga-gembird-gmb-2814r-01-thumb.webp",
       "q_ascii": "spoljna tv antena loga 84cm 12db – gembird gmb-2814r gembird gmb-2814r tv-i-video spoljna-tv-antena-loga-gembird-gmb-2814r 9780111224199"
+    },
+    {
+      "name": "2-u-1 Fleš memorija 128GB (USB 3.2, Type-C + USB-A) – MediaRange MR938",
+      "slug": "usb-a-usb-c-fles-memorija-128gb-mediarange-mr938",
+      "category": "kompjuteri-i-oprema",
+      "brand": "MediaRange",
+      "sku": "MR938",
+      "price_rsd": "2099",
+      "img_thumb": "/images/products/usb-a-usb-c-fles-memorija-128gb-mediarange-mr938-01-thumb.webp",
+      "q_ascii": "2-u-1 fles memorija 128gb (usb 3.2, type-c + usb-a) – mediarange mr938 mediarange mr938 kompjuteri-i-oprema usb-a-usb-c-fles-memorija-128gb-mediarange-mr938 4260664870791"
+    },
+    {
+      "name": "Shockproof eksterno kućište za 2.5\" HDD i SSD (USB 3.0) – Silicon Power Armor A30",
+      "slug": "eksterno-kuciste-2-5-inca-hdd-ssd-usb-3-0-silicon-power-armor-a30",
+      "category": "kompjuteri-i-oprema",
+      "brand": "Silicon Power",
+      "sku": "Armor A30",
+      "price_rsd": "1699",
+      "img_thumb": "/images/products/eksterno-kuciste-2-5-inca-hdd-ssd-usb-3-0-silicon-power-armor-a30-01-thumb.webp",
+      "q_ascii": "shockproof eksterno kuciste za 2.5\" hdd i ssd (usb 3.0) – silicon power armor a30 silicon power armor a30 kompjuteri-i-oprema eksterno-kuciste-2-5-inca-hdd-ssd-usb-3-0-silicon-power-armor-a30"
+    },
+    {
+      "name": "AA punjive baterije 2500mAh NiMH (4 komada) – Verbatim HR6 49517",
+      "slug": "punjive-baterije-aa-nimh-verbatim-hr6-49517",
+      "category": "elektronika-i-komponente",
+      "brand": "Verbatim",
+      "sku": "HR6 49517",
+      "price_rsd": "1399",
+      "img_thumb": "/images/products/punjive-baterije-aa-nimh-verbatim-hr6-49517-01-thumb.webp",
+      "q_ascii": "aa punjive baterije 2500mah nimh (4 komada) – verbatim hr6 49517 verbatim hr6 49517 elektronika-i-komponente punjive-baterije-aa-nimh-verbatim-hr6-49517 23942495178"
     }
   ]
 }

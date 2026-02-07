@@ -1,6 +1,6 @@
 {
   "category": "elektronika-i-komponente",
-  "total_products": 3,
+  "total_products": 4,
   "page_size": 12,
   "products": [
     {
@@ -12,6 +12,16 @@
       "brand": "Gembird",
       "sku": "BC-USB-02",
       "gtin13": "8716309121064"
+    },
+    {
+      "name": "AA punjive baterije 2500mAh NiMH (4 komada) – Verbatim HR6 49517",
+      "price_rsd": 1399,
+      "slug": "punjive-baterije-aa-nimh-verbatim-hr6-49517",
+      "category": "elektronika-i-komponente",
+      "img_thumb": "/images/products/punjive-baterije-aa-nimh-verbatim-hr6-49517-01-thumb.webp",
+      "brand": "Verbatim",
+      "sku": "HR6 49517",
+      "gtin13": "23942495178"
     },
     {
       "name": "USB-C punjive AA baterije 1.5V Li-Ion 1400mAh – MediaRange MRBAT161 - 4 komada",
