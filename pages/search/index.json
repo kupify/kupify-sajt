@@ -1099,6 +1099,56 @@
       "price_rsd": "1399",
       "img_thumb": "/images/products/punjive-baterije-aa-nimh-verbatim-hr6-49517-01-thumb.webp",
       "q_ascii": "aa punjive baterije 2500mah nimh (4 komada) – verbatim hr6 49517 verbatim hr6 49517 elektronika-i-komponente punjive-baterije-aa-nimh-verbatim-hr6-49517 23942495178"
+    },
+    {
+      "name": "AAA punjive baterije 950mAh NiMH (4 komada) – Verbatim HR3 49514",
+      "slug": "punjive-baterije-aaa-nimh-verbatim-hr3-49517",
+      "category": "elektronika-i-komponente",
+      "brand": "Verbatim",
+      "sku": "HR3 49514",
+      "price_rsd": "799",
+      "img_thumb": "/images/products/punjive-baterije-aaa-nimh-verbatim-hr3-49517-01-thumb.webp",
+      "q_ascii": "aaa punjive baterije 950mah nimh (4 komada) – verbatim hr3 49514 verbatim hr3 49514 elektronika-i-komponente punjive-baterije-aaa-nimh-verbatim-hr3-49517 23942495147"
+    },
+    {
+      "name": "Memorijska kartica 64GB microSDXC + SD adapter (U3/V30) – Verbatim 47042",
+      "slug": "memorijska-kartica-64gb-microsdxc-verbatim-pro-47042",
+      "category": "foto-aparati-i-kamere",
+      "brand": "Verbatim",
+      "sku": "47042",
+      "price_rsd": "1799",
+      "img_thumb": "/images/products/memorijska-kartica-64gb-microsdxc-verbatim-pro-47042-01-thumb.webp",
+      "q_ascii": "memorijska kartica 64gb microsdxc + sd adapter (u3/v30) – verbatim 47042 verbatim 47042 foto-aparati-i-kamere memorijska-kartica-64gb-microsdxc-verbatim-pro-47042 23942470427"
+    },
+    {
+      "name": "Memorijska kartica 128GB microSDXC + SD adapter (U3/V30) – Verbatim 47044",
+      "slug": "memorijska-kartica-128gb-microsdxc-verbatim-pro-47044",
+      "category": "foto-aparati-i-kamere",
+      "brand": "Verbatim",
+      "sku": "47044",
+      "price_rsd": "3499",
+      "img_thumb": "/images/products/memorijska-kartica-128gb-microsdxc-verbatim-pro-47044-01-thumb.webp",
+      "q_ascii": "memorijska kartica 128gb microsdxc + sd adapter (u3/v30) – verbatim 47044 verbatim 47044 foto-aparati-i-kamere memorijska-kartica-128gb-microsdxc-verbatim-pro-47044 23942470441"
+    },
+    {
+      "name": "Memorijska kartica 16GB microSDHC + SD adapter (Class 10 / U1) – Verbatim 44082",
+      "slug": "memorijska-kartica-16gb-microsdhc-verbatim-44082",
+      "category": "foto-aparati-i-kamere",
+      "brand": "Verbatim",
+      "sku": "44082",
+      "price_rsd": "899",
+      "img_thumb": "/images/products/memorijska-kartica-16gb-microsdhc-verbatim-44082-01-thumb.webp",
+      "q_ascii": "memorijska kartica 16gb microsdhc + sd adapter (class 10 / u1) – verbatim 44082 verbatim 44082 foto-aparati-i-kamere memorijska-kartica-16gb-microsdhc-verbatim-44082 23942440826"
+    },
+    {
+      "name": "Memorijska kartica 128GB microSDXC + SD adapter (Class 10 / U1) – MediaRange MR945",
+      "slug": "memorijska-kartica-128gb-microsdxc-mediarange-mr945",
+      "category": "foto-aparati-i-kamere",
+      "brand": "MediaRange",
+      "sku": "MR945",
+      "price_rsd": "2099",
+      "img_thumb": "/images/products/memorijska-kartica-128gb-microsdxc-mediarange-mr945-01-thumb.webp",
+      "q_ascii": "memorijska kartica 128gb microsdxc + sd adapter (class 10 / u1) – mediarange mr945 mediarange mr945 foto-aparati-i-kamere memorijska-kartica-128gb-microsdxc-mediarange-mr945 4260283115457"
     }
   ]
 }

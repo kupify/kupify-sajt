@@ -1,6 +1,6 @@
 {
   "category": "elektronika-i-komponente",
-  "total_products": 4,
+  "total_products": 5,
   "page_size": 12,
   "products": [
     {
@@ -22,6 +22,16 @@
       "brand": "Verbatim",
       "sku": "HR6 49517",
       "gtin13": "23942495178"
+    },
+    {
+      "name": "AAA punjive baterije 950mAh NiMH (4 komada) – Verbatim HR3 49514",
+      "price_rsd": 799,
+      "slug": "punjive-baterije-aaa-nimh-verbatim-hr3-49517",
+      "category": "elektronika-i-komponente",
+      "img_thumb": "/images/products/punjive-baterije-aaa-nimh-verbatim-hr3-49517-01-thumb.webp",
+      "brand": "Verbatim",
+      "sku": "HR3 49514",
+      "gtin13": "23942495147"
     },
     {
       "name": "USB-C punjive AA baterije 1.5V Li-Ion 1400mAh – MediaRange MRBAT161 - 4 komada",
