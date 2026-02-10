@@ -74,27 +74,17 @@ function wireCookieBanner() {
 
 // 3) Bootstrap – podržava i dinamički i statički baner
 document.addEventListener('DOMContentLoaded', function () {
-  if (localStorage.getItem('cookiesAccepted')) {
-    loadGA();
-    return;
-  }
-
   const placeholder = document.getElementById('cookie-banner-placeholder');
 
-  if (!placeholder) {
-    wireCookieBanner();
-    return;
-  }
-
-  setTimeout(() => {
+  if (placeholder) {
     fetch('/cookie-banner.html', { cache: 'no-store' })
       .then(r => r.text())
-      .then(html => {
-        placeholder.innerHTML = html;
-        wireCookieBanner();
-      })
+      .then(html => { placeholder.innerHTML = html; wireCookieBanner(); })
       .catch(err => {
         console.error('Greška pri učitavanju cookie bannera:', err);
+        // fallback: GA ostaje ugašen
       });
-  }, 1800);
+  } else {
+    wireCookieBanner();
+  }
 });
