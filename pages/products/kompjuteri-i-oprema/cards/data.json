@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 47,
+  "total_products": 52,
   "page_size": 12,
   "products": [
     {
@@ -413,6 +413,46 @@
       "gtin13": "8716309100823"
     },
     {
+      "name": "USB fleš memorija 128GB (USB 2.0) – MediaRange MR913",
+      "price_rsd": 999,
+      "slug": "usb-fles-memorija-128-gb-mediarange-mr913",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/usb-fles-memorija-128-gb-mediarange-mr913-01-thumb.webp",
+      "brand": "MediaRange",
+      "sku": "MR913",
+      "gtin13": "4260664870403"
+    },
+    {
+      "name": "USB fleš memorija 128GB (USB 3.2 Gen 1) – MediaRange MR918",
+      "price_rsd": 1699,
+      "slug": "usb-fles-memorija-128-gb-mediarange-mr918",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/usb-fles-memorija-128-gb-mediarange-mr918-01-thumb.webp",
+      "brand": "MediaRange",
+      "sku": "MR918",
+      "gtin13": "4260664870427"
+    },
+    {
+      "name": "USB fleš memorija 32GB (USB 3.2 Gen 1) – MediaRange MR916",
+      "price_rsd": 899,
+      "slug": "usb-fles-memorija-32-gb-mediarange-mr916",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/usb-fles-memorija-32-gb-mediarange-mr916-01-thumb.webp",
+      "brand": "MediaRange",
+      "sku": "MR916",
+      "gtin13": "4260664870427"
+    },
+    {
+      "name": "USB fleš memorija 64GB (USB 3.2 Gen 1) – MediaRange MR917",
+      "price_rsd": 999,
+      "slug": "usb-fles-memorija-64-gb-mediarange-mr917",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/usb-fles-memorija-64-gb-mediarange-mr917-01-thumb.webp",
+      "brand": "MediaRange",
+      "sku": "MR917",
+      "gtin13": "4260664870410"
+    },
+    {
       "name": "USB čitač za lične karte i memorijske kartice – Gembird CRDR-CT405",
       "price_rsd": 1699,
       "slug": "usb-citac-licne-karte-memorijske-kartice-gembird-crdr-ct405",
@@ -441,6 +481,16 @@
       "brand": "Kettz",
       "sku": "KTZ-CR100A",
       "gtin13": "8605054711555"
+    },
+    {
+      "name": "USB-C fleš memorija 256GB (USB 3.2 Gen 1) – MediaRange MR1955",
+      "price_rsd": 2499,
+      "slug": "usb-c-fles-memorija-256-gb-mediarange-mr1955",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/usb-c-fles-memorija-256-gb-mediarange-mr1955-01-thumb.webp",
+      "brand": "MediaRange",
+      "sku": "MR1955",
+      "gtin13": "4260664871271"
     },
     {
       "name": "Volan sa pedalama za PC – Gembird STR-ShockForce-II",

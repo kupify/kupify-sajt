@@ -146,7 +146,8 @@ header {
     box-shadow: 0 0.0625rem 0.25rem rgba(0, 0, 0, 0.05);
     /* Mali efekat da se odvoji vizuelno */
 }
-.header-nav a:focus, 
+
+.header-nav a:focus,
 .header-nav button:focus {
     outline: 2px solid rgba(var(--brand-teal), 0.2);
     outline-offset: 2px;
@@ -267,6 +268,7 @@ header {
     header {
         margin-bottom: 1.5rem;
     }
+
     /* Header sadržaj prebacujemo u kolonu i centriramo */
     .header-content {
         flex-direction: column;
@@ -669,6 +671,7 @@ div.tekst-lista {
 .tekst-lista a:hover {
     color: rgb(var(--brand-teal));
 }
+
 .tekst-lista a:focus-visible {
     outline: 2px solid rgba(var(--brand-teal), 0.2);
     outline-offset: 2px;
@@ -1479,7 +1482,7 @@ div.tekst-lista {
         align-items: stretch;
         padding: 0 0.75rem 0.3rem;
         margin: 0 auto;
-        
+
     }
 
     .product-page-cta {
@@ -1520,10 +1523,10 @@ div.tekst-lista {
     }
 
     .product-page-gallery .thumbnails {
-    gap: 0.6rem;
-    margin-top: 1rem;
-    
-}
+        gap: 0.6rem;
+        margin-top: 1rem;
+
+    }
 
     .product-page-gallery .thumbnails img {
         width: 60px;
@@ -1802,7 +1805,7 @@ footer {
 
 .footer-copy {
     font-size: 0.9rem;
-    color: rgba(var(--text-dark), 0.5);
+    color: rgba(var(--text-dark), 0.6);
 }
 
 .copy-break {
@@ -1880,25 +1883,29 @@ footer {
     }
 }
 
-/***************************************************************/
+
+/**************************************************************/
 .social {
     text-align: center;
     margin-top: 3rem;
 }
 
 .social a {
-    margin: 0 0.5rem;
-    color: rgb(var(--text-light));
-    text-decoration: none;
-    font-size: 1.3rem;
-    transition: color 0.3s;
+    margin: 0 0.6rem;
     display: inline-block;
-    vertical-align: middle;
-    cursor: pointer;
+    transition: opacity 0.3s ease, transform 0.2s ease;
 }
 
-.social a:hover {
-    color: rgb(var(--brand-teal));
+.social-icon {
+    width: 1.3rem;
+    height: 1.3rem;
+    opacity: 0.6;              /* osnovna slabija vidljivost */
+    transition: opacity 0.3s ease, transform 0.2s ease;
+}
+
+.social a:hover .social-icon {
+    opacity: 0.85;                /* puni intenzitet na hover */
+    
 }
 
 .social p {
@@ -1906,19 +1913,20 @@ footer {
     color: rgb(var(--text-dark));
     margin-bottom: 1rem;
     font-weight: 600;
-    text-align: center;
 }
 
 /* Responzivno smanjenje veličine ikonica na tabletima i mobilnim */
 @media (max-width: 768px) {
-    .social a {
-        font-size: 1.2rem;
+    .social-icon {
+        width: 1.2rem;
+        height: 1.2rem;
     }
 }
 
 @media (max-width: 480px) {
-    .social a {
-        font-size: 1.1rem;
+    .social-icon {
+        width: 1.1rem;
+        height: 1.1rem;
     }
 }
 
@@ -2329,10 +2337,10 @@ footer {
     display: grid;
     /* lepše prelazi između 1–4 kolone bez tvrdih skokova */
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    gap: 2rem;
+    gap: 1.5rem;
     max-width: 75rem;
     margin: 0 auto;
-    padding: 1rem 2.5rem;
+    padding: 1rem 1rem;
     /* desktop unutrašnje ivice */
 }
 
@@ -2357,7 +2365,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 0.5rem;
+    gap: 0.8rem;
     max-width: 100%;
     --title-lines: 2;
     line-height: 1.3;
@@ -2436,22 +2444,19 @@ footer {
 /* ikonica */
 .placeholder-icon {
     margin-right: 0.3rem;
-    /* blagi odmak ulevo od desne ivice */
     flex: 0 0 1.5rem;
-    font-size: 1.5rem;
     width: 1.5rem;
     height: 1.5rem;
-    line-height: 1.5rem;
     color: rgba(var(--brand-teal), 0.7);
-
-    /* === Anti-overflow fix === */
+    /* SVG-specific */
+    display: inline-block;
+    fill: currentColor;
+    /* Anti-overflow */
     flex-shrink: 0;
-    /* sprečava da ikonica “širi” h4 */
     max-width: 1.5rem;
-    /* garantuje da ostane u okviru reda */
     overflow: hidden;
-    /* dodatna zaštita kod retkih bugova u gridu */
 }
+
 
 
 /* =========================================

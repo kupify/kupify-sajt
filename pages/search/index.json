@@ -1149,6 +1149,56 @@
       "price_rsd": "2099",
       "img_thumb": "/images/products/memorijska-kartica-128gb-microsdxc-mediarange-mr945-01-thumb.webp",
       "q_ascii": "memorijska kartica 128gb microsdxc + sd adapter (class 10 / u1) – mediarange mr945 mediarange mr945 foto-aparati-i-kamere memorijska-kartica-128gb-microsdxc-mediarange-mr945 4260283115457"
+    },
+    {
+      "name": "USB-C fleš memorija 256GB (USB 3.2 Gen 1) – MediaRange MR1955",
+      "slug": "usb-c-fles-memorija-256-gb-mediarange-mr1955",
+      "category": "kompjuteri-i-oprema",
+      "brand": "MediaRange",
+      "sku": "MR1955",
+      "price_rsd": "2499",
+      "img_thumb": "/images/products/usb-c-fles-memorija-256-gb-mediarange-mr1955-01-thumb.webp",
+      "q_ascii": "usb-c fles memorija 256gb (usb 3.2 gen 1) – mediarange mr1955 mediarange mr1955 kompjuteri-i-oprema usb-c-fles-memorija-256-gb-mediarange-mr1955 4260664871271"
+    },
+    {
+      "name": "USB fleš memorija 128GB (USB 3.2 Gen 1) – MediaRange MR918",
+      "slug": "usb-fles-memorija-128-gb-mediarange-mr918",
+      "category": "kompjuteri-i-oprema",
+      "brand": "MediaRange",
+      "sku": "MR918",
+      "price_rsd": "1699",
+      "img_thumb": "/images/products/usb-fles-memorija-128-gb-mediarange-mr918-01-thumb.webp",
+      "q_ascii": "usb fles memorija 128gb (usb 3.2 gen 1) – mediarange mr918 mediarange mr918 kompjuteri-i-oprema usb-fles-memorija-128-gb-mediarange-mr918 4260664870427"
+    },
+    {
+      "name": "USB fleš memorija 128GB (USB 2.0) – MediaRange MR913",
+      "slug": "usb-fles-memorija-128-gb-mediarange-mr913",
+      "category": "kompjuteri-i-oprema",
+      "brand": "MediaRange",
+      "sku": "MR913",
+      "price_rsd": "999",
+      "img_thumb": "/images/products/usb-fles-memorija-128-gb-mediarange-mr913-01-thumb.webp",
+      "q_ascii": "usb fles memorija 128gb (usb 2.0) – mediarange mr913 mediarange mr913 kompjuteri-i-oprema usb-fles-memorija-128-gb-mediarange-mr913 4260664870403"
+    },
+    {
+      "name": "USB fleš memorija 64GB (USB 3.2 Gen 1) – MediaRange MR917",
+      "slug": "usb-fles-memorija-64-gb-mediarange-mr917",
+      "category": "kompjuteri-i-oprema",
+      "brand": "MediaRange",
+      "sku": "MR917",
+      "price_rsd": "999",
+      "img_thumb": "/images/products/usb-fles-memorija-64-gb-mediarange-mr917-01-thumb.webp",
+      "q_ascii": "usb fles memorija 64gb (usb 3.2 gen 1) – mediarange mr917 mediarange mr917 kompjuteri-i-oprema usb-fles-memorija-64-gb-mediarange-mr917 4260664870410"
+    },
+    {
+      "name": "USB fleš memorija 32GB (USB 3.2 Gen 1) – MediaRange MR916",
+      "slug": "usb-fles-memorija-32-gb-mediarange-mr916",
+      "category": "kompjuteri-i-oprema",
+      "brand": "MediaRange",
+      "sku": "MR916",
+      "price_rsd": "899",
+      "img_thumb": "/images/products/usb-fles-memorija-32-gb-mediarange-mr916-01-thumb.webp",
+      "q_ascii": "usb fles memorija 32gb (usb 3.2 gen 1) – mediarange mr916 mediarange mr916 kompjuteri-i-oprema usb-fles-memorija-32-gb-mediarange-mr916 4260664870427"
     }
   ]
 }

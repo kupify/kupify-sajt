@@ -96,5 +96,5 @@ document.addEventListener('DOMContentLoaded', function () {
       .catch(err => {
         console.error('Greška pri učitavanju cookie bannera:', err);
       });
-  }, 1800);
+  }, 1000);
 });
