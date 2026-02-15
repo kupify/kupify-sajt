@@ -1,3 +1,17 @@
+/*
+ * search.js
+ *
+ * Engine za prikaz liste proizvoda:
+ * - filtriranje (pretraga + sinonimi + scoring)
+ * - sortiranje
+ * - paginacija
+ * - render grid-a kartica
+ * - URL parametri (q, sort, page)
+ *
+ * Napomena: fajl ne služi samo za "search",
+ * već upravlja kompletnim listing prikazom.
+ */
+
 (function () {
   "use strict";
   const qs = (s, r = document) => r.querySelector(s);

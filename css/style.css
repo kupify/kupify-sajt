@@ -529,7 +529,7 @@ header.has-sticky-search {
 
 .hero {
     text-align: center;
-    padding: 2rem 2rem 0 2rem;
+    padding: 0 2rem;
 }
 
 .hero h2 {
@@ -594,13 +594,13 @@ header.has-sticky-search {
 
 .tekst-blok-podaci {
     max-width: 34.38rem;
-    margin: 0 auto;
+    margin: 0 auto 4rem;
     padding: 0 0.94rem;
 }
 
 .tekst-blok-centar {
     max-width: 46.9rem;
-    margin: 0 auto;
+    margin: 0 auto 4rem;
     padding: 0 0.94rem;
 }
 
@@ -611,6 +611,7 @@ header.has-sticky-search {
     font-weight: 700;
     line-height: 1.2;
     margin: 0rem;
+    padding-bottom: 1rem;
 }
 
 ul.tekst-lista {
@@ -625,8 +626,6 @@ ul.tekst-lista {
 }
 
 div.tekst-lista {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
     text-align: left;
     line-height: 1.6;
     padding-left: 0.7rem;
@@ -682,7 +681,7 @@ div.tekst-lista {
 
 .map-container {
     max-width: 600px;
-    margin: 1.25rem auto;
+    margin: 0 auto 4rem;
     border: 1.5px solid #ccc;
     border-radius: 0.625rem;
     overflow: hidden;
@@ -722,8 +721,6 @@ div.tekst-lista {
 
     ul.tekst-lista,
     div.tekst-lista {
-        margin-top: 1.25rem;
-        margin-bottom: 2.5rem;
         padding: 0 1rem;
         font-size: 0.875rem;
         line-height: 1.4;
@@ -744,7 +741,7 @@ div.tekst-lista {
 @media (max-width: 768px) {
     .map-container {
         max-width: 100%;
-        margin: 0.625rem 0.625rem;
+        margin: 0rem 0.625rem 3rem;
     }
 
     .map-container iframe {
@@ -1150,6 +1147,32 @@ div.tekst-lista {
     margin-top: 2rem;
 }
 
+.product-faq {
+    font-size: 0.9rem;
+    color: rgba(var(--text-mid));
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+    border-bottom: 0.3px solid rgba(0, 0, 0, 0.1);
+}
+
+.product-faq h2 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: -0.6rem;
+    padding-top: 2rem;
+    border-top: 0.3px solid rgba(0, 0, 0, 0.1);
+    margin-top: 1.5rem;
+}
+
+.product-faq h3 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0rem;
+    padding-top: 1.5rem;
+}
+
+
+
 .deklaracija-wrapper {
     display: flex;
     justify-content: space-between;
@@ -1160,7 +1183,7 @@ div.tekst-lista {
 .deklaracija>summary {
     margin-top: 0.5rem;
     cursor: pointer;
-    color: rgba(var(--text-light), 0.7);
+    color: rgba(var(--text-light), 0.8);
     font-size: 0.9rem;
     list-style: none;
 }
@@ -1171,7 +1194,7 @@ div.tekst-lista {
 
 .deklaracija>summary::after {
     content: " +";
-    color: rgba(var(--text-light), 0.7);
+    color: rgba(var(--text-light), 0.8);
 }
 
 .deklaracija[open]>summary::after {
@@ -1181,16 +1204,18 @@ div.tekst-lista {
 .deklaracija p {
     margin-top: 0.5rem;
     font-size: 0.85rem;
-    color: rgba(var(--text-light), 0.7);
+    color: rgba(var(--text-light), 0.8);
 }
 
 
 .internal-code {
     font-size: 0.9rem;
-    color: rgba(var(--text-light), 0.7);
+    color: rgba(var(--text-light), 0.8);
     margin-top: 2rem;
     margin-bottom: 0rem;
 }
+
+
 
 /* CTA Blok */
 
@@ -1311,7 +1336,7 @@ div.tekst-lista {
 
 /* Trust Badges */
 .trust-root {
-    margin: 0rem auto 4rem;
+    margin: 0rem auto 2.5rem;
     max-width: 35rem;
     padding-top: 0.7rem;
     padding-bottom: 1rem;
@@ -1368,34 +1393,62 @@ div.tekst-lista {
 
 /*RELATED products blok*/
 
-.related-products {
-    margin: 2.5rem auto 0;
-    padding-top: 0rem;
-    padding-bottom: 0.5rem;
-    /*border-top: 1px solid rgba(0, 0, 0, 0.05);*/
-    text-align: center;
-    max-width: 75rem;
-}
-
-.related-link {
+.related {
+    max-width: 40rem;
+    margin: 0 auto 4rem;
+    padding: 0 0.94rem 2.5rem 0.7rem;
+    text-align: left;
     font-size: 1rem;
-    font-weight: 600;
-    color: rgba(var(--text-dark), 0.85);
+    line-height: 1.6;
+    overflow: hidden;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    border-image: linear-gradient(to right, rgba(var(--brand-accent), 0.3), rgba(var(--brand-accent), 0.8));
+    border-image-slice: 1;
+}
+
+.related h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.related-grid {
+    display: flex;
+    justify-content: center;
+    /* centrira grupu */
+    align-items: stretch;
+    gap: 1.2rem;
+
+}
+
+.related-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 130px;
     text-decoration: none;
-    white-space: normal;
-    /* za svaki slučaj, da poništiš neki nowrap */
-    transition: color 0.3s;
+    color: rgba(var(--text-dark), 0.8);
+    transition: transform 0.2s ease;
 }
 
-.related-link:hover {
-    color: rgba(var(--brand-teal), 1);
+.related-card:hover {
+    transform: translateY(-2px);
 }
 
-/* default – desktop: sve u jednom redu */
-.rp-line-1,
-.rp-line-2 {
-    display: inline;
+.related-card img {
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
 }
+
+.related-title {
+    font-size: 0.9rem;
+    line-height: 1.3;
+    text-align: center;
+}
+
 
 /* media queries */
 
@@ -1428,7 +1481,7 @@ div.tekst-lista {
 
     .product-description {
         max-width: 95%;
-        margin: 0rem auto 1.5rem;
+        margin: 0rem auto 2rem;
         padding: 0rem 0.7rem 1.5rem;
         line-height: 1.4;
         font-size: 0.875rem;
@@ -1442,19 +1495,37 @@ div.tekst-lista {
         margin-top: 1.7rem;
     }
 
+    .product-faq {
+        font-size: 0.8rem;
+        padding-top: 0.8rem;
+        padding-bottom: 1.2rem;
+    }
+
+    .product-faq h2 {
+        font-size: 0.9rem;
+        margin-bottom: -0.4rem;
+        padding-top: 1.6rem;
+        margin-top: 1.5rem;
+    }
+
+    .product-faq h3 {
+        font-size: 0.85rem;
+        padding-top: 1.2rem;
+    }
+
     .internal-code {
-        font-size: 0.75rem;
+        font-size: 0.8rem;
         margin-top: 1.2rem;
     }
 
     .deklaracija>summary {
         margin-top: 0.5rem;
-        font-size: 0.75rem;
+        font-size: 0.8rem;
     }
 
     .deklaracija p {
         margin-top: 0.3rem;
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 }
 
@@ -1555,15 +1626,13 @@ div.tekst-lista {
     .delivery-block li {
         font-size: 0.74rem;
     }
-}
 
-@media (max-width: 768px) {
 
     .trust-root {
-        max-width: 95%;
+        max-width: 90%;
         padding-top: 0.8rem;
         padding-bottom: 1rem;
-        margin: 2.5rem auto 2.5rem;
+        margin: 0 auto 2rem;
     }
 
     .trust-badges {
@@ -1588,14 +1657,43 @@ div.tekst-lista {
         line-height: 1.25;
     }
 
-    .related-products {
-        margin-top: 1.5rem;
-        padding-bottom: 0.2rem;
+    .related {
+        max-width: 95%;
+        padding: 0.5rem 0.7rem 1.5rem;
+        line-height: 1.4;
+        font-size: 0.875rem;
+        word-break: break-word;
+    }
+
+    .related-grid {
+
+        display: grid;
+        grid-template-columns: repeat(2, 120px);
+        justify-content: center;
+        justify-items: center;
+        gap: 2rem;
 
     }
 
-    .related-link {
+    .related-card {
+        max-width: 130px;
+
+    }
+
+    .related-card img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .related h2 {
+        font-size: 0.95rem;
+        font-weight: 700;
+    }
+
+    .related-title {
         font-size: 0.8rem;
+        line-height: 1.3;
+        text-align: center;
     }
 
     .rp-line-1,
@@ -1746,7 +1844,6 @@ footer {
     color: rgb(var(--text-light));
     text-align: center;
     font-size: 0.9rem;
-    margin: 2rem 0;
 }
 
 .footer-sections {
@@ -1899,13 +1996,15 @@ footer {
 .social-icon {
     width: 1.3rem;
     height: 1.3rem;
-    opacity: 0.6;              /* osnovna slabija vidljivost */
+    opacity: 0.6;
+    /* osnovna slabija vidljivost */
     transition: opacity 0.3s ease, transform 0.2s ease;
 }
 
 .social a:hover .social-icon {
-    opacity: 0.85;                /* puni intenzitet na hover */
-    
+    opacity: 0.85;
+    /* puni intenzitet na hover */
+
 }
 
 .social p {
@@ -2125,8 +2224,9 @@ footer {
    ========================================= */
 .main-sections {
     max-width: 75rem;
-    margin: 0 auto;
-    padding: 0 1.25rem 1.25rem;
+    margin: 0 auto 3rem;
+    padding: 0 1.25rem 0;
+    margin-bottom: 3rem;
 }
 
 /* Traka sa selektorom ispod linije, desno poravnata */
@@ -2134,10 +2234,10 @@ footer {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: .5rem;
-    margin: .5rem 0 1rem;
-    /* razmak iznad/ispod */
-    font-size: .9rem;
+    gap: 0.5rem;
+    margin: 0 0 2rem;
+    font-size: 0.9rem;
+    opacity: 85%;
 }
 
 .section-controls label {
@@ -2180,7 +2280,7 @@ footer {
     font-size: 1.25rem;
     font-weight: 700;
     color: rgb(var(--text-dark));
-    margin: 0 0 .75rem 0;
+    margin: 0 0 2rem 0;
     border-bottom: 1px solid transparent;
     border-image: linear-gradient(to right, rgba(var(--brand-accent), .3), rgba(var(--brand-accent), .8)) 1;
     padding-bottom: .3rem;
@@ -2203,7 +2303,7 @@ footer {
     /* container cap + centriranje */
     max-width: min(75rem, 100%);
     width: auto;
-    margin: 2rem auto;
+    margin: 0 auto;
     padding: 0;
 
     align-items: stretch;
@@ -2554,6 +2654,7 @@ body {
 /* ===== Kartice proizvoda: na mobilnom 2 kolone, kompaktniji razmaci ===== */
 @media (max-width: 600px) {
     .section-title {
+        margin-bottom: 1rem;
         margin-left: .5rem;
         margin-right: .5rem;
         font-size: 1.15rem;
@@ -2567,8 +2668,11 @@ body {
 
     .section-controls {
         justify-content: center;
-        width: 100%;
+        width: 60%;
         padding-inline: 12px;
+        padding-top: 1rem;
+        margin-bottom: 1rem;
+
     }
 
     #sort-select {
@@ -2580,9 +2684,9 @@ body {
         grid-template-columns: repeat(2, 1fr);
         /* 2 kolone */
         gap: .5rem;
-        /* manji razmak */
         padding-left: .5rem;
         padding-right: .5rem;
+        padding-top: 1rem;
     }
 
     .product-card {
@@ -2709,6 +2813,7 @@ body {
         margin-right: 0;
         padding-left: clamp(0rem, 2vw, 0.5rem);
         padding-right: clamp(0rem, 2vw, 0.5rem);
+        padding-top: 1rem;
         box-sizing: border-box;
         overflow-x: clip;
     }
@@ -2812,7 +2917,7 @@ body {
 /* ===== Paginator (ghost teal stil) ===== */
 .paginator {
     max-width: min(75rem, 100%);
-    margin: 1rem auto 2rem;
+    margin: 0 auto 3rem;
     padding: 0 1rem;
     display: flex;
     align-items: center;
@@ -2823,7 +2928,7 @@ body {
 
 /* Prev / Next dugmad */
 .paginator .pag-btn {
-    font-size: .6rem;
+    font-size: .8rem;
     padding: .4rem .8rem;
     border: 1px solid rgba(var(--brand-teal), .3);
     background: transparent;

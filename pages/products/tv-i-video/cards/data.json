@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 43,
+  "total_products": 49,
   "page_size": 12,
   "products": [
     {
@@ -32,6 +32,16 @@
       "brand": "Tuarex",
       "sku": "OLIMP-311",
       "gtin13": "4630034136121"
+    },
+    {
+      "name": "Fiksni zidni nosač za TV 37-70\" do 35kg – Gembird WM-70F-03",
+      "price_rsd": 829,
+      "slug": "fiksni-zidni-tv-nosac-gembird-wm-70f-03",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/fiksni-zidni-tv-nosac-gembird-wm-70f-03-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "WM-70F-03",
+      "gtin13": "8716309128032"
     },
     {
       "name": "Mini polica za Set Top Box i TV risiver – Kettz NAV-K91",
@@ -314,6 +324,16 @@
       "gtin13": "8605054708258"
     },
     {
+      "name": "Zglobni ugaoni nosač za TV 32-75“ do 45kg – Gembird WM-75ST-02",
+      "price_rsd": 4669,
+      "slug": "zglobni-ugaoni-tv-nosac-gembird-wm-75st-02",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/zglobni-ugaoni-tv-nosac-gembird-wm-75st-02-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "WM-75ST-02",
+      "gtin13": "8716309127363"
+    },
+    {
       "name": "Zglobni zidni nosač za TV 14-55“ do 20 kg – Gembird WM-55RT-07",
       "price_rsd": 1399,
       "slug": "zglobni-tv-nosac-gembird-wm-55rt-07-14-55-inca",
@@ -342,6 +362,16 @@
       "brand": "Kettz",
       "sku": "TVN-6503",
       "gtin13": "8605054704816"
+    },
+    {
+      "name": "Zglobni zidni nosač za TV 17-43\" do 30kg – Kettz TVN-5502",
+      "price_rsd": 1199,
+      "slug": "zglobni-zidni-tv-nosac-kettz-tvn-5502",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/zglobni-zidni-tv-nosac-kettz-tvn-5502-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "TVN-5502",
+      "gtin13": "8605054704793"
     },
     {
       "name": "Zglobni zidni nosač za TV 17-56\" do 30kg – Kettz TVN-6010",
@@ -382,6 +412,36 @@
       "brand": "Tuarex",
       "sku": "ALTA-652",
       "gtin13": "4630034136282"
+    },
+    {
+      "name": "Zglobni zidni nosač za TV 32-80\" do 50kg – Gembird WM-80ST-05",
+      "price_rsd": 4999,
+      "slug": "zglobni-zidni-tv-nosac-gembird-wm-80st-05",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/zglobni-zidni-tv-nosac-gembird-wm-80st-05-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "WM-80ST-05",
+      "gtin13": "8716309127806"
+    },
+    {
+      "name": "Zglobni zidni nosač za TV 37-80\" do 60kg – Gembird WM-80ST-02",
+      "price_rsd": 4799,
+      "slug": "zglobni-zidni-tv-nosac-gembird-wm-80st-02",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/zglobni-zidni-tv-nosac-gembird-wm-80st-02-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "WM-80ST-02",
+      "gtin13": "8716309126229"
+    },
+    {
+      "name": "Zglobni zidni nosač za TV 40-80\" do 50kg – Gembird WM-80ST-01",
+      "price_rsd": 4699,
+      "slug": "zglobni-zidni-tv-nosac-gembird-wm-80st-01",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/zglobni-zidni-tv-nosac-gembird-wm-80st-01-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "WM-80ST-01",
+      "gtin13": "8716309127332"
     },
     {
       "name": "Zidni nosač sa nagibom za TV 15-42\" do 20 kg – Gembird WM-42T-05",
