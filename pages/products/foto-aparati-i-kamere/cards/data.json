@@ -1,8 +1,35 @@
 {
   "category": "foto-aparati-i-kamere",
-  "total_products": 4,
+  "total_products": 7,
   "page_size": 12,
   "products": [
+    {
+      "name": "Adapter šraf za stativ 1/4\" muški na 3/8\" muški – Kupify TRP-1438-MM",
+      "price_rsd": 99,
+      "slug": "adapter-sraf-za-stativ-1-4-na-3-8-inca-muski",
+      "category": "foto-aparati-i-kamere",
+      "img_thumb": "/images/products/adapter-sraf-za-stativ-1-4-na-3-8-inca-muski-01-thumb.webp",
+      "brand": "Kupify",
+      "sku": "TRP-1438-MM"
+    },
+    {
+      "name": "Adapter šraf za stativ 1/4\" na 1/4\" dupli muški – Kupify TRP-1414-MM",
+      "price_rsd": 99,
+      "slug": "adapter-sraf-za-stativ-dupli-1-4-inca-muski",
+      "category": "foto-aparati-i-kamere",
+      "img_thumb": "/images/products/adapter-sraf-za-stativ-dupli-1-4-inca-muski-01-thumb.webp",
+      "brand": "Kupify",
+      "sku": "TRP-1414-MM"
+    },
+    {
+      "name": "Adapter šraf za stativ 1/4\" ženski na 3/8\" muški – Kupify TRP-1438-FM",
+      "price_rsd": 99,
+      "slug": "adapter-sraf-1-4-inca-zenski-na-3-8-inca-muski",
+      "category": "foto-aparati-i-kamere",
+      "img_thumb": "/images/products/adapter-sraf-1-4-inca-zenski-na-3-8-inca-muski-01-thumb.webp",
+      "brand": "Kupify",
+      "sku": "TRP-1438-FM"
+    },
     {
       "name": "Memorijska kartica 128GB microSDXC + SD adapter (Class 10 / U1) – MediaRange MR945",
       "price_rsd": 2099,

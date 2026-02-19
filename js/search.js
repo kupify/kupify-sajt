@@ -172,7 +172,7 @@
     // učitaj indeks pretrage
     let items = [];
     try {
-      const res = await fetch("/pages/search/index.json", { cache: "no-store" });
+      const res = await fetch("/pages/search/index.json");
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
       items = Array.isArray(data.items) ? data.items : [];

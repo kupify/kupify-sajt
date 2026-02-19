@@ -981,14 +981,14 @@
       "q_ascii": "usb 2.0 citac svih tipova memorijskih kartica – gembird fd2-allin1-blk gembird fd2-allin1-blk kompjuteri-i-oprema usb-2-0-univerzalni-citac-memorijskih-kartica-gembird-fd2-allin1-blk 9780201376944"
     },
     {
-      "name": "Komplet univerzalnih klizača za popravku rajfešlusa 3 veličine – 6 komada",
+      "name": "Komplet univerzalnih klizača za popravku rajsfešlusa (6 komada) ܺ– Kupify ZIPS-06-BLK",
       "slug": "komplet-univerzalnih-klizaca-za-popravku-rajfeslusa",
       "category": "alati-i-orudja",
       "brand": "Kupify",
-      "sku": "",
+      "sku": "ZIPS-06-BLK",
       "price_rsd": "699",
       "img_thumb": "/images/products/komplet-univerzalnih-klizaca-za-popravku-rajfeslusa-01-thumb.webp",
-      "q_ascii": "komplet univerzalnih klizaca za popravku rajfeslusa 3 velicine – 6 komada kupify alati-i-orudja komplet-univerzalnih-klizaca-za-popravku-rajfeslusa"
+      "q_ascii": "komplet univerzalnih klizaca za popravku rajsfeslusa (6 komada) – kupify zips-06-blk kupify zips-06-blk alati-i-orudja komplet-univerzalnih-klizaca-za-popravku-rajfeslusa"
     },
     {
       "name": "USB čitač za lične karte i saobraćajne dozvole – Gembird CRDR-CT400",
@@ -1259,6 +1259,46 @@
       "price_rsd": "829",
       "img_thumb": "/images/products/fiksni-zidni-tv-nosac-gembird-wm-70f-03-01-thumb.webp",
       "q_ascii": "fiksni zidni nosac za tv 37-70\" do 35kg – gembird wm-70f-03 gembird wm-70f-03 tv-i-video fiksni-zidni-tv-nosac-gembird-wm-70f-03 8716309128032"
+    },
+    {
+      "name": "Adapter šraf za stativ 1/4\" muški na 3/8\" muški – Kupify TRP-1438-MM",
+      "slug": "adapter-sraf-za-stativ-1-4-na-3-8-inca-muski",
+      "category": "foto-aparati-i-kamere",
+      "brand": "Kupify",
+      "sku": "TRP-1438-MM",
+      "price_rsd": "99",
+      "img_thumb": "/images/products/adapter-sraf-za-stativ-1-4-na-3-8-inca-muski-01-thumb.webp",
+      "q_ascii": "adapter sraf za stativ 1/4\" muski na 3/8\" muski – kupify trp-1438-mm kupify trp-1438-mm foto-aparati-i-kamere adapter-sraf-za-stativ-1-4-na-3-8-inca-muski"
+    },
+    {
+      "name": "Adapter šraf za stativ 1/4\" na 1/4\" dupli muški – Kupify TRP-1414-MM",
+      "slug": "adapter-sraf-za-stativ-dupli-1-4-inca-muski",
+      "category": "foto-aparati-i-kamere",
+      "brand": "Kupify",
+      "sku": "TRP-1414-MM",
+      "price_rsd": "99",
+      "img_thumb": "/images/products/adapter-sraf-za-stativ-dupli-1-4-inca-muski-01-thumb.webp",
+      "q_ascii": "adapter sraf za stativ 1/4\" na 1/4\" dupli muski – kupify trp-1414-mm kupify trp-1414-mm foto-aparati-i-kamere adapter-sraf-za-stativ-dupli-1-4-inca-muski"
+    },
+    {
+      "name": "Adapter šraf za stativ 1/4\" ženski na 3/8\" muški – Kupify TRP-1438-FM",
+      "slug": "adapter-sraf-1-4-inca-zenski-na-3-8-inca-muski",
+      "category": "foto-aparati-i-kamere",
+      "brand": "Kupify",
+      "sku": "TRP-1438-FM",
+      "price_rsd": "99",
+      "img_thumb": "/images/products/adapter-sraf-1-4-inca-zenski-na-3-8-inca-muski-01-thumb.webp",
+      "q_ascii": "adapter sraf za stativ 1/4\" zenski na 3/8\" muski – kupify trp-1438-fm kupify trp-1438-fm foto-aparati-i-kamere adapter-sraf-1-4-inca-zenski-na-3-8-inca-muski"
+    },
+    {
+      "name": "Stoni vertikalni nosač za dva monitora – Gembird MA-D2-02",
+      "slug": "stoni-vertikalni-nosac-za-dva-monitora-gembird-ma-d2-02",
+      "category": "kompjuteri-i-oprema",
+      "brand": "Gembird",
+      "sku": "MA-D2-02",
+      "price_rsd": "2699",
+      "img_thumb": "/images/products/stoni-vertikalni-nosac-za-dva-monitora-gembird-ma-d2-02-01-thumb.webp",
+      "q_ascii": "stoni vertikalni nosac za dva monitora – gembird ma-d2-02 gembird ma-d2-02 kompjuteri-i-oprema stoni-vertikalni-nosac-za-dva-monitora-gembird-ma-d2-02 8716309127592"
     }
   ]
 }

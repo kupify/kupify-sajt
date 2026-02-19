@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 52,
+  "total_products": 53,
   "page_size": 12,
   "products": [
     {
@@ -371,6 +371,16 @@
       "brand": "Gembird",
       "sku": "MA-DA1-05",
       "gtin13": "8716309127707"
+    },
+    {
+      "name": "Stoni vertikalni nosač za dva monitora – Gembird MA-D2-02",
+      "price_rsd": 2699,
+      "slug": "stoni-vertikalni-nosac-za-dva-monitora-gembird-ma-d2-02",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/stoni-vertikalni-nosac-za-dva-monitora-gembird-ma-d2-02-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MA-D2-02",
+      "gtin13": "8716309127592"
     },
     {
       "name": "Univerzalno stono postolje za monitor 13-32\" do 8 kg – Gembird MS-D1ST-04",
