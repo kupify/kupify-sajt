@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 49,
+  "total_products": 50,
   "page_size": 12,
   "products": [
     {
@@ -302,6 +302,16 @@
       "brand": "Kettz",
       "sku": "PN-K10",
       "gtin13": "8605054706780"
+    },
+    {
+      "name": "Zglobni nosač za TV 32-60\" do 36kg – Gembird WM-60ST-01",
+      "price_rsd": 3199,
+      "slug": "zglobni-tv-nosac-gembird-wm-60st-01",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/zglobni-tv-nosac-gembird-wm-60st-01-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "WM-60ST-01",
+      "gtin13": "8716309127356"
     },
     {
       "name": "Zglobni nosač za TV 37-80\" do 40 kg – Gembird WM-80ST-033",
