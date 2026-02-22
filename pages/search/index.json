@@ -1349,6 +1349,46 @@
       "price_rsd": "5599",
       "img_thumb": "/images/products/stoni-nosac-za-2-monitora-gembird-ma-da2-06-01-thumb.webp",
       "q_ascii": "stoni nosac za 2 monitora 17-32\" sa gasnim oprugama – gembird ma-da2-06 gembird ma-da2-06 kompjuteri-i-oprema stoni-nosac-za-2-monitora-gembird-ma-da2-06 8716309124485"
+    },
+    {
+      "name": "Stoni nosač - ruka za monitor 17-32\" – Gembird MA-D1-03",
+      "slug": "stoni-nosac-za-monitor-gembird-ma-d1-03",
+      "category": "kompjuteri-i-oprema",
+      "brand": "Gembird",
+      "sku": "MA-D1-03",
+      "price_rsd": "1999",
+      "img_thumb": "/images/products/stoni-nosac-za-monitor-gembird-ma-d1-03-01-thumb.webp",
+      "q_ascii": "stoni nosac - ruka za monitor 17-32\" – gembird ma-d1-03 gembird ma-d1-03 kompjuteri-i-oprema stoni-nosac-za-monitor-gembird-ma-d1-03 8716309127585"
+    },
+    {
+      "name": "Stoni nosač za 2 monitora 17-32\" sa USB portovima – Gembird MA-DA2U-01",
+      "slug": "stoni-nosac-za-2-monitora-sa-usb-gembird-ma-da2u-01",
+      "category": "kompjuteri-i-oprema",
+      "brand": "Gembird",
+      "sku": "MA-DA2U-01",
+      "price_rsd": "5499",
+      "img_thumb": "/images/products/stoni-nosac-za-2-monitora-sa-usb-gembird-ma-da2u-01-01-thumb.webp",
+      "q_ascii": "stoni nosac za 2 monitora 17-32\" sa usb portovima – gembird ma-da2u-01 gembird ma-da2u-01 kompjuteri-i-oprema stoni-nosac-za-2-monitora-sa-usb-gembird-ma-da2u-01 8716309135368"
+    },
+    {
+      "name": "Zglobni zidni nosač za TV 60-120\" do 120kg – Gembird WM-120ST-01",
+      "slug": "zglobni-zidni-tv-nosac-gembird-wm-120st-01",
+      "category": "tv-i-video",
+      "brand": "Gembird",
+      "sku": "WM-120ST-01",
+      "price_rsd": "11799",
+      "img_thumb": "/images/products/zglobni-zidni-tv-nosac-gembird-wm-120st-01-01-thumb.webp",
+      "q_ascii": "zglobni zidni nosac za tv 60-120\" do 120kg – gembird wm-120st-01 gembird wm-120st-01 tv-i-video zglobni-zidni-tv-nosac-gembird-wm-120st-01 8716309130417"
+    },
+    {
+      "name": "USB Type-C brzi punjač za telefon 20W – Gembird TA-UC-PD20-01-W",
+      "slug": "usb-c-punjac-za-telefon-gembird-ta-uc-pd20-01-w",
+      "category": "mobilni-telefoni-i-oprema",
+      "brand": "Gembird",
+      "sku": "TA-UC-PD20-01-W",
+      "price_rsd": "499",
+      "img_thumb": "/images/products/usb-c-punjac-za-telefon-gembird-ta-uc-pd20-01-w-01-thumb.webp",
+      "q_ascii": "usb type-c brzi punjac za telefon 20w – gembird ta-uc-pd20-01-w gembird ta-uc-pd20-01-w mobilni-telefoni-i-oprema usb-c-punjac-za-telefon-gembird-ta-uc-pd20-01-w 8716309124805"
     }
   ]
 }

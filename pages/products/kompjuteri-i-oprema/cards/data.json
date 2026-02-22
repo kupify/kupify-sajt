@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 57,
+  "total_products": 59,
   "page_size": 12,
   "products": [
     {
@@ -263,6 +263,16 @@
       "gtin13": "8716309127707"
     },
     {
+      "name": "Stoni nosač - ruka za monitor 17-32\" – Gembird MA-D1-03",
+      "price_rsd": 1999,
+      "slug": "stoni-nosac-za-monitor-gembird-ma-d1-03",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/stoni-nosac-za-monitor-gembird-ma-d1-03-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MA-D1-03",
+      "gtin13": "8716309127585"
+    },
+    {
       "name": "Stoni nosač - ruka za monitor 17-32“ sa gasnom oprugom – Gembird MA-DA1-04",
       "price_rsd": 2999,
       "slug": "podesivi-stoni-nosac-za-monitor-17-32-inca-gembird-ma-da1-04",
@@ -361,6 +371,16 @@
       "brand": "Gembird",
       "sku": "MA-DA2P-02",
       "gtin13": "8716309135351"
+    },
+    {
+      "name": "Stoni nosač za 2 monitora 17-32\" sa USB portovima – Gembird MA-DA2U-01",
+      "price_rsd": 5499,
+      "slug": "stoni-nosac-za-2-monitora-sa-usb-gembird-ma-da2u-01",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/stoni-nosac-za-2-monitora-sa-usb-gembird-ma-da2u-01-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MA-DA2U-01",
+      "gtin13": "8716309135368"
     },
     {
       "name": "Stoni nosač za 2 monitora 17-32“ sa gasnim oprugama – Gembird MA-DA2-02",

@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 50,
+  "total_products": 51,
   "page_size": 12,
   "products": [
     {
@@ -452,6 +452,16 @@
       "brand": "Gembird",
       "sku": "WM-80ST-01",
       "gtin13": "8716309127332"
+    },
+    {
+      "name": "Zglobni zidni nosač za TV 60-120\" do 120kg – Gembird WM-120ST-01",
+      "price_rsd": 11799,
+      "slug": "zglobni-zidni-tv-nosac-gembird-wm-120st-01",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/zglobni-zidni-tv-nosac-gembird-wm-120st-01-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "WM-120ST-01",
+      "gtin13": "8716309130417"
     },
     {
       "name": "Zidni nosač sa nagibom za TV 15-42\" do 20 kg – Gembird WM-42T-05",
