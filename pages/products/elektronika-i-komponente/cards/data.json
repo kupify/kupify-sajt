@@ -1,6 +1,6 @@
 {
   "category": "elektronika-i-komponente",
-  "total_products": 5,
+  "total_products": 6,
   "page_size": 12,
   "products": [
     {
@@ -32,6 +32,16 @@
       "brand": "Verbatim",
       "sku": "HR3 49514",
       "gtin13": "23942495147"
+    },
+    {
+      "name": "USB-C punjač za AA / AAA baterije – Gembird BC-USB-03",
+      "price_rsd": 999,
+      "slug": "usb-c-punjac-za-aa-aaa-baterije-gembird-bc-usb-03",
+      "category": "elektronika-i-komponente",
+      "img_thumb": "/images/products/usb-c-punjac-za-aa-aaa-baterije-gembird-bc-usb-03-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "BC-USB-03",
+      "gtin13": "8716309126694"
     },
     {
       "name": "USB-C punjive AA baterije 1.5V Li-Ion 1400mAh – MediaRange MRBAT161 - 4 komada",

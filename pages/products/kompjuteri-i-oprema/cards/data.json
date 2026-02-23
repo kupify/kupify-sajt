@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 59,
+  "total_products": 60,
   "page_size": 12,
   "products": [
     {
@@ -241,6 +241,16 @@
       "brand": "Gembird",
       "sku": "MIC-D-02",
       "gtin13": "8716309100557"
+    },
+    {
+      "name": "Stoni nosač - ruka za 2 monitora 17-32\" – Gembird MA-D2-01",
+      "price_rsd": 3199,
+      "slug": "stoni-nosac-za-2-monitora-gembird-ma-d2-01",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/stoni-nosac-za-2-monitora-gembird-ma-d2-01-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MA-D2-01",
+      "gtin13": "8716309126076"
     },
     {
       "name": "Stoni nosač - ruka za monitor 10-32“ sa gasnom oprugom – Kettz NM-K190",

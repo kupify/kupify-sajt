@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 51,
+  "total_products": 53,
   "page_size": 12,
   "products": [
     {
@@ -224,6 +224,16 @@
       "gtin13": "3856001016260"
     },
     {
+      "name": "Spoljna TV antena Loga 104 cm, 9dB – Gembird GMB-28EK",
+      "price_rsd": 1199,
+      "slug": "spoljna-tv-antena-gembird-gmb-28ek",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/spoljna-tv-antena-gembird-gmb-28ek-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "GMB-28EK",
+      "gtin13": "9780111226193"
+    },
+    {
       "name": "Spoljna TV antena Loga 84cm 12dB – Gembird GMB-2814R",
       "price_rsd": 1199,
       "slug": "spoljna-tv-antena-loga-gembird-gmb-2814r",
@@ -412,6 +422,16 @@
       "brand": "Gembird",
       "sku": "WM-55RT-08",
       "gtin13": "8607864612312"
+    },
+    {
+      "name": "Zglobni zidni nosač za TV 32-58\" do 36 kg – Gembird WM-58ST-01",
+      "price_rsd": 4099,
+      "slug": "zglobni-zidni-tv-nosac-gembird-wm-58st-01",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/zglobni-zidni-tv-nosac-gembird-wm-58st-01-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "WM-58ST-01",
+      "gtin13": "8716309127400"
     },
     {
       "name": "Zglobni zidni nosač za TV 32-58\" do 40 kg – Tuarex ALTA-652",
