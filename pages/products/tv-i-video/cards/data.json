@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 53,
+  "total_products": 54,
   "page_size": 12,
   "products": [
     {
@@ -22,6 +22,16 @@
       "brand": "Kettz",
       "sku": "TVN-440F",
       "gtin13": "8605054709200"
+    },
+    {
+      "name": "Fiksni zidni nosač za TV 32-56\" do 40 kg – Gembird WM-56F-05",
+      "price_rsd": 429,
+      "slug": "fiksni-zidni-tv-nosac-gembird-wm-56f-05",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/fiksni-zidni-tv-nosac-gembird-wm-56f-05-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "WM-56F-05",
+      "gtin13": "8607888637438"
     },
     {
       "name": "Fiksni zidni nosač za TV 32-85\" do 70 kg – Tuarex OLIMP-311",

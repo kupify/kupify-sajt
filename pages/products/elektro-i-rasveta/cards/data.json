@@ -1,6 +1,6 @@
 {
   "category": "elektro-i-rasveta",
-  "total_products": 1,
+  "total_products": 2,
   "page_size": 12,
   "products": [
     {
@@ -12,6 +12,16 @@
       "brand": "Gembird",
       "sku": "SMART-MON16A",
       "gtin13": "8601237217357"
+    },
+    {
+      "name": "Strujni adapter za UK utičnice sa EU šuko ulazom 13A - Gembird A-AC-EUFUKM-01",
+      "price_rsd": 499,
+      "slug": "strujni-adapter-eu-na-uk-gembird-a-ac-eufukm-01",
+      "category": "elektro-i-rasveta",
+      "img_thumb": "/images/products/strujni-adapter-eu-na-uk-gembird-a-ac-eufukm-01-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "A-AC-EUFUKM-01",
+      "gtin13": "8716309128292"
     }
   ]
 }

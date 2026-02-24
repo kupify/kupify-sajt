@@ -1429,6 +1429,36 @@
       "price_rsd": "999",
       "img_thumb": "/images/products/usb-c-punjac-za-aa-aaa-baterije-gembird-bc-usb-03-01-thumb.webp",
       "q_ascii": "usb-c punjac za aa / aaa baterije – gembird bc-usb-03 gembird bc-usb-03 elektronika-i-komponente usb-c-punjac-za-aa-aaa-baterije-gembird-bc-usb-03 8716309126694"
+    },
+    {
+      "name": "Stoni nosač - ruka za monitor do 17-32\" - Gembird MA-D1-01",
+      "slug": "stoni-nosac-za-monitor-gembird-ma-d1-01",
+      "category": "kompjuteri-i-oprema",
+      "brand": "Gembird",
+      "sku": "MA-D1-01",
+      "price_rsd": "2399",
+      "img_thumb": "/images/products/stoni-nosac-za-monitor-gembird-ma-d1-01-01-thumb.webp",
+      "q_ascii": "stoni nosac - ruka za monitor do 17-32\" - gembird ma-d1-01 gembird ma-d1-01 kompjuteri-i-oprema stoni-nosac-za-monitor-gembird-ma-d1-01 8716309126069"
+    },
+    {
+      "name": "Fiksni zidni nosač za TV 32-56\" do 40 kg – Gembird WM-56F-05",
+      "slug": "fiksni-zidni-tv-nosac-gembird-wm-56f-05",
+      "category": "tv-i-video",
+      "brand": "Gembird",
+      "sku": "WM-56F-05",
+      "price_rsd": "429",
+      "img_thumb": "/images/products/fiksni-zidni-tv-nosac-gembird-wm-56f-05-01-thumb.webp",
+      "q_ascii": "fiksni zidni nosac za tv 32-56\" do 40 kg – gembird wm-56f-05 gembird wm-56f-05 tv-i-video fiksni-zidni-tv-nosac-gembird-wm-56f-05 8607888637438"
+    },
+    {
+      "name": "Strujni adapter za UK utičnice sa EU šuko ulazom 13A - Gembird A-AC-EUFUKM-01",
+      "slug": "strujni-adapter-eu-na-uk-gembird-a-ac-eufukm-01",
+      "category": "elektro-i-rasveta",
+      "brand": "Gembird",
+      "sku": "A-AC-EUFUKM-01",
+      "price_rsd": "499",
+      "img_thumb": "/images/products/strujni-adapter-eu-na-uk-gembird-a-ac-eufukm-01-01-thumb.webp",
+      "q_ascii": "strujni adapter za uk uticnice sa eu suko ulazom 13a - gembird a-ac-eufukm-01 gembird a-ac-eufukm-01 elektro-i-rasveta strujni-adapter-eu-na-uk-gembird-a-ac-eufukm-01 8716309128292"
     }
   ]
 }
