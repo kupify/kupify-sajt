@@ -4,12 +4,13 @@
   "page_size": 12,
   "products": [
     {
-      "name": "Sigurnosna bravica za prozor sa ključem za zaštitu dece",
+      "name": "Sigurnosna bravica – reza za prozor sa ključem za zaštitu dece",
       "price_rsd": 1199,
       "slug": "sigurnosna-bravica-za-prozor-zastita-za-decu",
       "category": "uredjenje-kuce",
       "img_thumb": "/images/products/sigurnosna-bravica-za-prozor-zastita-za-decu-01-thumb.webp",
-      "brand": "Kupify"
+      "brand": "Kupify",
+      "sku": "SBP-KLJ-01"
     }
   ]
 }

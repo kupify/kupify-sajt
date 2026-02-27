@@ -231,14 +231,14 @@
       "q_ascii": "sobna tv-fm antena sa pojacivacem signala – kettz dt-k101 kettz dt-k101 tv-i-video sobna-tv-antena-kettz-dt-k101-sa-pojacivacem 8606018832774"
     },
     {
-      "name": "Sigurnosna bravica za prozor sa ključem za zaštitu dece",
+      "name": "Sigurnosna bravica – reza za prozor sa ključem za zaštitu dece",
       "slug": "sigurnosna-bravica-za-prozor-zastita-za-decu",
       "category": "uredjenje-kuce",
       "brand": "Kupify",
-      "sku": "",
+      "sku": "SBP-KLJ-01",
       "price_rsd": "1199",
       "img_thumb": "/images/products/sigurnosna-bravica-za-prozor-zastita-za-decu-01-thumb.webp",
-      "q_ascii": "sigurnosna bravica za prozor sa kljucem za zastitu dece kupify uredjenje-kuce sigurnosna-bravica-za-prozor-zastita-za-decu"
+      "q_ascii": "sigurnosna bravica – reza za prozor sa kljucem za zastitu dece kupify sbp-klj-01 uredjenje-kuce sigurnosna-bravica-za-prozor-zastita-za-decu"
     },
     {
       "name": "Univerzalni adapter držač za mobilni telefon na stativ, tripod ili monopod",
@@ -1459,6 +1459,26 @@
       "price_rsd": "499",
       "img_thumb": "/images/products/strujni-adapter-eu-na-uk-gembird-a-ac-eufukm-01-01-thumb.webp",
       "q_ascii": "strujni adapter za uk uticnice sa eu suko ulazom 13a - gembird a-ac-eufukm-01 gembird a-ac-eufukm-01 elektro-i-rasveta strujni-adapter-eu-na-uk-gembird-a-ac-eufukm-01 8716309128292"
+    },
+    {
+      "name": "Držač za tablet za montažu na naslon auto sedišta - Gembird TA-CHHR-02",
+      "slug": "drzac-tableta-za-naslon-auto-sedista-gembird-ta-chhr-02",
+      "category": "mobilni-telefoni-i-oprema",
+      "brand": "Gembird",
+      "sku": "TA-CHHR-02",
+      "price_rsd": "799",
+      "img_thumb": "/images/products/drzac-tableta-za-naslon-auto-sedista-gembird-ta-chhr-02-01-thumb.webp",
+      "q_ascii": "drzac za tablet za montazu na naslon auto sedista - gembird ta-chhr-02 gembird ta-chhr-02 mobilni-telefoni-i-oprema drzac-tableta-za-naslon-auto-sedista-gembird-ta-chhr-02 8716309087278"
+    },
+    {
+      "name": "Gigabitni LAN switch sa USB-C napajanjem i 5 portova – Cudy GS105U",
+      "slug": "gigabit-lan-switch-sa-usb-c-napajanjem-cudy-gs105u",
+      "category": "kompjuteri-i-oprema",
+      "brand": "Cudy",
+      "sku": "GS105U",
+      "price_rsd": "1199",
+      "img_thumb": "/images/products/gigabit-lan-switch-sa-usb-c-napajanjem-cudy-gs105u-01-thumb.webp",
+      "q_ascii": "gigabitni lan switch sa usb-c napajanjem i 5 portova – cudy gs105u cudy gs105u kompjuteri-i-oprema gigabit-lan-switch-sa-usb-c-napajanjem-cudy-gs105u 6971690794262"
     }
   ]
 }

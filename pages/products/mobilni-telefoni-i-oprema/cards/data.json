@@ -1,8 +1,18 @@
 {
   "category": "mobilni-telefoni-i-oprema",
-  "total_products": 4,
+  "total_products": 5,
   "page_size": 12,
   "products": [
+    {
+      "name": "Držač za tablet za montažu na naslon auto sedišta - Gembird TA-CHHR-02",
+      "price_rsd": 799,
+      "slug": "drzac-tableta-za-naslon-auto-sedista-gembird-ta-chhr-02",
+      "category": "mobilni-telefoni-i-oprema",
+      "img_thumb": "/images/products/drzac-tableta-za-naslon-auto-sedista-gembird-ta-chhr-02-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "TA-CHHR-02",
+      "gtin13": "8716309087278"
+    },
     {
       "name": "Magnetni rotirajući držač za telefon za auto ventilaciju Gembird TA-CHM-03",
       "price_rsd": 499,

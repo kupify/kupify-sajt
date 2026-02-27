@@ -1566,7 +1566,6 @@ div.tekst-lista {
         align-items: stretch;
         padding: 0 0.75rem 0.3rem;
         margin: 0 auto;
-
     }
 
     .product-page-cta {
@@ -1577,7 +1576,7 @@ div.tekst-lista {
 
     .product-page-cta-button-1 {
         width: 100%;
-        max-width: 14rem;
+        max-width: 13.5rem;
         padding: 0.5rem 0.1rem;
         font-size: 0.9rem;
         gap: 0.2rem;
@@ -1595,10 +1594,10 @@ div.tekst-lista {
         width: 100%;
         max-width: 14rem;
         font-size: 0.7rem;
-        line-height: 1.3;
+        line-height: 1.4;
         margin-top: -0.4rem;
         margin-bottom: 0.6rem;
-        text-align: center;
+        text-align: left;
         letter-spacing: 0.00em;
     }
 

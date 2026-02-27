@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 61,
+  "total_products": 62,
   "page_size": 12,
   "products": [
     {
@@ -142,6 +142,16 @@
       "brand": "Gembird",
       "sku": "Virtus Plus SC-USB2.0-01",
       "gtin13": "8716309100441"
+    },
+    {
+      "name": "Gigabitni LAN switch sa USB-C napajanjem i 5 portova – Cudy GS105U",
+      "price_rsd": 1199,
+      "slug": "gigabit-lan-switch-sa-usb-c-napajanjem-cudy-gs105u",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/gigabit-lan-switch-sa-usb-c-napajanjem-cudy-gs105u-01-thumb.webp",
+      "brand": "Cudy",
+      "sku": "GS105U",
+      "gtin13": "6971690794262"
     },
     {
       "name": "HD Web kamera 720p sa mikrofonom Gembird CAM83U",
