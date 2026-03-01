@@ -1479,6 +1479,36 @@
       "price_rsd": "1199",
       "img_thumb": "/images/products/gigabit-lan-switch-sa-usb-c-napajanjem-cudy-gs105u-01-thumb.webp",
       "q_ascii": "gigabitni lan switch sa usb-c napajanjem i 5 portova – cudy gs105u cudy gs105u kompjuteri-i-oprema gigabit-lan-switch-sa-usb-c-napajanjem-cudy-gs105u 6971690794262"
+    },
+    {
+      "name": "Gigabitni LAN switch sa metalnim kućištem i 5 portova – Cudy GS105 v4.0",
+      "slug": "gigabit-lan-switch-metalni-cudy-gs105-v4",
+      "category": "kompjuteri-i-oprema",
+      "brand": "Cudy",
+      "sku": "GS105 4.0",
+      "price_rsd": "1299",
+      "img_thumb": "/images/products/gigabit-lan-switch-metalni-cudy-gs105-v4-01-thumb.webp",
+      "q_ascii": "gigabitni lan switch sa metalnim kucistem i 5 portova – cudy gs105 v4.0 cudy gs105 4.0 kompjuteri-i-oprema gigabit-lan-switch-metalni-cudy-gs105-v4 6971690790431"
+    },
+    {
+      "name": "Gigabitni LAN switch sa 8 portova – Cudy GS108D v4.0",
+      "slug": "gigabitni-lan-switch-cudy-gs108d-v4",
+      "category": "kompjuteri-i-oprema",
+      "brand": "Cudy",
+      "sku": "GS108D 4.0",
+      "price_rsd": "1799",
+      "img_thumb": "/images/products/gigabitni-lan-switch-cudy-gs108d-v4-01-thumb.webp",
+      "q_ascii": "gigabitni lan switch sa 8 portova – cudy gs108d v4.0 cudy gs108d 4.0 kompjuteri-i-oprema gigabitni-lan-switch-cudy-gs108d-v4 6971690790431"
+    },
+    {
+      "name": "Gigabitni LAN switch sa metalnim kućištem i 8 portova – Cudy GS108 v3.0",
+      "slug": "gigabitni-lan-switch-metalni-cudy-gs108-v3",
+      "category": "kompjuteri-i-oprema",
+      "brand": "Cudy",
+      "sku": "GS108 3.0",
+      "price_rsd": "1999",
+      "img_thumb": "/images/products/gigabitni-lan-switch-metalni-cudy-gs108-v3-01-thumb.webp",
+      "q_ascii": "gigabitni lan switch sa metalnim kucistem i 8 portova – cudy gs108 v3.0 cudy gs108 3.0 kompjuteri-i-oprema gigabitni-lan-switch-metalni-cudy-gs108-v3 6971690790554"
     }
   ]
 }
