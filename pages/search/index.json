@@ -1509,6 +1509,26 @@
       "price_rsd": "1999",
       "img_thumb": "/images/products/gigabitni-lan-switch-metalni-cudy-gs108-v3-01-thumb.webp",
       "q_ascii": "gigabitni lan switch sa metalnim kucistem i 8 portova – cudy gs108 v3.0 cudy gs108 3.0 kompjuteri-i-oprema gigabitni-lan-switch-metalni-cudy-gs108-v3 6971690790554"
+    },
+    {
+      "name": "Gigabitni LAN switch sa 5 portova – Dahua PFS3005-5GT-L",
+      "slug": "gigabitni-lan-switch-dahua-pfs3005-5gt-l",
+      "category": "kompjuteri-i-oprema",
+      "brand": "Dahua",
+      "sku": "PFS3005-5GT-L",
+      "price_rsd": "3499",
+      "img_thumb": "/images/products/gigabitni-lan-switch-dahua-pfs3005-5gt-l-01-thumb.webp",
+      "q_ascii": "gigabitni lan switch sa 5 portova – dahua pfs3005-5gt-l dahua pfs3005-5gt-l kompjuteri-i-oprema gigabitni-lan-switch-dahua-pfs3005-5gt-l 6923172582010"
+    },
+    {
+      "name": "Gigabitni LAN switch sa 16 portova VLAN Extend funkcija – Cudy GS1016",
+      "slug": "gigabitni-lan-switch-cudy-gs1016",
+      "category": "kompjuteri-i-oprema",
+      "brand": "Cudy",
+      "sku": "GS1016",
+      "price_rsd": "4999",
+      "img_thumb": "/images/products/gigabitni-lan-switch-cudy-gs1016-01-thumb.webp",
+      "q_ascii": "gigabitni lan switch sa 16 portova vlan extend funkcija – cudy gs1016 cudy gs1016 kompjuteri-i-oprema gigabitni-lan-switch-cudy-gs1016 6971690791117"
     }
   ]
 }

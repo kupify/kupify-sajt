@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 65,
+  "total_products": 67,
   "page_size": 12,
   "products": [
     {
@@ -142,6 +142,26 @@
       "brand": "Gembird",
       "sku": "Virtus Plus SC-USB2.0-01",
       "gtin13": "8716309100441"
+    },
+    {
+      "name": "Gigabitni LAN switch sa 16 portova VLAN Extend funkcija – Cudy GS1016",
+      "price_rsd": 4999,
+      "slug": "gigabitni-lan-switch-cudy-gs1016",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/gigabitni-lan-switch-cudy-gs1016-01-thumb.webp",
+      "brand": "Cudy",
+      "sku": "GS1016",
+      "gtin13": "6971690791117"
+    },
+    {
+      "name": "Gigabitni LAN switch sa 5 portova – Dahua PFS3005-5GT-L",
+      "price_rsd": 3499,
+      "slug": "gigabitni-lan-switch-dahua-pfs3005-5gt-l",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/gigabitni-lan-switch-dahua-pfs3005-5gt-l-01-thumb.webp",
+      "brand": "Dahua",
+      "sku": "PFS3005-5GT-L",
+      "gtin13": "6923172582010"
     },
     {
       "name": "Gigabitni LAN switch sa 8 portova – Cudy GS108D v4.0",
