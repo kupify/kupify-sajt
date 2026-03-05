@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 67,
+  "total_products": 68,
   "page_size": 12,
   "products": [
     {
@@ -561,6 +561,16 @@
       "brand": "Gembird",
       "sku": "EE2280-U3C-01",
       "gtin13": "8716309100823"
+    },
+    {
+      "name": "USB Bluetooth 5.0 adapter - prijemnik za PC i laptop – Ugreen CM390",
+      "price_rsd": 999,
+      "slug": "bluetooth-5-0-usb-adapter-ugreen-cm390",
+      "category": "kompjuteri-i-oprema",
+      "img_thumb": "/images/products/bluetooth-5-0-usb-adapter-ugreen-cm390-01-thumb.webp",
+      "brand": "Ugreen",
+      "sku": "CM390",
+      "gtin13": "6957303888894"
     },
     {
       "name": "USB fleš memorija 128GB (USB 2.0) – MediaRange MR913",

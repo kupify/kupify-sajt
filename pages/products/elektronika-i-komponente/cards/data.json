@@ -1,6 +1,6 @@
 {
   "category": "elektronika-i-komponente",
-  "total_products": 7,
+  "total_products": 6,
   "page_size": 12,
   "products": [
     {
@@ -32,16 +32,6 @@
       "brand": "Verbatim",
       "sku": "HR3 49514",
       "gtin13": "23942495147"
-    },
-    {
-      "name": "USB Bluetooth 5.0 adapter - prijemnik za PC i laptop – Ugreen CM390",
-      "price_rsd": 999,
-      "slug": "bluetooth-5-0-usb-adapter-ugreen-cm390",
-      "category": "elektronika-i-komponente",
-      "img_thumb": "/images/products/bluetooth-5-0-usb-adapter-ugreen-cm390-01-thumb.webp",
-      "brand": "Ugreen",
-      "sku": "CM390",
-      "gtin13": "6957303888894"
     },
     {
       "name": "USB-C punjač za AA / AAA baterije – Gembird BC-USB-03",
