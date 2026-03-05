@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 54,
+  "total_products": 55,
   "page_size": 12,
   "products": [
     {
@@ -262,6 +262,16 @@
       "brand": "Gembird",
       "sku": "GMB-20E",
       "gtin13": "9780111220191"
+    },
+    {
+      "name": "Spoljna TV antena sa pojačivačem 15-32db – FO-KES TV panel V2.0",
+      "price_rsd": 1499,
+      "slug": "spoljna-tv-antena-sa-pojacivacem-fokes-tv-panel-v20",
+      "category": "tv-i-video",
+      "img_thumb": "/images/products/spoljna-tv-antena-sa-pojacivacem-fokes-tv-panel-v20-01-thumb.webp",
+      "brand": "FO-KES",
+      "sku": "TV Panel V2.0",
+      "gtin13": "8606110289018"
     },
     {
       "name": "Spoljna TV/FM antena Midi Loga sa RF konektorom – Kettz AS-K020",

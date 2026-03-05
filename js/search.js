@@ -1,15 +1,24 @@
 /*
  * search.js
  *
- * Engine za prikaz liste proizvoda:
+ * Engine za stranicu pretrage (/pages/search/):
+ * - učitava /pages/search/index.json
  * - filtriranje (pretraga + sinonimi + scoring)
  * - sortiranje
  * - paginacija
- * - render grid-a kartica
- * - URL parametri (q, sort, page)
+ * - render liste proizvoda na search stranici
+ * - URL state: q (query), page (query), sort (hash)
  *
- * Napomena: fajl ne služi samo za "search",
- * već upravlja kompletnim listing prikazom.
+ * Napomena:
+ * - Kategorije (/pages/products/... ) koristi category-listing.js
+ * - Ovaj fajl nije “globalni listing engine” za sve stranice.
+ */
+/*
+ * search.js
+ * /pages/search/ (interna pretraga)
+ * URL: q (query), page (query), sort (hash)
+ * Data: /pages/search/index.json
+ * Napomena: kategorije radi category-listing.js
  */
 
 (function () {
@@ -57,19 +66,19 @@
 
   // HTML jedne kartice (isti markup/klase kao u kategorijama)
   function buildCardHTML(p) {
-  const href = `/pages/products/${encodeURIComponent(p.category)}/${encodeURIComponent(p.slug)}/`;
-  const img = p.img_thumb
-    ? `<img class="product-img" src="${p.img_thumb}" alt="${p.name || ""}"
+    const href = `/pages/products/${encodeURIComponent(p.category)}/${encodeURIComponent(p.slug)}/`;
+    const img = p.img_thumb
+      ? `<img class="product-img" src="${p.img_thumb}" alt="${p.name || ""}"
             loading="lazy" decoding="async" width="150" height="150"
             onerror="this.style.display='none';">`
-    : "";
-  const price = (() => {
-    const v = priceVal(p);
-    if (v === null) return "Na upit";
-    return v.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + " RSD";
-  })();
+      : "";
+    const price = (() => {
+      const v = priceVal(p);
+      if (v === null) return "Na upit";
+      return v.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".") + " RSD";
+    })();
 
-  return `
+    return `
     <article class="product-card">
       <a class="product-link" href="${href}">
         ${img}
@@ -78,7 +87,7 @@
         <span class="btn-cta btn-ghost">Detaljnije</span>
       </a>
     </article>`;
-}
+  }
 
   // Render grida — poruka ide ispod <h2.section-title>, ne u grid
   function renderGrid(list, page, size) {
@@ -151,11 +160,33 @@
   }
   function setURLParams(obj) {
     const u = new URL(location.href);
+
+    // FORSIRAJ: sort ne sme u query nikad
+    u.searchParams.delete("sort");
+
     Object.entries(obj).forEach(([k, v]) => {
       if (v == null || v === "") u.searchParams.delete(k);
       else u.searchParams.set(k, String(v));
     });
+
     history.replaceState(null, "", u);
+  }
+  function getHashParam(k, def = "") {
+    const h = (location.hash || "").replace(/^#/, "");
+    const sp = new URLSearchParams(h);
+    return sp.get(k) ?? def;
+  }
+
+  function setHashParams(obj) {
+    const h = (location.hash || "").replace(/^#/, "");
+    const sp = new URLSearchParams(h);
+    Object.entries(obj).forEach(([k, v]) => {
+      if (v == null || v === "") sp.delete(k);
+      else sp.set(k, String(v));
+    });
+    const next = sp.toString();
+    // ne koristi replaceState ovde; hash može direktno
+    location.hash = next ? `#${next}` : "";
   }
 
   document.addEventListener("DOMContentLoaded", async () => {
@@ -164,7 +195,7 @@
 
     // inicijalni parametri iz URL-a
     const initialQ = getURLParam("q", "");
-    const initialSort = getURLParam("sort", "relevance");
+    const initialSort = getHashParam("sort", "relevance");
     const initialPage = Number(getURLParam("page", "1")) || 1;
 
     if (sortSel) sortSel.value = initialSort;
@@ -396,7 +427,8 @@
       const goto = (n) => {
         if (n < 1 || n > state.totalPages) return;
         state.page = n;
-        setURLParams({ q: state.q, sort: state.sort, page: state.page });
+        setURLParams({ q: state.q, page: state.page, sort: "" }); // OBRIŠI sort iz query
+        setHashParams({ sort: state.sort });                       // sort ide u hash
         render();
       };
       prevBtn?.addEventListener("click", () => goto(state.page - 1));
@@ -413,11 +445,21 @@
     sortSel?.addEventListener("change", () => {
       state.sort = sortSel.value;
       state.page = 1;
-      setURLParams({ q: state.q, sort: state.sort, page: 1 });
+      setURLParams({ q: state.q, page: 1, sort: "" }); // OBRIŠI sort iz query
+      setHashParams({ sort: state.sort });
       render();
     });
 
     // Prvi render
     render();
+
+    window.addEventListener("hashchange", () => {
+      const s = getHashParam("sort", "relevance");
+      if (s === state.sort) return;   // nema promene
+      state.sort = s;
+      if (sortSel) sortSel.value = s;
+      render();
+    });
   });
+
 })();

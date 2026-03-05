@@ -1,4 +1,12 @@
 // /js/category-listing.js
+/*
+ * category-listing.js
+ * /pages/products/<category>/ (kategorijski listing)
+ * URL: page (query), sort (hash)
+ * Data: category JSON (ili tvoj izvor za kategorije)
+ * Napomena: search stranu radi search.js
+ */
+
 (function () {
   "use strict";
 
@@ -12,11 +20,29 @@
   };
   const setParams = (obj) => {
     const u = new URL(location.href);
+    u.searchParams.delete("sort");
     Object.entries(obj).forEach(([k, v]) => {
       if (v == null || v === "" || v === 1) u.searchParams.delete(k);
       else u.searchParams.set(k, String(v));
     });
     history.pushState(Object.fromEntries(u.searchParams), "", u);
+  };
+  const hparam = (k, d = null) => {
+    const h = (location.hash || "").replace(/^#/, "");
+    const sp = new URLSearchParams(h);
+    const v = sp.get(k);
+    return v ?? d;
+  };
+
+  const setHash = (obj) => {
+    const h = (location.hash || "").replace(/^#/, "");
+    const sp = new URLSearchParams(h);
+    Object.entries(obj).forEach(([k, v]) => {
+      if (v == null || v === "") sp.delete(k);
+      else sp.set(k, String(v));
+    });
+    const next = sp.toString();
+    location.hash = next ? `#${next}` : "";
   };
 
   // ADD: aria-busy helper za postojeći .products-grid (bez menjanja markupa)
@@ -158,7 +184,8 @@
       select.addEventListener("change", () => {
         state.sort = select.value;
         state.currentPage = 1; // reset paginacije na promenu sorta
-        setParams({ sort: state.sort, page: 1 });
+        setParams({ page: 1 });
+        setHash({ sort: state.sort });
         update(state);
       });
     }
@@ -175,7 +202,8 @@
     const goto = (n) => {
       if (n < 1 || n > state.totalPages) return;
       state.currentPage = n;
-      setParams({ page: n, sort: state.sort });
+      setParams({ page: n });
+      setHash({ sort: state.sort });
       update(state);
     };
 
@@ -203,7 +231,7 @@
     // back/forward + sort u URL-u
     window.addEventListener("popstate", () => {
       const p = Number(param("page", "1")) || 1;
-      const s = param("sort", state.sort) || state.sort;
+      const s = hparam("sort", state.sort) || state.sort;
       let needs = false;
       if (p !== state.currentPage) { state.currentPage = p; needs = true; }
       if (s !== state.sort) { state.sort = s; needs = true; }
@@ -241,7 +269,7 @@
     if (!category || !grid || !nav) return;
 
     const pageAttr = Number(nav.getAttribute("data-items-per-page") || "12");
-    const initialSort = param("sort", "name-asc"); // podrazumevano: naziv A–Š
+    const initialSort = hparam("sort", "name-asc"); // podrazumevano: naziv A–Š
     const initialPage = Number(param("page", "1")) || 1;
 
     try {
