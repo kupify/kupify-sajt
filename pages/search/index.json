@@ -4,16 +4,18 @@
       "name": "Bežični optički miš 2.4 GHz 800-1600 DPI – Gembird MUSW-4B-01-W",
       "slug": "bezicni-opticki-mis-gembird-musw-4b-01-w",
       "category": "kompjuteri-i-oprema",
+      "group": "misevi",
       "brand": "Gembird",
       "sku": "MUSW-4B-01-W",
       "price_rsd": "599",
       "img_thumb": "/images/products/bezicni-opticki-mis-gembird-musw-4b-01-w-01-thumb.webp",
-      "q_ascii": "bezicni opticki mis 2.4 ghz 800-1600 dpi – gembird musw-4b-01-w gembird musw-4b-01-w kompjuteri-i-oprema bezicni-opticki-mis-gembird-musw-4b-01-w 8716309104159"
+      "q_ascii": "bezicni opticki mis 2.4 ghz 800-1600 dpi – gembird musw-4b-01-w gembird musw-4b-01-w kompjuteri-i-oprema misevi bezicni-opticki-mis-gembird-musw-4b-01-w 8716309104159"
     },
     {
       "name": "Thug Life naočare u piksel retro stilu",
       "slug": "thug-life-naocare-piksel-retro-meme",
       "category": "sport-razonoda-i-zabava",
+      "group": "",
       "brand": "Kupify",
       "sku": "Piksel-retro",
       "price_rsd": "599",
@@ -24,36 +26,40 @@
       "name": "Podni stalak – postolje za TV 32-55\" Kettz TVN-K3255",
       "slug": "stalak-za-tv-podni-kettz-tvn-K3255",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Kettz",
       "sku": "TVN-K3255",
       "price_rsd": "5999",
       "img_thumb": "/images/products/stalak-za-tv-podni-kettz-tvn-K3255-01-thumb.webp",
-      "q_ascii": "podni stalak – postolje za tv 32-55\" kettz tvn-k3255 kettz tvn-k3255 tv-i-video stalak-za-tv-podni-kettz-tvn-k3255 8605054706810"
+      "q_ascii": "podni stalak – postolje za tv 32-55\" kettz tvn-k3255 kettz tvn-k3255 tv-i-video tv-nosaci stalak-za-tv-podni-kettz-tvn-k3255 8605054706810"
     },
     {
       "name": "Zglobni zidni nosač za TV 14-55“ do 20 kg – Gembird WM-55RT-07",
       "slug": "zglobni-tv-nosac-gembird-wm-55rt-07-14-55-inca",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Gembird",
       "sku": "WM-55RT-07",
       "price_rsd": "1399",
       "img_thumb": "/images/products/zglobni-tv-nosac-gembird-wm-55rt-07-14-55-inca-01-thumb.webp",
-      "q_ascii": "zglobni zidni nosac za tv 14-55“ do 20 kg – gembird wm-55rt-07 gembird wm-55rt-07 tv-i-video zglobni-tv-nosac-gembird-wm-55rt-07-14-55-inca 8607855734238"
+      "q_ascii": "zglobni zidni nosac za tv 14-55“ do 20 kg – gembird wm-55rt-07 gembird wm-55rt-07 tv-i-video tv-nosaci zglobni-tv-nosac-gembird-wm-55rt-07-14-55-inca 8607855734238"
     },
     {
       "name": "Stoni nosač - ruka za monitor 17-32\" sa gasnom oprugom – Gembird MA-DA1-05",
       "slug": "stoni-nosac-ruka-za-monitor-gembird-ma-da1-05",
       "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
       "brand": "Gembird",
       "sku": "MA-DA1-05",
       "price_rsd": "3199",
       "img_thumb": "/images/products/stoni-nosac-ruka-za-monitor-gembird-ma-da1-05-01-thumb.webp",
-      "q_ascii": "stoni nosac - ruka za monitor 17-32\" sa gasnom oprugom – gembird ma-da1-05 gembird ma-da1-05 kompjuteri-i-oprema stoni-nosac-ruka-za-monitor-gembird-ma-da1-05 8716309127707"
+      "q_ascii": "stoni nosac - ruka za monitor 17-32\" sa gasnom oprugom – gembird ma-da1-05 gembird ma-da1-05 kompjuteri-i-oprema nosaci-za-monitor stoni-nosac-ruka-za-monitor-gembird-ma-da1-05 8716309127707"
     },
     {
       "name": "Zidni nosači za mikrotalasnu peć Gembird WM-U35-01-W",
       "slug": "zidni-nosaci-za-mikrotalasnu-pec-gembird-wm-u35-01-w",
       "category": "bela-tehnika-i-kucni-aparati",
+      "group": "",
       "brand": "Gembird",
       "sku": "WM-U35-01-W",
       "price_rsd": "1599",
@@ -64,6 +70,7 @@
       "name": "Podesivi podupirači - stubići za automobil 3t Big Red - 2kom",
       "slug": "klocne-stubici-podupiraci-za-automobil-big-red-3t",
       "category": "auto-oprema",
+      "group": "",
       "brand": "Big Red",
       "sku": "",
       "price_rsd": "3699",
@@ -74,6 +81,7 @@
       "name": "Pametna WiFi utičnica sa tajmerom i merenjem potrošnje – Gembird SMART-MON16A",
       "slug": "pametna-wifi-uticnica-tajmer-merenje-potrosnje-gembird-smart-mon16a",
       "category": "elektro-i-rasveta",
+      "group": "",
       "brand": "Gembird",
       "sku": "SMART-MON16A",
       "price_rsd": "1399",
@@ -84,16 +92,18 @@
       "name": "Spoljna mrežasta TV antena sa pojačivačem 17-35 dB ANT-408AL",
       "slug": "spoljna-mrezasta-tv-antena-sa-pojacivacem-ant-408al",
       "category": "tv-i-video",
+      "group": "antene",
       "brand": "Vega",
       "sku": "ANT-408AL",
       "price_rsd": "2199",
       "img_thumb": "/images/products/spoljna-mrezasta-tv-antena-sa-pojacivacem-ant-408al-01-thumb.webp",
-      "q_ascii": "spoljna mrezasta tv antena sa pojacivacem 17-35 db ant-408al vega ant-408al tv-i-video spoljna-mrezasta-tv-antena-sa-pojacivacem-ant-408al 3856001016260"
+      "q_ascii": "spoljna mrezasta tv antena sa pojacivacem 17-35 db ant-408al vega ant-408al tv-i-video antene spoljna-mrezasta-tv-antena-sa-pojacivacem-ant-408al 3856001016260"
     },
     {
       "name": "Magnetni rotirajući držač za telefon za auto ventilaciju Gembird TA-CHM-03",
       "slug": "magnetni-drzac-za-telefon-za-auto-ventilaciju-gembird-ta-chm-03",
       "category": "mobilni-telefoni-i-oprema",
+      "group": "",
       "brand": "Gembird",
       "sku": "TA-CHM-03",
       "price_rsd": "499",
@@ -104,16 +114,18 @@
       "name": "Zglobni nosač za TV 43-100\" do 75 kg – Kettz TVN-9900",
       "slug": "zglobni-nosac-za-tv-43-100-do-75kg-kettz-tvn-9900",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Kettz",
       "sku": "TVN-9900",
       "price_rsd": "8699",
       "img_thumb": "/images/products/zglobni-nosac-za-tv-43-100-do-75kg-kettz-tvn-9900-01-thumb.webp",
-      "q_ascii": "zglobni nosac za tv 43-100\" do 75 kg – kettz tvn-9900 kettz tvn-9900 tv-i-video zglobni-nosac-za-tv-43-100-do-75kg-kettz-tvn-9900 8605054708258"
+      "q_ascii": "zglobni nosac za tv 43-100\" do 75 kg – kettz tvn-9900 kettz tvn-9900 tv-i-video tv-nosaci zglobni-nosac-za-tv-43-100-do-75kg-kettz-tvn-9900 8605054708258"
     },
     {
       "name": "Mini polica za Set Top Box i TV risiver – Kettz NAV-K91",
       "slug": "mini-polica-za-set-top-box-risiver-kettz-nav-k91",
       "category": "tv-i-video",
+      "group": "",
       "brand": "Kettz",
       "sku": "NAV-K91",
       "price_rsd": "569",
@@ -124,86 +136,95 @@
       "name": "Plafonski rotirajući nosač za TV 37\"-70\" do 50kg – Kettz TVN-K1103",
       "slug": "plafonski-nosac-za-tv-rotirajuci-kettz-tvn-k1103",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Kettz",
       "sku": "TVN-K1103",
       "price_rsd": "4999",
       "img_thumb": "/images/products/plafonski-nosac-za-tv-rotirajuci-kettz-tvn-k1103-01-thumb.webp",
-      "q_ascii": "plafonski rotirajuci nosac za tv 37\"-70\" do 50kg – kettz tvn-k1103 kettz tvn-k1103 tv-i-video plafonski-nosac-za-tv-rotirajuci-kettz-tvn-k1103 8606018839728"
+      "q_ascii": "plafonski rotirajuci nosac za tv 37\"-70\" do 50kg – kettz tvn-k1103 kettz tvn-k1103 tv-i-video tv-nosaci plafonski-nosac-za-tv-rotirajuci-kettz-tvn-k1103 8606018839728"
     },
     {
       "name": "Zidni nosač za TV 42-100\" do 60kg – Kettz TVN-939T",
       "slug": "zidni-nosac-za-tv-42-100-inca-do-60kg-kettz-tvn-939t",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Kettz",
       "sku": "TVN-939T",
       "price_rsd": "1899",
       "img_thumb": "/images/products/zidni-nosac-za-tv-42-100-inca-do-60kg-kettz-tvn-939t-01-thumb.webp",
-      "q_ascii": "zidni nosac za tv 42-100\" do 60kg – kettz tvn-939t kettz tvn-939t tv-i-video zidni-nosac-za-tv-42-100-inca-do-60kg-kettz-tvn-939t 8605054709583"
+      "q_ascii": "zidni nosac za tv 42-100\" do 60kg – kettz tvn-939t kettz tvn-939t tv-i-video tv-nosaci zidni-nosac-za-tv-42-100-inca-do-60kg-kettz-tvn-939t 8605054709583"
     },
     {
       "name": "Sobna ili spoljna TV antena sa pojačivačem – Kettz DT-K833USB",
       "slug": "sobna-spoljna-tv-antena-sa-pojacivacem-kettz-dt-k833usb",
       "category": "tv-i-video",
+      "group": "antene",
       "brand": "Kettz",
       "sku": "DT-K833USB",
       "price_rsd": "899",
       "img_thumb": "/images/products/sobna-spoljna-tv-antena-sa-pojacivacem-kettz-dt-k833usb-01-thumb.webp",
-      "q_ascii": "sobna ili spoljna tv antena sa pojacivacem – kettz dt-k833usb kettz dt-k833usb tv-i-video sobna-spoljna-tv-antena-sa-pojacivacem-kettz-dt-k833usb 8605054709316"
+      "q_ascii": "sobna ili spoljna tv antena sa pojacivacem – kettz dt-k833usb kettz dt-k833usb tv-i-video antene sobna-spoljna-tv-antena-sa-pojacivacem-kettz-dt-k833usb 8605054709316"
     },
     {
       "name": "Spoljna TV/FM antena Midi Loga sa RF konektorom – Kettz AS-K020",
       "slug": "spoljna-tv-fm-antena-midi-loga-kettz-as-k020",
       "category": "tv-i-video",
+      "group": "antene",
       "brand": "Kettz",
       "sku": "AS-K020",
       "price_rsd": "939",
       "img_thumb": "/images/products/spoljna-tv-fm-antena-midi-loga-kettz-as-k020-01-thumb.webp",
-      "q_ascii": "spoljna tv/fm antena midi loga sa rf konektorom – kettz as-k020 kettz as-k020 tv-i-video spoljna-tv-fm-antena-midi-loga-kettz-as-k020 8605054708265"
+      "q_ascii": "spoljna tv/fm antena midi loga sa rf konektorom – kettz as-k020 kettz as-k020 tv-i-video antene spoljna-tv-fm-antena-midi-loga-kettz-as-k020 8605054708265"
     },
     {
       "name": "Sobna TV/FM antena sa pojačivačem – Kettz DT-K028",
       "slug": "sobna-tv-fm-antena-sa-pojacivacem-48db-kettz-dt-k028",
       "category": "tv-i-video",
+      "group": "antene",
       "brand": "Kettz",
       "sku": "DT-K028",
       "price_rsd": "1489",
       "img_thumb": "/images/products/sobna-tv-fm-antena-sa-pojacivacem-48db-kettz-dt-k028-01-thumb.webp",
-      "q_ascii": "sobna tv/fm antena sa pojacivacem – kettz dt-k028 kettz dt-k028 tv-i-video sobna-tv-fm-antena-sa-pojacivacem-48db-kettz-dt-k028 8606018832781"
+      "q_ascii": "sobna tv/fm antena sa pojacivacem – kettz dt-k028 kettz dt-k028 tv-i-video antene sobna-tv-fm-antena-sa-pojacivacem-48db-kettz-dt-k028 8606018832781"
     },
     {
       "name": "Sobna TV antena sa pojačivačem – Kettz DT-K024",
       "slug": "sobna-tv-antena-sa-pojacivacem-kettz-dt-k024",
       "category": "tv-i-video",
+      "group": "antene",
       "brand": "Kettz",
       "sku": "DT-K024",
       "price_rsd": "1299",
       "img_thumb": "/images/products/sobna-tv-antena-sa-pojacivacem-kettz-dt-k024-01-thumb.webp",
-      "q_ascii": "sobna tv antena sa pojacivacem – kettz dt-k024 kettz dt-k024 tv-i-video sobna-tv-antena-sa-pojacivacem-kettz-dt-k024 8605054711043"
+      "q_ascii": "sobna tv antena sa pojacivacem – kettz dt-k024 kettz dt-k024 tv-i-video antene sobna-tv-antena-sa-pojacivacem-kettz-dt-k024 8605054711043"
     },
     {
       "name": "Sobna TV/FM antena sa pojačivačem – Kettz DT-K035",
       "slug": "sobna-tv-fm-antena-sa-pojacivacem-kettz-dt-k035",
       "category": "tv-i-video",
+      "group": "antene",
       "brand": "Kettz",
       "sku": "DT-K035",
       "price_rsd": "1699",
       "img_thumb": "/images/products/sobna-tv-fm-antena-sa-pojacivacem-kettz-dt-k035-01-thumb.webp",
-      "q_ascii": "sobna tv/fm antena sa pojacivacem – kettz dt-k035 kettz dt-k035 tv-i-video sobna-tv-fm-antena-sa-pojacivacem-kettz-dt-k035 8606018832798"
+      "q_ascii": "sobna tv/fm antena sa pojacivacem – kettz dt-k035 kettz dt-k035 tv-i-video antene sobna-tv-fm-antena-sa-pojacivacem-kettz-dt-k035 8606018832798"
     },
     {
       "name": "Sobna ili spoljna TV antena sa 10m kabla – Kettz DT-K090",
       "slug": "sobna-spoljna-tv-antena-10m-kabla-kettz-dt-k090",
       "category": "tv-i-video",
+      "group": "antene",
       "brand": "Kettz",
       "sku": "DT-K090",
       "price_rsd": "1599",
       "img_thumb": "/images/products/sobna-spoljna-tv-antena-10m-kabla-kettz-dt-k090-01-thumb.webp",
-      "q_ascii": "sobna ili spoljna tv antena sa 10m kabla – kettz dt-k090 kettz dt-k090 tv-i-video sobna-spoljna-tv-antena-10m-kabla-kettz-dt-k090 8605054711050"
+      "q_ascii": "sobna ili spoljna tv antena sa 10m kabla – kettz dt-k090 kettz dt-k090 tv-i-video antene sobna-spoljna-tv-antena-10m-kabla-kettz-dt-k090 8605054711050"
     },
     {
       "name": "Vakuumski držač za tuš bez bušenja – univerzalni nosač za ručicu tuša",
       "slug": "vakuumski-drzac-za-tus-bez-busenja-univerzalni",
       "category": "kupatilo-i-oprema",
+      "group": "",
       "brand": "Kupify",
       "sku": "Vakuum za tuš",
       "price_rsd": "999",
@@ -214,26 +235,29 @@
       "name": "Fiksni zidni nosač za TV 32-85\" do 70 kg – Tuarex OLIMP-311",
       "slug": "fiksni-zidni-tv-nosac-tuarex-olimp-311",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Tuarex",
       "sku": "OLIMP-311",
       "price_rsd": "1299",
       "img_thumb": "/images/products/fiksni-zidni-tv-nosac-tuarex-olimp-311-01-thumb.webp",
-      "q_ascii": "fiksni zidni nosac za tv 32-85\" do 70 kg – tuarex olimp-311 tuarex olimp-311 tv-i-video fiksni-zidni-tv-nosac-tuarex-olimp-311 4630034136121"
+      "q_ascii": "fiksni zidni nosac za tv 32-85\" do 70 kg – tuarex olimp-311 tuarex olimp-311 tv-i-video tv-nosaci fiksni-zidni-tv-nosac-tuarex-olimp-311 4630034136121"
     },
     {
       "name": "Sobna TV-FM antena sa pojačivačem signala – Kettz DT-K101",
       "slug": "sobna-tv-antena-kettz-dt-k101-sa-pojacivacem",
       "category": "tv-i-video",
+      "group": "antene",
       "brand": "Kettz",
       "sku": "DT-K101",
       "price_rsd": "1489",
       "img_thumb": "/images/products/sobna-tv-antena-kettz-dt-k101-sa-pojacivacem-01-thumb.webp",
-      "q_ascii": "sobna tv-fm antena sa pojacivacem signala – kettz dt-k101 kettz dt-k101 tv-i-video sobna-tv-antena-kettz-dt-k101-sa-pojacivacem 8606018832774"
+      "q_ascii": "sobna tv-fm antena sa pojacivacem signala – kettz dt-k101 kettz dt-k101 tv-i-video antene sobna-tv-antena-kettz-dt-k101-sa-pojacivacem 8606018832774"
     },
     {
       "name": "Sigurnosna bravica – reza za prozor sa ključem za zaštitu dece",
       "slug": "sigurnosna-bravica-za-prozor-zastita-za-decu",
       "category": "uredjenje-kuce",
+      "group": "",
       "brand": "Kupify",
       "sku": "SBP-KLJ-01",
       "price_rsd": "1199",
@@ -244,146 +268,161 @@
       "name": "Univerzalni adapter držač za mobilni telefon na stativ, tripod ili monopod",
       "slug": "adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod",
       "category": "mobilni-telefoni-i-oprema",
+      "group": "drzaci-za-telefon",
       "brand": "Kupify",
       "sku": "",
       "price_rsd": "399",
       "img_thumb": "/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-01-thumb.webp",
-      "q_ascii": "univerzalni adapter drzac za mobilni telefon na stativ, tripod ili monopod kupify mobilni-telefoni-i-oprema adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod"
+      "q_ascii": "univerzalni adapter drzac za mobilni telefon na stativ, tripod ili monopod kupify mobilni-telefoni-i-oprema drzaci-za-telefon adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod"
     },
     {
       "name": "Rotirajući adapter držač za mobilni telefon na stativ ili tripod",
       "slug": "rotirajuci-drzac-za-telefon-za-stativ-tripod",
       "category": "mobilni-telefoni-i-oprema",
+      "group": "drzaci-za-telefon",
       "brand": "Kupify",
       "sku": "",
       "price_rsd": "999",
       "img_thumb": "/images/products/rotirajuci-drzac-za-telefon-za-stativ-tripod-01-thumb.webp",
-      "q_ascii": "rotirajuci adapter drzac za mobilni telefon na stativ ili tripod kupify mobilni-telefoni-i-oprema rotirajuci-drzac-za-telefon-za-stativ-tripod"
+      "q_ascii": "rotirajuci adapter drzac za mobilni telefon na stativ ili tripod kupify mobilni-telefoni-i-oprema drzaci-za-telefon rotirajuci-drzac-za-telefon-za-stativ-tripod"
     },
     {
       "name": "Volan sa pedalama za PC – Gembird STR-ShockForce-II",
       "slug": "volan-pedale-za-pc-gembird-str-shockforce-ii",
       "category": "kompjuteri-i-oprema",
+      "group": "dzojstici-i-volani",
       "brand": "Gembird",
       "sku": "STR-ShockForce-II",
       "price_rsd": "4699",
       "img_thumb": "/images/products/volan-pedale-za-pc-gembird-str-shockforce-ii-01-thumb.webp",
-      "q_ascii": "volan sa pedalama za pc – gembird str-shockforce-ii gembird str-shockforce-ii kompjuteri-i-oprema volan-pedale-za-pc-gembird-str-shockforce-ii 11223355669"
+      "q_ascii": "volan sa pedalama za pc – gembird str-shockforce-ii gembird str-shockforce-ii kompjuteri-i-oprema dzojstici-i-volani volan-pedale-za-pc-gembird-str-shockforce-ii 11223355669"
     },
     {
       "name": "Podesivi stoni nosač – ruka držač za monitor 17-32\" Gembird MA-D1-02",
       "slug": "podesivi-nosac-ruka-za-monitor-gembird-ma-d1-02",
       "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
       "brand": "Gembird",
       "sku": "MA-D1-02",
       "price_rsd": "1799",
       "img_thumb": "/images/products/podesivi-nosac-ruka-za-monitor-gembird-ma-d1-02-01-thumb.webp",
-      "q_ascii": "podesivi stoni nosac – ruka drzac za monitor 17-32\" gembird ma-d1-02 gembird ma-d1-02 kompjuteri-i-oprema podesivi-nosac-ruka-za-monitor-gembird-ma-d1-02 8716309127561"
+      "q_ascii": "podesivi stoni nosac – ruka drzac za monitor 17-32\" gembird ma-d1-02 gembird ma-d1-02 kompjuteri-i-oprema nosaci-za-monitor podesivi-nosac-ruka-za-monitor-gembird-ma-d1-02 8716309127561"
     },
     {
       "name": "Zglobni nosač za TV 37-80\" do 40 kg – Gembird WM-80ST-033",
       "slug": "zglobni-tv-nosac-37-80-inca-gembird-wm-80st-033",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Gembird",
       "sku": "WM-80ST-033",
       "price_rsd": "2399",
       "img_thumb": "/images/products/zglobni-tv-nosac-37-80-inca-gembird-wm-80st-033-01-thumb.webp",
-      "q_ascii": "zglobni nosac za tv 37-80\" do 40 kg – gembird wm-80st-033 gembird wm-80st-033 tv-i-video zglobni-tv-nosac-37-80-inca-gembird-wm-80st-033 6951939631183"
+      "q_ascii": "zglobni nosac za tv 37-80\" do 40 kg – gembird wm-80st-033 gembird wm-80st-033 tv-i-video tv-nosaci zglobni-tv-nosac-37-80-inca-gembird-wm-80st-033 6951939631183"
     },
     {
       "name": "Zglobni zidni nosač za TV 32-58\" do 40 kg – Tuarex ALTA-652",
       "slug": "zglobni-zidni-nosac-za-tv-32-58-inca-tuarex-alta-652",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Tuarex",
       "sku": "ALTA-652",
       "price_rsd": "2199",
       "img_thumb": "/images/products/zglobni-zidni-nosac-za-tv-32-58-inca-tuarex-alta-652-01-thumb.webp",
-      "q_ascii": "zglobni zidni nosac za tv 32-58\" do 40 kg – tuarex alta-652 tuarex alta-652 tv-i-video zglobni-zidni-nosac-za-tv-32-58-inca-tuarex-alta-652 4630034136282"
+      "q_ascii": "zglobni zidni nosac za tv 32-58\" do 40 kg – tuarex alta-652 tuarex alta-652 tv-i-video tv-nosaci zglobni-zidni-nosac-za-tv-32-58-inca-tuarex-alta-652 4630034136282"
     },
     {
       "name": "Stalak – postolje sa točkićima i policama za TV 32-70\" Kettz TVN-P1575",
       "slug": "tv-stalak-sa-tockicima-i-policama-32-70-inca-100-kg-kettz-tvn-p1575",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Kettz",
       "sku": "TVN-P1575",
       "price_rsd": "12999",
       "img_thumb": "/images/products/tv-stalak-sa-tockicima-i-policama-32-70-inca-100-kg-kettz-tvn-p1575-01-thumb.webp",
-      "q_ascii": "stalak – postolje sa tockicima i policama za tv 32-70\" kettz tvn-p1575 kettz tvn-p1575 tv-i-video tv-stalak-sa-tockicima-i-policama-32-70-inca-100-kg-kettz-tvn-p1575 8605054708111"
+      "q_ascii": "stalak – postolje sa tockicima i policama za tv 32-70\" kettz tvn-p1575 kettz tvn-p1575 tv-i-video tv-nosaci tv-stalak-sa-tockicima-i-policama-32-70-inca-100-kg-kettz-tvn-p1575 8605054708111"
     },
     {
       "name": "Stoni držač za monitor 17-32\" sa jednom rukom – Gembird MA-D1-033",
       "slug": "stoni-drzac-ruka-za-monitor-17-32-inca-gembird-ma-d1-033",
       "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
       "brand": "Gembird",
       "sku": "MA-D1-033",
       "price_rsd": "1899",
       "img_thumb": "/images/products/stoni-drzac-ruka-za-monitor-17-32-inca-gembird-ma-d1-033-01-thumb.webp",
-      "q_ascii": "stoni drzac za monitor 17-32\" sa jednom rukom – gembird ma-d1-033 gembird ma-d1-033 kompjuteri-i-oprema stoni-drzac-ruka-za-monitor-17-32-inca-gembird-ma-d1-033 6951939631206"
+      "q_ascii": "stoni drzac za monitor 17-32\" sa jednom rukom – gembird ma-d1-033 gembird ma-d1-033 kompjuteri-i-oprema nosaci-za-monitor stoni-drzac-ruka-za-monitor-17-32-inca-gembird-ma-d1-033 6951939631206"
     },
     {
       "name": "Kvarcna grejalica sa 3 štapa 400/800/1200W – Zilan ZLN1084 BK",
       "slug": "kvarcna-grejalica-3-stapa-400-800-1200w-zilan-zln1084-bk",
       "category": "bela-tehnika-i-kucni-aparati",
+      "group": "grejanje",
       "brand": "Zilan",
       "sku": "ZLN1084 BK",
       "price_rsd": "1999",
       "img_thumb": "/images/products/kvarcna-grejalica-3-stapa-400-800-1200w-zilan-zln1084-bk-01-thumb.webp",
-      "q_ascii": "kvarcna grejalica sa 3 stapa 400/800/1200w – zilan zln1084 bk zilan zln1084 bk bela-tehnika-i-kucni-aparati kvarcna-grejalica-3-stapa-400-800-1200w-zilan-zln1084-bk 6423154021501"
+      "q_ascii": "kvarcna grejalica sa 3 stapa 400/800/1200w – zilan zln1084 bk zilan zln1084 bk bela-tehnika-i-kucni-aparati grejanje kvarcna-grejalica-3-stapa-400-800-1200w-zilan-zln1084-bk 6423154021501"
     },
     {
       "name": "Plafonski nosač za TV 19-43\" sa punim pokretom – Gembird CM-43ST-01",
       "slug": "plafonski-nosac-za-tv-19-43-inca-gembird-cm-43st-01",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Gembird",
       "sku": "CM-43ST-01",
       "price_rsd": "1999",
       "img_thumb": "/images/products/plafonski-nosac-za-tv-19-43-inca-gembird-cm-43st-01-01-thumb.webp",
-      "q_ascii": "plafonski nosac za tv 19-43\" sa punim pokretom – gembird cm-43st-01 gembird cm-43st-01 tv-i-video plafonski-nosac-za-tv-19-43-inca-gembird-cm-43st-01 8716309135191"
+      "q_ascii": "plafonski nosac za tv 19-43\" sa punim pokretom – gembird cm-43st-01 gembird cm-43st-01 tv-i-video tv-nosaci plafonski-nosac-za-tv-19-43-inca-gembird-cm-43st-01 8716309135191"
     },
     {
       "name": "Zidni nosač za TV 43-100“ sa nagibom – Gembird WM-100T-01",
       "slug": "zidni-nosac-za-tv-43-100-inca-sa-nagibom-gembird-wm-100t-01",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Gembird",
       "sku": "WM-100T-01",
       "price_rsd": "2199",
       "img_thumb": "/images/products/zidni-nosac-za-tv-43-100-inca-sa-nagibom-gembird-wm-100t-01-01-thumb.webp",
-      "q_ascii": "zidni nosac za tv 43-100“ sa nagibom – gembird wm-100t-01 gembird wm-100t-01 tv-i-video zidni-nosac-za-tv-43-100-inca-sa-nagibom-gembird-wm-100t-01 8716309135269"
+      "q_ascii": "zidni nosac za tv 43-100“ sa nagibom – gembird wm-100t-01 gembird wm-100t-01 tv-i-video tv-nosaci zidni-nosac-za-tv-43-100-inca-sa-nagibom-gembird-wm-100t-01 8716309135269"
     },
     {
       "name": "Zidni nosač za TV 35-75“ sa nagibom – Gembird WM-75T-04",
       "slug": "zidni-nosac-za-tv-37-75-inca-sa-nagibom-gembird-wm-75t-04",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Gembird",
       "sku": "WM-75T-04",
       "price_rsd": "1399",
       "img_thumb": "/images/products/zidni-nosac-za-tv-37-75-inca-sa-nagibom-gembird-wm-75t-04-01-thumb.webp",
-      "q_ascii": "zidni nosac za tv 35-75“ sa nagibom – gembird wm-75t-04 gembird wm-75t-04 tv-i-video zidni-nosac-za-tv-37-75-inca-sa-nagibom-gembird-wm-75t-04 8716309135306"
+      "q_ascii": "zidni nosac za tv 35-75“ sa nagibom – gembird wm-75t-04 gembird wm-75t-04 tv-i-video tv-nosaci zidni-nosac-za-tv-37-75-inca-sa-nagibom-gembird-wm-75t-04 8716309135306"
     },
     {
       "name": "Zidni nosač za TV 43-90“ sa nagibom – Gembird WM-90T-01",
       "slug": "zidni-nosac-za-tv-43-90-inca-sa-nagibom-gembird-wm-90t-01",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Gembird",
       "sku": "WM-90T-01",
       "price_rsd": "2569",
       "img_thumb": "/images/products/zidni-nosac-za-tv-43-90-inca-sa-nagibom-gembird-wm-90t-01-01-thumb.webp",
-      "q_ascii": "zidni nosac za tv 43-90“ sa nagibom – gembird wm-90t-01 gembird wm-90t-01 tv-i-video zidni-nosac-za-tv-43-90-inca-sa-nagibom-gembird-wm-90t-01 8716309126182"
+      "q_ascii": "zidni nosac za tv 43-90“ sa nagibom – gembird wm-90t-01 gembird wm-90t-01 tv-i-video tv-nosaci zidni-nosac-za-tv-43-90-inca-sa-nagibom-gembird-wm-90t-01 8716309126182"
     },
     {
       "name": "ATX napajanje za PC 650W – Gembird GMB-650-12",
       "slug": "atx-pc-napajanje-650w-gembird-gmb-650-12",
       "category": "kompjuteri-i-oprema",
+      "group": "napajanja",
       "brand": "Gembird",
       "sku": "GMB-650-12",
       "price_rsd": "2799",
       "img_thumb": "/images/products/atx-pc-napajanje-650w-gembird-gmb-650-12-01-thumb.webp",
-      "q_ascii": "atx napajanje za pc 650w – gembird gmb-650-12 gembird gmb-650-12 kompjuteri-i-oprema atx-pc-napajanje-650w-gembird-gmb-650-12 6945398958472"
+      "q_ascii": "atx napajanje za pc 650w – gembird gmb-650-12 gembird gmb-650-12 kompjuteri-i-oprema napajanja atx-pc-napajanje-650w-gembird-gmb-650-12 6945398958472"
     },
     {
       "name": "Velika grickalica za zadebljane i urasle nokte – otvor sekača 15 mm",
       "slug": "velika-grickalica-za-zadebljane-urasle-nokte-15mm",
       "category": "nega-i-licna-higijena",
+      "group": "",
       "brand": "Kupify",
       "sku": "",
       "price_rsd": "1499",
@@ -394,36 +433,40 @@
       "name": "Univerzalno stono postolje za monitor 13-32\" do 8 kg – Gembird MS-D1ST-04",
       "slug": "univerzalno-stono-postolje-za-monitor-13-32-inca-gembird-ms-d1st-04",
       "category": "kompjuteri-i-oprema",
+      "group": "tv-nosaci",
       "brand": "Gembird",
       "sku": "MS-D1ST-04",
       "price_rsd": "2699",
       "img_thumb": "/images/products/univerzalno-stono-postolje-za-monitor-13-32-inca-gembird-ms-d1st-04-01-thumb.webp",
-      "q_ascii": "univerzalno stono postolje za monitor 13-32\" do 8 kg – gembird ms-d1st-04 gembird ms-d1st-04 kompjuteri-i-oprema univerzalno-stono-postolje-za-monitor-13-32-inca-gembird-ms-d1st-04 8716309135405"
+      "q_ascii": "univerzalno stono postolje za monitor 13-32\" do 8 kg – gembird ms-d1st-04 gembird ms-d1st-04 kompjuteri-i-oprema tv-nosaci univerzalno-stono-postolje-za-monitor-13-32-inca-gembird-ms-d1st-04 8716309135405"
     },
     {
       "name": "Podesivi dupli stoni nosač za dva monitora 17-32“ Gembird MA-D2-011",
       "slug": "podesivi-dupli-stoni-nosac-za-dva-monitora-17-32-inca-gembird-ma-d2-011",
       "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
       "brand": "Gembird",
       "sku": "MA-D2-011",
       "price_rsd": "2799",
       "img_thumb": "/images/products/podesivi-dupli-stoni-nosac-za-dva-monitora-17-32-inca-gembird-ma-d2-011-01-thumb.webp",
-      "q_ascii": "podesivi dupli stoni nosac za dva monitora 17-32“ gembird ma-d2-011 gembird ma-d2-011 kompjuteri-i-oprema podesivi-dupli-stoni-nosac-za-dva-monitora-17-32-inca-gembird-ma-d2-011 6951939631213"
+      "q_ascii": "podesivi dupli stoni nosac za dva monitora 17-32“ gembird ma-d2-011 gembird ma-d2-011 kompjuteri-i-oprema nosaci-za-monitor podesivi-dupli-stoni-nosac-za-dva-monitora-17-32-inca-gembird-ma-d2-011 6951939631213"
     },
     {
       "name": "Stoni nosač - ruka za monitor 17-32“ sa gasnom oprugom – Gembird MA-DA1-055",
       "slug": "podesivi-stoni-nosac-ruka-za-monitor-17-32-inca-gembird-ma-da1-055",
       "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
       "brand": "Gembird",
       "sku": "MA-DA1-055",
       "price_rsd": "2799",
       "img_thumb": "/images/products/podesivi-stoni-nosac-ruka-za-monitor-17-32-inca-gembird-ma-da1-055-01-thumb.webp",
-      "q_ascii": "stoni nosac - ruka za monitor 17-32“ sa gasnom oprugom – gembird ma-da1-055 gembird ma-da1-055 kompjuteri-i-oprema podesivi-stoni-nosac-ruka-za-monitor-17-32-inca-gembird-ma-da1-055 6951939631190"
+      "q_ascii": "stoni nosac - ruka za monitor 17-32“ sa gasnom oprugom – gembird ma-da1-055 gembird ma-da1-055 kompjuteri-i-oprema nosaci-za-monitor podesivi-stoni-nosac-ruka-za-monitor-17-32-inca-gembird-ma-da1-055 6951939631190"
     },
     {
       "name": "Sklopiva barijera za parking mesto 4 kg Gembird SMART-PARKING-RAMPA-4",
       "slug": "sklopiva-mehanicka-barijera-gembird-smart-parking-rampa-4",
       "category": "auto-oprema",
+      "group": "",
       "brand": "Gembird",
       "sku": "SMART-PARKING-RAMPA-4",
       "price_rsd": "2399",
@@ -434,6 +477,7 @@
       "name": "Sklopiva barijera za parking mesto 6 kg Gembird SMART-PARKING-RAMPA-6",
       "slug": "sklopiva-mehanicka-barijera-gembird-smart-parking-rampa-6",
       "category": "auto-oprema",
+      "group": "",
       "brand": "Gembird",
       "sku": "SMART-PARKING-RAMPA-6",
       "price_rsd": "2999",
@@ -444,6 +488,7 @@
       "name": "Mini polica za Set Top Box i TV risiver – Kettz NAV-K92",
       "slug": "mini-polica-za-set-top-box-i-tv-risiver-kettz-nav-k92",
       "category": "tv-i-video",
+      "group": "",
       "brand": "Kettz",
       "sku": "NAV-K92",
       "price_rsd": "999",
@@ -454,6 +499,7 @@
       "name": "Staklene dekant bočice za dekantovanje parfema 5 ml i 10 ml",
       "slug": "staklene-dekant-bocice-za-parfem-5ml-10ml",
       "category": "nega-i-licna-higijena",
+      "group": "",
       "brand": "Kupify",
       "sku": "Staklena bočica",
       "price_rsd": "99",
@@ -464,526 +510,579 @@
       "name": "Stoni nosač - ruka za monitor 10-32“ sa gasnom oprugom – Kettz NM-K190",
       "slug": "podesivi-stoni-drzac-za-monitor-10-32-inca-kettz-nm-k190",
       "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
       "brand": "Kettz",
       "sku": "NM-K190",
       "price_rsd": "3999",
       "img_thumb": "/images/products/podesivi-stoni-drzac-za-monitor-10-32-inca-kettz-nm-k190-01-thumb.webp",
-      "q_ascii": "stoni nosac - ruka za monitor 10-32“ sa gasnom oprugom – kettz nm-k190 kettz nm-k190 kompjuteri-i-oprema podesivi-stoni-drzac-za-monitor-10-32-inca-kettz-nm-k190 8605054709569"
+      "q_ascii": "stoni nosac - ruka za monitor 10-32“ sa gasnom oprugom – kettz nm-k190 kettz nm-k190 kompjuteri-i-oprema nosaci-za-monitor podesivi-stoni-drzac-za-monitor-10-32-inca-kettz-nm-k190 8605054709569"
     },
     {
       "name": "Stoni nosač sa gasnim oprugama za 2 monitora 10-32\" – Kettz NM-K290",
       "slug": "podesivi-dupli-stoni-nosac-za-dva-monitora-10-32-inca-kettz-nm-k290",
       "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
       "brand": "Kettz",
       "sku": "NM-K290",
       "price_rsd": "6699",
       "img_thumb": "/images/products/podesivi-dupli-stoni-nosac-za-dva-monitora-10-32-inca-kettz-nm-k290-01-thumb.webp",
-      "q_ascii": "stoni nosac sa gasnim oprugama za 2 monitora 10-32\" – kettz nm-k290 kettz nm-k290 kompjuteri-i-oprema podesivi-dupli-stoni-nosac-za-dva-monitora-10-32-inca-kettz-nm-k290 8605054709576"
+      "q_ascii": "stoni nosac sa gasnim oprugama za 2 monitora 10-32\" – kettz nm-k290 kettz nm-k290 kompjuteri-i-oprema nosaci-za-monitor podesivi-dupli-stoni-nosac-za-dva-monitora-10-32-inca-kettz-nm-k290 8605054709576"
     },
     {
       "name": "Plafonski nosač za TV 23-55“, nosivost do 20 kg - Gembird CM-55ST-01",
       "slug": "plafonski-nosac-za-tv-23-55-inca-gembird-cm-55st-01",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Gembird",
       "sku": "CM-55ST-01",
       "price_rsd": "2599",
       "img_thumb": "/images/products/plafonski-nosac-za-tv-23-55-inca-gembird-cm-55st-01-01-thumb.webp",
-      "q_ascii": "plafonski nosac za tv 23-55“, nosivost do 20 kg - gembird cm-55st-01 gembird cm-55st-01 tv-i-video plafonski-nosac-za-tv-23-55-inca-gembird-cm-55st-01 8716309135184"
+      "q_ascii": "plafonski nosac za tv 23-55“, nosivost do 20 kg - gembird cm-55st-01 gembird cm-55st-01 tv-i-video tv-nosaci plafonski-nosac-za-tv-23-55-inca-gembird-cm-55st-01 8716309135184"
     },
     {
       "name": "Stoni nosač - ruka za monitor 17-32“ sa gasnom oprugom – Gembird MA-DA1-04",
       "slug": "podesivi-stoni-nosac-za-monitor-17-32-inca-gembird-ma-da1-04",
       "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
       "brand": "Gembird",
       "sku": "MA-DA1-04",
       "price_rsd": "2999",
       "img_thumb": "/images/products/podesivi-stoni-nosac-za-monitor-17-32-inca-gembird-ma-da1-04-01-thumb.webp",
-      "q_ascii": "stoni nosac - ruka za monitor 17-32“ sa gasnom oprugom – gembird ma-da1-04 gembird ma-da1-04 kompjuteri-i-oprema podesivi-stoni-nosac-za-monitor-17-32-inca-gembird-ma-da1-04 8716309135429"
+      "q_ascii": "stoni nosac - ruka za monitor 17-32“ sa gasnom oprugom – gembird ma-da1-04 gembird ma-da1-04 kompjuteri-i-oprema nosaci-za-monitor podesivi-stoni-nosac-za-monitor-17-32-inca-gembird-ma-da1-04 8716309135429"
     },
     {
       "name": "Postolje – stoni nosač za dva monitora 17-32“ sa staklenom bazom Gembird MS-D2ST-01",
       "slug": "postolje-nosac-za-dva-monitora-17-32-inca-gembird-ms-d2st-01",
       "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
       "brand": "Gembird",
       "sku": "MS-D2ST-01",
       "price_rsd": "3499",
       "img_thumb": "/images/products/postolje-nosac-za-dva-monitora-17-32-inca-gembird-ms-d2st-01-01-thumb.webp",
-      "q_ascii": "postolje – stoni nosac za dva monitora 17-32“ sa staklenom bazom gembird ms-d2st-01 gembird ms-d2st-01 kompjuteri-i-oprema postolje-nosac-za-dva-monitora-17-32-inca-gembird-ms-d2st-01 8716309135245"
+      "q_ascii": "postolje – stoni nosac za dva monitora 17-32“ sa staklenom bazom gembird ms-d2st-01 gembird ms-d2st-01 kompjuteri-i-oprema nosaci-za-monitor postolje-nosac-za-dva-monitora-17-32-inca-gembird-ms-d2st-01 8716309135245"
     },
     {
       "name": "Stoni nosač za monitor 17-32\" sa gasnom oprugom i USB portovima – Gembird MA-DA1U-01",
       "slug": "podesivi-stoni-nosac-za-monitor-17-32-inca-sa-usb-gembird-ma-da1u-01",
       "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
       "brand": "Gembird",
       "sku": "MA-DA1U-01",
       "price_rsd": "3199",
       "img_thumb": "/images/products/podesivi-stoni-nosac-za-monitor-17-32-inca-sa-usb-gembird-ma-da1u-01-01-thumb.webp",
-      "q_ascii": "stoni nosac za monitor 17-32\" sa gasnom oprugom i usb portovima – gembird ma-da1u-01 gembird ma-da1u-01 kompjuteri-i-oprema podesivi-stoni-nosac-za-monitor-17-32-inca-sa-usb-gembird-ma-da1u-01 8716309135375"
+      "q_ascii": "stoni nosac za monitor 17-32\" sa gasnom oprugom i usb portovima – gembird ma-da1u-01 gembird ma-da1u-01 kompjuteri-i-oprema nosaci-za-monitor podesivi-stoni-nosac-za-monitor-17-32-inca-sa-usb-gembird-ma-da1u-01 8716309135375"
     },
     {
       "name": "Stoni nosač – postolje za 2 monitora 13-32\" Gembird MS-D2ST-02",
       "slug": "stoni-nosac-postolje-za-dva-monitora-13-32-inca-gembird-ms-d2st-02",
       "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
       "brand": "Gembird",
       "sku": "MS-D2ST-02",
       "price_rsd": "3699",
       "img_thumb": "/images/products/stoni-nosac-postolje-za-dva-monitora-13-32-inca-gembird-ms-d2st-02-01-thumb.webp",
-      "q_ascii": "stoni nosac – postolje za 2 monitora 13-32\" gembird ms-d2st-02 gembird ms-d2st-02 kompjuteri-i-oprema stoni-nosac-postolje-za-dva-monitora-13-32-inca-gembird-ms-d2st-02 8716309135412"
+      "q_ascii": "stoni nosac – postolje za 2 monitora 13-32\" gembird ms-d2st-02 gembird ms-d2st-02 kompjuteri-i-oprema nosaci-za-monitor stoni-nosac-postolje-za-dva-monitora-13-32-inca-gembird-ms-d2st-02 8716309135412"
     },
     {
       "name": "Stono postolje – stalak za TV 32-65\" Gembird TVS-D65S-01",
       "slug": "stoni-stalak-za-tv-32-65-inca-gembird-tvs-d65s-01",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Gembird",
       "sku": "TVS-D65S-01",
       "price_rsd": "3299",
       "img_thumb": "/images/products/stoni-stalak-za-tv-32-65-inca-gembird-tvs-d65s-01-01-thumb.webp",
-      "q_ascii": "stono postolje – stalak za tv 32-65\" gembird tvs-d65s-01 gembird tvs-d65s-01 tv-i-video stoni-stalak-za-tv-32-65-inca-gembird-tvs-d65s-01 8716309135061"
+      "q_ascii": "stono postolje – stalak za tv 32-65\" gembird tvs-d65s-01 gembird tvs-d65s-01 tv-i-video tv-nosaci stoni-stalak-za-tv-32-65-inca-gembird-tvs-d65s-01 8716309135061"
     },
     {
       "name": "Stoni nosač sa gasnom oprugom - ruka za monitor 17-32\" – Gembird MA-DA1-02",
       "slug": "podesivi-stoni-nosac-ruka-za-monitor-gembird-ma-da1-02",
       "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
       "brand": "Gembird",
       "sku": "MA-DA1-02",
       "price_rsd": "3299",
       "img_thumb": "/images/products/podesivi-stoni-nosac-ruka-za-monitor-gembird-ma-da1-02-01-thumb.webp",
-      "q_ascii": "stoni nosac sa gasnom oprugom - ruka za monitor 17-32\" – gembird ma-da1-02 gembird ma-da1-02 kompjuteri-i-oprema podesivi-stoni-nosac-ruka-za-monitor-gembird-ma-da1-02 8716309126090"
+      "q_ascii": "stoni nosac sa gasnom oprugom - ruka za monitor 17-32\" – gembird ma-da1-02 gembird ma-da1-02 kompjuteri-i-oprema nosaci-za-monitor podesivi-stoni-nosac-ruka-za-monitor-gembird-ma-da1-02 8716309126090"
     },
     {
       "name": "Podesivi stoni nosač za četiri monitora 13-32\" Gembird MA-D4-01",
       "slug": "podesivi-stoni-nosac-za-cetiri-monitora-13-32-inca-gembird-ma-d4-01",
       "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
       "brand": "Gembird",
       "sku": "MA-D4-01",
       "price_rsd": "5999",
       "img_thumb": "/images/products/podesivi-stoni-nosac-za-cetiri-monitora-13-32-inca-gembird-ma-d4-01-01-thumb.webp",
-      "q_ascii": "podesivi stoni nosac za cetiri monitora 13-32\" gembird ma-d4-01 gembird ma-d4-01 kompjuteri-i-oprema podesivi-stoni-nosac-za-cetiri-monitora-13-32-inca-gembird-ma-d4-01 8716309135399"
+      "q_ascii": "podesivi stoni nosac za cetiri monitora 13-32\" gembird ma-d4-01 gembird ma-d4-01 kompjuteri-i-oprema nosaci-za-monitor podesivi-stoni-nosac-za-cetiri-monitora-13-32-inca-gembird-ma-d4-01 8716309135399"
     },
     {
       "name": "Stoni nosač za 2 monitora 17-32\" sa gasnim oprugama – Gembird MA-DA2P-02",
       "slug": "podesivi-stoni-nosac-za-dva-monitora-17-32-inca-gembird-ma-da2p-02",
       "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
       "brand": "Gembird",
       "sku": "MA-DA2P-02",
       "price_rsd": "4699",
       "img_thumb": "/images/products/podesivi-stoni-nosac-za-dva-monitora-17-32-inca-gembird-ma-da2p-02-01-thumb.webp",
-      "q_ascii": "stoni nosac za 2 monitora 17-32\" sa gasnim oprugama – gembird ma-da2p-02 gembird ma-da2p-02 kompjuteri-i-oprema podesivi-stoni-nosac-za-dva-monitora-17-32-inca-gembird-ma-da2p-02 8716309135351"
+      "q_ascii": "stoni nosac za 2 monitora 17-32\" sa gasnim oprugama – gembird ma-da2p-02 gembird ma-da2p-02 kompjuteri-i-oprema nosaci-za-monitor podesivi-stoni-nosac-za-dva-monitora-17-32-inca-gembird-ma-da2p-02 8716309135351"
     },
     {
       "name": "Stono postolje – stalak za TV 45-90\" Gembird TVS-D90F-01",
       "slug": "stono-postolje-stalak-za-tv-45-90-inca-gembird-tvs-d90f-01",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Gembird",
       "sku": "TVS-D90F-01",
       "price_rsd": "4199",
       "img_thumb": "/images/products/stono-postolje-stalak-za-tv-45-90-inca-gembird-tvs-d90f-01-01-thumb.webp",
-      "q_ascii": "stono postolje – stalak za tv 45-90\" gembird tvs-d90f-01 gembird tvs-d90f-01 tv-i-video stono-postolje-stalak-za-tv-45-90-inca-gembird-tvs-d90f-01 8716309135115"
+      "q_ascii": "stono postolje – stalak za tv 45-90\" gembird tvs-d90f-01 gembird tvs-d90f-01 tv-i-video tv-nosaci stono-postolje-stalak-za-tv-45-90-inca-gembird-tvs-d90f-01 8716309135115"
     },
     {
       "name": "Stoni nosač za 2 monitora 17-32\" sa gasnim oprugama – Gembird MA-DA2P-01",
       "slug": "podesivi-stoni-nosac-za-dva-monitora-17-32-inca-gembird-ma-da2p-01",
       "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
       "brand": "Gembird",
       "sku": "MA-DA2P-01",
       "price_rsd": "7899",
       "img_thumb": "/images/products/podesivi-stoni-nosac-za-dva-monitora-17-32-inca-gembird-ma-da2p-01-01-thumb.webp",
-      "q_ascii": "stoni nosac za 2 monitora 17-32\" sa gasnim oprugama – gembird ma-da2p-01 gembird ma-da2p-01 kompjuteri-i-oprema podesivi-stoni-nosac-za-dva-monitora-17-32-inca-gembird-ma-da2p-01 8716309126144"
+      "q_ascii": "stoni nosac za 2 monitora 17-32\" sa gasnim oprugama – gembird ma-da2p-01 gembird ma-da2p-01 kompjuteri-i-oprema nosaci-za-monitor podesivi-stoni-nosac-za-dva-monitora-17-32-inca-gembird-ma-da2p-01 8716309126144"
     },
     {
       "name": "Sobna TV antena sa pojačivačem 36 dB i 10 m kabla – Gembird GMB-DUA10",
       "slug": "sobna-antena-za-tv-sa-pojacivacem-i-kablom-10-metara-gembird-gmb-dua10",
       "category": "tv-i-video",
+      "group": "antene",
       "brand": "Gembird",
       "sku": "GMB-DUA10",
       "price_rsd": "1799",
       "img_thumb": "/images/products/sobna-antena-za-tv-sa-pojacivacem-i-kablom-10-metara-gembird-gmb-dua10-01-thumb.webp",
-      "q_ascii": "sobna tv antena sa pojacivacem 36 db i 10 m kabla – gembird gmb-dua10 gembird gmb-dua10 tv-i-video sobna-antena-za-tv-sa-pojacivacem-i-kablom-10-metara-gembird-gmb-dua10 9780111228197"
+      "q_ascii": "sobna tv antena sa pojacivacem 36 db i 10 m kabla – gembird gmb-dua10 gembird gmb-dua10 tv-i-video antene sobna-antena-za-tv-sa-pojacivacem-i-kablom-10-metara-gembird-gmb-dua10 9780111228197"
     },
     {
       "name": "Sobna TV antena sa pojačivačem 21 dB i kablom 5 m – Gembird GMB-533USB",
       "slug": "sobna-tv-antena-sa-pojacivacem-i-kablom-5-metara-gembird-gmb-533usb",
       "category": "tv-i-video",
+      "group": "antene",
       "brand": "Gembird",
       "sku": "GMB-533USB",
       "price_rsd": "899",
       "img_thumb": "/images/products/sobna-tv-antena-sa-pojacivacem-i-kablom-5-metara-gembird-gmb-533usb-01-thumb.webp",
-      "q_ascii": "sobna tv antena sa pojacivacem 21 db i kablom 5 m – gembird gmb-533usb gembird gmb-533usb tv-i-video sobna-tv-antena-sa-pojacivacem-i-kablom-5-metara-gembird-gmb-533usb 9780111227190"
+      "q_ascii": "sobna tv antena sa pojacivacem 21 db i kablom 5 m – gembird gmb-533usb gembird gmb-533usb tv-i-video antene sobna-tv-antena-sa-pojacivacem-i-kablom-5-metara-gembird-gmb-533usb 9780111227190"
     },
     {
       "name": "Stoni mikrofon za PC ili laptop – Gembird MIC-D-02",
       "slug": "stoni-mikrofon-za-pc-laptop-gembird-mic-d-02",
       "category": "kompjuteri-i-oprema",
+      "group": "mikrofoni",
       "brand": "Gembird",
       "sku": "MIC-D-02",
       "price_rsd": "479",
       "img_thumb": "/images/products/stoni-mikrofon-za-pc-laptop-gembird-mic-d-02-01-thumb.webp",
-      "q_ascii": "stoni mikrofon za pc ili laptop – gembird mic-d-02 gembird mic-d-02 kompjuteri-i-oprema stoni-mikrofon-za-pc-laptop-gembird-mic-d-02 8716309100557"
+      "q_ascii": "stoni mikrofon za pc ili laptop – gembird mic-d-02 gembird mic-d-02 kompjuteri-i-oprema mikrofoni stoni-mikrofon-za-pc-laptop-gembird-mic-d-02 8716309100557"
     },
     {
       "name": "Zglobni zidni nosač za TV 17-43\" do 25kg – Kettz TVN-5503",
       "slug": "zglobni-zidni-nosac-za-tv-kettz-tvn-5503",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Kettz",
       "sku": "TVN-5503",
       "price_rsd": "1199",
       "img_thumb": "/images/products/zglobni-zidni-nosac-za-tv-kettz-tvn-5503-01-thumb.webp",
-      "q_ascii": "zglobni zidni nosac za tv 17-43\" do 25kg – kettz tvn-5503 kettz tvn-5503 tv-i-video zglobni-zidni-nosac-za-tv-kettz-tvn-5503 8606018858374"
+      "q_ascii": "zglobni zidni nosac za tv 17-43\" do 25kg – kettz tvn-5503 kettz tvn-5503 tv-i-video tv-nosaci zglobni-zidni-nosac-za-tv-kettz-tvn-5503 8606018858374"
     },
     {
       "name": "ATX napajanje za PC 500W – Gembird GMB-500-12",
       "slug": "atx-pc-napajanje-500w-gembird-gmb-500-12",
       "category": "kompjuteri-i-oprema",
+      "group": "napajanja",
       "brand": "Gembird",
       "sku": "GMB-500-12",
       "price_rsd": "1599",
       "img_thumb": "/images/products/atx-pc-napajanje-500w-gembird-gmb-500-12-01-thumb.webp",
-      "q_ascii": "atx napajanje za pc 500w – gembird gmb-500-12 gembird gmb-500-12 kompjuteri-i-oprema atx-pc-napajanje-500w-gembird-gmb-500-12 6945398958468"
+      "q_ascii": "atx napajanje za pc 500w – gembird gmb-500-12 gembird gmb-500-12 kompjuteri-i-oprema napajanja atx-pc-napajanje-500w-gembird-gmb-500-12 6945398958468"
     },
     {
       "name": "Zidni nosač sa nagibom za TV 15-42\" do 20 kg – Gembird WM-42T-05",
       "slug": "zidni-tv-nosac-sa-nagibom-gembird-wm-42t-05",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Gembird",
       "sku": "WM-42T-05",
       "price_rsd": "619",
       "img_thumb": "/images/products/zidni-tv-nosac-sa-nagibom-gembird-wm-42t-05-01-thumb.webp",
-      "q_ascii": "zidni nosac sa nagibom za tv 15-42\" do 20 kg – gembird wm-42t-05 gembird wm-42t-05 tv-i-video zidni-tv-nosac-sa-nagibom-gembird-wm-42t-05 8607832788728"
+      "q_ascii": "zidni nosac sa nagibom za tv 15-42\" do 20 kg – gembird wm-42t-05 gembird wm-42t-05 tv-i-video tv-nosaci zidni-tv-nosac-sa-nagibom-gembird-wm-42t-05 8607832788728"
     },
     {
       "name": "Univerzalni plafonski nosač za projektor – Gembird CM-B-01",
       "slug": "plafonski-nosac-projektora-gembird-cm-b-01",
       "category": "tv-i-video",
+      "group": "nosaci-za-projektor",
       "brand": "Gembird",
       "sku": "CM-B-01",
       "price_rsd": "1599",
       "img_thumb": "/images/products/plafonski-nosac-projektora-gembird-cm-b-01-01-thumb.webp",
-      "q_ascii": "univerzalni plafonski nosac za projektor – gembird cm-b-01 gembird cm-b-01 tv-i-video plafonski-nosac-projektora-gembird-cm-b-01 8716309128070"
+      "q_ascii": "univerzalni plafonski nosac za projektor – gembird cm-b-01 gembird cm-b-01 tv-i-video nosaci-za-projektor plafonski-nosac-projektora-gembird-cm-b-01 8716309128070"
     },
     {
       "name": "Stoni mikrofon za PC ili laptop – Gembird MIC-205",
       "slug": "stoni-mikrofon-za-pc-laptop-gembird-mic-205",
       "category": "kompjuteri-i-oprema",
+      "group": "mikrofoni",
       "brand": "Gembird",
       "sku": "MIC-205",
       "price_rsd": "599",
       "img_thumb": "/images/products/stoni-mikrofon-za-pc-laptop-gembird-mic-205-01-thumb.webp",
-      "q_ascii": "stoni mikrofon za pc ili laptop – gembird mic-205 gembird mic-205 kompjuteri-i-oprema stoni-mikrofon-za-pc-laptop-gembird-mic-205 8716309079914"
+      "q_ascii": "stoni mikrofon za pc ili laptop – gembird mic-205 gembird mic-205 kompjuteri-i-oprema mikrofoni stoni-mikrofon-za-pc-laptop-gembird-mic-205 8716309079914"
     },
     {
       "name": "Zidni zglobni nosač za monitor 13-27\" – Kettz TVN-4003",
       "slug": "zidni-zglobni-nosac-za-monitor-kettz-tvn-4003",
       "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
       "brand": "Kettz",
       "sku": "TVN-4003",
       "price_rsd": "1199",
       "img_thumb": "/images/products/zidni-zglobni-nosac-za-monitor-kettz-tvn-4003-01-thumb.webp",
-      "q_ascii": "zidni zglobni nosac za monitor 13-27\" – kettz tvn-4003 kettz tvn-4003 kompjuteri-i-oprema zidni-zglobni-nosac-za-monitor-kettz-tvn-4003 8605054704878"
+      "q_ascii": "zidni zglobni nosac za monitor 13-27\" – kettz tvn-4003 kettz tvn-4003 kompjuteri-i-oprema nosaci-za-monitor zidni-zglobni-nosac-za-monitor-kettz-tvn-4003 8605054704878"
     },
     {
       "name": "Fiksni zidni nosač za TV 15-42\" do 25kg – Gembird WM-42F-05",
       "slug": "fiksni-zidni-nosac-za-tv-gembird-wm-42f-05",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Gembird",
       "sku": "WM-42F-05",
       "price_rsd": "399",
       "img_thumb": "/images/products/fiksni-zidni-nosac-za-tv-gembird-wm-42f-05-01-thumb.webp",
-      "q_ascii": "fiksni zidni nosac za tv 15-42\" do 25kg – gembird wm-42f-05 gembird wm-42f-05 tv-i-video fiksni-zidni-nosac-za-tv-gembird-wm-42f-05 8607826723438"
+      "q_ascii": "fiksni zidni nosac za tv 15-42\" do 25kg – gembird wm-42f-05 gembird wm-42f-05 tv-i-video tv-nosaci fiksni-zidni-nosac-za-tv-gembird-wm-42f-05 8607826723438"
     },
     {
       "name": "ATX napajanje za PC 600W – Gembird GMB-600-PRO 80 PLUS Bronze",
       "slug": "atx-pc-napajanje-600w-gembird-gmb-600-pro-80-plus-bronze",
       "category": "kompjuteri-i-oprema",
+      "group": "napajanja",
       "brand": "Gembird",
       "sku": "GMB-600-PRO",
       "price_rsd": "5199",
       "img_thumb": "/images/products/atx-pc-napajanje-600w-gembird-gmb-600-pro-80-plus-bronze-01-thumb.webp",
-      "q_ascii": "atx napajanje za pc 600w – gembird gmb-600-pro 80 plus bronze gembird gmb-600-pro kompjuteri-i-oprema atx-pc-napajanje-600w-gembird-gmb-600-pro-80-plus-bronze 9780300520200"
+      "q_ascii": "atx napajanje za pc 600w – gembird gmb-600-pro 80 plus bronze gembird gmb-600-pro kompjuteri-i-oprema napajanja atx-pc-napajanje-600w-gembird-gmb-600-pro-80-plus-bronze 9780300520200"
     },
     {
       "name": "Spoljna mrežasta TV antena sa pojačivačem 15-32 dB – ANT-408",
       "slug": "spoljna-mrezasta-tv-antena-sa-pojacivacem-ant-408",
       "category": "tv-i-video",
+      "group": "antene",
       "brand": "Vega",
       "sku": "ANT-408",
       "price_rsd": "1499",
       "img_thumb": "/images/products/spoljna-mrezasta-tv-antena-sa-pojacivacem-ant-408-01-thumb.webp",
-      "q_ascii": "spoljna mrezasta tv antena sa pojacivacem 15-32 db – ant-408 vega ant-408 tv-i-video spoljna-mrezasta-tv-antena-sa-pojacivacem-ant-408 3856001016277"
+      "q_ascii": "spoljna mrezasta tv antena sa pojacivacem 15-32 db – ant-408 vega ant-408 tv-i-video antene spoljna-mrezasta-tv-antena-sa-pojacivacem-ant-408 3856001016277"
     },
     {
       "name": "Univerzalni zidni nosači za zvučnike ili soundbar Gembird WM-SB-01",
       "slug": "univerzalni-zidni-nosaci-za-zvucnike-soundbar-gembird-wm-sb-01",
       "category": "audio-oprema",
+      "group": "nosaci-za-zvucnike",
       "brand": "Gembird",
       "sku": "WM-SB-01",
       "price_rsd": "999",
       "img_thumb": "/images/products/univerzalni-zidni-nosaci-za-zvucnike-soundbar-gembird-wm-sb-01-01-thumb.webp",
-      "q_ascii": "univerzalni zidni nosaci za zvucnike ili soundbar gembird wm-sb-01 gembird wm-sb-01 audio-oprema univerzalni-zidni-nosaci-za-zvucnike-soundbar-gembird-wm-sb-01 8716309128056"
+      "q_ascii": "univerzalni zidni nosaci za zvucnike ili soundbar gembird wm-sb-01 gembird wm-sb-01 audio-oprema nosaci-za-zvucnike univerzalni-zidni-nosaci-za-zvucnike-soundbar-gembird-wm-sb-01 8716309128056"
     },
     {
       "name": "HD Web kamera 720p sa mikrofonom Gembird CAM83U",
       "slug": "hd-web-kamera-sa-mikrofonom-gembird-cam83u",
       "category": "kompjuteri-i-oprema",
+      "group": "web-kamere",
       "brand": "Gembird",
       "sku": "CAM83U",
       "price_rsd": "1399",
       "img_thumb": "/images/products/hd-web-kamera-sa-mikrofonom-gembird-cam83u-01-thumb.webp",
-      "q_ascii": "hd web kamera 720p sa mikrofonom gembird cam83u gembird cam83u kompjuteri-i-oprema hd-web-kamera-sa-mikrofonom-gembird-cam83u 4711421695152"
+      "q_ascii": "hd web kamera 720p sa mikrofonom gembird cam83u gembird cam83u kompjuteri-i-oprema web-kamere hd-web-kamera-sa-mikrofonom-gembird-cam83u 4711421695152"
     },
     {
       "name": "Stoni nosač sa rukama za monitor i laptop – Gembird MA-DA-03",
       "slug": "stoni-nosac-za-monitor-laptop-gembird-ma-da-03",
       "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
       "brand": "Gembird",
       "sku": "MA-DA-03",
       "price_rsd": "4799",
       "img_thumb": "/images/products/stoni-nosac-za-monitor-laptop-gembird-ma-da-03-01-thumb.webp",
-      "q_ascii": "stoni nosac sa rukama za monitor i laptop – gembird ma-da-03 gembird ma-da-03 kompjuteri-i-oprema stoni-nosac-za-monitor-laptop-gembird-ma-da-03 8716309126083"
+      "q_ascii": "stoni nosac sa rukama za monitor i laptop – gembird ma-da-03 gembird ma-da-03 kompjuteri-i-oprema nosaci-za-monitor stoni-nosac-za-monitor-laptop-gembird-ma-da-03 8716309126083"
     },
     {
       "name": "Univerzalni plafonski nosač za projektor – Kettz PN-K10",
       "slug": "plafonski-nosac-projektora-kettz-pn-k10",
       "category": "tv-i-video",
+      "group": "nosaci-za-projektor",
       "brand": "Kettz",
       "sku": "PN-K10",
       "price_rsd": "2599",
       "img_thumb": "/images/products/plafonski-nosac-projektora-kettz-pn-k10-01-thumb.webp",
-      "q_ascii": "univerzalni plafonski nosac za projektor – kettz pn-k10 kettz pn-k10 tv-i-video plafonski-nosac-projektora-kettz-pn-k10 8605054706780"
+      "q_ascii": "univerzalni plafonski nosac za projektor – kettz pn-k10 kettz pn-k10 tv-i-video nosaci-za-projektor plafonski-nosac-projektora-kettz-pn-k10 8605054706780"
     },
     {
       "name": "Sklopivo postolje - stalak za projektor Kettz NP-K220",
       "slug": "sklopivo-postolje-projektora-kettz-np-k220",
       "category": "tv-i-video",
+      "group": "nosaci-za-projektor",
       "brand": "Kettz",
       "sku": "NP-K220",
       "price_rsd": "3799",
       "img_thumb": "/images/products/sklopivo-postolje-projektora-kettz-np-k220-01-thumb.webp",
-      "q_ascii": "sklopivo postolje - stalak za projektor kettz np-k220 kettz np-k220 tv-i-video sklopivo-postolje-projektora-kettz-np-k220 8605054706711"
+      "q_ascii": "sklopivo postolje - stalak za projektor kettz np-k220 kettz np-k220 tv-i-video nosaci-za-projektor sklopivo-postolje-projektora-kettz-np-k220 8605054706711"
     },
     {
       "name": "ATX napajanje za PC 650W 80 Plus – UGD Power G650",
       "slug": "atx-pc-napajanje-ugd-power-g650",
       "category": "kompjuteri-i-oprema",
+      "group": "napajanja",
       "brand": "UGD Power",
       "sku": "G650",
       "price_rsd": "4799",
       "img_thumb": "/images/products/atx-pc-napajanje-ugd-power-g650-01-thumb.webp",
-      "q_ascii": "atx napajanje za pc 650w 80 plus – ugd power g650 ugd power g650 kompjuteri-i-oprema atx-pc-napajanje-ugd-power-g650 8606112328135"
+      "q_ascii": "atx napajanje za pc 650w 80 plus – ugd power g650 ugd power g650 kompjuteri-i-oprema napajanja atx-pc-napajanje-ugd-power-g650 8606112328135"
     },
     {
       "name": "Stoni nosač sa gasnim oprugama za 2 monitora 17-32“ – Gembird MA-DA2-05",
       "slug": "stoni-nosac-za-2-monitora-gembird-ma-da2-05",
       "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
       "brand": "Gembird",
       "sku": "MA-DA2-05",
       "price_rsd": "5499",
       "img_thumb": "/images/products/stoni-nosac-za-2-monitora-gembird-ma-da2-05-01-thumb.webp",
-      "q_ascii": "stoni nosac sa gasnim oprugama za 2 monitora 17-32“ – gembird ma-da2-05 gembird ma-da2-05 kompjuteri-i-oprema stoni-nosac-za-2-monitora-gembird-ma-da2-05 8716309127714"
+      "q_ascii": "stoni nosac sa gasnim oprugama za 2 monitora 17-32“ – gembird ma-da2-05 gembird ma-da2-05 kompjuteri-i-oprema nosaci-za-monitor stoni-nosac-za-2-monitora-gembird-ma-da2-05 8716309127714"
     },
     {
       "name": "Stoni nosač za 2 monitora 17-32“ sa gasnim oprugama – Gembird MA-DA2-02",
       "slug": "stoni-nosac-za-2-monitora-gembird-ma-da2-02",
       "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
       "brand": "Gembird",
       "sku": "MA-DA2-02",
       "price_rsd": "5499",
       "img_thumb": "/images/products/stoni-nosac-za-2-monitora-gembird-ma-da2-02-01-thumb.webp",
-      "q_ascii": "stoni nosac za 2 monitora 17-32“ sa gasnim oprugama – gembird ma-da2-02 gembird ma-da2-02 kompjuteri-i-oprema stoni-nosac-za-2-monitora-gembird-ma-da2-02 8716309126106"
+      "q_ascii": "stoni nosac za 2 monitora 17-32“ sa gasnim oprugama – gembird ma-da2-02 gembird ma-da2-02 kompjuteri-i-oprema nosaci-za-monitor stoni-nosac-za-2-monitora-gembird-ma-da2-02 8716309126106"
     },
     {
       "name": "Stoni nosač za 2 montora 17-32“ – Gembird MA-D2-03",
       "slug": "stoni-nosac-za-2-monitora-gembird-ma-d2-03",
       "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
       "brand": "Gembird",
       "sku": "MA-D2-03",
       "price_rsd": "3199",
       "img_thumb": "/images/products/stoni-nosac-za-2-monitora-gembird-ma-d2-03-01-thumb.webp",
-      "q_ascii": "stoni nosac za 2 montora 17-32“ – gembird ma-d2-03 gembird ma-d2-03 kompjuteri-i-oprema stoni-nosac-za-2-monitora-gembird-ma-d2-03 8716309128155"
+      "q_ascii": "stoni nosac za 2 montora 17-32“ – gembird ma-d2-03 gembird ma-d2-03 kompjuteri-i-oprema nosaci-za-monitor stoni-nosac-za-2-monitora-gembird-ma-d2-03 8716309128155"
     },
     {
       "name": "Fiksni zidni nosač za TV 23-60\" do 50 kg – Kettz TVN-440F",
       "slug": "fiksni-zidni-tv-nosac-kettz-tvn-440f",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Kettz",
       "sku": "TVN-440F",
       "price_rsd": "799",
       "img_thumb": "/images/products/fiksni-zidni-tv-nosac-kettz-tvn-440f-01-thumb.webp",
-      "q_ascii": "fiksni zidni nosac za tv 23-60\" do 50 kg – kettz tvn-440f kettz tvn-440f tv-i-video fiksni-zidni-tv-nosac-kettz-tvn-440f 8605054709200"
+      "q_ascii": "fiksni zidni nosac za tv 23-60\" do 50 kg – kettz tvn-440f kettz tvn-440f tv-i-video tv-nosaci fiksni-zidni-tv-nosac-kettz-tvn-440f 8605054709200"
     },
     {
       "name": "USB 3.0 docking stanica za 2.5\" i 3.5\" SATA hard diskove  – Gembird HD32-U3S-2",
       "slug": "usb-docking-stanica-za-sata-hard-diskove-gembird-hd32-u3s-2",
       "category": "kompjuteri-i-oprema",
+      "group": "hdd-ssd-oprema",
       "brand": "Gembird",
       "sku": "HD32-U3S-2",
       "price_rsd": "3099",
       "img_thumb": "/images/products/usb-docking-stanica-za-sata-hard-diskove-gembird-hd32-u3s-2-01-thumb.webp",
-      "q_ascii": "usb 3.0 docking stanica za 2.5\" i 3.5\" sata hard diskove  – gembird hd32-u3s-2 gembird hd32-u3s-2 kompjuteri-i-oprema usb-docking-stanica-za-sata-hard-diskove-gembird-hd32-u3s-2 8716309084734"
+      "q_ascii": "usb 3.0 docking stanica za 2.5\" i 3.5\" sata hard diskove  – gembird hd32-u3s-2 gembird hd32-u3s-2 kompjuteri-i-oprema hdd-ssd-oprema usb-docking-stanica-za-sata-hard-diskove-gembird-hd32-u3s-2 8716309084734"
     },
     {
       "name": "Zglobni zidni nosač za TV 17-56\" do 30kg – Kettz TVN-6602",
       "slug": "zglobni-zidni-tv-nosac-kettz-tvn-6602",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Kettz",
       "sku": "TVN-6602",
       "price_rsd": "1499",
       "img_thumb": "/images/products/zglobni-zidni-tv-nosac-kettz-tvn-6602-01-thumb.webp",
-      "q_ascii": "zglobni zidni nosac za tv 17-56\" do 30kg – kettz tvn-6602 kettz tvn-6602 tv-i-video zglobni-zidni-tv-nosac-kettz-tvn-6602 8605054704861"
+      "q_ascii": "zglobni zidni nosac za tv 17-56\" do 30kg – kettz tvn-6602 kettz tvn-6602 tv-i-video tv-nosaci zglobni-zidni-tv-nosac-kettz-tvn-6602 8605054704861"
     },
     {
       "name": "Zglobni zidni nosač za TV 17-56\" do 30kg – Kettz TVN-6010",
       "slug": "zglobni-zidni-tv-nosac-kettz-tvn-6010",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Kettz",
       "sku": "TVN-6010",
       "price_rsd": "1569",
       "img_thumb": "/images/products/zglobni-zidni-tv-nosac-kettz-tvn-6010-01-thumb.webp",
-      "q_ascii": "zglobni zidni nosac za tv 17-56\" do 30kg – kettz tvn-6010 kettz tvn-6010 tv-i-video zglobni-zidni-tv-nosac-kettz-tvn-6010 8605054709217"
+      "q_ascii": "zglobni zidni nosac za tv 17-56\" do 30kg – kettz tvn-6010 kettz tvn-6010 tv-i-video tv-nosaci zglobni-zidni-tv-nosac-kettz-tvn-6010 8605054709217"
     },
     {
       "name": "Zglobni zidni nosač za TV 17-43\" do 25kg – Kettz TVN-6503",
       "slug": "zglobni-zidni-tv-nosac-kettz-tvn-6503",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Kettz",
       "sku": "TVN-6503",
       "price_rsd": "1469",
       "img_thumb": "/images/products/zglobni-zidni-tv-nosac-kettz-tvn-6503-01-thumb.webp",
-      "q_ascii": "zglobni zidni nosac za tv 17-43\" do 25kg – kettz tvn-6503 kettz tvn-6503 tv-i-video zglobni-zidni-tv-nosac-kettz-tvn-6503 8605054704816"
+      "q_ascii": "zglobni zidni nosac za tv 17-43\" do 25kg – kettz tvn-6503 kettz tvn-6503 tv-i-video tv-nosaci zglobni-zidni-tv-nosac-kettz-tvn-6503 8605054704816"
     },
     {
       "name": "ATX napajanje za PC 600W – UGD Power D600",
       "slug": "atx-pc-napajanje-ugd-power-d600",
       "category": "kompjuteri-i-oprema",
+      "group": "napajanja",
       "brand": "UGD Power",
       "sku": "D600",
       "price_rsd": "3799",
       "img_thumb": "/images/products/atx-pc-napajanje-ugd-power-d600-01-thumb.webp",
-      "q_ascii": "atx napajanje za pc 600w – ugd power d600 ugd power d600 kompjuteri-i-oprema atx-pc-napajanje-ugd-power-d600 8606112328128"
+      "q_ascii": "atx napajanje za pc 600w – ugd power d600 ugd power d600 kompjuteri-i-oprema napajanja atx-pc-napajanje-ugd-power-d600 8606112328128"
     },
     {
       "name": "A-RGB ventilator kuler za PC kućište 120mm – DeepCool FC120",
       "slug": "a-rgb-ventilator-kuler-za-pc-kuciste-deepcool-fc120",
       "category": "kompjuteri-i-oprema",
+      "group": "hladjenje",
       "brand": "DeepCool",
       "sku": "FK120",
       "price_rsd": "2099",
       "img_thumb": "/images/products/a-rgb-ventilator-kuler-za-pc-kuciste-deepcool-fc120-01-thumb.webp",
-      "q_ascii": "a-rgb ventilator kuler za pc kuciste 120mm – deepcool fc120 deepcool fk120 kompjuteri-i-oprema a-rgb-ventilator-kuler-za-pc-kuciste-deepcool-fc120 6933412710554"
+      "q_ascii": "a-rgb ventilator kuler za pc kuciste 120mm – deepcool fc120 deepcool fk120 kompjuteri-i-oprema hladjenje a-rgb-ventilator-kuler-za-pc-kuciste-deepcool-fc120 6933412710554"
     },
     {
       "name": "A-RGB ventilator kuler za PC kućište 120mm – DeepCool FL12 SE",
       "slug": "a-rgb-ventilator-kuler-za-pc-kuciste-deepcool-fl12-se",
       "category": "kompjuteri-i-oprema",
+      "group": "hladjenje",
       "brand": "DeepCool",
       "sku": "FL12 SE",
       "price_rsd": "1699",
       "img_thumb": "/images/products/a-rgb-ventilator-kuler-za-pc-kuciste-deepcool-fl12-se-01-thumb.webp",
-      "q_ascii": "a-rgb ventilator kuler za pc kuciste 120mm – deepcool fl12 se deepcool fl12 se kompjuteri-i-oprema a-rgb-ventilator-kuler-za-pc-kuciste-deepcool-fl12-se 6933412785309"
+      "q_ascii": "a-rgb ventilator kuler za pc kuciste 120mm – deepcool fl12 se deepcool fl12 se kompjuteri-i-oprema hladjenje a-rgb-ventilator-kuler-za-pc-kuciste-deepcool-fl12-se 6933412785309"
     },
     {
       "name": "Dual-Bay SATA Docking stanica USB 3.0 za 2.5\" i 3.5\" HDD i SSD – Ugreen CM198",
       "slug": "dual-bay-usb-docking-stanica-za-sata-hdd-ssd-ugreen-cm198",
       "category": "kompjuteri-i-oprema",
+      "group": "hdd-ssd-oprema",
       "brand": "Ugreen",
       "sku": "CM198 50857",
       "price_rsd": "4399",
       "img_thumb": "/images/products/dual-bay-usb-docking-stanica-za-sata-hdd-ssd-ugreen-cm198-01-thumb.webp",
-      "q_ascii": "dual-bay sata docking stanica usb 3.0 za 2.5\" i 3.5\" hdd i ssd – ugreen cm198 ugreen cm198 50857 kompjuteri-i-oprema dual-bay-usb-docking-stanica-za-sata-hdd-ssd-ugreen-cm198 6957303858576"
+      "q_ascii": "dual-bay sata docking stanica usb 3.0 za 2.5\" i 3.5\" hdd i ssd – ugreen cm198 ugreen cm198 50857 kompjuteri-i-oprema hdd-ssd-oprema dual-bay-usb-docking-stanica-za-sata-hdd-ssd-ugreen-cm198 6957303858576"
     },
     {
       "name": "2-u-1 Čitač kartica SD i Micro SD (USB 3.0 + USB-C) – Ugreen CM185",
       "slug": "citac-memorijskih-kartica-sd-micro-sd-ugreen-cm185",
       "category": "kompjuteri-i-oprema",
+      "group": "citaci-kartica",
       "brand": "Ugreen",
       "sku": "CM185 50706",
       "price_rsd": "1399",
       "img_thumb": "/images/products/citac-memorijskih-kartica-sd-micro-sd-ugreen-cm185-01-thumb.webp",
-      "q_ascii": "2-u-1 citac kartica sd i micro sd (usb 3.0 + usb-c) – ugreen cm185 ugreen cm185 50706 kompjuteri-i-oprema citac-memorijskih-kartica-sd-micro-sd-ugreen-cm185 6957303857067"
+      "q_ascii": "2-u-1 citac kartica sd i micro sd (usb 3.0 + usb-c) – ugreen cm185 ugreen cm185 50706 kompjuteri-i-oprema citaci-kartica citac-memorijskih-kartica-sd-micro-sd-ugreen-cm185 6957303857067"
     },
     {
       "name": "USB čitač za lične karte, saobraćajne dozvole i SIM kartice – Kettz KTZ-CR100A",
       "slug": "usb-citac-licnih-karata-sim-kartica-kettz-ktz-cr100a",
       "category": "kompjuteri-i-oprema",
+      "group": "citaci-kartica",
       "brand": "Kettz",
       "sku": "KTZ-CR100A",
       "price_rsd": "1199",
       "img_thumb": "/images/products/usb-citac-licnih-karata-sim-kartica-kettz-ktz-cr100a-01-thumb.webp",
-      "q_ascii": "usb citac za licne karte, saobracajne dozvole i sim kartice – kettz ktz-cr100a kettz ktz-cr100a kompjuteri-i-oprema usb-citac-licnih-karata-sim-kartica-kettz-ktz-cr100a 8605054711555"
+      "q_ascii": "usb citac za licne karte, saobracajne dozvole i sim kartice – kettz ktz-cr100a kettz ktz-cr100a kompjuteri-i-oprema citaci-kartica usb-citac-licnih-karata-sim-kartica-kettz-ktz-cr100a 8605054711555"
     },
     {
       "name": "USB-C punjive AA baterije 1.5V Li-Ion 1400mAh – MediaRange MRBAT161 - 4 komada",
       "slug": "punjive-aaa-baterije-usb-c-1-5-v-mediarange-mrbat161",
       "category": "elektronika-i-komponente",
+      "group": "baterije",
       "brand": "MediaRange",
       "sku": "MRBAT161",
       "price_rsd": "1499",
       "img_thumb": "/images/products/punjive-aaa-baterije-usb-c-1-5-v-mediarange-mrbat161-01-thumb.webp",
-      "q_ascii": "usb-c punjive aa baterije 1.5v li-ion 1400mah – mediarange mrbat161 - 4 komada mediarange mrbat161 elektronika-i-komponente punjive-aaa-baterije-usb-c-1-5-v-mediarange-mrbat161 4260664875840"
+      "q_ascii": "usb-c punjive aa baterije 1.5v li-ion 1400mah – mediarange mrbat161 - 4 komada mediarange mrbat161 elektronika-i-komponente baterije punjive-aaa-baterije-usb-c-1-5-v-mediarange-mrbat161 4260664875840"
     },
     {
       "name": "USB-C punjive AAA baterije 1.5V Li-Ion 500mAh – MediaRange MRBAT160 - 4 komada",
       "slug": "punjive-aaa-baterije-usb-c-1-5-v-mediarange-mrbat160",
       "category": "elektronika-i-komponente",
+      "group": "baterije",
       "brand": "MediaRange",
       "sku": "MRBAT160",
       "price_rsd": "1499",
       "img_thumb": "/images/products/punjive-aaa-baterije-usb-c-1-5-v-mediarange-mrbat160-01-thumb.webp",
-      "q_ascii": "usb-c punjive aaa baterije 1.5v li-ion 500mah – mediarange mrbat160 - 4 komada mediarange mrbat160 elektronika-i-komponente punjive-aaa-baterije-usb-c-1-5-v-mediarange-mrbat160 4260664875826"
+      "q_ascii": "usb-c punjive aaa baterije 1.5v li-ion 500mah – mediarange mrbat160 - 4 komada mediarange mrbat160 elektronika-i-komponente baterije punjive-aaa-baterije-usb-c-1-5-v-mediarange-mrbat160 4260664875826"
     },
     {
       "name": "Plafonski zglobni nosač za projektor – Nedis PJCM100BK",
       "slug": "plafonski-zglobni-nosac-projektora-nedis-pjcm100bk",
       "category": "tv-i-video",
+      "group": "nosaci-za-projektor",
       "brand": "Nedis",
       "sku": "PJCM100BK",
       "price_rsd": "1799",
       "img_thumb": "/images/products/plafonski-zglobni-nosac-projektora-nedis-pjcm100bk-01-thumb.webp",
-      "q_ascii": "plafonski zglobni nosac za projektor – nedis pjcm100bk nedis pjcm100bk tv-i-video plafonski-zglobni-nosac-projektora-nedis-pjcm100bk 5412810274239"
+      "q_ascii": "plafonski zglobni nosac za projektor – nedis pjcm100bk nedis pjcm100bk tv-i-video nosaci-za-projektor plafonski-zglobni-nosac-projektora-nedis-pjcm100bk 5412810274239"
     },
     {
       "name": "Zglobni zidni nosač za TV 26-55\" do 45 kg – Gembird WM-55RT-08",
       "slug": "zglobni-zidni-tv-nosac-gembird-wm-55rt-08",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Gembird",
       "sku": "WM-55RT-08",
       "price_rsd": "1699",
       "img_thumb": "/images/products/zglobni-zidni-tv-nosac-gembird-wm-55rt-08-01-thumb.webp",
-      "q_ascii": "zglobni zidni nosac za tv 26-55\" do 45 kg – gembird wm-55rt-08 gembird wm-55rt-08 tv-i-video zglobni-zidni-tv-nosac-gembird-wm-55rt-08 8607864612312"
+      "q_ascii": "zglobni zidni nosac za tv 26-55\" do 45 kg – gembird wm-55rt-08 gembird wm-55rt-08 tv-i-video tv-nosaci zglobni-zidni-tv-nosac-gembird-wm-55rt-08 8607864612312"
     },
     {
       "name": "Zidni nosač - ruka za monitor 17-27“ sa gasnom oprugom – Gembird MA-WA1-02",
       "slug": "zidni-nosac-ruka-za-monitor-gembird-ma-wa1-02",
       "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
       "brand": "Gembird",
       "sku": "MA-WA1-02",
       "price_rsd": "3899",
       "img_thumb": "/images/products/zidni-nosac-ruka-za-monitor-gembird-ma-wa1-02-01-thumb.webp",
-      "q_ascii": "zidni nosac - ruka za monitor 17-27“ sa gasnom oprugom – gembird ma-wa1-02 gembird ma-wa1-02 kompjuteri-i-oprema zidni-nosac-ruka-za-monitor-gembird-ma-wa1-02 8716309126113"
+      "q_ascii": "zidni nosac - ruka za monitor 17-27“ sa gasnom oprugom – gembird ma-wa1-02 gembird ma-wa1-02 kompjuteri-i-oprema nosaci-za-monitor zidni-nosac-ruka-za-monitor-gembird-ma-wa1-02 8716309126113"
     },
     {
       "name": "Bluetooth 5.3 Nano USB Adapter za PC - Cudy BU530",
       "slug": "bluetooth-nano-usb-adapter-cudy-bu530",
       "category": "kompjuteri-i-oprema",
+      "group": "bluetooth-adapteri",
       "brand": "Cudy",
       "sku": "BU530",
       "price_rsd": "999",
       "img_thumb": "/images/products/bluetooth-nano-usb-adapter-cudy-bu530-01-thumb.webp",
-      "q_ascii": "bluetooth 5.3 nano usb adapter za pc - cudy bu530 cudy bu530 kompjuteri-i-oprema bluetooth-nano-usb-adapter-cudy-bu530 6971690793913"
+      "q_ascii": "bluetooth 5.3 nano usb adapter za pc - cudy bu530 cudy bu530 kompjuteri-i-oprema bluetooth-adapteri bluetooth-nano-usb-adapter-cudy-bu530 6971690793913"
     },
     {
       "name": "USB 2.0 čitač svih tipova memorijskih kartica – Gembird FD2-ALLIN1-BLK",
       "slug": "usb-2-0-univerzalni-citac-memorijskih-kartica-gembird-fd2-allin1-blk",
       "category": "kompjuteri-i-oprema",
+      "group": "citaci-kartica",
       "brand": "Gembird",
       "sku": "FD2-ALLIN1-BLK",
       "price_rsd": "599",
       "img_thumb": "/images/products/usb-2-0-univerzalni-citac-memorijskih-kartica-gembird-fd2-allin1-blk-01-thumb.webp",
-      "q_ascii": "usb 2.0 citac svih tipova memorijskih kartica – gembird fd2-allin1-blk gembird fd2-allin1-blk kompjuteri-i-oprema usb-2-0-univerzalni-citac-memorijskih-kartica-gembird-fd2-allin1-blk 9780201376944"
+      "q_ascii": "usb 2.0 citac svih tipova memorijskih kartica – gembird fd2-allin1-blk gembird fd2-allin1-blk kompjuteri-i-oprema citaci-kartica usb-2-0-univerzalni-citac-memorijskih-kartica-gembird-fd2-allin1-blk 9780201376944"
     },
     {
       "name": "Komplet univerzalnih klizača za popravku rajsfešlusa (6 komada) ܺ– Kupify ZIPS-06-BLK",
       "slug": "komplet-univerzalnih-klizaca-za-popravku-rajfeslusa",
       "category": "alati-i-orudja",
+      "group": "",
       "brand": "Kupify",
       "sku": "ZIPS-06-BLK",
       "price_rsd": "699",
@@ -994,276 +1093,304 @@
       "name": "USB čitač za lične karte i saobraćajne dozvole – Gembird CRDR-CT400",
       "slug": "usb-citac-licnih-karata-gembird-crdr-ct400",
       "category": "kompjuteri-i-oprema",
+      "group": "citaci-kartica",
       "brand": "Gembird",
       "sku": "CRDR-CT400",
       "price_rsd": "1299",
       "img_thumb": "/images/products/usb-citac-licnih-karata-gembird-crdr-ct400-01-thumb.webp",
-      "q_ascii": "usb citac za licne karte i saobracajne dozvole – gembird crdr-ct400 gembird crdr-ct400 kompjuteri-i-oprema usb-citac-licnih-karata-gembird-crdr-ct400 8609252403724"
+      "q_ascii": "usb citac za licne karte i saobracajne dozvole – gembird crdr-ct400 gembird crdr-ct400 kompjuteri-i-oprema citaci-kartica usb-citac-licnih-karata-gembird-crdr-ct400 8609252403724"
     },
     {
       "name": "USB čitač za lične karte i memorijske kartice – Gembird CRDR-CT405",
       "slug": "usb-citac-licne-karte-memorijske-kartice-gembird-crdr-ct405",
       "category": "kompjuteri-i-oprema",
+      "group": "citaci-kartica",
       "brand": "Gembird",
       "sku": "CRDR-CT405",
       "price_rsd": "1699",
       "img_thumb": "/images/products/usb-citac-licne-karte-memorijske-kartice-gembird-crdr-ct405-01-thumb.webp",
-      "q_ascii": "usb citac za licne karte i memorijske kartice – gembird crdr-ct405 gembird crdr-ct405 kompjuteri-i-oprema usb-citac-licne-karte-memorijske-kartice-gembird-crdr-ct405 8609262521326"
+      "q_ascii": "usb citac za licne karte i memorijske kartice – gembird crdr-ct405 gembird crdr-ct405 kompjuteri-i-oprema citaci-kartica usb-citac-licne-karte-memorijske-kartice-gembird-crdr-ct405 8609262521326"
     },
     {
       "name": "USB 3.0 eksterno kućište za M.2 SATA SSD NGFF – Gembird EE2280-U3C-01",
       "slug": "usb-3-0-eksterno-kuciste-m2-sata-ssd-gembird-ee2280-u3c-01",
       "category": "kompjuteri-i-oprema",
+      "group": "hdd-ssd-oprema",
       "brand": "Gembird",
       "sku": "EE2280-U3C-01",
       "price_rsd": "1699",
       "img_thumb": "/images/products/usb-3-0-eksterno-kuciste-m2-sata-ssd-gembird-ee2280-u3c-01-01-thumb.webp",
-      "q_ascii": "usb 3.0 eksterno kuciste za m.2 sata ssd ngff – gembird ee2280-u3c-01 gembird ee2280-u3c-01 kompjuteri-i-oprema usb-3-0-eksterno-kuciste-m2-sata-ssd-gembird-ee2280-u3c-01 8716309100823"
+      "q_ascii": "usb 3.0 eksterno kuciste za m.2 sata ssd ngff – gembird ee2280-u3c-01 gembird ee2280-u3c-01 kompjuteri-i-oprema hdd-ssd-oprema usb-3-0-eksterno-kuciste-m2-sata-ssd-gembird-ee2280-u3c-01 8716309100823"
     },
     {
       "name": "2 u 1 - USB brzi punjač za AA, AAA, 18650 baterije sa Powerbank funkcijom – Gembird BC-USB-02",
       "slug": "usb-brzi-punjac-za-baterije-powerbank-gembird-bc-usb-02",
       "category": "elektronika-i-komponente",
+      "group": "punjaci-za-baterije",
       "brand": "Gembird",
       "sku": "BC-USB-02",
       "price_rsd": "2999",
       "img_thumb": "/images/products/usb-brzi-punjac-za-baterije-powerbank-gembird-bc-usb-02-01-thumb.webp",
-      "q_ascii": "2 u 1 - usb brzi punjac za aa, aaa, 18650 baterije sa powerbank funkcijom – gembird bc-usb-02 gembird bc-usb-02 elektronika-i-komponente usb-brzi-punjac-za-baterije-powerbank-gembird-bc-usb-02 8716309121064"
+      "q_ascii": "2 u 1 - usb brzi punjac za aa, aaa, 18650 baterije sa powerbank funkcijom – gembird bc-usb-02 gembird bc-usb-02 elektronika-i-komponente punjaci-za-baterije usb-brzi-punjac-za-baterije-powerbank-gembird-bc-usb-02 8716309121064"
     },
     {
       "name": "Eksterna USB zvučna kartica za PC ili Laptop – Gembird Virtus Plus SC-USB2.0-01",
       "slug": "eksterna-usb-zvucna-kartica-gembird-virtus-plus-sc-usb2-0-01",
       "category": "kompjuteri-i-oprema",
+      "group": "zvucne-kartice",
       "brand": "Gembird",
       "sku": "Virtus Plus SC-USB2.0-01",
       "price_rsd": "799",
       "img_thumb": "/images/products/eksterna-usb-zvucna-kartica-gembird-virtus-plus-sc-usb2-0-01-01-thumb.webp",
-      "q_ascii": "eksterna usb zvucna kartica za pc ili laptop – gembird virtus plus sc-usb2.0-01 gembird virtus plus sc-usb2.0-01 kompjuteri-i-oprema eksterna-usb-zvucna-kartica-gembird-virtus-plus-sc-usb2-0-01 8716309100441"
+      "q_ascii": "eksterna usb zvucna kartica za pc ili laptop – gembird virtus plus sc-usb2.0-01 gembird virtus plus sc-usb2.0-01 kompjuteri-i-oprema zvucne-kartice eksterna-usb-zvucna-kartica-gembird-virtus-plus-sc-usb2-0-01 8716309100441"
     },
     {
       "name": "Bluetooth 5.0 USB adapter za PC ili Laptop – Gembird BTD-MINI8",
       "slug": "bluetooth-5-0-usb-adapter-gembird-btd-mini8",
       "category": "kompjuteri-i-oprema",
+      "group": "bluetooth-adapteri",
       "brand": "Gembird",
       "sku": "BTD-MINI8",
       "price_rsd": "799",
       "img_thumb": "/images/products/bluetooth-5-0-usb-adapter-gembird-btd-mini8-01-thumb.webp",
-      "q_ascii": "bluetooth 5.0 usb adapter za pc ili laptop – gembird btd-mini8 gembird btd-mini8 kompjuteri-i-oprema bluetooth-5-0-usb-adapter-gembird-btd-mini8 8601872452342"
+      "q_ascii": "bluetooth 5.0 usb adapter za pc ili laptop – gembird btd-mini8 gembird btd-mini8 kompjuteri-i-oprema bluetooth-adapteri bluetooth-5-0-usb-adapter-gembird-btd-mini8 8601872452342"
     },
     {
       "name": "Spoljna TV antena Mini Loga 39cm, 6dB – Gembird GMB-20E",
       "slug": "spoljna-tv-antena-mini-loga-gembird-gmb-20e",
       "category": "tv-i-video",
+      "group": "antene",
       "brand": "Gembird",
       "sku": "GMB-20E",
       "price_rsd": "839",
       "img_thumb": "/images/products/spoljna-tv-antena-mini-loga-gembird-gmb-20e-01-thumb.webp",
-      "q_ascii": "spoljna tv antena mini loga 39cm, 6db – gembird gmb-20e gembird gmb-20e tv-i-video spoljna-tv-antena-mini-loga-gembird-gmb-20e 9780111220191"
+      "q_ascii": "spoljna tv antena mini loga 39cm, 6db – gembird gmb-20e gembird gmb-20e tv-i-video antene spoljna-tv-antena-mini-loga-gembird-gmb-20e 9780111220191"
     },
     {
       "name": "Spoljna TV antena Loga 84cm 12dB – Gembird GMB-2814R",
       "slug": "spoljna-tv-antena-loga-gembird-gmb-2814r",
       "category": "tv-i-video",
+      "group": "antene",
       "brand": "Gembird",
       "sku": "GMB-2814R",
       "price_rsd": "1199",
       "img_thumb": "/images/products/spoljna-tv-antena-loga-gembird-gmb-2814r-01-thumb.webp",
-      "q_ascii": "spoljna tv antena loga 84cm 12db – gembird gmb-2814r gembird gmb-2814r tv-i-video spoljna-tv-antena-loga-gembird-gmb-2814r 9780111224199"
+      "q_ascii": "spoljna tv antena loga 84cm 12db – gembird gmb-2814r gembird gmb-2814r tv-i-video antene spoljna-tv-antena-loga-gembird-gmb-2814r 9780111224199"
     },
     {
       "name": "2-u-1 Fleš memorija 128GB (USB 3.2, Type-C + USB-A) – MediaRange MR938",
       "slug": "usb-a-usb-c-fles-memorija-128gb-mediarange-mr938",
       "category": "kompjuteri-i-oprema",
+      "group": "usb-flash",
       "brand": "MediaRange",
       "sku": "MR938",
       "price_rsd": "2099",
       "img_thumb": "/images/products/usb-a-usb-c-fles-memorija-128gb-mediarange-mr938-01-thumb.webp",
-      "q_ascii": "2-u-1 fles memorija 128gb (usb 3.2, type-c + usb-a) – mediarange mr938 mediarange mr938 kompjuteri-i-oprema usb-a-usb-c-fles-memorija-128gb-mediarange-mr938 4260664870791"
+      "q_ascii": "2-u-1 fles memorija 128gb (usb 3.2, type-c + usb-a) – mediarange mr938 mediarange mr938 kompjuteri-i-oprema usb-flash usb-a-usb-c-fles-memorija-128gb-mediarange-mr938 4260664870791"
     },
     {
       "name": "Shockproof eksterno kućište za 2.5\" HDD i SSD (USB 3.0) – Silicon Power Armor A30",
       "slug": "eksterno-kuciste-2-5-inca-hdd-ssd-usb-3-0-silicon-power-armor-a30",
       "category": "kompjuteri-i-oprema",
+      "group": "hdd-ssd-oprema",
       "brand": "Silicon Power",
       "sku": "Armor A30",
       "price_rsd": "1699",
       "img_thumb": "/images/products/eksterno-kuciste-2-5-inca-hdd-ssd-usb-3-0-silicon-power-armor-a30-01-thumb.webp",
-      "q_ascii": "shockproof eksterno kuciste za 2.5\" hdd i ssd (usb 3.0) – silicon power armor a30 silicon power armor a30 kompjuteri-i-oprema eksterno-kuciste-2-5-inca-hdd-ssd-usb-3-0-silicon-power-armor-a30"
+      "q_ascii": "shockproof eksterno kuciste za 2.5\" hdd i ssd (usb 3.0) – silicon power armor a30 silicon power armor a30 kompjuteri-i-oprema hdd-ssd-oprema eksterno-kuciste-2-5-inca-hdd-ssd-usb-3-0-silicon-power-armor-a30"
     },
     {
       "name": "AA punjive baterije 2500mAh NiMH (4 komada) – Verbatim HR6 49517",
       "slug": "punjive-baterije-aa-nimh-verbatim-hr6-49517",
       "category": "elektronika-i-komponente",
+      "group": "baterije",
       "brand": "Verbatim",
       "sku": "HR6 49517",
       "price_rsd": "1399",
       "img_thumb": "/images/products/punjive-baterije-aa-nimh-verbatim-hr6-49517-01-thumb.webp",
-      "q_ascii": "aa punjive baterije 2500mah nimh (4 komada) – verbatim hr6 49517 verbatim hr6 49517 elektronika-i-komponente punjive-baterije-aa-nimh-verbatim-hr6-49517 23942495178"
+      "q_ascii": "aa punjive baterije 2500mah nimh (4 komada) – verbatim hr6 49517 verbatim hr6 49517 elektronika-i-komponente baterije punjive-baterije-aa-nimh-verbatim-hr6-49517 23942495178"
     },
     {
       "name": "AAA punjive baterije 950mAh NiMH (4 komada) – Verbatim HR3 49514",
       "slug": "punjive-baterije-aaa-nimh-verbatim-hr3-49517",
       "category": "elektronika-i-komponente",
+      "group": "baterije",
       "brand": "Verbatim",
       "sku": "HR3 49514",
       "price_rsd": "799",
       "img_thumb": "/images/products/punjive-baterije-aaa-nimh-verbatim-hr3-49517-01-thumb.webp",
-      "q_ascii": "aaa punjive baterije 950mah nimh (4 komada) – verbatim hr3 49514 verbatim hr3 49514 elektronika-i-komponente punjive-baterije-aaa-nimh-verbatim-hr3-49517 23942495147"
+      "q_ascii": "aaa punjive baterije 950mah nimh (4 komada) – verbatim hr3 49514 verbatim hr3 49514 elektronika-i-komponente baterije punjive-baterije-aaa-nimh-verbatim-hr3-49517 23942495147"
     },
     {
       "name": "Memorijska kartica 64GB microSDXC + SD adapter (U3/V30) – Verbatim 47042",
       "slug": "memorijska-kartica-64gb-microsdxc-verbatim-pro-47042",
       "category": "foto-aparati-i-kamere",
+      "group": "memorijske-kartice",
       "brand": "Verbatim",
       "sku": "47042",
       "price_rsd": "1799",
       "img_thumb": "/images/products/memorijska-kartica-64gb-microsdxc-verbatim-pro-47042-01-thumb.webp",
-      "q_ascii": "memorijska kartica 64gb microsdxc + sd adapter (u3/v30) – verbatim 47042 verbatim 47042 foto-aparati-i-kamere memorijska-kartica-64gb-microsdxc-verbatim-pro-47042 23942470427"
+      "q_ascii": "memorijska kartica 64gb microsdxc + sd adapter (u3/v30) – verbatim 47042 verbatim 47042 foto-aparati-i-kamere memorijske-kartice memorijska-kartica-64gb-microsdxc-verbatim-pro-47042 23942470427"
     },
     {
       "name": "Memorijska kartica 128GB microSDXC + SD adapter (U3/V30) – Verbatim 47044",
       "slug": "memorijska-kartica-128gb-microsdxc-verbatim-pro-47044",
       "category": "foto-aparati-i-kamere",
+      "group": "memorijske-kartice",
       "brand": "Verbatim",
       "sku": "47044",
       "price_rsd": "3499",
       "img_thumb": "/images/products/memorijska-kartica-128gb-microsdxc-verbatim-pro-47044-01-thumb.webp",
-      "q_ascii": "memorijska kartica 128gb microsdxc + sd adapter (u3/v30) – verbatim 47044 verbatim 47044 foto-aparati-i-kamere memorijska-kartica-128gb-microsdxc-verbatim-pro-47044 23942470441"
+      "q_ascii": "memorijska kartica 128gb microsdxc + sd adapter (u3/v30) – verbatim 47044 verbatim 47044 foto-aparati-i-kamere memorijske-kartice memorijska-kartica-128gb-microsdxc-verbatim-pro-47044 23942470441"
     },
     {
       "name": "Memorijska kartica 16GB microSDHC + SD adapter (Class 10 / U1) – Verbatim 44082",
       "slug": "memorijska-kartica-16gb-microsdhc-verbatim-44082",
       "category": "foto-aparati-i-kamere",
+      "group": "memorijske-kartice",
       "brand": "Verbatim",
       "sku": "44082",
       "price_rsd": "899",
       "img_thumb": "/images/products/memorijska-kartica-16gb-microsdhc-verbatim-44082-01-thumb.webp",
-      "q_ascii": "memorijska kartica 16gb microsdhc + sd adapter (class 10 / u1) – verbatim 44082 verbatim 44082 foto-aparati-i-kamere memorijska-kartica-16gb-microsdhc-verbatim-44082 23942440826"
+      "q_ascii": "memorijska kartica 16gb microsdhc + sd adapter (class 10 / u1) – verbatim 44082 verbatim 44082 foto-aparati-i-kamere memorijske-kartice memorijska-kartica-16gb-microsdhc-verbatim-44082 23942440826"
     },
     {
       "name": "Memorijska kartica 128GB microSDXC + SD adapter (Class 10 / U1) – MediaRange MR945",
       "slug": "memorijska-kartica-128gb-microsdxc-mediarange-mr945",
       "category": "foto-aparati-i-kamere",
+      "group": "memorijske-kartice",
       "brand": "MediaRange",
       "sku": "MR945",
       "price_rsd": "2099",
       "img_thumb": "/images/products/memorijska-kartica-128gb-microsdxc-mediarange-mr945-01-thumb.webp",
-      "q_ascii": "memorijska kartica 128gb microsdxc + sd adapter (class 10 / u1) – mediarange mr945 mediarange mr945 foto-aparati-i-kamere memorijska-kartica-128gb-microsdxc-mediarange-mr945 4260283115457"
+      "q_ascii": "memorijska kartica 128gb microsdxc + sd adapter (class 10 / u1) – mediarange mr945 mediarange mr945 foto-aparati-i-kamere memorijske-kartice memorijska-kartica-128gb-microsdxc-mediarange-mr945 4260283115457"
     },
     {
       "name": "USB-C fleš memorija 256GB (USB 3.2 Gen 1) – MediaRange MR1955",
       "slug": "usb-c-fles-memorija-256-gb-mediarange-mr1955",
       "category": "kompjuteri-i-oprema",
+      "group": "usb-flash",
       "brand": "MediaRange",
       "sku": "MR1955",
       "price_rsd": "2499",
       "img_thumb": "/images/products/usb-c-fles-memorija-256-gb-mediarange-mr1955-01-thumb.webp",
-      "q_ascii": "usb-c fles memorija 256gb (usb 3.2 gen 1) – mediarange mr1955 mediarange mr1955 kompjuteri-i-oprema usb-c-fles-memorija-256-gb-mediarange-mr1955 4260664871271"
+      "q_ascii": "usb-c fles memorija 256gb (usb 3.2 gen 1) – mediarange mr1955 mediarange mr1955 kompjuteri-i-oprema usb-flash usb-c-fles-memorija-256-gb-mediarange-mr1955 4260664871271"
     },
     {
       "name": "USB fleš memorija 128GB (USB 3.2 Gen 1) – MediaRange MR918",
       "slug": "usb-fles-memorija-128-gb-mediarange-mr918",
       "category": "kompjuteri-i-oprema",
+      "group": "usb-flash",
       "brand": "MediaRange",
       "sku": "MR918",
       "price_rsd": "1699",
       "img_thumb": "/images/products/usb-fles-memorija-128-gb-mediarange-mr918-01-thumb.webp",
-      "q_ascii": "usb fles memorija 128gb (usb 3.2 gen 1) – mediarange mr918 mediarange mr918 kompjuteri-i-oprema usb-fles-memorija-128-gb-mediarange-mr918 4260664870427"
+      "q_ascii": "usb fles memorija 128gb (usb 3.2 gen 1) – mediarange mr918 mediarange mr918 kompjuteri-i-oprema usb-flash usb-fles-memorija-128-gb-mediarange-mr918 4260664870427"
     },
     {
       "name": "USB fleš memorija 128GB (USB 2.0) – MediaRange MR913",
       "slug": "usb-fles-memorija-128-gb-mediarange-mr913",
       "category": "kompjuteri-i-oprema",
+      "group": "usb-flash",
       "brand": "MediaRange",
       "sku": "MR913",
       "price_rsd": "999",
       "img_thumb": "/images/products/usb-fles-memorija-128-gb-mediarange-mr913-01-thumb.webp",
-      "q_ascii": "usb fles memorija 128gb (usb 2.0) – mediarange mr913 mediarange mr913 kompjuteri-i-oprema usb-fles-memorija-128-gb-mediarange-mr913 4260664870403"
+      "q_ascii": "usb fles memorija 128gb (usb 2.0) – mediarange mr913 mediarange mr913 kompjuteri-i-oprema usb-flash usb-fles-memorija-128-gb-mediarange-mr913 4260664870403"
     },
     {
       "name": "USB fleš memorija 64GB (USB 3.2 Gen 1) – MediaRange MR917",
       "slug": "usb-fles-memorija-64-gb-mediarange-mr917",
       "category": "kompjuteri-i-oprema",
+      "group": "usb-flash",
       "brand": "MediaRange",
       "sku": "MR917",
       "price_rsd": "999",
       "img_thumb": "/images/products/usb-fles-memorija-64-gb-mediarange-mr917-01-thumb.webp",
-      "q_ascii": "usb fles memorija 64gb (usb 3.2 gen 1) – mediarange mr917 mediarange mr917 kompjuteri-i-oprema usb-fles-memorija-64-gb-mediarange-mr917 4260664870410"
+      "q_ascii": "usb fles memorija 64gb (usb 3.2 gen 1) – mediarange mr917 mediarange mr917 kompjuteri-i-oprema usb-flash usb-fles-memorija-64-gb-mediarange-mr917 4260664870410"
     },
     {
       "name": "USB fleš memorija 32GB (USB 3.2 Gen 1) – MediaRange MR916",
       "slug": "usb-fles-memorija-32-gb-mediarange-mr916",
       "category": "kompjuteri-i-oprema",
+      "group": "usb-flash",
       "brand": "MediaRange",
       "sku": "MR916",
       "price_rsd": "899",
       "img_thumb": "/images/products/usb-fles-memorija-32-gb-mediarange-mr916-01-thumb.webp",
-      "q_ascii": "usb fles memorija 32gb (usb 3.2 gen 1) – mediarange mr916 mediarange mr916 kompjuteri-i-oprema usb-fles-memorija-32-gb-mediarange-mr916 4260664870427"
+      "q_ascii": "usb fles memorija 32gb (usb 3.2 gen 1) – mediarange mr916 mediarange mr916 kompjuteri-i-oprema usb-flash usb-fles-memorija-32-gb-mediarange-mr916 4260664870427"
     },
     {
       "name": "Zglobni zidni nosač za TV 32-80\" do 50kg – Gembird WM-80ST-05",
       "slug": "zglobni-zidni-tv-nosac-gembird-wm-80st-05",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Gembird",
       "sku": "WM-80ST-05",
       "price_rsd": "4999",
       "img_thumb": "/images/products/zglobni-zidni-tv-nosac-gembird-wm-80st-05-01-thumb.webp",
-      "q_ascii": "zglobni zidni nosac za tv 32-80\" do 50kg – gembird wm-80st-05 gembird wm-80st-05 tv-i-video zglobni-zidni-tv-nosac-gembird-wm-80st-05 8716309127806"
+      "q_ascii": "zglobni zidni nosac za tv 32-80\" do 50kg – gembird wm-80st-05 gembird wm-80st-05 tv-i-video tv-nosaci zglobni-zidni-tv-nosac-gembird-wm-80st-05 8716309127806"
     },
     {
       "name": "Zglobni zidni nosač za TV 17-43\" do 30kg – Kettz TVN-5502",
       "slug": "zglobni-zidni-tv-nosac-kettz-tvn-5502",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Kettz",
       "sku": "TVN-5502",
       "price_rsd": "1199",
       "img_thumb": "/images/products/zglobni-zidni-tv-nosac-kettz-tvn-5502-01-thumb.webp",
-      "q_ascii": "zglobni zidni nosac za tv 17-43\" do 30kg – kettz tvn-5502 kettz tvn-5502 tv-i-video zglobni-zidni-tv-nosac-kettz-tvn-5502 8605054704793"
+      "q_ascii": "zglobni zidni nosac za tv 17-43\" do 30kg – kettz tvn-5502 kettz tvn-5502 tv-i-video tv-nosaci zglobni-zidni-tv-nosac-kettz-tvn-5502 8605054704793"
     },
     {
       "name": "Zglobni zidni nosač za TV 37-80\" do 60kg – Gembird WM-80ST-02",
       "slug": "zglobni-zidni-tv-nosac-gembird-wm-80st-02",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Gembird",
       "sku": "WM-80ST-02",
       "price_rsd": "4799",
       "img_thumb": "/images/products/zglobni-zidni-tv-nosac-gembird-wm-80st-02-01-thumb.webp",
-      "q_ascii": "zglobni zidni nosac za tv 37-80\" do 60kg – gembird wm-80st-02 gembird wm-80st-02 tv-i-video zglobni-zidni-tv-nosac-gembird-wm-80st-02 8716309126229"
+      "q_ascii": "zglobni zidni nosac za tv 37-80\" do 60kg – gembird wm-80st-02 gembird wm-80st-02 tv-i-video tv-nosaci zglobni-zidni-tv-nosac-gembird-wm-80st-02 8716309126229"
     },
     {
       "name": "Zglobni zidni nosač za TV 40-80\" do 50kg – Gembird WM-80ST-01",
       "slug": "zglobni-zidni-tv-nosac-gembird-wm-80st-01",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Gembird",
       "sku": "WM-80ST-01",
       "price_rsd": "4699",
       "img_thumb": "/images/products/zglobni-zidni-tv-nosac-gembird-wm-80st-01-01-thumb.webp",
-      "q_ascii": "zglobni zidni nosac za tv 40-80\" do 50kg – gembird wm-80st-01 gembird wm-80st-01 tv-i-video zglobni-zidni-tv-nosac-gembird-wm-80st-01 8716309127332"
+      "q_ascii": "zglobni zidni nosac za tv 40-80\" do 50kg – gembird wm-80st-01 gembird wm-80st-01 tv-i-video tv-nosaci zglobni-zidni-tv-nosac-gembird-wm-80st-01 8716309127332"
     },
     {
       "name": "Zglobni ugaoni nosač za TV 32-75“ do 45kg – Gembird WM-75ST-02",
       "slug": "zglobni-ugaoni-tv-nosac-gembird-wm-75st-02",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Gembird",
       "sku": "WM-75ST-02",
       "price_rsd": "4669",
       "img_thumb": "/images/products/zglobni-ugaoni-tv-nosac-gembird-wm-75st-02-01-thumb.webp",
-      "q_ascii": "zglobni ugaoni nosac za tv 32-75“ do 45kg – gembird wm-75st-02 gembird wm-75st-02 tv-i-video zglobni-ugaoni-tv-nosac-gembird-wm-75st-02 8716309127363"
+      "q_ascii": "zglobni ugaoni nosac za tv 32-75“ do 45kg – gembird wm-75st-02 gembird wm-75st-02 tv-i-video tv-nosaci zglobni-ugaoni-tv-nosac-gembird-wm-75st-02 8716309127363"
     },
     {
       "name": "Fiksni zidni nosač za TV 37-70\" do 35kg – Gembird WM-70F-03",
       "slug": "fiksni-zidni-tv-nosac-gembird-wm-70f-03",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Gembird",
       "sku": "WM-70F-03",
       "price_rsd": "829",
       "img_thumb": "/images/products/fiksni-zidni-tv-nosac-gembird-wm-70f-03-01-thumb.webp",
-      "q_ascii": "fiksni zidni nosac za tv 37-70\" do 35kg – gembird wm-70f-03 gembird wm-70f-03 tv-i-video fiksni-zidni-tv-nosac-gembird-wm-70f-03 8716309128032"
+      "q_ascii": "fiksni zidni nosac za tv 37-70\" do 35kg – gembird wm-70f-03 gembird wm-70f-03 tv-i-video tv-nosaci fiksni-zidni-tv-nosac-gembird-wm-70f-03 8716309128032"
     },
     {
       "name": "Adapter šraf za stativ 1/4\" muški na 3/8\" muški – Kupify TRP-1438-MM",
       "slug": "adapter-sraf-za-stativ-1-4-na-3-8-inca-muski",
       "category": "foto-aparati-i-kamere",
+      "group": "",
       "brand": "Kupify",
       "sku": "TRP-1438-MM",
       "price_rsd": "99",
@@ -1274,6 +1401,7 @@
       "name": "Adapter šraf za stativ 1/4\" na 1/4\" dupli muški – Kupify TRP-1414-MM",
       "slug": "adapter-sraf-za-stativ-dupli-1-4-inca-muski",
       "category": "foto-aparati-i-kamere",
+      "group": "",
       "brand": "Kupify",
       "sku": "TRP-1414-MM",
       "price_rsd": "99",
@@ -1284,6 +1412,7 @@
       "name": "Adapter šraf za stativ 1/4\" ženski na 3/8\" muški – Kupify TRP-1438-FM",
       "slug": "adapter-sraf-1-4-inca-zenski-na-3-8-inca-muski",
       "category": "foto-aparati-i-kamere",
+      "group": "",
       "brand": "Kupify",
       "sku": "TRP-1438-FM",
       "price_rsd": "99",
@@ -1294,166 +1423,183 @@
       "name": "Stoni vertikalni nosač za 2 monitora 17-32“ – Gembird MA-D2-02",
       "slug": "stoni-vertikalni-nosac-za-dva-monitora-gembird-ma-d2-02",
       "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
       "brand": "Gembird",
       "sku": "MA-D2-02",
       "price_rsd": "2699",
       "img_thumb": "/images/products/stoni-vertikalni-nosac-za-dva-monitora-gembird-ma-d2-02-01-thumb.webp",
-      "q_ascii": "stoni vertikalni nosac za 2 monitora 17-32“ – gembird ma-d2-02 gembird ma-d2-02 kompjuteri-i-oprema stoni-vertikalni-nosac-za-dva-monitora-gembird-ma-d2-02 8716309127592"
+      "q_ascii": "stoni vertikalni nosac za 2 monitora 17-32“ – gembird ma-d2-02 gembird ma-d2-02 kompjuteri-i-oprema nosaci-za-monitor stoni-vertikalni-nosac-za-dva-monitora-gembird-ma-d2-02 8716309127592"
     },
     {
       "name": "Podesivo stono postolje za monitor 17-32\" – Gembird MS-D1ST-02",
       "slug": "podesivo-stono-postolje-monitor-gembird-ms-d1st-02",
       "category": "kompjuteri-i-oprema",
+      "group": "tv-nosaci",
       "brand": "Gembird",
       "sku": "MS-D1ST-02",
       "price_rsd": "3199",
       "img_thumb": "/images/products/podesivo-stono-postolje-monitor-gembird-ms-d1st-02-01-thumb.webp",
-      "q_ascii": "podesivo stono postolje za monitor 17-32\" – gembird ms-d1st-02 gembird ms-d1st-02 kompjuteri-i-oprema podesivo-stono-postolje-monitor-gembird-ms-d1st-02 8716309127271"
+      "q_ascii": "podesivo stono postolje za monitor 17-32\" – gembird ms-d1st-02 gembird ms-d1st-02 kompjuteri-i-oprema tv-nosaci podesivo-stono-postolje-monitor-gembird-ms-d1st-02 8716309127271"
     },
     {
       "name": "Stoni nosač za monitor 17-32“ sa gasnom oprugom – Gembird MA-DA1P-02",
       "slug": "stoni-nosac-za-monitor-gembird-ma-da1p-02",
       "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
       "brand": "Gembird",
       "sku": "MA-DA1P-02",
       "price_rsd": "3199",
       "img_thumb": "/images/products/stoni-nosac-za-monitor-gembird-ma-da1p-02-01-thumb.webp",
-      "q_ascii": "stoni nosac za monitor 17-32“ sa gasnom oprugom – gembird ma-da1p-02 gembird ma-da1p-02 kompjuteri-i-oprema stoni-nosac-za-monitor-gembird-ma-da1p-02 8716309122399"
+      "q_ascii": "stoni nosac za monitor 17-32“ sa gasnom oprugom – gembird ma-da1p-02 gembird ma-da1p-02 kompjuteri-i-oprema nosaci-za-monitor stoni-nosac-za-monitor-gembird-ma-da1p-02 8716309122399"
     },
     {
       "name": "Zglobni nosač za TV 32-60\" do 36kg – Gembird WM-60ST-01",
       "slug": "zglobni-tv-nosac-gembird-wm-60st-01",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Gembird",
       "sku": "WM-60ST-01",
       "price_rsd": "3199",
       "img_thumb": "/images/products/zglobni-tv-nosac-gembird-wm-60st-01-01-thumb.webp",
-      "q_ascii": "zglobni nosac za tv 32-60\" do 36kg – gembird wm-60st-01 gembird wm-60st-01 tv-i-video zglobni-tv-nosac-gembird-wm-60st-01 8716309127356"
+      "q_ascii": "zglobni nosac za tv 32-60\" do 36kg – gembird wm-60st-01 gembird wm-60st-01 tv-i-video tv-nosaci zglobni-tv-nosac-gembird-wm-60st-01 8716309127356"
     },
     {
       "name": "Stoni nosač - ruka za monitor 17-35\" sa gasnom oprugom – Gembird MA-DA1-03",
       "slug": "stoni-nosac-za-monitor-gembird-ma-da1-03",
       "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
       "brand": "Gembird",
       "sku": "MA-DA1-03",
       "price_rsd": "3999",
       "img_thumb": "/images/products/stoni-nosac-za-monitor-gembird-ma-da1-03-01-thumb.webp",
-      "q_ascii": "stoni nosac - ruka za monitor 17-35\" sa gasnom oprugom – gembird ma-da1-03 gembird ma-da1-03 kompjuteri-i-oprema stoni-nosac-za-monitor-gembird-ma-da1-03 8716309127417"
+      "q_ascii": "stoni nosac - ruka za monitor 17-35\" sa gasnom oprugom – gembird ma-da1-03 gembird ma-da1-03 kompjuteri-i-oprema nosaci-za-monitor stoni-nosac-za-monitor-gembird-ma-da1-03 8716309127417"
     },
     {
       "name": "Stoni nosač za 2 monitora 17-32\" sa gasnim oprugama – Gembird MA-DA2-06",
       "slug": "stoni-nosac-za-2-monitora-gembird-ma-da2-06",
       "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
       "brand": "Gembird",
       "sku": "MA-DA2-06",
       "price_rsd": "5599",
       "img_thumb": "/images/products/stoni-nosac-za-2-monitora-gembird-ma-da2-06-01-thumb.webp",
-      "q_ascii": "stoni nosac za 2 monitora 17-32\" sa gasnim oprugama – gembird ma-da2-06 gembird ma-da2-06 kompjuteri-i-oprema stoni-nosac-za-2-monitora-gembird-ma-da2-06 8716309124485"
+      "q_ascii": "stoni nosac za 2 monitora 17-32\" sa gasnim oprugama – gembird ma-da2-06 gembird ma-da2-06 kompjuteri-i-oprema nosaci-za-monitor stoni-nosac-za-2-monitora-gembird-ma-da2-06 8716309124485"
     },
     {
       "name": "Stoni nosač - ruka za monitor 17-32\" – Gembird MA-D1-03",
       "slug": "stoni-nosac-za-monitor-gembird-ma-d1-03",
       "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
       "brand": "Gembird",
       "sku": "MA-D1-03",
       "price_rsd": "1999",
       "img_thumb": "/images/products/stoni-nosac-za-monitor-gembird-ma-d1-03-01-thumb.webp",
-      "q_ascii": "stoni nosac - ruka za monitor 17-32\" – gembird ma-d1-03 gembird ma-d1-03 kompjuteri-i-oprema stoni-nosac-za-monitor-gembird-ma-d1-03 8716309127585"
+      "q_ascii": "stoni nosac - ruka za monitor 17-32\" – gembird ma-d1-03 gembird ma-d1-03 kompjuteri-i-oprema nosaci-za-monitor stoni-nosac-za-monitor-gembird-ma-d1-03 8716309127585"
     },
     {
       "name": "Stoni nosač za 2 monitora 17-32\" sa USB portovima – Gembird MA-DA2U-01",
       "slug": "stoni-nosac-za-2-monitora-sa-usb-gembird-ma-da2u-01",
       "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
       "brand": "Gembird",
       "sku": "MA-DA2U-01",
       "price_rsd": "5499",
       "img_thumb": "/images/products/stoni-nosac-za-2-monitora-sa-usb-gembird-ma-da2u-01-01-thumb.webp",
-      "q_ascii": "stoni nosac za 2 monitora 17-32\" sa usb portovima – gembird ma-da2u-01 gembird ma-da2u-01 kompjuteri-i-oprema stoni-nosac-za-2-monitora-sa-usb-gembird-ma-da2u-01 8716309135368"
+      "q_ascii": "stoni nosac za 2 monitora 17-32\" sa usb portovima – gembird ma-da2u-01 gembird ma-da2u-01 kompjuteri-i-oprema nosaci-za-monitor stoni-nosac-za-2-monitora-sa-usb-gembird-ma-da2u-01 8716309135368"
     },
     {
       "name": "Zglobni zidni nosač za TV 60-120\" do 120kg – Gembird WM-120ST-01",
       "slug": "zglobni-zidni-tv-nosac-gembird-wm-120st-01",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Gembird",
       "sku": "WM-120ST-01",
       "price_rsd": "11799",
       "img_thumb": "/images/products/zglobni-zidni-tv-nosac-gembird-wm-120st-01-01-thumb.webp",
-      "q_ascii": "zglobni zidni nosac za tv 60-120\" do 120kg – gembird wm-120st-01 gembird wm-120st-01 tv-i-video zglobni-zidni-tv-nosac-gembird-wm-120st-01 8716309130417"
+      "q_ascii": "zglobni zidni nosac za tv 60-120\" do 120kg – gembird wm-120st-01 gembird wm-120st-01 tv-i-video tv-nosaci zglobni-zidni-tv-nosac-gembird-wm-120st-01 8716309130417"
     },
     {
       "name": "USB Type-C brzi punjač za telefon 20W – Gembird TA-UC-PD20-01-W",
       "slug": "usb-c-punjac-za-telefon-gembird-ta-uc-pd20-01-w",
       "category": "mobilni-telefoni-i-oprema",
+      "group": "punjaci-za-telefon",
       "brand": "Gembird",
       "sku": "TA-UC-PD20-01-W",
       "price_rsd": "499",
       "img_thumb": "/images/products/usb-c-punjac-za-telefon-gembird-ta-uc-pd20-01-w-01-thumb.webp",
-      "q_ascii": "usb type-c brzi punjac za telefon 20w – gembird ta-uc-pd20-01-w gembird ta-uc-pd20-01-w mobilni-telefoni-i-oprema usb-c-punjac-za-telefon-gembird-ta-uc-pd20-01-w 8716309124805"
+      "q_ascii": "usb type-c brzi punjac za telefon 20w – gembird ta-uc-pd20-01-w gembird ta-uc-pd20-01-w mobilni-telefoni-i-oprema punjaci-za-telefon usb-c-punjac-za-telefon-gembird-ta-uc-pd20-01-w 8716309124805"
     },
     {
       "name": "Stoni nosač - ruka za 2 monitora 17-32\" – Gembird MA-D2-01",
       "slug": "stoni-nosac-za-2-monitora-gembird-ma-d2-01",
       "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
       "brand": "Gembird",
       "sku": "MA-D2-01",
       "price_rsd": "3199",
       "img_thumb": "/images/products/stoni-nosac-za-2-monitora-gembird-ma-d2-01-01-thumb.webp",
-      "q_ascii": "stoni nosac - ruka za 2 monitora 17-32\" – gembird ma-d2-01 gembird ma-d2-01 kompjuteri-i-oprema stoni-nosac-za-2-monitora-gembird-ma-d2-01 8716309126076"
+      "q_ascii": "stoni nosac - ruka za 2 monitora 17-32\" – gembird ma-d2-01 gembird ma-d2-01 kompjuteri-i-oprema nosaci-za-monitor stoni-nosac-za-2-monitora-gembird-ma-d2-01 8716309126076"
     },
     {
       "name": "Spoljna TV antena Loga 104 cm, 9dB – Gembird GMB-28EK",
       "slug": "spoljna-tv-antena-gembird-gmb-28ek",
       "category": "tv-i-video",
+      "group": "antene",
       "brand": "Gembird",
       "sku": "GMB-28EK",
       "price_rsd": "1199",
       "img_thumb": "/images/products/spoljna-tv-antena-gembird-gmb-28ek-01-thumb.webp",
-      "q_ascii": "spoljna tv antena loga 104 cm, 9db – gembird gmb-28ek gembird gmb-28ek tv-i-video spoljna-tv-antena-gembird-gmb-28ek 9780111226193"
+      "q_ascii": "spoljna tv antena loga 104 cm, 9db – gembird gmb-28ek gembird gmb-28ek tv-i-video antene spoljna-tv-antena-gembird-gmb-28ek 9780111226193"
     },
     {
       "name": "Zglobni zidni nosač za TV 32-58\" do 36 kg – Gembird WM-58ST-01",
       "slug": "zglobni-zidni-tv-nosac-gembird-wm-58st-01",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Gembird",
       "sku": "WM-58ST-01",
       "price_rsd": "4099",
       "img_thumb": "/images/products/zglobni-zidni-tv-nosac-gembird-wm-58st-01-01-thumb.webp",
-      "q_ascii": "zglobni zidni nosac za tv 32-58\" do 36 kg – gembird wm-58st-01 gembird wm-58st-01 tv-i-video zglobni-zidni-tv-nosac-gembird-wm-58st-01 8716309127400"
+      "q_ascii": "zglobni zidni nosac za tv 32-58\" do 36 kg – gembird wm-58st-01 gembird wm-58st-01 tv-i-video tv-nosaci zglobni-zidni-tv-nosac-gembird-wm-58st-01 8716309127400"
     },
     {
       "name": "USB-C punjač za AA / AAA baterije – Gembird BC-USB-03",
       "slug": "usb-c-punjac-za-aa-aaa-baterije-gembird-bc-usb-03",
       "category": "elektronika-i-komponente",
+      "group": "punjaci-za-baterije",
       "brand": "Gembird",
       "sku": "BC-USB-03",
       "price_rsd": "999",
       "img_thumb": "/images/products/usb-c-punjac-za-aa-aaa-baterije-gembird-bc-usb-03-01-thumb.webp",
-      "q_ascii": "usb-c punjac za aa / aaa baterije – gembird bc-usb-03 gembird bc-usb-03 elektronika-i-komponente usb-c-punjac-za-aa-aaa-baterije-gembird-bc-usb-03 8716309126694"
+      "q_ascii": "usb-c punjac za aa / aaa baterije – gembird bc-usb-03 gembird bc-usb-03 elektronika-i-komponente punjaci-za-baterije usb-c-punjac-za-aa-aaa-baterije-gembird-bc-usb-03 8716309126694"
     },
     {
       "name": "Stoni nosač - ruka za monitor do 17-32\" - Gembird MA-D1-01",
       "slug": "stoni-nosac-za-monitor-gembird-ma-d1-01",
       "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
       "brand": "Gembird",
       "sku": "MA-D1-01",
       "price_rsd": "2399",
       "img_thumb": "/images/products/stoni-nosac-za-monitor-gembird-ma-d1-01-01-thumb.webp",
-      "q_ascii": "stoni nosac - ruka za monitor do 17-32\" - gembird ma-d1-01 gembird ma-d1-01 kompjuteri-i-oprema stoni-nosac-za-monitor-gembird-ma-d1-01 8716309126069"
+      "q_ascii": "stoni nosac - ruka za monitor do 17-32\" - gembird ma-d1-01 gembird ma-d1-01 kompjuteri-i-oprema nosaci-za-monitor stoni-nosac-za-monitor-gembird-ma-d1-01 8716309126069"
     },
     {
       "name": "Fiksni zidni nosač za TV 32-56\" do 40 kg – Gembird WM-56F-05",
       "slug": "fiksni-zidni-tv-nosac-gembird-wm-56f-05",
       "category": "tv-i-video",
+      "group": "tv-nosaci",
       "brand": "Gembird",
       "sku": "WM-56F-05",
       "price_rsd": "429",
       "img_thumb": "/images/products/fiksni-zidni-tv-nosac-gembird-wm-56f-05-01-thumb.webp",
-      "q_ascii": "fiksni zidni nosac za tv 32-56\" do 40 kg – gembird wm-56f-05 gembird wm-56f-05 tv-i-video fiksni-zidni-tv-nosac-gembird-wm-56f-05 8607888637438"
+      "q_ascii": "fiksni zidni nosac za tv 32-56\" do 40 kg – gembird wm-56f-05 gembird wm-56f-05 tv-i-video tv-nosaci fiksni-zidni-tv-nosac-gembird-wm-56f-05 8607888637438"
     },
     {
       "name": "Strujni adapter za UK utičnice sa EU šuko ulazom 13A - Gembird A-AC-EUFUKM-01",
       "slug": "strujni-adapter-eu-na-uk-gembird-a-ac-eufukm-01",
       "category": "elektro-i-rasveta",
+      "group": "",
       "brand": "Gembird",
       "sku": "A-AC-EUFUKM-01",
       "price_rsd": "499",
@@ -1464,91 +1610,144 @@
       "name": "Držač za tablet za montažu na naslon auto sedišta - Gembird TA-CHHR-02",
       "slug": "drzac-tableta-za-naslon-auto-sedista-gembird-ta-chhr-02",
       "category": "mobilni-telefoni-i-oprema",
+      "group": "drzaci-za-tablet",
       "brand": "Gembird",
       "sku": "TA-CHHR-02",
       "price_rsd": "799",
       "img_thumb": "/images/products/drzac-tableta-za-naslon-auto-sedista-gembird-ta-chhr-02-01-thumb.webp",
-      "q_ascii": "drzac za tablet za montazu na naslon auto sedista - gembird ta-chhr-02 gembird ta-chhr-02 mobilni-telefoni-i-oprema drzac-tableta-za-naslon-auto-sedista-gembird-ta-chhr-02 8716309087278"
+      "q_ascii": "drzac za tablet za montazu na naslon auto sedista - gembird ta-chhr-02 gembird ta-chhr-02 mobilni-telefoni-i-oprema drzaci-za-tablet drzac-tableta-za-naslon-auto-sedista-gembird-ta-chhr-02 8716309087278"
     },
     {
       "name": "Gigabitni LAN switch sa USB-C napajanjem i 5 portova – Cudy GS105U",
       "slug": "gigabit-lan-switch-sa-usb-c-napajanjem-cudy-gs105u",
       "category": "kompjuteri-i-oprema",
+      "group": "mrezna-oprema",
       "brand": "Cudy",
       "sku": "GS105U",
       "price_rsd": "1199",
       "img_thumb": "/images/products/gigabit-lan-switch-sa-usb-c-napajanjem-cudy-gs105u-01-thumb.webp",
-      "q_ascii": "gigabitni lan switch sa usb-c napajanjem i 5 portova – cudy gs105u cudy gs105u kompjuteri-i-oprema gigabit-lan-switch-sa-usb-c-napajanjem-cudy-gs105u 6971690794262"
+      "q_ascii": "gigabitni lan switch sa usb-c napajanjem i 5 portova – cudy gs105u cudy gs105u kompjuteri-i-oprema mrezna-oprema gigabit-lan-switch-sa-usb-c-napajanjem-cudy-gs105u 6971690794262"
     },
     {
       "name": "Gigabitni LAN switch sa metalnim kućištem i 5 portova – Cudy GS105 v4.0",
       "slug": "gigabit-lan-switch-metalni-cudy-gs105-v4",
       "category": "kompjuteri-i-oprema",
+      "group": "mrezna-oprema",
       "brand": "Cudy",
       "sku": "GS105 4.0",
       "price_rsd": "1299",
       "img_thumb": "/images/products/gigabit-lan-switch-metalni-cudy-gs105-v4-01-thumb.webp",
-      "q_ascii": "gigabitni lan switch sa metalnim kucistem i 5 portova – cudy gs105 v4.0 cudy gs105 4.0 kompjuteri-i-oprema gigabit-lan-switch-metalni-cudy-gs105-v4 6971690790431"
+      "q_ascii": "gigabitni lan switch sa metalnim kucistem i 5 portova – cudy gs105 v4.0 cudy gs105 4.0 kompjuteri-i-oprema mrezna-oprema gigabit-lan-switch-metalni-cudy-gs105-v4 6971690790431"
     },
     {
       "name": "Gigabitni LAN switch sa 8 portova – Cudy GS108D v4.0",
       "slug": "gigabitni-lan-switch-cudy-gs108d-v4",
       "category": "kompjuteri-i-oprema",
+      "group": "mrezna-oprema",
       "brand": "Cudy",
       "sku": "GS108D 4.0",
       "price_rsd": "1799",
       "img_thumb": "/images/products/gigabitni-lan-switch-cudy-gs108d-v4-01-thumb.webp",
-      "q_ascii": "gigabitni lan switch sa 8 portova – cudy gs108d v4.0 cudy gs108d 4.0 kompjuteri-i-oprema gigabitni-lan-switch-cudy-gs108d-v4 6971690790431"
+      "q_ascii": "gigabitni lan switch sa 8 portova – cudy gs108d v4.0 cudy gs108d 4.0 kompjuteri-i-oprema mrezna-oprema gigabitni-lan-switch-cudy-gs108d-v4 6971690790431"
     },
     {
       "name": "Gigabitni LAN switch sa metalnim kućištem i 8 portova – Cudy GS108 v3.0",
       "slug": "gigabitni-lan-switch-metalni-cudy-gs108-v3",
       "category": "kompjuteri-i-oprema",
+      "group": "mrezna-oprema",
       "brand": "Cudy",
       "sku": "GS108 3.0",
       "price_rsd": "1999",
       "img_thumb": "/images/products/gigabitni-lan-switch-metalni-cudy-gs108-v3-01-thumb.webp",
-      "q_ascii": "gigabitni lan switch sa metalnim kucistem i 8 portova – cudy gs108 v3.0 cudy gs108 3.0 kompjuteri-i-oprema gigabitni-lan-switch-metalni-cudy-gs108-v3 6971690790554"
+      "q_ascii": "gigabitni lan switch sa metalnim kucistem i 8 portova – cudy gs108 v3.0 cudy gs108 3.0 kompjuteri-i-oprema mrezna-oprema gigabitni-lan-switch-metalni-cudy-gs108-v3 6971690790554"
     },
     {
       "name": "Gigabitni LAN switch sa 5 portova – Dahua PFS3005-5GT-L",
       "slug": "gigabitni-lan-switch-dahua-pfs3005-5gt-l",
       "category": "kompjuteri-i-oprema",
+      "group": "mrezna-oprema",
       "brand": "Dahua",
       "sku": "PFS3005-5GT-L",
       "price_rsd": "3499",
       "img_thumb": "/images/products/gigabitni-lan-switch-dahua-pfs3005-5gt-l-01-thumb.webp",
-      "q_ascii": "gigabitni lan switch sa 5 portova – dahua pfs3005-5gt-l dahua pfs3005-5gt-l kompjuteri-i-oprema gigabitni-lan-switch-dahua-pfs3005-5gt-l 6923172582010"
+      "q_ascii": "gigabitni lan switch sa 5 portova – dahua pfs3005-5gt-l dahua pfs3005-5gt-l kompjuteri-i-oprema mrezna-oprema gigabitni-lan-switch-dahua-pfs3005-5gt-l 6923172582010"
     },
     {
       "name": "Gigabitni LAN switch sa 16 portova VLAN Extend funkcija – Cudy GS1016",
       "slug": "gigabitni-lan-switch-cudy-gs1016",
       "category": "kompjuteri-i-oprema",
+      "group": "mrezna-oprema",
       "brand": "Cudy",
       "sku": "GS1016",
       "price_rsd": "4999",
       "img_thumb": "/images/products/gigabitni-lan-switch-cudy-gs1016-01-thumb.webp",
-      "q_ascii": "gigabitni lan switch sa 16 portova vlan extend funkcija – cudy gs1016 cudy gs1016 kompjuteri-i-oprema gigabitni-lan-switch-cudy-gs1016 6971690791117"
+      "q_ascii": "gigabitni lan switch sa 16 portova vlan extend funkcija – cudy gs1016 cudy gs1016 kompjuteri-i-oprema mrezna-oprema gigabitni-lan-switch-cudy-gs1016 6971690791117"
     },
     {
       "name": "USB Bluetooth 5.0 adapter - prijemnik za PC i laptop – Ugreen CM390",
       "slug": "bluetooth-5-0-usb-adapter-ugreen-cm390",
       "category": "kompjuteri-i-oprema",
+      "group": "bluetooth-adapteri",
       "brand": "Ugreen",
       "sku": "CM390",
       "price_rsd": "999",
       "img_thumb": "/images/products/bluetooth-5-0-usb-adapter-ugreen-cm390-01-thumb.webp",
-      "q_ascii": "usb bluetooth 5.0 adapter - prijemnik za pc i laptop – ugreen cm390 ugreen cm390 kompjuteri-i-oprema bluetooth-5-0-usb-adapter-ugreen-cm390 6957303888894"
+      "q_ascii": "usb bluetooth 5.0 adapter - prijemnik za pc i laptop – ugreen cm390 ugreen cm390 kompjuteri-i-oprema bluetooth-adapteri bluetooth-5-0-usb-adapter-ugreen-cm390 6957303888894"
     },
     {
       "name": "Spoljna TV antena sa pojačivačem 15-32db – FO-KES TV panel V2.0",
       "slug": "spoljna-tv-antena-sa-pojacivacem-fokes-tv-panel-v20",
       "category": "tv-i-video",
+      "group": "antene",
       "brand": "FO-KES",
       "sku": "TV Panel V2.0",
       "price_rsd": "1499",
       "img_thumb": "/images/products/spoljna-tv-antena-sa-pojacivacem-fokes-tv-panel-v20-01-thumb.webp",
-      "q_ascii": "spoljna tv antena sa pojacivacem 15-32db – fo-kes tv panel v2.0 fo-kes tv panel v2.0 tv-i-video spoljna-tv-antena-sa-pojacivacem-fokes-tv-panel-v20 8606110289018"
+      "q_ascii": "spoljna tv antena sa pojacivacem 15-32db – fo-kes tv panel v2.0 fo-kes tv panel v2.0 tv-i-video antene spoljna-tv-antena-sa-pojacivacem-fokes-tv-panel-v20 8606110289018"
+    },
+    {
+      "name": "Usmerivač vazduha za klima uređaje – Kettz RAZ0460",
+      "slug": "usmerivac-vazduha-klima-uredjaja-kettz-raz0406",
+      "category": "uredjenje-kuce",
+      "group": "klima-uredjaji-oprema",
+      "brand": "Kettz",
+      "sku": "RAZ0460",
+      "price_rsd": "2199",
+      "img_thumb": "/images/products/usmerivac-vazduha-klima-uredjaja-kettz-raz0406-01-thumb.webp",
+      "q_ascii": "usmerivac vazduha za klima uredjaje – kettz raz0460 kettz raz0460 uredjenje-kuce klima-uredjaji-oprema usmerivac-vazduha-klima-uredjaja-kettz-raz0406 8607000292903"
+    },
+    {
+      "name": "Auto FM antena sa pojačivačem - unutrašnja za šofersajbnu – Kettz KT-AA10",
+      "slug": "auto-fm-antena-unutrasnja-kettz-kt-aa10",
+      "category": "auto-oprema",
+      "group": "auto-antene",
+      "brand": "Kettz",
+      "sku": "KT-AA10",
+      "price_rsd": "699",
+      "img_thumb": "/images/products/auto-fm-antena-unutrasnja-kettz-kt-aa10-01-thumb.webp",
+      "q_ascii": "auto fm antena sa pojacivacem - unutrasnja za sofersajbnu – kettz kt-aa10 kettz kt-aa10 auto-oprema auto-antene auto-fm-antena-unutrasnja-kettz-kt-aa10 8605054704229"
+    },
+    {
+      "name": "Auto FM antena sa pojačivačem za šofersajbnu – Kettz KT-AA02",
+      "slug": "auto-fm-antena-unutrasnja-kettz-kt-aa02",
+      "category": "auto-oprema",
+      "group": "auto-antene",
+      "brand": "Kettz",
+      "sku": "KT-AA02",
+      "price_rsd": "499",
+      "img_thumb": "/images/products/auto-fm-antena-unutrasnja-kettz-kt-aa02-01-thumb.webp",
+      "q_ascii": "auto fm antena sa pojacivacem za sofersajbnu – kettz kt-aa02 kettz kt-aa02 auto-oprema auto-antene auto-fm-antena-unutrasnja-kettz-kt-aa02 8606018836741"
+    },
+    {
+      "name": "Bluetooth 5.0 audio prijemnik sa mikrofonom - handsfree za automobil – Ugreen CM309",
+      "slug": "bluetooth-audio-prijemnik-auto-handsfree-ugreen-cm309",
+      "category": "auto-oprema",
+      "group": "auto-audio",
+      "brand": "Ugreen",
+      "sku": "CM309",
+      "price_rsd": "1399",
+      "img_thumb": "/images/products/bluetooth-audio-prijemnik-auto-handsfree-ugreen-cm309-01-thumb.webp",
+      "q_ascii": "bluetooth 5.0 audio prijemnik sa mikrofonom - handsfree za automobil – ugreen cm309 ugreen cm309 auto-oprema auto-audio bluetooth-audio-prijemnik-auto-handsfree-ugreen-cm309 6957303876013"
     }
   ]
 }

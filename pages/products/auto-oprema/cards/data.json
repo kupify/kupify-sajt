@@ -1,13 +1,47 @@
 {
   "category": "auto-oprema",
-  "total_products": 3,
+  "total_products": 6,
   "page_size": 12,
   "products": [
+    {
+      "name": "Auto FM antena sa pojačivačem - unutrašnja za šofersajbnu – Kettz KT-AA10",
+      "price_rsd": 699,
+      "slug": "auto-fm-antena-unutrasnja-kettz-kt-aa10",
+      "category": "auto-oprema",
+      "group": "auto-antene",
+      "img_thumb": "/images/products/auto-fm-antena-unutrasnja-kettz-kt-aa10-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "KT-AA10",
+      "gtin13": "8605054704229"
+    },
+    {
+      "name": "Auto FM antena sa pojačivačem za šofersajbnu – Kettz KT-AA02",
+      "price_rsd": 499,
+      "slug": "auto-fm-antena-unutrasnja-kettz-kt-aa02",
+      "category": "auto-oprema",
+      "group": "auto-antene",
+      "img_thumb": "/images/products/auto-fm-antena-unutrasnja-kettz-kt-aa02-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "KT-AA02",
+      "gtin13": "8606018836741"
+    },
+    {
+      "name": "Bluetooth 5.0 audio prijemnik sa mikrofonom - handsfree za automobil – Ugreen CM309",
+      "price_rsd": 1399,
+      "slug": "bluetooth-audio-prijemnik-auto-handsfree-ugreen-cm309",
+      "category": "auto-oprema",
+      "group": "auto-audio",
+      "img_thumb": "/images/products/bluetooth-audio-prijemnik-auto-handsfree-ugreen-cm309-01-thumb.webp",
+      "brand": "Ugreen",
+      "sku": "CM309",
+      "gtin13": "6957303876013"
+    },
     {
       "name": "Podesivi podupirači - stubići za automobil 3t Big Red - 2kom",
       "price_rsd": 3699,
       "slug": "klocne-stubici-podupiraci-za-automobil-big-red-3t",
       "category": "auto-oprema",
+      "group": "",
       "img_thumb": "/images/products/klocne-stubici-podupiraci-za-automobil-big-red-3t-01-thumb.webp",
       "brand": "Big Red",
       "gtin13": "4260109136925"
@@ -17,6 +51,7 @@
       "price_rsd": 2399,
       "slug": "sklopiva-mehanicka-barijera-gembird-smart-parking-rampa-4",
       "category": "auto-oprema",
+      "group": "",
       "img_thumb": "/images/products/sklopiva-mehanicka-barijera-gembird-smart-parking-rampa-4-01-thumb.webp",
       "brand": "Gembird",
       "sku": "SMART-PARKING-RAMPA-4",
@@ -27,6 +62,7 @@
       "price_rsd": 2999,
       "slug": "sklopiva-mehanicka-barijera-gembird-smart-parking-rampa-6",
       "category": "auto-oprema",
+      "group": "",
       "img_thumb": "/images/products/sklopiva-mehanicka-barijera-gembird-smart-parking-rampa-6-01-thumb.webp",
       "brand": "Gembird",
       "sku": "SMART-PARKING-RAMPA-6",

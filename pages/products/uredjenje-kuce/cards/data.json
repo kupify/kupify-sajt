@@ -1,6 +1,6 @@
 {
   "category": "uredjenje-kuce",
-  "total_products": 1,
+  "total_products": 2,
   "page_size": 12,
   "products": [
     {
@@ -8,9 +8,21 @@
       "price_rsd": 1199,
       "slug": "sigurnosna-bravica-za-prozor-zastita-za-decu",
       "category": "uredjenje-kuce",
+      "group": "",
       "img_thumb": "/images/products/sigurnosna-bravica-za-prozor-zastita-za-decu-01-thumb.webp",
       "brand": "Kupify",
       "sku": "SBP-KLJ-01"
+    },
+    {
+      "name": "Usmerivač vazduha za klima uređaje – Kettz RAZ0460",
+      "price_rsd": 2199,
+      "slug": "usmerivac-vazduha-klima-uredjaja-kettz-raz0406",
+      "category": "uredjenje-kuce",
+      "group": "klima-uredjaji-oprema",
+      "img_thumb": "/images/products/usmerivac-vazduha-klima-uredjaja-kettz-raz0406-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "RAZ0460",
+      "gtin13": "8607000292903"
     }
   ]
 }
