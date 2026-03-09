@@ -1708,16 +1708,16 @@
     {
       "name": "Usmerivač vazduha za klima uređaje – Kettz RAZ0460",
       "slug": "usmerivac-vazduha-klima-uredjaja-kettz-raz0406",
-      "category": "uredjenje-kuce",
+      "category": "bela-tehnika-i-kucni-aparati",
       "group": "klima-uredjaji-oprema",
       "brand": "Kettz",
       "sku": "RAZ0460",
       "price_rsd": "2199",
       "img_thumb": "/images/products/usmerivac-vazduha-klima-uredjaja-kettz-raz0406-01-thumb.webp",
-      "q_ascii": "usmerivac vazduha za klima uredjaje – kettz raz0460 kettz raz0460 uredjenje-kuce klima-uredjaji-oprema usmerivac-vazduha-klima-uredjaja-kettz-raz0406 8607000292903"
+      "q_ascii": "usmerivac vazduha za klima uredjaje – kettz raz0460 kettz raz0460 bela-tehnika-i-kucni-aparati klima-uredjaji-oprema usmerivac-vazduha-klima-uredjaja-kettz-raz0406 8607000292903"
     },
     {
-      "name": "Auto FM antena sa pojačivačem - unutrašnja za šofersajbnu – Kettz KT-AA10",
+      "name": "Auto FM antena sa pojačivačem za šofersajbnu – Kettz KT-AA10",
       "slug": "auto-fm-antena-unutrasnja-kettz-kt-aa10",
       "category": "auto-oprema",
       "group": "auto-antene",
@@ -1725,7 +1725,7 @@
       "sku": "KT-AA10",
       "price_rsd": "699",
       "img_thumb": "/images/products/auto-fm-antena-unutrasnja-kettz-kt-aa10-01-thumb.webp",
-      "q_ascii": "auto fm antena sa pojacivacem - unutrasnja za sofersajbnu – kettz kt-aa10 kettz kt-aa10 auto-oprema auto-antene auto-fm-antena-unutrasnja-kettz-kt-aa10 8605054704229"
+      "q_ascii": "auto fm antena sa pojacivacem za sofersajbnu – kettz kt-aa10 kettz kt-aa10 auto-oprema auto-antene auto-fm-antena-unutrasnja-kettz-kt-aa10 8605054704229"
     },
     {
       "name": "Auto FM antena sa pojačivačem za šofersajbnu – Kettz KT-AA02",
@@ -1742,12 +1742,34 @@
       "name": "Bluetooth 5.0 audio prijemnik sa mikrofonom - handsfree za automobil – Ugreen CM309",
       "slug": "bluetooth-audio-prijemnik-auto-handsfree-ugreen-cm309",
       "category": "auto-oprema",
-      "group": "auto-audio",
+      "group": "auto-audio-adapteri",
       "brand": "Ugreen",
       "sku": "CM309",
       "price_rsd": "1399",
       "img_thumb": "/images/products/bluetooth-audio-prijemnik-auto-handsfree-ugreen-cm309-01-thumb.webp",
-      "q_ascii": "bluetooth 5.0 audio prijemnik sa mikrofonom - handsfree za automobil – ugreen cm309 ugreen cm309 auto-oprema auto-audio bluetooth-audio-prijemnik-auto-handsfree-ugreen-cm309 6957303876013"
+      "q_ascii": "bluetooth 5.0 audio prijemnik sa mikrofonom - handsfree za automobil – ugreen cm309 ugreen cm309 auto-oprema auto-audio-adapteri bluetooth-audio-prijemnik-auto-handsfree-ugreen-cm309 6957303876013"
+    },
+    {
+      "name": "Bluetooth FM Transmiter sa mp3 plejerom za microSD kartice – XO BCC16",
+      "slug": "bluetooth-fm-transmiter-mp3-plejer-xo-bcc16",
+      "category": "auto-oprema",
+      "group": "auto-audio-adapteri",
+      "brand": "XO",
+      "sku": "BCC16",
+      "price_rsd": "699",
+      "img_thumb": "/images/products/bluetooth-fm-transmiter-mp3-plejer-xo-bcc16-01-thumb.webp",
+      "q_ascii": "bluetooth fm transmiter sa mp3 plejerom za microsd kartice – xo bcc16 xo bcc16 auto-oprema auto-audio-adapteri bluetooth-fm-transmiter-mp3-plejer-xo-bcc16 6920680856497"
+    },
+    {
+      "name": "Bluetooth audio prijemnik sa microSD MP3 plejerom – XO BCC15",
+      "slug": "bluetooth-audio-prijemnik-mp3-plejer-xo-bcc15",
+      "category": "auto-oprema",
+      "group": "auto-audio-adapteri",
+      "brand": "XO",
+      "sku": "BCC15",
+      "price_rsd": "899",
+      "img_thumb": "/images/products/bluetooth-audio-prijemnik-mp3-plejer-xo-bcc15-01-thumb.webp",
+      "q_ascii": "bluetooth audio prijemnik sa microsd mp3 plejerom – xo bcc15 xo bcc15 auto-oprema auto-audio-adapteri bluetooth-audio-prijemnik-mp3-plejer-xo-bcc15 6920680856480"
     }
   ]
 }
