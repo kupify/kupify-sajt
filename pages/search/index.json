@@ -953,7 +953,7 @@
       "group": "hladjenje",
       "brand": "DeepCool",
       "sku": "FK120",
-      "price_rsd": "2099",
+      "price_rsd": "2199",
       "img_thumb": "/images/products/a-rgb-ventilator-kuler-za-pc-kuciste-deepcool-fc120-01-thumb.webp",
       "q_ascii": "a-rgb ventilator kuler za pc kuciste 120mm – deepcool fc120 deepcool fk120 kompjuteri-i-oprema hladjenje a-rgb-ventilator-kuler-za-pc-kuciste-deepcool-fc120 6933412710554"
     },
@@ -1770,6 +1770,17 @@
       "price_rsd": "899",
       "img_thumb": "/images/products/bluetooth-audio-prijemnik-mp3-plejer-xo-bcc15-01-thumb.webp",
       "q_ascii": "bluetooth audio prijemnik sa microsd mp3 plejerom – xo bcc15 xo bcc15 auto-oprema auto-audio-adapteri bluetooth-audio-prijemnik-mp3-plejer-xo-bcc15 6920680856480"
+    },
+    {
+      "name": "Bluetooth FM transmiter, medija plejer i USB punjač PD 25W – XO BCC09",
+      "slug": "bluetooth-fm-transmiter-usb-punjac-xo-bcc09",
+      "category": "auto-oprema",
+      "group": "auto-audio-adapteri",
+      "brand": "XO",
+      "sku": "BCC09",
+      "price_rsd": "1599",
+      "img_thumb": "/images/products/bluetooth-fm-transmiter-usb-punjac-xo-bcc09-01-thumb.webp",
+      "q_ascii": "bluetooth fm transmiter, medija plejer i usb punjac pd 25w – xo bcc09 xo bcc09 auto-oprema auto-audio-adapteri bluetooth-fm-transmiter-usb-punjac-xo-bcc09 6920680835492"
     }
   ]
 }
