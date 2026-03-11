@@ -1,6 +1,6 @@
 {
   "category": "auto-oprema",
-  "total_products": 9,
+  "total_products": 11,
   "page_size": 12,
   "products": [
     {
@@ -57,6 +57,28 @@
       "brand": "XO",
       "sku": "BCC16",
       "gtin13": "6920680856497"
+    },
+    {
+      "name": "Bluetooth FM transmiter, medija plejer i USB punjač 15W – XO BCC08",
+      "price_rsd": 899,
+      "slug": "bluetooth-fm-transmiter-usb-punjac-xo-bcc08",
+      "category": "auto-oprema",
+      "group": "auto-audio-adapteri",
+      "img_thumb": "/images/products/bluetooth-fm-transmiter-usb-punjac-xo-bcc08-01-thumb.webp",
+      "brand": "XO",
+      "sku": "BCC08",
+      "gtin13": "6920680835485"
+    },
+    {
+      "name": "Bluetooth FM transmiter, medija plejer i USB punjač 15W – XO BCC10",
+      "price_rsd": 899,
+      "slug": "bluetooth-fm-transmiter-usb-punjac-xo-bcc10",
+      "category": "auto-oprema",
+      "group": "auto-audio-adapteri",
+      "img_thumb": "/images/products/bluetooth-fm-transmiter-usb-punjac-xo-bcc10-01-thumb.webp",
+      "brand": "XO",
+      "sku": "BCC10",
+      "gtin13": "6920680835508"
     },
     {
       "name": "Bluetooth FM transmiter, medija plejer i USB punjač PD 25W – XO BCC09",

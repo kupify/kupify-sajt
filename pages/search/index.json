@@ -1781,6 +1781,28 @@
       "price_rsd": "1599",
       "img_thumb": "/images/products/bluetooth-fm-transmiter-usb-punjac-xo-bcc09-01-thumb.webp",
       "q_ascii": "bluetooth fm transmiter, medija plejer i usb punjac pd 25w – xo bcc09 xo bcc09 auto-oprema auto-audio-adapteri bluetooth-fm-transmiter-usb-punjac-xo-bcc09 6920680835492"
+    },
+    {
+      "name": "Bluetooth FM transmiter, medija plejer i USB punjač 15W – XO BCC08",
+      "slug": "bluetooth-fm-transmiter-usb-punjac-xo-bcc08",
+      "category": "auto-oprema",
+      "group": "auto-audio-adapteri",
+      "brand": "XO",
+      "sku": "BCC08",
+      "price_rsd": "899",
+      "img_thumb": "/images/products/bluetooth-fm-transmiter-usb-punjac-xo-bcc08-01-thumb.webp",
+      "q_ascii": "bluetooth fm transmiter, medija plejer i usb punjac 15w – xo bcc08 xo bcc08 auto-oprema auto-audio-adapteri bluetooth-fm-transmiter-usb-punjac-xo-bcc08 6920680835485"
+    },
+    {
+      "name": "Bluetooth FM transmiter, medija plejer i USB punjač 15W – XO BCC10",
+      "slug": "bluetooth-fm-transmiter-usb-punjac-xo-bcc10",
+      "category": "auto-oprema",
+      "group": "auto-audio-adapteri",
+      "brand": "XO",
+      "sku": "BCC10",
+      "price_rsd": "899",
+      "img_thumb": "/images/products/bluetooth-fm-transmiter-usb-punjac-xo-bcc10-01-thumb.webp",
+      "q_ascii": "bluetooth fm transmiter, medija plejer i usb punjac 15w – xo bcc10 xo bcc10 auto-oprema auto-audio-adapteri bluetooth-fm-transmiter-usb-punjac-xo-bcc10 6920680835508"
     }
   ]
 }
