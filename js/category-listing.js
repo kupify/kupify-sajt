@@ -1,10 +1,200 @@
-// /js/category-listing.js
 /*
  * category-listing.js
- * /pages/products/<category>/ (kategorijski listing)
- * URL: page (query), sort (hash)
- * Data: category JSON (ili tvoj izvor za kategorije)
- * Napomena: search stranu radi search.js
+ *
+ * ============================================================
+ * BLOK 0) LEGENDA
+ * ============================================================
+ *
+ * Svrha skripte:
+ * - Upravljanje prikazom proizvoda unutar kategorije.
+ * - Render grid-a kartica proizvoda.
+ * - Sortiranje proizvoda.
+ * - Paginacija proizvoda.
+ * - Sinhronizacija URL parametara sa stanjem stranice.
+ *
+ * Skripta radi potpuno client-side.
+ * Podaci o proizvodima dolaze iz JSON fajla generisanog u build procesu.
+ *
+ *
+ * ============================================================
+ * BLOK 1) ŠTA SKRIPTA RADI
+ * ============================================================
+ *
+ * 1) Učitava JSON indeks proizvoda
+ *
+ *    primer:
+ *
+ *    /pages/products/index.json
+ *
+ * 2) Filtrira proizvode po kategoriji
+ *
+ *    primer:
+ *
+ *    CATEGORY = "tv-i-video"
+ *
+ * 3) Sortira proizvode
+ *
+ *    podržani režimi:
+ *
+ *      name-asc
+ *      name-desc
+ *      price-asc
+ *      price-desc
+ *
+ * 4) Renderuje kartice proizvoda
+ *
+ *    HTML kartice se generišu dinamički u grid kontejner:
+ *
+ *      .products-grid
+ *
+ * 5) Generiše paginator
+ *
+ *    broj proizvoda po stranici:
+ *
+ *      data-items-per-page
+ *
+ *    primer:
+ *
+ *      12 proizvoda po stranici
+ *
+ * 6) Sinhronizuje stanje sa URL-om
+ *
+ *    koristi dva tipa parametara:
+ *
+ *      ?page=
+ *      #sort=
+ *
+ *
+ * ============================================================
+ * BLOK 2) URL STRUKTURA
+ * ============================================================
+ *
+ * Kategorija:
+ *
+ *      /pages/products/tv-i-video/
+ *
+ * Paginacija:
+ *
+ *      /pages/products/tv-i-video/?page=2
+ *
+ * Sortiranje:
+ *
+ *      /pages/products/tv-i-video/#sort=name-asc
+ *
+ * Kombinacija:
+ *
+ *      /pages/products/tv-i-video/?page=2#sort=name-asc
+ *
+ *
+ * ============================================================
+ * BLOK 3) ZAŠTO SE KORISTI HASH ZA SORT
+ * ============================================================
+ *
+ * Sortiranje se čuva u hash delu URL-a:
+ *
+ *      #sort=name-asc
+ *
+ * Razlog:
+ *
+ * - hash ne utiče na canonical URL
+ * - Google ignoriše hash
+ * - sprečava se dupliranje URL-ova
+ *
+ * Primer canonical:
+ *
+ *      /tv-i-video/?page=2
+ *
+ * čak i kada URL izgleda:
+ *
+ *      /tv-i-video/?page=2#sort=name-asc
+ *
+ *
+ * ============================================================
+ * BLOK 4) PAGINACIJA
+ * ============================================================
+ *
+ * Paginator generiše klikabilne linkove:
+ *
+ *      <a href="?page=2">
+ *
+ * Ovo omogućava:
+ *
+ * - crawlable linkove za search engine
+ * - pravilno indeksiranje paginiranih stranica
+ *
+ * JavaScript presreće klik kako bi:
+ *
+ * - sprečio reload stranice
+ * - ažurirao prikaz proizvoda client-side
+ *
+ *
+ * ============================================================
+ * BLOK 5) STANJE APLIKACIJE (STATE)
+ * ============================================================
+ *
+ * Skripta održava interno stanje:
+ *
+ *      state.items
+ *      state.filtered
+ *      state.sort
+ *      state.currentPage
+ *      state.pageSize
+ *
+ * Promena stanja pokreće:
+ *
+ *      update(state)
+ *
+ * što ponovo renderuje grid i paginator.
+ *
+ *
+ * ============================================================
+ * BLOK 6) ODNOS SA DRUGIM SKRIPTAMA
+ * ============================================================
+ *
+ * category-listing.js
+ *      → kategorije
+ *      → render proizvoda
+ *      → paginacija
+ *
+ * search.js
+ *      → pretraga proizvoda
+ *
+ * canonical-fix.js
+ *      → canonical SEO sinhronizacija
+ *
+ *
+ * ============================================================
+ * BLOK 7) ZAŠTO JE OVA ARHITEKTURA DOBRA
+ * ============================================================
+ *
+ * Prednosti:
+ *
+ * - statički HTML
+ * - brz rendering
+ * - jednostavan build sistem
+ * - nema baze
+ * - nema server-side logike
+ *
+ * SEO je očuvan jer:
+ *
+ * - proizvodi imaju statičke URL-ove
+ * - paginator ima prave linkove
+ * - canonical je sinhronizovan
+ *
+ *
+ * ============================================================
+ * BLOK 8) BUDUĆE MOGUĆNOSTI
+ * ============================================================
+ *
+ * Skripta omogućava lako dodavanje:
+ *
+ * - GROUP filtera (antene, tv-nosači, itd.)
+ * - pagination optimizacije
+ * - lazy render
+ * - dodatnih filtera
+ *
+ * bez promene osnovne arhitekture.
+ *
  */
 
 (function () {
@@ -142,13 +332,23 @@
 
     if (pagesUl) {
       pagesUl.innerHTML = "";
+
       for (let i = 1; i <= totalPages; i++) {
         const li = document.createElement("li");
-        const btn = document.createElement("button");
-        btn.textContent = String(i);
-        btn.setAttribute("aria-label", `Stranica ${i}`);
-        if (i === currentPage) btn.setAttribute("aria-current", "page");
-        li.appendChild(btn);
+        const a = document.createElement("a");
+
+        a.textContent = String(i);
+        const sp = new URLSearchParams();
+        const sort = hparam("sort");
+        if (sort) sp.set("sort", sort);
+        a.href = `?page=${i}${sp.toString() ? "#" + sp.toString() : ""}`;
+        a.setAttribute("aria-label", `Stranica ${i}`);
+
+        if (i === currentPage) {
+          a.setAttribute("aria-current", "page");
+        }
+
+        li.appendChild(a);
         pagesUl.appendChild(li);
       }
     }
@@ -217,14 +417,22 @@
     }
     if (pagesUl) {
       pagesUl.addEventListener("click", (e) => {
-        const btn = e.target.closest("button");
-        if (!btn) return;
-        const n = Number(btn.textContent);
+        const link = e.target.closest("a");
+        if (!link) return;
+
+        e.preventDefault();
+
+        const url = new URL(link.href);
+        const n = Number(url.searchParams.get("page"));
         if (Number.isFinite(n)) goto(n);
       });
+
       pagesUl.addEventListener("keydown", (e) => {
-        const btn = e.target.closest("button");
-        if (btn && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); btn.click(); }
+        const link = e.target.closest("a");
+        if (link && (e.key === "Enter" || e.key === " ")) {
+          e.preventDefault();
+          link.click();
+        }
       });
     }
 
@@ -245,6 +453,9 @@
     // primeni sortiranje
     const sorted = applySort(state.products, state.sort);
     state.totalPages = Math.max(1, Math.ceil(sorted.length / state.pageSize));
+    if (state.currentPage > state.totalPages) {
+      state.currentPage = 1;
+    }
 
     // render
     renderGrid(sorted, state.category, state.currentPage, state.pageSize);

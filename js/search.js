@@ -1,24 +1,233 @@
 /*
  * search.js
  *
- * Engine za stranicu pretrage (/pages/search/):
- * - učitava /pages/search/index.json
- * - filtriranje (pretraga + sinonimi + scoring)
- * - sortiranje
- * - paginacija
- * - render liste proizvoda na search stranici
- * - URL state: q (query), page (query), sort (hash)
+ * ============================================================
+ * BLOK 0) LEGENDA
+ * ============================================================
  *
- * Napomena:
- * - Kategorije (/pages/products/... ) koristi category-listing.js
- * - Ovaj fajl nije “globalni listing engine” za sve stranice.
- */
-/*
+ * Svrha skripte:
+ * - Upravljanje pretragom proizvoda na sajtu.
+ * - Filtriranje proizvoda po upitu korisnika.
+ * - Sortiranje rezultata.
+ * - Paginacija rezultata.
+ * - Render kartica proizvoda u grid-u.
+ *
+ * Skripta radi potpuno client-side.
+ * Pretraga koristi statički JSON indeks generisan tokom build procesa.
+ *
+ *
+ * ============================================================
+ * BLOK 1) IZVOR PODATAKA
+ * ============================================================
+ *
+ * Podaci dolaze iz:
+ *
+ *      /pages/search/index.json
+ *
+ * JSON sadrži indeks svih proizvoda potrebnih za pretragu.
+ *
+ * primer strukture:
+ *
+ *      slug
+ *      name
+ *      brand
+ *      category
+ *      group
+ *      price
+ *      q_ascii (normalizovani tekst za pretragu)
+ *
+ *
+ * ============================================================
+ * BLOK 2) NORMALIZACIJA TEKSTA
+ * ============================================================
+ *
+ * Pretraga koristi normalizovan tekst kako bi podržala:
+ *
+ * - latinicu bez dijakritika
+ * - različite oblike reči
+ * - tolerantnost na greške
+ *
+ * primer:
+ *
+ *      č ć š ž đ  →  c c s z dj
+ *
+ * Tako korisnik može pronaći proizvod čak i ako ne unese
+ * tačno originalni naziv.
+ *
+ *
+ * ============================================================
+ * BLOK 3) TOKENIZACIJA
+ * ============================================================
+ *
+ * Tekst proizvoda se deli na tokene (reči):
+ *
+ *      HDMI kabl 2m
+ *
+ * postaje:
+ *
+ *      ["hdmi", "kabl", "2m"]
+ *
+ * Tokene čuvamo unapred kako bi pretraga bila brža.
+ *
+ * Ovo sprečava ponovno parsiranje teksta pri svakoj pretrazi.
+ *
+ *
+ * ============================================================
+ * BLOK 4) SINONIMI
+ * ============================================================
+ *
+ * Pretraga koristi mapu sinonima.
+ *
+ * primer:
+ *
+ *      stalak → nosac, drzac
+ *      kabl → kabel, zica
+ *      tv → televizor
+ *
+ * Kada korisnik unese reč,
+ * skripta automatski proširuje upit sinonimima.
+ *
+ * Ovo povećava šansu da proizvod bude pronađen.
+ *
+ *
+ * ============================================================
+ * BLOK 5) SCORING REZULTATA
+ * ============================================================
+ *
+ * Svaki proizvod dobija score (relevantnost).
+ *
+ * pravila:
+ *
+ *      tačan token match → najveći score
+ *      prefiks match → srednji score
+ *      fuzzy match → manji score
+ *
+ * dodatni boost:
+ *
+ *      name
+ *      brand
+ *      slug
+ *      group
+ *      category
+ *
+ * proizvodi sa većim score-om se prikazuju prvi.
+ *
+ *
+ * ============================================================
+ * BLOK 6) SORTIRANJE
+ * ============================================================
+ *
+ * Podržani režimi sortiranja:
+ *
+ *      relevance
+ *      name-asc
+ *      name-desc
+ *      price-asc
+ *      price-desc
+ *
+ * Sortiranje se čuva u hash delu URL-a:
+ *
+ *      #sort=name-asc
+ *
+ * Hash se koristi jer:
+ *
+ * - ne utiče na canonical
+ * - sprečava dupliranje URL parametara
+ *
+ *
+ * ============================================================
+ * BLOK 7) PAGINACIJA
+ * ============================================================
+ *
+ * Rezultati pretrage su paginirani.
+ *
+ * primer URL-a:
+ *
+ *      /pages/search/?q=hdmi&page=2
+ *
+ * Paginator generiše:
+ *
+ *      <a href="?q=hdmi&page=2">
+ *
+ * JavaScript presreće klik kako bi:
+ *
+ * - sprečio reload stranice
+ * - renderovao rezultate client-side
+ *
+ *
+ * ============================================================
+ * BLOK 8) URL PARAMETRI
+ * ============================================================
+ *
+ * Pretraga koristi tri parametra:
+ *
+ *      q
+ *      page
+ *      sort
+ *
+ * primer:
+ *
+ *      /pages/search/?q=hdmi&page=2#sort=name-asc
+ *
+ * gde:
+ *
+ *      q     → upit korisnika
+ *      page  → stranica rezultata
+ *      sort  → način sortiranja
+ *
+ *
+ * ============================================================
+ * BLOK 9) STATE APLIKACIJE
+ * ============================================================
+ *
+ * Skripta koristi interno stanje:
+ *
+ *      state.items
+ *      state.filtered
+ *      state.q
+ *      state.sort
+ *      state.page
+ *      state.pageSize
+ *
+ * Svaka promena pokreće render funkciju:
+ *
+ *      render()
+ *
+ * koja ponovo generiše grid i paginator.
+ *
+ *
+ * ============================================================
+ * BLOK 10) ARHITEKTURA SISTEMA
+ * ============================================================
+ *
+ * category-listing.js
+ *      → listing proizvoda po kategoriji
+ *
  * search.js
- * /pages/search/ (interna pretraga)
- * URL: q (query), page (query), sort (hash)
- * Data: /pages/search/index.json
- * Napomena: kategorije radi category-listing.js
+ *      → pretraga proizvoda
+ *
+ * canonical-fix.js
+ *      → canonical SEO sinhronizacija
+ *
+ * Sve skripte rade client-side nad statičkim HTML sajtom.
+ *
+ *
+ * ============================================================
+ * BLOK 11) PREDNOSTI OVOG SISTEMA
+ * ============================================================
+ *
+ * - statički HTML
+ * - brza pretraga
+ * - nema baze
+ * - nema server-side renderinga
+ * - jednostavan build pipeline
+ *
+ * SEO ostaje stabilan jer:
+ *
+ * - proizvodi imaju statičke URL-ove
+ * - paginator ima crawlable linkove
+ * - canonical se pravilno sinhronizuje
+ *
  */
 
 (function () {
@@ -129,18 +338,33 @@
     if (!nav || !pagesUl || !prevBtn || !nextBtn) return;
 
     const totalPages = Math.max(1, Math.ceil(total / size));
+
     prevBtn.disabled = page <= 1;
     nextBtn.disabled = page >= totalPages;
 
+    const q = getURLParam("q", "");
+    const sort = getHashParam("sort", "");
+
     pagesUl.innerHTML = "";
+
     for (let i = 1; i <= totalPages; i++) {
       const li = document.createElement("li");
-      const b = document.createElement("button");
-      b.textContent = String(i);
-      if (i === page) b.setAttribute("aria-current", "page");
-      li.appendChild(b);
+      const a = document.createElement("a");
+
+      a.textContent = String(i);
+      a.setAttribute("aria-label", `Stranica ${i}`);
+
+      const hash = sort ? `#sort=${sort}` : "";
+      a.href = `?q=${encodeURIComponent(q)}&page=${i}${hash}`;
+
+      if (i === page) {
+        a.setAttribute("aria-current", "page");
+      }
+
+      li.appendChild(a);
       pagesUl.appendChild(li);
     }
+
     return totalPages;
   }
 
@@ -214,7 +438,15 @@
     // 🔹 Keširaj tokene za bržu pretragu
     const tokenize = (s) => (s || "").replace(/[-_/]/g, " ").split(/\s+/).filter(Boolean);
     for (const it of items) {
-      it._tokens = new Set(tokenize(it.q_ascii));  // gotovi tokeni za svaku stavku
+
+      it._tokens = new Set(tokenize(it.q_ascii));
+
+      // keširaj field tokene
+      it._nameTokens = new Set(tokenize(norm(it.name)));
+      it._brandTokens = new Set(tokenize(norm(it.brand)));
+      it._slugTokens = new Set(tokenize(norm(it.slug)));
+      it._catTokens = new Set(tokenize(norm(it.category)));
+      it._groupTokens = new Set(tokenize(norm(it.group)));
     }
 
     const state = {
@@ -259,6 +491,9 @@
       "pc": ["kompjuter", "racunar"],
       "laptop": ["notebook"],
       "notebook": ["laptop"],
+      "flash": ["fles"],
+      "fles": ["flash"],
+      
 
       // === TV sinonimi ===
       "tv": ["televizor"],
@@ -346,18 +581,15 @@
         return 0;
       }
 
-      function fieldTokens(item) {
-        const nameT = new Set(hayTokens(norm(item.name)));
-        const brandT = new Set(hayTokens(norm(item.brand)));
-        const slugT = new Set(hayTokens(norm(item.slug)));
-        const catT = new Set(hayTokens(norm(item.category)));
-        return { nameT, brandT, slugT, catT };
-      }
 
       function scoreItem(item, groupsArr) {
         const hay = item.q_ascii || "";
-        const tokens = item._tokens || new Set(hayTokens(hay));
-        const { nameT, brandT, slugT, catT } = fieldTokens(item);
+        const tokens = item._tokens;
+        const nameT = item._nameTokens;
+        const brandT = item._brandTokens;
+        const slugT = item._slugTokens;
+        const catT = item._catTokens;
+        const groupT = item._groupTokens;
 
         let total = 0;
         for (const group of groupsArr) {
@@ -379,6 +611,7 @@
             if (brandT.has(g)) boost += 3;
             if (slugT.has(g)) boost += 2;
             if (catT.has(g)) boost += 1;
+            if (groupT.has(g)) boost += 2;
           }
           total += groupBest + boost;
         }
@@ -434,9 +667,13 @@
       prevBtn?.addEventListener("click", () => goto(state.page - 1));
       nextBtn?.addEventListener("click", () => goto(state.page + 1));
       pagesUl?.addEventListener("click", (e) => {
-        const b = e.target.closest("button");
-        if (!b) return;
-        const n = Number(b.textContent);
+        const link = e.target.closest("a");
+        if (!link) return;
+
+        e.preventDefault();
+
+        const url = new URL(link.href);
+        const n = Number(url.searchParams.get("page"));
         if (Number.isFinite(n)) goto(n);
       });
     })();

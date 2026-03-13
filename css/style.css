@@ -2968,7 +2968,8 @@ body {
     margin: 0;
 }
 
-.paginator .pag-pages button {
+.paginator .pag-pages a {
+    display: inline-block;
     font-size: .8rem;
     padding: .4rem .75rem;
     border: 1px solid rgba(var(--brand-teal), .3);
@@ -2977,23 +2978,27 @@ body {
     border-radius: 6px;
     transition: all .2s ease;
     cursor: pointer;
+    text-decoration: none;
+}
+.paginator .pag-pages a[aria-current="page"] {
+    cursor: default;
 }
 
 /* Hover – blaga teal pozadina */
-.paginator .pag-pages button:hover {
+.paginator .pag-pages a:hover {
     background: rgba(var(--brand-teal), .08);
 }
 
 /* Aktivna stranica – ghost stil, ali naglašenija */
-.paginator .pag-pages button[aria-current="page"] {
+.paginator .pag-pages a[aria-current="page"] {
     background: transparent;
     color: rgb(var(--brand-teal));
-    border: 2px solid rgba(var(--brand-teal), 0.7);
+    border: 2px solid rgba(var(--brand-teal), 0.5);
     font-weight: 400;
-}
+}   
 
 /* Fokus (a11y) */
-.paginator button:focus-visible {
+.paginator a:focus-visible {
     outline: 2px solid rgba(var(--brand-teal), .3);
     outline-offset: 2px;
 }
@@ -3002,14 +3007,11 @@ body {
 .paginator .pag-pages,
 .paginator .pag-pages li {
     list-style: none;
-    margin: 0;
-    padding: 0;
 }
 
 .paginator .pag-pages li::marker {
     content: none;
 }
-
 
 /* Mobile – kompaktnije */
 @media (max-width:600px) {
@@ -3019,7 +3021,7 @@ body {
     }
 
     .paginator .pag-btn,
-    .paginator .pag-pages button {
+    .paginator .pag-pages a {
         font-size: .85rem;
         padding: .35rem .6rem;
         min-width: 2rem;

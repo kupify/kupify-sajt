@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 68,
+  "total_products": 70,
   "page_size": 12,
   "products": [
     {
@@ -24,6 +24,17 @@
       "brand": "Ugreen",
       "sku": "CM185 50706",
       "gtin13": "6957303857067"
+    },
+    {
+      "name": "6-u-1 USB 3.0 / USB-C čitač kartica SD i microSD – Kettz KT-CR61",
+      "price_rsd": 1099,
+      "slug": "usb-3-0-usb-c-citac-memorijskih-kartica-sd-microsd-kettz-kt-cr61",
+      "category": "kompjuteri-i-oprema",
+      "group": "citaci-kartica",
+      "img_thumb": "/images/products/usb-3-0-usb-c-citac-memorijskih-kartica-sd-microsd-kettz-kt-cr61-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "KT-CR61",
+      "gtin13": "8605054711944"
     },
     {
       "name": "A-RGB ventilator kuler za PC kućište 120mm – DeepCool FC120",
@@ -617,6 +628,17 @@
       "brand": "Gembird",
       "sku": "EE2280-U3C-01",
       "gtin13": "8716309100823"
+    },
+    {
+      "name": "USB 3.0 čitač memorijskih kartica microSD / SD – UGREEN CM104",
+      "price_rsd": 1099,
+      "slug": "usb-3-0-citac-memorijskih-kartica-sd-microsd-ugreen-cm104",
+      "category": "kompjuteri-i-oprema",
+      "group": "citaci-kartica",
+      "img_thumb": "/images/products/usb-3-0-citac-memorijskih-kartica-sd-microsd-ugreen-cm104-01-thumb.webp",
+      "brand": "UGREEN",
+      "sku": "CM104",
+      "gtin13": "6957303847525"
     },
     {
       "name": "USB Bluetooth 5.0 adapter - prijemnik za PC i laptop – Ugreen CM390",
