@@ -952,10 +952,10 @@
       "category": "kompjuteri-i-oprema",
       "group": "hladjenje",
       "brand": "DeepCool",
-      "sku": "FK120",
+      "sku": "FC120",
       "price_rsd": "2199",
       "img_thumb": "/images/products/a-rgb-ventilator-kuler-za-pc-kuciste-deepcool-fc120-01-thumb.webp",
-      "q_ascii": "a-rgb ventilator kuler za pc kuciste 120mm – deepcool fc120 deepcool fk120 kompjuteri-i-oprema hladjenje a-rgb-ventilator-kuler-za-pc-kuciste-deepcool-fc120 6933412710554"
+      "q_ascii": "a-rgb ventilator kuler za pc kuciste 120mm – deepcool fc120 deepcool fc120 kompjuteri-i-oprema hladjenje a-rgb-ventilator-kuler-za-pc-kuciste-deepcool-fc120 6933412710554"
     },
     {
       "name": "A-RGB ventilator kuler za PC kućište 120mm – DeepCool FL12 SE",
@@ -1825,6 +1825,39 @@
       "price_rsd": "1099",
       "img_thumb": "/images/products/usb-3-0-citac-memorijskih-kartica-sd-microsd-ugreen-cm104-01-thumb.webp",
       "q_ascii": "usb 3.0 citac memorijskih kartica microsd / sd – ugreen cm104 ugreen cm104 kompjuteri-i-oprema citaci-kartica usb-3-0-citac-memorijskih-kartica-sd-microsd-ugreen-cm104 6957303847525"
+    },
+    {
+      "name": "USB 3.0 čitač memorijskih kartica SD i microSD  – UGREEN CM264",
+      "slug": "usb-3-0-citac-memorijskih-kartica-sd-microsd-ugreen-cm264",
+      "category": "elektronika-i-komponente",
+      "group": "citaci-kartica",
+      "brand": "UGREEN",
+      "sku": "CM264",
+      "price_rsd": "899",
+      "img_thumb": "/images/products/usb-3-0-citac-memorijskih-kartica-sd-microsd-ugreen-cm264-01-thumb.webp",
+      "q_ascii": "usb 3.0 citac memorijskih kartica sd i microsd  – ugreen cm264 ugreen cm264 elektronika-i-komponente citaci-kartica usb-3-0-citac-memorijskih-kartica-sd-microsd-ugreen-cm264 6957303867226"
+    },
+    {
+      "name": "USB i USB-C čitač za lične karte i SIM kartice – Kettz KTZ-CR230AC",
+      "slug": "usb-a-usb-c-citac-licnih-karata-sim-kartica-kettz-ktz-cr230ac",
+      "category": "kompjuteri-i-oprema",
+      "group": "citaci-kartica",
+      "brand": "Kettz",
+      "sku": "KTZ-CR230AC",
+      "price_rsd": "1199",
+      "img_thumb": "/images/products/usb-a-usb-c-citac-licnih-karata-sim-kartica-kettz-ktz-cr230ac-01-thumb.webp",
+      "q_ascii": "usb i usb-c citac za licne karte i sim kartice – kettz ktz-cr230ac kettz ktz-cr230ac kompjuteri-i-oprema citaci-kartica usb-a-usb-c-citac-licnih-karata-sim-kartica-kettz-ktz-cr230ac 8605054711562"
+    },
+    {
+      "name": "USB 3.0 čitač memorijskih kartica SD / micro SD / CF / MS – Ugreen CR125",
+      "slug": "usb-3-0-citac-memorijskih-kartica-sd-microsd-cf-ms-ugreen-cr125",
+      "category": "kompjuteri-i-oprema",
+      "group": "citaci-kartica",
+      "brand": "Ugreen",
+      "sku": "CR125",
+      "price_rsd": "1999",
+      "img_thumb": "/images/products/usb-3-0-citac-memorijskih-kartica-sd-microsd-cf-ms-ugreen-cr125-01-thumb.webp",
+      "q_ascii": "usb 3.0 citac memorijskih kartica sd / micro sd / cf / ms – ugreen cr125 ugreen cr125 kompjuteri-i-oprema citaci-kartica usb-3-0-citac-memorijskih-kartica-sd-microsd-cf-ms-ugreen-cr125 6957303833337"
     }
   ]
 }
