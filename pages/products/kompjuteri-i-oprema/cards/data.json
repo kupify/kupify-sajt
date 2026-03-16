@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 72,
+  "total_products": 74,
   "page_size": 12,
   "products": [
     {
@@ -663,6 +663,17 @@
       "gtin13": "6957303888894"
     },
     {
+      "name": "USB eksterna zvučna kartica sa 3.5mm konektorima – UGREEN US205",
+      "price_rsd": 1299,
+      "slug": "usb-eksterna-zvucna-kartica-ugreen-us205",
+      "category": "kompjuteri-i-oprema",
+      "group": "zvucne-kartice",
+      "img_thumb": "/images/products/usb-eksterna-zvucna-kartica-ugreen-us205-01-thumb.webp",
+      "brand": "UGREEN",
+      "sku": "US205",
+      "gtin13": "6957303837243"
+    },
+    {
       "name": "USB fleš memorija 128GB (USB 2.0) – MediaRange MR913",
       "price_rsd": 999,
       "slug": "usb-fles-memorija-128-gb-mediarange-mr913",
@@ -760,6 +771,17 @@
       "brand": "MediaRange",
       "sku": "MR1955",
       "gtin13": "4260664871271"
+    },
+    {
+      "name": "Vertikalni USB čitač ličnih karata i SIM kartica – Kettz KTZ-CR400A",
+      "price_rsd": 1299,
+      "slug": "vertikalni-usb-citac-licnih-karata-sim-kartica-kettz-ktz-cr400a",
+      "category": "kompjuteri-i-oprema",
+      "group": "citaci-kartica",
+      "img_thumb": "/images/products/vertikalni-usb-citac-licnih-karata-sim-kartica-kettz-ktz-cr400a-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "KTZ-CR400A",
+      "gtin13": "8605054711579"
     },
     {
       "name": "Volan sa pedalama za PC – Gembird STR-ShockForce-II",

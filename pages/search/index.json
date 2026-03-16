@@ -1871,7 +1871,7 @@
       "q_ascii": "bluetooth fm transmiter, mp3 plejer i usb punjac (pd 30w) – kettz yare kettz yare auto-oprema auto-audio-adapteri bluetooth-fm-transmiter-usb-punjac-kettz-yare 8605054711593"
     },
     {
-      "name": "Bluetooth FM transmiter, MP3 plejer i USB punjač  – Kettz Paya",
+      "name": "Bluetooth FM transmiter, MP3 plejer i USB punjač  (QC3.0 + PD) – Kettz Paya",
       "slug": "bluetooth-fm-transmiter-usb-punjac-kettz-paya",
       "category": "auto-oprema",
       "group": "auto-audio-adapteri",
@@ -1879,7 +1879,40 @@
       "sku": "Paya",
       "price_rsd": "999",
       "img_thumb": "/images/products/bluetooth-fm-transmiter-usb-punjac-kettz-paya-01-thumb.webp",
-      "q_ascii": "bluetooth fm transmiter, mp3 plejer i usb punjac  – kettz paya kettz paya auto-oprema auto-audio-adapteri bluetooth-fm-transmiter-usb-punjac-kettz-paya 8605054711586"
+      "q_ascii": "bluetooth fm transmiter, mp3 plejer i usb punjac  (qc3.0 + pd) – kettz paya kettz paya auto-oprema auto-audio-adapteri bluetooth-fm-transmiter-usb-punjac-kettz-paya 8605054711586"
+    },
+    {
+      "name": "Bluetooth FM transmiter, MP3 plejer i USB punjač (PD 30W) – Kettz Floyd",
+      "slug": "bluetooth-fm-transmiter-usb-punjac-kettz-floyd",
+      "category": "auto-oprema",
+      "group": "auto-audio-adapteri",
+      "brand": "Kettz",
+      "sku": "Floyd",
+      "price_rsd": "999",
+      "img_thumb": "/images/products/bluetooth-fm-transmiter-usb-punjac-kettz-floyd-01-thumb.webp",
+      "q_ascii": "bluetooth fm transmiter, mp3 plejer i usb punjac (pd 30w) – kettz floyd kettz floyd auto-oprema auto-audio-adapteri bluetooth-fm-transmiter-usb-punjac-kettz-floyd 8605054711609"
+    },
+    {
+      "name": "Vertikalni USB čitač ličnih karata i SIM kartica – Kettz KTZ-CR400A",
+      "slug": "vertikalni-usb-citac-licnih-karata-sim-kartica-kettz-ktz-cr400a",
+      "category": "kompjuteri-i-oprema",
+      "group": "citaci-kartica",
+      "brand": "Kettz",
+      "sku": "KTZ-CR400A",
+      "price_rsd": "1299",
+      "img_thumb": "/images/products/vertikalni-usb-citac-licnih-karata-sim-kartica-kettz-ktz-cr400a-01-thumb.webp",
+      "q_ascii": "vertikalni usb citac licnih karata i sim kartica – kettz ktz-cr400a kettz ktz-cr400a kompjuteri-i-oprema citaci-kartica vertikalni-usb-citac-licnih-karata-sim-kartica-kettz-ktz-cr400a 8605054711579"
+    },
+    {
+      "name": "USB eksterna zvučna kartica sa 3.5mm konektorima – UGREEN US205",
+      "slug": "usb-eksterna-zvucna-kartica-ugreen-us205",
+      "category": "kompjuteri-i-oprema",
+      "group": "zvucne-kartice",
+      "brand": "UGREEN",
+      "sku": "US205",
+      "price_rsd": "1299",
+      "img_thumb": "/images/products/usb-eksterna-zvucna-kartica-ugreen-us205-01-thumb.webp",
+      "q_ascii": "usb eksterna zvucna kartica sa 3.5mm konektorima – ugreen us205 ugreen us205 kompjuteri-i-oprema zvucne-kartice usb-eksterna-zvucna-kartica-ugreen-us205 6957303837243"
     }
   ]
 }

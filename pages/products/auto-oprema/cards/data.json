@@ -1,6 +1,6 @@
 {
   "category": "auto-oprema",
-  "total_products": 13,
+  "total_products": 14,
   "page_size": 12,
   "products": [
     {
@@ -92,7 +92,7 @@
       "gtin13": "6920680835492"
     },
     {
-      "name": "Bluetooth FM transmiter, MP3 plejer i USB punjač  – Kettz Paya",
+      "name": "Bluetooth FM transmiter, MP3 plejer i USB punjač  (QC3.0 + PD) – Kettz Paya",
       "price_rsd": 999,
       "slug": "bluetooth-fm-transmiter-usb-punjac-kettz-paya",
       "category": "auto-oprema",
@@ -101,6 +101,17 @@
       "brand": "Kettz",
       "sku": "Paya",
       "gtin13": "8605054711586"
+    },
+    {
+      "name": "Bluetooth FM transmiter, MP3 plejer i USB punjač (PD 30W) – Kettz Floyd",
+      "price_rsd": 999,
+      "slug": "bluetooth-fm-transmiter-usb-punjac-kettz-floyd",
+      "category": "auto-oprema",
+      "group": "auto-audio-adapteri",
+      "img_thumb": "/images/products/bluetooth-fm-transmiter-usb-punjac-kettz-floyd-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "Floyd",
+      "gtin13": "8605054711609"
     },
     {
       "name": "Bluetooth FM transmiter, MP3 plejer i USB punjač (PD 30W) – Kettz Yare",
