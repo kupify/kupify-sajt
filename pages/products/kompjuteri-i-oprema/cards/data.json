@@ -158,6 +158,17 @@
       "gtin13": "6957303858576"
     },
     {
+      "name": "Eksterna USB zvučna kartica sa 3.5mm konektorima – UGREEN US205",
+      "price_rsd": 1299,
+      "slug": "eksterna-usb-zvucna-kartica-ugreen-us205",
+      "category": "kompjuteri-i-oprema",
+      "group": "zvucne-kartice",
+      "img_thumb": "/images/products/eksterna-usb-zvucna-kartica-ugreen-us205-01-thumb.webp",
+      "brand": "UGREEN",
+      "sku": "US205",
+      "gtin13": "6957303837243"
+    },
+    {
       "name": "Eksterna USB zvučna kartica za PC ili Laptop – Gembird Virtus Plus SC-USB2.0-01",
       "price_rsd": 799,
       "slug": "eksterna-usb-zvucna-kartica-gembird-virtus-plus-sc-usb2-0-01",
@@ -661,17 +672,6 @@
       "brand": "Ugreen",
       "sku": "CM390",
       "gtin13": "6957303888894"
-    },
-    {
-      "name": "USB eksterna zvučna kartica sa 3.5mm konektorima – UGREEN US205",
-      "price_rsd": 1299,
-      "slug": "usb-eksterna-zvucna-kartica-ugreen-us205",
-      "category": "kompjuteri-i-oprema",
-      "group": "zvucne-kartice",
-      "img_thumb": "/images/products/usb-eksterna-zvucna-kartica-ugreen-us205-01-thumb.webp",
-      "brand": "UGREEN",
-      "sku": "US205",
-      "gtin13": "6957303837243"
     },
     {
       "name": "USB fleš memorija 128GB (USB 2.0) – MediaRange MR913",
