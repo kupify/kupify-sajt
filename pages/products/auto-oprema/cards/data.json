@@ -1,6 +1,6 @@
 {
   "category": "auto-oprema",
-  "total_products": 14,
+  "total_products": 16,
   "page_size": 12,
   "products": [
     {
@@ -133,6 +133,28 @@
       "img_thumb": "/images/products/klocne-stubici-podupiraci-za-automobil-big-red-3t-01-thumb.webp",
       "brand": "Big Red",
       "gtin13": "4260109136925"
+    },
+    {
+      "name": "Rikverc parking kamera za automobil sa 8 LED dioda – HD-609",
+      "price_rsd": 1499,
+      "slug": "rikverc-parking-kamera-za-automobil-hd-609",
+      "category": "auto-oprema",
+      "group": "parking-senzori-kamere",
+      "img_thumb": "/images/products/rikverc-parking-kamera-za-automobil-hd-609-01-thumb.webp",
+      "brand": "Velteh",
+      "sku": "HD-609",
+      "gtin13": "8606018833047"
+    },
+    {
+      "name": "Rikverc parking kamera za automobil, 170 stepeni – Kettz KT-RK038",
+      "price_rsd": 1799,
+      "slug": "rikverc-parking-kamera-za-automobil-kettz-kt-rk038",
+      "category": "auto-oprema",
+      "group": "parking-senzori-kamere",
+      "img_thumb": "/images/products/rikverc-parking-kamera-za-automobil-kettz-kt-rk038-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "KT-RK038",
+      "gtin13": "8605054700801"
     },
     {
       "name": "Sklopiva barijera za parking mesto 4 kg Gembird SMART-PARKING-RAMPA-4",
