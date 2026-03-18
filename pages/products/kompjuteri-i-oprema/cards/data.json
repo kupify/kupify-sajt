@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 75,
+  "total_products": 76,
   "page_size": 12,
   "products": [
     {
@@ -266,6 +266,17 @@
       "brand": "Gembird",
       "sku": "CAM83U",
       "gtin13": "4711421695152"
+    },
+    {
+      "name": "PC slušalice sa mikrofonom – Gembird MHS-002",
+      "price_rsd": 999,
+      "slug": "gembird-mhs-002-slusalice",
+      "category": "kompjuteri-i-oprema",
+      "group": "slusalice",
+      "img_thumb": "/images/products/gembird-mhs-002-slusalice-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MHS-002",
+      "gtin13": "8716309079884"
     },
     {
       "name": "Podesivi dupli stoni nosač za dva monitora 17-32“ Gembird MA-D2-011",
