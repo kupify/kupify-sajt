@@ -1,8 +1,19 @@
 {
   "category": "audio-oprema",
-  "total_products": 1,
+  "total_products": 2,
   "page_size": 12,
   "products": [
+    {
+      "name": "PC slušalice sa mikrofonom – Gembird MHS-002",
+      "price_rsd": 999,
+      "slug": "gembird-mhs-002-slusalice",
+      "category": "audio-oprema",
+      "group": "slusalice",
+      "img_thumb": "/images/products/gembird-mhs-002-slusalice-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MHS-002",
+      "gtin13": "8716309079884"
+    },
     {
       "name": "Univerzalni zidni nosači za zvučnike ili soundbar Gembird WM-SB-01",
       "price_rsd": 999,

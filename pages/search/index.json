@@ -1918,23 +1918,56 @@
       "name": "Rikverc parking kamera za automobil sa 8 LED dioda – HD-609",
       "slug": "rikverc-parking-kamera-za-automobil-hd-609",
       "category": "auto-oprema",
-      "group": "parking-senzori-kamere",
+      "group": "kamere",
       "brand": "Velteh",
       "sku": "HD-609",
       "price_rsd": "1499",
       "img_thumb": "/images/products/rikverc-parking-kamera-za-automobil-hd-609-01-thumb.webp",
-      "q_ascii": "rikverc parking kamera za automobil sa 8 led dioda – hd-609 velteh hd-609 auto-oprema parking-senzori-kamere rikverc-parking-kamera-za-automobil-hd-609 8606018833047"
+      "q_ascii": "rikverc parking kamera za automobil sa 8 led dioda – hd-609 velteh hd-609 auto-oprema kamere rikverc-parking-kamera-za-automobil-hd-609 8606018833047"
     },
     {
       "name": "Rikverc parking kamera za automobil, 170 stepeni – Kettz KT-RK038",
       "slug": "rikverc-parking-kamera-za-automobil-kettz-kt-rk038",
       "category": "auto-oprema",
-      "group": "parking-senzori-kamere",
+      "group": "kamere",
       "brand": "Kettz",
       "sku": "KT-RK038",
       "price_rsd": "1799",
       "img_thumb": "/images/products/rikverc-parking-kamera-za-automobil-kettz-kt-rk038-01-thumb.webp",
-      "q_ascii": "rikverc parking kamera za automobil, 170 stepeni – kettz kt-rk038 kettz kt-rk038 auto-oprema parking-senzori-kamere rikverc-parking-kamera-za-automobil-kettz-kt-rk038 8605054700801"
+      "q_ascii": "rikverc parking kamera za automobil, 170 stepeni – kettz kt-rk038 kettz kt-rk038 auto-oprema kamere rikverc-parking-kamera-za-automobil-kettz-kt-rk038 8605054700801"
+    },
+    {
+      "name": "Gejmerske USB slušalice sa mikrofonom – A4Tech Fstyler FH300U",
+      "slug": "a4tech-fstyler-fh300u-slusalice",
+      "category": "kompjuteri-i-oprema",
+      "group": "slusalice",
+      "brand": "A4Tech",
+      "sku": "Fstyler A4-FH300U",
+      "price_rsd": "1999",
+      "img_thumb": "/images/products/a4tech-fstyler-fh300u-slusalice-01-thumb.webp",
+      "q_ascii": "gejmerske usb slusalice sa mikrofonom – a4tech fstyler fh300u a4tech fstyler a4-fh300u kompjuteri-i-oprema slusalice a4tech-fstyler-fh300u-slusalice 4711421981101"
+    },
+    {
+      "name": "Monitor za auto rikverc parking kameru 5\" 12V LCD-528",
+      "slug": "lcd-528-auto-monitor",
+      "category": "auto-oprema",
+      "group": "monitori",
+      "brand": "Velteh",
+      "sku": "LCD-528",
+      "price_rsd": "3999",
+      "img_thumb": "/images/products/lcd-528-auto-monitor-01-thumb.webp",
+      "q_ascii": "monitor za auto rikverc parking kameru 5\" 12v lcd-528 velteh lcd-528 auto-oprema monitori lcd-528-auto-monitor 8606018839773"
+    },
+    {
+      "name": "PC slušalice sa mikrofonom – Gembird MHS-002",
+      "slug": "gembird-mhs-002-slusalice",
+      "category": "audio-oprema",
+      "group": "slusalice",
+      "brand": "Gembird",
+      "sku": "MHS-002",
+      "price_rsd": "999",
+      "img_thumb": "/images/products/gembird-mhs-002-slusalice-01-thumb.webp",
+      "q_ascii": "pc slusalice sa mikrofonom – gembird mhs-002 gembird mhs-002 audio-oprema slusalice gembird-mhs-002-slusalice 8716309079884"
     }
   ]
 }

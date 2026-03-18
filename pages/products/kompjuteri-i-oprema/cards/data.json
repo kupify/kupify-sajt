@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 74,
+  "total_products": 75,
   "page_size": 12,
   "products": [
     {
@@ -178,6 +178,17 @@
       "brand": "Gembird",
       "sku": "Virtus Plus SC-USB2.0-01",
       "gtin13": "8716309100441"
+    },
+    {
+      "name": "Gejmerske USB slušalice sa mikrofonom – A4Tech Fstyler FH300U",
+      "price_rsd": 1999,
+      "slug": "a4tech-fstyler-fh300u-slusalice",
+      "category": "kompjuteri-i-oprema",
+      "group": "slusalice",
+      "img_thumb": "/images/products/a4tech-fstyler-fh300u-slusalice-01-thumb.webp",
+      "brand": "A4Tech",
+      "sku": "Fstyler A4-FH300U",
+      "gtin13": "4711421981101"
     },
     {
       "name": "Gigabitni LAN switch sa 16 portova VLAN Extend funkcija – Cudy GS1016",

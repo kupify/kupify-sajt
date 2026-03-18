@@ -1,6 +1,6 @@
 {
   "category": "auto-oprema",
-  "total_products": 16,
+  "total_products": 17,
   "page_size": 12,
   "products": [
     {
@@ -125,6 +125,17 @@
       "gtin13": "8605054711593"
     },
     {
+      "name": "Monitor za auto rikverc parking kameru 5\" 12V LCD-528",
+      "price_rsd": 3999,
+      "slug": "lcd-528-auto-monitor",
+      "category": "auto-oprema",
+      "group": "monitori",
+      "img_thumb": "/images/products/lcd-528-auto-monitor-01-thumb.webp",
+      "brand": "Velteh",
+      "sku": "LCD-528",
+      "gtin13": "8606018839773"
+    },
+    {
       "name": "Podesivi podupirači - stubići za automobil 3t Big Red - 2kom",
       "price_rsd": 3699,
       "slug": "klocne-stubici-podupiraci-za-automobil-big-red-3t",
@@ -139,7 +150,7 @@
       "price_rsd": 1499,
       "slug": "rikverc-parking-kamera-za-automobil-hd-609",
       "category": "auto-oprema",
-      "group": "parking-senzori-kamere",
+      "group": "kamere",
       "img_thumb": "/images/products/rikverc-parking-kamera-za-automobil-hd-609-01-thumb.webp",
       "brand": "Velteh",
       "sku": "HD-609",
@@ -150,7 +161,7 @@
       "price_rsd": 1799,
       "slug": "rikverc-parking-kamera-za-automobil-kettz-kt-rk038",
       "category": "auto-oprema",
-      "group": "parking-senzori-kamere",
+      "group": "kamere",
       "img_thumb": "/images/products/rikverc-parking-kamera-za-automobil-kettz-kt-rk038-01-thumb.webp",
       "brand": "Kettz",
       "sku": "KT-RK038",
