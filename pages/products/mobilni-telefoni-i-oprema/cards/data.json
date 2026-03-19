@@ -1,6 +1,6 @@
 {
   "category": "mobilni-telefoni-i-oprema",
-  "total_products": 5,
+  "total_products": 6,
   "page_size": 12,
   "products": [
     {
@@ -33,6 +33,17 @@
       "group": "drzaci-za-telefon",
       "img_thumb": "/images/products/rotirajuci-drzac-za-telefon-za-stativ-tripod-01-thumb.webp",
       "brand": "Kupify"
+    },
+    {
+      "name": "Stoni držač - sklopivo postolje za mobilni telefon – UGREEN LP106",
+      "price_rsd": 699,
+      "slug": "ugreen-lp106-stoni-drzac-telefona",
+      "category": "mobilni-telefoni-i-oprema",
+      "group": "stoni-drzaci-za-telefon",
+      "img_thumb": "/images/products/ugreen-lp106-stoni-drzac-telefona-01-thumb.webp",
+      "brand": "UGREEN",
+      "sku": "LP106",
+      "gtin13": "6957303832859"
     },
     {
       "name": "Univerzalni adapter držač za mobilni telefon na stativ, tripod ili monopod",
