@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 76,
+  "total_products": 78,
   "page_size": 12,
   "products": [
     {
@@ -716,6 +716,28 @@
       "brand": "MediaRange",
       "sku": "MR918",
       "gtin13": "4260664870427"
+    },
+    {
+      "name": "USB fleš memorija 1TB, 400MB/s (USB 3.2 Gen 1) – MediaRange MR1905-1",
+      "price_rsd": 14299,
+      "slug": "mediarange-mr1905-1-usb-fles-memorija-1-tb",
+      "category": "kompjuteri-i-oprema",
+      "group": "usb-flash",
+      "img_thumb": "/images/products/mediarange-mr1905-1-usb-fles-memorija-1-tb-01-thumb.webp",
+      "brand": "MediaRange",
+      "sku": "MR1905-1",
+      "gtin13": "4260664879718"
+    },
+    {
+      "name": "USB fleš memorija 256GB, 300MB/s (USB 3.2 Gen 1) – MediaRange MR1903",
+      "price_rsd": 4599,
+      "slug": "mediarange-mr1903-usb-fles-memorija-256-gb",
+      "category": "kompjuteri-i-oprema",
+      "group": "usb-flash",
+      "img_thumb": "/images/products/mediarange-mr1903-usb-fles-memorija-256-gb-01-thumb.webp",
+      "brand": "MediaRange",
+      "sku": "MR1903",
+      "gtin13": "4260664872085"
     },
     {
       "name": "USB fleš memorija 32GB (USB 3.2 Gen 1) – MediaRange MR916",

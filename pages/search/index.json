@@ -1979,6 +1979,28 @@
       "price_rsd": "699",
       "img_thumb": "/images/products/ugreen-lp106-stoni-drzac-telefona-01-thumb.webp",
       "q_ascii": "stoni drzac - sklopivo postolje za mobilni telefon – ugreen lp106 ugreen lp106 mobilni-telefoni-i-oprema stoni-drzaci-za-telefon ugreen-lp106-stoni-drzac-telefona 6957303832859"
+    },
+    {
+      "name": "USB fleš memorija 256GB, 300MB/s (USB 3.2 Gen 1) – MediaRange MR1903",
+      "slug": "mediarange-mr1903-usb-fles-memorija-256-gb",
+      "category": "kompjuteri-i-oprema",
+      "group": "usb-flash",
+      "brand": "MediaRange",
+      "sku": "MR1903",
+      "price_rsd": "4599",
+      "img_thumb": "/images/products/mediarange-mr1903-usb-fles-memorija-256-gb-01-thumb.webp",
+      "q_ascii": "usb fles memorija 256gb, 300mb/s (usb 3.2 gen 1) – mediarange mr1903 mediarange mr1903 kompjuteri-i-oprema usb-flash mediarange-mr1903-usb-fles-memorija-256-gb 4260664872085"
+    },
+    {
+      "name": "USB fleš memorija 1TB, 400MB/s (USB 3.2 Gen 1) – MediaRange MR1905-1",
+      "slug": "mediarange-mr1905-1-usb-fles-memorija-1-tb",
+      "category": "kompjuteri-i-oprema",
+      "group": "usb-flash",
+      "brand": "MediaRange",
+      "sku": "MR1905-1",
+      "price_rsd": "14299",
+      "img_thumb": "/images/products/mediarange-mr1905-1-usb-fles-memorija-1-tb-01-thumb.webp",
+      "q_ascii": "usb fles memorija 1tb, 400mb/s (usb 3.2 gen 1) – mediarange mr1905-1 mediarange mr1905-1 kompjuteri-i-oprema usb-flash mediarange-mr1905-1-usb-fles-memorija-1-tb 4260664879718"
     }
   ]
 }
