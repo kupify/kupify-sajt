@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 78,
+  "total_products": 80,
   "page_size": 12,
   "products": [
     {
@@ -344,6 +344,17 @@
       "sku": "Armor A30"
     },
     {
+      "name": "Slušalice sa mikrofonom za laptop ili telefon – Gembird MHS-03-WTRD",
+      "price_rsd": 899,
+      "slug": "gembird-mhs-03-wtrd-slusalice-sa-mikrofonom",
+      "category": "kompjuteri-i-oprema",
+      "group": "slusalice",
+      "img_thumb": "/images/products/gembird-mhs-03-wtrd-slusalice-sa-mikrofonom-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MHS-03-WTRD",
+      "gtin13": "8716309113670"
+    },
+    {
       "name": "Stoni držač za monitor 17-32\" sa jednom rukom – Gembird MA-D1-033",
       "price_rsd": 1899,
       "slug": "stoni-drzac-ruka-za-monitor-17-32-inca-gembird-ma-d1-033",
@@ -683,6 +694,17 @@
       "brand": "Ugreen",
       "sku": "CR125",
       "gtin13": "6957303833337"
+    },
+    {
+      "name": "USB 3.0 čitač memorijskih kartica SD i microSD – UGREEN CM264",
+      "price_rsd": 899,
+      "slug": "usb-3-0-citac-memorijskih-kartica-sd-microsd-ugreen-cm264",
+      "category": "kompjuteri-i-oprema",
+      "group": "citaci-kartica",
+      "img_thumb": "/images/products/usb-3-0-citac-memorijskih-kartica-sd-microsd-ugreen-cm264-01-thumb.webp",
+      "brand": "UGREEN",
+      "sku": "CM264",
+      "gtin13": "6957303867226"
     },
     {
       "name": "USB Bluetooth 5.0 adapter - prijemnik za PC i laptop – Ugreen CM390",

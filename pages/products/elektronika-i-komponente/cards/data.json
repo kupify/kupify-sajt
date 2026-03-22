@@ -1,6 +1,6 @@
 {
   "category": "elektronika-i-komponente",
-  "total_products": 7,
+  "total_products": 6,
   "page_size": 12,
   "products": [
     {
@@ -35,17 +35,6 @@
       "brand": "Verbatim",
       "sku": "HR3 49514",
       "gtin13": "23942495147"
-    },
-    {
-      "name": "USB 3.0 čitač memorijskih kartica SD i microSD  – UGREEN CM264",
-      "price_rsd": 899,
-      "slug": "usb-3-0-citac-memorijskih-kartica-sd-microsd-ugreen-cm264",
-      "category": "elektronika-i-komponente",
-      "group": "citaci-kartica",
-      "img_thumb": "/images/products/usb-3-0-citac-memorijskih-kartica-sd-microsd-ugreen-cm264-01-thumb.webp",
-      "brand": "UGREEN",
-      "sku": "CM264",
-      "gtin13": "6957303867226"
     },
     {
       "name": "USB-C punjač za AA / AAA baterije – Gembird BC-USB-03",

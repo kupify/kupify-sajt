@@ -95,7 +95,7 @@
       "group": "antene",
       "brand": "Vega",
       "sku": "ANT-408AL",
-      "price_rsd": "2199",
+      "price_rsd": "2299",
       "img_thumb": "/images/products/spoljna-mrezasta-tv-antena-sa-pojacivacem-ant-408al-01-thumb.webp",
       "q_ascii": "spoljna mrezasta tv antena sa pojacivacem 17-35 db ant-408al vega ant-408al tv-i-video antene spoljna-mrezasta-tv-antena-sa-pojacivacem-ant-408al 3856001016260"
     },
@@ -1607,7 +1607,7 @@
       "q_ascii": "strujni adapter za uk uticnice sa eu suko ulazom 13a - gembird a-ac-eufukm-01 gembird a-ac-eufukm-01 elektro-i-rasveta strujni-adapter-eu-na-uk-gembird-a-ac-eufukm-01 8716309128292"
     },
     {
-      "name": "Držač za tablet za montažu na naslon auto sedišta - Gembird TA-CHHR-02",
+      "name": "Držač za tablet za montažu na naslon auto sedišta – Gembird TA-CHHR-02",
       "slug": "drzac-tableta-za-naslon-auto-sedista-gembird-ta-chhr-02",
       "category": "mobilni-telefoni-i-oprema",
       "group": "drzaci-za-tablet",
@@ -1615,7 +1615,7 @@
       "sku": "TA-CHHR-02",
       "price_rsd": "799",
       "img_thumb": "/images/products/drzac-tableta-za-naslon-auto-sedista-gembird-ta-chhr-02-01-thumb.webp",
-      "q_ascii": "drzac za tablet za montazu na naslon auto sedista - gembird ta-chhr-02 gembird ta-chhr-02 mobilni-telefoni-i-oprema drzaci-za-tablet drzac-tableta-za-naslon-auto-sedista-gembird-ta-chhr-02 8716309087278"
+      "q_ascii": "drzac za tablet za montazu na naslon auto sedista – gembird ta-chhr-02 gembird ta-chhr-02 mobilni-telefoni-i-oprema drzaci-za-tablet drzac-tableta-za-naslon-auto-sedista-gembird-ta-chhr-02 8716309087278"
     },
     {
       "name": "Gigabitni LAN switch sa USB-C napajanjem i 5 portova – Cudy GS105U",
@@ -1827,15 +1827,15 @@
       "q_ascii": "usb 3.0 citac memorijskih kartica microsd / sd – ugreen cm104 ugreen cm104 kompjuteri-i-oprema citaci-kartica usb-3-0-citac-memorijskih-kartica-sd-microsd-ugreen-cm104 6957303847525"
     },
     {
-      "name": "USB 3.0 čitač memorijskih kartica SD i microSD  – UGREEN CM264",
+      "name": "USB 3.0 čitač memorijskih kartica SD i microSD – UGREEN CM264",
       "slug": "usb-3-0-citac-memorijskih-kartica-sd-microsd-ugreen-cm264",
-      "category": "elektronika-i-komponente",
+      "category": "kompjuteri-i-oprema",
       "group": "citaci-kartica",
       "brand": "UGREEN",
       "sku": "CM264",
       "price_rsd": "899",
       "img_thumb": "/images/products/usb-3-0-citac-memorijskih-kartica-sd-microsd-ugreen-cm264-01-thumb.webp",
-      "q_ascii": "usb 3.0 citac memorijskih kartica sd i microsd  – ugreen cm264 ugreen cm264 elektronika-i-komponente citaci-kartica usb-3-0-citac-memorijskih-kartica-sd-microsd-ugreen-cm264 6957303867226"
+      "q_ascii": "usb 3.0 citac memorijskih kartica sd i microsd – ugreen cm264 ugreen cm264 kompjuteri-i-oprema citaci-kartica usb-3-0-citac-memorijskih-kartica-sd-microsd-ugreen-cm264 6957303867226"
     },
     {
       "name": "USB i USB-C čitač za lične karte i SIM kartice – Kettz KTZ-CR230AC",
@@ -2001,6 +2001,28 @@
       "price_rsd": "14299",
       "img_thumb": "/images/products/mediarange-mr1905-1-usb-fles-memorija-1-tb-01-thumb.webp",
       "q_ascii": "usb fles memorija 1tb, 400mb/s (usb 3.2 gen 1) – mediarange mr1905-1 mediarange mr1905-1 kompjuteri-i-oprema usb-flash mediarange-mr1905-1-usb-fles-memorija-1-tb 4260664879718"
+    },
+    {
+      "name": "USB-A na Type-C kabl 3.0 za telefon 1.8m 36W – Gembird CCP-USB3-AMCM-6",
+      "slug": "gembird-ccp-usb3-amcm-6-usb-a-usb-c-kabl",
+      "category": "mobilni-telefoni-i-oprema",
+      "group": "kablovi",
+      "brand": "Gembird",
+      "sku": "CCP-USB3-AMCM-6",
+      "price_rsd": "499",
+      "img_thumb": "/images/products/gembird-ccp-usb3-amcm-6-usb-a-usb-c-kabl-01-thumb.webp",
+      "q_ascii": "usb-a na type-c kabl 3.0 za telefon 1.8m 36w – gembird ccp-usb3-amcm-6 gembird ccp-usb3-amcm-6 mobilni-telefoni-i-oprema kablovi gembird-ccp-usb3-amcm-6-usb-a-usb-c-kabl 8716309086493"
+    },
+    {
+      "name": "Slušalice sa mikrofonom za laptop ili telefon – Gembird MHS-03-WTRD",
+      "slug": "gembird-mhs-03-wtrd-slusalice-sa-mikrofonom",
+      "category": "kompjuteri-i-oprema",
+      "group": "slusalice",
+      "brand": "Gembird",
+      "sku": "MHS-03-WTRD",
+      "price_rsd": "899",
+      "img_thumb": "/images/products/gembird-mhs-03-wtrd-slusalice-sa-mikrofonom-01-thumb.webp",
+      "q_ascii": "slusalice sa mikrofonom za laptop ili telefon – gembird mhs-03-wtrd gembird mhs-03-wtrd kompjuteri-i-oprema slusalice gembird-mhs-03-wtrd-slusalice-sa-mikrofonom 8716309113670"
     }
   ]
 }
