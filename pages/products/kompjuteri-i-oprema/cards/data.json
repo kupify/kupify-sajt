@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 80,
+  "total_products": 82,
   "page_size": 12,
   "products": [
     {
@@ -674,6 +674,28 @@
       "gtin13": "8716309100823"
     },
     {
+      "name": "USB 3.0 hub sa 4 porta i USB-C portom za napajanje – UGREEN CM219",
+      "price_rsd": 1199,
+      "slug": "ugreen-cm219-50985-usb-3-0-hub-4-porta",
+      "category": "kompjuteri-i-oprema",
+      "group": "usb-hubovi",
+      "img_thumb": "/images/products/ugreen-cm219-50985-usb-3-0-hub-4-porta-01-thumb.webp",
+      "brand": "UGREEN",
+      "sku": "CM219-50985",
+      "gtin13": "6941876228515"
+    },
+    {
+      "name": "USB 3.0 Hub sa 4 porta, crni – UGREEN CM219 25851",
+      "price_rsd": 999,
+      "slug": "ugreen-cm219-25851-usb-3-0-hub-4-porta",
+      "category": "kompjuteri-i-oprema",
+      "group": "usb-hubovi",
+      "img_thumb": "/images/products/ugreen-cm219-25851-usb-3-0-hub-4-porta-01-thumb.webp",
+      "brand": "UGREEN",
+      "sku": "CM219-25851",
+      "gtin13": "6957303859856"
+    },
+    {
       "name": "USB 3.0 čitač memorijskih kartica microSD / SD – UGREEN CM104",
       "price_rsd": 1099,
       "slug": "usb-3-0-citac-memorijskih-kartica-sd-microsd-ugreen-cm104",
@@ -737,7 +759,7 @@
       "img_thumb": "/images/products/usb-fles-memorija-128-gb-mediarange-mr918-01-thumb.webp",
       "brand": "MediaRange",
       "sku": "MR918",
-      "gtin13": "4260664870427"
+      "gtin13": "4260283118878"
     },
     {
       "name": "USB fleš memorija 1TB, 400MB/s (USB 3.2 Gen 1) – MediaRange MR1905-1",
@@ -770,7 +792,7 @@
       "img_thumb": "/images/products/usb-fles-memorija-32-gb-mediarange-mr916-01-thumb.webp",
       "brand": "MediaRange",
       "sku": "MR916",
-      "gtin13": "4260664870427"
+      "gtin13": "4260283113415"
     },
     {
       "name": "USB fleš memorija 64GB (USB 3.2 Gen 1) – MediaRange MR917",

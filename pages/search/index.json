@@ -1285,7 +1285,7 @@
       "sku": "MR918",
       "price_rsd": "1699",
       "img_thumb": "/images/products/usb-fles-memorija-128-gb-mediarange-mr918-01-thumb.webp",
-      "q_ascii": "usb fles memorija 128gb (usb 3.2 gen 1) – mediarange mr918 mediarange mr918 kompjuteri-i-oprema usb-flash usb-fles-memorija-128-gb-mediarange-mr918 4260664870427"
+      "q_ascii": "usb fles memorija 128gb (usb 3.2 gen 1) – mediarange mr918 mediarange mr918 kompjuteri-i-oprema usb-flash usb-fles-memorija-128-gb-mediarange-mr918 4260283118878"
     },
     {
       "name": "USB fleš memorija 128GB (USB 2.0) – MediaRange MR913",
@@ -1318,7 +1318,7 @@
       "sku": "MR916",
       "price_rsd": "899",
       "img_thumb": "/images/products/usb-fles-memorija-32-gb-mediarange-mr916-01-thumb.webp",
-      "q_ascii": "usb fles memorija 32gb (usb 3.2 gen 1) – mediarange mr916 mediarange mr916 kompjuteri-i-oprema usb-flash usb-fles-memorija-32-gb-mediarange-mr916 4260664870427"
+      "q_ascii": "usb fles memorija 32gb (usb 3.2 gen 1) – mediarange mr916 mediarange mr916 kompjuteri-i-oprema usb-flash usb-fles-memorija-32-gb-mediarange-mr916 4260283113415"
     },
     {
       "name": "Zglobni zidni nosač za TV 32-80\" do 50kg – Gembird WM-80ST-05",
@@ -2023,6 +2023,28 @@
       "price_rsd": "899",
       "img_thumb": "/images/products/gembird-mhs-03-wtrd-slusalice-sa-mikrofonom-01-thumb.webp",
       "q_ascii": "slusalice sa mikrofonom za laptop ili telefon – gembird mhs-03-wtrd gembird mhs-03-wtrd kompjuteri-i-oprema slusalice gembird-mhs-03-wtrd-slusalice-sa-mikrofonom 8716309113670"
+    },
+    {
+      "name": "USB 3.0 hub sa 4 porta i USB-C portom za napajanje – UGREEN CM219",
+      "slug": "ugreen-cm219-50985-usb-3-0-hub-4-porta",
+      "category": "kompjuteri-i-oprema",
+      "group": "usb-hubovi",
+      "brand": "UGREEN",
+      "sku": "CM219-50985",
+      "price_rsd": "1199",
+      "img_thumb": "/images/products/ugreen-cm219-50985-usb-3-0-hub-4-porta-01-thumb.webp",
+      "q_ascii": "usb 3.0 hub sa 4 porta i usb-c portom za napajanje – ugreen cm219 ugreen cm219-50985 kompjuteri-i-oprema usb-hubovi ugreen-cm219-50985-usb-3-0-hub-4-porta 6941876228515"
+    },
+    {
+      "name": "USB 3.0 Hub sa 4 porta, crni – UGREEN CM219 25851",
+      "slug": "ugreen-cm219-25851-usb-3-0-hub-4-porta",
+      "category": "kompjuteri-i-oprema",
+      "group": "usb-hubovi",
+      "brand": "UGREEN",
+      "sku": "CM219-25851",
+      "price_rsd": "999",
+      "img_thumb": "/images/products/ugreen-cm219-25851-usb-3-0-hub-4-porta-01-thumb.webp",
+      "q_ascii": "usb 3.0 hub sa 4 porta, crni – ugreen cm219 25851 ugreen cm219-25851 kompjuteri-i-oprema usb-hubovi ugreen-cm219-25851-usb-3-0-hub-4-porta 6957303859856"
     }
   ]
 }
