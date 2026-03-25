@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 55,
+  "total_products": 56,
   "page_size": 12,
   "products": [
     {
@@ -57,6 +57,17 @@
       "brand": "Gembird",
       "sku": "WM-70F-03",
       "gtin13": "8716309128032"
+    },
+    {
+      "name": "Fiksni zidni nosač za TV 37-86“ do 70 kg Gembird WM-90F-01",
+      "price_rsd": 2299,
+      "slug": "gembird-wm-90f-01-fiksni-zidni-tv-nosac",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "img_thumb": "/images/products/gembird-wm-90f-01-fiksni-zidni-tv-nosac-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "WM-90F-01",
+      "gtin13": "8716309126175"
     },
     {
       "name": "Mini polica za Set Top Box i TV risiver – Kettz NAV-K91",
