@@ -24,13 +24,13 @@
     },
     {
       "name": "Podni stalak – postolje za TV 32-55\" Kettz TVN-K3255",
-      "slug": "stalak-za-tv-podni-kettz-tvn-K3255",
+      "slug": "stalak-za-tv-podni-kettz-tvn-k3255",
       "category": "tv-i-video",
       "group": "tv-nosaci",
       "brand": "Kettz",
       "sku": "TVN-K3255",
       "price_rsd": "5999",
-      "img_thumb": "/images/products/stalak-za-tv-podni-kettz-tvn-K3255-01-thumb.webp",
+      "img_thumb": "/images/products/stalak-za-tv-podni-kettz-tvn-k3255-01-thumb.webp",
       "q_ascii": "podni stalak – postolje za tv 32-55\" kettz tvn-k3255 kettz tvn-k3255 tv-i-video tv-nosaci stalak-za-tv-podni-kettz-tvn-k3255 8605054706810"
     },
     {
@@ -573,7 +573,7 @@
       "q_ascii": "stoni nosac za monitor 17-32\" sa gasnom oprugom i usb portovima – gembird ma-da1u-01 gembird ma-da1u-01 kompjuteri-i-oprema nosaci-za-monitor podesivi-stoni-nosac-za-monitor-17-32-inca-sa-usb-gembird-ma-da1u-01 8716309135375"
     },
     {
-      "name": "Stoni nosač – postolje za 2 monitora 13-32\" Gembird MS-D2ST-02",
+      "name": "Stoni nosač - postolje za 2 monitora 13-32\" – Gembird MS-D2ST-02",
       "slug": "stoni-nosac-postolje-za-dva-monitora-13-32-inca-gembird-ms-d2st-02",
       "category": "kompjuteri-i-oprema",
       "group": "nosaci-za-monitor",
@@ -581,7 +581,7 @@
       "sku": "MS-D2ST-02",
       "price_rsd": "3699",
       "img_thumb": "/images/products/stoni-nosac-postolje-za-dva-monitora-13-32-inca-gembird-ms-d2st-02-01-thumb.webp",
-      "q_ascii": "stoni nosac – postolje za 2 monitora 13-32\" gembird ms-d2st-02 gembird ms-d2st-02 kompjuteri-i-oprema nosaci-za-monitor stoni-nosac-postolje-za-dva-monitora-13-32-inca-gembird-ms-d2st-02 8716309135412"
+      "q_ascii": "stoni nosac - postolje za 2 monitora 13-32\" – gembird ms-d2st-02 gembird ms-d2st-02 kompjuteri-i-oprema nosaci-za-monitor stoni-nosac-postolje-za-dva-monitora-13-32-inca-gembird-ms-d2st-02 8716309135412"
     },
     {
       "name": "Stono postolje – stalak za TV 32-65\" Gembird TVS-D65S-01",
@@ -2056,6 +2056,50 @@
       "price_rsd": "2299",
       "img_thumb": "/images/products/gembird-wm-90f-01-fiksni-zidni-tv-nosac-01-thumb.webp",
       "q_ascii": "fiksni zidni nosac za tv 37-86“ do 70 kg gembird wm-90f-01 gembird wm-90f-01 tv-i-video tv-nosaci gembird-wm-90f-01-fiksni-zidni-tv-nosac 8716309126175"
+    },
+    {
+      "name": "2-u-1 USB 3.0 / USB-C čitač kartica SD i microSD – Cudy UH200",
+      "slug": "cudy-uh200-usb-3-0-type-c-citac-kartica",
+      "category": "kompjuteri-i-oprema",
+      "group": "citaci-kartica",
+      "brand": "Cudy",
+      "sku": "UH200",
+      "price_rsd": "999",
+      "img_thumb": "/images/products/cudy-uh200-usb-3-0-type-c-citac-kartica-01-thumb.webp",
+      "q_ascii": "2-u-1 usb 3.0 / usb-c citac kartica sd i microsd – cudy uh200 cudy uh200 kompjuteri-i-oprema citaci-kartica cudy-uh200-usb-3-0-type-c-citac-kartica 6971690794873"
+    },
+    {
+      "name": "Ravna mrežica za čišćenje površine bazena – Bestway Aquascoop 58277",
+      "slug": "bestway-aquascoop-58277-mrezica-za-ciscenje-bazena",
+      "category": "dvoriste-i-basta",
+      "group": "bazenska-oprema",
+      "brand": "Bestway",
+      "sku": "Aquascoop Essential (58277)",
+      "price_rsd": "699",
+      "img_thumb": "/images/products/bestway-aquascoop-58277-mrezica-za-ciscenje-bazena-01-thumb.webp",
+      "q_ascii": "ravna mrezica za ciscenje povrsine bazena – bestway aquascoop 58277 bestway aquascoop essential (58277) dvoriste-i-basta bazenska-oprema bestway-aquascoop-58277-mrezica-za-ciscenje-bazena 6941607346808"
+    },
+    {
+      "name": "Plutajući dozator za hlor za bazen 12.5 cm – Bestway 58210",
+      "slug": "bestway-58210-plutajuci-dozator-za-bazen",
+      "category": "dvoriste-i-basta",
+      "group": "bazenska-oprema",
+      "brand": "Bestway",
+      "sku": "58210",
+      "price_rsd": "599",
+      "img_thumb": "/images/products/bestway-58210-plutajuci-dozator-za-bazen-01-thumb.webp",
+      "q_ascii": "plutajuci dozator za hlor za bazen 12.5 cm – bestway 58210 bestway 58210 dvoriste-i-basta bazenska-oprema bestway-58210-plutajuci-dozator-za-bazen 6941607347416"
+    },
+    {
+      "name": "AA punjive baterije 2100mAh 1.2V NiMH (4 komada) – MediaRange MRBAT121",
+      "slug": "mediarange-mrbat121-punjive-baterije-aa-nimh",
+      "category": "elektronika-i-komponente",
+      "group": "baterije",
+      "brand": "MediaRange",
+      "sku": "MRBAT121",
+      "price_rsd": "1099",
+      "img_thumb": "/images/products/mediarange-mrbat121-punjive-baterije-aa-nimh-01-thumb.webp",
+      "q_ascii": "aa punjive baterije 2100mah 1.2v nimh (4 komada) – mediarange mrbat121 mediarange mrbat121 elektronika-i-komponente baterije mediarange-mrbat121-punjive-baterije-aa-nimh 4260283113217"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 82,
+  "total_products": 83,
   "page_size": 12,
   "products": [
     {
@@ -13,6 +13,17 @@
       "brand": "MediaRange",
       "sku": "MR938",
       "gtin13": "4260664870791"
+    },
+    {
+      "name": "2-u-1 USB 3.0 / USB-C čitač kartica SD i microSD – Cudy UH200",
+      "price_rsd": 999,
+      "slug": "cudy-uh200-usb-3-0-type-c-citac-kartica",
+      "category": "kompjuteri-i-oprema",
+      "group": "citaci-kartica",
+      "img_thumb": "/images/products/cudy-uh200-usb-3-0-type-c-citac-kartica-01-thumb.webp",
+      "brand": "Cudy",
+      "sku": "UH200",
+      "gtin13": "6971690794873"
     },
     {
       "name": "2-u-1 Čitač kartica SD i Micro SD (USB 3.0 + USB-C) – Ugreen CM185",
@@ -388,6 +399,17 @@
       "gtin13": "8716309100557"
     },
     {
+      "name": "Stoni nosač - postolje za 2 monitora 13-32\" – Gembird MS-D2ST-02",
+      "price_rsd": 3699,
+      "slug": "stoni-nosac-postolje-za-dva-monitora-13-32-inca-gembird-ms-d2st-02",
+      "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
+      "img_thumb": "/images/products/stoni-nosac-postolje-za-dva-monitora-13-32-inca-gembird-ms-d2st-02-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MS-D2ST-02",
+      "gtin13": "8716309135412"
+    },
+    {
       "name": "Stoni nosač - ruka za 2 monitora 17-32\" – Gembird MA-D2-01",
       "price_rsd": 3199,
       "slug": "stoni-nosac-za-2-monitora-gembird-ma-d2-01",
@@ -606,17 +628,6 @@
       "brand": "Gembird",
       "sku": "MA-DA1P-02",
       "gtin13": "8716309122399"
-    },
-    {
-      "name": "Stoni nosač – postolje za 2 monitora 13-32\" Gembird MS-D2ST-02",
-      "price_rsd": 3699,
-      "slug": "stoni-nosac-postolje-za-dva-monitora-13-32-inca-gembird-ms-d2st-02",
-      "category": "kompjuteri-i-oprema",
-      "group": "nosaci-za-monitor",
-      "img_thumb": "/images/products/stoni-nosac-postolje-za-dva-monitora-13-32-inca-gembird-ms-d2st-02-01-thumb.webp",
-      "brand": "Gembird",
-      "sku": "MS-D2ST-02",
-      "gtin13": "8716309135412"
     },
     {
       "name": "Stoni vertikalni nosač za 2 monitora 17-32“ – Gembird MA-D2-02",

@@ -1,0 +1,29 @@
+{
+  "category": "dvoriste-i-basta",
+  "total_products": 2,
+  "page_size": 12,
+  "products": [
+    {
+      "name": "Plutajući dozator za hlor za bazen 12.5 cm – Bestway 58210",
+      "price_rsd": 599,
+      "slug": "bestway-58210-plutajuci-dozator-za-bazen",
+      "category": "dvoriste-i-basta",
+      "group": "bazenska-oprema",
+      "img_thumb": "/images/products/bestway-58210-plutajuci-dozator-za-bazen-01-thumb.webp",
+      "brand": "Bestway",
+      "sku": "58210",
+      "gtin13": "6941607347416"
+    },
+    {
+      "name": "Ravna mrežica za čišćenje površine bazena – Bestway Aquascoop 58277",
+      "price_rsd": 699,
+      "slug": "bestway-aquascoop-58277-mrezica-za-ciscenje-bazena",
+      "category": "dvoriste-i-basta",
+      "group": "bazenska-oprema",
+      "img_thumb": "/images/products/bestway-aquascoop-58277-mrezica-za-ciscenje-bazena-01-thumb.webp",
+      "brand": "Bestway",
+      "sku": "Aquascoop Essential (58277)",
+      "gtin13": "6941607346808"
+    }
+  ]
+}
