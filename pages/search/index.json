@@ -584,7 +584,7 @@
       "q_ascii": "stoni nosac - postolje za 2 monitora 13-32\" – gembird ms-d2st-02 gembird ms-d2st-02 kompjuteri-i-oprema nosaci-za-monitor stoni-nosac-postolje-za-dva-monitora-13-32-inca-gembird-ms-d2st-02 8716309135412"
     },
     {
-      "name": "Stono postolje – stalak za TV 32-65\" Gembird TVS-D65S-01",
+      "name": "Stono postolje - stalak za TV 32-65\" – Gembird TVS-D65S-01",
       "slug": "stoni-stalak-za-tv-32-65-inca-gembird-tvs-d65s-01",
       "category": "tv-i-video",
       "group": "tv-nosaci",
@@ -592,7 +592,7 @@
       "sku": "TVS-D65S-01",
       "price_rsd": "3299",
       "img_thumb": "/images/products/stoni-stalak-za-tv-32-65-inca-gembird-tvs-d65s-01-01-thumb.webp",
-      "q_ascii": "stono postolje – stalak za tv 32-65\" gembird tvs-d65s-01 gembird tvs-d65s-01 tv-i-video tv-nosaci stoni-stalak-za-tv-32-65-inca-gembird-tvs-d65s-01 8716309135061"
+      "q_ascii": "stono postolje - stalak za tv 32-65\" – gembird tvs-d65s-01 gembird tvs-d65s-01 tv-i-video tv-nosaci stoni-stalak-za-tv-32-65-inca-gembird-tvs-d65s-01 8716309135061"
     },
     {
       "name": "Stoni nosač sa gasnom oprugom - ruka za monitor 17-32\" – Gembird MA-DA1-02",
@@ -2100,6 +2100,28 @@
       "price_rsd": "1099",
       "img_thumb": "/images/products/mediarange-mrbat121-punjive-baterije-aa-nimh-01-thumb.webp",
       "q_ascii": "aa punjive baterije 2100mah 1.2v nimh (4 komada) – mediarange mrbat121 mediarange mrbat121 elektronika-i-komponente baterije mediarange-mrbat121-punjive-baterije-aa-nimh 4260283113217"
+    },
+    {
+      "name": "Eksterni hard disk 1TB USB 3.2 otporan na udarce i vodu – Silicon Power Armor A60",
+      "slug": "silicon-power-armor-a60-1tb-eksterni-hard-disk",
+      "category": "kompjuteri-i-oprema",
+      "group": "hdd-ssd",
+      "brand": "Silicon Power",
+      "sku": "SP010TBPHDA60S3K",
+      "price_rsd": "13299",
+      "img_thumb": "/images/products/silicon-power-armor-a60-1tb-eksterni-hard-disk-01-thumb.webp",
+      "q_ascii": "eksterni hard disk 1tb usb 3.2 otporan na udarce i vodu – silicon power armor a60 silicon power sp010tbphda60s3k kompjuteri-i-oprema hdd-ssd silicon-power-armor-a60-1tb-eksterni-hard-disk 4713436131694"
+    },
+    {
+      "name": "Eksterni hard disk 2TB USB 3.2 otporan na udarce i vodu – Silicon Power Armor A60",
+      "slug": "silicon-power-armor-a60-2tb-eksterni-hard-disk",
+      "category": "kompjuteri-i-oprema",
+      "group": "hdd-ssd",
+      "brand": "Silicon Power",
+      "sku": "SP020TBPHDA60S3K",
+      "price_rsd": "18199",
+      "img_thumb": "/images/products/silicon-power-armor-a60-2tb-eksterni-hard-disk-01-thumb.webp",
+      "q_ascii": "eksterni hard disk 2tb usb 3.2 otporan na udarce i vodu – silicon power armor a60 silicon power sp020tbphda60s3k kompjuteri-i-oprema hdd-ssd silicon-power-armor-a60-2tb-eksterni-hard-disk 4712702636000"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 83,
+  "total_products": 85,
   "page_size": 12,
   "products": [
     {
@@ -189,6 +189,28 @@
       "brand": "Gembird",
       "sku": "Virtus Plus SC-USB2.0-01",
       "gtin13": "8716309100441"
+    },
+    {
+      "name": "Eksterni hard disk 1TB USB 3.2 otporan na udarce i vodu – Silicon Power Armor A60",
+      "price_rsd": 13299,
+      "slug": "silicon-power-armor-a60-1tb-eksterni-hard-disk",
+      "category": "kompjuteri-i-oprema",
+      "group": "hdd-ssd",
+      "img_thumb": "/images/products/silicon-power-armor-a60-1tb-eksterni-hard-disk-01-thumb.webp",
+      "brand": "Silicon Power",
+      "sku": "SP010TBPHDA60S3K",
+      "gtin13": "4713436131694"
+    },
+    {
+      "name": "Eksterni hard disk 2TB USB 3.2 otporan na udarce i vodu – Silicon Power Armor A60",
+      "price_rsd": 18199,
+      "slug": "silicon-power-armor-a60-2tb-eksterni-hard-disk",
+      "category": "kompjuteri-i-oprema",
+      "group": "hdd-ssd",
+      "img_thumb": "/images/products/silicon-power-armor-a60-2tb-eksterni-hard-disk-01-thumb.webp",
+      "brand": "Silicon Power",
+      "sku": "SP020TBPHDA60S3K",
+      "gtin13": "4712702636000"
     },
     {
       "name": "Gejmerske USB slušalice sa mikrofonom – A4Tech Fstyler FH300U",
