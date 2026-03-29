@@ -1,7 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 85,
-  "page_size": 12,
+  "total_products": 86,
   "products": [
     {
       "name": "2-u-1 Fleš memorija 128GB (USB 3.2, Type-C + USB-A) – MediaRange MR938",
@@ -343,6 +342,17 @@
       "brand": "Gembird",
       "sku": "MA-D1-02",
       "gtin13": "8716309127561"
+    },
+    {
+      "name": "Podesivo postolje za monitor sa fiokom – Gembird MS-TABLE-D-01",
+      "price_rsd": 1499,
+      "slug": "gembird-ms-table-d-01-podesivo-postolje-monitora",
+      "category": "kompjuteri-i-oprema",
+      "group": "postolja-za-monitor",
+      "img_thumb": "/images/products/gembird-ms-table-d-01-podesivo-postolje-monitora-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MS-TABLE-D-01",
+      "gtin13": "8716309135207"
     },
     {
       "name": "Podesivo stono postolje za monitor 17-32\" – Gembird MS-D1ST-02",

@@ -479,7 +479,6 @@
     const nav = qs("#paginator");
     if (!category || !grid || !nav) return;
 
-    const pageAttr = Number(nav.getAttribute("data-items-per-page") || "12");
     const initialSort = hparam("sort", "name-asc"); // podrazumevano: naziv A–Š
     const initialPage = Number(param("page", "1")) || 1;
 
@@ -491,7 +490,7 @@
       const data = await res.json();
 
       const products = Array.isArray(data.products) ? data.products : [];
-      const pageSize = Number(data.page_size || pageAttr || 12);
+      const pageSize = 18;
 
       const state = {
         category,
