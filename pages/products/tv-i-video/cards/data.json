@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 56,
+  "total_products": 57,
   "products": [
     {
       "name": "Fiksni zidni nosač za TV 15-42\" do 25kg – Gembird WM-42F-05",
@@ -67,6 +67,17 @@
       "brand": "Gembird",
       "sku": "WM-90F-01",
       "gtin13": "8716309126175"
+    },
+    {
+      "name": "HDMI switch sa 3 ulaza na 1 izlaz 4K – Gembird DSW-HDMI-34",
+      "price_rsd": 999,
+      "slug": "gembird-dsw-hdmi-34-hdmi-switch-3-na-1",
+      "category": "tv-i-video",
+      "group": "hdmi-oprema",
+      "img_thumb": "/images/products/gembird-dsw-hdmi-34-hdmi-switch-3-na-1-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "DSW-HDMI-34",
+      "gtin13": "8716309085717"
     },
     {
       "name": "Mini polica za Set Top Box i TV risiver – Kettz NAV-K91",

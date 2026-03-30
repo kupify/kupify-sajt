@@ -486,43 +486,36 @@ header.has-sticky-search {
 /******************************************************/
 .home-h1-container {
     max-width: 75rem;
-    margin: 2rem auto 2rem;
+    margin: 2rem auto;
     padding: 0 1.25rem;
-    text-align: left;
 }
 
 .home-h1 {
-    display: inline-block;
-    padding: 0.6rem 1rem;
-    font-size: 1.05rem;
-    line-height: 1.35;
-    font-weight: 500;
-    color: rgb(var(--text-dark), 0.75);
-    background: rgb(var(--brand-teal), 0.05);
-    border-radius: 6px;
-    margin: 0;
-    max-width: 20rem;
-    /* izaberi širinu koja ti paše */
-    white-space: normal;
-    /* dozvoli prelamanje */
-    text-wrap: balance;
-    text-align: left;
+    
+    margin: 0 auto;
+    padding: 0.6rem 1.5rem;
+    font-size: 1.3rem;
+    line-height: 1.5;
+    font-weight: 600;
+    color: rgb(var(--text-dark), 0.9);
+    background: rgb(var(--brand-teal), 0.06);
+    border-radius: 8px;
+    border: 0.5px dotted;
+    border-color:rgb(var(--text-dark), 0.1);
+    text-align: center;
 }
 
 @media (max-width: 768px) {
     .home-h1-container {
-        max-width: 93%;
-        margin: 1.5rem 0 1.5rem;
-        text-align: left;
+        max-width: 95%;
+        margin: 1.5rem auto;
         padding: 0 1rem;
     }
 
     .home-h1 {
-        max-width: 18rem;
-        padding: 0.6rem 0.6rem;
-        font-size: 0.95rem;
+        padding: 0.6rem;
+        font-size: 1rem;
         border-radius: 4px;
-        background: rgb(var(--brand-teal), 0.05);
     }
 }
 
