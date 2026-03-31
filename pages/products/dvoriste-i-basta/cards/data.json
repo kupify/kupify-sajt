@@ -1,6 +1,6 @@
 {
   "category": "dvoriste-i-basta",
-  "total_products": 3,
+  "total_products": 4,
   "products": [
     {
       "name": "Duboka mrežica za čišćenje površine i dna bazena – Bestway 58278",
@@ -23,6 +23,17 @@
       "brand": "Bestway",
       "sku": "58210",
       "gtin13": "6941607347416"
+    },
+    {
+      "name": "Plutajući dozator za hlor za bazen sa termometrom – Bestway 58701",
+      "price_rsd": 1299,
+      "slug": "bestway-58701-plutajuci-dozator-za-bazen-sa-termometrom",
+      "category": "dvoriste-i-basta",
+      "group": "bazenska-oprema",
+      "img_thumb": "/images/products/bestway-58701-plutajuci-dozator-za-bazen-sa-termometrom-01-thumb.webp",
+      "brand": "Bestway",
+      "sku": "58701",
+      "gtin13": "6941607347317"
     },
     {
       "name": "Ravna mrežica za čišćenje površine bazena – Bestway Aquascoop 58277",
