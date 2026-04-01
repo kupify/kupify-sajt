@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 86,
+  "total_products": 87,
   "products": [
     {
       "name": "2-u-1 Fleš memorija 128GB (USB 3.2, Type-C + USB-A) – MediaRange MR938",
@@ -298,6 +298,17 @@
       "brand": "Gembird",
       "sku": "CAM83U",
       "gtin13": "4711421695152"
+    },
+    {
+      "name": "LAN mrežni switch sa 8 portova 10/100 Mbps – Cudy FS108D v4.0",
+      "price_rsd": 1099,
+      "slug": "cudy-fs108d-v4-lan-switch-8-portova",
+      "category": "kompjuteri-i-oprema",
+      "group": "mrezna-oprema",
+      "img_thumb": "/images/products/cudy-fs108d-v4-lan-switch-8-portova-01-thumb.webp",
+      "brand": "Cudy",
+      "sku": "FS108D V4.0",
+      "gtin13": "6971690790042"
     },
     {
       "name": "PC slušalice sa mikrofonom – Gembird MHS-002",
