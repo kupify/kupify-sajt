@@ -1,7 +1,18 @@
 {
   "category": "dvoriste-i-basta",
-  "total_products": 4,
+  "total_products": 6,
   "products": [
+    {
+      "name": "Crevo za bazensku filter pumpu, 3m x 32mm – Bestway FlowClear 58369",
+      "price_rsd": 1399,
+      "slug": "bestway-58369-crevo-za-filter-pumpu-bazena-3m-32mm",
+      "category": "dvoriste-i-basta",
+      "group": "bazenska-oprema",
+      "img_thumb": "/images/products/bestway-58369-crevo-za-filter-pumpu-bazena-3m-32mm-01-thumb.webp",
+      "brand": "Bestway",
+      "sku": "58369",
+      "gtin13": "6942138928372"
+    },
     {
       "name": "Duboka mrežica za čišćenje površine i dna bazena – Bestway 58278",
       "price_rsd": 699,
@@ -23,6 +34,17 @@
       "brand": "Bestway",
       "sku": "58210",
       "gtin13": "6941607347416"
+    },
+    {
+      "name": "Plutajući dozator za hlor za bazen 16.5cm – Bestway 58769",
+      "price_rsd": 999,
+      "slug": "bestway-58769-plutajuci-dozator-za-bazen",
+      "category": "dvoriste-i-basta",
+      "group": "bazenska-oprema",
+      "img_thumb": "/images/products/bestway-58769-plutajuci-dozator-za-bazen-01-thumb.webp",
+      "brand": "Bestway",
+      "sku": "58769",
+      "gtin13": "6941607344279"
     },
     {
       "name": "Plutajući dozator za hlor za bazen sa termometrom – Bestway 58701",

@@ -76,18 +76,7 @@
       "gtin13": "8716309086493"
     },
     {
-      "name": "USB-C kabl za brzo punjenje PD 60W i prenos podataka, 1m, crni – Ugreen US286 50997",
-      "price_rsd": 599,
-      "slug": "ugreen-us286-50997-usb-c-kabl-60w",
-      "category": "mobilni-telefoni-i-oprema",
-      "group": "kablovi",
-      "img_thumb": "/images/products/ugreen-us286-50997-usb-c-kabl-60w-01-thumb.webp",
-      "brand": "Ugreen",
-      "sku": "US286 50997",
-      "gtin13": "6957303859979"
-    },
-    {
-      "name": "USB-C kabl za prenos podataka i brzo punjenje PD 60W, 1m, beli – Ugreen US264 60518",
+      "name": "USB-C kabl za brzo punjenje PD 60W, 1m, beli – Ugreen US264 60518",
       "price_rsd": 599,
       "slug": "ugreen-us264-60518-usb-c-kabl-60w",
       "category": "mobilni-telefoni-i-oprema",
@@ -96,6 +85,17 @@
       "brand": "Ugreen",
       "sku": "US264 60518",
       "gtin13": "6957303865185"
+    },
+    {
+      "name": "USB-C kabl za brzo punjenje PD 60W, 1m, crni – Ugreen US286 50997",
+      "price_rsd": 599,
+      "slug": "ugreen-us286-50997-usb-c-kabl-60w",
+      "category": "mobilni-telefoni-i-oprema",
+      "group": "kablovi",
+      "img_thumb": "/images/products/ugreen-us286-50997-usb-c-kabl-60w-01-thumb.webp",
+      "brand": "Ugreen",
+      "sku": "US286 50997",
+      "gtin13": "6957303859979"
     }
   ]
 }

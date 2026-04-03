@@ -2190,7 +2190,7 @@
       "q_ascii": "elektricni rasterivac miseva i pacova ultrazvucni 220v – haus 200 d haus 200 d uredjenje-kuce haus-200d-rasterivac-glodara-ultrazvucni 4048374035675"
     },
     {
-      "name": "USB-C kabl za prenos podataka i brzo punjenje PD 60W, 1m, beli – Ugreen US264 60518",
+      "name": "USB-C kabl za brzo punjenje PD 60W, 1m, beli – Ugreen US264 60518",
       "slug": "ugreen-us264-60518-usb-c-kabl-60w",
       "category": "mobilni-telefoni-i-oprema",
       "group": "kablovi",
@@ -2198,10 +2198,10 @@
       "sku": "US264 60518",
       "price_rsd": "599",
       "img_thumb": "/images/products/ugreen-us264-60518-usb-c-kabl-60w-01-thumb.webp",
-      "q_ascii": "usb-c kabl za prenos podataka i brzo punjenje pd 60w, 1m, beli – ugreen us264 60518 ugreen us264 60518 mobilni-telefoni-i-oprema kablovi ugreen-us264-60518-usb-c-kabl-60w 6957303865185"
+      "q_ascii": "usb-c kabl za brzo punjenje pd 60w, 1m, beli – ugreen us264 60518 ugreen us264 60518 mobilni-telefoni-i-oprema kablovi ugreen-us264-60518-usb-c-kabl-60w 6957303865185"
     },
     {
-      "name": "USB-C kabl za brzo punjenje PD 60W i prenos podataka, 1m, crni – Ugreen US286 50997",
+      "name": "USB-C kabl za brzo punjenje PD 60W, 1m, crni – Ugreen US286 50997",
       "slug": "ugreen-us286-50997-usb-c-kabl-60w",
       "category": "mobilni-telefoni-i-oprema",
       "group": "kablovi",
@@ -2209,7 +2209,29 @@
       "sku": "US286 50997",
       "price_rsd": "599",
       "img_thumb": "/images/products/ugreen-us286-50997-usb-c-kabl-60w-01-thumb.webp",
-      "q_ascii": "usb-c kabl za brzo punjenje pd 60w i prenos podataka, 1m, crni – ugreen us286 50997 ugreen us286 50997 mobilni-telefoni-i-oprema kablovi ugreen-us286-50997-usb-c-kabl-60w 6957303859979"
+      "q_ascii": "usb-c kabl za brzo punjenje pd 60w, 1m, crni – ugreen us286 50997 ugreen us286 50997 mobilni-telefoni-i-oprema kablovi ugreen-us286-50997-usb-c-kabl-60w 6957303859979"
+    },
+    {
+      "name": "Crevo za bazensku filter pumpu, 3m x 32mm – Bestway FlowClear 58369",
+      "slug": "bestway-58369-crevo-za-filter-pumpu-bazena-3m-32mm",
+      "category": "dvoriste-i-basta",
+      "group": "bazenska-oprema",
+      "brand": "Bestway",
+      "sku": "58369",
+      "price_rsd": "1399",
+      "img_thumb": "/images/products/bestway-58369-crevo-za-filter-pumpu-bazena-3m-32mm-01-thumb.webp",
+      "q_ascii": "crevo za bazensku filter pumpu, 3m x 32mm – bestway flowclear 58369 bestway 58369 dvoriste-i-basta bazenska-oprema bestway-58369-crevo-za-filter-pumpu-bazena-3m-32mm 6942138928372"
+    },
+    {
+      "name": "Plutajući dozator za hlor za bazen 16.5cm – Bestway 58769",
+      "slug": "bestway-58769-plutajuci-dozator-za-bazen",
+      "category": "dvoriste-i-basta",
+      "group": "bazenska-oprema",
+      "brand": "Bestway",
+      "sku": "58769",
+      "price_rsd": "999",
+      "img_thumb": "/images/products/bestway-58769-plutajuci-dozator-za-bazen-01-thumb.webp",
+      "q_ascii": "plutajuci dozator za hlor za bazen 16.5cm – bestway 58769 bestway 58769 dvoriste-i-basta bazenska-oprema bestway-58769-plutajuci-dozator-za-bazen 6941607344279"
     }
   ]
 }
