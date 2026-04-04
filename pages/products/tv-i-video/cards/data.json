@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 57,
+  "total_products": 59,
   "products": [
     {
       "name": "Fiksni zidni nosač za TV 15-42\" do 25kg – Gembird WM-42F-05",
@@ -366,6 +366,17 @@
       "gtin13": "8716309135115"
     },
     {
+      "name": "Univerzalne čelične nogice za TV 37-70“ – Gembird TVS-D70F-01",
+      "price_rsd": 2499,
+      "slug": "gembird-tvs-d70f-01-univerzalne-nogice-tv-postolje",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "img_thumb": "/images/products/gembird-tvs-d70f-01-univerzalne-nogice-tv-postolje-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "TVS-D70F-01",
+      "gtin13": "8716309135122"
+    },
+    {
       "name": "Univerzalni plafonski nosač za projektor – Gembird CM-B-01",
       "price_rsd": 1599,
       "slug": "plafonski-nosac-projektora-gembird-cm-b-01",
@@ -584,6 +595,17 @@
       "brand": "Gembird",
       "sku": "WM-42T-05",
       "gtin13": "8607832788728"
+    },
+    {
+      "name": "Zidni nosač za TV 32-65 inča do 60 kg sa nagibom Gembird WM-65T-PRO-01",
+      "price_rsd": 2699,
+      "slug": "gembird-wm-65t-pro-01-zidni-tv-nosac-sa-nagibom",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "img_thumb": "/images/products/gembird-wm-65t-pro-01-zidni-tv-nosac-sa-nagibom-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "WM-65T-PRO-01",
+      "gtin13": "8716309135320"
     },
     {
       "name": "Zidni nosač za TV 35-75“ sa nagibom – Gembird WM-75T-04",
