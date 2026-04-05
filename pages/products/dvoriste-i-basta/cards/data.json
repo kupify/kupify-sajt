@@ -1,6 +1,6 @@
 {
   "category": "dvoriste-i-basta",
-  "total_products": 6,
+  "total_products": 8,
   "products": [
     {
       "name": "Crevo za bazensku filter pumpu, 3m x 32mm – Bestway FlowClear 58369",
@@ -23,6 +23,28 @@
       "brand": "Bestway",
       "sku": "58278",
       "gtin13": "6942138948578"
+    },
+    {
+      "name": "Filter za pumpu za bazen Tip I - 8x9cm - 2 kom – Bestway 58093",
+      "price_rsd": 1299,
+      "slug": "bestway-58093-filter-za-pumpu-tip-1-set-2-kom",
+      "category": "dvoriste-i-basta",
+      "group": "bazenska-oprema",
+      "img_thumb": "/images/products/bestway-58093-filter-za-pumpu-tip-1-set-2-kom-01-thumb.webp",
+      "brand": "Bestway",
+      "sku": "58093",
+      "gtin13": "6941607353608"
+    },
+    {
+      "name": "Filter za pumpu za bazen Tip II - 10.5x13.5cm - 2 kom – Bestway 58094",
+      "price_rsd": 1399,
+      "slug": "bestway-58094-filter-za-pumpu-tip-2-set-2-kom",
+      "category": "dvoriste-i-basta",
+      "group": "bazenska-oprema",
+      "img_thumb": "/images/products/bestway-58094-filter-za-pumpu-tip-2-set-2-kom-01-thumb.webp",
+      "brand": "Bestway",
+      "sku": "58094",
+      "gtin13": "6942138918410"
     },
     {
       "name": "Plutajući dozator za hlor za bazen 12.5 cm – Bestway 58210",

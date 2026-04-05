@@ -346,24 +346,13 @@
     {
       "name": "Stono postolje - stalak za TV 32-65\" – Gembird TVS-D65S-01",
       "price_rsd": 3299,
-      "slug": "stoni-stalak-za-tv-32-65-inca-gembird-tvs-d65s-01",
+      "slug": "gembird-tvs-d65s-01-stono-tv-postolje",
       "category": "tv-i-video",
       "group": "tv-nosaci",
-      "img_thumb": "/images/products/stoni-stalak-za-tv-32-65-inca-gembird-tvs-d65s-01-01-thumb.webp",
+      "img_thumb": "/images/products/gembird-tvs-d65s-01-stono-tv-postolje-01-thumb.webp",
       "brand": "Gembird",
       "sku": "TVS-D65S-01",
       "gtin13": "8716309135061"
-    },
-    {
-      "name": "Stono postolje – stalak za TV 45-90\" Gembird TVS-D90F-01",
-      "price_rsd": 4199,
-      "slug": "stono-postolje-stalak-za-tv-45-90-inca-gembird-tvs-d90f-01",
-      "category": "tv-i-video",
-      "group": "tv-nosaci",
-      "img_thumb": "/images/products/stono-postolje-stalak-za-tv-45-90-inca-gembird-tvs-d90f-01-01-thumb.webp",
-      "brand": "Gembird",
-      "sku": "TVS-D90F-01",
-      "gtin13": "8716309135115"
     },
     {
       "name": "Univerzalne čelične nogice za TV 37-70“ – Gembird TVS-D70F-01",
@@ -397,6 +386,17 @@
       "brand": "Kettz",
       "sku": "PN-K10",
       "gtin13": "8605054706780"
+    },
+    {
+      "name": "Univerzalno postolje - nogice za TV 45-90\" – Gembird TVS-D90F-01",
+      "price_rsd": 4199,
+      "slug": "gembird-tvs-d90f-01-univerzalno-tv-postolje-nogice",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "img_thumb": "/images/products/gembird-tvs-d90f-01-univerzalno-tv-postolje-nogice-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "TVS-D90F-01",
+      "gtin13": "8716309135115"
     },
     {
       "name": "Zglobni nosač za TV 32-60\" do 36kg – Gembird WM-60ST-01",

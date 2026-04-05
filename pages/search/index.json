@@ -585,14 +585,14 @@
     },
     {
       "name": "Stono postolje - stalak za TV 32-65\" – Gembird TVS-D65S-01",
-      "slug": "stoni-stalak-za-tv-32-65-inca-gembird-tvs-d65s-01",
+      "slug": "gembird-tvs-d65s-01-stono-tv-postolje",
       "category": "tv-i-video",
       "group": "tv-nosaci",
       "brand": "Gembird",
       "sku": "TVS-D65S-01",
       "price_rsd": "3299",
-      "img_thumb": "/images/products/stoni-stalak-za-tv-32-65-inca-gembird-tvs-d65s-01-01-thumb.webp",
-      "q_ascii": "stono postolje - stalak za tv 32-65\" – gembird tvs-d65s-01 gembird tvs-d65s-01 tv-i-video tv-nosaci stoni-stalak-za-tv-32-65-inca-gembird-tvs-d65s-01 8716309135061"
+      "img_thumb": "/images/products/gembird-tvs-d65s-01-stono-tv-postolje-01-thumb.webp",
+      "q_ascii": "stono postolje - stalak za tv 32-65\" – gembird tvs-d65s-01 gembird tvs-d65s-01 tv-i-video tv-nosaci gembird-tvs-d65s-01-stono-tv-postolje 8716309135061"
     },
     {
       "name": "Stoni nosač sa gasnom oprugom - ruka za monitor 17-32\" – Gembird MA-DA1-02",
@@ -628,15 +628,15 @@
       "q_ascii": "stoni nosac za 2 monitora 17-32\" sa gasnim oprugama – gembird ma-da2p-02 gembird ma-da2p-02 kompjuteri-i-oprema nosaci-za-monitor podesivi-stoni-nosac-za-dva-monitora-17-32-inca-gembird-ma-da2p-02 8716309135351"
     },
     {
-      "name": "Stono postolje – stalak za TV 45-90\" Gembird TVS-D90F-01",
-      "slug": "stono-postolje-stalak-za-tv-45-90-inca-gembird-tvs-d90f-01",
+      "name": "Univerzalno postolje - nogice za TV 45-90\" – Gembird TVS-D90F-01",
+      "slug": "gembird-tvs-d90f-01-univerzalno-tv-postolje-nogice",
       "category": "tv-i-video",
       "group": "tv-nosaci",
       "brand": "Gembird",
       "sku": "TVS-D90F-01",
       "price_rsd": "4199",
-      "img_thumb": "/images/products/stono-postolje-stalak-za-tv-45-90-inca-gembird-tvs-d90f-01-01-thumb.webp",
-      "q_ascii": "stono postolje – stalak za tv 45-90\" gembird tvs-d90f-01 gembird tvs-d90f-01 tv-i-video tv-nosaci stono-postolje-stalak-za-tv-45-90-inca-gembird-tvs-d90f-01 8716309135115"
+      "img_thumb": "/images/products/gembird-tvs-d90f-01-univerzalno-tv-postolje-nogice-01-thumb.webp",
+      "q_ascii": "univerzalno postolje - nogice za tv 45-90\" – gembird tvs-d90f-01 gembird tvs-d90f-01 tv-i-video tv-nosaci gembird-tvs-d90f-01-univerzalno-tv-postolje-nogice 8716309135115"
     },
     {
       "name": "Stoni nosač za 2 monitora 17-32\" sa gasnim oprugama – Gembird MA-DA2P-01",
@@ -1596,7 +1596,7 @@
       "q_ascii": "fiksni zidni nosac za tv 32-56\" do 40 kg – gembird wm-56f-05 gembird wm-56f-05 tv-i-video tv-nosaci fiksni-zidni-tv-nosac-gembird-wm-56f-05 8607888637438"
     },
     {
-      "name": "Strujni adapter za UK utičnice sa EU šuko ulazom 13A - Gembird A-AC-EUFUKM-01",
+      "name": "EU na UK adapter za utičnice (šuko) 13A – Gembird A-AC-EUFUKM-01",
       "slug": "strujni-adapter-eu-na-uk-gembird-a-ac-eufukm-01",
       "category": "elektro-i-rasveta",
       "group": "",
@@ -1604,7 +1604,7 @@
       "sku": "A-AC-EUFUKM-01",
       "price_rsd": "499",
       "img_thumb": "/images/products/strujni-adapter-eu-na-uk-gembird-a-ac-eufukm-01-01-thumb.webp",
-      "q_ascii": "strujni adapter za uk uticnice sa eu suko ulazom 13a - gembird a-ac-eufukm-01 gembird a-ac-eufukm-01 elektro-i-rasveta strujni-adapter-eu-na-uk-gembird-a-ac-eufukm-01 8716309128292"
+      "q_ascii": "eu na uk adapter za uticnice (suko) 13a – gembird a-ac-eufukm-01 gembird a-ac-eufukm-01 elektro-i-rasveta strujni-adapter-eu-na-uk-gembird-a-ac-eufukm-01 8716309128292"
     },
     {
       "name": "Držač za tablet za montažu na naslon auto sedišta – Gembird TA-CHHR-02",
@@ -2254,6 +2254,28 @@
       "price_rsd": "2699",
       "img_thumb": "/images/products/gembird-wm-65t-pro-01-zidni-tv-nosac-sa-nagibom-01-thumb.webp",
       "q_ascii": "zidni nosac za tv 32-65 inca do 60 kg sa nagibom gembird wm-65t-pro-01 gembird wm-65t-pro-01 tv-i-video tv-nosaci gembird-wm-65t-pro-01-zidni-tv-nosac-sa-nagibom 8716309135320"
+    },
+    {
+      "name": "Filter za pumpu za bazen Tip I - 8x9cm - 2 kom – Bestway 58093",
+      "slug": "bestway-58093-filter-za-pumpu-tip-1-set-2-kom",
+      "category": "dvoriste-i-basta",
+      "group": "bazenska-oprema",
+      "brand": "Bestway",
+      "sku": "58093",
+      "price_rsd": "1299",
+      "img_thumb": "/images/products/bestway-58093-filter-za-pumpu-tip-1-set-2-kom-01-thumb.webp",
+      "q_ascii": "filter za pumpu za bazen tip i - 8x9cm - 2 kom – bestway 58093 bestway 58093 dvoriste-i-basta bazenska-oprema bestway-58093-filter-za-pumpu-tip-1-set-2-kom 6941607353608"
+    },
+    {
+      "name": "Filter za pumpu za bazen Tip II - 10.5x13.5cm - 2 kom – Bestway 58094",
+      "slug": "bestway-58094-filter-za-pumpu-tip-2-set-2-kom",
+      "category": "dvoriste-i-basta",
+      "group": "bazenska-oprema",
+      "brand": "Bestway",
+      "sku": "58094",
+      "price_rsd": "1399",
+      "img_thumb": "/images/products/bestway-58094-filter-za-pumpu-tip-2-set-2-kom-01-thumb.webp",
+      "q_ascii": "filter za pumpu za bazen tip ii - 10.5x13.5cm - 2 kom – bestway 58094 bestway 58094 dvoriste-i-basta bazenska-oprema bestway-58094-filter-za-pumpu-tip-2-set-2-kom 6942138918410"
     }
   ]
 }
