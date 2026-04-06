@@ -1,6 +1,6 @@
 {
   "category": "dvoriste-i-basta",
-  "total_products": 8,
+  "total_products": 9,
   "products": [
     {
       "name": "Crevo za bazensku filter pumpu, 3m x 32mm – Bestway FlowClear 58369",
@@ -89,6 +89,17 @@
       "brand": "Bestway",
       "sku": "Aquascoop Essential (58277)",
       "gtin13": "6941607346808"
+    },
+    {
+      "name": "Solarna plutajuća RGB LED svetiljka za bazen – Bestway Flowclear 58111",
+      "price_rsd": 1999,
+      "slug": "bestway-58111-solarna-plutajuca-rgb-led-svetiljka",
+      "category": "dvoriste-i-basta",
+      "group": "bazenska-oprema",
+      "img_thumb": "/images/products/bestway-58111-solarna-plutajuca-rgb-led-svetiljka-01-thumb.webp",
+      "brand": "Bestway",
+      "sku": "58111",
+      "gtin13": "6942138919394"
     }
   ]
 }

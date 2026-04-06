@@ -210,7 +210,7 @@
       "q_ascii": "sobna tv/fm antena sa pojacivacem – kettz dt-k035 kettz dt-k035 tv-i-video antene sobna-tv-fm-antena-sa-pojacivacem-kettz-dt-k035 8606018832798"
     },
     {
-      "name": "Sobna ili spoljna TV antena sa 10m kabla – Kettz DT-K090",
+      "name": "Kombinovana TV antena za unutrašnju i spoljašnju upotrebu – Kettz DT-K090",
       "slug": "sobna-spoljna-tv-antena-10m-kabla-kettz-dt-k090",
       "category": "tv-i-video",
       "group": "antene",
@@ -218,7 +218,7 @@
       "sku": "DT-K090",
       "price_rsd": "1599",
       "img_thumb": "/images/products/sobna-spoljna-tv-antena-10m-kabla-kettz-dt-k090-01-thumb.webp",
-      "q_ascii": "sobna ili spoljna tv antena sa 10m kabla – kettz dt-k090 kettz dt-k090 tv-i-video antene sobna-spoljna-tv-antena-10m-kabla-kettz-dt-k090 8605054711050"
+      "q_ascii": "kombinovana tv antena za unutrasnju i spoljasnju upotrebu – kettz dt-k090 kettz dt-k090 tv-i-video antene sobna-spoljna-tv-antena-10m-kabla-kettz-dt-k090 8605054711050"
     },
     {
       "name": "Vakuumski držač za tuš bez bušenja – univerzalni nosač za ručicu tuša",
@@ -2276,6 +2276,17 @@
       "price_rsd": "1399",
       "img_thumb": "/images/products/bestway-58094-filter-za-pumpu-tip-2-set-2-kom-01-thumb.webp",
       "q_ascii": "filter za pumpu za bazen tip ii - 10.5x13.5cm - 2 kom – bestway 58094 bestway 58094 dvoriste-i-basta bazenska-oprema bestway-58094-filter-za-pumpu-tip-2-set-2-kom 6942138918410"
+    },
+    {
+      "name": "Solarna plutajuća RGB LED svetiljka za bazen – Bestway Flowclear 58111",
+      "slug": "bestway-58111-solarna-plutajuca-rgb-led-svetiljka",
+      "category": "dvoriste-i-basta",
+      "group": "bazenska-oprema",
+      "brand": "Bestway",
+      "sku": "58111",
+      "price_rsd": "1999",
+      "img_thumb": "/images/products/bestway-58111-solarna-plutajuca-rgb-led-svetiljka-01-thumb.webp",
+      "q_ascii": "solarna plutajuca rgb led svetiljka za bazen – bestway flowclear 58111 bestway 58111 dvoriste-i-basta bazenska-oprema bestway-58111-solarna-plutajuca-rgb-led-svetiljka 6942138919394"
     }
   ]
 }
