@@ -1522,12 +1522,12 @@
       "name": "USB Type-C brzi punjač za telefon 20W – Gembird TA-UC-PD20-01-W",
       "slug": "usb-c-punjac-za-telefon-gembird-ta-uc-pd20-01-w",
       "category": "mobilni-telefoni-i-oprema",
-      "group": "punjaci-za-telefon",
+      "group": "punjaci",
       "brand": "Gembird",
       "sku": "TA-UC-PD20-01-W",
       "price_rsd": "499",
       "img_thumb": "/images/products/usb-c-punjac-za-telefon-gembird-ta-uc-pd20-01-w-01-thumb.webp",
-      "q_ascii": "usb type-c brzi punjac za telefon 20w – gembird ta-uc-pd20-01-w gembird ta-uc-pd20-01-w mobilni-telefoni-i-oprema punjaci-za-telefon usb-c-punjac-za-telefon-gembird-ta-uc-pd20-01-w 8716309124805"
+      "q_ascii": "usb type-c brzi punjac za telefon 20w – gembird ta-uc-pd20-01-w gembird ta-uc-pd20-01-w mobilni-telefoni-i-oprema punjaci usb-c-punjac-za-telefon-gembird-ta-uc-pd20-01-w 8716309124805"
     },
     {
       "name": "Stoni nosač - ruka za 2 monitora 17-32\" – Gembird MA-D2-01",
@@ -2287,6 +2287,17 @@
       "price_rsd": "1999",
       "img_thumb": "/images/products/bestway-58111-solarna-plutajuca-rgb-led-svetiljka-01-thumb.webp",
       "q_ascii": "solarna plutajuca rgb led svetiljka za bazen – bestway flowclear 58111 bestway 58111 dvoriste-i-basta bazenska-oprema bestway-58111-solarna-plutajuca-rgb-led-svetiljka 6942138919394"
+    },
+    {
+      "name": "6-u-1 USB-C i USB-A stanica za punjenje 200W GaN – UGREEN Nexode CD271",
+      "slug": "ugreen-cd271-6-u-1-stanica-za-punjenje-usb-a-usb-c",
+      "category": "mobilni-telefoni-i-oprema",
+      "group": "punjaci",
+      "brand": "UGREEN",
+      "sku": "CD271",
+      "price_rsd": "17999",
+      "img_thumb": "/images/products/ugreen-cd271-6-u-1-stanica-za-punjenje-usb-a-usb-c-01-thumb.webp",
+      "q_ascii": "6-u-1 usb-c i usb-a stanica za punjenje 200w gan – ugreen nexode cd271 ugreen cd271 mobilni-telefoni-i-oprema punjaci ugreen-cd271-6-u-1-stanica-za-punjenje-usb-a-usb-c 6957303849147"
     }
   ]
 }
