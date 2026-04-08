@@ -107,8 +107,13 @@ select:focus-visible {
 
 /*----------------HEADER--------------*/
 #header {
-    min-height: 120px;
-    margin-bottom: 2rem;
+    min-height: 190px;
+    margin-bottom: 0rem;
+}
+@media (max-width: 768px) {
+    #header {
+        height: 250px; /* primer, izmeri mobilni posebno */
+    }
 }
 
 header {
