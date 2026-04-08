@@ -106,10 +106,14 @@ select:focus-visible {
 }
 
 /*----------------HEADER--------------*/
+#header {
+    min-height: 120px;
+    margin-bottom: 2rem;
+}
+
 header {
     background-color: #fff;
     padding: 1.25rem 0;
-    margin-bottom: 2rem;
     box-shadow: 0 0.125rem 0.5rem rgba(0, 0, 0, 0.05);
     transition: box-shadow 0.4s ease, background-color 0.4s ease;
 }
