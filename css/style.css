@@ -185,13 +185,11 @@ header {
 }
 
 .logo {
-    height: auto;
-    max-width: 50px;
     width: 50px;
+    height: auto;
     margin-top: 0;
+    display: block;
     transition: opacity 0.4s ease;
-    /* možeš dodati i transition za visinu ili marginu ako želiš dodatni efekat */
-    display: block
 }
 
 .header-text {
@@ -324,9 +322,9 @@ header {
     }
 
     .logo {
-        height: 3.125rem;
+        width: 50px;
+        height: auto;
         /* prilagodi veličinu po želji */
-
     }
 }
 
@@ -1739,7 +1737,7 @@ div.tekst-lista {
 }
 
 
-/*********************************************************/
+/*********  Cookie Banner Blok  ****************************/
 
 .cookie-banner {
     position: fixed;
