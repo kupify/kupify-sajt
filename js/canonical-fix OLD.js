@@ -165,59 +165,39 @@
  *
  */
 
+
 (function () {
-  function syncSeoMeta() {
+  function syncCanonical() {
     const url = new URL(location.href);
     const page = url.searchParams.get("page");
-    const isPaged = page && page !== "1";
 
-    // ========================================================
-    // 1) CANONICAL
-    // ========================================================
     let canonical = url.origin + url.pathname;
 
-    if (isPaged) {
+    if (page && page !== "1") {
       canonical += `?page=${page}`;
     }
 
-    let canonicalLink = document.querySelector('link[rel="canonical"]');
-
-    if (!canonicalLink) {
-      canonicalLink = document.createElement("link");
-      canonicalLink.rel = "canonical";
-      document.head.appendChild(canonicalLink);
+    let link = document.querySelector('link[rel="canonical"]');
+    if (!link) {
+      link = document.createElement("link");
+      link.rel = "canonical";
+      document.head.appendChild(link);
     }
 
-    canonicalLink.href = canonical;
-
-    // ========================================================
-    // 2) ROBOTS
-    // ========================================================
-    let robotsMeta = document.querySelector('meta[name="robots"]');
-
-    if (!robotsMeta) {
-      robotsMeta = document.createElement("meta");
-      robotsMeta.name = "robots";
-      document.head.appendChild(robotsMeta);
-    }
-
-    robotsMeta.setAttribute(
-      "content",
-      isPaged ? "noindex, follow" : "index, follow"
-    );
+    link.href = canonical;
   }
 
   // prvi load
-  syncSeoMeta();
+  syncCanonical();
 
-  // back / forward
-  window.addEventListener("popstate", syncSeoMeta);
+  // back/forward
+  window.addEventListener("popstate", syncCanonical);
 
   // hook pushState
   const originalPushState = history.pushState;
   history.pushState = function () {
     const result = originalPushState.apply(this, arguments);
-    syncSeoMeta();
+    syncCanonical();
     return result;
   };
 
@@ -225,7 +205,7 @@
   const originalReplaceState = history.replaceState;
   history.replaceState = function () {
     const result = originalReplaceState.apply(this, arguments);
-    syncSeoMeta();
+    syncCanonical();
     return result;
   };
 })();

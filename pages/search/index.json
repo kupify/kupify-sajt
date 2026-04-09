@@ -2149,12 +2149,12 @@
       "name": "HDMI switch sa 3 ulaza na 1 izlaz 4K – Gembird DSW-HDMI-34",
       "slug": "gembird-dsw-hdmi-34-hdmi-switch-3-na-1",
       "category": "tv-i-video",
-      "group": "hdmi-oprema",
+      "group": "hdmi-adapteri",
       "brand": "Gembird",
       "sku": "DSW-HDMI-34",
       "price_rsd": "999",
       "img_thumb": "/images/products/gembird-dsw-hdmi-34-hdmi-switch-3-na-1-01-thumb.webp",
-      "q_ascii": "hdmi switch sa 3 ulaza na 1 izlaz 4k – gembird dsw-hdmi-34 gembird dsw-hdmi-34 tv-i-video hdmi-oprema gembird-dsw-hdmi-34-hdmi-switch-3-na-1 8716309085717"
+      "q_ascii": "hdmi switch sa 3 ulaza na 1 izlaz 4k – gembird dsw-hdmi-34 gembird dsw-hdmi-34 tv-i-video hdmi-adapteri gembird-dsw-hdmi-34-hdmi-switch-3-na-1 8716309085717"
     },
     {
       "name": "Plutajući dozator za hlor za bazen sa termometrom – Bestway 58701",
@@ -2298,6 +2298,28 @@
       "price_rsd": "17999",
       "img_thumb": "/images/products/ugreen-cd271-6-u-1-stanica-za-punjenje-usb-a-usb-c-01-thumb.webp",
       "q_ascii": "6-u-1 usb-c i usb-a stanica za punjenje 200w gan – ugreen nexode cd271 ugreen cd271 mobilni-telefoni-i-oprema punjaci ugreen-cd271-6-u-1-stanica-za-punjenje-usb-a-usb-c 6957303849147"
+    },
+    {
+      "name": "USB-C na HDMI adapter 4K – Gembird A-CM-HDMIF-01",
+      "slug": "gembird-a-cm-hdmif-01-usb-c-hdmi-adapter-4k",
+      "category": "tv-i-video",
+      "group": "hdmi-adapteri",
+      "brand": "Gembird",
+      "sku": "A-CM-HDMIF-01",
+      "price_rsd": "999",
+      "img_thumb": "/images/products/gembird-a-cm-hdmif-01-usb-c-hdmi-adapter-4k-01-thumb.webp",
+      "q_ascii": "usb-c na hdmi adapter 4k – gembird a-cm-hdmif-01 gembird a-cm-hdmif-01 tv-i-video hdmi-adapteri gembird-a-cm-hdmif-01-usb-c-hdmi-adapter-4k 8716309097642"
+    },
+    {
+      "name": "Stono postolje - stalak za TV 35-75\" do 40kg – Gembird TVS-D75S-01",
+      "slug": "gembird-tvs-d75s-01-stono-tv-postolje",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "brand": "Gembird",
+      "sku": "TVS-D75S-01",
+      "price_rsd": "3599",
+      "img_thumb": "/images/products/gembird-tvs-d75s-01-stono-tv-postolje-01-thumb.webp",
+      "q_ascii": "stono postolje - stalak za tv 35-75\" do 40kg – gembird tvs-d75s-01 gembird tvs-d75s-01 tv-i-video tv-nosaci gembird-tvs-d75s-01-stono-tv-postolje 8716309135085"
     }
   ]
 }

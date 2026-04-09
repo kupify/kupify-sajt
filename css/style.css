@@ -102,7 +102,7 @@ textarea:focus-visible,
 select:focus-visible {
     outline: 2px solid rgba(var(--brand-teal), 0.2);
     outline-offset: 2px;
-    border-radius: 6px;
+    border-radius: 4px;
 }
 
 /*----------------HEADER--------------*/
@@ -110,9 +110,11 @@ select:focus-visible {
     min-height: 190px;
     margin-bottom: 0rem;
 }
+
 @media (max-width: 768px) {
     #header {
-        height: 250px; /* primer, izmeri mobilni posebno */
+        height: 250px;
+        /* primer, izmeri mobilni posebno */
     }
 }
 
@@ -159,8 +161,8 @@ header {
 .header-nav a:focus,
 .header-nav button:focus {
     outline: 2px solid rgba(var(--brand-teal), 0.2);
-    outline-offset: 2px;
-    border-radius: 6px;
+    outline-offset: 1px;
+    border-radius: 4px;
 }
 
 /* Po želji - desktop verzija bez sticky */
@@ -498,7 +500,7 @@ header.has-sticky-search {
 }
 
 .home-h1 {
-    
+
     margin: 0 auto;
     padding: 0.6rem 1.5rem;
     font-size: 1.3rem;
@@ -508,7 +510,7 @@ header.has-sticky-search {
     background: rgb(var(--brand-teal), 0.06);
     border-radius: 8px;
     border: 0.5px dotted;
-    border-color:rgb(var(--text-dark), 0.1);
+    border-color: rgb(var(--text-dark), 0.1);
     text-align: center;
 }
 
@@ -1901,7 +1903,7 @@ footer {
 }
 
 .footer-column ul li a:hover {
-    color: rgb(var(--brand-teal));
+    color: rgb(var(--brand-teal-hover));
 }
 
 /*========= Footer copy============== */
@@ -1943,7 +1945,8 @@ footer {
         font-size: 0.95rem;
     }
 
-    .footer-column ul {
+    .footer-column ul li {
+        padding: 0.25rem;
         font-size: 0.8rem;
     }
 }
@@ -2241,7 +2244,7 @@ footer {
     margin-bottom: 3rem;
 }
 
-/* Traka sa selektorom ispod linije, desno poravnata */
+/* Obriši section controls blok kada pređeš na filtere */
 .section-controls {
     display: flex;
     justify-content: flex-end;
@@ -2249,7 +2252,7 @@ footer {
     gap: 0.5rem;
     margin: 0 0 2rem;
     font-size: 0.9rem;
-    opacity: 85%;
+    opacity: 0.85;
 }
 
 .section-controls label {
@@ -2257,22 +2260,156 @@ footer {
     margin-right: .25rem;
 }
 
-#sort-select {
-    font-size: .8rem;
-    /* smanji tekst */
-    border-radius: 6px;
-    /* zaoblji ivice */
-    padding: .2rem .3rem;
-    /* malo kompaktnije */
-    line-height: 1.2;
-    /* da ne bude previsoko */
+@media (max-width: 768px) {
+    .section-controls {
+        justify-content: center;
+        width: 60%;
+        padding-inline: 12px;
+        padding-top: 1rem;
+        margin-bottom: 1rem;
 
+    }
+}
+
+/* Obriši section controls blok kada pređeš na filtere */
+
+
+/**** NOVI CSS za Filter + sortiranje ****/
+
+.category-controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.8rem;
+    margin: 0 0 2rem;
+}
+
+.category-sort {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    opacity: 85%;
+}
+
+.category-sort label {
+    /* mali razmak od select-a */
+    margin-right: 0.25rem;
+}
+
+/*#sort-select {
+    font-size: .8rem;
+    border-radius: 6px;
+    padding: .2rem .3rem;
+    line-height: 1.2;
+} */
+
+#sort-select {
+    border: 1px solid rgba(var(--brand-teal), 0.4);
+    border-radius: 5px;
+    background: transparent;
+
+    padding: 0.2rem 0;
+    font-size: 0.8rem;
 }
 
 #sort-select:focus-visible {
     outline: 2px solid rgba(var(--brand-teal), .3);
     outline-offset: 2px;
     border-radius: 6px;
+}
+
+/* Group tabs */
+.group-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: rem;
+    margin: 0;
+}
+
+.group-tab {
+    background: none;
+    border: none;
+    padding: 0.25rem 0.5rem;
+
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #666;
+
+    cursor: pointer;
+    position: relative;
+
+    transition: color 0.15s ease;
+}
+
+.group-tab:hover {
+    color: rgba(var(--brand-teal-hover));
+}
+
+.group-tab.is-active {
+    color: #111;
+    font-weight: 600;
+}
+
+.group-tab.is-active::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 2px;
+    background: #111;
+}
+
+.group-tab:focus-visible {
+    outline: 2px solid rgba(var(--brand-teal), 0.2);
+    outline-offset: 2px;
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+
+    .category-controls {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        /* poravnato ulevo */
+
+        width: 100%;
+        /* nemoj 60% na mobile */
+        padding-inline: 0.75rem;
+        padding-top: 0rem;
+        margin-bottom: 1rem;
+    }
+
+    .group-tabs {
+        gap: 0.8rem;
+    }
+
+    .group-tab {
+        font-size: 0.8rem;
+    }
+
+    .category-sort {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 0.5rem;
+        font-size: 0.85rem;
+        opacity: 85%;
+    }
+
+    #sort-select {
+        width: min(100%, 320px);
+        font-size: .75rem;
+        /* smanji tekst */
+        border-radius: 5px;
+        /* zaoblji ivice */
+        padding: 0.2rem 0rem;
+        /* malo kompaktnije */
+        line-height: 1.1;
+        /* da ne bude previsoko */
+    }
 }
 
 
@@ -2291,7 +2428,7 @@ footer {
 .section-title {
     font-size: 1.25rem;
     font-weight: 700;
-    color: rgb(var(--text-dark));
+    color: rgb(var(--text-mid));
     margin: 0 0 2rem 0;
     border-bottom: 1px solid transparent;
     border-image: linear-gradient(to right, rgba(var(--brand-accent), .3), rgba(var(--brand-accent), .8)) 1;
@@ -2402,9 +2539,8 @@ footer {
 
 
 /* =========================================
-   K A T E G O R I J E  (C L E A N)
+   Breadcrumbs
    ========================================= */
-/* grid kontejner za kategorije */
 
 .breadcrumb {
     max-width: 75rem;
@@ -2434,7 +2570,13 @@ footer {
 
 .breadcrumb a {
     text-decoration: none;
-    color: rgba(var(--brand-teal), 1);
+    color: rgba(var(--brand-teal-hover));
+}
+
+.breadcrumb:focus-visible {
+    outline: 2px solid rgba(var(--brand-teal), 0.2);
+    outline-offset: 2px;
+    border-radius: 4px;
 }
 
 @media (max-width: 768px) {
@@ -2445,6 +2587,11 @@ footer {
         font-size: .8rem;
     }
 }
+
+/* =========================================
+   K A T E G O R I J E  (C L E A N)
+   ========================================= */
+
 
 .categories-grid {
     display: grid;
@@ -2469,7 +2616,7 @@ footer {
     font-weight: 600;
     margin-top: 2rem;
     margin-bottom: 0.5rem;
-    color: rgb(var(--text-dark));
+    color: rgb(var(--text-mid));
     border-bottom: 1px solid transparent;
     border-image: linear-gradient(to right, rgba(var(--brand-accent), 0.3), rgba(var(--brand-accent), 0.8));
     border-image-slice: 1;
@@ -2501,7 +2648,7 @@ footer {
 
 .category h4 a:hover,
 .category h4 a:focus {
-    text-decoration: underline;
+    color: rgba(var(--brand-teal-hover));
 }
 
 
@@ -2579,7 +2726,7 @@ footer {
 :focus-visible {
     outline: 2px solid rgba(var(--brand-teal), .3);
     outline-offset: 2px;
-    border-radius: 6px;
+    border-radius: 4px;
 }
 
 /* bez horiz. skrola na malim ekranima zbog prelivanja */
@@ -2679,18 +2826,7 @@ body {
         padding-right: 0.5rem;
     }
 
-    .section-controls {
-        justify-content: center;
-        width: 60%;
-        padding-inline: 12px;
-        padding-top: 1rem;
-        margin-bottom: 1rem;
 
-    }
-
-    #sort-select {
-        width: min(100%, 320px);
-    }
 
     .main-sections .products-grid,
     .products-grid {
@@ -2980,6 +3116,7 @@ body {
     cursor: pointer;
     text-decoration: none;
 }
+
 .paginator .pag-pages a[aria-current="page"] {
     cursor: default;
 }
@@ -2995,7 +3132,7 @@ body {
     color: rgb(var(--brand-teal));
     border: 2px solid rgba(var(--brand-teal), 0.5);
     font-weight: 400;
-}   
+}
 
 /* Fokus (a11y) */
 .paginator a:focus-visible {

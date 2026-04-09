@@ -301,7 +301,7 @@
       <article class="product-card">
         <a href="${href}" class="product-link">
           ${imgTag}
-          <h4 class="product-title">${esc(name)}</h4>
+          <h3 class="product-title">${esc(name)}</h3>
           <p class="product-price">${price}</p>
           <span class="btn-cta btn-ghost">Detaljnije</span>
         </a>

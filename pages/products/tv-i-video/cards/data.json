@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 59,
+  "total_products": 61,
   "products": [
     {
       "name": "Fiksni zidni nosač za TV 15-42\" do 25kg – Gembird WM-42F-05",
@@ -73,7 +73,7 @@
       "price_rsd": 999,
       "slug": "gembird-dsw-hdmi-34-hdmi-switch-3-na-1",
       "category": "tv-i-video",
-      "group": "hdmi-oprema",
+      "group": "hdmi-adapteri",
       "img_thumb": "/images/products/gembird-dsw-hdmi-34-hdmi-switch-3-na-1-01-thumb.webp",
       "brand": "Gembird",
       "sku": "DSW-HDMI-34",
@@ -355,6 +355,17 @@
       "gtin13": "8716309135061"
     },
     {
+      "name": "Stono postolje - stalak za TV 35-75\" do 40kg – Gembird TVS-D75S-01",
+      "price_rsd": 3599,
+      "slug": "gembird-tvs-d75s-01-stono-tv-postolje",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "img_thumb": "/images/products/gembird-tvs-d75s-01-stono-tv-postolje-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "TVS-D75S-01",
+      "gtin13": "8716309135085"
+    },
+    {
       "name": "Univerzalne čelične nogice za TV 37-70“ – Gembird TVS-D70F-01",
       "price_rsd": 2499,
       "slug": "gembird-tvs-d70f-01-univerzalne-nogice-tv-postolje",
@@ -397,6 +408,17 @@
       "brand": "Gembird",
       "sku": "TVS-D90F-01",
       "gtin13": "8716309135115"
+    },
+    {
+      "name": "USB-C na HDMI adapter 4K – Gembird A-CM-HDMIF-01",
+      "price_rsd": 999,
+      "slug": "gembird-a-cm-hdmif-01-usb-c-hdmi-adapter-4k",
+      "category": "tv-i-video",
+      "group": "hdmi-adapteri",
+      "img_thumb": "/images/products/gembird-a-cm-hdmif-01-usb-c-hdmi-adapter-4k-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "A-CM-HDMIF-01",
+      "gtin13": "8716309097642"
     },
     {
       "name": "Zglobni nosač za TV 32-60\" do 36kg – Gembird WM-60ST-01",
