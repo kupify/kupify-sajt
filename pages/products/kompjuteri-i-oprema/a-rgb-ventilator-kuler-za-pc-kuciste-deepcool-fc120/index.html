@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li je za kontrolu osvetljenja kod DeepCool FC120 neophodan poseban kontroler?","acceptedAnswer":{"@type":"Answer","text":"Ne. Ovaj ventilator koristi standardni 3-pin +5V-D-G konektor koji se povezuje direktno na matičnu ploču,\n        omogućavajući softversko upravljanje bojama. DeepCool FC120 je kompatibilan sa većinom modernih ARGB sistema."}},{"@type":"Question","name":"Kako funkcioniše Daisy-chain sistem povezivanja više jedinica?","acceptedAnswer":{"@type":"Answer","text":"Sistem omogućava da se više kulera međusobno poveže jedan na drugi, tako da čitav niz koristi samo jedan\n        zajednički kabl za napajanje i RGB signal. Time se smanjuje broj kablova iza matične ploče i olakšava montaža."}},{"@type":"Question","name":"Može li se ovaj ventilator postaviti na vodenog hlađenje?","acceptedAnswer":{"@type":"Answer","text":"Da. Zahvaljujući statičkom pritisku od 1.83 mmAq, DeepCool FC120 efikasno potiskuje vazduh kroz gusta rebra hladnjaka.\n        PWM regulacija obezbeđuje da se brzina rotacije automatski prilagođava temperaturi procesora."}},{"@type":"Question","name":"Koja je uloga hidrodinamičkog ležaja u radu uređaja?","acceptedAnswer":{"@type":"Answer","text":"Hydro Bearing ležaj koristi tečnost za podmazivanje pokretnih delova, čime se drastično smanjuje trenje i\n        zagrevanje tokom rada. Ova tehnologija produžava radni vek i održava nivo buke ispod 28 dB(A) tokom dugotrajne\n        upotrebe."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">A-RGB ventilator kuler za PC kućište 120mm – DeepCool FC120</h1>
-            <p class="product-page-price">2199 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">A-RGB ventilator kuler za PC kućište 120mm – DeepCool FC120</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">2199 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -380,6 +401,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li je potrebno neko podešavanje pre korišćenja?","acceptedAnswer":{"@type":"Answer","text":"Ne, ovaj uređaj radi po principu \"Plug & Play\", što znači da čim povežete mrežne kablove, on automatski\n        prepoznaje brzinu i uspostavlja vezu."}},{"@type":"Question","name":"Može li se Dahua PFS3005-5GT-L montirati na zid?","acceptedAnswer":{"@type":"Answer","text":"Zbog svoje male težine od svega 90 grama i kompaktnih dimenzija, ovaj switch možete lako postaviti na radni sto\n        ili ga fiksirati u manjim mrežnim ormarima."}},{"@type":"Question","name":"Da li ovaj svič podržava PoE napajanje za IP kamere?","acceptedAnswer":{"@type":"Answer","text":"Nije podržano PoE napajanje, pa ukoliko planirate povezivanje kamera, one moraju imati sopstveni izvor struje ili\n        koristiti dodatne splitere."}},{"@type":"Question","name":"Koliko je pouzdan rad tokom letnjih meseci kada su temperature visoke?","acceptedAnswer":{"@type":"Answer","text":"Uređaj je projektovan da radi bez greške na temperaturama do 55°C, što garantuje stabilnost čak i u toplijim\n        prostorijama bez klimatizacije."}}]}
 </script>
 
@@ -178,16 +178,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Gigabitni LAN switch sa 5 portova – Dahua PFS3005-5GT-L</h1>
-            <p class="product-page-price">3499 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Gigabitni LAN switch sa 5 portova – Dahua PFS3005-5GT-L</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">3499 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -370,6 +391,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li je potrebno instalirati drajvere za rad sa ovim čitačem?","acceptedAnswer":{"@type":"Answer","text":"Nije potrebno. Uređaj podržava \"plug and play\" funkcionalnost, što znači da računar automatski prepoznaje čitač\n        čim se poveže na USB port."}},{"@type":"Question","name":"Koji maksimalni kapacitet kartica podržava čitač UGREEN CM264?","acceptedAnswer":{"@type":"Answer","text":"Ovaj model podržava memorijske kartice kapaciteta do 512 GB."}},{"@type":"Question","name":"Može li se ovaj čitač koristiti na uređajima sa USB-C portom?","acceptedAnswer":{"@type":"Answer","text":"Ne direktno. UGREEN CM264 poseduje USB-A konektor, pa je za povezivanje na USB-C portove potreban odgovarajući\n        adapter."}},{"@type":"Question","name":"Da li se mogu istovremeno čitati SD i TF kartica?","acceptedAnswer":{"@type":"Answer","text":"Ne. Čitač je dizajniran tako da u svakom trenutku možete koristiti samo jednu memorijsku karticu za prenos podataka."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">USB 3.0 čitač memorijskih kartica SD i microSD – UGREEN CM264</h1>
-            <p class="product-page-price">899 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">USB 3.0 čitač memorijskih kartica SD i microSD – UGREEN CM264</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">899 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -362,6 +383,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

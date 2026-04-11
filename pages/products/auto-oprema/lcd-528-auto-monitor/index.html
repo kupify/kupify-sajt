@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li se ovaj ekran automatski pali kada krenem u rikverc?","acceptedAnswer":{"@type":"Answer","text":"Da. Monitor detektuje signal sa kamere preko AV2 ulaza i automatski aktivira prikaz čim kamera dobije napajanje\n        iz rikverc svetla."}},{"@type":"Question","name":"Mogu li na monitor LCD-528 povezati još jedan uređaj pored kamere?","acceptedAnswer":{"@type":"Answer","text":"Da. Ovaj uređaj poseduje dva video ulaza, pa pored parking kamere možete povezati i drugi video izvor poput DVD\n        plejera ili prednje kamere."}},{"@type":"Question","name":"Da li je potrebno bušenje instrument table za montažu ovog ekrana?","acceptedAnswer":{"@type":"Answer","text":"Ne. Ovaj monitor poseduje postolje sa namenskom samolepljivom trakom koja omogućava fiksiranje na ravnu površinu\n        bez mehaničkih oštećenja unutrašnjosti vozila."}},{"@type":"Question","name":"Da li se na monitoru LCD-528 može podešavati ugao gledanja radi smanjenja odsjaja?","acceptedAnswer":{"@type":"Answer","text":"Da. Ovaj ekran je opremljen zglobnim nosačem koji omogućava promenu nagiba gore-dole i levo-desno, čime se\n        postiže optimalna vidljivost u zavisnosti od pozicije sunca ili unutrašnjeg osvetljenja vozila."}}]}
 </script>
 
@@ -178,16 +178,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Monitor za auto rikverc parking kameru 5" 12V LCD-528</h1>
-            <p class="product-page-price">3999 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Monitor za auto rikverc parking kameru 5" 12V LCD-528</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">3999 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -362,6 +383,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

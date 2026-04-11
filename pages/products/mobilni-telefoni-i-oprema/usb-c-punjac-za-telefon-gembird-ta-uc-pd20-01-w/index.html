@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li ovaj punjač sem iPhone može da puni i Android telefone?","acceptedAnswer":{"@type":"Answer","text":"Da, ovaj model radi sa svim Android telefonima koji podržavaju punjenje preko USB-C porta, pružajući maksimalnu\n        brzinu prema PD standardu."}},{"@type":"Question","name":"Koji kabl mi je potreban za Gembird TA-UC-PD20-01-W?","acceptedAnswer":{"@type":"Answer","text":"S obzirom na to da punjač ima USB-C izlaz, biće vam potreban kabl koji na jednoj strani ima USB-C priključak, a\n        na drugoj ulaz koji odgovara vašem telefonu."}},{"@type":"Question","name":"Može li Gembird TA-UC-PD20-01-W da puni moj iPhone 13?","acceptedAnswer":{"@type":"Answer","text":"Jeste, ovaj punjač je potpuno kompatibilan sa iPhone 13 modelom i podržava njegovo brzo punjenje od 20W."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">USB Type-C brzi punjač za telefon 20W – Gembird TA-UC-PD20-01-W</h1>
-            <p class="product-page-price">499 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">USB Type-C brzi punjač za telefon 20W – Gembird TA-UC-PD20-01-W</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">499 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -369,6 +390,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

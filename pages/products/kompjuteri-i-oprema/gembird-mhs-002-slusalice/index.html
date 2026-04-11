@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li su ove slušalice kompatibilne sa novijim laptopovima koji imaju samo jedan audio ulaz?","acceptedAnswer":{"@type":"Answer","text":"Ne direktno, jer ovaj model koristi dva zasebna 3.5 mm konektora za zvuk i mikrofon. U tom slučaju biće vam\n        potreban adapter koji spaja dva džeka u jedan četvoropolni priključak."}},{"@type":"Question","name":"Na koji način se podešava jačina zvuka na Gembird MHS-002 slušalicama?","acceptedAnswer":{"@type":"Answer","text":"Jačina se podešava manuelno putem malog točkića (potenciometra) koji se nalazi na samom kablu uređaja."}},{"@type":"Question","name":"Može li se mikrofon potpuno ukloniti sa slušalica?","acceptedAnswer":{"@type":"Answer","text":"Ne, ruka mikrofona je fiksirana za levu školjku, ali ovaj headset omogućava rotiranje mikrofona nagore kada\n        želite da ga sklonite sa lica."}},{"@type":"Question","name":"Da li je za rad MHS-002 modela potrebno instalirati drajvere?","acceptedAnswer":{"@type":"Answer","text":"Ne, uređaj radi po principu Plug & Play jer koristi analogni prenos signala preko\n        standardnih audio portova."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">PC slušalice sa mikrofonom – Gembird MHS-002</h1>
-            <p class="product-page-price">999 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">PC slušalice sa mikrofonom – Gembird MHS-002</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">999 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -367,6 +388,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

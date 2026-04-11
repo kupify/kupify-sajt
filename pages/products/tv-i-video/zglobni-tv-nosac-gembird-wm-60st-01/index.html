@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li moj TV može na ovaj nosač ako ima 55 inča?","acceptedAnswer":{"@type":"Answer","text":"Može, pod uslovom da njegov VESA standard (razmak rupa na poleđini) nije veći od 400x400 mm i da težina nije veća\n        od 36 kg, što je slučaj sa većinom današnjih 55-inčnih modela."}},{"@type":"Question","name":"Koliko je nosač uočljiv kada je skroz uvučen uz zid?","acceptedAnswer":{"@type":"Answer","text":"Kada je potpuno uvučen, rastojanje od zida je samo 4,2 cm. To ga čini vrlo diskretnim, dajući utisak da TV stoji\n        skoro ravno na zidu, slično kao fiksni nosači."}},{"@type":"Question","name":"Mogu li samostalno da montiram Gembird WM-60ST-01?","acceptedAnswer":{"@type":"Answer","text":"Uz nosač dobijate kompletan montažni set. Iako je montaža logična, zbog težine samog nosača i televizora, uvek\n        savetujemo da bušenje i postavljanje radite uz pomoć još jedne osobe."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Zglobni nosač za TV 32-60" do 36kg – Gembird WM-60ST-01</h1>
-            <p class="product-page-price">3199 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Zglobni nosač za TV 32-60" do 36kg – Gembird WM-60ST-01</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">3199 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -368,6 +389,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li ovaj bluetooth adapter zahteva baterije za rad?","acceptedAnswer":{"@type":"Answer","text":"Ne, on se napaja direktno preko USB porta u vašem automobilu ili punjaču telefona."}},{"@type":"Question","name":"Može li se Ugreen CM309 koristiti na kućnim zvučnicima?","acceptedAnswer":{"@type":"Answer","text":"Ovaj risiver je potpuno kompatibilan sa svim zvučnicima koji imaju standardni 3.5mm audio ulaz i dostupan\n        USB port."}},{"@type":"Question","name":"Koliki je domet bežične veze?","acceptedAnswer":{"@type":"Answer","text":"Uređaj omogućava stabilan prenos signala na udaljenosti do 5 metara, što je više nego dovoljno za svaki putnički\n        automobil."}},{"@type":"Question","name":"Da li je zvuk kvalitetan kao preko običnog kabla?","acceptedAnswer":{"@type":"Answer","text":"Bluetooth 5.0 verzija čipa u ovom uređaju osigurava kristalno čist prenos, pa će vaša muzika zvučati oštro i jasno bez\n        uobičajenih audio smetnji."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Bluetooth 5.0 audio prijemnik sa mikrofonom - handsfree za automobil – Ugreen CM309</h1>
-            <p class="product-page-price">1399 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Bluetooth 5.0 audio prijemnik sa mikrofonom - handsfree za automobil – Ugreen CM309</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">1399 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -363,6 +384,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

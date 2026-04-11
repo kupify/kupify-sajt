@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li ovaj hub može da pokrene eksterni hard disk bez dodatnog napajanja?","acceptedAnswer":{"@type":"Answer","text":"Da. Ovaj model je optimizovan da napaja standardne 2.5 inčne eksterne diskove direktno iz USB porta računara, pod\n        uslovom da matična ploča obezbeđuje standardni napon."}},{"@type":"Question","name":"Mogu li da koristim ovaj razdelnik na PlayStation 5 konzoli?","acceptedAnswer":{"@type":"Answer","text":"Da. Uređaj je potpuno kompatibilan sa konzolama i omogućava vam da proširite broj dostupnih portova za\n        povezivanje tastature, miša ili dodatnih kontrolera."}},{"@type":"Question","name":"Koja je realna brzina prenosa podataka ovog huba?","acceptedAnswer":{"@type":"Answer","text":"Maksimalna teoretska brzina je 5Gbps, što u realnom radu omogućava stabilan prenos od oko 400 do 450 MB/s. Brzina\n        zavisi od broja aktivnih uređaja i standarda porta na vašem računaru. Ukoliko ga koristite na USB 3.0 portu,\n        dobićete najbolje performanse, dok će na USB 2.0 ili 1.1 portovima brzina biti znatno manja."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">USB 3.0 Hub sa 4 porta, crni – UGREEN CM219 25851</h1>
-            <p class="product-page-price">999 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">USB 3.0 Hub sa 4 porta, crni – UGREEN CM219 25851</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">999 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -368,6 +389,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

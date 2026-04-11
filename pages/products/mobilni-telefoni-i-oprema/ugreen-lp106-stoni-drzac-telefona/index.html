@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li ovaj stalak može da drži telefon dok je na punjaču?","acceptedAnswer":{"@type":"Answer","text":"Da, dizajn ležišta omogućava pristup portu za punjenje, pa se uređaj može dopunjavati dok stoji na stalku u\n        horizontalnom položaju."}},{"@type":"Question","name":"Može li se na UGREEN LP106 postaviti tablet veći od 8 inča?","acceptedAnswer":{"@type":"Answer","text":"Ne, ovaj model je projektovan za uređaje maksimalne dijagonale do 7.9 inča kako bi se osigurala stabilnost i\n        sprečilo prevrtanje."}},{"@type":"Question","name":"Da li se mehanizam za podešavanje ugla vremenom olabavi?","acceptedAnswer":{"@type":"Answer","text":"Uređaj koristi čvrste zupčanike koji fiksiraju izabrani ugao, čime se obezbeđuje da položaj ostane nepromenjen\n        čak i pod težinom telefona."}},{"@type":"Question","name":"Od kog materijala su napravljeni delovi koji dodiruju telefon?","acceptedAnswer":{"@type":"Answer","text":"Ležište sadrži mekane silikonske elemente koji sprečavaju direktan kontakt plastike i uređaja, čime se eliminiše\n        rizik od oštećenja završne obrade."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Stoni držač - sklopivo postolje za mobilni telefon – UGREEN LP106</h1>
-            <p class="product-page-price">699 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Stoni držač - sklopivo postolje za mobilni telefon – UGREEN LP106</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">699 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -363,6 +384,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

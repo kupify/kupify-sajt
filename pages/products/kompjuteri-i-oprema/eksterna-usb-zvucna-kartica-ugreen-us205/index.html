@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li je potrebno instalirati drajvere za UGREEN US205?","acceptedAnswer":{"@type":"Answer","text":"Ne, ova zvučna kartica koristi Plug & Play tehnologiju, što znači da je računar automatski prepoznaje čim je\n        povežete."}},{"@type":"Question","name":"Koje vrste audio portova poseduje ovaj adapter?","acceptedAnswer":{"@type":"Answer","text":"Adapter poseduje dva zasebna 3.5 mm porta: jedan TRS izlaz za slušalice i jedan TRS ulaz za mikrofon. Ovi portovi\n        su dizajnirani za TRS konektore (koji na sebi imaju 2 crna prstena). Napomena: Ukoliko koristite slušalice sa mikrofonom koje imaju jedan džek sa 3 crna prstena\n        ( TRRS konektor ), one neće raditi direktno. Za takve uređaje potrebno je koristiti dodatni\n        adapter-razdelnik koji taj jedan TRRS džek razdvaja na poseban ulaz za zvuk i poseban ulaz za mikrofon."}},{"@type":"Question","name":"Da li će raditi na PlayStation konzoli?","acceptedAnswer":{"@type":"Answer","text":"Da, UGREEN US205 je kompatibilan sa PS4 i PS5 konzolama, omogućavajući povezivanje slušalica sa\n        mikrofonom."}},{"@type":"Question","name":"Kako se napaja ovaj adapter?","acceptedAnswer":{"@type":"Answer","text":"Zvučna kartica se napaja direktno putem USB porta na koji je povezana, bez potrebe za dodatnim izvorima\n        napajanja."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Eksterna USB zvučna kartica sa 3.5mm konektorima – UGREEN US205</h1>
-            <p class="product-page-price">1299 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Eksterna USB zvučna kartica sa 3.5mm konektorima – UGREEN US205</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">1299 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -365,6 +386,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

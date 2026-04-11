@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li ovaj uređaj radi na starijim USB 2.0 portovima?","acceptedAnswer":{"@type":"Answer","text":"Da, ova fleš memorija je potpuno kompatibilna sa starijim standardima, ali će brzina prenosa podataka biti ograničena\n        mogućnostima samog USB 2.0 porta."}},{"@type":"Question","name":"Koji operativni sistemi podržavaju MediaRange MR1903?","acceptedAnswer":{"@type":"Answer","text":"Uređaj radi na svim standardnim operativnim sistemima uključujući Windows, macOS i Linux bez potrebe za\n        instalacijom dodatnih drajvera."}},{"@type":"Question","name":"Zašto je memorija formatirana u exFAT sistemu?","acceptedAnswer":{"@type":"Answer","text":"Ovaj sistem datoteka je fabrički postavljen jer omogućava rad sa fajlovima većim od 4GB, što je neophodno za\n        skladištenje video materijala visoke rezolucije."}},{"@type":"Question","name":"Da li se aluminijumsko kućište greje tokom rada?","acceptedAnswer":{"@type":"Answer","text":"Aluminijum se prirodno zagreva jer služi kao hladnjak koji odvodi toplotu sa unutrašnjih komponenti, čime se\n        čuvaju performanse i dugovečnost memorije."}}]}
 </script>
 
@@ -170,16 +170,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">USB fleš memorija 256GB, 300MB/s (USB 3.2 Gen 1) – MediaRange MR1903</h1>
-            <p class="product-page-price">4599 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">USB fleš memorija 256GB, 300MB/s (USB 3.2 Gen 1) – MediaRange MR1903</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">4599 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -358,6 +379,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

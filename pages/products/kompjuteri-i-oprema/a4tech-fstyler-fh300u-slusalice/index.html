@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li su ove slušalice kompatibilne sa laptopovima koji imaju samo USB portove?","acceptedAnswer":{"@type":"Answer","text":"Da, ovaj model koristi isključivo USB konekciju za prenos zvuka i napajanje osvetljenja, što ga čini idealnim za\n        moderne laptop i desktop računare."}},{"@type":"Question","name":"Kako se podešava jačina zvuka na A4Tech Fstyler A4-FH300U modelu?","acceptedAnswer":{"@type":"Answer","text":"Jačina zvuka se kontroliše putem mehaničkog točkića koji se nalazi na samom kućištu slušalica, što omogućava brzo\n        utišavanje ili pojačavanje tokom rada."}},{"@type":"Question","name":"Da li mikrofon može da se rotira?","acceptedAnswer":{"@type":"Answer","text":"Da, višesmerni mikrofon na ovom uređaju je podesiv, pa ga možete postaviti u najoptimalniji položaj za razgovor\n        ili ga skloniti kada ga ne koristite."}},{"@type":"Question","name":"Da li je potrebno instalirati drajvere za rad slušalica?","acceptedAnswer":{"@type":"Answer","text":"Ne, uređaj radi po principu \"Plug and Play\", što znači da će operativni sistem automatski prepoznati hardver i\n        aktivirati digitalnu obradu zvuka bez dodatnog softvera."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Gejmerske USB slušalice sa mikrofonom – A4Tech Fstyler FH300U</h1>
-            <p class="product-page-price">1999 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Gejmerske USB slušalice sa mikrofonom – A4Tech Fstyler FH300U</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">1999 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -375,6 +396,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

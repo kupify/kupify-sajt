@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li Gembird WM-56F-05 dolazi sa svim potrebnim dodacima za montiranje?","acceptedAnswer":{"@type":"Answer","text":"Da, u pakovanju dobijate kompletan set koji uključuje šrafove, tiplove i matice, pa odmah možete početi sa instalacijom na zid."}},{"@type":"Question","name":"Koliko će televizor biti udaljen od zida nakon što se postavi?","acceptedAnswer":{"@type":"Answer","text":"Ovaj držač je dizajniran tako da profil bude izuzetno tanak, pa će vaš ekran biti udaljen svega 2 cm od površine zida."}},{"@type":"Question","name":"Da li je moguće pomerati ekran levo ili desno nakon montaže?","acceptedAnswer":{"@type":"Answer","text":"Nije, ovo je fiksni model koji ne dozvoljava pomeranje ugla ili pravca, što mu omogućava maksimalnu stabilnost i čvrstinu."}}]}
 </script>
 
@@ -174,16 +174,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Fiksni zidni nosač za TV 32-56" do 40 kg – Gembird WM-56F-05</h1>
-            <p class="product-page-price">429 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Fiksni zidni nosač za TV 32-56" do 40 kg – Gembird WM-56F-05</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">429 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -349,6 +370,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

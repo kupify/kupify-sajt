@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li ovaj transmiter daje čist zvuk ili ima smetnje kao oni stariji modeli?","acceptedAnswer":{"@type":"Answer","text":"Zahvaljujući savremenom Bluetooth 5.3 čipu i naprednoj tehnologiji za redukciju šuma, Kettz Yare\n        obezbeđuje čist, stabilan i jasan zvuk. Za razliku od starijih modela koji su imali problem sa šumom i mono\n        reprodukcijom, ovaj uređaj pruža kvalitetno audio iskustvo bez prekidanja i smetnji."}},{"@type":"Question","name":"Da li se Kettz Yare pregreva tokom brzog punjenja od 30W?","acceptedAnswer":{"@type":"Answer","text":"Ne, ovaj transmiter je projektovan da bezbedno radi na temperaturama do 50°C, koristeći ABS materijal koji\n        efikasno podnosi toplotu tokom rada."}},{"@type":"Question","name":"Može li se isključiti ambijentalno svetlo na uređaju?","acceptedAnswer":{"@type":"Answer","text":"Svetlo se menja kružno kroz 7 boja, a kontroliše se putem namenskog tastera, što omogućava prilagođavanje\n        atmosfere u kabini po vašoj želji."}},{"@type":"Question","name":"Šta označava skraćenica HFP u specifikacijama?","acceptedAnswer":{"@type":"Answer","text":"To je Hands-Free Profile koji omogućava da se Kettz Yare poveže sa vašim telefonom radi\n        obavljanja razgovora preko zvučnika u automobilu."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Bluetooth FM transmiter, MP3 plejer i USB punjač (PD 30W) – Kettz Yare</h1>
-            <p class="product-page-price">899 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Bluetooth FM transmiter, MP3 plejer i USB punjač (PD 30W) – Kettz Yare</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">899 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -376,6 +397,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

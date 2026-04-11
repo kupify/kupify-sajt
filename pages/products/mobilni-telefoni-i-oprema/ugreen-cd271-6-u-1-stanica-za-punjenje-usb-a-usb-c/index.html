@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Zašto se punjenje na trenutak prekine kada uključim novi uređaj?","acceptedAnswer":{"@type":"Answer","text":"To se dešava jer punjač preraspodeljuje snagu kada priključite novi uređaj. Kratko prekidanje je normalno i\n        omogućava da svi uređaji dobiju odgovarajuću snagu za punjenje."}},{"@type":"Question","name":"Mogu li da punim Apple Watch i slušalice istovremeno na USB-A portovima?","acceptedAnswer":{"@type":"Answer","text":"Preporučuje se da Apple Watch koristite samostalno na USB-A portu, jer može doći do prekida punjenja ako je\n        povezan još jedan uređaj."}},{"@type":"Question","name":"Da li ovaj uređaj može brzo da napuni dva laptopa odjednom?","acceptedAnswer":{"@type":"Answer","text":"Da. Dva primarna USB-C porta na UGREEN CD271 mogu isporučiti do 100W po portu, što je dovoljno za brzo punjenje\n        većine laptopova koji podržavaju Type-C punjenje."}},{"@type":"Question","name":"Koliko je dugačak kabl koji ide u zidnu utičnicu?","acceptedAnswer":{"@type":"Answer","text":"Ova stanica dolazi sa strujnim kablom dužine 2 metra, što omogućava lakše povezivanje sa udaljenim utičnicama."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">6-u-1 USB-C i USB-A stanica za punjenje 200W GaN – UGREEN Nexode CD271</h1>
-            <p class="product-page-price">17999 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">6-u-1 USB-C i USB-A stanica za punjenje 200W GaN – UGREEN Nexode CD271</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">17999 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -367,6 +388,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

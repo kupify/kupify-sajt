@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Koliko dugo ovaj svič može da radi preko eksterne baterije?","acceptedAnswer":{"@type":"Answer","text":"Pošto troši veoma malo struje, ovaj aktivni mrežni razdelnik može raditi ceo dan povezan na običan powerbank od 10.000\n        mAh, što je odlično rešenje za privremene instalacije."}},{"@type":"Question","name":"Gde je najbolje montirati ovaj uređaj?","acceptedAnswer":{"@type":"Answer","text":"Zbog kompaktnih dimenzija i težine od samo 53g, Cudy GS105U je idealan za zidnu montažu ili smeštanje u razvodne ormariće gde\n        je radna temperatura između 0°C i 40°C."}},{"@type":"Question","name":"Kakve kablove treba da koristim za maksimalnu brzinu?","acceptedAnswer":{"@type":"Answer","text":"Da biste iskoristili punu gigabitnu brzinu i stabilan signal, najbolje je koristiti standardne Cat 5e ili novije\n        mrežne kablove koji osiguravaju pouzdan rad."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Gigabitni LAN switch sa USB-C napajanjem i 5 portova – Cudy GS105U</h1>
-            <p class="product-page-price">1199 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Gigabitni LAN switch sa USB-C napajanjem i 5 portova – Cudy GS105U</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">1199 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -373,6 +394,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

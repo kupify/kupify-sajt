@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li ovaj stalak odgovara mom televizoru od 55 inča?","acceptedAnswer":{"@type":"Answer","text":"Da. Ovaj model podržava ekrane dijagonale od 37 do 75 inča, pod uslovom da težina televizora ne prelazi 40 kg i\n        da su VESA otvori na poleđini u rasponu do 600x400 mm."}},{"@type":"Question","name":"Koliko je stabilna staklena baza ovog postolja?","acceptedAnswer":{"@type":"Answer","text":"Baza je izrađena od kaljenog stakla debljine prilagođene velikim opterećenjima. Težina baze i konstrukcija\n        obezbeđuju stabilno stajanje na ravnoj površini."}},{"@type":"Question","name":"Na koju visinu mogu da podignem televizor?","acceptedAnswer":{"@type":"Answer","text":"Ovaj stalak nudi šest fiksnih nivoa visine, u rasponu od 361 mm do 550 mm. Tačna visina zavisi od položaja VESA\n        otvora na televizoru, tako da ispod njega može da stane risiver za kablovsku ili konzola."}},{"@type":"Question","name":"Moj TV ima nogice na krajevima. Da li ovo postolje mogu da koristim da postavim televizor na usku komodu?","acceptedAnswer":{"@type":"Answer","text":"Da, postolje se montira po sredini na VESA otvore, pa zauzima manje širine i može da stane na užu komodu."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Stono postolje - stalak za TV 35-75" do 40kg – Gembird TVS-D75S-01</h1>
-            <p class="product-page-price">3599 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Stono postolje - stalak za TV 35-75" do 40kg – Gembird TVS-D75S-01</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">3599 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -364,6 +385,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

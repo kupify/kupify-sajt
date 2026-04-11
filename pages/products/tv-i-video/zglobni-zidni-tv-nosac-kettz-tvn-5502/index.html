@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li je zglobni nosač Kettz TVN-5502 pogodan za monitore i manje televizore?","acceptedAnswer":{"@type":"Answer","text":"Zglobni nosač Kettz TVN-5502 je idealan izbor za ekrane manjih i srednjih dijagonala, od 17\" do\n        43\". Zahvaljujući podršci za VESA standarde do 200x200 mm i nosivosti od 30 kg, on pruža stabilan oslonac kako\n        za kompjuterske monitore, tako i za moderne LED televizore, omogućavajući vam maksimalnu fleksibilnost u radnom\n        ili kućnom prostoru."}},{"@type":"Question","name":"Koliko se Kettz TVN-5502 može nagnuti radi boljeg ugla gledanja?","acceptedAnswer":{"@type":"Answer","text":"Nosač Kettz TVN-5502 omogućava vertikalni nagib u rasponu od +5° do -15°, što je izuzetno\n        korisno za eliminisanje dosadnog odsjaja sunca ili sobnog osvetljenja. Ova funkcija vam dozvoljava da televizor\n        postavite na veću visinu, na primer u spavaćoj sobi, i nagnite ga naniže kako biste postigli savršenu liniju\n        gledanja iz kreveta."}},{"@type":"Question","name":"Kako odvojiva ploča na Kettz TVN-5502 nosaču olakšava montažu?","acceptedAnswer":{"@type":"Answer","text":"Zidni držač Kettz TVN-5502 dizajniran je sa odvojivom VESA pločom koja drastično\n        pojednostavljuje proces instalacije. Umesto da držite ceo televizor dok ga šrafite za ruku na zidu, ploču prvo\n        zasebno montirate na poleđinu ekrana, a zatim je jednostavno \"zakačite\" na bazu nosača, što čini montažu bržom,\n        lakšom i bezbednijom za jednu osobu."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Zglobni zidni nosač za TV 17-43" do 30kg – Kettz TVN-5502</h1>
-            <p class="product-page-price">1199 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Zglobni zidni nosač za TV 17-43" do 30kg – Kettz TVN-5502</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">1199 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -375,6 +396,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

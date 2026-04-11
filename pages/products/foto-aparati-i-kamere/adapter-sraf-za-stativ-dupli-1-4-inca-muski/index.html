@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Mogu li ovim šrafom montirati LED reflektor ili monitor na rig za kameru?","acceptedAnswer":{"@type":"Answer","text":"Da, on je idealan upravo za montažu prateće opreme na rigove i kaveze, jer omogućava čvrstu vezu između dva\n        elementa sa ženskim 1/4\" navojima."}},{"@type":"Question","name":"Koliko je adapter siguran za težu foto i video opremu?","acceptedAnswer":{"@type":"Answer","text":"Pošto je izrađen od punog metala, veoma je izdržljiv. Bez problema nosi težinu standardnih DSLR foto-aparata,\n        mirrorless kamera, eksternih monitora i LED rasvete."}},{"@type":"Question","name":"Da li mi je potreban alat za montiranje ovog adaptera na stativ?","acceptedAnswer":{"@type":"Answer","text":"Nije vam potreban alat. Središnji deo je nazubljen kako bi se omogućilo lako i čvrsto pritezanje prstima, što je\n        vrlo praktično za brzu izmenu opreme na terenu."}}]}
 </script>
 
@@ -178,16 +178,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Adapter šraf za stativ 1/4" na 1/4" dupli muški – Kupify TRP-1414-MM</h1>
-            <p class="product-page-price">99 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Adapter šraf za stativ 1/4" na 1/4" dupli muški – Kupify TRP-1414-MM</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">99 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -356,6 +377,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 87,
+  "total_products": 88,
   "products": [
     {
       "name": "2-u-1 Fleš memorija 128GB (USB 3.2, Type-C + USB-A) – MediaRange MR938",
@@ -946,6 +946,17 @@
       "brand": "Gembird",
       "sku": "MA-WA1-02",
       "gtin13": "8716309126113"
+    },
+    {
+      "name": "Zidni nosač sa gasnom oprugom sa rukama za 2 monitora – Gembird MA-WA2-01",
+      "price_rsd": 7399,
+      "slug": "gembird-ma-wa2-01-zidni-nosac-za-2-monitora",
+      "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
+      "img_thumb": "/images/products/gembird-ma-wa2-01-zidni-nosac-za-2-monitora-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MA-WA2-01",
+      "gtin13": "8716309126120"
     },
     {
       "name": "Zidni zglobni nosač za monitor 13-27\" – Kettz TVN-4003",

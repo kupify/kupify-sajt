@@ -1020,6 +1020,22 @@ div.tekst-lista {
     margin: 0rem;
 
 }
+.product-page-meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1rem;
+}
+
+.product-page-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.product-page-right {
+  display: flex;
+  align-items: flex-start;
+}
 
 .product-page-price {
     font-size: 1.2rem;
@@ -1043,6 +1059,30 @@ div.tekst-lista {
     margin: 0;
 }
 
+.btn-share {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+
+    background: none;
+    border: none;
+    border-bottom: none;
+
+    padding: 0rem;
+
+    font: inherit;
+    color: rgba(var(--text-dark), 0.7);
+
+    cursor: pointer;
+}
+.share-icon {
+    font-size: 1.1rem;
+    line-height: 1;
+}
+
+.share-text {
+    font-size: 0.9rem;
+}
 /* galerija */
 .product-page-gallery {
     max-width: 40rem;
@@ -1493,6 +1533,20 @@ div.tekst-lista {
         margin: 0.4rem 0 0;
         font-size: 0.72rem;
     }
+    .btn-share {
+
+    padding: 0rem;
+    font-size: 0.72rem;
+
+}
+.share-icon {
+    font-size: 1rem;
+    line-height: 1;
+}
+
+.share-text {
+    font-size: 0.8rem;
+}
 
     .product-description {
         max-width: 95%;
@@ -2611,7 +2665,7 @@ footer {
 
 /* desktop */
 /* naslov sa ikonom desno */
-.category h4 {
+.category h3 {
     font-size: 1.15rem;
     font-weight: 600;
     margin-top: 2rem;
@@ -2632,7 +2686,7 @@ footer {
     min-height: calc(1.3em * var(--title-lines) + 0.6rem);
 }
 
-.category h4 a {
+.category h3 a {
     text-decoration: none;
     color: inherit;
     flex: 1 1 auto;
@@ -2646,9 +2700,16 @@ footer {
     max-height: calc(1.3em * 2);
 }
 
-.category h4 a:hover,
-.category h4 a:focus {
+.category h3 a:hover {
     color: rgba(var(--brand-teal-hover));
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/*.category h3 a:focus {
+    color: rgba(var(--brand-teal-hover));
+    text-decoration: none;
+    transition: color 0.3s;
 }
 
 
@@ -2886,7 +2947,7 @@ body {
         padding: 0 0.75rem;
     }
 
-    .category h4 {
+    .category h3 {
         font-size: 1.1rem;
         margin-top: 1.4rem;
     }
@@ -2916,7 +2977,7 @@ body {
         padding: 0 0.75rem;
     }
 
-    .category h4 {
+    .category h3 {
         font-size: 1rem;
         margin-top: 1.2rem;
     }
@@ -3020,7 +3081,7 @@ body {
     }
 
     /* 3) Naslov u kategoriji: dozvoli da ikonici ne “odseče” rub */
-    .category h4 {
+    .category h3 {
         padding-right: 0.5rem;
         /* buffer desno da ikonica ne dođe do same ivice */
         overflow: visible;

@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li proces kloniranja mogu da pokrenem dok je dock povezan na računar?","acceptedAnswer":{"@type":"Answer","text":"Ne. Za aktivaciju funkcije offline kloniranja potrebno je da USB kabl bude isključen iz računara, dok napajanje\n        mora ostati aktivno."}},{"@type":"Question","name":"Mogu li istovremeno da priključim dva HDD ili SSD različitih dimenzija?","acceptedAnswer":{"@type":"Answer","text":"Da. Ležišta podržavaju kombinovanje diskova od 2.5 i 3.5 inča, pod uslovom da oba koriste standardni SATA\n        interfejs."}},{"@type":"Question","name":"Da li ciljni disk (Target) mora da ima veći kapacitet od izvornog (Source) prilikom kopiranja?","acceptedAnswer":{"@type":"Answer","text":"Kapacitet ciljnog diska mora biti jednak ili veći od izvornog diska kako bi Ugreen CM198\n            50857 mogao uspešno da završi proces kloniranja."}},{"@type":"Question","name":"Kako se prati napredak kopiranja podataka bez monitora?","acceptedAnswer":{"@type":"Answer","text":"Ovaj uređaj poseduje četiri LED indikatora koji svetle na nivoima od 25%, 50%, 75% i 100% završenog\n        procesa."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Dual-Bay SATA Docking stanica USB 3.0 za 2.5" i 3.5" HDD i SSD – Ugreen CM198</h1>
-            <p class="product-page-price">4399 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Dual-Bay SATA Docking stanica USB 3.0 za 2.5" i 3.5" HDD i SSD – Ugreen CM198</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">4399 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -373,6 +394,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

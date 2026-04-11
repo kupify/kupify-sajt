@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Polomljene su mi originalne nogice televizora. Da li će mi ovo postolje rešiti problem?","acceptedAnswer":{"@type":"Answer","text":"Da, ovo je univerzalno postolje koje se šrafi u VESA otvore i menja fabričke nogice."}},{"@type":"Question","name":"Da li će ovo postolje izdržati težak televizor od 85 inča?","acceptedAnswer":{"@type":"Answer","text":"Da. Model Gembird TVS-D90F-01 je izrađen od čelika i testiran za opterećenje do 60 kg, što pokriva većinu\n        televizora u tom rasponu dijagonala."}},{"@type":"Question","name":"Mogu li da podešavam visinu nakon što montiram TV?","acceptedAnswer":{"@type":"Answer","text":"Ne, da bi se visina promenila, potrebno je odvrnuti šrafove koji drže TV za postolje i zatim ga ponovo fiksirati\n        na jedan od tri nivoa."}},{"@type":"Question","name":"Da li će ove nogice ogrebati moju novu TV komodu?","acceptedAnswer":{"@type":"Answer","text":"Ne. Na donjem delu stopa nalaze se gumeni podlošci koji amortizuju težinu i sprečavaju direktan kontakt metala sa\n        nameštajem."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Univerzalno postolje - nogice za TV 45-90" – Gembird TVS-D90F-01</h1>
-            <p class="product-page-price">4199 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Univerzalno postolje - nogice za TV 45-90" – Gembird TVS-D90F-01</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">4199 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -371,6 +392,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

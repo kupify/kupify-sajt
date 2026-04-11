@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li se Gembird WM-75ST-02 može montirati u sam ugao prostorije?","acceptedAnswer":{"@type":"Answer","text":"Ovaj model je specijalno dizajniran kao ugaoni nosač sa zglobnom rukom koja omogućava\n        postavljanje televizora na mestima gde se spajaju dva zida. Zahvaljujući dugačkoj ruci koja se izvlači do 490\n        mm, ovaj model vam dozvoljava da maksimalno iskoristite ugao sobe i idealno postavite ekran dijagonale do 75\n        inča."}},{"@type":"Question","name":"Koliku težinu televizora može bezbedno da nosi Gembird WM-75ST-02?","acceptedAnswer":{"@type":"Answer","text":"Gembird WM-75ST-02 poseduje jaku čeličnu konstrukciju koja garantuje stabilnost za televizore\n        težine do 45,5 kg. Njegova dvostruka ruka je projektovana da izdrži opterećenje čak i pri maksimalnom\n        izvlačenju, pružajući sigurnost za velike LED i LCD ekrane bez rizika od naginjanja ili popuštanja baze."}},{"@type":"Question","name":"Kako podesiti ugao gledanja i nagib na Gembird WM-75ST-02 nosaču?","acceptedAnswer":{"@type":"Answer","text":"Gembird WM-75ST-02 nudi izuzetnu fleksibilnost sa mogućnošću nagiba od -5° do +8° za\n        eliminisanje odsjaja svetlosti, kao i horizontalno okretanje do ±50°. Dodatno, ovaj model poseduje funkciju\n        finog nivelisanja od ±4°, što vam omogućava da savršeno ispravite televizor nakon montaže ukoliko rupe na zidu\n        nisu izbušene potpuno simetrično."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Zglobni ugaoni nosač za TV 32-75“ do 45kg – Gembird WM-75ST-02</h1>
-            <p class="product-page-price">4669 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Zglobni ugaoni nosač za TV 32-75“ do 45kg – Gembird WM-75ST-02</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">4669 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -375,6 +396,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

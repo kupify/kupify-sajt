@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Kako se hladi laptop na ovom postolju kada ono nema ventilatore?","acceptedAnswer":{"@type":"Answer","text":"Hlađenje se vrši pasivno kroz perforiranu čeličnu ploču. Rupice omogućavaju prirodno strujanje vazduha odozdo,\n        čime se smanjuje zadržavanje toplote ispod laptopa."}},{"@type":"Question","name":"Koliko prostora ostaje slobodno ispod postolja?","acceptedAnswer":{"@type":"Answer","text":"Zavisi od podešene visine (100-140 mm), što je dovoljno za odlaganje tastature, eksternih diskova ili papira i dokumentacije."}},{"@type":"Question","name":"Da li se ovaj stalak kliza po stolu prilikom izvlačenja fioke?","acceptedAnswer":{"@type":"Answer","text":"Ne. Nogice imaju dodatke protiv klizanja, tako da postolje ostaje stabilno tokom korišćenja."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Podesivo postolje za monitor sa fiokom – Gembird MS-TABLE-D-01</h1>
-            <p class="product-page-price">1499 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Podesivo postolje za monitor sa fiokom – Gembird MS-TABLE-D-01</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">1499 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -341,6 +362,10 @@
                             <img src="/images/products/cudy-fs108d-v4-lan-switch-8-portova-01-thumb.webp" width="130" height="130" loading="lazy" alt="">
                             <span class="related-title">LAN mrežni switch sa 8 portova 10/100 Mbps – Cudy FS108D v4.0</span>
                         </a>
+<a class="related-card" href="/pages/products/kompjuteri-i-oprema/gembird-ma-wa2-01-zidni-nosac-za-2-monitora/">
+                            <img src="/images/products/gembird-ma-wa2-01-zidni-nosac-za-2-monitora-01-thumb.webp" width="130" height="130" loading="lazy" alt="">
+                            <span class="related-title">Zidni nosač sa gasnom oprugom sa rukama za 2 monitora – Gembird MA-WA2-01</span>
+                        </a>
 <a class="related-card" href="/pages/products/kompjuteri-i-oprema/bezicni-opticki-mis-gembird-musw-4b-01-w/">
                             <img src="/images/products/bezicni-opticki-mis-gembird-musw-4b-01-w-01-thumb.webp" width="130" height="130" loading="lazy" alt="">
                             <span class="related-title">Bežični optički miš 2.4 GHz 800-1600 DPI – Gembird MUSW-4B-01-W</span>
@@ -349,10 +374,6 @@
                             <img src="/images/products/stoni-nosac-ruka-za-monitor-gembird-ma-da1-05-01-thumb.webp" width="130" height="130" loading="lazy" alt="">
                             <span class="related-title">Stoni nosač - ruka za monitor 17-32" sa gasnom oprugom – Gembird MA-DA1-05</span>
                         </a>
-<a class="related-card" href="/pages/products/kompjuteri-i-oprema/podesivi-nosac-ruka-za-monitor-gembird-ma-d1-02/">
-                            <img src="/images/products/podesivi-nosac-ruka-za-monitor-gembird-ma-d1-02-01-thumb.webp" width="130" height="130" loading="lazy" alt="">
-                            <span class="related-title">Podesivi stoni nosač – ruka držač za monitor 17-32" Gembird MA-D1-02</span>
-                        </a>
   </div>
 </section>
 
@@ -360,6 +381,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

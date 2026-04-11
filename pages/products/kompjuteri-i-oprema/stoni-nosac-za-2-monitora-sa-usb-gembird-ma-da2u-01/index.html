@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li nosač sa gasnom oprugom može da drži i lakše monitore?","acceptedAnswer":{"@type":"Answer","text":"Gembird MA-DA2U-01 je projektovan za ekrane težine od 2 do 9 kg. Važno je da vaš monitor ima barem 2 kg kako bi\n        gasni amortizer mogao pravilno da balansira težinu i zadrži ekran tačno u onom položaju u koji ga postavite."}},{"@type":"Question","name":"Čemu služe USB portovi u bazi nosača?","acceptedAnswer":{"@type":"Answer","text":"Ovi priključci su tu da vam najvažniji portovi uvek budu pri ruci, bilo da želite da povežete fleš memoriju, miša\n        ili dopunite telefon. Glavni cilj je praktičnost, kako više ne biste morali da se saginjete do kućišta računara\n        svaki put kad nešto priključujete."}},{"@type":"Question","name":"Šta ako mi monitori nisu iste veličine?","acceptedAnswer":{"@type":"Answer","text":"To uopšte nije problem, jer svaka ruka nosača Gembird MA-DA2U-01 radi potpuno nezavisno. Možete kombinovati\n        različite dijagonale do 32 inča i svaku podesiti posebno, tako da oba ekrana stoje stabilno i u ravni koja vama\n        najviše prija."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Stoni nosač za 2 monitora 17-32" sa USB portovima – Gembird MA-DA2U-01</h1>
-            <p class="product-page-price">5499 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Stoni nosač za 2 monitora 17-32" sa USB portovima – Gembird MA-DA2U-01</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">5499 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -364,9 +385,9 @@
                             <img src="/images/products/stoni-nosac-za-monitor-gembird-ma-d1-01-01-thumb.webp" width="130" height="130" loading="lazy" alt="">
                             <span class="related-title">Stoni nosač - ruka za monitor do 17-32" - Gembird MA-D1-01</span>
                         </a>
-<a class="related-card" href="/pages/products/kompjuteri-i-oprema/stoni-nosac-ruka-za-monitor-gembird-ma-da1-05/">
-                            <img src="/images/products/stoni-nosac-ruka-za-monitor-gembird-ma-da1-05-01-thumb.webp" width="130" height="130" loading="lazy" alt="">
-                            <span class="related-title">Stoni nosač - ruka za monitor 17-32" sa gasnom oprugom – Gembird MA-DA1-05</span>
+<a class="related-card" href="/pages/products/kompjuteri-i-oprema/gembird-ma-wa2-01-zidni-nosac-za-2-monitora/">
+                            <img src="/images/products/gembird-ma-wa2-01-zidni-nosac-za-2-monitora-01-thumb.webp" width="130" height="130" loading="lazy" alt="">
+                            <span class="related-title">Zidni nosač sa gasnom oprugom sa rukama za 2 monitora – Gembird MA-WA2-01</span>
                         </a>
   </div>
 </section>
@@ -375,6 +396,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

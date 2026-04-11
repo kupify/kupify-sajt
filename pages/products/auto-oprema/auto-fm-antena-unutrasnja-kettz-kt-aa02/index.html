@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li je komplikovano namontirati ovu antenu?","acceptedAnswer":{"@type":"Answer","text":"Ne, montaža je veoma jednostavna. Ovaj model antene se jednostavno lepi na vetrobransko staklo uz pomoć\n        samolepljive trake koja je sa zadnje strane."}},{"@type":"Question","name":"Kako povezati napajanje za pojaćivač Kettz KT-AA02 antene?","acceptedAnswer":{"@type":"Answer","text":"Napajanje od 12V se povezuje direktno na izlaz sa vašeg auto radija, što omogućava da se uređaj aktivira i gasi\n        istovremeno sa uključivanjem i gašenjem muzike, čime štedite akumulator auta."}},{"@type":"Question","name":"Da li ova antena podržava i AM i FM stanice?","acceptedAnswer":{"@type":"Answer","text":"Da, dizajnirana je da pojača i stabilizuje prijem kako FM tako i AM radio signala."}},{"@type":"Question","name":"Koliko je dugačak kabl koji dolazi uz nju?","acceptedAnswer":{"@type":"Answer","text":"Kabl je dugačak 2 metra, što je sasvim dovoljno za uredno sprovođenje od vetrobrana do vašeg auto radija."}}]}
 </script>
 
@@ -166,16 +166,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Auto FM antena sa pojačivačem za šofersajbnu – Kettz KT-AA02</h1>
-            <p class="product-page-price">499 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Auto FM antena sa pojačivačem za šofersajbnu – Kettz KT-AA02</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">499 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -341,6 +362,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

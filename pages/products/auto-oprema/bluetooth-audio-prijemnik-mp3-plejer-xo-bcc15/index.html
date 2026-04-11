@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li XO BCC15 funkcioniše na auto-radijima bez fabričkog Bluetooth-a?","acceptedAnswer":{"@type":"Answer","text":"Da, uređaj je dizajniran za tu namenu. Neophodno je da auto-radio ili zvučni sistem poseduje analogni 3.5mm AUX\n        ulaz."}},{"@type":"Question","name":"Koliko dugo traje baterija na XO BCC15 modelu?","acceptedAnswer":{"@type":"Answer","text":"Ugrađena punjiva baterija obezbeđuje do 6 sati neprekidnog rada (reprodukcija muzike ili telefonski pozivi) pre\n        potrebe za ponovnim punjenjem."}},{"@type":"Question","name":"Da li je moguće kontrolisati reprodukciju muzike sa telefona?","acceptedAnswer":{"@type":"Answer","text":"Da, uređaj podržava AVRCP protokol, što omogućava kontrolu osnovnih funkcija reprodukcije (play / pause / skip)\n        direktno sa povezanog telefona."}},{"@type":"Question","name":"Može li se uređaj koristiti kao Bluetooth adapter za računar?","acceptedAnswer":{"@type":"Answer","text":"Ne, XO BCC15 je isključivo audio risiver. On prima Bluetooth signal i konvertuje ga u analogni audio izlaz, što\n        znači da nije namenjen za povezivanje sa računarom radi prenosa podataka."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Bluetooth audio prijemnik sa microSD MP3 plejerom – XO BCC15</h1>
-            <p class="product-page-price">899 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Bluetooth audio prijemnik sa microSD MP3 plejerom – XO BCC15</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">899 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -373,6 +394,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

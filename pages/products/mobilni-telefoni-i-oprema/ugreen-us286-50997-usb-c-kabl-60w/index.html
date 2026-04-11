@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Može li ovaj kabl da puni moj laptop ili je samo za telefone?","acceptedAnswer":{"@type":"Answer","text":"Da. Podržava snagu do 60W, što je sasvim dovoljno za MacBook Air ili slične ultrabook modele. Za jače gejmerske laptopove koji traže punjač od 90W ili 100W radiće sporije."}},{"@type":"Question","name":"Da li će mi se telefon brže puniti ako kupim ovaj kabl?","acceptedAnswer":{"@type":"Answer","text":"Brzina punjenja najviše zavisi od vašeg strujnog adaptera. Ako imate brz punjač (PD ili QC), Ugreen US286 50997 će bez problema propustiti punu snagu do telefona, ali sam kabl ne može ubrzati punjenje ako je adapter slab."}},{"@type":"Question","name":"Da li je ova crna izolacija dobra, da li će pući ako smotan kabl stalno nosim u torbi?","acceptedAnswer":{"@type":"Answer","text":"Spoljna izolacija je od mekog PVC materijala koji je prilično elastičan. Spojevi kod samih džekova su dodatno ojačani da se izolacija ne bi svukla ili pukla od stalnog motanja i pakovanja u džep ili ranac."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">USB-C kabl za brzo punjenje PD 60W, 1m, crni – Ugreen US286 50997</h1>
-            <p class="product-page-price">599 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">USB-C kabl za brzo punjenje PD 60W, 1m, crni – Ugreen US286 50997</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">599 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -360,6 +381,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Mogu li da okrenem monitor vertikalno?","acceptedAnswer":{"@type":"Answer","text":"Naravno, nosač Gembird MA-D1-03 podržava punu rotaciju od 360 stepeni, što vam omogućava da ekran brzo i lako\n        prebacite u vertikalni (portretni) položaj, što je idealno za čitanje dugačkih dokumenata ili programiranje."}},{"@type":"Question","name":"Šta ako mi je radni sto veoma debeo?","acceptedAnswer":{"@type":"Answer","text":"Ovaj model je projektovan da bude maksimalno prilagodljiv – njegova snažna stezaljka podržava ploče stola\n        debljine do čak 85 mm, pa će se lako uklopiti na gotovo svaki standardni ili masivni kancelarijski sto."}},{"@type":"Question","name":"Da li je montaža komplikovana?","acceptedAnswer":{"@type":"Answer","text":"Instalacija je brza i ne zahteva majstorsko predznanje. U pakovanju dobijate sav potreban alat, a sistem\n        stezaljke vam omogućava da fiksirate nosač bez bušenja ploče, čime čuvate nameštaj od oštećenja."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Stoni nosač - ruka za monitor 17-32" – Gembird MA-D1-03</h1>
-            <p class="product-page-price">1999 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Stoni nosač - ruka za monitor 17-32" – Gembird MA-D1-03</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">1999 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -359,13 +380,13 @@
                             <img src="/images/products/stoni-nosac-za-monitor-gembird-ma-d1-01-01-thumb.webp" width="130" height="130" loading="lazy" alt="">
                             <span class="related-title">Stoni nosač - ruka za monitor do 17-32" - Gembird MA-D1-01</span>
                         </a>
+<a class="related-card" href="/pages/products/kompjuteri-i-oprema/gembird-ma-wa2-01-zidni-nosac-za-2-monitora/">
+                            <img src="/images/products/gembird-ma-wa2-01-zidni-nosac-za-2-monitora-01-thumb.webp" width="130" height="130" loading="lazy" alt="">
+                            <span class="related-title">Zidni nosač sa gasnom oprugom sa rukama za 2 monitora – Gembird MA-WA2-01</span>
+                        </a>
 <a class="related-card" href="/pages/products/kompjuteri-i-oprema/stoni-nosac-ruka-za-monitor-gembird-ma-da1-05/">
                             <img src="/images/products/stoni-nosac-ruka-za-monitor-gembird-ma-da1-05-01-thumb.webp" width="130" height="130" loading="lazy" alt="">
                             <span class="related-title">Stoni nosač - ruka za monitor 17-32" sa gasnom oprugom – Gembird MA-DA1-05</span>
-                        </a>
-<a class="related-card" href="/pages/products/kompjuteri-i-oprema/podesivi-nosac-ruka-za-monitor-gembird-ma-d1-02/">
-                            <img src="/images/products/podesivi-nosac-ruka-za-monitor-gembird-ma-d1-02-01-thumb.webp" width="130" height="130" loading="lazy" alt="">
-                            <span class="related-title">Podesivi stoni nosač – ruka držač za monitor 17-32" Gembird MA-D1-02</span>
                         </a>
   </div>
 </section>
@@ -374,6 +395,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

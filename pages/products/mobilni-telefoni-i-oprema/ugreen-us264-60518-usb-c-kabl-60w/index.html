@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li je ovo istovremeno i kabl za brzo punjenje i brz prenos podataka?","acceptedAnswer":{"@type":"Answer","text":"Ne. Ovaj kabl podržava brzo punjenje snagom do 60W, ali je prenos podataka ograničen na USB 2.0 standard brzine 480 Mb/s."}},{"@type":"Question","name":"Mogu li da punim laptop koji zahteva punjač od 90W ili 100W?","acceptedAnswer":{"@type":"Answer","text":"Da, ali će brzina punjenja biti ograničena na maksimalnih 60W koliko Ugreen US264 60518\n        podržava. Uređaj će se puniti sporije nego sa originalnim kablom veće snage."}},{"@type":"Question","name":"Da li je kabl bezbedan za korišćenje sa Samsung telefonima?","acceptedAnswer":{"@type":"Answer","text":"Da. Ovaj kabl je kompatibilan sa AFC (Adaptive Fast Charging) i Power Delivery standardima, što osigurava brzo i\n        bezbedno punjenje bez rizika po bateriju."}},{"@type":"Question","name":"Da li mogu da ga koristim za povezivanje eksternog SSD diska?","acceptedAnswer":{"@type":"Answer","text":"Da. Kabl omogućava prenos podataka, ali će brzina biti ograničena na USB 2.0 standard (maksimalno 40-60 MB/s),\n        što je sporije od maksimalnih mogućnosti savremenih eksternih diskova."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">USB-C kabl za brzo punjenje PD 60W, 1m, beli – Ugreen US264 60518</h1>
-            <p class="product-page-price">599 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">USB-C kabl za brzo punjenje PD 60W, 1m, beli – Ugreen US264 60518</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">599 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -365,6 +386,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

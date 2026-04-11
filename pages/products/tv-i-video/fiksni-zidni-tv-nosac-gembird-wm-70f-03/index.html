@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li je Gembird WM-70F-03 kompatibilan sa svim 70-inčnim televizorima?","acceptedAnswer":{"@type":"Answer","text":"Gembird WM-70F-03 je kompatibilan sa većinom televizora dijagonale do 70 inča, pod uslovom da\n        njihova težina ne prelazi 35 kg i da koriste jedan od podržanih VESA standarda (maksimalno 600x400 mm). Pre\n        montaže obavezno proverite raspored rupa za šrafljenje na poleđini vašeg TV-a kako biste osigurali savršeno\n        prijanjanje."}},{"@type":"Question","name":"Koliko prostora ostaje za kablove kod Gembird WM-70F-03 fiksnog nosača?","acceptedAnswer":{"@type":"Answer","text":"Gembird WM-70F-03 nudi izuzetno tanak profil sa udaljenošću od zida od samo 20,5 mm. Zbog ovog\n        minimalističkog dizajna, preporučuje se korišćenje kablova sa konektorima pod uglom od 90 stepeni ili bočnih\n        priključaka na televizoru, kako bi se izbeglo savijanje kablova i omogućilo da ekran stoji potpuno ravno uz zid."}},{"@type":"Question","name":"Koji VESA standardi su podržani za Gembird WM-70F-03 nosač?","acceptedAnswer":{"@type":"Answer","text":"Gembird WM-70F-03 podržava širok spektar VESA standarda, uključujući 200x200, 300x300, 400x200,\n        400x400 i 600x400 mm. Ova univerzalnost omogućava montiranje različitih generacija LCD i LED televizora,\n        pružajući vam fleksibilnost pri zameni uređaja bez potrebe za kupovinom novog nosača."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Fiksni zidni nosač za TV 37-70" do 35kg – Gembird WM-70F-03</h1>
-            <p class="product-page-price">829 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Fiksni zidni nosač za TV 37-70" do 35kg – Gembird WM-70F-03</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">829 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -373,6 +394,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

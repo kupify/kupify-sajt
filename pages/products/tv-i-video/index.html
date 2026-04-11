@@ -56,14 +56,22 @@
         <section class="main-sections" aria-label="TV i video">
             <h2 class="section-title">TV i video</h2>
 
-            <div class="section-controls">
-                <label for="sort-select">Sortiraj</label>
-                <select id="sort-select" aria-label="Sortiraj proizvode">
-                    <option value="name-asc">Naziv A-Š</option>
-                    <option value="name-desc">Naziv Š-A</option>
-                    <option value="price-asc">Cena rastuće</option>
-                    <option value="price-desc">Cena opadajuće</option>
-                </select>
+            <div class="category-controls">
+                <div class="category-groups">
+                    <button class="group-tab is-active" data-group="all">Sve</button>
+                    <button class="group-tab" data-group="antene">Antene</button>
+                    <button class="group-tab" data-group="tv-nosaci">TV Nosači</button>
+                </div>
+
+                <div class="category-sort">
+                    <label for="sort-select">Sortiraj</label>
+                    <select id="sort-select" aria-label="Sortiraj proizvode">
+                        <option value="name-asc">Naziv A-Š</option>
+                        <option value="name-desc">Naziv Š-A</option>
+                        <option value="price-asc">Cena rastuće</option>
+                        <option value="price-desc">Cena opadajuće</option>
+                    </select>
+                </div> 
             </div>
 
             <!-- GRID PROIZVODA -->
@@ -88,7 +96,7 @@
     <div id="footer"></div>
     <script src="/js/header-footer.js"></script>
 
-    <script src="/js/category-listing.js"></script>
+    <script src="/js/category-listing.js" defer></script>
     <script src="/js/canonical-fix.js"></script>
 
 </body>

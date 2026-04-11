@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li je opasno koristiti ovu lampu tokom kupanja pošto radi na struju?","acceptedAnswer":{"@type":"Answer","text":"Ne. Lampa koristi napon od 1.2 V i nema povezivanje na kućnu mrežu (220 V), pa je predviđena za bezbedno\n        korišćenje u vodi."}},{"@type":"Question","name":"Da li moram stalno da menjam baterije u ovoj lampi?","acceptedAnswer":{"@type":"Answer","text":"Ne. Bestway Flowclear 58111 koristi Ni-MH punjivu bateriju od 500 mAh koja se automatski puni putem\n        solarnog panela na vrhu lampe dok pluta na suncu. Potrebno ju je zameniti tek nakon nekoliko sezona."}},{"@type":"Question","name":"Kako se lampa uključuje pošto nema dugme?","acceptedAnswer":{"@type":"Answer","text":"Ovaj model ima ugrađen senzor mraka. Lampa detektuje kada je ambijentalno svetlo slabo i automatski aktivira RGB\n        LED osvetljenje, a isključuje ga u zoru."}},{"@type":"Question","name":"Koliko dugo treba da se puni lampa i da li treba da je sklanjam posle određenog vremena?","acceptedAnswer":{"@type":"Answer","text":"Lampa se puni tokom celog dana dok je izložena direktnoj sunčevoj svetlosti, a za rad do 8 sati potrebno je\n        nekoliko sati direktnog sunčevog svetla. Nije potrebno da je sklanjate iz bazena nakon korišćenja, jer je\n        dizajnirana da stalno pluta i otporna je na koroziju i hlor. Preporučuje se povremeno čišćenje solarnog panela radi\n        boljeg punjenja."}},{"@type":"Question","name":"Da li mogu da je potopim na dno bazena da radi kao podvodno svetlo?","acceptedAnswer":{"@type":"Answer","text":"Lampa je vodootporna, ali je dizajnirana samo da pluta na površini vode. Solarni panel mora biti okrenut ka suncu da bi\n        se baterija punila, pa potapanje nije predviđeno."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Solarna plutajuća RGB LED svetiljka za bazen – Bestway Flowclear 58111</h1>
-            <p class="product-page-price">1999 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Solarna plutajuća RGB LED svetiljka za bazen – Bestway Flowclear 58111</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">1999 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -380,6 +401,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

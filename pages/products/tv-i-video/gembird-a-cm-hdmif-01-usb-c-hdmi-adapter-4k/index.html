@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li će mi ovaj adapter raditi na svakom telefonu?","acceptedAnswer":{"@type":"Answer","text":"Ne. Potrebno je da vaš mobilni telefon fabrički podržava DisplayPort Alt Mode standard preko svog USB-C porta\n        kako bi mogao da šalje video signal."}},{"@type":"Question","name":"Moram li da instaliram neku aplikaciju da bi slika radila?","acceptedAnswer":{"@type":"Answer","text":"Ne. Ovaj adapter funkcioniše bez ikakvih drajvera i softvera, pa se slika na monitoru pojavljuje odmah nakon\n        fizičkog povezivanja uređaja."}},{"@type":"Question","name":"Mogu li preko Gembird A-CM-HDMIF-01 da povežem laptop na stariji monitor?","acceptedAnswer":{"@type":"Answer","text":"Da. Ukoliko monitor ima HDMI ulaz, adapter će preneti audio i video signal sa vašeg prenosnog računara u maksimalnoj rezoluciji do 4K (30Hz)."}},{"@type":"Question","name":"Da li će raditi na Samsung telefonima, pošto neki modeli ne podržavaju video izlaz preko USB-C porta?","acceptedAnswer":{"@type":"Answer","text":"Gembird A-CM-HDMIF-01 će raditi na Samsung telefonima koji podržavaju DisplayPort Alt Mode preko USB-C porta."}}]}
 </script>
 
@@ -170,16 +170,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">USB-C na HDMI adapter 4K – Gembird A-CM-HDMIF-01</h1>
-            <p class="product-page-price">999 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">USB-C na HDMI adapter 4K – Gembird A-CM-HDMIF-01</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">999 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -322,6 +343,10 @@
         <section class="related">
   <h2>Pogledajte povezane proizvode</h2>
   <div class="related-grid">
+<a class="related-card" href="/pages/products/tv-i-video/ugreen-cm489-40189-hdmi-kartica-za-video-snimanje/">
+                            <img src="/images/products/ugreen-cm489-40189-hdmi-kartica-za-video-snimanje-01-thumb.webp" width="130" height="130" loading="lazy" alt="">
+                            <span class="related-title">Eksterna HDMI kartica za video snimanje USB-A / USB-C – UGREEN CM489</span>
+                        </a>
 <a class="related-card" href="/pages/products/tv-i-video/gembird-dsw-hdmi-34-hdmi-switch-3-na-1/">
                             <img src="/images/products/gembird-dsw-hdmi-34-hdmi-switch-3-na-1-01-thumb.webp" width="130" height="130" loading="lazy" alt="">
                             <span class="related-title">HDMI switch sa 3 ulaza na 1 izlaz 4K – Gembird DSW-HDMI-34</span>
@@ -334,10 +359,6 @@
                             <img src="/images/products/fiksni-zidni-tv-nosac-tuarex-olimp-311-01-thumb.webp" width="130" height="130" loading="lazy" alt="">
                             <span class="related-title">Fiksni zidni nosač za TV 32-85" do 70 kg – Tuarex OLIMP-311</span>
                         </a>
-<a class="related-card" href="/pages/products/tv-i-video/mini-polica-za-set-top-box-risiver-kettz-nav-k91/">
-                            <img src="/images/products/mini-polica-za-set-top-box-risiver-kettz-nav-k91-01-thumb.webp" width="130" height="130" loading="lazy" alt="">
-                            <span class="related-title">Mini polica za Set Top Box i TV risiver – Kettz NAV-K91</span>
-                        </a>
   </div>
 </section>
 
@@ -345,6 +366,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

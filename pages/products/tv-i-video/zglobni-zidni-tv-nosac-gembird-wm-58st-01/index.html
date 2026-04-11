@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Zašto je bitno što ovaj nosač ima dve ruke umesto jedne?","acceptedAnswer":{"@type":"Answer","text":"Sistem sa dve ruke (dupla konstrukcija) pruža mnogo veću stabilnost, naročito kod televizora dijagonale preko 50\n        inča. To sprečava da se držač \"uvija\" ili naginje na jednu stranu kada je izvučen, što je čest problem kod\n        modela sa samo jednom rukom."}},{"@type":"Question","name":"Koliko se televizor može odmaknuti od zida?","acceptedAnswer":{"@type":"Answer","text":"Zahvaljujući dugačkoj duploj ruci, nosač se izvlači do 47 centimetara od zida. To vam daje dovoljno prostora da\n        televizor zakrenete pod velikim uglom ili lako priđete kablovima sa zadnje strane."}},{"@type":"Question","name":"Da li Gembird WM-58ST-01 može da nosi moj TV od 50 kg?","acceptedAnswer":{"@type":"Answer","text":"Ne, ovaj model je testiran i dizajniran za televizore težine do 36.4 kg. Za teže i starije modele preporučujemo\n        nosače veće nosivosti kako biste bili potpuno sigurni."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Zglobni zidni nosač za TV 32-58" do 36 kg – Gembird WM-58ST-01</h1>
-            <p class="product-page-price">4099 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Zglobni zidni nosač za TV 32-58" do 36 kg – Gembird WM-58ST-01</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">4099 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -373,6 +394,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

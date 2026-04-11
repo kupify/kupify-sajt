@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Koliko često moram da menjam ove filtere u pumpi?","acceptedAnswer":{"@type":"Answer","text":"Preporučuje se da se filter menja na svake dve nedelje. Tokom perioda intenzivnog korišćenja bazena ili visokih\n        temperatura, zamena može biti i češća ako primetite smanjen protok vode."}},{"@type":"Question","name":"Da li ovaj filter Tip I odgovara za bilo koju pumpu?","acceptedAnswer":{"@type":"Answer","text":"Ne. Ovaj uložak je namenjen isključivo pumpama koje koriste Tip I (Type I) filtere, što su obično najmanji modeli\n        Bestway pumpi protoka do 1.249 litara na sat."}},{"@type":"Question","name":"Da li mogu samo da operem filter umesto da kupim novi?","acceptedAnswer":{"@type":"Answer","text":"Filter možete isprati baštenskim crevom svakih par dana kako biste mu produžili radni vek, ali se nakon\n        maksimalno 14 dana papirna vlakna zapuše sitnim česticama koje ispiranje ne može ukloniti."}},{"@type":"Question","name":"Šta se dešava ako pumpa radi bez filtera ili sa starim filterom?","acceptedAnswer":{"@type":"Answer","text":"Stari ili zapušeni filter opterećuje motor pumpe, što može dovesti do pregrevanja i kvara. Bez filtera,\n        prljavština direktno ulazi u mehanizam pumpe i voda u bazenu se ne prečišćava."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Filter za pumpu za bazen Tip I - 8x9cm - 2 kom – Bestway 58093</h1>
-            <p class="product-page-price">1299 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Filter za pumpu za bazen Tip I - 8x9cm - 2 kom – Bestway 58093</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">1299 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -370,6 +391,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

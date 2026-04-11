@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li se ove baterije mogu puniti u standardnim punjačima za Ni-MH baterije?","acceptedAnswer":{"@type":"Answer","text":"Ne. MediaRange MRBAT161 se pune isključivo putem integrisanog USB-C porta. Korišćenje klasičnih\n        punjača može trajno oštetiti litijumsku elektroniku unutar same ćelije."}},{"@type":"Question","name":"Po čemu se ove litijum-jonske baterije razlikuju od običnih punjivih koje rade na 1.2V?","acceptedAnswer":{"@type":"Answer","text":"Ove baterije održavaju konstantan napon od 1.5V do samog pražnjenja, dok Ni-MH baterije postepeno gube voltažu.\n        To daje punu snagu za zahtevne uređaje poput blic glava ili gejming kontrolera."}},{"@type":"Question","name":"Koliko baterija se može puniti istovremeno preko kabla koji ide u pakovanju?","acceptedAnswer":{"@type":"Answer","text":"Priloženi 4-u-1 Type-C kabl omogućava da se sve četiri baterije pune istovremeno preko jednog USB porta. Potrebno\n        je koristiti standardni USB adapter ili port."}},{"@type":"Question","name":"Kako se zna kada je proces punjenja završen?","acceptedAnswer":{"@type":"Answer","text":"Na svakoj bateriji nalazi se diskretni LED indikator. Dok traje punjenje svetlo treperi, a kada indikator počne\n        stalno da svetli, to znači da je baterija spremna za rad."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">USB-C punjive AA baterije 1.5V Li-Ion 1400mAh – MediaRange MRBAT161 - 4 komada</h1>
-            <p class="product-page-price">1499 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">USB-C punjive AA baterije 1.5V Li-Ion 1400mAh – MediaRange MRBAT161 - 4 komada</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">1499 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -368,6 +389,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

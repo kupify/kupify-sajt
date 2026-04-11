@@ -1,7 +1,18 @@
 {
   "category": "tv-i-video",
-  "total_products": 61,
+  "total_products": 62,
   "products": [
+    {
+      "name": "Eksterna HDMI kartica za video snimanje USB-A / USB-C – UGREEN CM489",
+      "price_rsd": 3999,
+      "slug": "ugreen-cm489-40189-hdmi-kartica-za-video-snimanje",
+      "category": "tv-i-video",
+      "group": "hdmi-adapteri",
+      "img_thumb": "/images/products/ugreen-cm489-40189-hdmi-kartica-za-video-snimanje-01-thumb.webp",
+      "brand": "UGREEN",
+      "sku": "CM489 40189",
+      "gtin13": "6957303841899"
+    },
     {
       "name": "Fiksni zidni nosač za TV 15-42\" do 25kg – Gembird WM-42F-05",
       "price_rsd": 399,

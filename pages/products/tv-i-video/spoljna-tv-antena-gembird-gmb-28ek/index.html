@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li Gembird GMB-28EK može da \"hvata\" signal u mestima gde je on slabiji?","acceptedAnswer":{"@type":"Answer","text":"Može, jer je zahvaljujući dizajnu sa 28 elemenata znatno efikasnija od manjih i sobnih antena. Ako na vašoj\n        lokaciji postoji signal, ova antena će ga lakše stabilizovati."}},{"@type":"Question","name":"Treba li mi dodatno pojačalo za ovu antenu?","acceptedAnswer":{"@type":"Answer","text":"U većini slučajeva nije potrebno, jer je njenih 9 dB dovoljno za standardan prijem. Ipak, ako imate veoma dugačak\n        kabl do televizora (preko 20m), možete po potrebi dodati pojačivač."}},{"@type":"Question","name":"Kako da je najbolje usmerim?","acceptedAnswer":{"@type":"Answer","text":"Najbolje je da antenu okrenete direktno ka najbližem TV predajniku. Zbog svoje dužine je vrlo precizna, pa\n        preporučujemo lagano pomeranje levo-desno dok ne dobijete najbolji kvalitet slike na TV-u."}}]}
 </script>
 
@@ -170,16 +170,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Spoljna TV antena Loga 104 cm, 9dB – Gembird GMB-28EK</h1>
-            <p class="product-page-price">1199 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Spoljna TV antena Loga 104 cm, 9dB – Gembird GMB-28EK</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">1199 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -360,6 +381,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

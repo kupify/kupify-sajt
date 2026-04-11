@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Kako se povezuje XO BCC10 sa auto radiom?","acceptedAnswer":{"@type":"Answer","text":"Uređaj se povezuje putem FM frekvencije. Potrebno je da podesite istu frekvenciju na transmiteru i na vašem auto\n        radiju kako bi se uspostavila bežična veza."}},{"@type":"Question","name":"Da li ovaj transmiter može da puni dva uređaja istovremeno?","acceptedAnswer":{"@type":"Answer","text":"Da, ovaj model poseduje dva USB izlaza, što omogućava istovremeno punjenje dva uređaja, pri čemu jedan port\n        podržava brže punjenje od 3.1A."}},{"@type":"Question","name":"Koji format muzike podržava USB plejer?","acceptedAnswer":{"@type":"Answer","text":"Ovaj uređaj podržava reprodukciju mp3 audio sadržaja direktno sa USB memorije (fleš diska), što eliminiše potrebu\n        za konstantnim povezivanjem telefona."}},{"@type":"Question","name":"Da li se može koristiti u kamionu?","acceptedAnswer":{"@type":"Answer","text":"Da, XO BCC10 podržava ulazni napon u rasponu od 12V do 24V, što znači da je kompatibilan kako sa standardnim\n        putničkim vozilima, tako i sa većinom kamiona."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Bluetooth FM transmiter, medija plejer i USB punjač 15W – XO BCC10</h1>
-            <p class="product-page-price">899 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Bluetooth FM transmiter, medija plejer i USB punjač 15W – XO BCC10</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">899 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -369,6 +390,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

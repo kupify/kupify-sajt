@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Kolika je maksimalna nosivost za Gembird WM-80ST-02 zglobni nosač?","acceptedAnswer":{"@type":"Answer","text":"Gembird WM-80ST-02 može bezbedno da izdrži televizore težine do čak 60 kg, što ga svrstava u red\n        izuzetno snažnih nosača. Njegova ojačana dvostruka ruka od čelika projektovana je da zadrži stabilnost i spreči\n        naginjanje čak i kada su u pitanju najteži LED ili LCD ekrani dijagonale do 80 inča."}},{"@type":"Question","name":"Na kakve zidove se može montirati Gembird WM-80ST-02?","acceptedAnswer":{"@type":"Answer","text":"Nosač Gembird WM-80ST-02 je predviđen za montažu na čvrste zidove (beton, puna cigla) ili na gips-karton konstrukcije koje imaju\n        unapred ugrađene poprečne šine (standardni razmak 406 mm). Zbog težine samog nosača od skoro 6 kg i\n        dodatnog opterećenja velikih televizora, ne preporučuje se montaža na tanak gipsani zid bez prethodnog ojačanja\n        podkonstrukcije."}},{"@type":"Question","name":"Koji je opseg nagiba i okretanja kod Gembird WM-80ST-02 modela?","acceptedAnswer":{"@type":"Answer","text":"Gembird WM-80ST-02 omogućava izuzetnu prilagodljivost sa nagibom od +5° do -15° i širokim\n        rasponom okretanja od ±60 stepeni. Ova funkcionalnost vam dozvoljava da televizor postavite visoko na zid, a\n        zatim ga nagnete naniže ili usmerite ka drugom delu prostorije, eliminisajući odsjaj i osiguravajući savršen\n        ugao gledanja."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Zglobni zidni nosač za TV 37-80" do 60kg – Gembird WM-80ST-02</h1>
-            <p class="product-page-price">4799 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Zglobni zidni nosač za TV 37-80" do 60kg – Gembird WM-80ST-02</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">4799 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -380,6 +401,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

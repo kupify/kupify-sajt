@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li ovom utičnicom mogu da upalim jaču grejalicu?","acceptedAnswer":{"@type":"Answer","text":"Da. Zahvaljujući podršci za struju do 16 A i snagu od 3500 W, ovaj adapter bezbedno upravlja većinom kućnih aparata, uključujući i veće potrošače."}},{"@type":"Question","name":"Šta se dešava sa utičnicom ako nestane internet veza?","acceptedAnswer":{"@type":"Answer","text":"Ukoliko ruter prestane sa radom, utičnica će nastaviti da sprovodi već podešene tajmere i rasporede, ali nećete moći da je kontrolišete daljinski dok se veza ne uspostavi."}},{"@type":"Question","name":"Mogu li da vidim koliko sam struje potrošio dok nisam bio kod kuće?","acceptedAnswer":{"@type":"Answer","text":"Da. Aplikacija beleži istoriju potrošnje u kWh i prikazuje je kroz grafikone po danima i mesecima, što vam omogućava analizu troškova za bilo koji period."}},{"@type":"Question","name":"Da li je potrebno kupiti dodatni \"hub\" ili kontroler za rad?","acceptedAnswer":{"@type":"Answer","text":"Ne. Uređaj se povezuje direktno na vaš kućni WiFi ruter frekvencije 2.4 GHz i radi samostalno preko besplatne Tuya ili Smart Life aplikacije."}}]}
 </script>
 
@@ -178,16 +178,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Pametna WiFi utičnica sa tajmerom i merenjem potrošnje – Gembird SMART-MON16A</h1>
-            <p class="product-page-price">1399 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Pametna WiFi utičnica sa tajmerom i merenjem potrošnje – Gembird SMART-MON16A</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">1399 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -351,6 +372,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

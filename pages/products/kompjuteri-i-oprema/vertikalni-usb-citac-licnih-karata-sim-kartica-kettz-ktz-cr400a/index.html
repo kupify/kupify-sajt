@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li mi treba dodatni softver za očitavanje lične karte?","acceptedAnswer":{"@type":"Answer","text":"Uređaj podržava Plug & Play standard, što znači da ga kompjuter automatski prepoznaje. Ipak, za pristup\n        servisima kao što su eUprava ili ePorezi , neophodno je da na računaru imate instaliran\n        sertifikovani softver (npr. eID ili aplikaciju vašeg sertifikacionog tela)."}},{"@type":"Question","name":"Po čemu je vertikalni dizajn bolji od klasičnih \"ležećih\" modela?","acceptedAnswer":{"@type":"Answer","text":"Kod ležećih čitača često morate drugom rukom da držite uređaj da se ne pomera dok ubacujete karticu. Kettz KTZ-CR400A zbog svoje vertikalne baze stoji stabilno, omogućavajući vam da karticu\n        umetnete jednom rukom, brzo i bez rizika od klizanja po stolu."}},{"@type":"Question","name":"Da li ovaj čitač radi sa svim novim ličnim kartama sa čipom?","acceptedAnswer":{"@type":"Answer","text":"Apsolutno. KTZ-CR400A je dizajniran za potpunu kompatibilnost sa svim novim generacijama srpskih biometrijskih\n        ličnih karata, kao i sa bankarskim karticama sa čipom i SIM karticama."}},{"@type":"Question","name":"Kako da znam da li je čitač uspešno povezan?","acceptedAnswer":{"@type":"Answer","text":"Uređaj poseduje LED indikator statusa na prednjoj strani – čim ubacite karticu,\n        lampica potvrđuje uspostavljenu vezu. Ako lampica svetli, vi ste spremni za siguran rad bez brige o konekciji."}}]}
 </script>
 
@@ -170,16 +170,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Vertikalni USB čitač ličnih karata i SIM kartica – Kettz KTZ-CR400A</h1>
-            <p class="product-page-price">1299 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Vertikalni USB čitač ličnih karata i SIM kartica – Kettz KTZ-CR400A</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">1299 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -357,6 +378,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

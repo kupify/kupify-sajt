@@ -8,6 +8,7 @@
  * Svrha skripte:
  * - Upravljanje prikazom proizvoda unutar kategorije.
  * - Render grid-a kartica proizvoda.
+ * - Filtriranje proizvoda po GROUP (faceted navigation).
  * - Sortiranje proizvoda.
  * - Paginacija proizvoda.
  * - Sinhronizacija URL parametara sa stanjem stranice.
@@ -22,46 +23,35 @@
  *
  * 1) Učitava JSON indeks proizvoda
  *
- *    primer:
+ *      /pages/products/{category}/cards/data.json
  *
- *    /pages/products/index.json
+ * 2) Filtrira proizvode po kategoriji (iz URL-a)
  *
- * 2) Filtrira proizvode po kategoriji
+ *      /pages/products/tv-i-video/
  *
- *    primer:
+ * 3) Filtrira proizvode po GROUP (ako postoji)
  *
- *    CATEGORY = "tv-i-video"
+ *      ?group=hdmi
  *
- * 3) Sortira proizvode
- *
- *    podržani režimi:
+ * 4) Sortira proizvode
  *
  *      name-asc
  *      name-desc
  *      price-asc
  *      price-desc
  *
- * 4) Renderuje kartice proizvoda
- *
- *    HTML kartice se generišu dinamički u grid kontejner:
+ * 5) Renderuje kartice proizvoda
  *
  *      .products-grid
  *
- * 5) Generiše paginator
- *
- *    broj proizvoda po stranici:
+ * 6) Generiše paginator
  *
  *      data-items-per-page
  *
- *    primer:
- *
- *      12 proizvoda po stranici
- *
- * 6) Sinhronizuje stanje sa URL-om
- *
- *    koristi dva tipa parametara:
+ * 7) Sinhronizuje stanje sa URL-om
  *
  *      ?page=
+ *      ?group=
  *      #sort=
  *
  *
@@ -69,21 +59,21 @@
  * BLOK 2) URL STRUKTURA
  * ============================================================
  *
- * Kategorija:
+ * Osnovna kategorija:
  *
  *      /pages/products/tv-i-video/
+ *
+ * Group filter:
+ *
+ *      /pages/products/tv-i-video/?group=hdmi
  *
  * Paginacija:
  *
  *      /pages/products/tv-i-video/?page=2
  *
- * Sortiranje:
- *
- *      /pages/products/tv-i-video/#sort=name-asc
- *
  * Kombinacija:
  *
- *      /pages/products/tv-i-video/?page=2#sort=name-asc
+ *      /pages/products/tv-i-video/?group=hdmi&page=2#sort=name-asc
  *
  *
  * ============================================================
@@ -98,102 +88,167 @@
  *
  * - hash ne utiče na canonical URL
  * - Google ignoriše hash
- * - sprečava se dupliranje URL-ova
+ * - sprečava dupliranje URL-ova
  *
- * Primer canonical:
+ * Canonical primer:
  *
  *      /tv-i-video/?page=2
  *
- * čak i kada URL izgleda:
+ * čak i kada URL sadrži:
  *
- *      /tv-i-video/?page=2#sort=name-asc
+ *      #sort=price-asc
  *
  *
  * ============================================================
- * BLOK 4) PAGINACIJA
+ * BLOK 4) GROUP FILTER (FACETED NAVIGATION)
  * ============================================================
  *
- * Paginator generiše klikabilne linkove:
+ * Group filter omogućava filtriranje proizvoda unutar kategorije.
+ *
+ * Primer:
+ *
+ *      ?group=hdmi
+ *      ?group=nosaci
+ *
+ * Vrednost dolazi iz JSON-a:
+ *
+ *      p.group
+ *
+ * Klik na dugme:
+ *
+ *      data-group="hdmi"
+ *
+ * postavlja:
+ *
+ *      state.activeGroup
+ *
+ *
+ * TOK OBRADE:
+ *
+ *      products
+ *          ↓
+ *      group filter
+ *          ↓
+ *      sort
+ *          ↓
+ *      paginate
+ *          ↓
+ *      render
+ *
+ *
+ * SEO PRAVILA:
+ *
+ *      canonical → osnovna kategorija
+ *      robots    → noindex, follow
+ *
+ * razlog:
+ *
+ * - filtrirana lista nije jedinstven sadržaj
+ * - sprečava SEO razvodnjavanje
+ * - Google prati linkove (follow)
+ *
+ *
+ * ============================================================
+ * BLOK 5) PAGINACIJA
+ * ============================================================
+ *
+ * Paginator generiše linkove:
  *
  *      <a href="?page=2">
  *
- * Ovo omogućava:
+ * Omogućava:
  *
- * - crawlable linkove za search engine
- * - pravilno indeksiranje paginiranih stranica
+ * - crawlable linkove
+ * - pravilno indeksiranje strukture
  *
- * JavaScript presreće klik kako bi:
+ * JavaScript presreće klik:
  *
- * - sprečio reload stranice
- * - ažurirao prikaz proizvoda client-side
+ * - sprečava reload
+ * - renderuje client-side
+ *
+ * Pravila:
+ *
+ *      page 1  → index, follow
+ *      page 2+ → noindex, follow
  *
  *
  * ============================================================
- * BLOK 5) STANJE APLIKACIJE (STATE)
+ * BLOK 6) STANJE APLIKACIJE (STATE)
  * ============================================================
  *
- * Skripta održava interno stanje:
+ * Skripta održava stanje:
  *
- *      state.items
- *      state.filtered
+ *      state.products
+ *      state.activeGroup
  *      state.sort
  *      state.currentPage
  *      state.pageSize
+ *      state.totalPages
  *
  * Promena stanja pokreće:
  *
  *      update(state)
  *
- * što ponovo renderuje grid i paginator.
+ *
+ * ============================================================
+ * BLOK 7) UI SINHRONIZACIJA
+ * ============================================================
+ *
+ * Aktivni group filter:
+ *
+ *      .is-active
+ *      aria-pressed="true"
+ *
+ * Promena filtera:
+ *
+ *      resetuje page na 1
  *
  *
  * ============================================================
- * BLOK 6) ODNOS SA DRUGIM SKRIPTAMA
+ * BLOK 8) ODNOS SA DRUGIM SKRIPTAMA
  * ============================================================
  *
  * category-listing.js
- *      → kategorije
  *      → render proizvoda
+ *      → filter
  *      → paginacija
  *
  * search.js
- *      → pretraga proizvoda
+ *      → pretraga
  *
  * canonical-fix.js
- *      → canonical SEO sinhronizacija
+ *      → canonical + robots sinhronizacija
  *
  *
  * ============================================================
- * BLOK 7) ZAŠTO JE OVA ARHITEKTURA DOBRA
+ * BLOK 9) ZAŠTO JE OVA ARHITEKTURA DOBRA
  * ============================================================
  *
  * Prednosti:
  *
  * - statički HTML
  * - brz rendering
- * - jednostavan build sistem
+ * - jednostavan build
  * - nema baze
- * - nema server-side logike
  *
- * SEO je očuvan jer:
+ * SEO:
  *
  * - proizvodi imaju statičke URL-ove
- * - paginator ima prave linkove
- * - canonical je sinhronizovan
+ * - filteri ne ulaze u indeks
+ * - canonical centralizuje signal
  *
  *
  * ============================================================
- * BLOK 8) BUDUĆE MOGUĆNOSTI
+ * BLOK 10) BUDUĆNOST
  * ============================================================
  *
- * Skripta omogućava lako dodavanje:
+ * Sistem omogućava:
  *
- * - GROUP filtera (antene, tv-nosači, itd.)
- * - pagination optimizacije
- * - lazy render
- * - dodatnih filtera
+ * - dodavanje novih group filtera bez izmene logike
+ * - proširenje na više filtera
+ * - SEO landing stranice po grupama
  *
- * bez promene osnovne arhitekture.
+ * bez promene osnovne arhitekture
  *
  */
 
@@ -447,11 +502,57 @@
     });
   }
 
+  function attachGroupHandlers(state) {
+    const wrap = qs(".category-groups");
+    if (!wrap) return;
+
+    wrap.addEventListener("click", (e) => {
+      const btn = e.target.closest(".group-tab");
+      if (!btn) return;
+
+      const nextGroup = btn.dataset.group || "all";
+
+      if (nextGroup === state.activeGroup) return;
+
+      state.activeGroup = nextGroup;
+      state.currentPage = 1;
+
+      setParams({
+        page: 1,
+        group: state.activeGroup === "all" ? null : state.activeGroup
+      });
+
+      updateGroupTabsUI(state);
+      update(state);
+    });
+  }
+
+  function applyGroupFilter(products, activeGroup) {
+    if (!activeGroup || activeGroup === "all") {
+      return products.slice();
+    }
+
+    return products.filter(p =>
+      String(p.group || p.GROUP || "").trim() === activeGroup
+    );
+  }
+
+  function updateGroupTabsUI(state) {
+    document.querySelectorAll(".group-tab").forEach(btn => {
+      const val = btn.dataset.group || "all";
+      const isActive = val === state.activeGroup;
+
+      btn.classList.toggle("is-active", isActive);
+      btn.setAttribute("aria-pressed", isActive ? "true" : "false");
+    });
+  }
+
   function update(state, opts = { scroll: true }) {
     setBusy(true); // ADD
 
     // primeni sortiranje
-    const sorted = applySort(state.products, state.sort);
+    const filtered = applyGroupFilter(state.products, state.activeGroup);
+    const sorted = applySort(filtered, state.sort);
     state.totalPages = Math.max(1, Math.ceil(sorted.length / state.pageSize));
     if (state.currentPage > state.totalPages) {
       state.currentPage = 1;
@@ -499,11 +600,14 @@
         currentPage: initialPage,
         sort: initialSort,
         totalPages: Math.max(1, Math.ceil(products.length / pageSize)),
+        activeGroup: param("group", "all"),
       };
 
       ensureSortUI(state);
+      updateGroupTabsUI(state);
       update(state, { scroll: false });
       attachHandlers(state);
+      attachGroupHandlers(state);
     } catch (err) {
       console.error("Neuspešno učitavanje data.json:", err);
 

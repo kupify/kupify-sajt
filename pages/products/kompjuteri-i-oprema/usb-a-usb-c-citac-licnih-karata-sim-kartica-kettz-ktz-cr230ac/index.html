@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li ovaj čitač radi direktno sa tabletima i telefonima koji imaju USB Type C port?","acceptedAnswer":{"@type":"Answer","text":"Ne, Kettz KTZ-CR230AC poseduje USB-C konektor koji omogućava direktno povezivanje sa modernim laptopovima, ali\n        rad na Android telefonu i tabletu nije zagarantovan."}},{"@type":"Question","name":"Da li je potrebna instalacija posebnih drajvera za ovaj čitač?","acceptedAnswer":{"@type":"Answer","text":"Ne, uređaj podržava Plug & Play funkcionalnost, što znači da ga većina operativnih sistema automatski prepoznaje\n        čim se poveže putem USB porta, ali je potrebno instalirati softver državnih institucija."}},{"@type":"Question","name":"Koje sve kartice ovaj model može da očita?","acceptedAnswer":{"@type":"Answer","text":"Ovaj model podržava ID smart kartice, lične karte, saobraćajne i vozačke dozvole, zdravstvene knjižice, bankarske\n        kartice i SIM kartice."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">USB i USB-C čitač za lične karte i SIM kartice – Kettz KTZ-CR230AC</h1>
-            <p class="product-page-price">1199 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">USB i USB-C čitač za lične karte i SIM kartice – Kettz KTZ-CR230AC</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">1199 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -362,6 +383,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

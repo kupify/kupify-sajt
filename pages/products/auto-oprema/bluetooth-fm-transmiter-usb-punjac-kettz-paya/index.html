@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Kako da povežem telefon sa ovim FM transmiterom?","acceptedAnswer":{"@type":"Answer","text":"Uređaj se uparuje putem Bluetooth podešavanja na telefonu. Nakon što odaberete Kettz Paya na listi\n        dostupnih uređaja, potrebno je da podesite istu FM frekvenciju na transmiteru i auto-radiju."}},{"@type":"Question","name":"Da li može da reprodukuje muziku sa USB fleša?","acceptedAnswer":{"@type":"Answer","text":"Da, ovaj transmiter podržava reprodukciju muzičkih fajlova direktno sa USB memorije."}},{"@type":"Question","name":"Da li uređaj radi u kamionima?","acceptedAnswer":{"@type":"Answer","text":"Da, podržava rad na naponu od 12 do 24V, što ga čini kompatibilnim sa putničkim vozilima i kamionima."}},{"@type":"Question","name":"Da li moram svaki put ručno da povezujem telefon?","acceptedAnswer":{"@type":"Answer","text":"Ne, ovaj uređaj automatski uspostavlja vezu sa poslednjim uparenim telefonom čim se uključi kontakt u automobilu."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Bluetooth FM transmiter, MP3 plejer i USB punjač  (QC3.0 + PD) – Kettz Paya</h1>
-            <p class="product-page-price">999 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Bluetooth FM transmiter, MP3 plejer i USB punjač  (QC3.0 + PD) – Kettz Paya</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">999 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -372,6 +393,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

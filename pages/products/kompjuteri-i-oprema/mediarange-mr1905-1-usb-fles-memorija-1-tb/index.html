@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li ovaj uređaj može da sačuva pojedinačne fajlove veće od 4 GB?","acceptedAnswer":{"@type":"Answer","text":"Da. Ovaj fleš disk dolazi fabrički formatiran u exFAT sistemu fajlova, koji omogućava smeštanje veoma velikih\n        datoteka, za razliku od starijeg FAT32 standarda."}},{"@type":"Question","name":"Koja je realna brzina prenosa podataka za MediaRange MR1905-1?","acceptedAnswer":{"@type":"Answer","text":"Uređaj dostiže brzinu čitanja do 400 MB/s i pisanja do 300 MB/s, ali krajnji rezultat zavisi od hardvera računara\n        na koji se povezuje i veličine samih fajlova."}},{"@type":"Question","name":"Da li je potrebno instalirati poseban softver pre prvog korišćenja?","acceptedAnswer":{"@type":"Answer","text":"Ne. Ovaj nosač podataka koristi Plug & Play tehnologiju, što znači da ga računar automatski prepoznaje čim se\n        priključi u slobodan USB port."}},{"@type":"Question","name":"Može li se ovaj uređaj koristiti na Apple računarima?","acceptedAnswer":{"@type":"Answer","text":"Da, ovaj fleš disk je potpuno kompatibilan sa macOS operativnim sistemom, kao i sa Windows i Linux platformama."}}]}
 </script>
 
@@ -174,16 +174,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">USB fleš memorija 1TB, 400MB/s (USB 3.2 Gen 1) – MediaRange MR1905-1</h1>
-            <p class="product-page-price">14299 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">USB fleš memorija 1TB, 400MB/s (USB 3.2 Gen 1) – MediaRange MR1905-1</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">14299 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -359,6 +380,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

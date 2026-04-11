@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Koja je prednost metalnog kućišta u odnosu na plastično?","acceptedAnswer":{"@type":"Answer","text":"Metalno kućište je znatno izdržljivije i služi kao pasivni hladnjak, sprečavajući pregrevanje uređaja pri\n        maksimalnom opterećenju, što garantuje duži radni vek."}},{"@type":"Question","name":"Šta znači \"Auto-MDI/MDIX\" funkcija?","acceptedAnswer":{"@type":"Answer","text":"To znači da ne morate brinuti o tipu mrežnog kabla (straight-through ili crossover) – switch će sam prepoznati\n        kabl i automatski uspostaviti vezu."}},{"@type":"Question","name":"Da li ovaj svič može da se montira na zid?","acceptedAnswer":{"@type":"Answer","text":"Da, kućište sa donje strane ima namenske proreze za zidnu montažu, što vam omogućava da uštedite prostor na\n        radnom stolu i uredno organizujete mrežne kablove."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Gigabitni LAN switch sa metalnim kućištem i 8 portova – Cudy GS108 v3.0</h1>
-            <p class="product-page-price">1999 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Gigabitni LAN switch sa metalnim kućištem i 8 portova – Cudy GS108 v3.0</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">1999 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -371,6 +392,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

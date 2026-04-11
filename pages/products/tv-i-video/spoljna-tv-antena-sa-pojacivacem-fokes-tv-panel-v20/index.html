@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Kako se montira FO-KES TV Panel V2.0 i da li je stabilna na vetru","acceptedAnswer":{"@type":"Answer","text":"Montaža je jednostavna, pričvršćuje se standardnom stezaljkom na krovne ili zidne nosače. Zahvaljujući mrežastoj\n        strukturi koja propušta vazduh, antena pruža minimalan otpor vetru i ostaje fiksirana bez mrdanja."}},{"@type":"Question","name":"Koje kanale mogu da hvatam sa ovom antenom?","acceptedAnswer":{"@type":"Answer","text":"Ovaj uređaj pokriva ceo spektar digitalnih DVB-T2 kanala u VHF i UHF opsezima, što uključuje sve nacionalne i\n        lokalne emitere."}},{"@type":"Question","name":"Da li antena radi na svim televizorima?","acceptedAnswer":{"@type":"Answer","text":"Antena radi na svim televizorima koji imaju ugrađen DVB-T2 prijemnik. Ukoliko je vaš TV stariji model, biće vam\n        potreban dodatni Set Top Box uređaj, ne zbog antene, već zato što je signal u našoj zemlji digitalizovan."}},{"@type":"Question","name":"Po čemu se mrežasta antena razlikuje od \"loga\" (riblja kost) antene?","acceptedAnswer":{"@type":"Answer","text":"Mrežasta antena poput FO-KES TV Panel V2.0 ima veliku površinu koja deluje kao \"ogledalo\" za\n        signal, zbog čega je idealna za udaljena područja i slab signal gde joj pojačalo daje neophodnu snagu. S druge\n        strane, logaritamske (\"loga\") antene su bolje za mesta gde je signal čistiji i gde se hvata sa više različitih\n        predajnika, ali nemaju tu \"sirovu snagu\" izvlačenja signala kao mrežasti modeli."}}]}
 </script>
 
@@ -166,16 +166,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Spoljna TV antena sa pojačivačem 15-32db – FO-KES TV panel V2.0</h1>
-            <p class="product-page-price">1499 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Spoljna TV antena sa pojačivačem 15-32db – FO-KES TV panel V2.0</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">1499 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -350,6 +371,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

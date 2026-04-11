@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li su šrafovi za montažu uključeni u pakovanje?","acceptedAnswer":{"@type":"Answer","text":"Da. U pakovanju se nalaze šrafovi, tiplovi i podloške potrebni za montažu na zid."}},{"@type":"Question","name":"Da li je moguće podešavati nagib ekrana nakon postavljanja?","acceptedAnswer":{"@type":"Answer","text":"Ne. Gembird WM-90F-01 je fiksni nosač i ne omogućava promenu nagiba niti rotaciju ekrana."}},{"@type":"Question","name":"Na kakve zidove se sme postavljati ovaj model?","acceptedAnswer":{"@type":"Answer","text":"Nosač se montira na čvrste zidove od betona ili pune cigle. Za gipsane zidove potrebno je dodatno ojačanje."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Fiksni zidni nosač za TV 37-86“ do 70 kg Gembird WM-90F-01</h1>
-            <p class="product-page-price">2299 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Fiksni zidni nosač za TV 37-86“ do 70 kg Gembird WM-90F-01</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">2299 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -365,6 +386,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li uređaj može da pokrije više prostorija?","acceptedAnswer":{"@type":"Answer","text":"Ne. Talasi ne prolaze kroz zidove i nameštaj, pa je potrebno postaviti uređaj u svaku prostoriju posebno."}},{"@type":"Question","name":"Da li Haus 200 D treba stalno da bude uključen?","acceptedAnswer":{"@type":"Answer","text":"Da. Uređaj je predviđen za neprekidan rad da bi uticaj na glodare bio konstantan."}},{"@type":"Question","name":"Da li će ovaj rasterivač stalno da pišti i da me nervira?","acceptedAnswer":{"@type":"Answer","text":"Ne, ultrazvuk koji električni rasterivač miševa i pacova proizvodi nečujan je za ljude."}},{"@type":"Question","name":"Koliko je dana potrebno da miševi pobegnu iz prostorije?","acceptedAnswer":{"@type":"Answer","text":"Obično je potrebno 5 do 7 dana neprestanog rada. U nekim prostorijama može potrajati duže."}},{"@type":"Question","name":"Gde završe uginuli miševi kada uključim uređaj?","acceptedAnswer":{"@type":"Answer","text":"Ne, Haus 200 D ne ubija glodare, pa samim tim nema uginulih miševa u zidovima ili prostoriji. Uređaj emituje zvuk koji ih rasteruje."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Električni rasterivač miševa i pacova ultrazvučni 220V – Haus 200 D</h1>
-            <p class="product-page-price">1499 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Električni rasterivač miševa i pacova ultrazvučni 220V – Haus 200 D</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">1499 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -359,6 +380,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

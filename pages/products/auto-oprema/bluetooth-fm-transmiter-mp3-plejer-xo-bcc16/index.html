@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li se XO BCC16 automatski povezuje sa telefonom?","acceptedAnswer":{"@type":"Answer","text":"Da, uređaj se nakon prvog uparivanja automatski povezuje sa telefonom čim se da kontakt u automobilu."}},{"@type":"Question","name":"Kako izbeći smetnje radio stanica tokom korišćenja transmitera?","acceptedAnswer":{"@type":"Answer","text":"Na transmiteru možete manuelno podesiti frekvenciju u opsegu od 87.5 do 108.0 MHz, kako biste pronašli slobodan prostor bez signala lokalnih radio stanica."}},{"@type":"Question","name":"Da li BT adapter dosta troši akumulator automobila?","acceptedAnswer":{"@type":"Answer","text":"Ne, transmiter je projektovan kao energetski efikasan potrošač koji koristi standardno 5V napajanje iz USB utičnice, što ne opterećuje električni sistem vozila."}},{"@type":"Question","name":"Na koji način se reprodukuje muzika sa microSD kartice?","acceptedAnswer":{"@type":"Answer","text":"Umetanjem kartice u slot na kućištu, uređaj automatski detektuje i pokreće reprodukciju podržanih MP3 ili WAV fajlova."}}]}
 </script>
 
@@ -178,16 +178,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Bluetooth FM Transmiter sa mp3 plejerom za microSD kartice – XO BCC16</h1>
-            <p class="product-page-price">699 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Bluetooth FM Transmiter sa mp3 plejerom za microSD kartice – XO BCC16</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">699 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -364,6 +385,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

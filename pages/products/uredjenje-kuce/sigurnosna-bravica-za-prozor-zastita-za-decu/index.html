@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li je ova sajla dovoljno jaka da izdrži jako povlačenje prozora?","acceptedAnswer":{"@type":"Answer","text":"Jeste, unutrašnjost je izrađena od pletenog čelika koji je izuzetno otporan na kidanje i mehaničke sile koje dete može da proizvede."}},{"@type":"Question","name":"Može li se Bravica montirati bez bušenja?","acceptedAnswer":{"@type":"Answer","text":"Ne, za maksimalnu stabilnost i sigurnost koju ovaj osigurač pruža, neophodno je fiksirati delove šrafovima u okvir prozora."}},{"@type":"Question","name":"Koliko se prozor može otvoriti kada je reza zaključana?","acceptedAnswer":{"@type":"Answer","text":"Sajla dužine 18 cm omogućava dovoljno prostora za cirkulaciju vazduha, ali sprečava prolazak deteta kroz otvor."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Sigurnosna bravica – reza za prozor sa ključem za zaštitu dece</h1>
-            <p class="product-page-price">1199 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Sigurnosna bravica – reza za prozor sa ključem za zaštitu dece</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">1199 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -346,6 +367,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

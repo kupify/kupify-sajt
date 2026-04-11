@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Imam novu lakiranu komodu. Da li će postolje Gembird TVS-D65S-01 ostaviti ogrebotine?","acceptedAnswer":{"@type":"Answer","text":"Baza od kaljenog stakla ima zaštitne podloške koje sprečavaju klizanje i direktan kontakt, čime se smanjuje rizik od grebanja nameštaja. Za svaki slučaj, preporučujemo da montažu izvršite na drugoj površini, a onda postolje sa TV-om samo spustite na novu komodu"}},{"@type":"Question","name":"Moj TV nema originalne nogice, da li će mi ovo pomoći?","acceptedAnswer":{"@type":"Answer","text":"Da. Ovaj stalak se montira direktno u VESA otvore na poleđini vašeg uređaja, pa originalne nogice koje ste dobili uz televizor uopšte nisu potrebne."}},{"@type":"Question","name":"Da li mogu da okrenem TV prema drugom delu sobe bez pomeranja postolja?","acceptedAnswer":{"@type":"Answer","text":"Da. Gornji deo stuba omogućava rotaciju ekrana do 35 stepeni ulevo ili udesno, dok staklena osnova ostaje nepomična na površini komode."}},{"@type":"Question","name":"Može li ovaj stalak da drži malo teži televizor od 35 kg bez krivljenja?","acceptedAnswer":{"@type":"Answer","text":"Da. Konstrukcija je izrađena od ojačanog čelika i testirana za opterećenja do 40 kg, tako da se postolje neće kriviti."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Stono postolje - stalak za TV 32-65" – Gembird TVS-D65S-01</h1>
-            <p class="product-page-price">3299 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Stono postolje - stalak za TV 32-65" – Gembird TVS-D65S-01</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">3299 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -361,6 +382,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li ovaj nosač može da izdrži moj stariji, teži plazma televizor?","acceptedAnswer":{"@type":"Answer","text":"Da. Čelična konstrukcija nosi do 60 kg, što je dovoljno čak i za teže modele starije generacije, pod uslovom da\n        razmak VESA rupa ne prelazi 400x400 mm."}},{"@type":"Question","name":"Čemu služi ova libela na samom nosaču?","acceptedAnswer":{"@type":"Answer","text":"Ugrađena libela pokazuje da li je nisač u ravni tokom obeležavanja rupa na zidu, a nakon montaže je dozvoljena i fina korekcija nivoa za 1 stepen."}},{"@type":"Question","name":"Mogu li lako da pristupim kablovima ako je TV ovako blizu zida?","acceptedAnswer":{"@type":"Answer","text":"Ne bez skidanja ili naginjanja ekrana. Sa profilom od 31 mm, preporučuje se korišćenje ugaonih HDMI adaptera ili\n        povezivanje kablova pre nego što fiksirate uređaj na zid."}},{"@type":"Question","name":"Šta znači ovo da nosač ima magnetne trake za otključavanje?","acceptedAnswer":{"@type":"Answer","text":"To znači da krajevi traka na Gembird WM-65T-PRO-01 imaju magnete koji omogućavaju da se one jednostavno \"zalepe\" za\n        metalni deo nosača iza ekrana i tako ostanu nevidljive."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Zidni nosač za TV 32-65 inča do 60 kg sa nagibom Gembird WM-65T-PRO-01</h1>
-            <p class="product-page-price">2699 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Zidni nosač za TV 32-65 inča do 60 kg sa nagibom Gembird WM-65T-PRO-01</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">2699 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -363,6 +384,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

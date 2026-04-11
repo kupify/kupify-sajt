@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li ovaj usmerivač odgovara za sve tipove klima uređaja?","acceptedAnswer":{"@type":"Answer","text":"Da, ovaj model je dizajniran za standardne zidne klima uređaje snage 9000 i 12000 BTU."}},{"@type":"Question","name":"Da li mi je potreban alat za montiranje modela Kettz RAZ0460?","acceptedAnswer":{"@type":"Answer","text":"Ne, montaža je izuzetno laka i ne zahteva upotrebu alata ili angažovanje profesionalnih majstora."}},{"@type":"Question","name":"Da li set sadrži sve potrebno za postavljanje?","acceptedAnswer":{"@type":"Answer","text":"Da, paket uključuje dva nosača i providnu foliju, tako da odmah po otpakivanju možete pristupiti postavljanju na\n        vašu klimu."}},{"@type":"Question","name":"Hoće li usmerivač pokvariti izgled mog enterijera?","acceptedAnswer":{"@type":"Answer","text":"Ne, folija je transparentna i deluje diskretno, tako da se ovaj nosač lako uklapa u dizajn svake prostorije."}}]}
 </script>
 
@@ -170,16 +170,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Usmerivač vazduha za klima uređaje – Kettz RAZ0460</h1>
-            <p class="product-page-price">2199 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Usmerivač vazduha za klima uređaje – Kettz RAZ0460</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">2199 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -339,6 +360,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

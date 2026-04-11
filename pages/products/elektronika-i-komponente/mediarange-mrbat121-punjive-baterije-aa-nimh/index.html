@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li se ove baterije dobijaju već napunjene?","acceptedAnswer":{"@type":"Answer","text":"Delimično. Preporučuje se da se ove NiMH ćelije napune do punog kapaciteta pre prve upotrebe kako bi se kako bi\n        radile punim kapacitetom."}},{"@type":"Question","name":"Mogu li se MediaRange MRBAT121 puniti bilo kojim punjačem za AA baterije?","acceptedAnswer":{"@type":"Answer","text":"Da. Ovaj model je kompatibilan sa svim standardnim NiMH punjačima koji podržavaju AA HR6 veličinu i napon od\n        1.2V."}},{"@type":"Question","name":"Šta uraditi ako se baterije ne koriste duže vreme?","acceptedAnswer":{"@type":"Answer","text":"Potrebno je izvaditi ih iz uređaja i čuvati na suvom mestu pri sobnoj temperaturi. Preporuka je da se povremeno\n        dopune ako stoje van upotrebe duže od nekoliko meseci."}},{"@type":"Question","name":"Mogu li ove baterije raditi u uređajima koji koriste standardne 1.5V alkalne baterije?","acceptedAnswer":{"@type":"Answer","text":"Da. Većina savremenih uređaja projektovana je da radi sa naponom od 1.2V koji daju punjive ćelije bez gubitka\n        performansi u radu."}}]}
 </script>
 
@@ -170,16 +170,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">AA punjive baterije 2100mAh 1.2V NiMH (4 komada) – MediaRange MRBAT121</h1>
-            <p class="product-page-price">1099 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">AA punjive baterije 2100mAh 1.2V NiMH (4 komada) – MediaRange MRBAT121</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">1099 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -351,6 +372,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

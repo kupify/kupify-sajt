@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li se prilikom upotrebe ovog HDMI sviča smanjuje kvalitet slike?","acceptedAnswer":{"@type":"Answer","text":"Ne. Slika ne gubi kvalitet čak i sa kablovima do 25 metara."}},{"@type":"Question","name":"Da li Gembird DSW-HDMI-34 mora da bude priključen na napajanje?","acceptedAnswer":{"@type":"Answer","text":"Nije obavezno. Sa kraćim kablovima je dovoljno napajanje iz HDMI kabla, a samo sa dužim kablovima je potrebno\n        uređaj priključiti na micro USB adapter za stabilan rad."}},{"@type":"Question","name":"Da li može da se koristi bez daljinskog upravljača?","acceptedAnswer":{"@type":"Answer","text":"Da. Uređaj ima fizičko dugme SELECT kojim se ručno bira aktivni HDMI ulaz."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">HDMI switch sa 3 ulaza na 1 izlaz 4K – Gembird DSW-HDMI-34</h1>
-            <p class="product-page-price">999 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">HDMI switch sa 3 ulaza na 1 izlaz 4K – Gembird DSW-HDMI-34</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">999 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -352,6 +373,10 @@
                             <img src="/images/products/gembird-a-cm-hdmif-01-usb-c-hdmi-adapter-4k-01-thumb.webp" width="130" height="130" loading="lazy" alt="">
                             <span class="related-title">USB-C na HDMI adapter 4K – Gembird A-CM-HDMIF-01</span>
                         </a>
+<a class="related-card" href="/pages/products/tv-i-video/ugreen-cm489-40189-hdmi-kartica-za-video-snimanje/">
+                            <img src="/images/products/ugreen-cm489-40189-hdmi-kartica-za-video-snimanje-01-thumb.webp" width="130" height="130" loading="lazy" alt="">
+                            <span class="related-title">Eksterna HDMI kartica za video snimanje USB-A / USB-C – UGREEN CM489</span>
+                        </a>
 <a class="related-card" href="/pages/products/tv-i-video/gembird-tvs-d70f-01-univerzalne-nogice-tv-postolje/">
                             <img src="/images/products/gembird-tvs-d70f-01-univerzalne-nogice-tv-postolje-01-thumb.webp" width="130" height="130" loading="lazy" alt="">
                             <span class="related-title">Univerzalne čelične nogice za TV 37-70“ – Gembird TVS-D70F-01</span>
@@ -360,10 +385,6 @@
                             <img src="/images/products/gembird-wm-65t-pro-01-zidni-tv-nosac-sa-nagibom-01-thumb.webp" width="130" height="130" loading="lazy" alt="">
                             <span class="related-title">Zidni nosač za TV 32-65 inča do 60 kg sa nagibom Gembird WM-65T-PRO-01</span>
                         </a>
-<a class="related-card" href="/pages/products/tv-i-video/gembird-tvs-d75s-01-stono-tv-postolje/">
-                            <img src="/images/products/gembird-tvs-d75s-01-stono-tv-postolje-01-thumb.webp" width="130" height="130" loading="lazy" alt="">
-                            <span class="related-title">Stono postolje - stalak za TV 35-75" do 40kg – Gembird TVS-D75S-01</span>
-                        </a>
   </div>
 </section>
 
@@ -371,6 +392,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

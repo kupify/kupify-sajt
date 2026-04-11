@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Mogu li na ovaj nosač da montiram moj monitor od 34 inča (Ultra-wide)?","acceptedAnswer":{"@type":"Answer","text":"Da, ovaj model je dizajniran upravo za takve ekrane. Bitno je samo da težina monitora (bez njegovog originalnog\n        postolja) bude između 3 i 10 kg i da podržava VESA 75 ili 100 standard."}},{"@type":"Question","name":"Da li ruka može da se rotira u svim pravcima?","acceptedAnswer":{"@type":"Answer","text":"Svakako. Ruka modela Gembird MA-DA1-03 ima pun opseg pokreta – možete je okretati oko baze, menjati nagib\n        gore-dole i rotirati sam ekran za 360 stepeni."}},{"@type":"Question","name":"Šta ako moj monitor ima manje od 3 kg?","acceptedAnswer":{"@type":"Answer","text":"Gasna opruga kod ovog modela je podešena za opseg od 3 do 10 kg. Ako je monitor lakši od 3 kg, opruga može biti\n        previše jaka i stalno podizati monitor ka gore, pa u tom slučaju savetujemo modele sa slabijom oprugom."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Stoni nosač - ruka za monitor 17-35" sa gasnom oprugom – Gembird MA-DA1-03</h1>
-            <p class="product-page-price">3999 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Stoni nosač - ruka za monitor 17-35" sa gasnom oprugom – Gembird MA-DA1-03</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">3999 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -366,6 +387,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

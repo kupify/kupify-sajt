@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li na ovaj nosač mogu da stavim jedan monitor od 24 inča i jedan od 32 inča?","acceptedAnswer":{"@type":"Answer","text":"Da, možete kombinovati različite veličine unutar opsega od 17 do 32 inča, pod uslovom da oba monitora imaju VESA\n        standard i ne prelaze težinu od 9 kg."}},{"@type":"Question","name":"Koliko je komplikovana montaža nosača Gembird MA-D2-02?","acceptedAnswer":{"@type":"Answer","text":"Montaža je jednostavna i brza. U pakovanju dobijate sve potrebane delove za obe varijante postavljanja (na\n        ivicu stola ili kroz otvor)."}},{"@type":"Question","name":"Da li monitori mogu da se rotiraju u vertikalni položaj?","acceptedAnswer":{"@type":"Answer","text":"Da, držač omogućava punu rotaciju od 180 stepeni, tako da jedan ili oba monitora možete postaviti vertikalno\n        (portret mod)."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Stoni vertikalni nosač za 2 monitora 17-32“ – Gembird MA-D2-02</h1>
-            <p class="product-page-price">2699 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Stoni vertikalni nosač za 2 monitora 17-32“ – Gembird MA-D2-02</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">2699 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -370,6 +391,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li ove slušalice rade na desktop računaru (PC)?","acceptedAnswer":{"@type":"Answer","text":"Da. Na novijim kućištima koja imaju jedan kombinovani ulaz za headset, ovaj model radi odmah. Kod starijih modela\n        računara sa odvojenim portovima (zeleni i roze), za rad mikrofona koristi se standardni razdelnik."}},{"@type":"Question","name":"Od kog materijala su napravljeni jastučići na Gembird MHS-03-WTRD?","acceptedAnswer":{"@type":"Answer","text":"Jastučići su izrađeni od sunđera i presvučeni eko-kožom radi lakšeg održavanja i veće udobnosti."}},{"@type":"Question","name":"Mogu li ove slušalice da se koriste za razgovore putem Vibera ili Zoom-a?","acceptedAnswer":{"@type":"Answer","text":"Da. Ovaj uređaj koristi kondenzatorski mikrofon koji je optimizovan za jasnu glasovnu komunikaciju putem\n        interneta."}},{"@type":"Question","name":"Kako se pojačava ton na ovim slušalicama?","acceptedAnswer":{"@type":"Answer","text":"Jačina zvuka se podešava manuelno, korišćenjem analognog točkića koji se nalazi na samom kablu slušalica."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Slušalice sa mikrofonom za laptop ili telefon – Gembird MHS-03-WTRD</h1>
-            <p class="product-page-price">899 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Slušalice sa mikrofonom za laptop ili telefon – Gembird MHS-03-WTRD</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">899 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -368,6 +389,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

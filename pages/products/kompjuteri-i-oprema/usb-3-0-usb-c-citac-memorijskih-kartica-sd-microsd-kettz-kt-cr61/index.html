@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li ovaj čitač kartica zahteva instalaciju softvera?","acceptedAnswer":{"@type":"Answer","text":"Ne, ovaj uređaj radi na Plug & Play principu i sistem ga automatski prepoznaje čim se priključi na USB port."}},{"@type":"Question","name":"Mogu li se istovremeno koristiti SD i microSD slot?","acceptedAnswer":{"@type":"Answer","text":"Da, Kettz KT-CR61 omogućava čitanje i upis podataka na obe kartice u isto vreme."}},{"@type":"Question","name":"Koji je maksimalni kapacitet kartica koji ovaj čitač podržava?","acceptedAnswer":{"@type":"Answer","text":"Uređaj podržava memorijske kartice kapaciteta do 2 TB, uključujući SDXC i microSDXC standarde."}},{"@type":"Question","name":"Da li je moguće povezati USB fleš disk direktno na ovaj uređaj?","acceptedAnswer":{"@type":"Answer","text":"Da, ovaj čitač poseduje dodatni ženski USB 3.0 port koji služi za povezivanje fleš memorija, tastatura ili\n        miševa."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">6-u-1 USB 3.0 / USB-C čitač kartica SD i microSD – Kettz KT-CR61</h1>
-            <p class="product-page-price">1099 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">6-u-1 USB 3.0 / USB-C čitač kartica SD i microSD – Kettz KT-CR61</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">1099 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -368,6 +389,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

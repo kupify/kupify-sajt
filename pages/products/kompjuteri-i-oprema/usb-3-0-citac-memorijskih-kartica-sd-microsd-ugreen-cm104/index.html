@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li ovaj uređaj zahteva instalaciju softvera na Windows 10 sistemu?","acceptedAnswer":{"@type":"Answer","text":"Ne. Uređaj radi po principu Plug & Play, što znači da ga operativni sistem prepoznaje automatski čim se priključi\n        u USB port."}},{"@type":"Question","name":"Mogu li se istovremeno koristiti SD i microSD kartica na modelu UGREEN CM104?","acceptedAnswer":{"@type":"Answer","text":"Da, ovaj čitač omogućava istovremeno čitanje i pisanje podataka na obe kartice u isto vreme."}},{"@type":"Question","name":"Koji je maksimalni kapacitet memorijske kartice koji ovaj čitač podržava?","acceptedAnswer":{"@type":"Answer","text":"Ovaj čitač podržava memorijske kartice kapaciteta do maksimalno 2TB."}},{"@type":"Question","name":"Da li je brzina prenosa ista ako se poveže na USB 2.0 port?","acceptedAnswer":{"@type":"Answer","text":"Ne. Iako je kompatibilan sa USB 2.0 portovima, brzina će u tom slučaju biti ograničena na standarde te starije\n        generacije, dok puni potencijal od 5Gbps ostvaruje samo na USB 3.0 portu."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">USB 3.0 čitač memorijskih kartica microSD / SD – UGREEN CM104</h1>
-            <p class="product-page-price">1099 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">USB 3.0 čitač memorijskih kartica microSD / SD – UGREEN CM104</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">1099 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -364,6 +385,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

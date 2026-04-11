@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Koju opremu mogu povezati pomoću ovog adaptera?","acceptedAnswer":{"@type":"Answer","text":"Šraf adapter omogućava montiranje uređaja od kojih jedan ima veći 3/8\" ženski navoj,\n        na komponete koje imaju isto ženski, ali manji 1/4\" priključak, što je čest slučaj kod video rigova, kaveza i\n        stativa."}},{"@type":"Question","name":"Da li adapter pretvara ženski navoj u muški?","acceptedAnswer":{"@type":"Answer","text":"Da, ovaj model može da posluži da se ženski navoj jedne dimenzije pretvori u muški navoj druge dimenzije, što\n        pruža fleksibilnost\n        pri korišćenju opreme sa različitim standardima."}},{"@type":"Question","name":"Može li ovaj adapter da izdrži težu kameru?","acceptedAnswer":{"@type":"Answer","text":"Može, jer je izrađen od metala koji obezbeđuje stabilan i čvrst spoj, čak i kada se koristi sa težom video\n        opremom ili eksternim monitorima."}}]}
 </script>
 
@@ -174,16 +174,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Adapter šraf za stativ 1/4" muški na 3/8" muški – Kupify TRP-1438-MM</h1>
-            <p class="product-page-price">99 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Adapter šraf za stativ 1/4" muški na 3/8" muški – Kupify TRP-1438-MM</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">99 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -361,6 +382,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

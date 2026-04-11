@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li ovaj kabl podržava brzo punjenje telefona?","acceptedAnswer":{"@type":"Answer","text":"Da, ovaj model podržava izlaznu snagu do 3A (36W), što je dovoljno za brzo punjenje većine savremenih pametnih\n        telefona i tableta."}},{"@type":"Question","name":"Mogu li koristiti Gembird CCP-USB3-AMCM-6 na starijim USB 2.0 portovima?","acceptedAnswer":{"@type":"Answer","text":"Da, ovaj kabl je potpuno kompatibilan sa starijim USB 2.0 standardom, mada će brzina prenosa u tom slučaju biti\n        ograničena na mogućnosti samog porta."}},{"@type":"Question","name":"Kolika je maksimalna brzina kojom uređaj prenosi podatke?","acceptedAnswer":{"@type":"Answer","text":"Uređaj omogućava prenos podataka brzinom do 600 MB/s, pod uslovom da su i računar i periferni uređaj usklađeni sa\n        USB 3.0 ili novijim standardom."}},{"@type":"Question","name":"Da li se ovaj kabl koristi isključivo za telefone?","acceptedAnswer":{"@type":"Answer","text":"Ne, ovaj model je univerzalan za sve uređaje sa USB-C portom koji zahtevaju napajanje do 36W ili brz prenos\n        podataka. Pored telefona, ovaj kabl je odličan izbor za povezivanje prenosnih diskova (SSD/HDD), tableta i\n        sportskih kamera sa računarom."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">USB-A na Type-C kabl 3.0 za telefon 1.8m 36W – Gembird CCP-USB3-AMCM-6</h1>
-            <p class="product-page-price">499 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">USB-A na Type-C kabl 3.0 za telefon 1.8m 36W – Gembird CCP-USB3-AMCM-6</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">499 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -367,6 +388,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

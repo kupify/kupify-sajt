@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Može li se ovaj nosač koristiti kao zamena za polomljeno originalno postolje?","acceptedAnswer":{"@type":"Answer","text":"Da, Gembird MS-D1ST-02 je odlična i često stabilnija zamena za fabrička postolja. Sve što je potrebno jeste da\n        vaš monitor ima VESA otvore za šrafove (75x75mm ili 100x100mm) na poleđini."}},{"@type":"Question","name":"Moj monitor nema podešavanje po visini, da li će mi ovo pomoći?","acceptedAnswer":{"@type":"Answer","text":"Upravo tome i služi. Ovaj model vam omogućava da podignete ili spustite monitor u rasponu od 18 cm, što je\n        idealno ako vam je ekran trenutno prenisko postavljen."}},{"@type":"Question","name":"Mogu li da okrenem monitor vertikalno (portret mod)?","acceptedAnswer":{"@type":"Answer","text":"Naravno, nosač dozvoljava punu rotaciju od 180 stepeni. To je izuzetno praktično za čitanje dugih tekstova,\n        programiranje ili pregledanje vertikalnih video sadržaja."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Podesivo stono postolje za monitor 17-32" – Gembird MS-D1ST-02</h1>
-            <p class="product-page-price">3199 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Podesivo stono postolje za monitor 17-32" – Gembird MS-D1ST-02</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">3199 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -371,6 +392,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li ovaj nosač odgovara za moj iPad?","acceptedAnswer":{"@type":"Answer","text":"Da, ovaj nosač je dizajniran kao univerzalno rešenje i savršeno odgovara svim modelima iPad uređaja, kao i drugim\n        Android\n        tabletima čija je širina u rasponu od 140 do 250 mm."}},{"@type":"Question","name":"Može li se Gembird TA-CHHR-02 montirati na svako sedište?","acceptedAnswer":{"@type":"Answer","text":"Pitanje kompatibilnosti zavisi od razmaka metalnih šipki vašeg naslona za glavu; ukoliko je taj razmak između 75\n        i 165 mm, montaža će biti uspešna."}},{"@type":"Question","name":"Da li je potrebna neka dodatna oprema ili alat za postavljanje?","acceptedAnswer":{"@type":"Answer","text":"Nije, fiksiranje se vrši ručno i vrlo je intuitivno, tako da ga možete postaviti ili skinuti u svega par poteza\n        bez ikakvog dodatnog alata."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Držač za tablet za montažu na naslon auto sedišta – Gembird TA-CHHR-02</h1>
-            <p class="product-page-price">799 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Držač za tablet za montažu na naslon auto sedišta – Gembird TA-CHHR-02</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">799 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -365,6 +386,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

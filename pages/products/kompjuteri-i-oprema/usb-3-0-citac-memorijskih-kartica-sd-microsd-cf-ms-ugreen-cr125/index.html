@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li je potrebno instalirati drajvere za čitač Ugreen CR125?","acceptedAnswer":{"@type":"Answer","text":"Nije, uređaj koristi Plug & Play sistem koji omogućava automatsko prepoznavanje čitača čim ga povežete sa\n        računarom."}},{"@type":"Question","name":"Koje formate kartica podržava ovaj uređaj?","acceptedAnswer":{"@type":"Answer","text":"Ovaj čitač podržava širok spektar SD, micro SD, CF i MS kartica, uključujući XC i HC varijante, dok CF II kartice\n        nisu podržane."}},{"@type":"Question","name":"Da li ovaj čitač podržava istovremeno korišćenje svih memorijskih kartica?","acceptedAnswer":{"@type":"Answer","text":"Da, Ugreen CR125 omogućava istovremeno čitanje i pisanje na sve 4 memorijske kartice (SD, micro SD, CF i MS).\n        Ovo vam omogućava da direktno prebacujete podatke između kartica bez potrebe za njihovim vađenjem."}},{"@type":"Question","name":"Kolika je stvarna brzina prenosa podataka?","acceptedAnswer":{"@type":"Answer","text":"Teoretska maksimalna brzina preko USB 3.0 interfejsa je do 5 Gbps, a stvarna brzina zavisi od same memorijske\n        kartice koju koristite."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">USB 3.0 čitač memorijskih kartica SD / micro SD / CF / MS – Ugreen CR125</h1>
-            <p class="product-page-price">1999 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">USB 3.0 čitač memorijskih kartica SD / micro SD / CF / MS – Ugreen CR125</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">1999 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -361,6 +382,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

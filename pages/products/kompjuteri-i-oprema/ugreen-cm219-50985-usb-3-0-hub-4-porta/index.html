@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li ovaj USB hub radi na konzolama PS5 i Xbox?","acceptedAnswer":{"@type":"Answer","text":"Da. Uređaj je potpuno kompatibilan sa ovim konzolama i omogućava istovremeno povezivanje periferija ili eksternih\n        diskova za skladištenje igara. Sistem će automatski prepoznati svaki povezani uređaj bez potrebe za dodatnim\n        podešavanjima."}},{"@type":"Question","name":"Mogu li istovremeno da koristim četiri fleš memorije na UGREEN CM219 (50985)?","acceptedAnswer":{"@type":"Answer","text":"Da. Ovaj razdelnik podržava istovremeno korišćenje svih portova, a brzina se deli među povezanim uređajima u\n        zavisnosti od njihovog intenziteta rada."}},{"@type":"Question","name":"Da li mogu da koristim USB Type-C konektor za prenos podataka ili punjenje telefona?","acceptedAnswer":{"@type":"Answer","text":"Ne. Ovaj port je namenjen isključivo za dodatno napajanje huba i ne podržava prenos podataka niti punjenje\n        eksternih uređaja. On služi da obezbedi stabilan rad kada su na adapter povezani potrošači velike snage, poput\n        eksternih hard diskova velikog kapaciteta."}},{"@type":"Question","name":"Da li UGREEN CM219 (50985) radi na starijim računarima sa USB 2.0 portom?","acceptedAnswer":{"@type":"Answer","text":"Da. Uređaj je potpuno kompatibilan sa starijim USB 2.0 i 1.1 standardima, ali će u tom slučaju brzina prenosa\n        biti ograničena na mogućnosti tih starijih portova."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">USB 3.0 hub sa 4 porta i USB-C portom za napajanje – UGREEN CM219</h1>
-            <p class="product-page-price">1199 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">USB 3.0 hub sa 4 porta i USB-C portom za napajanje – UGREEN CM219</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">1199 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -367,6 +388,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

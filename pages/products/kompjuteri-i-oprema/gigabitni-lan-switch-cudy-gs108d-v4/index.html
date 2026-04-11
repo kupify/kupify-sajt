@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li je potrebna neka konfiguracija za rad?","acceptedAnswer":{"@type":"Answer","text":"Ne, ovaj uređaj radi na principu \"Plug & Play\", što znači da će automatski prepoznati sve povezane uređaje i\n        brzine bez ikakvog podešavanja."}},{"@type":"Question","name":"Može li Cudy GS108D 4.0 da se montira na zid?","acceptedAnswer":{"@type":"Answer","text":"Dizajn kućišta sa donje strane ima proreze koji omogućavaju stabilno i sigurno postavljanje na zid radi\n        uštede prostora."}},{"@type":"Question","name":"Koliki je maksimalni domet kabla koji ovaj svič podržava?","acceptedAnswer":{"@type":"Answer","text":"Ovaj model podržava prenos gigabitnog signala na udaljenosti do čak 170 metara kada se koristi Cat. 5e ili\n        kvalitetniji mrežni kabl."}}]}
 </script>
 
@@ -174,16 +174,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Gigabitni LAN switch sa 8 portova – Cudy GS108D v4.0</h1>
-            <p class="product-page-price">1799 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Gigabitni LAN switch sa 8 portova – Cudy GS108D v4.0</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">1799 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -371,6 +392,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li ovaj eksterni hard disk može da istrpi kišne uslove?","acceptedAnswer":{"@type":"Answer","text":"Da. IPX4 zaštita štiti od prskanja vode iz svih pravaca, ali uređaj nije predviđen za potapanje."}},{"@type":"Question","name":"Mogu li da povežem ovaj model na stariji USB 2.0 port?","acceptedAnswer":{"@type":"Answer","text":"Da. Ovaj uređaj je kompatibilan sa USB 2.0 standardom, mada će u tom slučaju brzina prenosa biti\n        ograničena na maksimalno 480 Mbps."}},{"@type":"Question","name":"Da li je Armor A60 spreman za korišćenje na PS5 konzoli?","acceptedAnswer":{"@type":"Answer","text":"Da. Možete ga koristiti za skladištenje i igranje PS4 igara ili za čuvanje (arhviranje) PS5 igara kako biste\n        oslobodili prostor na unutrašnjem SSD-u."}},{"@type":"Question","name":"Od kog materijala je napravljen spoljni deo kućišta?","acceptedAnswer":{"@type":"Answer","text":"Kombinuje čvrstu plastiku sa gumenim obodom koji služi kao amortizer pri padovima i istovremeno fiksira USB kabl\n        tokom nošenja."}}]}
 </script>
 
@@ -178,16 +178,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Eksterni hard disk 1TB USB 3.2 otporan na udarce i vodu – Silicon Power Armor A60</h1>
-            <p class="product-page-price">13299 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Eksterni hard disk 1TB USB 3.2 otporan na udarce i vodu – Silicon Power Armor A60</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">13299 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -358,9 +379,9 @@
                             <img src="/images/products/cudy-fs108d-v4-lan-switch-8-portova-01-thumb.webp" width="130" height="130" loading="lazy" alt="">
                             <span class="related-title">LAN mrežni switch sa 8 portova 10/100 Mbps – Cudy FS108D v4.0</span>
                         </a>
-<a class="related-card" href="/pages/products/kompjuteri-i-oprema/bezicni-opticki-mis-gembird-musw-4b-01-w/">
-                            <img src="/images/products/bezicni-opticki-mis-gembird-musw-4b-01-w-01-thumb.webp" width="130" height="130" loading="lazy" alt="">
-                            <span class="related-title">Bežični optički miš 2.4 GHz 800-1600 DPI – Gembird MUSW-4B-01-W</span>
+<a class="related-card" href="/pages/products/kompjuteri-i-oprema/gembird-ma-wa2-01-zidni-nosac-za-2-monitora/">
+                            <img src="/images/products/gembird-ma-wa2-01-zidni-nosac-za-2-monitora-01-thumb.webp" width="130" height="130" loading="lazy" alt="">
+                            <span class="related-title">Zidni nosač sa gasnom oprugom sa rukama za 2 monitora – Gembird MA-WA2-01</span>
                         </a>
   </div>
 </section>
@@ -369,6 +390,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

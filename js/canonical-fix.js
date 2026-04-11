@@ -163,6 +163,77 @@
  *      document.querySelector('link[rel="canonical"]').href
  *      document.querySelector('meta[name="robots"]').content
  *
+ *  *
+ * ============================================================
+ * BLOK X) GROUP FILTER (FACETED NAVIGATION)
+ * ============================================================
+ *
+ * Group parametar:
+ *
+ *      ?group=hdmi
+ *      ?group=nosaci
+ *
+ * predstavlja filtriranu verziju kategorije (faceted navigation).
+ *
+ * Ove stranice NISU zasebne SEO stranice.
+ *
+ * Pravila:
+ *
+ * 1) Canonical
+ *
+ *      svi URL-ovi sa group parametrom kanonizuju na osnovnu kategoriju
+ *
+ *      primer:
+ *
+ *      /tv-i-video/?group=hdmi
+ *      /tv-i-video/?group=hdmi&page=2
+ *
+ *      canonical → /tv-i-video/
+ *
+ *
+ * 2) Robots
+ *
+ *      svi URL-ovi sa group parametrom imaju:
+ *
+ *      noindex, follow
+ *
+ *      razlog:
+ *
+ *      - sprečava indeksiranje filtriranih stranica
+ *      - sprečava SEO razvodnjavanje
+ *      - Google i dalje prati linkove ka proizvodima
+ *
+ *
+ * 3) Kombinacija sa paginacijom
+ *
+ *      /tv-i-video/?group=hdmi&page=2
+ *
+ *      ponaša se isto kao group:
+ *
+ *      - canonical → osnovna kategorija
+ *      - robots    → noindex, follow
+ *
+ *
+ * 4) Zašto group NE ide u canonical
+ *
+ *      group filter ne predstavlja jedinstven sadržaj,
+ *      već samo podskup postojeće kategorije.
+ *
+ *      Zato canonical uvek ide na:
+ *
+ *      /tv-i-video/
+ *
+ *
+ * 5) Napomena za budućnost
+ *
+ *      Ako se napravi posebna SEO stranica (npr /tv-nosaci/),
+ *      tada group filter za tu grupu može postati zaseban landing.
+ *
+ *      Do tada:
+ *
+ *      group = tehnički filter, ne SEO stranica.
+ *
+ *
  */
 
 (function () {
@@ -170,13 +241,16 @@
     const url = new URL(location.href);
     const page = url.searchParams.get("page");
     const isPaged = page && page !== "1";
+    const group = url.searchParams.get("group");
+    const hasGroup = group && group !== "all";
 
     // ========================================================
     // 1) CANONICAL
     // ========================================================
-    let canonical = url.origin + url.pathname;
+    let canonical = url.origin + url.pathname.replace(/\/?$/, "/");
 
-    if (isPaged) {
+    // paginacija ide u canonical SAMO ako nema group filtera
+    if (!hasGroup && isPaged) {
       canonical += `?page=${page}`;
     }
 
@@ -201,10 +275,15 @@
       document.head.appendChild(robotsMeta);
     }
 
-    robotsMeta.setAttribute(
-      "content",
-      isPaged ? "noindex, follow" : "index, follow"
-    );
+    let robotsContent = "index, follow";
+
+    if (hasGroup) {
+      robotsContent = "noindex, follow";
+    } else if (isPaged) {
+      robotsContent = "noindex, follow";
+    }
+
+    robotsMeta.setAttribute("content", robotsContent);
   }
 
   // prvi load

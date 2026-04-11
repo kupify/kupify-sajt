@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li ovaj uređaj podržava punjenje Apple i Android telefona?","acceptedAnswer":{"@type":"Answer","text":"Da, Kettz Floyd je kompatibilan sa oba operativna sistema i puni ih putem PD 30W i QC3.0\n        portova."}},{"@type":"Question","name":"Kako se uređaj povezuje sa auto-radiom?","acceptedAnswer":{"@type":"Answer","text":"Transmiter se povezuje putem FM frekvencije koju podesite na uređaju i na vašem auto-radiju na istu vrednost."}},{"@type":"Question","name":"Da li mogu da puštam muziku sa USB fleš memorije?","acceptedAnswer":{"@type":"Answer","text":"Da, uređaj podržava reprodukciju MP3 i WMA formata direktno sa USB diska putem odgovarajućeg USB ulaza."}},{"@type":"Question","name":"Da li se ovaj FM transmiter može koristiti u kamionu?","acceptedAnswer":{"@type":"Answer","text":"Ovaj model funkcioniše u rasponu od 10V do 32V, što omogućava upotrebu u putničkim automobilima, kombijima i\n        kamionima."}}]}
 </script>
 
@@ -182,16 +182,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Bluetooth FM transmiter, MP3 plejer i USB punjač (PD 30W) – Kettz Floyd</h1>
-            <p class="product-page-price">999 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Bluetooth FM transmiter, MP3 plejer i USB punjač (PD 30W) – Kettz Floyd</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">999 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -377,6 +398,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

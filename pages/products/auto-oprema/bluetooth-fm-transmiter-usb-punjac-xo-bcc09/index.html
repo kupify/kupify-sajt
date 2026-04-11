@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li XO BCC09 troši akumulator ako ostane u upaljaču?","acceptedAnswer":{"@type":"Answer","text":"Uređaj troši zanemarljivu količinu energije u stanju mirovanja. Ipak, preporuka je da se izvadi iz utičnice\n        upaljača ako vozilo neće biti korišćeno nekoliko dana, kako bi se izbeglo bilo kakvo opterećenje akumulatora."}},{"@type":"Question","name":"Kako se povezuje XO BCC09 sa fabričkim auto-radiom?","acceptedAnswer":{"@type":"Answer","text":"Postupak je jednostavan: podesite slobodnu FM frekvenciju na auto-radiu (na kojoj nema radio stanice), a istu\n        frekvenciju podesite i na transmiteru. Nakon toga, povežite telefon sa uređajem putem Bluetooth-a."}},{"@type":"Question","name":"Da li mogu istovremeno da punim telefon i slušam muziku?","acceptedAnswer":{"@type":"Answer","text":"Da, XO BCC09 podržava istovremenu upotrebu svih portova. Dok slušate muziku preko Bluetooth-a ili memorije,\n        možete koristiti PD 25W Type-C port i dodatne USB portove za brzo punjenje telefona i drugih uređaja."}},{"@type":"Question","name":"Da li uređaj podržava reprodukciju muzike sa memorijskih kartica?","acceptedAnswer":{"@type":"Answer","text":"Da, uređaj poseduje integrisan čitač microSD (TF) kartica, pored USB porta, što omogućava direktnu reprodukciju\n        MP3/WAV formata bez potrebe za telefonom."}}]}
 </script>
 
@@ -178,16 +178,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Bluetooth FM transmiter, medija plejer i USB punjač PD 25W – XO BCC09</h1>
-            <p class="product-page-price">1599 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Bluetooth FM transmiter, medija plejer i USB punjač PD 25W – XO BCC09</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">1599 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -372,6 +393,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>

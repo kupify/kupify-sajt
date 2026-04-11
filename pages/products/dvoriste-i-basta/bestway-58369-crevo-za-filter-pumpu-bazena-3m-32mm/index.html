@@ -104,8 +104,8 @@
   }
   </script>
 
-  <!-- FAQ JSON-LD by Product-page-generator -->
-<script type="application/ld+json">
+    <!-- FAQ JSON-LD by Product-page-generator -->
+    <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Da li ovo crevo odgovara svim pumpama za bazen?","acceptedAnswer":{"@type":"Answer","text":"Ne. Crevo odgovara isključivo modelima koji koriste priključke prečnika 32 mm, što je standard za manje i srednje\n        nadzemne bazene."}},{"@type":"Question","name":"Mogu li da spojim dva ovakva creva u jedno da bih dobio dužinu 6 metara?","acceptedAnswer":{"@type":"Answer","text":"Da, ali je potrebno da nabavite plastični nastavak (adapter) od 32 mm i dve obujmice kako bi se osigurali spojevi."}},{"@type":"Question","name":"Da li uz Bestway FlowClear 58369 dolaze i šelne?","acceptedAnswer":{"@type":"Answer","text":"Ne. Ovaj artikal sadrži samo jedno crevo, dok se obujmice za stezanje na krajevima kupuju zasebno ili koriste\n        postojeće."}},{"@type":"Question","name":"Koliko je ovo crevo otporno na sunce?","acceptedAnswer":{"@type":"Answer","text":"Materijal je otporan na UV zračenje, pa se crevo može koristiti na direktnom suncu bez rizika od\n        brzog pucanja."}}]}
 </script>
 
@@ -174,16 +174,37 @@
         </section>
 
         <!-- Name/Price -->
-        <section class="product-page-title" aria-label="Naziv i cena proizvoda">
-            <h1 class="product-page-name">Crevo za bazensku filter pumpu, 3m x 32mm – Bestway FlowClear 58369</h1>
-            <p class="product-page-price">1399 dinara</p>
-            <ul class="price-note">
-                <li>Uz proizvod se izdaje fiskalni račun.</li>
-                <li>Povrat robe moguć u roku od 14 dana.</li>
-                <!--<li>Direktna komunikacija.</li-->
-            </ul>
-        </section>
+        <div class="product-page-title-wrapper">
 
+            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+
+                <h1 class="product-page-name">Crevo za bazensku filter pumpu, 3m x 32mm – Bestway FlowClear 58369</h1>
+
+                <div class="product-page-meta">
+
+                    <!-- LEVA STRANA -->
+                    <div class="product-page-left">
+                        <p class="product-page-price">1399 dinara</p>
+
+                        <ul class="price-note">
+                            <li>Uz proizvod se izdaje fiskalni račun.</li>
+                            <li>Povrat robe moguć u roku od 14 dana.</li>
+                        </ul>
+                    </div>
+
+                    <!-- DESNA STRANA -->
+                    <div class="product-page-right">
+                        <button type="button" class="btn-share" onclick="shareLink()"
+                            aria-label="Podeli link ovog proizvoda">
+                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                        </button>
+                    </div>
+
+                </div>
+
+            </section>
+
+        </div>
 
 
         <!-- CTA -->
@@ -352,6 +373,8 @@
 
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
+
+    <script src="/js/share-link.js"></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>
