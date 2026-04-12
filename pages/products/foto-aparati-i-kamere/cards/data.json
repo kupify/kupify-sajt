@@ -1,6 +1,6 @@
 {
   "category": "foto-aparati-i-kamere",
-  "total_products": 7,
+  "total_products": 8,
   "products": [
     {
       "name": "Adapter šraf za stativ 1/4\" muški na 3/8\" muški – Kupify TRP-1438-MM",
@@ -31,6 +31,16 @@
       "img_thumb": "/images/products/adapter-sraf-1-4-inca-zenski-na-3-8-inca-muski-01-thumb.webp",
       "brand": "Kupify",
       "sku": "TRP-1438-FM"
+    },
+    {
+      "name": "Kaiš za DSLR i mirrorless kamere za zglob ruke – Kupify WS-NEO-25",
+      "price_rsd": 699,
+      "slug": "kais-za-dslr-mirrorless-kamere-za-zglob-ruke",
+      "category": "foto-aparati-i-kamere",
+      "group": "",
+      "img_thumb": "/images/products/kais-za-dslr-mirrorless-kamere-za-zglob-ruke-01-thumb.webp",
+      "brand": "Kupify",
+      "sku": "WS-NEO-25"
     },
     {
       "name": "Memorijska kartica 128GB microSDXC + SD adapter (Class 10 / U1) – MediaRange MR945",

@@ -1,7 +1,18 @@
 {
   "category": "mobilni-telefoni-i-oprema",
-  "total_products": 10,
+  "total_products": 11,
   "products": [
+    {
+      "name": "3-u-1 Brzi punjač USB-A / USB-C GaN 140W – UGREEN Nexode CD289",
+      "price_rsd": 12999,
+      "slug": "ugreen-cd289-90549-3-u-1-brzi-punjac-usb-a-usb-c",
+      "category": "mobilni-telefoni-i-oprema",
+      "group": "punjaci",
+      "img_thumb": "/images/products/ugreen-cd289-90549-3-u-1-brzi-punjac-usb-a-usb-c-01-thumb.webp",
+      "brand": "UGREEN",
+      "sku": "CD289 90549",
+      "gtin13": "6957303895496"
+    },
     {
       "name": "6-u-1 USB-C i USB-A stanica za punjenje 200W GaN – UGREEN Nexode CD271",
       "price_rsd": 17999,
