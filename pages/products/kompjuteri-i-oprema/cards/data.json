@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 88,
+  "total_products": 90,
   "products": [
     {
       "name": "2-u-1 Fleš memorija 128GB (USB 3.2, Type-C + USB-A) – MediaRange MR938",
@@ -311,6 +311,17 @@
       "gtin13": "6971690790042"
     },
     {
+      "name": "Nosač za 2 monitora 17-35\" sa rukama sa gasnim oprugama – Gembird MA-DA2-03",
+      "price_rsd": 6899,
+      "slug": "gembird-ma-da2-03-nosac-za-2-monitora",
+      "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
+      "img_thumb": "/images/products/gembird-ma-da2-03-nosac-za-2-monitora-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MA-DA2-03",
+      "gtin13": "8716309127424"
+    },
+    {
       "name": "PC slušalice sa mikrofonom – Gembird MHS-002",
       "price_rsd": 999,
       "slug": "gembird-mhs-002-slusalice",
@@ -331,6 +342,17 @@
       "brand": "Gembird",
       "sku": "MA-D2-011",
       "gtin13": "6951939631213"
+    },
+    {
+      "name": "Podesivi stoni nosač sa 2 ruke za monitor i laptop – Gembird MA-DA-04",
+      "price_rsd": 7899,
+      "slug": "gembird-ma-da-04-nosac-za-monitor-laptop",
+      "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
+      "img_thumb": "/images/products/gembird-ma-da-04-nosac-za-monitor-laptop-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MA-DA-04",
+      "gtin13": "8716309127721"
     },
     {
       "name": "Podesivi stoni nosač za četiri monitora 13-32\" Gembird MA-D4-01",
