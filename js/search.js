@@ -293,7 +293,7 @@
         ${img}
         <h4 class="product-title">${p.name || ""}</h4>
         <p class="product-price">${price}</p>
-        <span class="btn-cta btn-ghost">Detaljnije</span>
+        <span class="btn-ghost">Detaljnije</span>
       </a>
     </article>`;
   }

@@ -383,7 +383,7 @@ html {
 }
 
 
-.site-search .btn-cta {
+.site-search-btn {
     padding: 0.3rem 0.3rem 0.2rem;
     font-size: 0.9rem;
     border-radius: 0.4rem;
@@ -394,7 +394,7 @@ html {
     transition: all 0.2s ease;
 }
 
-.site-search .btn-cta:hover {
+.site-search-btn:hover {
     background: rgb(var(--brand-teal-hover));
     color: #fff;
 }
@@ -1020,21 +1020,22 @@ div.tekst-lista {
     margin: 0rem;
 
 }
+
 .product-page-meta {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 1rem;
 }
 
 .product-page-left {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 .product-page-right {
-  display: flex;
-  align-items: flex-start;
+    display: flex;
+    align-items: flex-start;
 }
 
 .product-page-price {
@@ -1075,6 +1076,7 @@ div.tekst-lista {
 
     cursor: pointer;
 }
+
 .share-icon {
     font-size: 1.1rem;
     line-height: 1;
@@ -1083,6 +1085,7 @@ div.tekst-lista {
 .share-text {
     font-size: 0.9rem;
 }
+
 /* galerija */
 .product-page-gallery {
     max-width: 40rem;
@@ -1533,20 +1536,22 @@ div.tekst-lista {
         margin: 0.4rem 0 0;
         font-size: 0.72rem;
     }
+
     .btn-share {
 
-    padding: 0rem;
-    font-size: 0.72rem;
+        padding: 0rem;
+        font-size: 0.72rem;
 
-}
-.share-icon {
-    font-size: 1rem;
-    line-height: 1;
-}
+    }
 
-.share-text {
-    font-size: 0.8rem;
-}
+    .share-icon {
+        font-size: 1rem;
+        line-height: 1;
+    }
+
+    .share-text {
+        font-size: 0.8rem;
+    }
 
     .product-description {
         max-width: 95%;
@@ -2273,12 +2278,13 @@ footer {
 }
 
 .btn-ghost {
-    display: inline-block;
-    font-size: 0.85rem;
-    padding: 0.4rem 0.9rem;
+    display: none;
+    align-self: center;
+    font-size: 0.8rem;
+    padding: 0.3rem 0.8rem;
     color: rgb(var(--brand-teal));
     border: 1px solid rgba(var(--brand-teal), .25);
-    border-radius: 6px;
+    border-radius: 4px;
     background: transparent;
     transition: all 0.2s ease;
 }
@@ -2489,13 +2495,6 @@ footer {
     padding-bottom: .3rem;
 }
 
-.ekskluzivna-ponuda {
-    display: none;
-}
-
-.samo-kod-nas {
-    display: none;
-}
 
 /* ===== Grid proizvoda: baza ===== */
 .products-grid {
@@ -2536,6 +2535,7 @@ footer {
     border-radius: 0.75rem;
     text-align: center;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
 }
 
 .product-card:hover {
@@ -2564,7 +2564,7 @@ footer {
 }
 
 .product-title {
-    font-size: 0.9rem;
+    font-size: 0.87rem;
     font-weight: 600;
     color: rgb(var(--text-dark));
     margin: 0.5rem 0;
@@ -2585,10 +2585,11 @@ footer {
 }
 
 .product-price {
-    font-size: 0.85rem;
+    font-size: 0.90rem;
     font-weight: 600;
     color: rgba(var(--brand-orange-text));
     margin: 0.25rem 0 0.5rem;
+    letter-spacing: 0.2px;
 }
 
 
@@ -2800,6 +2801,8 @@ body {
 /* =========================================
    R E S P O N S I V E  B R E A K P O I N T S
    ========================================= */
+
+
 /* --- Hero karusel: kompaktniji na malim ekranima --- */
 @media (max-width: 600px) {
     .hero-carousel {
@@ -2838,6 +2841,19 @@ body {
 
     .section {
         margin-bottom: 1rem;
+    }
+}
+
+/* --- Klik na karticama na mobilnim uređajima  --- */
+@media (hover: none) {
+    .product-link {
+        -webkit-tap-highlight-color: rgba(var(--brand-teal), 0.08);
+        transition: transform 0.06s ease;
+        will-change: transform;
+    }
+
+    .product-link:active {
+        transform: scale(0.99);
     }
 }
 
@@ -2914,7 +2930,7 @@ body {
 
     /* manji unutrašnji padding */
     .product-title {
-        font-size: .9rem;
+        font-size: .85rem;
         -webkit-line-clamp: 4;
         /* 1 red (kompaktnije) */
         min-height: calc(1.3em * 4);
@@ -2922,8 +2938,9 @@ body {
     }
 
     .product-price {
-        font-size: .8rem;
+        font-size: .90rem;
         margin: .2rem 0 .6rem;
+        letter-spacing: 0.2px;
     }
 }
 

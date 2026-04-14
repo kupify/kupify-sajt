@@ -1,7 +1,18 @@
 {
   "category": "bela-tehnika-i-kucni-aparati",
-  "total_products": 3,
+  "total_products": 4,
   "products": [
+    {
+      "name": "2-u-1 ručni mini usisivač i duvaljka sa punjivom baterijom – Gembird CK-MVC-01",
+      "price_rsd": 999,
+      "slug": "gembird-ck-mvc-01-rucni-mini-usisivac-duvaljka",
+      "category": "bela-tehnika-i-kucni-aparati",
+      "group": "",
+      "img_thumb": "/images/products/gembird-ck-mvc-01-rucni-mini-usisivac-duvaljka-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "CK-MVC-01",
+      "gtin13": "8716309128773"
+    },
     {
       "name": "Kvarcna grejalica sa 3 štapa 400/800/1200W – Zilan ZLN1084 BK",
       "price_rsd": 1999,

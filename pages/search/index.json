@@ -662,14 +662,14 @@
     },
     {
       "name": "Sobna TV antena sa pojačivačem 21 dB i kablom 5 m – Gembird GMB-533USB",
-      "slug": "sobna-tv-antena-sa-pojacivacem-i-kablom-5-metara-gembird-gmb-533usb",
+      "slug": "gembird-gmb-533usb-sobna-tv-antena-sa-pojacivacem",
       "category": "tv-i-video",
       "group": "antene",
       "brand": "Gembird",
       "sku": "GMB-533USB",
       "price_rsd": "899",
-      "img_thumb": "/images/products/sobna-tv-antena-sa-pojacivacem-i-kablom-5-metara-gembird-gmb-533usb-01-thumb.webp",
-      "q_ascii": "sobna tv antena sa pojacivacem 21 db i kablom 5 m – gembird gmb-533usb gembird gmb-533usb tv-i-video antene sobna-tv-antena-sa-pojacivacem-i-kablom-5-metara-gembird-gmb-533usb 9780111227190"
+      "img_thumb": "/images/products/gembird-gmb-533usb-sobna-tv-antena-sa-pojacivacem-01-thumb.webp",
+      "q_ascii": "sobna tv antena sa pojacivacem 21 db i kablom 5 m – gembird gmb-533usb gembird gmb-533usb tv-i-video antene gembird-gmb-533usb-sobna-tv-antena-sa-pojacivacem 9780111227190"
     },
     {
       "name": "Stoni mikrofon za PC ili laptop – Gembird MIC-D-02",
@@ -1648,7 +1648,7 @@
       "sku": "GS108D 4.0",
       "price_rsd": "1799",
       "img_thumb": "/images/products/gigabitni-lan-switch-cudy-gs108d-v4-01-thumb.webp",
-      "q_ascii": "gigabitni lan switch sa 8 portova – cudy gs108d v4.0 cudy gs108d 4.0 kompjuteri-i-oprema mrezna-oprema gigabitni-lan-switch-cudy-gs108d-v4 6971690790431"
+      "q_ascii": "gigabitni lan switch sa 8 portova – cudy gs108d v4.0 cudy gs108d 4.0 kompjuteri-i-oprema mrezna-oprema gigabitni-lan-switch-cudy-gs108d-v4 6971690790103"
     },
     {
       "name": "Gigabitni LAN switch sa metalnim kućištem i 8 portova – Cudy GS108 v3.0",
@@ -2386,6 +2386,17 @@
       "price_rsd": "6899",
       "img_thumb": "/images/products/gembird-ma-da2-03-nosac-za-2-monitora-01-thumb.webp",
       "q_ascii": "nosac za 2 monitora 17-35\" sa rukama sa gasnim oprugama – gembird ma-da2-03 gembird ma-da2-03 kompjuteri-i-oprema nosaci-za-monitor gembird-ma-da2-03-nosac-za-2-monitora 8716309127424"
+    },
+    {
+      "name": "2-u-1 ručni mini usisivač i duvaljka sa punjivom baterijom – Gembird CK-MVC-01",
+      "slug": "gembird-ck-mvc-01-rucni-mini-usisivac-duvaljka",
+      "category": "bela-tehnika-i-kucni-aparati",
+      "group": "",
+      "brand": "Gembird",
+      "sku": "CK-MVC-01",
+      "price_rsd": "999",
+      "img_thumb": "/images/products/gembird-ck-mvc-01-rucni-mini-usisivac-duvaljka-01-thumb.webp",
+      "q_ascii": "2-u-1 rucni mini usisivac i duvaljka sa punjivom baterijom – gembird ck-mvc-01 gembird ck-mvc-01 bela-tehnika-i-kucni-aparati gembird-ck-mvc-01-rucni-mini-usisivac-duvaljka 8716309128773"
     }
   ]
 }
