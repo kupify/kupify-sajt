@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 62,
+  "total_products": 63,
   "products": [
     {
       "name": "Eksterna HDMI kartica za video snimanje USB-A / USB-C – UGREEN CM489",
@@ -213,11 +213,11 @@
     },
     {
       "name": "Sobna TV antena sa pojačivačem 36 dB i 10 m kabla – Gembird GMB-DUA10",
-      "price_rsd": 1799,
-      "slug": "sobna-antena-za-tv-sa-pojacivacem-i-kablom-10-metara-gembird-gmb-dua10",
+      "price_rsd": 1699,
+      "slug": "gembird-gmb-dua10-sobna-tv-antena-sa-pojacivacem",
       "category": "tv-i-video",
       "group": "antene",
-      "img_thumb": "/images/products/sobna-antena-za-tv-sa-pojacivacem-i-kablom-10-metara-gembird-gmb-dua10-01-thumb.webp",
+      "img_thumb": "/images/products/gembird-gmb-dua10-sobna-tv-antena-sa-pojacivacem-01-thumb.webp",
       "brand": "Gembird",
       "sku": "GMB-DUA10",
       "gtin13": "9780111228197"
@@ -617,6 +617,17 @@
       "brand": "Gembird",
       "sku": "WM-120ST-01",
       "gtin13": "8716309130417"
+    },
+    {
+      "name": "Zidni nosač projektora sa teleskopskom rukom – Nedis PJWM200BK",
+      "price_rsd": 7099,
+      "slug": "nedis-pjwm200bk-zidni-nosac-projektora",
+      "category": "tv-i-video",
+      "group": "nosaci-za-projektor",
+      "img_thumb": "/images/products/nedis-pjwm200bk-zidni-nosac-projektora-01-thumb.webp",
+      "brand": "Nedis",
+      "sku": "PJWM200BK",
+      "gtin13": "5412810334858"
     },
     {
       "name": "Zidni nosač sa nagibom za TV 15-42\" do 20 kg – Gembird WM-42T-05",

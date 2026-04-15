@@ -651,14 +651,14 @@
     },
     {
       "name": "Sobna TV antena sa pojačivačem 36 dB i 10 m kabla – Gembird GMB-DUA10",
-      "slug": "sobna-antena-za-tv-sa-pojacivacem-i-kablom-10-metara-gembird-gmb-dua10",
+      "slug": "gembird-gmb-dua10-sobna-tv-antena-sa-pojacivacem",
       "category": "tv-i-video",
       "group": "antene",
       "brand": "Gembird",
       "sku": "GMB-DUA10",
-      "price_rsd": "1799",
-      "img_thumb": "/images/products/sobna-antena-za-tv-sa-pojacivacem-i-kablom-10-metara-gembird-gmb-dua10-01-thumb.webp",
-      "q_ascii": "sobna tv antena sa pojacivacem 36 db i 10 m kabla – gembird gmb-dua10 gembird gmb-dua10 tv-i-video antene sobna-antena-za-tv-sa-pojacivacem-i-kablom-10-metara-gembird-gmb-dua10 9780111228197"
+      "price_rsd": "1699",
+      "img_thumb": "/images/products/gembird-gmb-dua10-sobna-tv-antena-sa-pojacivacem-01-thumb.webp",
+      "q_ascii": "sobna tv antena sa pojacivacem 36 db i 10 m kabla – gembird gmb-dua10 gembird gmb-dua10 tv-i-video antene gembird-gmb-dua10-sobna-tv-antena-sa-pojacivacem 9780111228197"
     },
     {
       "name": "Sobna TV antena sa pojačivačem 21 dB i kablom 5 m – Gembird GMB-533USB",
@@ -2397,6 +2397,17 @@
       "price_rsd": "999",
       "img_thumb": "/images/products/gembird-ck-mvc-01-rucni-mini-usisivac-duvaljka-01-thumb.webp",
       "q_ascii": "2-u-1 rucni mini usisivac i duvaljka sa punjivom baterijom – gembird ck-mvc-01 gembird ck-mvc-01 bela-tehnika-i-kucni-aparati gembird-ck-mvc-01-rucni-mini-usisivac-duvaljka 8716309128773"
+    },
+    {
+      "name": "Zidni nosač projektora sa teleskopskom rukom – Nedis PJWM200BK",
+      "slug": "nedis-pjwm200bk-zidni-nosac-projektora",
+      "category": "tv-i-video",
+      "group": "nosaci-za-projektor",
+      "brand": "Nedis",
+      "sku": "PJWM200BK",
+      "price_rsd": "7099",
+      "img_thumb": "/images/products/nedis-pjwm200bk-zidni-nosac-projektora-01-thumb.webp",
+      "q_ascii": "zidni nosac projektora sa teleskopskom rukom – nedis pjwm200bk nedis pjwm200bk tv-i-video nosaci-za-projektor nedis-pjwm200bk-zidni-nosac-projektora 5412810334858"
     }
   ]
 }

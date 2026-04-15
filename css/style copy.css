@@ -268,58 +268,37 @@ header {
     }
 
     /* Header sadržaj prebacujemo u kolonu i centriramo */
-       @media (max-width: 950px) {
-
     .header-content {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        gap: 0.4rem 3rem;
-    }
-
-    .header-content > a {
-        flex: 0 0 auto;
-    }
-
-    .header-text {
-        flex: 0 1 auto;
-        display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        text-align: left;
-        margin: 0;
+        align-items: center;
+        gap: 0.125rem;
     }
 
+    .header-text,
     .site-title,
     .site-subtitle {
-        text-align: left;
+        text-align: center;
     }
 
     .header-nav {
-        flex: 0 0 100%;
-        width: 100%;
-        display: flex;
-        justify-content: center;
         gap: 0.2rem;
         padding: 0.5rem;
         margin-bottom: 0;
+        /* ukini razmak ispod menija */
         padding-bottom: 0;
     }
-}
 
     .header-nav:not(.sticky) {
         padding-top: 0rem;
     }
 
     .site-subtitle {
-        font-size: 1.1rem;
+        font-size: 1rem;
 
     }
 
     .site-title {
-        font-size: 1.7rem;
+        font-size: 1.5rem;
         /* manji naslov na mobilnim */
         margin-top: 0.625rem;
     }
@@ -1049,7 +1028,7 @@ div.tekst-lista {
 }
 
 .product-page-price {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     text-align: left;
     margin-top: 0.1rem;
     margin-bottom: 0rem;
@@ -1061,9 +1040,9 @@ div.tekst-lista {
     list-style: none;
     padding: 0;
     margin: 0.45rem 0 0;
-    font-size: 0.9rem;
+    font-size: 0.82rem;
     line-height: 1.4;
-    color: rgba(var(--text-dark), 0.8);
+    color: rgba(var(--text-dark), 0.7);
 }
 
 .price-note li {
@@ -1079,10 +1058,10 @@ div.tekst-lista {
     border: none;
     border-bottom: none;
 
-    padding: 0.5rem 0rem;
+    padding: 0rem;
 
     font: inherit;
-    color: rgba(var(--text-dark), 0.75);
+    color: rgba(var(--text-dark), 0.7);
 
     cursor: pointer;
 }
@@ -1361,14 +1340,12 @@ div.tekst-lista {
 .delivery-block {
     flex: 0 0 auto;
     margin-left: auto;
-    padding-bottom: 0.15rem;
 }
 
 .delivery-block ul {
     list-style: none;
     margin: 1.9rem 0 1.4rem;
     padding: 0;
-    padding-bottom: 0rem;
 }
 
 .delivery-block li {
@@ -1380,7 +1357,6 @@ div.tekst-lista {
     font-size: 0.85rem;
     color: rgba(var(--text-dark), 0.75);
     margin-bottom: 0.3rem;
-    
 }
 
 .delivery-block li::before {
@@ -1541,18 +1517,18 @@ div.tekst-lista {
     }
 
     .product-page-price {
-        font-size: 1.05rem;
+        font-size: 1rem;
         margin-top: 0.1rem;
     }
 
     .price-note {
         margin: 0.4rem 0 0;
-        font-size: 0.75rem;
+        font-size: 0.72rem;
     }
 
     .btn-share {
 
-        padding: 0.4rem 0rem;
+        padding: 0rem;
         font-size: 0.72rem;
 
     }
