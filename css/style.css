@@ -118,7 +118,7 @@ select:focus-visible {
 
 @media (max-width: 768px) {
     #header {
-        height: 250px;
+        height: 210px;
         /* primer, izmeri mobilni posebno */
     }
 }
