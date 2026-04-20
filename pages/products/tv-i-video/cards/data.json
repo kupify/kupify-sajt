@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 64,
+  "total_products": 65,
   "products": [
     {
       "name": "Eksterna HDMI kartica za video snimanje USB-A / USB-C – UGREEN CM489",
@@ -661,6 +661,17 @@
       "brand": "Gembird",
       "sku": "WM-65T-PRO-01",
       "gtin13": "8716309135320"
+    },
+    {
+      "name": "Zidni nosač za TV 32-70“ do 45 kg sa nagibom – Gembird WM-70T-05",
+      "price_rsd": 1099,
+      "slug": "gembird-wm-70t-05-zidni-tv-nosac-sa-nagibom",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "img_thumb": "/images/products/gembird-wm-70t-05-zidni-tv-nosac-sa-nagibom-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "WM-70T-05",
+      "gtin13": "8607842788725"
     },
     {
       "name": "Zidni nosač za TV 35-75“ sa nagibom – Gembird WM-75T-04",
