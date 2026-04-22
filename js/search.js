@@ -2,29 +2,31 @@
  * search.js
  *
  * ============================================================
- * BLOK 0) LEGENDA
+ * LEGENDA
  * ============================================================
  *
  * Svrha skripte:
- * - Upravljanje pretragom proizvoda na sajtu.
- * - Filtriranje proizvoda po upitu korisnika.
- * - Sortiranje rezultata.
- * - Paginacija rezultata.
- * - Render kartica proizvoda u grid-u.
+ *
+ * - Upravljanje pretragom proizvoda na sajtu
+ * - Filtriranje proizvoda po upitu korisnika
+ * - Rangiranje rezultata po relevantnosti
+ * - Sortiranje rezultata
+ * - Paginacija rezultata
+ * - Render kartica proizvoda u grid-u
  *
  * Skripta radi potpuno client-side.
  * Pretraga koristi statički JSON indeks generisan tokom build procesa.
  *
  *
  * ============================================================
- * BLOK 1) IZVOR PODATAKA
+ * IZVOR PODATAKA
  * ============================================================
  *
  * Podaci dolaze iz:
  *
  *      /pages/search/index.json
  *
- * JSON sadrži indeks svih proizvoda potrebnih za pretragu.
+ * JSON sadrži indeks proizvoda za pretragu.
  *
  * primer strukture:
  *
@@ -33,47 +35,88 @@
  *      brand
  *      category
  *      group
- *      price
- *      q_ascii (normalizovani tekst za pretragu)
+ *      price_rsd
+ *      q_ascii   (normalizovan tekst za pretragu)
  *
  *
  * ============================================================
- * BLOK 2) NORMALIZACIJA TEKSTA
+ * NORMALIZACIJA TEKSTA
  * ============================================================
  *
- * Pretraga koristi normalizovan tekst kako bi podržala:
+ * Tekst se normalizuje kako bi pretraga bila stabilna:
  *
- * - latinicu bez dijakritika
- * - različite oblike reči
- * - tolerantnost na greške
+ * - uklanjaju se dijakritici (č ć š ž đ → c c s z dj)
+ * - koristi se lowercase
+ * - separatori (- _ /) se pretvaraju u razmake
+ *
+ * Ovo omogućava:
+ *
+ * - unos bez dijakritika
+ * - stabilno poređenje teksta
+ * - tolerantnost na manje greške u kucanju
+ *
+ *
+ * ============================================================
+ * TOKENIZACIJA
+ * ============================================================
+ *
+ * Tekst se deli na tokene (reči):
+ *
+ *      "HDMI kabl 2m"
+ *      → ["hdmi", "kabl", "2m"]
+ *
+ * Tokeni se keširaju unapred radi brzine:
+ *
+ *      _tokens
+ *      _nameTokens
+ *      _brandTokens
+ *      _slugTokens
+ *      _catTokens
+ *      _groupTokens
+ *
+ * Napomena:
+ *
+ * - tokenizacija se koristi za tekstualne upite
+ * - SKU / model upiti koriste dodatni režim pretrage
+ *
+ *
+ * ============================================================
+ * SKU / MODEL UPITI
+ * ============================================================
+ *
+ * Skripta ima poseban režim za pretragu modela i šifara proizvoda.
  *
  * primer:
  *
- *      č ć š ž đ  →  c c s z dj
+ *      TA-UC-PD20-01-W
+ *      WM-42F-05
+ *      CD271
  *
- * Tako korisnik može pronaći proizvod čak i ako ne unese
- * tačno originalni naziv.
+ * Kod ovakvih upita:
+ *
+ * - šifra se ne tretira samo kao skup reči
+ * - već se proverava i kao celina
+ *
+ * Koristi se posebna normalizacija:
+ *
+ * - uklanjaju se razmaci i separatori (- _ /)
+ * - tekst se svodi na mali format
+ *
+ * primer:
+ *
+ *      TA-UC-PD20-01-W → taucpd2001w
+ *
+ * Ako upit liči na SKU:
+ *
+ * - radi se direktan substring match nad slug, name, brand i q_ascii
+ * - takav match ima jak prioritet u rezultatima
+ *
+ * Ovo sprečava probleme sa kratkim segmentima
+ * (npr. završno slovo W ili B).
  *
  *
  * ============================================================
- * BLOK 3) TOKENIZACIJA
- * ============================================================
- *
- * Tekst proizvoda se deli na tokene (reči):
- *
- *      HDMI kabl 2m
- *
- * postaje:
- *
- *      ["hdmi", "kabl", "2m"]
- *
- * Tokene čuvamo unapred kako bi pretraga bila brža.
- *
- * Ovo sprečava ponovno parsiranje teksta pri svakoj pretrazi.
- *
- *
- * ============================================================
- * BLOK 4) SINONIMI
+ * SINONIMI
  * ============================================================
  *
  * Pretraga koristi mapu sinonima.
@@ -84,40 +127,50 @@
  *      kabl → kabel, zica
  *      tv → televizor
  *
- * Kada korisnik unese reč,
- * skripta automatski proširuje upit sinonimima.
+ * Kada korisnik unese reč:
  *
- * Ovo povećava šansu da proizvod bude pronađen.
+ * - upit se proširuje sinonimima
+ * - povećava se šansa da proizvod bude pronađen
  *
  *
  * ============================================================
- * BLOK 5) SCORING REZULTATA
+ * SCORING REZULTATA
  * ============================================================
  *
  * Svaki proizvod dobija score (relevantnost).
  *
- * pravila:
+ * Osnovna pravila:
  *
- *      tačan token match → najveći score
- *      prefiks match → srednji score
- *      fuzzy match → manji score
+ * - tačan token match → najveći score
+ * - prefiks match → srednji score
+ * - fuzzy match (≤1 greška) → manji score
  *
- * dodatni boost:
+ * Dodatni boost:
  *
- *      name
- *      brand
- *      slug
- *      group
- *      category
+ * - name
+ * - brand
+ * - slug
+ * - group
+ * - category
  *
- * proizvodi sa većim score-om se prikazuju prvi.
+ * SKU logika:
+ *
+ * - ako upit liči na SKU / model šifru
+ * - pokušava se direktan match cele šifre
+ * - takav rezultat dobija jak prioritet
+ *
+ * Kratki tokeni (manje od 2 slova):
+ *
+ * - ne koriste se kao samostalni uslov u tekstualnoj pretrazi
+ * - ignorišu se kako bi se sprečilo da jedno slovo vrati sve rezultate
+ * - ne smeju da sruše match kod SKU upita
  *
  *
  * ============================================================
- * BLOK 6) SORTIRANJE
+ * SORTIRANJE
  * ============================================================
  *
- * Podržani režimi sortiranja:
+ * Podržani režimi:
  *
  *      relevance
  *      name-asc
@@ -129,75 +182,66 @@
  *
  *      #sort=name-asc
  *
- * Hash se koristi jer:
+ * Razlog:
  *
  * - ne utiče na canonical
- * - sprečava dupliranje URL parametara
+ * - izbegava dupliranje URL parametara
  *
  *
  * ============================================================
- * BLOK 7) PAGINACIJA
+ * PAGINACIJA
  * ============================================================
  *
- * Rezultati pretrage su paginirani.
- *
- * primer URL-a:
+ * Rezultati su paginirani:
  *
  *      /pages/search/?q=hdmi&page=2
  *
- * Paginator generiše:
+ * Paginator generiše linkove:
  *
  *      <a href="?q=hdmi&page=2">
  *
- * JavaScript presreće klik kako bi:
+ * JavaScript presreće klik:
  *
- * - sprečio reload stranice
- * - renderovao rezultate client-side
+ * - bez reload-a stranice
+ * - renderuje rezultate client-side
  *
  *
  * ============================================================
- * BLOK 8) URL PARAMETRI
+ * URL PARAMETRI
  * ============================================================
  *
- * Pretraga koristi tri parametra:
+ * Pretraga koristi:
  *
- *      q
- *      page
- *      sort
+ *      q     → upit
+ *      page  → stranica
+ *      sort  → način sortiranja (u hash-u)
  *
  * primer:
  *
  *      /pages/search/?q=hdmi&page=2#sort=name-asc
  *
- * gde:
- *
- *      q     → upit korisnika
- *      page  → stranica rezultata
- *      sort  → način sortiranja
- *
  *
  * ============================================================
- * BLOK 9) STATE APLIKACIJE
+ * STATE APLIKACIJE
  * ============================================================
  *
- * Skripta koristi interno stanje:
+ * Interno stanje:
  *
  *      state.items
  *      state.filtered
  *      state.q
+ *      state.q_ascii
  *      state.sort
  *      state.page
  *      state.pageSize
  *
- * Svaka promena pokreće render funkciju:
+ * Svaka promena pokreće:
  *
  *      render()
  *
- * koja ponovo generiše grid i paginator.
- *
  *
  * ============================================================
- * BLOK 10) ARHITEKTURA SISTEMA
+ * ARHITEKTURA SISTEMA
  * ============================================================
  *
  * category-listing.js
@@ -207,13 +251,13 @@
  *      → pretraga proizvoda
  *
  * canonical-fix.js
- *      → canonical SEO sinhronizacija
+ *      → SEO canonical sinhronizacija
  *
  * Sve skripte rade client-side nad statičkim HTML sajtom.
  *
  *
  * ============================================================
- * BLOK 11) PREDNOSTI OVOG SISTEMA
+ * PREDNOSTI OVOG SISTEMA
  * ============================================================
  *
  * - statički HTML
@@ -226,7 +270,7 @@
  *
  * - proizvodi imaju statičke URL-ove
  * - paginator ima crawlable linkove
- * - canonical se pravilno sinhronizuje
+ * - canonical je pravilno sinhronizovan
  *
  */
 
@@ -234,13 +278,29 @@
   "use strict";
   const qs = (s, r = document) => r.querySelector(s);
 
-  // Normalizacija (č/ć/š/ž/đ -> c/c/s/z/dj) + lowercase + dash
+  // Normalizacija teksta: lowercase, uklanjanje dijakritika, -, _, / -> razmak
   const norm = (s) => (s || "")
     .toLowerCase()
     .replace(/[čćšžđ]/g, m => ({ 'č': 'c', 'ć': 'c', 'š': 's', 'ž': 'z', 'đ': 'dj' }[m]))
     .normalize("NFKD")
     .replace(/[\u0300-\u036f]/g, "")
     .replace(/[-_/]/g, " ");
+
+  // Normalizacija SKU/model upita: uklanja razmake i separatore da bi šifra ostala celina
+  function normalizeSku(s) {
+    return (s || "")
+      .toLowerCase()
+      .replace(/[čćšžđ]/g, m => ({ 'č': 'c', 'ć': 'c', 'š': 's', 'ž': 'z', 'đ': 'dj' }[m]))
+      .normalize("NFKD")
+      .replace(/[\u0300-\u036f]/g, "")
+      .replace(/[\s\-_/]+/g, "");
+  }
+
+  // Heuristika: da li upit liči na SKU/model šifru
+  function looksLikeSkuQuery(q) {
+    const raw = (q || "").trim();
+    return /[0-9]/.test(raw) && /[-_/]/.test(raw);
+  }
 
   // Cena u broju (za sortiranje)
   const priceVal = (p) => {
@@ -493,7 +553,7 @@
       "notebook": ["laptop"],
       "flash": ["fles"],
       "fles": ["flash"],
-      
+
 
       // === TV sinonimi ===
       "tv": ["televizor"],
@@ -539,13 +599,6 @@
         return Array.from(group);
       }
 
-      function hayTokens(hayRaw) {
-        return (hayRaw || "")
-          .replace(/[-_/]/g, " ")
-          .split(/\s+/)
-          .filter(Boolean);
-      }
-
       // tolerancija na 1 grešku (edit distance ≤ 1) + prefiks fast-path
       function nearMatch1(pat, tok) {
         const a = pat, b = tok;
@@ -573,7 +626,7 @@
         return true;
       }
 
-      // 4) scoring
+      // scoring po tokenima
       function scoreMatch(g, tok) {
         if (tok === g) return 10;           // full token
         if (tok.startsWith(g)) return 6;    // prefiks
@@ -581,9 +634,8 @@
         return 0;
       }
 
-
+      
       function scoreItem(item, groupsArr) {
-        const hay = item.q_ascii || "";
         const tokens = item._tokens;
         const nameT = item._nameTokens;
         const brandT = item._brandTokens;
@@ -591,11 +643,26 @@
         const catT = item._catTokens;
         const groupT = item._groupTokens;
 
+        const querySku = normalizeSku(state.q);
+
+        if (looksLikeSkuQuery(state.q) && querySku) {
+          const skuFields = [
+            item.slug,
+            item.name,
+            item.brand,
+            item.q_ascii
+          ].map(normalizeSku);
+
+          if (skuFields.some(v => v.includes(querySku))) {
+            return { ok: true, score: 1000 };
+          }
+        }
+
         let total = 0;
         for (const group of groupsArr) {
           let groupBest = 0;
           const usable = group.filter(g => g.length >= 2);  // search minimum 2 slova
-          if (usable.length === 0) return { ok: false, score: 0 };
+          if (usable.length === 0) continue;
 
           for (const g of usable) {
             for (const tok of tokens) {
@@ -618,13 +685,26 @@
         return { ok: true, score: total };
       }
 
-      // 5) priprema upita (jedinstvene promenljive, nema duplikata!)
+      // priprema upita
       const queryTerms = state.q_ascii.split(/\s+/).filter(Boolean);
       const queryGroups = queryTerms.map(expandGroup);
 
-      // 6) primeni scoring
+      // filtriranje neupotrebljivih grupa
+      const usableGroups = queryGroups
+        .map(group => group.filter(g => g.length >= 2))
+        .filter(group => group.length > 0);
+
+      // ako nije SKU upit i nema nijednog smislenog tokena -> nema rezultata
+      if (!looksLikeSkuQuery(state.q) && usableGroups.length === 0) {
+        state.filtered = [];
+        state.page = 1;
+        state.totalPages = 1;
+        return;
+      }
+
+      // primena scoringa
       const scored = state.items.map(it => {
-        const r = scoreItem(it, queryGroups);
+        const r = scoreItem(it, usableGroups);
         return r.ok ? { item: it, score: r.score } : null;
       }).filter(Boolean);
 
@@ -636,7 +716,7 @@
         state.filtered = applySort(passed, state.sort);
       }
 
-      // 7) paginacija
+      // paginacija
       const maxPage = Math.max(1, Math.ceil(state.filtered.length / state.pageSize));
       if (state.page > maxPage) state.page = 1;
       state.totalPages = maxPage;
