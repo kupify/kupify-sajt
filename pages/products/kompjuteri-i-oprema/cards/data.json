@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 90,
+  "total_products": 91,
   "products": [
     {
       "name": "2-u-1 Fleš memorija 128GB (USB 3.2, Type-C + USB-A) – MediaRange MR938",
@@ -210,6 +210,17 @@
       "brand": "Silicon Power",
       "sku": "SP020TBPHDA60S3K",
       "gtin13": "4712702636000"
+    },
+    {
+      "name": "Eksterno kućište za 3.5\" SATA hard disk, USB 3.0 – Gembird EE3-U3S-3",
+      "price_rsd": 2499,
+      "slug": "gembird-ee3-u3s-3-eksterno-kuciste-za-3-5-inca-sata-hdd",
+      "category": "kompjuteri-i-oprema",
+      "group": "hdd-ssd-oprema",
+      "img_thumb": "/images/products/gembird-ee3-u3s-3-eksterno-kuciste-za-3-5-inca-sata-hdd-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "EE3-U3S-3",
+      "gtin13": "8716309097604"
     },
     {
       "name": "Gejmerske USB slušalice sa mikrofonom – A4Tech Fstyler FH300U",

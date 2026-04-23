@@ -2463,6 +2463,28 @@
       "price_rsd": "149",
       "img_thumb": "/images/products/gembird-cca-415w-audio-razdelnik-stereo-3-5-mm-1-muski-na-2-zenska-01-thumb.webp",
       "q_ascii": "audio razdelnik stereo 3.5mm muski na 2 zenska - kabl 10 cm – gembird cca-415w gembird cca-415w audio-oprema kablovi-i-adapteri gembird-cca-415w-audio-razdelnik-stereo-3-5-mm-1-muski-na-2-zenska 8716309035507"
+    },
+    {
+      "name": "Eksterno kućište za 3.5\" SATA hard disk, USB 3.0 – Gembird EE3-U3S-3",
+      "slug": "gembird-ee3-u3s-3-eksterno-kuciste-za-3-5-inca-sata-hdd",
+      "category": "kompjuteri-i-oprema",
+      "group": "hdd-ssd-oprema",
+      "brand": "Gembird",
+      "sku": "EE3-U3S-3",
+      "price_rsd": "2499",
+      "img_thumb": "/images/products/gembird-ee3-u3s-3-eksterno-kuciste-za-3-5-inca-sata-hdd-01-thumb.webp",
+      "q_ascii": "eksterno kuciste za 3.5\" sata hard disk, usb 3.0 – gembird ee3-u3s-3 gembird ee3-u3s-3 kompjuteri-i-oprema hdd-ssd-oprema gembird-ee3-u3s-3-eksterno-kuciste-za-3-5-inca-sata-hdd 8716309097604"
+    },
+    {
+      "name": "Audio adapter kabl - stereo 6.35mm muški na 3.5mm ženski (20cm) – Gembird A-63M35F-0.2M",
+      "slug": "gembird-a-63m35f-0-2m-audio-adapter-kabl-6-35-mm-muski-na-3-5-mm-zenski",
+      "category": "audio-oprema",
+      "group": "kablovi-i-adapteri",
+      "brand": "Gembird",
+      "sku": "A-63M35F-0.2M",
+      "price_rsd": "199",
+      "img_thumb": "/images/products/gembird-a-63m35f-0-2m-audio-adapter-kabl-6-35-mm-muski-na-3-5-mm-zenski-01-thumb.webp",
+      "q_ascii": "audio adapter kabl - stereo 6.35mm muski na 3.5mm zenski (20cm) – gembird a-63m35f-0.2m gembird a-63m35f-0.2m audio-oprema kablovi-i-adapteri gembird-a-63m35f-0-2m-audio-adapter-kabl-6-35-mm-muski-na-3-5-mm-zenski 8716309105842"
     }
   ]
 }

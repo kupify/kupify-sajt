@@ -1,7 +1,18 @@
 {
   "category": "audio-oprema",
-  "total_products": 2,
+  "total_products": 3,
   "products": [
+    {
+      "name": "Audio adapter kabl - stereo 6.35mm muški na 3.5mm ženski (20cm) – Gembird A-63M35F-0.2M",
+      "price_rsd": 199,
+      "slug": "gembird-a-63m35f-0-2m-audio-adapter-kabl-6-35-mm-muski-na-3-5-mm-zenski",
+      "category": "audio-oprema",
+      "group": "kablovi-i-adapteri",
+      "img_thumb": "/images/products/gembird-a-63m35f-0-2m-audio-adapter-kabl-6-35-mm-muski-na-3-5-mm-zenski-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "A-63M35F-0.2M",
+      "gtin13": "8716309105842"
+    },
     {
       "name": "Audio razdelnik stereo 3.5mm muški na 2 ženska - kabl 10 cm – Gembird CCA-415W",
       "price_rsd": 149,
