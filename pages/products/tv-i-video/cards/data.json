@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 65,
+  "total_products": 67,
   "products": [
     {
       "name": "Eksterna HDMI kartica za video snimanje USB-A / USB-C – UGREEN CM489",
@@ -246,7 +246,7 @@
     },
     {
       "name": "Sobna TV/FM antena sa pojačivačem – Kettz DT-K028",
-      "price_rsd": 1489,
+      "price_rsd": 1599,
       "slug": "sobna-tv-fm-antena-sa-pojacivacem-48db-kettz-dt-k028",
       "category": "tv-i-video",
       "group": "antene",
@@ -619,6 +619,17 @@
       "gtin13": "8716309127332"
     },
     {
+      "name": "Zglobni zidni nosač za TV 43-95\" do 60 kg – Kettz CER-95Z",
+      "price_rsd": 8699,
+      "slug": "kettz-cer-95z-zglobni-zidni-tv-nosac",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "img_thumb": "/images/products/kettz-cer-95z-zglobni-zidni-tv-nosac-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "CER-95Z",
+      "gtin13": "8605054711869"
+    },
+    {
       "name": "Zglobni zidni nosač za TV 60-120\" do 120kg – Gembird WM-120ST-01",
       "price_rsd": 11799,
       "slug": "zglobni-zidni-tv-nosac-gembird-wm-120st-01",
@@ -683,6 +694,17 @@
       "brand": "Gembird",
       "sku": "WM-75T-04",
       "gtin13": "8716309135306"
+    },
+    {
+      "name": "Zidni nosač za TV 37-140\" do 125kg, sa nagibom – Kettz CER-140T",
+      "price_rsd": 4699,
+      "slug": "kettz-cer-140t-zidni-tv-nosac-sa-nagibom",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "img_thumb": "/images/products/kettz-cer-140t-zidni-tv-nosac-sa-nagibom-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "CER-140T",
+      "gtin13": "8605054711838"
     },
     {
       "name": "Zidni nosač za TV 42-100\" do 60kg – Kettz TVN-939T",

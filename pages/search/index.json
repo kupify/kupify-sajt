@@ -183,7 +183,7 @@
       "group": "antene",
       "brand": "Kettz",
       "sku": "DT-K028",
-      "price_rsd": "1489",
+      "price_rsd": "1599",
       "img_thumb": "/images/products/sobna-tv-fm-antena-sa-pojacivacem-48db-kettz-dt-k028-01-thumb.webp",
       "q_ascii": "sobna tv/fm antena sa pojacivacem – kettz dt-k028 kettz dt-k028 tv-i-video antene sobna-tv-fm-antena-sa-pojacivacem-48db-kettz-dt-k028 8606018832781"
     },
@@ -2485,6 +2485,28 @@
       "price_rsd": "199",
       "img_thumb": "/images/products/gembird-a-63m35f-0-2m-audio-adapter-kabl-6-35-mm-muski-na-3-5-mm-zenski-01-thumb.webp",
       "q_ascii": "audio adapter kabl - stereo 6.35mm muski na 3.5mm zenski (20cm) – gembird a-63m35f-0.2m gembird a-63m35f-0.2m audio-oprema kablovi-i-adapteri gembird-a-63m35f-0-2m-audio-adapter-kabl-6-35-mm-muski-na-3-5-mm-zenski 8716309105842"
+    },
+    {
+      "name": "Zglobni zidni nosač za TV 43-95\" do 60 kg – Kettz CER-95Z",
+      "slug": "kettz-cer-95z-zglobni-zidni-tv-nosac",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "brand": "Kettz",
+      "sku": "CER-95Z",
+      "price_rsd": "8699",
+      "img_thumb": "/images/products/kettz-cer-95z-zglobni-zidni-tv-nosac-01-thumb.webp",
+      "q_ascii": "zglobni zidni nosac za tv 43-95\" do 60 kg – kettz cer-95z kettz cer-95z tv-i-video tv-nosaci kettz-cer-95z-zglobni-zidni-tv-nosac 8605054711869"
+    },
+    {
+      "name": "Zidni nosač za TV 37-140\" do 125kg, sa nagibom – Kettz CER-140T",
+      "slug": "kettz-cer-140t-zidni-tv-nosac-sa-nagibom",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "brand": "Kettz",
+      "sku": "CER-140T",
+      "price_rsd": "4699",
+      "img_thumb": "/images/products/kettz-cer-140t-zidni-tv-nosac-sa-nagibom-01-thumb.webp",
+      "q_ascii": "zidni nosac za tv 37-140\" do 125kg, sa nagibom – kettz cer-140t kettz cer-140t tv-i-video tv-nosaci kettz-cer-140t-zidni-tv-nosac-sa-nagibom 8605054711838"
     }
   ]
 }
