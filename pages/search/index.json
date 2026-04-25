@@ -1272,7 +1272,7 @@
       "group": "usb-flash",
       "brand": "MediaRange",
       "sku": "MR1955",
-      "price_rsd": "2499",
+      "price_rsd": "3799",
       "img_thumb": "/images/products/usb-c-fles-memorija-256-gb-mediarange-mr1955-01-thumb.webp",
       "q_ascii": "usb-c fles memorija 256gb (usb 3.2 gen 1) – mediarange mr1955 mediarange mr1955 kompjuteri-i-oprema usb-flash usb-c-fles-memorija-256-gb-mediarange-mr1955 4260664871271"
     },
@@ -1283,7 +1283,7 @@
       "group": "usb-flash",
       "brand": "MediaRange",
       "sku": "MR918",
-      "price_rsd": "1699",
+      "price_rsd": "1999",
       "img_thumb": "/images/products/usb-fles-memorija-128-gb-mediarange-mr918-01-thumb.webp",
       "q_ascii": "usb fles memorija 128gb (usb 3.2 gen 1) – mediarange mr918 mediarange mr918 kompjuteri-i-oprema usb-flash usb-fles-memorija-128-gb-mediarange-mr918 4260283118878"
     },
@@ -1305,7 +1305,7 @@
       "group": "usb-flash",
       "brand": "MediaRange",
       "sku": "MR917",
-      "price_rsd": "999",
+      "price_rsd": "1099",
       "img_thumb": "/images/products/usb-fles-memorija-64-gb-mediarange-mr917-01-thumb.webp",
       "q_ascii": "usb fles memorija 64gb (usb 3.2 gen 1) – mediarange mr917 mediarange mr917 kompjuteri-i-oprema usb-flash usb-fles-memorija-64-gb-mediarange-mr917 4260664870410"
     },
@@ -1987,7 +1987,7 @@
       "group": "usb-flash",
       "brand": "MediaRange",
       "sku": "MR1903",
-      "price_rsd": "4599",
+      "price_rsd": "4399",
       "img_thumb": "/images/products/mediarange-mr1903-usb-fles-memorija-256-gb-01-thumb.webp",
       "q_ascii": "usb fles memorija 256gb, 300mb/s (usb 3.2 gen 1) – mediarange mr1903 mediarange mr1903 kompjuteri-i-oprema usb-flash mediarange-mr1903-usb-fles-memorija-256-gb 4260664872085"
     },
@@ -2507,6 +2507,28 @@
       "price_rsd": "4699",
       "img_thumb": "/images/products/kettz-cer-140t-zidni-tv-nosac-sa-nagibom-01-thumb.webp",
       "q_ascii": "zidni nosac za tv 37-140\" do 125kg, sa nagibom – kettz cer-140t kettz cer-140t tv-i-video tv-nosaci kettz-cer-140t-zidni-tv-nosac-sa-nagibom 8605054711838"
+    },
+    {
+      "name": "Flasteri za popravku bazena, set 10 kom (6.5x6.5cm) – Bestway 62068",
+      "slug": "bestway-62068-set-flastera-za-popravku-bazena",
+      "category": "dvoriste-i-basta",
+      "group": "bazenska-oprema",
+      "brand": "Bestway",
+      "sku": "62068",
+      "price_rsd": "499",
+      "img_thumb": "/images/products/bestway-62068-set-flastera-za-popravku-bazena-01-thumb.webp",
+      "q_ascii": "flasteri za popravku bazena, set 10 kom (6.5x6.5cm) – bestway 62068 bestway 62068 dvoriste-i-basta bazenska-oprema bestway-62068-set-flastera-za-popravku-bazena 6941607307564"
+    },
+    {
+      "name": "Filter pumpa za bazen 2006 L/h – Bestway 58383",
+      "slug": "bestway-58383-filter-pumpa-za-bazen",
+      "category": "dvoriste-i-basta",
+      "group": "bazenska-oprema",
+      "brand": "Bestway",
+      "sku": "58383",
+      "price_rsd": "5299",
+      "img_thumb": "/images/products/bestway-58383-filter-pumpa-za-bazen-01-thumb.webp",
+      "q_ascii": "filter pumpa za bazen 2006 l/h – bestway 58383 bestway 58383 dvoriste-i-basta bazenska-oprema bestway-58383-filter-pumpa-za-bazen 6941607353950"
     }
   ]
 }
