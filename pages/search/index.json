@@ -2520,7 +2520,7 @@
       "q_ascii": "flasteri za popravku bazena, set 10 kom (6.5x6.5cm) – bestway 62068 bestway 62068 dvoriste-i-basta bazenska-oprema bestway-62068-set-flastera-za-popravku-bazena 6941607307564"
     },
     {
-      "name": "Filter pumpa za bazen 2006 L/h – Bestway 58383",
+      "name": "Filter pumpa za bazen 2006 l/h – Bestway 58383",
       "slug": "bestway-58383-filter-pumpa-za-bazen",
       "category": "dvoriste-i-basta",
       "group": "bazenska-oprema",
@@ -2529,6 +2529,39 @@
       "price_rsd": "5299",
       "img_thumb": "/images/products/bestway-58383-filter-pumpa-za-bazen-01-thumb.webp",
       "q_ascii": "filter pumpa za bazen 2006 l/h – bestway 58383 bestway 58383 dvoriste-i-basta bazenska-oprema bestway-58383-filter-pumpa-za-bazen 6941607353950"
+    },
+    {
+      "name": "Filter pumpa za bazen 3028 l/h – Bestway 58386",
+      "slug": "bestway-58386-filter-pumpa-za-bazen",
+      "category": "dvoriste-i-basta",
+      "group": "bazenska-oprema",
+      "brand": "Bestway",
+      "sku": "58386",
+      "price_rsd": "5999",
+      "img_thumb": "/images/products/bestway-58386-filter-pumpa-za-bazen-01-thumb.webp",
+      "q_ascii": "filter pumpa za bazen 3028 l/h – bestway 58386 bestway 58386 dvoriste-i-basta bazenska-oprema bestway-58386-filter-pumpa-za-bazen 6941607354001"
+    },
+    {
+      "name": "Zidni zglobni nosač za TV 37-80\" do 40kg – Kettz TVN-9705",
+      "slug": "kettz-tvn-9705-zidni-tv-nosac-zglobni",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "brand": "Kettz",
+      "sku": "TVN-9705",
+      "price_rsd": "3999",
+      "img_thumb": "/images/products/kettz-tvn-9705-zidni-tv-nosac-zglobni-01-thumb.webp",
+      "q_ascii": "zidni zglobni nosac za tv 37-80\" do 40kg – kettz tvn-9705 kettz tvn-9705 tv-i-video tv-nosaci kettz-tvn-9705-zidni-tv-nosac-zglobni 8606018839704"
+    },
+    {
+      "name": "Električna pumpa za naduvavanje 90 L/min USB-C – Bestway 62289 PowerTouch Pocket",
+      "slug": "bestway-62289-elektricna-pumpa-za-naduvavanje-usb-c",
+      "category": "dvoriste-i-basta",
+      "group": "bazenska-oprema",
+      "brand": "Bestway",
+      "sku": "62289 PowerTouch Pocket",
+      "price_rsd": "2399",
+      "img_thumb": "/images/products/bestway-62289-elektricna-pumpa-za-naduvavanje-usb-c-01-thumb.webp",
+      "q_ascii": "elektricna pumpa za naduvavanje 90 l/min usb-c – bestway 62289 powertouch pocket bestway 62289 powertouch pocket dvoriste-i-basta bazenska-oprema bestway-62289-elektricna-pumpa-za-naduvavanje-usb-c 6941607368268"
     }
   ]
 }
