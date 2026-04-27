@@ -1,7 +1,18 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 91,
+  "total_products": 92,
   "products": [
+    {
+      "name": "2-u-1 bežični miš sa Bluetooth i 2.4GHz vezom, 3200 DPI – Cudy MS9945",
+      "price_rsd": 1099,
+      "slug": "cudy-ms9945-2-u-1-bezicni-mis-bluetooth-2-4-ghz",
+      "category": "kompjuteri-i-oprema",
+      "group": "misevi",
+      "img_thumb": "/images/products/cudy-ms9945-2-u-1-bezicni-mis-bluetooth-2-4-ghz-01-thumb.webp",
+      "brand": "Cudy",
+      "sku": "MS9945",
+      "gtin13": "6978327850025"
+    },
     {
       "name": "2-u-1 Fleš memorija 128GB (USB 3.2, Type-C + USB-A) – MediaRange MR938",
       "price_rsd": 2099,
