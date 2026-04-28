@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 92,
+  "total_products": 93,
   "products": [
     {
       "name": "2-u-1 bežični miš sa Bluetooth i 2.4GHz vezom, 3200 DPI – Cudy MS9945",
@@ -419,6 +419,17 @@
       "brand": "Gembird",
       "sku": "MS-D1ST-02",
       "gtin13": "8716309127271"
+    },
+    {
+      "name": "Postolje za hlađenje laptopa do 17\" – Gembird NBS-1F17T-01",
+      "price_rsd": 1339,
+      "slug": "gembird-nbs-1f17t-01-postolje-za-hladjenje-laptopa",
+      "category": "kompjuteri-i-oprema",
+      "group": "laptop-postolja",
+      "img_thumb": "/images/products/gembird-nbs-1f17t-01-postolje-za-hladjenje-laptopa-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "NBS-1F17T-01",
+      "gtin13": "8716309101424"
     },
     {
       "name": "Postolje – stoni nosač za dva monitora 17-32“ sa staklenom bazom Gembird MS-D2ST-01",
