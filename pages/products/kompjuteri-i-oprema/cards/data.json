@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 93,
+  "total_products": 94,
   "products": [
     {
       "name": "2-u-1 bežični miš sa Bluetooth i 2.4GHz vezom, 3200 DPI – Cudy MS9945",
@@ -990,6 +990,17 @@
       "brand": "Gembird",
       "sku": "STR-ShockForce-II",
       "gtin13": "11223355669"
+    },
+    {
+      "name": "Zidni nosač - ruka za monitor 17-27“ sa gasnom oprugom – Gembird MA-WA1-01",
+      "price_rsd": 2899,
+      "slug": "gembird-ma-wa1-01-zidni-nosac-monitora",
+      "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitor",
+      "img_thumb": "/images/products/gembird-ma-wa1-01-zidni-nosac-monitora-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MA-WA1-01",
+      "gtin13": "8716309106887"
     },
     {
       "name": "Zidni nosač - ruka za monitor 17-27“ sa gasnom oprugom – Gembird MA-WA1-02",
