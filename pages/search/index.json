@@ -788,7 +788,7 @@
       "group": "nosaci-za-zvucnike",
       "brand": "Gembird",
       "sku": "WM-SB-01",
-      "price_rsd": "999",
+      "price_rsd": "799",
       "img_thumb": "/images/products/univerzalni-zidni-nosaci-za-zvucnike-soundbar-gembird-wm-sb-01-01-thumb.webp",
       "q_ascii": "univerzalni zidni nosaci za zvucnike ili soundbar gembird wm-sb-01 gembird wm-sb-01 audio-oprema nosaci-za-zvucnike univerzalni-zidni-nosaci-za-zvucnike-soundbar-gembird-wm-sb-01 8716309128056"
     },
@@ -843,7 +843,7 @@
       "group": "napajanja",
       "brand": "UGD Power",
       "sku": "G650",
-      "price_rsd": "4799",
+      "price_rsd": "5499",
       "img_thumb": "/images/products/atx-pc-napajanje-ugd-power-g650-01-thumb.webp",
       "q_ascii": "atx napajanje za pc 650w 80 plus – ugd power g650 ugd power g650 kompjuteri-i-oprema napajanja atx-pc-napajanje-ugd-power-g650 8606112328135"
     },
@@ -2595,6 +2595,17 @@
       "price_rsd": "2899",
       "img_thumb": "/images/products/gembird-ma-wa1-01-zidni-nosac-monitora-01-thumb.webp",
       "q_ascii": "zidni nosac - ruka za monitor 17-27“ sa gasnom oprugom – gembird ma-wa1-01 gembird ma-wa1-01 kompjuteri-i-oprema nosaci-za-monitor gembird-ma-wa1-01-zidni-nosac-monitora 8716309106887"
+    },
+    {
+      "name": "Zidni zglobni nosač za TV 32-55\" do 35kg – Gembird WM-55ST-04",
+      "slug": "gembird-wm-55st-04-zglobni-zidni-tv-nosac",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "brand": "Gembird",
+      "sku": "WM-55ST-04",
+      "price_rsd": "3199",
+      "img_thumb": "/images/products/gembird-wm-55st-04-zglobni-zidni-tv-nosac-01-thumb.webp",
+      "q_ascii": "zidni zglobni nosac za tv 32-55\" do 35kg – gembird wm-55st-04 gembird wm-55st-04 tv-i-video tv-nosaci gembird-wm-55st-04-zglobni-zidni-tv-nosac 8716309127820"
     }
   ]
 }

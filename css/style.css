@@ -2692,6 +2692,20 @@ footer {
     padding: 1rem 1rem;
     /* desktop unutrašnje ivice */
 }
+/*test*/
+.categories-grid {
+    display: grid;
+    /* lepše prelazi između 1–4 kolone bez tvrdih skokova */
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1.5rem;
+    max-width: 75rem;
+    margin: 0 auto;
+    padding: 1rem 1rem 3rem;
+    /* desktop unutrašnje ivice */
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 1rem;
+}
 
 /* kartica kategorije */
 .category {
@@ -2991,7 +3005,7 @@ body {
 @media (max-width: 900px) {
     .categories-grid {
         gap: 1.25rem;
-        padding: 1rem 1.25rem;
+        padding: 1rem 1.25rem 2rem;
     }
 
     .category {
@@ -3021,7 +3035,8 @@ body {
 
     .categories-grid {
         gap: 0.75rem;
-        padding: 0.75rem;
+        padding: 0 7rem 2rem;
+        border-radius: 0.75rem;
     }
 
     .category {
@@ -3078,6 +3093,9 @@ body {
         box-sizing: border-box;
         overflow-x: clip;
     }
+    .categories-grid,{
+        padding: 0 0.75rem 2rem;
+    }
 
     /* Karusel traka — posebno osetljiva na 1px prelivanja */
     .hero-carousel .carousel-track {
@@ -3119,11 +3137,12 @@ body {
 
     /* 1) Grid kategorija: vrati normalan padding i dozvoli vodoravno “disanje” */
     .categories-grid {
-        padding: 0.75rem;
+        padding: 0.7rem 1rem 1rem;
         /* umesto clamp-a koji je dovodio do ivice */
         overflow-x: visible;
         /* undo globalnog clip-a za kategorije */
     }
+    
 
     /* 2) Pojedinačna kartica kategorije: blagi unutrašnji luft */
     .category {
@@ -3133,6 +3152,7 @@ body {
 
     /* 3) Naslov u kategoriji: dozvoli da ikonici ne “odseče” rub */
     .category h3 {
+        margin-top: 1rem;
         padding-right: 0.5rem;
         /* buffer desno da ikonica ne dođe do same ivice */
         overflow: visible;

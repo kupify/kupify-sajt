@@ -428,7 +428,7 @@
   </url>
   <url>
     <loc>https://kupify.rs/pages/products/audio-oprema/univerzalni-zidni-nosaci-za-zvucnike-soundbar-gembird-wm-sb-01/</loc>
-    <lastmod>2026-01-11</lastmod>
+    <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -458,7 +458,7 @@
   </url>
   <url>
     <loc>https://kupify.rs/pages/products/kompjuteri-i-oprema/atx-pc-napajanje-ugd-power-g650/</loc>
-    <lastmod>2026-01-14</lastmod>
+    <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -1413,6 +1413,12 @@
   <url>
     <loc>https://kupify.rs/pages/products/kompjuteri-i-oprema/gembird-ma-wa1-01-zidni-nosac-monitora/</loc>
     <lastmod>2026-04-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kupify.rs/pages/products/tv-i-video/gembird-wm-55st-04-zglobni-zidni-tv-nosac/</loc>
+    <lastmod>2026-04-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 68,
+  "total_products": 69,
   "products": [
     {
       "name": "Eksterna HDMI kartica za video snimanje USB-A / USB-C – UGREEN CM489",
@@ -738,6 +738,17 @@
       "brand": "Gembird",
       "sku": "WM-90T-01",
       "gtin13": "8716309126182"
+    },
+    {
+      "name": "Zidni zglobni nosač za TV 32-55\" do 35kg – Gembird WM-55ST-04",
+      "price_rsd": 3199,
+      "slug": "gembird-wm-55st-04-zglobni-zidni-tv-nosac",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "img_thumb": "/images/products/gembird-wm-55st-04-zglobni-zidni-tv-nosac-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "WM-55ST-04",
+      "gtin13": "8716309127820"
     },
     {
       "name": "Zidni zglobni nosač za TV 37-80\" do 40kg – Kettz TVN-9705",
