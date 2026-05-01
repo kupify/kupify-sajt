@@ -2375,12 +2375,6 @@ footer {
     margin-right: 0.25rem;
 }
 
-/*#sort-select {
-    font-size: .8rem;
-    border-radius: 6px;
-    padding: .2rem .3rem;
-    line-height: 1.2;
-} */
 
 #sort-select {
     border: 1px solid rgba(var(--brand-teal), 0.4);
