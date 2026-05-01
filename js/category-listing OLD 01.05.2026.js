@@ -147,95 +147,6 @@
  * - sprečava SEO razvodnjavanje
  * - Google prati linkove (follow)
  *
- *  * ============================================================
- * BLOK X) SEO GRUPE KAO POSEBNE STRANICE
- * ============================================================
- *
- * Skripta podržava dva tipa prikaza:
- *
- * 1) GLAVNA KATEGORIJA
- *
- *      /pages/products/tv-i-video/
- *
- *      - prikazuje sve proizvode iz kategorije
- *      - može da ima obične group filtere preko data-group dugmadi
- *      - group filteri rade preko URL parametra:
- *
- *          ?group=hdmi
- *
- *      - takvi filter URL-ovi nisu zasebne SEO stranice
- *
- *
- * 2) SEO GRUPA / LANDING STRANICA
- *
- *      /pages/products/tv-i-video/_antene/
- *      /pages/products/tv-i-video/_tv-nosaci/
- *
- *      - ima svoj URL
- *      - ima svoj title, meta description, H1, tekst, breadcrumb i canonical
- *      - prikazuje samo proizvode iz jedne zaključane grupe
- *      - zaključana grupa dolazi iz HTML markera:
- *
- *          <section class="products-grid" data-group="antene">
- *
- *      - ne koristi ?group= parametar
- *      - ne koristi group filter dugmad
- *
- *
- * Pravilo:
- *
- *      ako .products-grid ima data-group
- *          → stranica je SEO grupa
- *          → state.lockedGroup postoji
- *          → activeGroup = lockedGroup
- *
- *      ako .products-grid nema data-group
- *          → stranica je obična kategorija
- *          → activeGroup dolazi iz ?group= ili "all"
- *
- *
- * Odnos prema JSON-u:
- *
- *      data-group="antene"
- *
- *      prikazuje samo proizvode iz data.json gde je:
- *
- *          p.group === "antene"
- *
- *
- * Odnos prema dugmadima/linkovima:
- *
- *      <button class="group-tab" data-group="all">
- *          → JS filter dugme
- *
- *      <button class="group-tab" data-group="hdmi">
- *          → JS filter dugme
- *
- *      <a class="group-tab" href="/pages/products/tv-i-video/_antene/">
- *          → pravi link ka SEO grupi
- *          → JS ga ne presreće
- *
- *
- * Zato attachGroupHandlers hvata samo:
- *
- *      .group-tab[data-group]
- *
- * Linkovi ka SEO grupama nemaju data-group i prolaze normalno kao linkovi.
- *
- *
- * SEO pravilo:
- *
- *      ?group=antene
- *          → tehnički filter
- *          → noindex, follow
- *          → canonical na osnovnu kategoriju
- *
- *      /_antene/
- *          → SEO landing stranica
- *          → index, follow
- *          → canonical na sebe
- *
- *
  *
  * ============================================================
  * BLOK 5) PAGINACIJA
@@ -591,17 +502,12 @@
     });
   }
 
-  // Group filter dugmad postoje samo na običnim kategorijama.
-  // SEO grupe su pravi <a> linkovi i nemaju data-group.
-  // Zato event listener hvata samo .group-tab[data-group].
   function attachGroupHandlers(state) {
     const wrap = qs(".category-groups");
     if (!wrap) return;
 
     wrap.addEventListener("click", (e) => {
-      // Hvata samo filter dugmad sa data-group.
-      // Linkovi ka SEO grupama nemaju data-group i JS ih ne presreće.
-      const btn = e.target.closest(".group-tab[data-group]");
+      const btn = e.target.closest(".group-tab");
       if (!btn) return;
 
       const nextGroup = btn.dataset.group || "all";
@@ -632,14 +538,14 @@
   }
 
   function updateGroupTabsUI(state) {
-  document.querySelectorAll(".group-tab[data-group]").forEach(btn => {
-    const val = btn.dataset.group;
-    const isActive = val === state.activeGroup;
+    document.querySelectorAll(".group-tab").forEach(btn => {
+      const val = btn.dataset.group || "all";
+      const isActive = val === state.activeGroup;
 
-    btn.classList.toggle("is-active", isActive);
-    btn.setAttribute("aria-pressed", isActive ? "true" : "false");
-  });
-}
+      btn.classList.toggle("is-active", isActive);
+      btn.setAttribute("aria-pressed", isActive ? "true" : "false");
+    });
+  }
 
   function update(state, opts = { scroll: true }) {
     setBusy(true); // ADD
@@ -674,10 +580,6 @@
     const nav = qs("#paginator");
     if (!category || !grid || !nav) return;
 
-    // SEO group marker:
-    // ako .products-grid ima data-group, stranica je zaključana na tu grupu
-    const lockedGroup = grid.dataset.group || null;
-
     const initialSort = hparam("sort", "name-asc"); // podrazumevano: naziv A–Š
     const initialPage = Number(param("page", "1")) || 1;
 
@@ -698,19 +600,14 @@
         currentPage: initialPage,
         sort: initialSort,
         totalPages: Math.max(1, Math.ceil(products.length / pageSize)),
-        activeGroup: lockedGroup || param("group", "all"), // SEO grupa ili običan URL filter
-        lockedGroup, // postoji samo na SEO group landing stranicama
+        activeGroup: param("group", "all"),
       };
 
       ensureSortUI(state);
-
-      if (!state.lockedGroup) {
-        updateGroupTabsUI(state);
-        attachGroupHandlers(state);
-      }
-
+      updateGroupTabsUI(state);
       update(state, { scroll: false });
       attachHandlers(state);
+      attachGroupHandlers(state);
     } catch (err) {
       console.error("Neuspešno učitavanje data.json:", err);
 
