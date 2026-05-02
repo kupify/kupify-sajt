@@ -1,6 +1,6 @@
 {
   "category": "foto-aparati-i-kamere",
-  "total_products": 8,
+  "total_products": 10,
   "products": [
     {
       "name": "Adapter šraf za stativ 1/4\" muški na 3/8\" muški – Kupify TRP-1438-MM",
@@ -85,6 +85,24 @@
       "brand": "Verbatim",
       "sku": "47042",
       "gtin13": "23942470427"
+    },
+    {
+      "name": "Rotirajući adapter držač za mobilni telefon na stativ ili tripod",
+      "price_rsd": 999,
+      "slug": "rotirajuci-drzac-za-telefon-za-stativ-tripod",
+      "category": "foto-aparati-i-kamere",
+      "group": "snimanje-telefonom",
+      "img_thumb": "/images/products/rotirajuci-drzac-za-telefon-za-stativ-tripod-01-thumb.webp",
+      "brand": "Kupify"
+    },
+    {
+      "name": "Univerzalni adapter držač za mobilni telefon na stativ, tripod ili monopod",
+      "price_rsd": 399,
+      "slug": "adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod",
+      "category": "foto-aparati-i-kamere",
+      "group": "snimanje-telefonom",
+      "img_thumb": "/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-01-thumb.webp",
+      "brand": "Kupify"
     }
   ]
 }

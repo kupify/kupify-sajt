@@ -236,6 +236,77 @@
  *          → canonical na sebe
  *
  *
+ * ============================================================
+ * BLOK X) MEŠANI SISTEM: SEO LINKOVI + JS FILTERI
+ * ============================================================
+ *
+ * category-groups može da sadrži dva tipa elemenata:
+ *
+ * 1) PRAVI LINKOVI
+ *
+ *      <a class="group-tab" href="/pages/products/tv-i-video/antene/">
+ *          Antene
+ *      </a>
+ *
+ *      Koriste se za SEO grupe / landing stranice.
+ *
+ *      - vode na poseban URL
+ *      - imaju svoj canonical
+ *      - imaju svoj H1, tekst, breadcrumb i JSON-LD
+ *      - mogu da se indeksiraju
+ *      - JS ih ne koristi kao filtere
+ *
+ *
+ * 2) JS FILTER DUGMAD
+ *
+ *      <button class="group-tab" data-group="hdmi" type="button">
+ *          HDMI
+ *      </button>
+ *
+ *      Koriste se za pomoćno filtriranje unutar iste kategorije.
+ *
+ *      - ne vode na posebnu SEO stranicu
+ *      - menjaju activeGroup u JS-u
+ *      - filtriraju proizvode iz data.json po p.group
+ *      - URL dobija ?group=...
+ *      - canonical-fix takve URL-ove tretira kao filter:
+ *
+ *          canonical → osnovna kategorija
+ *          robots    → noindex, follow
+ *
+ *
+ * 3) SVE / RESET
+ *
+ *      <a class="group-tab is-active"
+ *         href="/pages/products/tv-i-video/"
+ *         aria-current="page">
+ *          Sve
+ *      </a>
+ *
+ *      "Sve" je link ka osnovnoj kategoriji.
+ *
+ *      Razlog:
+ *      - resetuje filtere
+ *      - uklanja ?group=, ?page= i #sort
+ *      - vraća korisnika na čist URL kategorije
+ *
+ *
+ * Aktivno stanje:
+ *
+ *      updateGroupTabsUI(state)
+ *
+ *      - prvo skida .is-active sa svih tabova
+ *      - ako je activeGroup = "all", aktivira link ka trenutnoj kategoriji
+ *      - ako je activeGroup neki filter, aktivira samo button[data-group]
+ *
+ *
+ * Pravilo:
+ *
+ *      SEO grupa     → <a href="...">
+ *      JS filter     → <button data-group="...">
+ *      Reset / Sve   → <a href="/osnovna-kategorija/">
+ *
+ *
  *
  * ============================================================
  * BLOK 5) PAGINACIJA
@@ -632,12 +703,43 @@
   }
 
   function updateGroupTabsUI(state) {
+  const tabs = document.querySelectorAll(".group-tab");
+
+  // 1) Očisti aktivno stanje sa svih tabova
+  tabs.forEach(tab => {
+    tab.classList.remove("is-active");
+    tab.removeAttribute("aria-current");
+    tab.removeAttribute("aria-pressed");
+  });
+
+  // 2) Ako je aktivno "Sve", aktiviraj link koji vodi na trenutnu kategoriju
+  if (!state.activeGroup || state.activeGroup === "all") {
+    const currentPath = location.pathname.replace(/\/?$/, "/");
+
+    tabs.forEach(tab => {
+      const href = tab.getAttribute("href");
+      if (!href) return;
+
+      const tabPath = new URL(href, location.origin).pathname.replace(/\/?$/, "/");
+
+      if (tabPath === currentPath) {
+        tab.classList.add("is-active");
+        tab.setAttribute("aria-current", "page");
+      }
+    });
+
+    return;
+  }
+
+  // 3) Ako je aktivan JS filter, aktiviraj samo dugme sa tim data-group
   document.querySelectorAll(".group-tab[data-group]").forEach(btn => {
-    const val = btn.dataset.group;
-    const isActive = val === state.activeGroup;
+    const isActive = btn.dataset.group === state.activeGroup;
 
     btn.classList.toggle("is-active", isActive);
-    btn.setAttribute("aria-pressed", isActive ? "true" : "false");
+
+    if (btn.tagName.toLowerCase() === "button") {
+      btn.setAttribute("aria-pressed", isActive ? "true" : "false");
+    }
   });
 }
 

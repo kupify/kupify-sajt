@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 69,
+  "total_products": 70,
   "products": [
     {
       "name": "Eksterna HDMI kartica za video snimanje USB-A / USB-C – UGREEN CM489",
@@ -146,6 +146,17 @@
       "gtin13": "8716309135184"
     },
     {
+      "name": "Plafonski nosač za TV 32-70\" do 50kg – Gembird CM-70ST-01",
+      "price_rsd": 4499,
+      "slug": "gembird-cm-70st-01-plafonski-nosac-za-tv",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "img_thumb": "/images/products/gembird-cm-70st-01-plafonski-nosac-za-tv-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "CM-70ST-01",
+      "gtin13": "8716309128087"
+    },
+    {
       "name": "Plafonski rotirajući nosač za TV 37\"-70\" do 50kg – Kettz TVN-K1103",
       "price_rsd": 4999,
       "slug": "plafonski-nosac-za-tv-rotirajuci-kettz-tvn-k1103",
@@ -161,7 +172,7 @@
       "price_rsd": 1799,
       "slug": "plafonski-zglobni-nosac-projektora-nedis-pjcm100bk",
       "category": "tv-i-video",
-      "group": "nosaci-za-projektor",
+      "group": "nosaci-za-projektore",
       "img_thumb": "/images/products/plafonski-zglobni-nosac-projektora-nedis-pjcm100bk-01-thumb.webp",
       "brand": "Nedis",
       "sku": "PJCM100BK",
@@ -183,7 +194,7 @@
       "price_rsd": 3799,
       "slug": "sklopivo-postolje-projektora-kettz-np-k220",
       "category": "tv-i-video",
-      "group": "nosaci-za-projektor",
+      "group": "nosaci-za-projektore",
       "img_thumb": "/images/products/sklopivo-postolje-projektora-kettz-np-k220-01-thumb.webp",
       "brand": "Kettz",
       "sku": "NP-K220",
@@ -392,7 +403,7 @@
       "price_rsd": 1599,
       "slug": "plafonski-nosac-projektora-gembird-cm-b-01",
       "category": "tv-i-video",
-      "group": "nosaci-za-projektor",
+      "group": "nosaci-za-projektore",
       "img_thumb": "/images/products/plafonski-nosac-projektora-gembird-cm-b-01-01-thumb.webp",
       "brand": "Gembird",
       "sku": "CM-B-01",
@@ -403,7 +414,7 @@
       "price_rsd": 2599,
       "slug": "plafonski-nosac-projektora-kettz-pn-k10",
       "category": "tv-i-video",
-      "group": "nosaci-za-projektor",
+      "group": "nosaci-za-projektore",
       "img_thumb": "/images/products/plafonski-nosac-projektora-kettz-pn-k10-01-thumb.webp",
       "brand": "Kettz",
       "sku": "PN-K10",
@@ -645,7 +656,7 @@
       "price_rsd": 7099,
       "slug": "nedis-pjwm200bk-zidni-nosac-projektora",
       "category": "tv-i-video",
-      "group": "nosaci-za-projektor",
+      "group": "nosaci-za-projektore",
       "img_thumb": "/images/products/nedis-pjwm200bk-zidni-nosac-projektora-01-thumb.webp",
       "brand": "Nedis",
       "sku": "PJWM200BK",

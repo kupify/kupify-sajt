@@ -1,6 +1,6 @@
 {
   "category": "auto-oprema",
-  "total_products": 17,
+  "total_products": 19,
   "products": [
     {
       "name": "Auto FM antena sa pojačivačem za šofersajbnu – Kettz KT-AA02",
@@ -122,6 +122,28 @@
       "brand": "Kettz",
       "sku": "Yare",
       "gtin13": "8605054711593"
+    },
+    {
+      "name": "Držač za tablet za montažu na naslon auto sedišta – Gembird TA-CHHR-02",
+      "price_rsd": 799,
+      "slug": "drzac-tableta-za-naslon-auto-sedista-gembird-ta-chhr-02",
+      "category": "auto-oprema",
+      "group": "drzaci-za-telefone-i-tablete",
+      "img_thumb": "/images/products/drzac-tableta-za-naslon-auto-sedista-gembird-ta-chhr-02-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "TA-CHHR-02",
+      "gtin13": "8716309087278"
+    },
+    {
+      "name": "Magnetni rotirajući držač za telefon za auto ventilaciju Gembird TA-CHM-03",
+      "price_rsd": 499,
+      "slug": "magnetni-drzac-za-telefon-za-auto-ventilaciju-gembird-ta-chm-03",
+      "category": "auto-oprema",
+      "group": "drzaci-za-telefone-i-tablete",
+      "img_thumb": "/images/products/magnetni-drzac-za-telefon-za-auto-ventilaciju-gembird-ta-chm-03-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "TA-CHM-03",
+      "gtin13": "8979812154589"
     },
     {
       "name": "Monitor za auto rikverc parking kameru 5\" 12V LCD-528",
