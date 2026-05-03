@@ -1,6 +1,6 @@
 {
   "category": "audio-oprema",
-  "total_products": 3,
+  "total_products": 4,
   "products": [
     {
       "name": "Audio adapter kabl - stereo 6.35mm muški na 3.5mm ženski (20cm) – Gembird A-63M35F-0.2M",
@@ -34,6 +34,17 @@
       "brand": "Gembird",
       "sku": "WM-SB-01",
       "gtin13": "8716309128056"
+    },
+    {
+      "name": "Zidni nosači za zvučnike do 15kg (2 kom.) – Kettz NZV-051",
+      "price_rsd": 3999,
+      "slug": "kettz-nzv-051-zidni-nosaci-za-zvucnike",
+      "category": "audio-oprema",
+      "group": "nosaci-za-zvucnike",
+      "img_thumb": "/images/products/kettz-nzv-051-zidni-nosaci-za-zvucnike-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "NZV-051",
+      "gtin13": "8605054706803"
     }
   ]
 }

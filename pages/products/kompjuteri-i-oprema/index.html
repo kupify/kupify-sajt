@@ -115,27 +115,40 @@
                 </p>
             </div>
 
-            <div class="category-controls">
-                <div class="category-groups" aria-label="Grupe proizvoda u kategoriji Kompjuteri i oprema">
-                    <a class="group-tab is-active" href="/pages/products/kompjuteri-i-oprema/"
-                        aria-current="page">Sve</a>
+            
+                <div class="category-controls">
+                    <div class="category-groups" aria-label="Grupe proizvoda u kategoriji Kompjuteri i oprema">
+
+                        <!-- Reset kategorije -->
+                        <a class="group-tab is-active" href="/pages/products/kompjuteri-i-oprema/"
+                            aria-current="page">Sve</a>
+
+                        <!-- SEO grupe -->
+                        <a class="group-tab" href="/pages/products/kompjuteri-i-oprema/nosaci-za-monitore/">Nosači za
+                            monitore</a>
+
+                        <!-- Sledeće SEO grupe 
+                        <a class="group-tab" href="/pages/products/kompjuteri-i-oprema/UNESI/">UNESI</a>-->
+                        
+                        <!-- JS filteri 
+                        <button class="group-tab" data-group="UNESI" type="button">UNESI</button>-->
+                    </div>
+
+                    <div class="category-sort">
+                        <label for="sort-select">Sortiraj</label>
+                        <select id="sort-select" aria-label="Sortiraj proizvode">
+                            <option value="name-asc">Naziv A-Š</option>
+                            <option value="name-desc">Naziv Š-A</option>
+                            <option value="price-asc">Cena rastuće</option>
+                            <option value="price-desc">Cena opadajuće</option>
+                        </select>
+                    </div>
                 </div>
 
-                <div class="category-sort">
-                    <label for="sort-select">Sortiraj</label>
-                    <select id="sort-select" aria-label="Sortiraj proizvode">
-                        <option value="name-asc">Naziv A-Š</option>
-                        <option value="name-desc">Naziv Š-A</option>
-                        <option value="price-asc">Cena rastuće</option>
-                        <option value="price-desc">Cena opadajuće</option>
-                    </select>
-                </div>
-            </div>
-
-            <!-- GRID PROIZVODA -->
-            <section class="products-grid" aria-label="Proizvodi u kategoriji">
-                <ul id="products-list" role="list" aria-live="polite" aria-busy="true"></ul>
-            </section>
+                <!-- GRID PROIZVODA -->
+                <section class="products-grid" aria-label="Proizvodi u kategoriji">
+                    <ul id="products-list" role="list" aria-live="polite" aria-busy="true"></ul>
+                </section>
         </section>
 
         <!-- PAGINATION -->

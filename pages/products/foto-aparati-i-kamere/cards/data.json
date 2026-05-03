@@ -1,6 +1,6 @@
 {
   "category": "foto-aparati-i-kamere",
-  "total_products": 10,
+  "total_products": 11,
   "products": [
     {
       "name": "Adapter šraf za stativ 1/4\" muški na 3/8\" muški – Kupify TRP-1438-MM",
@@ -94,6 +94,16 @@
       "group": "snimanje-telefonom",
       "img_thumb": "/images/products/rotirajuci-drzac-za-telefon-za-stativ-tripod-01-thumb.webp",
       "brand": "Kupify"
+    },
+    {
+      "name": "Super Crab Clamp metalna stega za foto video opremu",
+      "price_rsd": 1199,
+      "slug": "super-crab-clamp-stega-za-foto-video-opremu",
+      "category": "foto-aparati-i-kamere",
+      "group": "",
+      "img_thumb": "/images/products/super-crab-clamp-stega-za-foto-video-opremu-01-thumb.webp",
+      "brand": "FEICHAO",
+      "sku": "F49471"
     },
     {
       "name": "Univerzalni adapter držač za mobilni telefon na stativ, tripod ili monopod",
