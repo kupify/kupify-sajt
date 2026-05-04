@@ -411,12 +411,12 @@
       "name": "ATX napajanje za PC 650W – Gembird GMB-650-12",
       "slug": "atx-pc-napajanje-650w-gembird-gmb-650-12",
       "category": "kompjuteri-i-oprema",
-      "group": "napajanja",
+      "group": "pc-napajanja",
       "brand": "Gembird",
       "sku": "GMB-650-12",
       "price_rsd": "2799",
       "img_thumb": "/images/products/atx-pc-napajanje-650w-gembird-gmb-650-12-01-thumb.webp",
-      "q_ascii": "atx napajanje za pc 650w – gembird gmb-650-12 gembird gmb-650-12 kompjuteri-i-oprema napajanja atx-pc-napajanje-650w-gembird-gmb-650-12 6945398958472"
+      "q_ascii": "atx napajanje za pc 650w – gembird gmb-650-12 gembird gmb-650-12 kompjuteri-i-oprema pc-napajanja atx-pc-napajanje-650w-gembird-gmb-650-12 6945398958472"
     },
     {
       "name": "Velika grickalica za zadebljane i urasle nokte – otvor sekača 15 mm",
@@ -697,12 +697,12 @@
       "name": "ATX napajanje za PC 500W – Gembird GMB-500-12",
       "slug": "atx-pc-napajanje-500w-gembird-gmb-500-12",
       "category": "kompjuteri-i-oprema",
-      "group": "napajanja",
+      "group": "pc-napajanja",
       "brand": "Gembird",
       "sku": "GMB-500-12",
       "price_rsd": "1599",
       "img_thumb": "/images/products/atx-pc-napajanje-500w-gembird-gmb-500-12-01-thumb.webp",
-      "q_ascii": "atx napajanje za pc 500w – gembird gmb-500-12 gembird gmb-500-12 kompjuteri-i-oprema napajanja atx-pc-napajanje-500w-gembird-gmb-500-12 6945398958468"
+      "q_ascii": "atx napajanje za pc 500w – gembird gmb-500-12 gembird gmb-500-12 kompjuteri-i-oprema pc-napajanja atx-pc-napajanje-500w-gembird-gmb-500-12 6945398958468"
     },
     {
       "name": "Zidni nosač sa nagibom za TV 15-42\" do 20 kg – Gembird WM-42T-05",
@@ -763,12 +763,12 @@
       "name": "ATX napajanje za PC 600W – Gembird GMB-600-PRO 80 PLUS Bronze",
       "slug": "atx-pc-napajanje-600w-gembird-gmb-600-pro-80-plus-bronze",
       "category": "kompjuteri-i-oprema",
-      "group": "napajanja",
+      "group": "pc-napajanja",
       "brand": "Gembird",
       "sku": "GMB-600-PRO",
       "price_rsd": "5199",
       "img_thumb": "/images/products/atx-pc-napajanje-600w-gembird-gmb-600-pro-80-plus-bronze-01-thumb.webp",
-      "q_ascii": "atx napajanje za pc 600w – gembird gmb-600-pro 80 plus bronze gembird gmb-600-pro kompjuteri-i-oprema napajanja atx-pc-napajanje-600w-gembird-gmb-600-pro-80-plus-bronze 9780300520200"
+      "q_ascii": "atx napajanje za pc 600w – gembird gmb-600-pro 80 plus bronze gembird gmb-600-pro kompjuteri-i-oprema pc-napajanja atx-pc-napajanje-600w-gembird-gmb-600-pro-80-plus-bronze 9780300520200"
     },
     {
       "name": "Spoljna mrežasta TV antena sa pojačivačem 15-32 dB – ANT-408",
@@ -840,12 +840,12 @@
       "name": "ATX napajanje za PC 650W 80 Plus – UGD Power G650",
       "slug": "atx-pc-napajanje-ugd-power-g650",
       "category": "kompjuteri-i-oprema",
-      "group": "napajanja",
+      "group": "pc-napajanja",
       "brand": "UGD Power",
       "sku": "G650",
       "price_rsd": "5499",
       "img_thumb": "/images/products/atx-pc-napajanje-ugd-power-g650-01-thumb.webp",
-      "q_ascii": "atx napajanje za pc 650w 80 plus – ugd power g650 ugd power g650 kompjuteri-i-oprema napajanja atx-pc-napajanje-ugd-power-g650 8606112328135"
+      "q_ascii": "atx napajanje za pc 650w 80 plus – ugd power g650 ugd power g650 kompjuteri-i-oprema pc-napajanja atx-pc-napajanje-ugd-power-g650 8606112328135"
     },
     {
       "name": "Stoni nosač sa gasnim oprugama za 2 monitora 17-32“ – Gembird MA-DA2-05",
@@ -939,12 +939,12 @@
       "name": "ATX napajanje za PC 600W – UGD Power D600",
       "slug": "atx-pc-napajanje-ugd-power-d600",
       "category": "kompjuteri-i-oprema",
-      "group": "napajanja",
+      "group": "pc-napajanja",
       "brand": "UGD Power",
       "sku": "D600",
       "price_rsd": "3799",
       "img_thumb": "/images/products/atx-pc-napajanje-ugd-power-d600-01-thumb.webp",
-      "q_ascii": "atx napajanje za pc 600w – ugd power d600 ugd power d600 kompjuteri-i-oprema napajanja atx-pc-napajanje-ugd-power-d600 8606112328128"
+      "q_ascii": "atx napajanje za pc 600w – ugd power d600 ugd power d600 kompjuteri-i-oprema pc-napajanja atx-pc-napajanje-ugd-power-d600 8606112328128"
     },
     {
       "name": "A-RGB ventilator kuler za PC kućište 120mm – DeepCool FC120",
@@ -2650,6 +2650,17 @@
       "price_rsd": "3999",
       "img_thumb": "/images/products/kettz-nzv-051-zidni-nosaci-za-zvucnike-01-thumb.webp",
       "q_ascii": "zidni nosaci za zvucnike do 15kg (2 kom.) – kettz nzv-051 kettz nzv-051 audio-oprema nosaci-za-zvucnike kettz-nzv-051-zidni-nosaci-za-zvucnike 8605054706803"
+    },
+    {
+      "name": "Adapter za Hot Shoe blica na tripod navoj 1/4\" za montažu opreme",
+      "slug": "adapter-za-hot-shoe-na-tripod-navoj-1-4-inca",
+      "category": "foto-aparati-i-kamere",
+      "group": "",
+      "brand": "Kupify",
+      "sku": "HS-TP-14",
+      "price_rsd": "499",
+      "img_thumb": "/images/products/adapter-za-hot-shoe-na-tripod-navoj-1-4-inca-01-thumb.webp",
+      "q_ascii": "adapter za hot shoe blica na tripod navoj 1/4\" za montazu opreme kupify hs-tp-14 foto-aparati-i-kamere adapter-za-hot-shoe-na-tripod-navoj-1-4-inca"
     }
   ]
 }

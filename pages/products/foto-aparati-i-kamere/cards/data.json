@@ -1,7 +1,17 @@
 {
   "category": "foto-aparati-i-kamere",
-  "total_products": 11,
+  "total_products": 12,
   "products": [
+    {
+      "name": "Adapter za Hot Shoe blica na tripod navoj 1/4\" za montažu opreme",
+      "price_rsd": 499,
+      "slug": "adapter-za-hot-shoe-na-tripod-navoj-1-4-inca",
+      "category": "foto-aparati-i-kamere",
+      "group": "",
+      "img_thumb": "/images/products/adapter-za-hot-shoe-na-tripod-navoj-1-4-inca-01-thumb.webp",
+      "brand": "Kupify",
+      "sku": "HS-TP-14"
+    },
     {
       "name": "Adapter šraf za stativ 1/4\" muški na 3/8\" muški – Kupify TRP-1438-MM",
       "price_rsd": 99,
