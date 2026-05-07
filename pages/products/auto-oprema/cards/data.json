@@ -1,6 +1,6 @@
 {
   "category": "auto-oprema",
-  "total_products": 19,
+  "total_products": 21,
   "products": [
     {
       "name": "Auto FM antena sa pojačivačem za šofersajbnu – Kettz KT-AA02",
@@ -155,6 +155,28 @@
       "brand": "Velteh",
       "sku": "LCD-528",
       "gtin13": "8606018839773"
+    },
+    {
+      "name": "Plastični kanister za gorivo sa levkom, 10L - Tes Line",
+      "price_rsd": 1399,
+      "slug": "tes-line-10l-plasticni-kanister-za-gorivo",
+      "category": "auto-oprema",
+      "group": "",
+      "img_thumb": "/images/products/tes-line-10l-plasticni-kanister-za-gorivo-01-thumb.webp",
+      "brand": "Tes Line",
+      "sku": "2RO1030",
+      "gtin13": "8606102037641"
+    },
+    {
+      "name": "Plastični kanister za gorivo sa levkom, 20L - Tes Line",
+      "price_rsd": 1999,
+      "slug": "tes-line-20l-plasticni-kanister-za-gorivo",
+      "category": "auto-oprema",
+      "group": "",
+      "img_thumb": "/images/products/tes-line-20l-plasticni-kanister-za-gorivo-01-thumb.webp",
+      "brand": "Tes Line",
+      "sku": "2RO2030",
+      "gtin13": "8606106885767"
     },
     {
       "name": "Podesivi podupirači - stubići za automobil 3t Big Red - 2kom",
