@@ -942,7 +942,7 @@
       "group": "pc-napajanja",
       "brand": "UGD Power",
       "sku": "D600",
-      "price_rsd": "3799",
+      "price_rsd": "4099",
       "img_thumb": "/images/products/atx-pc-napajanje-ugd-power-d600-01-thumb.webp",
       "q_ascii": "atx napajanje za pc 600w – ugd power d600 ugd power d600 kompjuteri-i-oprema pc-napajanja atx-pc-napajanje-ugd-power-d600 8606112328128"
     },
@@ -2683,6 +2683,28 @@
       "price_rsd": "1399",
       "img_thumb": "/images/products/tes-line-10l-plasticni-kanister-za-gorivo-01-thumb.webp",
       "q_ascii": "plasticni kanister za gorivo sa levkom, 10l - tes line tes line 2ro1030 auto-oprema tes-line-10l-plasticni-kanister-za-gorivo 8606102037641"
+    },
+    {
+      "name": "Trimer za nos, uši i obrve, za uklanjanje dlačica – Zilan ZLN3928",
+      "slug": "zilan-zln3928-trimer-za-nos-usi-uklanjanje-dlacica",
+      "category": "nega-i-licna-higijena",
+      "group": "",
+      "brand": "Zilan",
+      "sku": "ZLN3928",
+      "price_rsd": "499",
+      "img_thumb": "/images/products/zilan-zln3928-trimer-za-nos-usi-uklanjanje-dlacica-01-thumb.webp",
+      "q_ascii": "trimer za nos, usi i obrve, za uklanjanje dlacica – zilan zln3928 zilan zln3928 nega-i-licna-higijena zilan-zln3928-trimer-za-nos-usi-uklanjanje-dlacica 8682744808559"
+    },
+    {
+      "name": "ATX napajanje za PC 600W – DeepCool Gamer Storm PF600X 80PLUS Bronze",
+      "slug": "deepcool-pf600x-napajanje-za-pc-600w-80-plus-bronze",
+      "category": "kompjuteri-i-oprema",
+      "group": "pc-napajanja",
+      "brand": "DeepCool",
+      "sku": "PF600X",
+      "price_rsd": "7599",
+      "img_thumb": "/images/products/deepcool-pf600x-napajanje-za-pc-600w-80-plus-bronze-01-thumb.webp",
+      "q_ascii": "atx napajanje za pc 600w – deepcool gamer storm pf600x 80plus bronze deepcool pf600x kompjuteri-i-oprema pc-napajanja deepcool-pf600x-napajanje-za-pc-600w-80-plus-bronze 6933412743941"
     }
   ]
 }

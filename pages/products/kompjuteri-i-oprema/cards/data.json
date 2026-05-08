@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 95,
+  "total_products": 96,
   "products": [
     {
       "name": "2-u-1 bežični miš sa Bluetooth i 2.4GHz vezom, 3200 DPI – Cudy MS9945",
@@ -91,6 +91,17 @@
       "gtin13": "6945398958468"
     },
     {
+      "name": "ATX napajanje za PC 600W – DeepCool Gamer Storm PF600X 80PLUS Bronze",
+      "price_rsd": 7599,
+      "slug": "deepcool-pf600x-napajanje-za-pc-600w-80-plus-bronze",
+      "category": "kompjuteri-i-oprema",
+      "group": "pc-napajanja",
+      "img_thumb": "/images/products/deepcool-pf600x-napajanje-za-pc-600w-80-plus-bronze-01-thumb.webp",
+      "brand": "DeepCool",
+      "sku": "PF600X",
+      "gtin13": "6933412743941"
+    },
+    {
       "name": "ATX napajanje za PC 600W – Gembird GMB-600-PRO 80 PLUS Bronze",
       "price_rsd": 5199,
       "slug": "atx-pc-napajanje-600w-gembird-gmb-600-pro-80-plus-bronze",
@@ -103,7 +114,7 @@
     },
     {
       "name": "ATX napajanje za PC 600W – UGD Power D600",
-      "price_rsd": 3799,
+      "price_rsd": 4099,
       "slug": "atx-pc-napajanje-ugd-power-d600",
       "category": "kompjuteri-i-oprema",
       "group": "pc-napajanja",
