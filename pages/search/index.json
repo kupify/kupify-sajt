@@ -2696,7 +2696,7 @@
       "q_ascii": "trimer za nos, usi i obrve, za uklanjanje dlacica – zilan zln3928 zilan zln3928 nega-i-licna-higijena zilan-zln3928-trimer-za-nos-usi-uklanjanje-dlacica 8682744808559"
     },
     {
-      "name": "ATX napajanje za PC 600W – DeepCool Gamer Storm PF600X 80PLUS Bronze",
+      "name": "ATX napajanje za PC 600W – DeepCool Gamer Storm PF600X 80 PLUS Bronze",
       "slug": "deepcool-pf600x-napajanje-za-pc-600w-80-plus-bronze",
       "category": "kompjuteri-i-oprema",
       "group": "pc-napajanja",
@@ -2704,7 +2704,18 @@
       "sku": "PF600X",
       "price_rsd": "7599",
       "img_thumb": "/images/products/deepcool-pf600x-napajanje-za-pc-600w-80-plus-bronze-01-thumb.webp",
-      "q_ascii": "atx napajanje za pc 600w – deepcool gamer storm pf600x 80plus bronze deepcool pf600x kompjuteri-i-oprema pc-napajanja deepcool-pf600x-napajanje-za-pc-600w-80-plus-bronze 6933412743941"
+      "q_ascii": "atx napajanje za pc 600w – deepcool gamer storm pf600x 80 plus bronze deepcool pf600x kompjuteri-i-oprema pc-napajanja deepcool-pf600x-napajanje-za-pc-600w-80-plus-bronze 6933412743941"
+    },
+    {
+      "name": "ATX napajanje za PC 500W – DeepCool Gamer Storm PF500X 80 PLUS Bronze",
+      "slug": "deepcool-pf500x-atx-pc-napajanje-500w-80-plus-bronze",
+      "category": "kompjuteri-i-oprema",
+      "group": "pc-napajanja",
+      "brand": "DeepCool",
+      "sku": "PF500X",
+      "price_rsd": "6399",
+      "img_thumb": "/images/products/deepcool-pf500x-atx-pc-napajanje-500w-80-plus-bronze-01-thumb.webp",
+      "q_ascii": "atx napajanje za pc 500w – deepcool gamer storm pf500x 80 plus bronze deepcool pf500x kompjuteri-i-oprema pc-napajanja deepcool-pf500x-atx-pc-napajanje-500w-80-plus-bronze 6933412743804"
     }
   ]
 }
