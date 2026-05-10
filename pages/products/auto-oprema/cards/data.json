@@ -1,6 +1,6 @@
 {
   "category": "auto-oprema",
-  "total_products": 21,
+  "total_products": 22,
   "products": [
     {
       "name": "Auto FM antena sa pojačivačem za šofersajbnu – Kettz KT-AA02",
@@ -155,6 +155,17 @@
       "brand": "Velteh",
       "sku": "LCD-528",
       "gtin13": "8606018839773"
+    },
+    {
+      "name": "Plastični kanister kanta za gorivo sa levkom 5L - Tes Line",
+      "price_rsd": 999,
+      "slug": "tes-line-5l-plasticni-kanister-za-gorivo",
+      "category": "auto-oprema",
+      "group": "",
+      "img_thumb": "/images/products/tes-line-5l-plasticni-kanister-za-gorivo-01-thumb.webp",
+      "brand": "Tes Line",
+      "sku": "2RO0530",
+      "gtin13": "8606100617449"
     },
     {
       "name": "Plastični kanister za gorivo sa levkom, 10L - Tes Line",
