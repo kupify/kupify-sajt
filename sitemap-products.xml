@@ -1494,4 +1494,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://kupify.rs/pages/products/kompjuteri-i-oprema/gembird-nbs-d1-04-podesivo-postolje-za-laptop/</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kupify.rs/pages/products/kompjuteri-i-oprema/gembird-ma-d3-01-stoni-nosac-3-monitora/</loc>
+    <lastmod>2026-05-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

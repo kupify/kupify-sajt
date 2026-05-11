@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 98,
+  "total_products": 100,
   "products": [
     {
       "name": "2-u-1 bežični miš sa Bluetooth i 2.4GHz vezom, 3200 DPI – Cudy MS9945",
@@ -355,17 +355,6 @@
       "gtin13": "6971690790042"
     },
     {
-      "name": "Metalno rotirajuće postolje za laptop do 15.6\" – Gembird NBS-DR1-01",
-      "price_rsd": 2099,
-      "slug": "gembird-nbs-dr1-01-rotirajuce-postolje-za-laptop",
-      "category": "kompjuteri-i-oprema",
-      "group": "laptop-postolja",
-      "img_thumb": "/images/products/gembird-nbs-dr1-01-rotirajuce-postolje-za-laptop-01-thumb.webp",
-      "brand": "Gembird",
-      "sku": "NBS-DR1-01",
-      "gtin13": "8716309132336"
-    },
-    {
       "name": "Nosač za 2 monitora 17-35\" sa rukama sa gasnim oprugama – Gembird MA-DA2-03",
       "price_rsd": 6899,
       "slug": "gembird-ma-da2-03-nosac-za-2-monitora",
@@ -476,6 +465,17 @@
       "gtin13": "8716309135245"
     },
     {
+      "name": "Rotirajuće postolje za podizanje laptopa do 15.6\" – Gembird NBS-DR1-01",
+      "price_rsd": 2099,
+      "slug": "gembird-nbs-dr1-01-rotirajuce-postolje-za-laptop",
+      "category": "kompjuteri-i-oprema",
+      "group": "laptop-postolja",
+      "img_thumb": "/images/products/gembird-nbs-dr1-01-rotirajuce-postolje-za-laptop-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "NBS-DR1-01",
+      "gtin13": "8716309132336"
+    },
+    {
       "name": "Shockproof eksterno kućište za 2.5\" HDD i SSD (USB 3.0) – Silicon Power Armor A30",
       "price_rsd": 1699,
       "slug": "eksterno-kuciste-2-5-inca-hdd-ssd-usb-3-0-silicon-power-armor-a30",
@@ -484,6 +484,17 @@
       "img_thumb": "/images/products/eksterno-kuciste-2-5-inca-hdd-ssd-usb-3-0-silicon-power-armor-a30-01-thumb.webp",
       "brand": "Silicon Power",
       "sku": "Armor A30"
+    },
+    {
+      "name": "Sklopivo postolje za podizanje laptopa do 15.6\" – Gembird NBS-D1-04",
+      "price_rsd": 1999,
+      "slug": "gembird-nbs-d1-04-podesivo-postolje-za-laptop",
+      "category": "kompjuteri-i-oprema",
+      "group": "laptop-postolja",
+      "img_thumb": "/images/products/gembird-nbs-d1-04-podesivo-postolje-za-laptop-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "NBS-D1-04",
+      "gtin13": "8716309132329"
     },
     {
       "name": "Slušalice sa mikrofonom za laptop ili telefon – Gembird MHS-03-WTRD",
@@ -550,6 +561,17 @@
       "brand": "Gembird",
       "sku": "MA-D2-01",
       "gtin13": "8716309126076"
+    },
+    {
+      "name": "Stoni nosač - ruka za 3 monitora 17-27\" – Gembird MA-D3-01",
+      "price_rsd": 4999,
+      "slug": "gembird-ma-d3-01-stoni-nosac-3-monitora",
+      "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitore",
+      "img_thumb": "/images/products/gembird-ma-d3-01-stoni-nosac-3-monitora-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MA-D3-01",
+      "gtin13": "8716309126267"
     },
     {
       "name": "Stoni nosač - ruka za monitor 10-32“ sa gasnom oprugom – Kettz NM-K190",

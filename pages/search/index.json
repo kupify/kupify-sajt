@@ -2729,7 +2729,7 @@
       "q_ascii": "plasticni kanister kanta za gorivo sa levkom 5l - tes line tes line 2ro0530 auto-oprema tes-line-5l-plasticni-kanister-za-gorivo 8606100617449"
     },
     {
-      "name": "Metalno rotirajuće postolje za laptop do 15.6\" – Gembird NBS-DR1-01",
+      "name": "Rotirajuće postolje za podizanje laptopa do 15.6\" – Gembird NBS-DR1-01",
       "slug": "gembird-nbs-dr1-01-rotirajuce-postolje-za-laptop",
       "category": "kompjuteri-i-oprema",
       "group": "laptop-postolja",
@@ -2737,7 +2737,29 @@
       "sku": "NBS-DR1-01",
       "price_rsd": "2099",
       "img_thumb": "/images/products/gembird-nbs-dr1-01-rotirajuce-postolje-za-laptop-01-thumb.webp",
-      "q_ascii": "metalno rotirajuce postolje za laptop do 15.6\" – gembird nbs-dr1-01 gembird nbs-dr1-01 kompjuteri-i-oprema laptop-postolja gembird-nbs-dr1-01-rotirajuce-postolje-za-laptop 8716309132336"
+      "q_ascii": "rotirajuce postolje za podizanje laptopa do 15.6\" – gembird nbs-dr1-01 gembird nbs-dr1-01 kompjuteri-i-oprema laptop-postolja gembird-nbs-dr1-01-rotirajuce-postolje-za-laptop 8716309132336"
+    },
+    {
+      "name": "Sklopivo postolje za podizanje laptopa do 15.6\" – Gembird NBS-D1-04",
+      "slug": "gembird-nbs-d1-04-podesivo-postolje-za-laptop",
+      "category": "kompjuteri-i-oprema",
+      "group": "laptop-postolja",
+      "brand": "Gembird",
+      "sku": "NBS-D1-04",
+      "price_rsd": "1999",
+      "img_thumb": "/images/products/gembird-nbs-d1-04-podesivo-postolje-za-laptop-01-thumb.webp",
+      "q_ascii": "sklopivo postolje za podizanje laptopa do 15.6\" – gembird nbs-d1-04 gembird nbs-d1-04 kompjuteri-i-oprema laptop-postolja gembird-nbs-d1-04-podesivo-postolje-za-laptop 8716309132329"
+    },
+    {
+      "name": "Stoni nosač - ruka za 3 monitora 17-27\" – Gembird MA-D3-01",
+      "slug": "gembird-ma-d3-01-stoni-nosac-3-monitora",
+      "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitore",
+      "brand": "Gembird",
+      "sku": "MA-D3-01",
+      "price_rsd": "4999",
+      "img_thumb": "/images/products/gembird-ma-d3-01-stoni-nosac-3-monitora-01-thumb.webp",
+      "q_ascii": "stoni nosac - ruka za 3 monitora 17-27\" – gembird ma-d3-01 gembird ma-d3-01 kompjuteri-i-oprema nosaci-za-monitore gembird-ma-d3-01-stoni-nosac-3-monitora 8716309126267"
     }
   ]
 }
