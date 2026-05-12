@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 70,
+  "total_products": 72,
   "products": [
     {
       "name": "Eksterna HDMI kartica za video snimanje USB-A / USB-C – UGREEN CM489",
@@ -25,6 +25,17 @@
       "gtin13": "8607826723438"
     },
     {
+      "name": "Fiksni zidni nosač za TV 18-55\" do 50kg – Gembird WM-55F-05",
+      "price_rsd": 699,
+      "slug": "gembird-wm-55f-05-fiksni-zidni-tv-nosac",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "img_thumb": "/images/products/gembird-wm-55f-05-fiksni-zidni-tv-nosac-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "WM-55F-05",
+      "gtin13": "8607878353348"
+    },
+    {
       "name": "Fiksni zidni nosač za TV 23-60\" do 50 kg – Kettz TVN-440F",
       "price_rsd": 799,
       "slug": "fiksni-zidni-tv-nosac-kettz-tvn-440f",
@@ -45,6 +56,17 @@
       "brand": "Gembird",
       "sku": "WM-56F-05",
       "gtin13": "8607888637438"
+    },
+    {
+      "name": "Fiksni zidni nosač za TV 32-75 do 75kg – Gembird WM-75F-02",
+      "price_rsd": 999,
+      "slug": "gembird-wm-75f-02-fiksni-zidni-tv-nosac",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "img_thumb": "/images/products/gembird-wm-75f-02-fiksni-zidni-tv-nosac-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "WM-75F-02",
+      "gtin13": "8716309135313"
     },
     {
       "name": "Fiksni zidni nosač za TV 32-85\" do 70 kg – Tuarex OLIMP-311",

@@ -1506,4 +1506,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://kupify.rs/pages/products/tv-i-video/gembird-wm-55f-05-fiksni-zidni-tv-nosac/</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kupify.rs/pages/products/tv-i-video/gembird-wm-75f-02-fiksni-zidni-tv-nosac/</loc>
+    <lastmod>2026-05-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
