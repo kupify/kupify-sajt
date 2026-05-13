@@ -2405,13 +2405,19 @@ footer {
     border: none;
     padding: 0.25rem 0.5rem;
 
+    font-family: inherit;
     font-size: 0.9rem;
     font-weight: 500;
+    line-height: inherit;
+
     color: #666;
     text-decoration: none;
 
     cursor: pointer;
     position: relative;
+
+    appearance: none;
+    -webkit-appearance: none;
 
     transition: color 0.15s ease;
 }
@@ -2423,16 +2429,12 @@ footer {
 .group-tab.is-active {
     color: rgba(var(--text-dark), 1);
     font-weight: 600;
+    background: rgba(var(--brand-teal-hover), 0.05);
+    border-radius: 5px;
 }
 
 .group-tab.is-active::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-    width: 100%;
-    height: 1px;
-    background: rgba(var(--text-light), 0.5);
+    content: none;
 }
 
 .group-tab:focus-visible {
@@ -2445,25 +2447,53 @@ footer {
 
     .category-controls {
         flex-direction: column-reverse;
-        align-items: flex-start;
+        align-items: stretch;
 
         width: 100%;
         padding-inline: 0.75rem;
         padding-top: 0rem;
         margin-bottom: 1rem;
+        gap: 1rem;
     }
 
     .category-groups {
-        gap: 0.8rem;
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 1.1rem;
+
+        width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+        white-space: nowrap;
+
+        padding: 0.25rem 0 0.75rem;
+        -webkit-overflow-scrolling: touch;
+
+        scrollbar-width: thin;
+        scrollbar-color: #b7dede transparent;
+    }
+
+    .category-groups::-webkit-scrollbar {
+        height: 3px;
+    }
+
+    .category-groups::-webkit-scrollbar-track {
+        background: transparent;
+    }
+
+    .category-groups::-webkit-scrollbar-thumb {
+        background: #b7dede;
+        border-radius: 999px;
     }
 
     .group-tab {
-        font-size: 0.8rem;
+        flex: 0 0 auto;
+        font-size: 0.85rem;
     }
 
     .category-sort {
         display: flex;
-        justify-content: flex-end;
+        justify-content: flex-start;
         align-items: center;
         gap: 0.5rem;
         font-size: 0.85rem;
@@ -2471,14 +2501,14 @@ footer {
     }
 
     #sort-select {
-        width: min(100%, 320px);
+        width: auto;
+        min-width: 135px;
         font-size: .75rem;
         border-radius: 5px;
-        padding: 0.2rem 0rem;
+        padding: 0.2rem 0.35rem;
         line-height: 1.1;
     }
 }
-
 
 /* A11y labela skrivena, ali čitljiva čitačima ekrana */
 .sr-only {
