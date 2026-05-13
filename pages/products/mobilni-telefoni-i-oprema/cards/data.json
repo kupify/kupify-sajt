@@ -1,6 +1,6 @@
 {
   "category": "mobilni-telefoni-i-oprema",
-  "total_products": 7,
+  "total_products": 8,
   "products": [
     {
       "name": "3-u-1 Brzi punjač USB-A / USB-C GaN 140W – UGREEN Nexode CD289",
@@ -47,11 +47,22 @@
       "gtin13": "8716309124805"
     },
     {
+      "name": "USB Type-C na 3.5 mm audio adapter kabl – Gembird A-CM-3.5F-01",
+      "price_rsd": 399,
+      "slug": "gembird-a-cm-3-5f-01-audio-adapter-usb-c-na-3-5-mm",
+      "category": "mobilni-telefoni-i-oprema",
+      "group": "kablovi-i-adapteri",
+      "img_thumb": "/images/products/gembird-a-cm-3-5f-01-audio-adapter-usb-c-na-3-5-mm-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "A-CM-3.5F-01",
+      "gtin13": "8716309129732"
+    },
+    {
       "name": "USB-A na Type-C kabl 3.0 za telefon 1.8m 36W – Gembird CCP-USB3-AMCM-6",
       "price_rsd": 499,
       "slug": "gembird-ccp-usb3-amcm-6-usb-a-usb-c-kabl",
       "category": "mobilni-telefoni-i-oprema",
-      "group": "kablovi",
+      "group": "kablovi-i-adapteri",
       "img_thumb": "/images/products/gembird-ccp-usb3-amcm-6-usb-a-usb-c-kabl-01-thumb.webp",
       "brand": "Gembird",
       "sku": "CCP-USB3-AMCM-6",
@@ -62,7 +73,7 @@
       "price_rsd": 599,
       "slug": "ugreen-us264-60518-usb-c-kabl-60w",
       "category": "mobilni-telefoni-i-oprema",
-      "group": "kablovi",
+      "group": "kablovi-i-adapteri",
       "img_thumb": "/images/products/ugreen-us264-60518-usb-c-kabl-60w-01-thumb.webp",
       "brand": "Ugreen",
       "sku": "US264 60518",
@@ -73,7 +84,7 @@
       "price_rsd": 599,
       "slug": "ugreen-us286-50997-usb-c-kabl-60w",
       "category": "mobilni-telefoni-i-oprema",
-      "group": "kablovi",
+      "group": "kablovi-i-adapteri",
       "img_thumb": "/images/products/ugreen-us286-50997-usb-c-kabl-60w-01-thumb.webp",
       "brand": "Ugreen",
       "sku": "US286 50997",

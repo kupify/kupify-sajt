@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 72,
+  "total_products": 75,
   "products": [
     {
       "name": "Eksterna HDMI kartica za video snimanje USB-A / USB-C – UGREEN CM489",
@@ -100,6 +100,39 @@
       "brand": "Gembird",
       "sku": "WM-90F-01",
       "gtin13": "8716309126175"
+    },
+    {
+      "name": "HDMI 2.1 Kabl - 8K UHD High Speed, 3m – Gembird CC-HDMI8K-3M",
+      "price_rsd": 619,
+      "slug": "gembird-cc-hdmi8k-3m-hdmi-2-1-kabl-8k-uhd",
+      "category": "tv-i-video",
+      "group": "hdmi-kablovi",
+      "img_thumb": "/images/products/gembird-cc-hdmi8k-3m-hdmi-2-1-kabl-8k-uhd-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "CC-HDMI8K-3M",
+      "gtin13": "8716309114455"
+    },
+    {
+      "name": "HDMI 2.1 Kabl – 8K UHD High Speed, 1m – Gembird CC-HDMI8K-1M",
+      "price_rsd": 369,
+      "slug": "gembird-cc-hdmi8k-1m-hdmi-2-1-kabl-8k-uhd",
+      "category": "tv-i-video",
+      "group": "hdmi-kablovi",
+      "img_thumb": "/images/products/gembird-cc-hdmi8k-1m-hdmi-2-1-kabl-8k-uhd-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "CC-HDMI8K-1M",
+      "gtin13": "8716309114431"
+    },
+    {
+      "name": "HDMI 2.1 Kabl – 8K UHD High Speed, 2m – Gembird CC-HDMI8K-2M",
+      "price_rsd": 549,
+      "slug": "gembird-cc-hdmi8k-2m-hdmi-2-1-kabl-8k-uhd",
+      "category": "tv-i-video",
+      "group": "hdmi-kablovi",
+      "img_thumb": "/images/products/gembird-cc-hdmi8k-2m-hdmi-2-1-kabl-8k-uhd-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "CC-HDMI8K-2M",
+      "gtin13": "8716309114448"
     },
     {
       "name": "HDMI switch sa 3 ulaza na 1 izlaz 4K – Gembird DSW-HDMI-34",

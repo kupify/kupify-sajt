@@ -2006,12 +2006,12 @@
       "name": "USB-A na Type-C kabl 3.0 za telefon 1.8m 36W – Gembird CCP-USB3-AMCM-6",
       "slug": "gembird-ccp-usb3-amcm-6-usb-a-usb-c-kabl",
       "category": "mobilni-telefoni-i-oprema",
-      "group": "kablovi",
+      "group": "kablovi-i-adapteri",
       "brand": "Gembird",
       "sku": "CCP-USB3-AMCM-6",
       "price_rsd": "499",
       "img_thumb": "/images/products/gembird-ccp-usb3-amcm-6-usb-a-usb-c-kabl-01-thumb.webp",
-      "q_ascii": "usb-a na type-c kabl 3.0 za telefon 1.8m 36w – gembird ccp-usb3-amcm-6 gembird ccp-usb3-amcm-6 mobilni-telefoni-i-oprema kablovi gembird-ccp-usb3-amcm-6-usb-a-usb-c-kabl 8716309086493"
+      "q_ascii": "usb-a na type-c kabl 3.0 za telefon 1.8m 36w – gembird ccp-usb3-amcm-6 gembird ccp-usb3-amcm-6 mobilni-telefoni-i-oprema kablovi-i-adapteri gembird-ccp-usb3-amcm-6-usb-a-usb-c-kabl 8716309086493"
     },
     {
       "name": "Slušalice sa mikrofonom za laptop ili telefon – Gembird MHS-03-WTRD",
@@ -2193,23 +2193,23 @@
       "name": "USB-C kabl za brzo punjenje PD 60W, 1m, beli – Ugreen US264 60518",
       "slug": "ugreen-us264-60518-usb-c-kabl-60w",
       "category": "mobilni-telefoni-i-oprema",
-      "group": "kablovi",
+      "group": "kablovi-i-adapteri",
       "brand": "Ugreen",
       "sku": "US264 60518",
       "price_rsd": "599",
       "img_thumb": "/images/products/ugreen-us264-60518-usb-c-kabl-60w-01-thumb.webp",
-      "q_ascii": "usb-c kabl za brzo punjenje pd 60w, 1m, beli – ugreen us264 60518 ugreen us264 60518 mobilni-telefoni-i-oprema kablovi ugreen-us264-60518-usb-c-kabl-60w 6957303865185"
+      "q_ascii": "usb-c kabl za brzo punjenje pd 60w, 1m, beli – ugreen us264 60518 ugreen us264 60518 mobilni-telefoni-i-oprema kablovi-i-adapteri ugreen-us264-60518-usb-c-kabl-60w 6957303865185"
     },
     {
       "name": "USB-C kabl za brzo punjenje PD 60W, 1m, crni – Ugreen US286 50997",
       "slug": "ugreen-us286-50997-usb-c-kabl-60w",
       "category": "mobilni-telefoni-i-oprema",
-      "group": "kablovi",
+      "group": "kablovi-i-adapteri",
       "brand": "Ugreen",
       "sku": "US286 50997",
       "price_rsd": "599",
       "img_thumb": "/images/products/ugreen-us286-50997-usb-c-kabl-60w-01-thumb.webp",
-      "q_ascii": "usb-c kabl za brzo punjenje pd 60w, 1m, crni – ugreen us286 50997 ugreen us286 50997 mobilni-telefoni-i-oprema kablovi ugreen-us286-50997-usb-c-kabl-60w 6957303859979"
+      "q_ascii": "usb-c kabl za brzo punjenje pd 60w, 1m, crni – ugreen us286 50997 ugreen us286 50997 mobilni-telefoni-i-oprema kablovi-i-adapteri ugreen-us286-50997-usb-c-kabl-60w 6957303859979"
     },
     {
       "name": "Crevo za bazensku filter pumpu, 3m x 32mm – Bestway FlowClear 58369",
@@ -2782,6 +2782,50 @@
       "price_rsd": "999",
       "img_thumb": "/images/products/gembird-wm-75f-02-fiksni-zidni-tv-nosac-01-thumb.webp",
       "q_ascii": "fiksni zidni nosac za tv 32-75 do 75kg – gembird wm-75f-02 gembird wm-75f-02 tv-i-video tv-nosaci gembird-wm-75f-02-fiksni-zidni-tv-nosac 8716309135313"
+    },
+    {
+      "name": "HDMI 2.1 Kabl - 8K UHD High Speed, 3m – Gembird CC-HDMI8K-3M",
+      "slug": "gembird-cc-hdmi8k-3m-hdmi-2-1-kabl-8k-uhd",
+      "category": "tv-i-video",
+      "group": "hdmi-kablovi",
+      "brand": "Gembird",
+      "sku": "CC-HDMI8K-3M",
+      "price_rsd": "619",
+      "img_thumb": "/images/products/gembird-cc-hdmi8k-3m-hdmi-2-1-kabl-8k-uhd-01-thumb.webp",
+      "q_ascii": "hdmi 2.1 kabl - 8k uhd high speed, 3m – gembird cc-hdmi8k-3m gembird cc-hdmi8k-3m tv-i-video hdmi-kablovi gembird-cc-hdmi8k-3m-hdmi-2-1-kabl-8k-uhd 8716309114455"
+    },
+    {
+      "name": "HDMI 2.1 Kabl – 8K UHD High Speed, 1m – Gembird CC-HDMI8K-1M",
+      "slug": "gembird-cc-hdmi8k-1m-hdmi-2-1-kabl-8k-uhd",
+      "category": "tv-i-video",
+      "group": "hdmi-kablovi",
+      "brand": "Gembird",
+      "sku": "CC-HDMI8K-1M",
+      "price_rsd": "369",
+      "img_thumb": "/images/products/gembird-cc-hdmi8k-1m-hdmi-2-1-kabl-8k-uhd-01-thumb.webp",
+      "q_ascii": "hdmi 2.1 kabl – 8k uhd high speed, 1m – gembird cc-hdmi8k-1m gembird cc-hdmi8k-1m tv-i-video hdmi-kablovi gembird-cc-hdmi8k-1m-hdmi-2-1-kabl-8k-uhd 8716309114431"
+    },
+    {
+      "name": "HDMI 2.1 Kabl – 8K UHD High Speed, 2m – Gembird CC-HDMI8K-2M",
+      "slug": "gembird-cc-hdmi8k-2m-hdmi-2-1-kabl-8k-uhd",
+      "category": "tv-i-video",
+      "group": "hdmi-kablovi",
+      "brand": "Gembird",
+      "sku": "CC-HDMI8K-2M",
+      "price_rsd": "549",
+      "img_thumb": "/images/products/gembird-cc-hdmi8k-2m-hdmi-2-1-kabl-8k-uhd-01-thumb.webp",
+      "q_ascii": "hdmi 2.1 kabl – 8k uhd high speed, 2m – gembird cc-hdmi8k-2m gembird cc-hdmi8k-2m tv-i-video hdmi-kablovi gembird-cc-hdmi8k-2m-hdmi-2-1-kabl-8k-uhd 8716309114448"
+    },
+    {
+      "name": "USB Type-C na 3.5 mm audio adapter kabl – Gembird A-CM-3.5F-01",
+      "slug": "gembird-a-cm-3-5f-01-audio-adapter-usb-c-na-3-5-mm",
+      "category": "mobilni-telefoni-i-oprema",
+      "group": "kablovi-i-adapteri",
+      "brand": "Gembird",
+      "sku": "A-CM-3.5F-01",
+      "price_rsd": "399",
+      "img_thumb": "/images/products/gembird-a-cm-3-5f-01-audio-adapter-usb-c-na-3-5-mm-01-thumb.webp",
+      "q_ascii": "usb type-c na 3.5 mm audio adapter kabl – gembird a-cm-3.5f-01 gembird a-cm-3.5f-01 mobilni-telefoni-i-oprema kablovi-i-adapteri gembird-a-cm-3-5f-01-audio-adapter-usb-c-na-3-5-mm 8716309129732"
     }
   ]
 }
