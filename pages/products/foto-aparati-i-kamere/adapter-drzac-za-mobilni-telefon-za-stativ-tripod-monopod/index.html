@@ -64,10 +64,18 @@
     "seller": { "@type": "Organization", "name": "KUPIFY.rs" },
     "hasMerchantReturnPolicy": {
       "@type": "MerchantReturnPolicy",
-      "merchantReturnDays": 14
+      "applicableCountry": "RS",
+      "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+      "merchantReturnDays": 14,
+      "returnMethod": "https://schema.org/ReturnByMail",
+      "returnFees": "https://schema.org/ReturnFeesCustomerResponsibility"
     },
     "shippingDetails": {
       "@type": "OfferShippingDetails",
+      "shippingDestination": {
+        "@type": "DefinedRegion",
+        "addressCountry": "RS"
+      },
       "shippingRate": {
         "@type": "MonetaryAmount",
         "value": "600",
@@ -78,12 +86,14 @@
         "handlingTime": {
           "@type": "QuantitativeValue",
           "minValue": 0,
-          "maxValue": 2
+          "maxValue": 2,
+          "unitCode": "DAY"
         },
         "transitTime": {
           "@type": "QuantitativeValue",
           "minValue": 1,
-          "maxValue": 5
+          "maxValue": 5,
+          "unitCode": "DAY"
         }
       }
     }
@@ -155,92 +165,103 @@
                     <button class="gallery-arrow next" type="button" aria-label="Sledeća slika">›</button>
                 </div>
 
-                <div class="thumbnails" role="group">
+                <div class="thumbnails" role="group" aria-label="Umanjene slike proizvoda">
                     <img src="/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-01-thumb.webp" alt="Držač - štipaljka za mobilni telefon sa navojem ¼ cola koja se šrafi na stativ"
-                width="100" height="100" loading="lazy"
-                onmouseover="changeImage('/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-01.webp')"
-                onclick="changeImage('/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-01.webp')" role="button" tabindex="0">
+                    width="100" height="100" loading="lazy"
+                    data-full="/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-01.webp"
+                    onmouseover="changeImage('/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-01.webp')"
+                    onclick="changeImage('/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-01.webp', true)"
+                    role="button" tabindex="0">
 <img src="/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-02-thumb.webp" alt="Držač - štipaljka za mobilni telefon sa navojem ¼ cola koja se šrafi na stativ"
-                width="100" height="100" loading="lazy"
-                onmouseover="changeImage('/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-02.webp')"
-                onclick="changeImage('/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-02.webp')" role="button" tabindex="0">
+                    width="100" height="100" loading="lazy"
+                    data-full="/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-02.webp"
+                    onmouseover="changeImage('/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-02.webp')"
+                    onclick="changeImage('/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-02.webp', true)"
+                    role="button" tabindex="0">
 <img src="/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-03-thumb.webp" alt="Držač - štipaljka za mobilni telefon sa navojem ¼ cola koja se šrafi na stativ"
-                width="100" height="100" loading="lazy"
-                onmouseover="changeImage('/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-03.webp')"
-                onclick="changeImage('/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-03.webp')" role="button" tabindex="0">
+                    width="100" height="100" loading="lazy"
+                    data-full="/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-03.webp"
+                    onmouseover="changeImage('/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-03.webp')"
+                    onclick="changeImage('/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-03.webp', true)"
+                    role="button" tabindex="0">
 <img src="/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-04-thumb.webp" alt="Držač - štipaljka za mobilni telefon sa navojem ¼ cola koja se šrafi na stativ"
-                width="100" height="100" loading="lazy"
-                onmouseover="changeImage('/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-04.webp')"
-                onclick="changeImage('/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-04.webp')" role="button" tabindex="0">
+                    width="100" height="100" loading="lazy"
+                    data-full="/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-04.webp"
+                    onmouseover="changeImage('/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-04.webp')"
+                    onclick="changeImage('/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-04.webp', true)"
+                    role="button" tabindex="0">
 <img src="/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-05-thumb.webp" alt="Držač - štipaljka za mobilni telefon sa navojem ¼ cola koja se šrafi na stativ"
-                width="100" height="100" loading="lazy"
-                onmouseover="changeImage('/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-05.webp')"
-                onclick="changeImage('/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-05.webp')" role="button" tabindex="0">
+                    width="100" height="100" loading="lazy"
+                    data-full="/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-05.webp"
+                    onmouseover="changeImage('/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-05.webp')"
+                    onclick="changeImage('/images/products/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod-05.webp', true)"
+                    role="button" tabindex="0">
                 </div>
             </div>
         </section>
 
         <!-- Name/Price -->
-        <div class="product-page-title-wrapper">
+        <div class="product-page-main-box">
+            <div class="product-page-title-wrapper">
 
-            <section class="product-page-title" aria-label="Naziv i cena proizvoda">
+                <section class="product-page-title" aria-label="Naziv i cena proizvoda">
 
-                <h1 class="product-page-name">Univerzalni adapter držač za mobilni telefon na stativ, tripod ili monopod</h1>
+                    <h1 class="product-page-name">Univerzalni adapter držač za mobilni telefon na stativ, tripod ili monopod</h1>
 
-                <div class="product-page-meta">
+                    <div class="product-page-meta">
 
-                    <!-- LEVA STRANA -->
-                    <div class="product-page-left">
-                        <p class="product-page-price">399 RSD</p>
+                        <!-- LEVA STRANA -->
+                        <div class="product-page-left">
+                            <p class="product-page-price">399 RSD</p>
 
-                        <ul class="price-note">
-                            <li>Uz proizvod se izdaje fiskalni račun.</li>
-                            <li>Povrat robe moguć u roku od 14 dana.</li>
-                        </ul>
+                            <ul class="price-note">
+                                <li>Uz proizvod se izdaje fiskalni račun.</li>
+                                <li>Povrat robe moguć u roku od 14 dana.</li>
+                            </ul>
+                        </div>
+
+                        <!-- DESNA STRANA -->
+                        <div class="product-page-right">
+                            <button type="button" class="btn-share" onclick="shareLink()"
+                                aria-label="Podeli link ovog proizvoda">
+                                <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
+                            </button>
+                        </div>
+
                     </div>
 
-                    <!-- DESNA STRANA -->
-                    <div class="product-page-right">
-                        <button type="button" class="btn-share" onclick="shareLink()"
-                            aria-label="Podeli link ovog proizvoda">
-                            <span class="share-icon">➦</span> <span class="share-text">Podeli</span>
-                        </button>
-                    </div>
+                </section>
 
-                </div>
+            </div>
 
-            </section>
 
+            <!-- CTA -->
+            <div class="product-page-buying">
+
+                <section class="product-page-cta" aria-label="Poručivanje proizvoda">
+                    <a href="viber://chat?number=%2B381655665888" target="_blank" rel="noopener noreferrer"
+                        class="product-page-cta-button-1">
+                        <img src="/icons/viber-icon-white.svg" alt="Viber ikonica" class="viber-icon">
+                        Poručite putem Vibera
+                    </a>
+
+                    <p class="cta-phone">Direktna komunikacija.<br>Poručivanje putem telefona:
+                        <a href="tel:+381655665888" class="phone-link">065 5665 888</a>
+                    </p>
+                </section>
+
+                <section class="delivery-block" aria-label="Dostava i preuzimanje">
+                    <ul>
+                        <li>Lično preuzimanje u Nišu</li>
+                        <li>Slanje brzom poštom širom Srbije</li>
+                        <li>Rok isporuke 1-5 radnih dana</li>
+                    </ul>
+                </section>
+            </div>
         </div>
-
-
-        <!-- CTA -->
-        <div class="product-page-buying">
-
-            <section class="product-page-cta">
-                <a href="viber://chat?number=%2B381655665888" target="_blank" rel="noopener noreferrer"
-                    class="product-page-cta-button-1">
-                    <img src="/icons/viber-icon-white.svg" alt="Viber ikonica" class="viber-icon">
-                    Poručite putem Vibera
-                </a>
-
-                <p class="cta-phone">Direktna komunikacija.<br>Poručivanje putem telefona:
-                    <a href="tel:+381655665888" class="phone-link">065 5665 888</a>
-                </p>
-            </section>
-
-            <section class="delivery-block">
-                <ul>
-                    <li>Lično preuzimanje u Nišu</li>
-                    <li>Slanje brzom poštom širom Srbije</li>
-                    <li>Rok isporuke 1-5 radnih dana</li>
-                </ul>
-            </section>
-        </div>
-
 
         <!-- Description -->
-        <div class="product-description" aria-label="Opis proizvoda">
+        <section class="product-description" aria-label="Opis proizvoda">
 
             <!-- OPIS -->
             <section id="opis" class="product-section">
@@ -311,11 +332,11 @@
                 </details>
 
             </section>
-        </div>
+        </section>
 
 
         <!-- TRUST_BADGES -->
-        <div class="trust-root">
+        <section class="trust-root" aria-label="Informacije o kupovini i poverenju">
             <div class="trust-container">
                 <aside class="trust-badges">
                     <p class="trust-item">✓ Registrovana radnja – fiskalni račun</p>
@@ -329,7 +350,7 @@
                     <p class="ocene-item">400+ pozitivnih ocena na Google Reviews</p>
                 </aside>
             </div>
-        </div>
+        </section>
 
         <!-- RELATED PRODUCTS -->
         <section class="related">
@@ -359,7 +380,7 @@
     <!-- Gallery hover + arrows – JS -->
     <script src="/js/product-page-gallery.js" defer></script>
 
-    <script src="/js/share-link.js"></script>
+    <script src="/js/share-link.js" defer></script>
 
     <!-- Cookie Banner -->
     <script src="/js/cookie-banner.js"></script>
