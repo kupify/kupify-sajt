@@ -959,73 +959,84 @@ div.tekst-lista {
     color: inherit;
 }
 
-/*RELATED products blok*/
-
-.blog-products {
-    max-width: 46.9rem;
-    margin: 0 auto 4rem;
-    padding: 0 0 2.5rem;
-    text-align: center;
-    font-size: 1rem;
-    line-height: 1.6;
-    overflow: hidden;
+.blog-related-products {
+    max-width: 50rem;
+    margin: 0rem auto 3rem;
+    padding: 0 1rem;
 }
 
-.blog-products h2 {
+.blog-related-products h2 {
     margin-bottom: 1.5rem;
-    font-size: 1.2rem;
-    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.3;
+    text-align: center;
 }
 
-.blog-products-grid {
-    display: flex;
+.blog-related-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 220px));
     justify-content: center;
-    /* centrira grupu */
-    align-items: stretch;
-    gap: 0.5rem;
-
+    gap: 1rem;
 }
 
-.blog-products-card {
+.blog-related-card {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    width: 154px;
-    text-decoration: none;
+    justify-content: space-between;
     background: #fff;
     border: 1px solid #eee;
-    border-radius: 0.3rem;
-    color: rgba(var(--text-dark), 0.8);
+    border-radius: 0.75rem;
+    text-align: center;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
     cursor: pointer;
 }
 
-.blog-products-card:hover {
+.blog-related-card:hover {
     transform: translateY(-1px);
-    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
 }
 
-.blog-products-card img {
-    width: 130px;
-    height: 130px;
+.blog-related-link {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    text-decoration: none;
+    color: inherit;
+    padding: 1rem;
+}
+
+.blog-related-link img {
+     width: 150px;
+    height: 150px;
     object-fit: contain;
-    margin-bottom: 0.5rem;
-    border-radius: 0.3rem;
-    /*border: 1px solid rgba(0, 0, 0, 0.1);*/
+    display: block;
+    margin: 0 auto 0.75rem auto;
+    border-radius: .5rem;
+    /*border: 0.5px solid rgba(0, 0, 0, 0.05);*/
+    background: #f7f7f7;
 }
 
-.blog-products-title {
-    max-width: 90%;
-    font-size: 0.85rem;
-    line-height: 1.3;
-    text-align: center;
-    padding-bottom: 0.9rem;
-
+.blog-related-title {
+    font-size: 0.87rem;
+    font-weight: 600;
+    color: rgb(var(--text-dark));
+    margin: 0.5rem 0;
     display: -webkit-box;
-    -webkit-line-clamp: 5;
+    -webkit-line-clamp: 3;
+    /* max 3 reda */
     -webkit-box-orient: vertical;
     overflow: hidden;
+    line-height: 1.3;
+    min-height: calc(1.3em * 3);
+    /* visina za 3 reda i kada je naslov kratak */
+
+    /* === Anti-overflow fix === */
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    white-space: normal;
+    /* sprečava da naslovi "pobegnu" van širine kartice */
 }
+
 
 @media (max-width: 768px) {
 
@@ -1075,59 +1086,22 @@ div.tekst-lista {
         margin-bottom: 0.6rem;
     }
 
-    .blog-products {
-        max-width: 95%;
-        padding: 0.5rem 0.7rem 1.5rem;
-        line-height: 1.4;
-        font-size: 0.875rem;
-        word-break: break-word;
-    }
-
-    .blog-products-grid {
-
-        display: grid;
-        grid-template-columns: repeat(2, 120px);
-        justify-content: center;
-        justify-items: center;
-        gap: 2rem;
-
-    }
-
-    .blog-products-card {
-        max-width: 130px;
-
-    }
-
-    .blog-products-card img {
-        width: 120px;
-        height: 120px;
-    }
-
-    .blog-products h2 {
-        font-size: 0.95rem;
-        font-weight: 700;
-    }
-
-    .blog-products-title {
-        font-size: 0.8rem;
-        line-height: 1.3;
-        text-align: center;
-    }
-
-    .rp-line-1,
-    .rp-line-2 {
-        display: block;
-    }
+    .blog-related-products h2 {
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    line-height: 1.3;
+    text-align: center;
 }
 
+}
 @media (hover: none) {
-    .blog-products-card {
-        -webkit-tap-highlight-color: rgba(var(--brand-teal), 0.06);
+    .blog-related-link {
+        -webkit-tap-highlight-color: rgba(var(--brand-teal), 0.08);
         transition: transform 0.06s ease;
         will-change: transform;
     }
 
-    .blog-products-card:active {
+    .blog-related-link:active {
         transform: scale(0.99);
     }
 }
@@ -1144,16 +1118,17 @@ div.tekst-lista {
     border-image: linear-gradient(to right, rgba(var(--brand-accent), 0.3), rgba(var(--brand-accent), 0.8));
     border-image-slice: 1;
 }
+
 /* title sekcija */
 .product-page-title {
     max-width: 40rem;
     margin: 0 auto;
-    padding: 0.4rem 1rem;
+    padding: 0.4rem 1.5rem;
     padding-top: 1.5rem;
     text-align: left;
     line-height: 1.6;
     overflow: hidden;
-    
+
 }
 
 .product-page-name {
@@ -1445,8 +1420,8 @@ div.tekst-lista {
     align-items: flex-end;
     gap: 2rem;
     margin: 0 auto 0.6rem;
-    padding: 0.5rem 1rem 0;
-    
+    padding: 0.5rem 1.5rem 0;
+
 }
 
 .product-page-cta {
@@ -1692,6 +1667,7 @@ div.tekst-lista {
         margin: 0.5rem auto 1rem;
         padding-bottom: 0.5rem;
     }
+
     .product-page-main-box {
         max-width: 95%;
     }
@@ -1856,16 +1832,65 @@ div.tekst-lista {
         width: 60px;
         height: 60px;
         margin: 0;
+        outline: none;
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    .product-page-gallery .thumbnails img.is-active {
+        box-shadow: 0 0 0 1px rgba(var(--brand-teal), 0.4);
+    }
+
+    .product-page-gallery .thumbnails img:focus,
+    .product-page-gallery .thumbnails img:focus-visible,
+    .product-page-gallery .thumbnails img.is-active:focus,
+    .product-page-gallery .thumbnails img.is-active:focus-visible {
+        outline: none;
+        box-shadow: 0 0 0 1px rgba(var(--brand-teal), 0.4);
     }
 
     .product-page-gallery .gallery-arrow {
-       /* width: 44px;
+        /* width: 44px;
         font-size: 4rem;*/
         display: none
     }
 
+    .product-page-gallery .main-image-frame {
+        position: relative;
+        overflow: hidden;
+    }
+
     .product-page-gallery .main-image-frame img {
         width: min(500px, calc(100vw - 5px - 5px));
+        border: none;
+        border-radius: 0;
+        will-change: transform;
+        transition: transform 0.18s ease;
+        touch-action: pan-y;
+    }
+
+    /* Dok korisnik vuče, slika mora direktno da prati prst */
+    .product-page-gallery .main-image-frame img.is-dragging {
+        transition: none;
+    }
+
+    /* Privremena slika koja ulazi sa leve ili desne strane tokom swipe-a */
+    .product-page-gallery .main-image-frame img.swipe-preview-image {
+        position: absolute;
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border: inherit;
+        border-radius: inherit;
+        box-sizing: border-box;
+        pointer-events: none;
+        z-index: 2;
+        transition: transform 0.18s ease;
+    }
+
+    /* Kada se vuče, i preview slika prati prst bez animacionog kašnjenja */
+    .product-page-gallery .main-image-frame img.swipe-preview-image.is-dragging {
+        transition: none;
     }
 
     .delivery-block {
@@ -2761,6 +2786,7 @@ footer {
     padding: 0.2rem;
 }
 
+
 /* ===== Kartica proizvoda ===== */
 .product-card {
     display: flex;
@@ -2818,6 +2844,14 @@ footer {
     overflow-wrap: break-word;
     white-space: normal;
     /* sprečava da naslovi "pobegnu" van širine kartice */
+}
+/* PATCH ZA BLOG KARTICE */
+.blog-card .product-title {
+    font-size: 0.87rem;
+    -webkit-line-clamp: 3;
+    /* max 3 reda */
+    min-height: calc(1.3em * 3);
+    /* visina za 3 reda i kada je naslov kratak */
 }
 
 .product-price {
@@ -3212,64 +3246,7 @@ body {
     }
 }
 
-/* ===== Kategorije: responsive prilagođavanja ===== */
 
-
-/* ≤900px 
-@media (max-width: 900px) {
-    .categories-grid {
-        gap: 1.25rem;
-        padding: 1rem 1.25rem 2rem;
-    }
-
-    .category {
-        padding: 0 0.75rem;
-    }
-
-    .category h3 {
-        font-size: 1.1rem;
-        margin-top: 1.4rem;
-    }
-
-    .placeholder-icon {
-        flex: 0 0 1.25rem;
-        font-size: 1.25rem;
-        width: 1.25rem;
-        height: 1.25rem;
-        line-height: 1.25rem;
-    }
-}*/
-
-/* ≤600px 
-@media (max-width: 600px) {
-    .breadcrumb {
-        padding: 0 .75rem;
-        margin: 0rem auto 1.1rem;
-    }
-
-    .categories-grid {
-        gap: 0.75rem;
-        padding: 0 7rem 2rem;
-        border-radius: 0.75rem;
-    }
-
-    .category {
-        padding: 0 0.75rem;
-    }
-
-    .category h3 {
-        font-size: 1rem;
-        margin-top: 1.2rem;
-    }
-
-    .placeholder-icon {
-        flex: 0 0 1.1rem;
-        font-size: 1.1rem;
-        width: 1.1rem;
-        height: 1.1rem;
-        line-height: 1.1rem;
-    }
-}*/
 
 /* Ultra-mali ekrani: još zbijenije margine oko slike */
 @media (max-width: 400px) {

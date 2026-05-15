@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 100,
+  "total_products": 103,
   "products": [
     {
       "name": "2-u-1 bežični miš sa Bluetooth i 2.4GHz vezom, 3200 DPI – Cudy MS9945",
@@ -474,6 +474,39 @@
       "brand": "Gembird",
       "sku": "NBS-DR1-01",
       "gtin13": "8716309132336"
+    },
+    {
+      "name": "SATA 3 pljosnati kabl sa štipaljkama, 100cm – Gembird CC-SATAM-DATA-XL",
+      "price_rsd": 199,
+      "slug": "gembird-cc-satam-data-xl-sata-3-kabl-100cm",
+      "category": "kompjuteri-i-oprema",
+      "group": "kablovi",
+      "img_thumb": "/images/products/gembird-cc-satam-data-xl-sata-3-kabl-100cm-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "CC-SATAM-DATA-XL",
+      "gtin13": "8716309093408"
+    },
+    {
+      "name": "SATA 3 pljosnati kabl sa štipaljkama, 30cm – Gembird CC-SATAM-DATA-0.3M",
+      "price_rsd": 129,
+      "slug": "gembird-cc-satam-data-0-3m-sata-3-kabl-30cm",
+      "category": "kompjuteri-i-oprema",
+      "group": "kablovi",
+      "img_thumb": "/images/products/gembird-cc-satam-data-0-3m-sata-3-kabl-30cm-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "CC-SATAM-DATA-0.3M",
+      "gtin13": "8716309097895"
+    },
+    {
+      "name": "SATA 3 pljosnati kabl sa štipaljkama, 50cm – Gembird CC-SATAM-DATA",
+      "price_rsd": 179,
+      "slug": "gembird-cc-satam-data-sata-3-kabl-50cm",
+      "category": "kompjuteri-i-oprema",
+      "group": "kablovi",
+      "img_thumb": "/images/products/gembird-cc-satam-data-sata-3-kabl-50cm-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "CC-SATAM-DATA",
+      "gtin13": "8716309093385"
     },
     {
       "name": "Shockproof eksterno kućište za 2.5\" HDD i SSD (USB 3.0) – Silicon Power Armor A30",

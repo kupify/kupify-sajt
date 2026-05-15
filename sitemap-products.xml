@@ -1542,4 +1542,22 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://kupify.rs/pages/products/kompjuteri-i-oprema/gembird-cc-satam-data-sata-3-kabl-50cm/</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kupify.rs/pages/products/kompjuteri-i-oprema/gembird-cc-satam-data-xl-sata-3-kabl-100cm/</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kupify.rs/pages/products/kompjuteri-i-oprema/gembird-cc-satam-data-0-3m-sata-3-kabl-30cm/</loc>
+    <lastmod>2026-05-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

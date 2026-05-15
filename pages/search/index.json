@@ -2826,6 +2826,39 @@
       "price_rsd": "399",
       "img_thumb": "/images/products/gembird-a-cm-3-5f-01-audio-adapter-usb-c-na-3-5-mm-01-thumb.webp",
       "q_ascii": "usb type-c na 3.5 mm audio adapter kabl – gembird a-cm-3.5f-01 gembird a-cm-3.5f-01 mobilni-telefoni-i-oprema kablovi-i-adapteri gembird-a-cm-3-5f-01-audio-adapter-usb-c-na-3-5-mm 8716309129732"
+    },
+    {
+      "name": "SATA 3 pljosnati kabl sa štipaljkama, 50cm – Gembird CC-SATAM-DATA",
+      "slug": "gembird-cc-satam-data-sata-3-kabl-50cm",
+      "category": "kompjuteri-i-oprema",
+      "group": "kablovi",
+      "brand": "Gembird",
+      "sku": "CC-SATAM-DATA",
+      "price_rsd": "179",
+      "img_thumb": "/images/products/gembird-cc-satam-data-sata-3-kabl-50cm-01-thumb.webp",
+      "q_ascii": "sata 3 pljosnati kabl sa stipaljkama, 50cm – gembird cc-satam-data gembird cc-satam-data kompjuteri-i-oprema kablovi gembird-cc-satam-data-sata-3-kabl-50cm 8716309093385"
+    },
+    {
+      "name": "SATA 3 pljosnati kabl sa štipaljkama, 100cm – Gembird CC-SATAM-DATA-XL",
+      "slug": "gembird-cc-satam-data-xl-sata-3-kabl-100cm",
+      "category": "kompjuteri-i-oprema",
+      "group": "kablovi",
+      "brand": "Gembird",
+      "sku": "CC-SATAM-DATA-XL",
+      "price_rsd": "199",
+      "img_thumb": "/images/products/gembird-cc-satam-data-xl-sata-3-kabl-100cm-01-thumb.webp",
+      "q_ascii": "sata 3 pljosnati kabl sa stipaljkama, 100cm – gembird cc-satam-data-xl gembird cc-satam-data-xl kompjuteri-i-oprema kablovi gembird-cc-satam-data-xl-sata-3-kabl-100cm 8716309093408"
+    },
+    {
+      "name": "SATA 3 pljosnati kabl sa štipaljkama, 30cm – Gembird CC-SATAM-DATA-0.3M",
+      "slug": "gembird-cc-satam-data-0-3m-sata-3-kabl-30cm",
+      "category": "kompjuteri-i-oprema",
+      "group": "kablovi",
+      "brand": "Gembird",
+      "sku": "CC-SATAM-DATA-0.3M",
+      "price_rsd": "129",
+      "img_thumb": "/images/products/gembird-cc-satam-data-0-3m-sata-3-kabl-30cm-01-thumb.webp",
+      "q_ascii": "sata 3 pljosnati kabl sa stipaljkama, 30cm – gembird cc-satam-data-0.3m gembird cc-satam-data-0.3m kompjuteri-i-oprema kablovi gembird-cc-satam-data-0-3m-sata-3-kabl-30cm 8716309097895"
     }
   ]
 }

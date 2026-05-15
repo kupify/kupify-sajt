@@ -29,7 +29,8 @@ HTML očekivanje za thumb:
     tabindex="0">
 
 Napomena:
-- Wrapper galerije treba da ima klasu .product-page-gallery ili .product-gallery.
+- JS wrapper za swipe i tastaturu treba da ima klasu .product-gallery.
+- Spoljašnji layout wrapper može da koristi .product-page-gallery za CSS stilove.
 - Za vizuelno aktivno stanje koristi se CSS klasa .is-active.
 - Za TAB navigaciju koristi se :focus-visible u CSS-u.
 
@@ -131,9 +132,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // fallback ako main slika ne postoji (preskoči na sledeću postojeću)
     const main = document.getElementById('mainImage');
+    let mainImageErrorAttempts = 0;
+
     if (main) {
         main.addEventListener('error', () => {
             if (!GALLERY.length) return;
+
+            mainImageErrorAttempts += 1;
+
+            // Sprečava beskonačno kruženje ako sve velike slike fale
+            if (mainImageErrorAttempts > GALLERY.length) {
+                // Ako nijedna velika slika ne može da se učita, prekidamo fallback.
+                return;
+            }
 
             currentIndex = (currentIndex + 1) % GALLERY.length;
             main.src = GALLERY[currentIndex];
@@ -141,6 +152,12 @@ document.addEventListener('DOMContentLoaded', () => {
             // Ako glavna slika pukne i pređemo na sledeću,
             // označi odgovarajući thumb bez pomeranja fokusa.
             syncActiveThumb(false);
+        });
+
+        // Kada se glavna slika uspešno učita,
+        // resetujemo brojač grešaka.
+        main.addEventListener('load', () => {
+            mainImageErrorAttempts = 0;
         });
     }
 
@@ -176,22 +193,156 @@ document.addEventListener('DOMContentLoaded', () => {
                 showByOffset(1); // sledeća slika
             }
         });
-
         // Početna pozicija dodira
         let touchStartX = 0;
         let touchStartY = 0;
+
+        // Trenutni horizontalni pomeraj tokom swipe-a
+        let touchDiffX = 0;
+
+        // Da znamo da li korisnik stvarno vuče horizontalno
+        let isDraggingImage = false;
+
+        // Privremena slika koja ulazi sa strane tokom swipe-a
+        let swipePreviewImage = null;
+
+        // Smer swipe-a: 1 = sledeća slika, -1 = prethodna slika
+        let swipeDirection = 0;
+
+        function removeSwipePreview() {
+            if (swipePreviewImage) {
+                swipePreviewImage.remove();
+                swipePreviewImage = null;
+            }
+        }
+
+        function createSwipePreview(direction) {
+            const frame = document.querySelector('.main-image-frame');
+            const main = document.getElementById('mainImage');
+
+            if (!frame || !main || !GALLERY.length) return null;
+
+            const previewIndex = (currentIndex + direction + GALLERY.length) % GALLERY.length;
+            const previewSrc = GALLERY[previewIndex];
+            const frameWidth = frame.getBoundingClientRect().width;
+
+            removeSwipePreview();
+
+            const img = document.createElement('img');
+            img.src = previewSrc;
+            img.decoding = 'async';
+            img.loading = 'eager';
+            img.alt = main.alt || '';
+            img.className = 'swipe-preview-image is-dragging';
+
+            // Preview sliku odmah postavljamo van kadra:
+            // direction 1 = sledeća dolazi s desne strane
+            // direction -1 = prethodna dolazi s leve strane
+            img.style.transform = direction === 1
+                ? `translateX(${frameWidth}px)`
+                : `translateX(${-frameWidth}px)`;
+
+            frame.appendChild(img);
+            swipePreviewImage = img;
+
+            return img;
+        }
 
         // Pamti gde je korisnik spustio prst
         gallery.addEventListener('touchstart', e => {
             if (!e.touches.length) return;
 
+            rebuildGallery();
+            if (GALLERY.length <= 1) return;
+
             touchStartX = e.touches[0].clientX;
             touchStartY = e.touches[0].clientY;
+            touchDiffX = 0;
+            isDraggingImage = false;
+            swipeDirection = 0;
+
+            removeSwipePreview();
+
+            const main = document.getElementById('mainImage');
+            if (main) {
+                main.classList.add('is-dragging');
+                main.style.transform = 'translateX(0)';
+            }
         }, { passive: true });
 
-        // Kada korisnik pusti prst, proverava se da li je bio swipe levo/desno
+        // Dok korisnik vuče prst, trenutna slika izlazi,
+        // a sledeća/prethodna ulazi zalepljena iza nje.
+        gallery.addEventListener('touchmove', e => {
+            if (!e.touches.length || GALLERY.length <= 1) return;
+
+            const currentX = e.touches[0].clientX;
+            const currentY = e.touches[0].clientY;
+
+            touchDiffX = currentX - touchStartX;
+            const diffY = currentY - touchStartY;
+
+            const main = document.getElementById('mainImage');
+            const frame = document.querySelector('.main-image-frame');
+
+            if (!main || !frame) return;
+
+            // Ako je pokret više vertikalan nego horizontalan,
+            // puštamo normalan scroll stranice.
+            if (Math.abs(diffY) > Math.abs(touchDiffX)) {
+                return;
+            }
+
+            isDraggingImage = true;
+
+            // Kada znamo smer, pravimo preview sliku:
+            // diffX < 0 znači korisnik vuče ulevo, treba da uđe sledeća slika.
+            // diffX > 0 znači korisnik vuče udesno, treba da uđe prethodna slika.
+            const direction = touchDiffX < 0 ? 1 : -1;
+
+            if (direction !== swipeDirection) {
+                swipeDirection = direction;
+                createSwipePreview(direction);
+            }
+
+            if (!swipePreviewImage) return;
+
+            // Sprečava horizontalni browser gesture dok radimo galeriju.
+            e.preventDefault();
+
+            const frameWidth = frame.getBoundingClientRect().width;
+
+            // Ograničenje da korisnik ne odvuče sliku besmisleno daleko
+            const limitedDiffX = Math.max(-frameWidth, Math.min(frameWidth, touchDiffX));
+
+            // Trenutna slika prati prst
+            main.style.transform = `translateX(${limitedDiffX}px)`;
+
+            // Preview slika stoji zalepljena iza trenutne:
+            // za sledeću dolazi s desne strane,
+            // za prethodnu dolazi s leve strane.
+            if (swipeDirection === 1) {
+                swipePreviewImage.style.transform = `translateX(${frameWidth + limitedDiffX}px)`;
+            } else {
+                swipePreviewImage.style.transform = `translateX(${-frameWidth + limitedDiffX}px)`;
+            }
+        }, { passive: false });
+
+        // Kada korisnik pusti prst,
+        // ili završavamo prelaz na sledeću/prethodnu sliku,
+        // ili vraćamo sve nazad.
         gallery.addEventListener('touchend', e => {
-            if (!e.changedTouches.length) return;
+            if (!e.changedTouches.length || GALLERY.length <= 1) return;
+
+            const main = document.getElementById('mainImage');
+            const frame = document.querySelector('.main-image-frame');
+
+            if (!main || !frame) return;
+
+            main.classList.remove('is-dragging');
+
+            if (swipePreviewImage) {
+                swipePreviewImage.classList.remove('is-dragging');
+            }
 
             const touchEndX = e.changedTouches[0].clientX;
             const touchEndY = e.changedTouches[0].clientY;
@@ -199,27 +350,91 @@ document.addEventListener('DOMContentLoaded', () => {
             const diffX = touchEndX - touchStartX;
             const diffY = touchEndY - touchStartY;
 
-            // Minimum da pokret stvarno bude swipe, a ne slučajan dodir
+            const frameWidth = frame.getBoundingClientRect().width;
             const minSwipeDistance = 50;
 
-            // Ako je pokret premali ili je više vertikalan nego horizontalan,
-            // ne diramo galeriju i puštamo normalan scroll stranice
-            if (Math.abs(diffX) < minSwipeDistance || Math.abs(diffX) < Math.abs(diffY)) {
+            // Nije dovoljno jak horizontalni swipe: vrati obe slike na početak
+            if (
+                !isDraggingImage ||
+                !swipePreviewImage ||
+                Math.abs(diffX) < minSwipeDistance ||
+                Math.abs(diffX) < Math.abs(diffY)
+            ) {
+                main.style.transform = 'translateX(0)';
+
+                if (swipePreviewImage) {
+                    if (swipeDirection === 1) {
+                        swipePreviewImage.style.transform = `translateX(${frameWidth}px)`;
+                    } else {
+                        swipePreviewImage.style.transform = `translateX(${-frameWidth}px)`;
+                    }
+                }
+
+                window.setTimeout(() => {
+                    removeSwipePreview();
+                }, 180);
+
                 return;
             }
 
-            // Ako postoji samo jedna slika, nema potrebe da menjamo sliku
-            rebuildGallery();
-            if (GALLERY.length <= 1) return;
-
-            if (diffX < 0) {
-                // Swipe levo = sledeća slika
-                showByOffset(1);
+            // Dovoljno jak swipe: trenutna slika izlazi, preview ulazi na njeno mesto
+            if (swipeDirection === 1) {
+                // Sledeća slika
+                main.style.transform = `translateX(${-frameWidth}px)`;
+                swipePreviewImage.style.transform = 'translateX(0)';
             } else {
-                // Swipe desno = prethodna slika
-                showByOffset(-1);
+                // Prethodna slika
+                main.style.transform = `translateX(${frameWidth}px)`;
+                swipePreviewImage.style.transform = 'translateX(0)';
             }
+
+            const finalDirection = swipeDirection;
+            const finalIndex = (currentIndex + finalDirection + GALLERY.length) % GALLERY.length;
+            const finalSrc = GALLERY[finalIndex];
+
+            window.setTimeout(() => {
+                // Dok menjamo pravu main sliku, gasimo transition da ne napravi trzaj
+                main.classList.add('is-dragging');
+
+                // Prvo upišemo novi index i novu sliku ispod preview slike
+                currentIndex = finalIndex;
+                changeImage(finalSrc, true);
+
+                // Resetujemo pravu glavnu sliku na centralnu poziciju bez animacije
+                main.style.transform = 'translateX(0)';
+
+                // Sačekamo jedan frame da browser prihvati novu sliku i transform,
+                // pa tek onda uklanjamo preview sliku koja je bila preko nje.
+                requestAnimationFrame(() => {
+                    removeSwipePreview();
+
+                    requestAnimationFrame(() => {
+                        main.classList.remove('is-dragging');
+
+                        swipeDirection = 0;
+                        isDraggingImage = false;
+                        touchDiffX = 0;
+                    });
+                });
+            }, 180);
         }, { passive: true });
+
+        // Ako browser prekine dodir, sve vraćamo u normalno stanje
+        gallery.addEventListener('touchcancel', () => {
+            const main = document.getElementById('mainImage');
+
+            if (main) {
+                main.classList.remove('is-dragging');
+                main.style.transform = 'translateX(0)';
+            }
+
+            removeSwipePreview();
+
+            swipeDirection = 0;
+            isDraggingImage = false;
+            touchDiffX = 0;
+        }, { passive: true });
+
     }
 
     // inicijalno
