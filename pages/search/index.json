@@ -125,12 +125,12 @@
       "name": "Mini polica za Set Top Box i TV risiver – Kettz NAV-K91",
       "slug": "mini-polica-za-set-top-box-risiver-kettz-nav-k91",
       "category": "tv-i-video",
-      "group": "",
+      "group": "police-za-tv-opremu",
       "brand": "Kettz",
       "sku": "NAV-K91",
       "price_rsd": "569",
       "img_thumb": "/images/products/mini-polica-za-set-top-box-risiver-kettz-nav-k91-01-thumb.webp",
-      "q_ascii": "mini polica za set top box i tv risiver – kettz nav-k91 kettz nav-k91 tv-i-video mini-polica-za-set-top-box-risiver-kettz-nav-k91 8605054706759"
+      "q_ascii": "mini polica za set top box i tv risiver – kettz nav-k91 kettz nav-k91 tv-i-video police-za-tv-opremu mini-polica-za-set-top-box-risiver-kettz-nav-k91 8605054706759"
     },
     {
       "name": "Plafonski rotirajući nosač za TV 37\"-70\" do 50kg – Kettz TVN-K1103",
@@ -488,12 +488,12 @@
       "name": "Mini polica za Set Top Box i TV risiver – Kettz NAV-K92",
       "slug": "mini-polica-za-set-top-box-i-tv-risiver-kettz-nav-k92",
       "category": "tv-i-video",
-      "group": "",
+      "group": "police-za-tv-opremu",
       "brand": "Kettz",
       "sku": "NAV-K92",
       "price_rsd": "999",
       "img_thumb": "/images/products/mini-polica-za-set-top-box-i-tv-risiver-kettz-nav-k92-01-thumb.webp",
-      "q_ascii": "mini polica za set top box i tv risiver – kettz nav-k92 kettz nav-k92 tv-i-video mini-polica-za-set-top-box-i-tv-risiver-kettz-nav-k92 8605054706766"
+      "q_ascii": "mini polica za set top box i tv risiver – kettz nav-k92 kettz nav-k92 tv-i-video police-za-tv-opremu mini-polica-za-set-top-box-i-tv-risiver-kettz-nav-k92 8605054706766"
     },
     {
       "name": "Staklene dekant bočice za dekantovanje parfema 5 ml i 10 ml",
@@ -2859,6 +2859,17 @@
       "price_rsd": "129",
       "img_thumb": "/images/products/gembird-cc-satam-data-0-3m-sata-3-kabl-30cm-01-thumb.webp",
       "q_ascii": "sata 3 pljosnati kabl sa stipaljkama, 30cm – gembird cc-satam-data-0.3m gembird cc-satam-data-0.3m kompjuteri-i-oprema kablovi gembird-cc-satam-data-0-3m-sata-3-kabl-30cm 8716309097895"
+    },
+    {
+      "name": "Metalna polica za Set-top Box za montažu na TV ili zid – Kettz DVB-P13",
+      "slug": "kettz-dvb-p13-metalna-polica-za-set-top-box",
+      "category": "tv-i-video",
+      "group": "police-za-tv-opremu",
+      "brand": "Kettz",
+      "sku": "DVB-P13",
+      "price_rsd": "999",
+      "img_thumb": "/images/products/kettz-dvb-p13-metalna-polica-za-set-top-box-01-thumb.webp",
+      "q_ascii": "metalna polica za set-top box za montazu na tv ili zid – kettz dvb-p13 kettz dvb-p13 tv-i-video police-za-tv-opremu kettz-dvb-p13-metalna-polica-za-set-top-box 8606018832835"
     }
   ]
 }

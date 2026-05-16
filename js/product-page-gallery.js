@@ -10,6 +10,12 @@ PRODUCT PAGE GALLERY
   slika-thumb.webp → slika.webp.
 - Menja glavnu sliku klikom na thumb, prelaskom mišem preko thumba,
   strelicama levo/desno i swipe pokretom na mobilnom.
+- Swipe na mobilnom radi kao pravi carousel:
+  trenutna slika izlazi, a sledeća/prethodna ulazi zalepljena iza nje.
+- Preloaduje sledeću sliku na početnom učitavanju da prvi swipe ulevo ne štucne.
+- Posle svake promene slike preloaduje prethodnu i sledeću sliku.
+- Sprečava ponovni preload iste slike pomoću interne liste već preloadovanih slika.
+- Ignoriše mikro-pomeraje prsta da se carousel ne aktivira slučajno.
 - Sakriva strelice ako proizvod ima samo jednu dostupnu sliku.
 - Ako thumbnail slika ne postoji, sakriva je i izbacuje iz galerije.
 - Ako glavna slika ne postoji, pokušava da pređe na sledeću dostupnu sliku.
@@ -33,9 +39,11 @@ Napomena:
 - Spoljašnji layout wrapper može da koristi .product-page-gallery za CSS stilove.
 - Za vizuelno aktivno stanje koristi se CSS klasa .is-active.
 - Za TAB navigaciju koristi se :focus-visible u CSS-u.
+- Za swipe carousel CSS mora da podrži .swipe-preview-image i .is-dragging.
 
 ================================================================================
 */
+
 let GALLERY = [];
 let currentIndex = 0;
 
@@ -88,6 +96,10 @@ function changeImage(imageSrc, shouldFocusThumb = false) {
 
     // Posle svake promene glavne slike uskladimo aktivni thumb
     syncActiveThumb(shouldFocusThumb);
+
+    // Posle promene slike pripremi prethodnu i sledeću sliku
+    // za naredni swipe.
+    preloadNearbyImages();
 }
 
 function syncActiveThumb(shouldFocus = false) {
@@ -114,6 +126,39 @@ function syncActiveThumb(shouldFocus = false) {
             img.focus({ preventScroll: true });
         }
     });
+}
+
+const PRELOADED_IMAGES = new Set();
+
+function preloadImage(src) {
+    if (!src || PRELOADED_IMAGES.has(src)) return;
+
+    PRELOADED_IMAGES.add(src);
+
+    const img = new Image();
+    img.decoding = 'async';
+    img.src = src;
+}
+
+function preloadNextImage() {
+    if (!GALLERY.length) return;
+
+    const nextIndex = (currentIndex + 1) % GALLERY.length;
+
+    // Na početnom učitavanju pripremamo samo sledeću sliku,
+    // jer je prvi prirodni swipe najčešće ulevo.
+    preloadImage(GALLERY[nextIndex]);
+}
+
+function preloadNearbyImages() {
+    if (!GALLERY.length) return;
+
+    const prevIndex = (currentIndex - 1 + GALLERY.length) % GALLERY.length;
+    const nextIndex = (currentIndex + 1) % GALLERY.length;
+
+    // Posle svake promene slike pripremamo oba smera.
+    preloadImage(GALLERY[prevIndex]);
+    preloadImage(GALLERY[nextIndex]);
 }
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -292,6 +337,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 return;
             }
 
+            // Ignorišemo mikro-pomeraje da se preview slika ne pravi prerano.
+            if (Math.abs(touchDiffX) < 6) {
+                return;
+            }
+
             isDraggingImage = true;
 
             // Kada znamo smer, pravimo preview sliku:
@@ -443,4 +493,8 @@ document.addEventListener('DOMContentLoaded', () => {
     // Označi thumb koji odgovara početnoj glavnoj slici.
     // false znači: ne pomeraj fokus pri učitavanju stranice.
     syncActiveThumb(false);
+
+    // Pripremi samo sledeću sliku za prvi prirodni swipe ulevo.
+    // Ovo smanjuje prvi swipe glitch, bez preloadovanja cele galerije.
+    preloadNextImage();
 });
