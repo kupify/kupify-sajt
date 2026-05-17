@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 76,
+  "total_products": 77,
   "products": [
     {
       "name": "Eksterna HDMI kartica za video snimanje USB-A / USB-C – UGREEN CM489",
@@ -419,6 +419,17 @@
       "brand": "Kettz",
       "sku": "AS-K020",
       "gtin13": "8605054708265"
+    },
+    {
+      "name": "Stalak - postolje za TV 37-70\" sa točkićima i policom – Gembird TVS-70T-01",
+      "price_rsd": 7699,
+      "slug": "gembird-tvs-70t-01-podni-stalak-za-televizor",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "img_thumb": "/images/products/gembird-tvs-70t-01-podni-stalak-za-televizor-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "TVS-70T-01",
+      "gtin13": "8716309128988"
     },
     {
       "name": "Stalak – postolje sa točkićima i policama za TV 32-70\" Kettz TVN-P1575",
