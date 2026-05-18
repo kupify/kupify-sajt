@@ -771,15 +771,15 @@
       "q_ascii": "atx napajanje za pc 600w – gembird gmb-600-pro 80 plus bronze gembird gmb-600-pro kompjuteri-i-oprema pc-napajanja atx-pc-napajanje-600w-gembird-gmb-600-pro-80-plus-bronze 9780300520200"
     },
     {
-      "name": "Spoljna mrežasta TV antena sa pojačivačem 15-32 dB – ANT-408",
-      "slug": "spoljna-mrezasta-tv-antena-sa-pojacivacem-ant-408",
+      "name": "Spoljna mrežasta TV antena sa pojačivačem 15-32 dB – Vega ANT-408",
+      "slug": "vega-ant-408-spoljna-tv-antena-sa-pojacivacem",
       "category": "tv-i-video",
       "group": "antene",
       "brand": "Vega",
       "sku": "ANT-408",
       "price_rsd": "1499",
-      "img_thumb": "/images/products/spoljna-mrezasta-tv-antena-sa-pojacivacem-ant-408-01-thumb.webp",
-      "q_ascii": "spoljna mrezasta tv antena sa pojacivacem 15-32 db – ant-408 vega ant-408 tv-i-video antene spoljna-mrezasta-tv-antena-sa-pojacivacem-ant-408 3856001016277"
+      "img_thumb": "/images/products/vega-ant-408-spoljna-tv-antena-sa-pojacivacem-01-thumb.webp",
+      "q_ascii": "spoljna mrezasta tv antena sa pojacivacem 15-32 db – vega ant-408 vega ant-408 tv-i-video antene vega-ant-408-spoljna-tv-antena-sa-pojacivacem 3856001016277"
     },
     {
       "name": "Univerzalni zidni nosači za zvučnike ili soundbar Gembird WM-SB-01",
@@ -2881,6 +2881,17 @@
       "price_rsd": "7699",
       "img_thumb": "/images/products/gembird-tvs-70t-01-podni-stalak-za-televizor-01-thumb.webp",
       "q_ascii": "stalak - postolje za tv 37-70\" sa tockicima i policom – gembird tvs-70t-01 gembird tvs-70t-01 tv-i-video tv-nosaci gembird-tvs-70t-01-podni-stalak-za-televizor 8716309128988"
+    },
+    {
+      "name": "USB-C na 3.5mm audio adapter sa DAC čipom – Ugreen AV161",
+      "slug": "ugreen-av161-usb-c-na-3-5mm-audio-adapter-dac",
+      "category": "mobilni-telefoni-i-oprema",
+      "group": "kablovi-i-adapteri",
+      "brand": "Ugreen",
+      "sku": "AV161",
+      "price_rsd": "1199",
+      "img_thumb": "/images/products/ugreen-av161-usb-c-na-3-5mm-audio-adapter-dac-01-thumb.webp",
+      "q_ascii": "usb-c na 3.5mm audio adapter sa dac cipom – ugreen av161 ugreen av161 mobilni-telefoni-i-oprema kablovi-i-adapteri ugreen-av161-usb-c-na-3-5mm-audio-adapter-dac 6957303881543"
     }
   ]
 }
