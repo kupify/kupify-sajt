@@ -12,6 +12,14 @@ function initAnalyticsEvents() {
 
 // 1) GA loader – zove se samo POSLE pristanka
 function loadGA() {
+  const isProductionDomain =
+    location.hostname === "kupify.rs" ||
+    location.hostname === "www.kupify.rs";
+
+  if (!isProductionDomain) {
+    return;
+  }
+
   if (window.gtagLoaded) {
     // GA je već tu -> samo obavezno upali evente
     initAnalyticsEvents();
