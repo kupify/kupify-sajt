@@ -1,6 +1,6 @@
 {
   "category": "dvoriste-i-basta",
-  "total_products": 16,
+  "total_products": 17,
   "products": [
     {
       "name": "Crevo za bazensku filter pumpu, 3m x 32mm – Bestway FlowClear 58369",
@@ -177,6 +177,17 @@
       "brand": "Bestway",
       "sku": "58111",
       "gtin13": "6942138919394"
+    },
+    {
+      "name": "Čistač površine bazena - skimer, 18.5 cm – Bestway 58233",
+      "price_rsd": 2399,
+      "slug": "bestway-58233-povrsinski-cistac-skimer-za-bazen",
+      "category": "dvoriste-i-basta",
+      "group": "bazeni-i-oprema-za-plazu",
+      "img_thumb": "/images/products/bestway-58233-povrsinski-cistac-skimer-za-bazen-01-thumb.webp",
+      "brand": "Bestway",
+      "sku": "58233",
+      "gtin13": "6941607346778"
     }
   ]
 }
