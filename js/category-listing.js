@@ -46,14 +46,23 @@
  *
  * 6) Generiše paginator
  *
- *      data-items-per-page
+ *      page_size iz data.json
+ *
+ * Broj proizvoda po strani ne određuje HTML,
+ * nego JSON fajl koji generiše build proces:
+ *
+ *      {
+ *        "page_size": 18,
+ *        "products": [...]
+ *      }
+ *
+ * Na taj način frontend i sitemap-pagination.xml koriste isti PAGE_SIZE.
  *
  * 7) Sinhronizuje stanje sa URL-om
  *
  *      ?page=
  *      ?group=
  *      #sort=
- *
  *
  * ============================================================
  * BLOK 2) URL STRUKTURA
@@ -74,7 +83,6 @@
  * Kombinacija:
  *
  *      /pages/products/tv-i-video/?group=hdmi&page=2#sort=name-asc
- *
  *
  * ============================================================
  * BLOK 3) ZAŠTO SE KORISTI HASH ZA SORT
@@ -97,7 +105,6 @@
  * čak i kada URL sadrži:
  *
  *      #sort=price-asc
- *
  *
  * ============================================================
  * BLOK 4) GROUP FILTER (FACETED NAVIGATION)
@@ -122,7 +129,6 @@
  *
  *      state.activeGroup
  *
- *
  * TOK OBRADE:
  *
  *      products
@@ -135,7 +141,6 @@
  *          ↓
  *      render
  *
- *
  * SEO PRAVILA:
  *
  *      canonical → osnovna kategorija
@@ -147,8 +152,8 @@
  * - sprečava SEO razvodnjavanje
  * - Google prati linkove (follow)
  *
- *  * ============================================================
- * BLOK X) SEO GRUPE KAO POSEBNE STRANICE
+ * ============================================================
+ * BLOK 5) SEO GRUPE KAO POSEBNE STRANICE
  * ============================================================
  *
  * Skripta podržava dva tipa prikaza:
@@ -193,7 +198,6 @@
  *          → stranica je obična kategorija
  *          → activeGroup dolazi iz ?group= ili "all"
  *
- *
  * Odnos prema JSON-u:
  *
  *      data-group="antene"
@@ -201,7 +205,6 @@
  *      prikazuje samo proizvode iz data.json gde je:
  *
  *          p.group === "antene"
- *
  *
  * Odnos prema dugmadima/linkovima:
  *
@@ -215,13 +218,11 @@
  *          → pravi link ka SEO grupi
  *          → JS ga ne presreće
  *
- *
  * Zato attachGroupHandlers hvata samo:
  *
  *      .group-tab[data-group]
  *
  * Linkovi ka SEO grupama nemaju data-group i prolaze normalno kao linkovi.
- *
  *
  * SEO pravilo:
  *
@@ -235,9 +236,8 @@
  *          → index, follow
  *          → canonical na sebe
  *
- *
  * ============================================================
- * BLOK X) MEŠANI SISTEM: SEO LINKOVI + JS FILTERI
+ * BLOK 6) MEŠANI SISTEM: SEO LINKOVI + JS FILTERI
  * ============================================================
  *
  * category-groups može da sadrži dva tipa elemenata:
@@ -256,7 +256,6 @@
  *      - mogu da se indeksiraju
  *      - JS ih ne koristi kao filtere
  *
- *
  * 2) JS FILTER DUGMAD
  *
  *      <button class="group-tab" data-group="hdmi" type="button">
@@ -274,7 +273,6 @@
  *          canonical → osnovna kategorija
  *          robots    → noindex, follow
  *
- *
  * 3) SVE / RESET
  *
  *      <a class="group-tab is-active"
@@ -290,7 +288,6 @@
  *      - uklanja ?group=, ?page= i #sort
  *      - vraća korisnika na čist URL kategorije
  *
- *
  * Aktivno stanje:
  *
  *      updateGroupTabsUI(state)
@@ -299,41 +296,79 @@
  *      - ako je activeGroup = "all", aktivira link ka trenutnoj kategoriji
  *      - ako je activeGroup neki filter, aktivira samo button[data-group]
  *
- *
  * Pravilo:
  *
  *      SEO grupa     → <a href="...">
  *      JS filter     → <button data-group="...">
  *      Reset / Sve   → <a href="/osnovna-kategorija/">
  *
- *
- *
  * ============================================================
- * BLOK 5) PAGINACIJA
+ * BLOK 7) PAGINACIJA
  * ============================================================
+ *
+ * Paginacija se računa client-side na osnovu:
+ *
+ *      products.length
+ *      page_size iz data.json
+ *
+ * JSON fajl generiše build proces:
+ *
+ *      /pages/products/{category}/cards/data.json
+ *
+ * Primer:
+ *
+ *      {
+ *        "category": "tv-i-video",
+ *        "total_products": 56,
+ *        "page_size": 18,
+ *        "products": [...]
+ *      }
+ *
+ * Frontend ne koristi total_products za računanje paginacije.
+ * Broj strana računa iz stvarnog niza proizvoda:
+ *
+ *      Math.ceil(visibleProducts.length / page_size)
+ *
+ * Razlog:
+ *
+ * - products[] je stvarni sadržaj koji se prikazuje
+ * - total_products može da ostane informativan/debug podatak
+ * - ako se ikad raziđu total_products i products.length,
+ *   frontend veruje stvarnom nizu proizvoda
+ *
+ * Veza sa sitemap-pagination.xml:
+ *
+ * - generator koristi isti PAGE_SIZE
+ * - generator upisuje isti PAGE_SIZE u data.json kao page_size
+ * - category-listing.js čita page_size iz data.json
+ * - Ako data.json nema validan page_size, frontend koristi fallback vrednost 18.
+ * - sitemap pagination i frontend paginacija ostaju usklađeni
  *
  * Paginator generiše linkove:
  *
  *      <a href="?page=2">
  *
- * Omogućava:
+ * To omogućava:
  *
- * - crawlable linkove
- * - pravilno indeksiranje strukture
+ * - crawlable URL-ove za paginaciju
+ * - pravilno povezivanje stranica kategorije
+ * - poklapanje sa sitemap-pagination.xml
  *
  * JavaScript presreće klik:
  *
  * - sprečava reload
- * - renderuje client-side
+ * - renderuje sledeću stranu client-side
+ * - ažurira URL parametar ?page=
  *
- * Pravila:
+ * SEO napomena:
  *
- *      page 1  → index, follow
- *      page 2+ → noindex, follow
- *
+ * - osnovna kategorija i ?page=2, ?page=3... treba da budu index, follow
+ *   ako su uključene u sitemap-pagination.xml
+ * - filter URL-ovi sa ?group=... ostaju noindex, follow
+ * - #sort=... je samo UI stanje i Google ga ignoriše
  *
  * ============================================================
- * BLOK 6) STANJE APLIKACIJE (STATE)
+ * BLOK 8) STANJE APLIKACIJE (STATE)
  * ============================================================
  *
  * Skripta održava stanje:
@@ -349,9 +384,8 @@
  *
  *      update(state)
  *
- *
  * ============================================================
- * BLOK 7) UI SINHRONIZACIJA
+ * BLOK 9) UI SINHRONIZACIJA
  * ============================================================
  *
  * Aktivni group filter:
@@ -363,9 +397,8 @@
  *
  *      resetuje page na 1
  *
- *
  * ============================================================
- * BLOK 8) ODNOS SA DRUGIM SKRIPTAMA
+ * BLOK 10) ODNOS SA DRUGIM SKRIPTAMA
  * ============================================================
  *
  * category-listing.js
@@ -379,9 +412,8 @@
  * canonical-fix.js
  *      → canonical + robots sinhronizacija
  *
- *
  * ============================================================
- * BLOK 9) ZAŠTO JE OVA ARHITEKTURA DOBRA
+ * BLOK 11) ZAŠTO JE OVA ARHITEKTURA DOBRA
  * ============================================================
  *
  * Prednosti:
@@ -397,9 +429,8 @@
  * - filteri ne ulaze u indeks
  * - canonical centralizuje signal
  *
- *
  * ============================================================
- * BLOK 10) BUDUĆNOST
+ * BLOK 12) BUDUĆNOST
  * ============================================================
  *
  * Sistem omogućava:
@@ -703,45 +734,45 @@
   }
 
   function updateGroupTabsUI(state) {
-  const tabs = document.querySelectorAll(".group-tab");
+    const tabs = document.querySelectorAll(".group-tab");
 
-  // 1) Očisti aktivno stanje sa svih tabova
-  tabs.forEach(tab => {
-    tab.classList.remove("is-active");
-    tab.removeAttribute("aria-current");
-    tab.removeAttribute("aria-pressed");
-  });
-
-  // 2) Ako je aktivno "Sve", aktiviraj link koji vodi na trenutnu kategoriju
-  if (!state.activeGroup || state.activeGroup === "all") {
-    const currentPath = location.pathname.replace(/\/?$/, "/");
-
+    // 1) Očisti aktivno stanje sa svih tabova
     tabs.forEach(tab => {
-      const href = tab.getAttribute("href");
-      if (!href) return;
-
-      const tabPath = new URL(href, location.origin).pathname.replace(/\/?$/, "/");
-
-      if (tabPath === currentPath) {
-        tab.classList.add("is-active");
-        tab.setAttribute("aria-current", "page");
-      }
+      tab.classList.remove("is-active");
+      tab.removeAttribute("aria-current");
+      tab.removeAttribute("aria-pressed");
     });
 
-    return;
-  }
+    // 2) Ako je aktivno "Sve", aktiviraj link koji vodi na trenutnu kategoriju
+    if (!state.activeGroup || state.activeGroup === "all") {
+      const currentPath = location.pathname.replace(/\/?$/, "/");
 
-  // 3) Ako je aktivan JS filter, aktiviraj samo dugme sa tim data-group
-  document.querySelectorAll(".group-tab[data-group]").forEach(btn => {
-    const isActive = btn.dataset.group === state.activeGroup;
+      tabs.forEach(tab => {
+        const href = tab.getAttribute("href");
+        if (!href) return;
 
-    btn.classList.toggle("is-active", isActive);
+        const tabPath = new URL(href, location.origin).pathname.replace(/\/?$/, "/");
 
-    if (btn.tagName.toLowerCase() === "button") {
-      btn.setAttribute("aria-pressed", isActive ? "true" : "false");
+        if (tabPath === currentPath) {
+          tab.classList.add("is-active");
+          tab.setAttribute("aria-current", "page");
+        }
+      });
+
+      return;
     }
-  });
-}
+
+    // 3) Ako je aktivan JS filter, aktiviraj samo dugme sa tim data-group
+    document.querySelectorAll(".group-tab[data-group]").forEach(btn => {
+      const isActive = btn.dataset.group === state.activeGroup;
+
+      btn.classList.toggle("is-active", isActive);
+
+      if (btn.tagName.toLowerCase() === "button") {
+        btn.setAttribute("aria-pressed", isActive ? "true" : "false");
+      }
+    });
+  }
 
   function update(state, opts = { scroll: true }) {
     setBusy(true); // ADD
@@ -791,7 +822,10 @@
       const data = await res.json();
 
       const products = Array.isArray(data.products) ? data.products : [];
-      const pageSize = 18;
+
+      const pageSize = Number.isFinite(Number(data.page_size)) && Number(data.page_size) > 0
+        ? Number(data.page_size)
+        : 18;
 
       const state = {
         category,

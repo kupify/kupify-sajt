@@ -12,5 +12,8 @@
   <sitemap>
     <loc>https://kupify.rs/sitemap-static.xml</loc>
   </sitemap>
+  <sitemap>
+  <loc>https://kupify.rs/sitemap-pagination.xml</loc>
+</sitemap>
   
 </sitemapindex>

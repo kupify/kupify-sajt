@@ -475,7 +475,7 @@
 
   document.addEventListener("DOMContentLoaded", async () => {
     const sortSel = qs("#sort-select");
-    const pageSizeAttr = Number(qs("#paginator")?.getAttribute("data-items-per-page") || "12") || 12;
+    const pageSizeAttr = Number(qs("#paginator")?.getAttribute("data-items-per-page") || "18") || 18;
 
     // inicijalni parametri iz URL-a
     const initialQ = getURLParam("q", "");

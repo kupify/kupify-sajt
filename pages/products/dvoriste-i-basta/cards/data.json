@@ -1,6 +1,7 @@
 {
   "category": "dvoriste-i-basta",
-  "total_products": 17,
+  "total_products": 18,
+  "page_size": 18,
   "products": [
     {
       "name": "Crevo za bazensku filter pumpu, 3m x 32mm – Bestway FlowClear 58369",
@@ -177,6 +178,17 @@
       "brand": "Bestway",
       "sku": "58111",
       "gtin13": "6942138919394"
+    },
+    {
+      "name": "Vodopad fontana za bazen sa RGB LED svetlom – Bestway 58619",
+      "price_rsd": 7699,
+      "slug": "bestway-58619-svetleca-vodopad-fontana-za-bazen",
+      "category": "dvoriste-i-basta",
+      "group": "bazeni-i-oprema-za-plazu",
+      "img_thumb": "/images/products/bestway-58619-svetleca-vodopad-fontana-za-bazen-01-thumb.webp",
+      "brand": "Bestway",
+      "sku": "58619",
+      "gtin13": "6941607347010"
     },
     {
       "name": "Čistač površine bazena - skimer, 18.5 cm – Bestway 58233",
