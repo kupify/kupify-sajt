@@ -1,6 +1,6 @@
 {
   "category": "dvoriste-i-basta",
-  "total_products": 19,
+  "total_products": 20,
   "page_size": 18,
   "products": [
     {
@@ -177,6 +177,17 @@
       "img_thumb": "/images/products/plastime-krios-25l-rucni-frizider-za-kampovanje-plazu-01-thumb.webp",
       "brand": "Plastime",
       "sku": "Krios 25L"
+    },
+    {
+      "name": "Ručni prenosni frižider za kampovanje i plažu 32L – Plastime Krios",
+      "price_rsd": 2399,
+      "slug": "plastime-krios-32l-rucni-frizider-kampovanje-plazu",
+      "category": "dvoriste-i-basta",
+      "group": "bazeni-i-oprema-za-plazu",
+      "img_thumb": "/images/products/plastime-krios-32l-rucni-frizider-kampovanje-plazu-01-thumb.webp",
+      "brand": "Plastime",
+      "sku": "Krios 32L",
+      "gtin13": "8008133007097"
     },
     {
       "name": "Solarna plutajuća RGB LED svetiljka za bazen – Bestway Flowclear 58111",
