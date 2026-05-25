@@ -6,18 +6,40 @@
 /pages/products/tv-i-video/stono-postolje-stalak-za-tv-45-90-inca-gembird-tvs-d90f-01/ /pages/products/tv-i-video/gembird-tvs-d90f-01-univerzalno-tv-postolje-nogice/ 301
 /pages/products/tv-i-video/sobna-tv-antena-sa-pojacivacem-i-kablom-5-metara-gembird-gmb-533usb/ /pages/products/tv-i-video/gembird-gmb-533usb-sobna-tv-antena-sa-pojacivacem/ 301
 /pages/products/tv-i-video/sobna-antena-za-tv-sa-pojacivacem-i-kablom-10-metara-gembird-gmb-dua10/ /pages/products/tv-i-video/gembird-gmb-dua10-sobna-tv-antena-sa-pojacivacem/ 301
-/pages/products/mobilni-telefoni-i-oprema/rotirajuci-drzac-za-telefon-za-stativ-tripod/ /pages/products/foto-aparati-i-kamere/rotirajuci-drzac-za-telefon-za-stativ-tripod/ 301
-/pages/products/mobilni-telefoni-i-oprema/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod/ /pages/products/foto-aparati-i-kamere/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod/ 301
-/pages/products/mobilni-telefoni-i-oprema/drzac-tableta-za-naslon-auto-sedista-gembird-ta-chhr-02/ /pages/products/auto-oprema/drzac-tableta-za-naslon-auto-sedista-gembird-ta-chhr-02/ 301
-/pages/products/mobilni-telefoni-i-oprema/magnetni-drzac-za-telefon-za-auto-ventilaciju-gembird-ta-chm-03/ /pages/products/auto-oprema/magnetni-drzac-za-telefon-za-auto-ventilaciju-gembird-ta-chm-03/ 301
 /pages/products/tv-i-video/spoljna-mrezasta-tv-antena-sa-pojacivacem-ant-408/ /pages/products/tv-i-video/vega-ant-408-spoljna-tv-antena-sa-pojacivacem/ 301
 /pages/products/tv-i-video/zidni-tv-nosac-sa-nagibom-gembird-wm-42t-05/ /pages/products/tv-i-video/gembird-wm-42t-05-zidni-tv-nosac-sa-nagibom/ 301
 /pages/products/tv-i-video/zglobni-zidni-tv-nosac-gembird-wm-55rt-08/ /pages/products/tv-i-video/gembird-wm-55rt-08-zglobni-zidni-tv-nosac/ 301
 
+# PROMENA GRUPE
+/pages/products/mobilni-telefoni-i-oprema/rotirajuci-drzac-za-telefon-za-stativ-tripod/ /pages/products/foto-aparati-i-kamere/rotirajuci-drzac-za-telefon-za-stativ-tripod/ 301
+/pages/products/mobilni-telefoni-i-oprema/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod/ /pages/products/foto-aparati-i-kamere/adapter-drzac-za-mobilni-telefon-za-stativ-tripod-monopod/ 301
+/pages/products/mobilni-telefoni-i-oprema/drzac-tableta-za-naslon-auto-sedista-gembird-ta-chhr-02/ /pages/products/auto-oprema/drzac-tableta-za-naslon-auto-sedista-gembird-ta-chhr-02/ 301
+/pages/products/mobilni-telefoni-i-oprema/magnetni-drzac-za-telefon-za-auto-ventilaciju-gembird-ta-chm-03/ /pages/products/auto-oprema/magnetni-drzac-za-telefon-za-auto-ventilaciju-gembird-ta-chm-03/ 301
+/pages/products/dvoriste-i-basta/bestway-58233-povrsinski-cistac-skimer-za-bazen/ /pages/products/sport-razonoda-i-zabava/bestway-58233-povrsinski-cistac-skimer-za-bazen/ 301
+/pages/products/dvoriste-i-basta/bestway-58369-crevo-za-filter-pumpu-bazena-3m-32mm/ /pages/products/sport-razonoda-i-zabava/bestway-58369-crevo-za-filter-pumpu-bazena-3m-32mm/ 301
+/pages/products/dvoriste-i-basta/bestway-58278-mrezica-za-ciscenje-bazena/ /pages/products/sport-razonoda-i-zabava/bestway-58278-mrezica-za-ciscenje-bazena/ 301
+/pages/products/dvoriste-i-basta/bestway-62289-elektricna-pumpa-za-naduvavanje-usb-c/ /pages/products/sport-razonoda-i-zabava/bestway-62289-elektricna-pumpa-za-naduvavanje-usb-c/ 301
+/pages/products/dvoriste-i-basta/bestway-58383-filter-pumpa-za-bazen/ /pages/products/sport-razonoda-i-zabava/bestway-58383-filter-pumpa-za-bazen/ 301
+/pages/products/dvoriste-i-basta/bestway-58386-filter-pumpa-za-bazen/ /pages/products/sport-razonoda-i-zabava/bestway-58386-filter-pumpa-za-bazen/ 301
+/pages/products/dvoriste-i-basta/bestway-58093-filter-za-pumpu-tip-1-set-2-kom/ /pages/products/sport-razonoda-i-zabava/bestway-58093-filter-za-pumpu-tip-1-set-2-kom/ 301
+/pages/products/dvoriste-i-basta/bestway-58094-filter-za-pumpu-tip-2-set-2-kom/ /pages/products/sport-razonoda-i-zabava/bestway-58094-filter-za-pumpu-tip-2-set-2-kom/ 301
+/pages/products/dvoriste-i-basta/bestway-58012-filter-za-pumpu-bazena-tip-3/ /pages/products/sport-razonoda-i-zabava/bestway-58012-filter-za-pumpu-bazena-tip-3/ 301
+/pages/products/dvoriste-i-basta/bestway-58095-filter-za-pumpu-bazena-tip-4/ /pages/products/sport-razonoda-i-zabava/bestway-58095-filter-za-pumpu-bazena-tip-4/ 301
+/pages/products/dvoriste-i-basta/bestway-62068-set-flastera-za-popravku-bazena/ /pages/products/sport-razonoda-i-zabava/bestway-62068-set-flastera-za-popravku-bazena/ 301
+/pages/products/dvoriste-i-basta/bestway-leisure-luxe-fotelja-na-naduvavanje/ /pages/products/sport-razonoda-i-zabava/bestway-leisure-luxe-fotelja-na-naduvavanje/ 301
+/pages/products/dvoriste-i-basta/bestway-58210-plutajuci-dozator-za-bazen/ /pages/products/sport-razonoda-i-zabava/bestway-58210-plutajuci-dozator-za-bazen/ 301
+/pages/products/dvoriste-i-basta/bestway-58769-plutajuci-dozator-za-bazen/ /pages/products/sport-razonoda-i-zabava/bestway-58769-plutajuci-dozator-za-bazen/ 301
+/pages/products/dvoriste-i-basta/bestway-58701-plutajuci-dozator-za-bazen-sa-termometrom/ /pages/products/sport-razonoda-i-zabava/bestway-58701-plutajuci-dozator-za-bazen-sa-termometrom/ 301
+/pages/products/dvoriste-i-basta/bestway-aquascoop-58277-mrezica-za-ciscenje-bazena/ /pages/products/sport-razonoda-i-zabava/bestway-aquascoop-58277-mrezica-za-ciscenje-bazena/ 301
+/pages/products/dvoriste-i-basta/plastime-krios-25l-rucni-frizider-za-kampovanje-plazu/ /pages/products/sport-razonoda-i-zabava/plastime-krios-25l-rucni-frizider-za-kampovanje-plazu/ 301
+/pages/products/dvoriste-i-basta/plastime-krios-32l-rucni-frizider-kampovanje-plazu/ /pages/products/sport-razonoda-i-zabava/plastime-krios-32l-rucni-frizider-kampovanje-plazu/ 301
+/pages/products/dvoriste-i-basta/bestway-58111-solarna-plutajuca-rgb-led-svetiljka/ /pages/products/sport-razonoda-i-zabava/bestway-58111-solarna-plutajuca-rgb-led-svetiljka/ 301
+/pages/products/dvoriste-i-basta/bestway-58619-svetleca-vodopad-fontana-za-bazen/ /pages/products/sport-razonoda-i-zabava/bestway-58619-svetleca-vodopad-fontana-za-bazen/ 301
+
 # PROIZVODI prelaz na clean slugove
 /pages/products/kompjuteri-i-oprema/bezicni-opticki-mis-gembird-musw-4b-01-w.html /pages/products/kompjuteri-i-oprema/bezicni-opticki-mis-gembird-musw-4b-01-w/ 301
 /pages/products/sport-razonoda-i-zabava/thug-life-naocare-piksel-retro-meme.html /pages/products/sport-razonoda-i-zabava/thug-life-naocare-piksel-retro-meme/ 301
-/pages/products/tv-i-video/stalak-za-tv-podni-kettz-tvn-K3255.html /pages/products/tv-i-video/stalak-za-tv-podni-kettz-tvn-K3255/ 301
+/pages/products/tv-i-video/stalak-za-tv-podni-kettz-tvn-K3255.html /pages/products/tv-i-video/stalak-za-tv-podni-kettz-tvn-k3255/ 301
 /pages/products/tv-i-video/zglobni-tv-nosac-gembird-wm-55rt-07-14-55-inca.html /pages/products/tv-i-video/zglobni-tv-nosac-gembird-wm-55rt-07-14-55-inca/ 301
 /pages/products/kompjuteri-i-oprema/stoni-nosac-ruka-za-monitor-gembird-ma-da1-05.html /pages/products/kompjuteri-i-oprema/stoni-nosac-ruka-za-monitor-gembird-ma-da1-05/ 301
 /pages/products/bela-tehnika-i-kucni-aparati/zidni-nosaci-za-mikrotalasnu-pec-gembird-wm-u35-01-w.html /pages/products/bela-tehnika-i-kucni-aparati/zidni-nosaci-za-mikrotalasnu-pec-gembird-wm-u35-01-w/ 301
@@ -43,7 +65,6 @@
 /pages/placanje-i-isporuka.html /pages/placanje-i-isporuka/ 301
 /pages/politika-privatnosti.html /pages/politika-privatnosti/ 301
 /pages/poslovni-podaci.html /pages/poslovni-podaci/ 301
-/pages/uskoro.html /pages/uskoro/ 301
 
 #SEARCH
 /pages/search/index.html /pages/search/ 301
