@@ -1,6 +1,6 @@
 {
   "category": "sport-razonoda-i-zabava",
-  "total_products": 22,
+  "total_products": 23,
   "page_size": 18,
   "products": [
     {
@@ -24,6 +24,17 @@
       "brand": "Bestway",
       "sku": "58278",
       "gtin13": "6942138948578"
+    },
+    {
+      "name": "Dupli dušek na naduvavanje za kampovanje i kuću – Bestway 67002",
+      "price_rsd": 3699,
+      "slug": "bestway-67002-dusek-na-naduvavanje-za-dve-osobe",
+      "category": "sport-razonoda-i-zabava",
+      "group": "bazeni-plaza-kampovanje",
+      "img_thumb": "/images/products/bestway-67002-dusek-na-naduvavanje-za-dve-osobe-01-thumb.webp",
+      "brand": "Bestway",
+      "sku": "67002",
+      "gtin13": "6941607343890"
     },
     {
       "name": "Dušek na naduvavanje za kampovanje ili kuću – Bestway 67000",
