@@ -1,6 +1,6 @@
 {
   "category": "sport-razonoda-i-zabava",
-  "total_products": 23,
+  "total_products": 25,
   "page_size": 18,
   "products": [
     {
@@ -223,6 +223,17 @@
       "gtin13": "6942138919394"
     },
     {
+      "name": "Solarni pokrivač za grejanje i zaštitu bazena 305 cm – Bestway 58241",
+      "price_rsd": 1999,
+      "slug": "bestway-58241-solarni-pokrivac-za-bazen",
+      "category": "sport-razonoda-i-zabava",
+      "group": "bazeni-plaza-kampovanje",
+      "img_thumb": "/images/products/bestway-58241-solarni-pokrivac-za-bazen-01-thumb.webp",
+      "brand": "Bestway",
+      "sku": "58241",
+      "gtin13": "6942138918861"
+    },
+    {
       "name": "Thug Life naočare u piksel retro stilu",
       "price_rsd": 599,
       "slug": "thug-life-naocare-piksel-retro-meme",
@@ -242,6 +253,17 @@
       "brand": "Bestway",
       "sku": "58619",
       "gtin13": "6941607347010"
+    },
+    {
+      "name": "Zaštitni PVC pokrivač za okrugle bazene 366cm – Bestway 58037",
+      "price_rsd": 2199,
+      "slug": "bestway-58037-pvc-pokrivac-bazena",
+      "category": "sport-razonoda-i-zabava",
+      "group": "bazeni-plaza-kampovanje",
+      "img_thumb": "/images/products/bestway-58037-pvc-pokrivac-bazena-01-thumb.webp",
+      "brand": "Bestway",
+      "sku": "58037",
+      "gtin13": "6941607354582"
     },
     {
       "name": "Čistač površine bazena - skimer, 18.5 cm – Bestway 58233",
