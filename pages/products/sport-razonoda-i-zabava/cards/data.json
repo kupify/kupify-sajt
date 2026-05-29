@@ -1,6 +1,6 @@
 {
   "category": "sport-razonoda-i-zabava",
-  "total_products": 25,
+  "total_products": 26,
   "page_size": 18,
   "products": [
     {
@@ -232,6 +232,17 @@
       "brand": "Bestway",
       "sku": "58241",
       "gtin13": "6942138918861"
+    },
+    {
+      "name": "Solarni pokrivač za grejanje i zaštitu bazena 366 cm – Bestway 58242",
+      "price_rsd": 2399,
+      "slug": "bestway-58242-solarni-pokrivac-za-bazen",
+      "category": "sport-razonoda-i-zabava",
+      "group": "bazeni-plaza-kampovanje",
+      "img_thumb": "/images/products/bestway-58242-solarni-pokrivac-za-bazen-01-thumb.webp",
+      "brand": "Bestway",
+      "sku": "58242",
+      "gtin13": "6941607354735"
     },
     {
       "name": "Thug Life naočare u piksel retro stilu",
