@@ -4,32 +4,38 @@
   "page_size": 18,
   "products": [
     {
+      "listing_id": "KPF-000046",
       "name": "Staklene dekant bočice za dekantovanje parfema 5 ml i 10 ml",
       "price_rsd": 99,
       "slug": "staklene-dekant-bocice-za-parfem-5ml-10ml",
       "category": "nega-i-licna-higijena",
       "group": "",
+      "date_added_sort": "2025-12-26",
       "img_thumb": "/images/products/staklene-dekant-bocice-za-parfem-5ml-10ml-01-thumb.webp",
       "brand": "Kupify",
       "sku": "Staklena bočica"
     },
     {
+      "listing_id": "KPF-000245",
       "name": "Trimer za nos, uši i obrve, za uklanjanje dlačica – Zilan ZLN3928",
       "price_rsd": 499,
       "slug": "zilan-zln3928-trimer-za-nos-usi-uklanjanje-dlacica",
       "category": "nega-i-licna-higijena",
       "group": "",
+      "date_added_sort": "2026-05-08",
       "img_thumb": "/images/products/zilan-zln3928-trimer-za-nos-usi-uklanjanje-dlacica-01-thumb.webp",
       "brand": "Zilan",
       "sku": "ZLN3928",
       "gtin13": "8682744808559"
     },
     {
+      "listing_id": "KPF-000039",
       "name": "Velika grickalica za zadebljane i urasle nokte – otvor sekača 15 mm",
       "price_rsd": 1499,
       "slug": "velika-grickalica-za-zadebljane-urasle-nokte-15mm",
       "category": "nega-i-licna-higijena",
       "group": "",
+      "date_added_sort": "2025-12-21",
       "img_thumb": "/images/products/velika-grickalica-za-zadebljane-urasle-nokte-15mm-01-thumb.webp",
       "brand": "Kupify"
     }

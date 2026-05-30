@@ -4,11 +4,13 @@
   "page_size": 18,
   "products": [
     {
+      "listing_id": "KPF-000021",
       "name": "Vakuumski držač za tuš bez bušenja – univerzalni nosač za ručicu tuša",
       "price_rsd": 999,
       "slug": "vakuumski-drzac-za-tus-bez-busenja-univerzalni",
       "category": "kupatilo-i-oprema",
       "group": "",
+      "date_added_sort": "2025-12-10",
       "img_thumb": "/images/products/vakuumski-drzac-za-tus-bez-busenja-univerzalni-01-thumb.webp",
       "brand": "Kupify",
       "sku": "Vakuum za tuš"

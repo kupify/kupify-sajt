@@ -4,22 +4,26 @@
   "page_size": 18,
   "products": [
     {
+      "listing_id": "KPF-000146",
       "name": "EU na UK adapter za utičnice (šuko) 13A – Gembird A-AC-EUFUKM-01",
       "price_rsd": 499,
       "slug": "strujni-adapter-eu-na-uk-gembird-a-ac-eufukm-01",
       "category": "elektro-i-rasveta",
       "group": "",
+      "date_added_sort": "2026-02-24",
       "img_thumb": "/images/products/strujni-adapter-eu-na-uk-gembird-a-ac-eufukm-01-01-thumb.webp",
       "brand": "Gembird",
       "sku": "A-AC-EUFUKM-01",
       "gtin13": "8716309128292"
     },
     {
+      "listing_id": "KPF-000008",
       "name": "Pametna WiFi utičnica sa tajmerom i merenjem potrošnje – Gembird SMART-MON16A",
       "price_rsd": 1399,
       "slug": "pametna-wifi-uticnica-tajmer-merenje-potrosnje-gembird-smart-mon16a",
       "category": "elektro-i-rasveta",
       "group": "",
+      "date_added_sort": "2025-12-10",
       "img_thumb": "/images/products/pametna-wifi-uticnica-tajmer-merenje-potrosnje-gembird-smart-mon16a-01-thumb.webp",
       "brand": "Gembird",
       "sku": "SMART-MON16A",

@@ -4,22 +4,26 @@
   "page_size": 18,
   "products": [
     {
+      "listing_id": "KPF-000199",
       "name": "Električni rasterivač miševa i pacova ultrazvučni 220V – Haus 200 D",
       "price_rsd": 1499,
       "slug": "haus-200d-rasterivac-glodara-ultrazvucni",
       "category": "uredjenje-kuce",
       "group": "",
+      "date_added_sort": "2026-04-01",
       "img_thumb": "/images/products/haus-200d-rasterivac-glodara-ultrazvucni-01-thumb.webp",
       "brand": "Haus",
       "sku": "200 D",
       "gtin13": "4048374035675"
     },
     {
+      "listing_id": "KPF-000024",
       "name": "Sigurnosna bravica – reza za prozor sa ključem za zaštitu dece",
       "price_rsd": 1199,
       "slug": "sigurnosna-bravica-za-prozor-zastita-za-decu",
       "category": "uredjenje-kuce",
       "group": "",
+      "date_added_sort": "2025-12-18",
       "img_thumb": "/images/products/sigurnosna-bravica-za-prozor-zastita-za-decu-01-thumb.webp",
       "brand": "Kupify",
       "sku": "SBP-KLJ-01"
