@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 105,
+  "total_products": 107,
   "page_size": 18,
   "products": [
     {
@@ -342,6 +342,19 @@
       "gtin13": "4711421981101"
     },
     {
+      "listing_id": "KPF-000278",
+      "name": "Gejmerski miš sa LED osvetljenjem, 1200-3600Dpi – Gembird MUSG-RGB-01",
+      "price_rsd": 999,
+      "slug": "gembird-musg-rgb-01-led-gejmerski-mis",
+      "category": "kompjuteri-i-oprema",
+      "group": "misevi",
+      "date_added_sort": "2026-05-31",
+      "img_thumb": "/images/products/gembird-musg-rgb-01-led-gejmerski-mis-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MUSG-RGB-01",
+      "gtin13": "8716309121798"
+    },
+    {
       "listing_id": "KPF-000153",
       "name": "Gigabitni LAN switch sa 16 portova VLAN Extend funkcija – Cudy GS1016",
       "price_rsd": 4999,
@@ -574,6 +587,19 @@
       "brand": "Gembird",
       "sku": "MS-D2ST-01",
       "gtin13": "8716309135245"
+    },
+    {
+      "listing_id": "KPF-000279",
+      "name": "Punjivi bežični / žičani miš za gejming, 12000 CPI – A4Tech Bloody A4-R36 ULTRA",
+      "price_rsd": 3499,
+      "slug": "a4tech-bloody-r36-ultra-punjivi-bezicni-zicani-mis",
+      "category": "kompjuteri-i-oprema",
+      "group": "misevi",
+      "date_added_sort": "2026-05-31",
+      "img_thumb": "/images/products/a4tech-bloody-r36-ultra-punjivi-bezicni-zicani-mis-01-thumb.webp",
+      "brand": "A4Tech",
+      "sku": "R36 ULTRA",
+      "gtin13": "4711422001198"
     },
     {
       "listing_id": "KPF-000249",

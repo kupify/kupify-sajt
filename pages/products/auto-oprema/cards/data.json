@@ -1,6 +1,6 @@
 {
   "category": "auto-oprema",
-  "total_products": 22,
+  "total_products": 23,
   "page_size": 18,
   "products": [
     {
@@ -158,6 +158,19 @@
       "brand": "Gembird",
       "sku": "TA-CHHR-02",
       "gtin13": "8716309087278"
+    },
+    {
+      "listing_id": "KPF-000277",
+      "name": "Gravitacioni držač za telefon za auto staklo ili ventilaciju – Gembird TA-CHWAV-01",
+      "price_rsd": 359,
+      "slug": "gembird-ta-chwav-01-gravitacioni-drzac-za-telefon-za-auto",
+      "category": "auto-oprema",
+      "group": "drzaci-za-telefone-i-tablete",
+      "date_added_sort": "2026-05-31",
+      "img_thumb": "/images/products/gembird-ta-chwav-01-gravitacioni-drzac-za-telefon-za-auto-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "TA-CHWAV-01",
+      "gtin13": "8716309125550"
     },
     {
       "listing_id": "KPF-000010",
