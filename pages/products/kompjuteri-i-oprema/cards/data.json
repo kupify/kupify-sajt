@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 107,
+  "total_products": 108,
   "page_size": 18,
   "products": [
     {
@@ -457,6 +457,19 @@
       "brand": "Cudy",
       "sku": "FS108D V4.0",
       "gtin13": "6971690790042"
+    },
+    {
+      "listing_id": "KPF-000280",
+      "name": "Mini USB metalni ventilator za radni sto, 10cm – Gembird NF-03",
+      "price_rsd": 599,
+      "slug": "gembird-nf-03-mini-usb-metalni-ventilator",
+      "category": "kompjuteri-i-oprema",
+      "group": "hladjenje",
+      "date_added_sort": "2026-06-02",
+      "img_thumb": "/images/products/gembird-nf-03-mini-usb-metalni-ventilator-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "NF-03",
+      "gtin13": "8716309086639"
     },
     {
       "listing_id": "KPF-000217",
