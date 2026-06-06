@@ -1,0 +1,20 @@
+{
+  "category": "dvoriste-i-basta",
+  "total_products": 1,
+  "page_size": 18,
+  "products": [
+    {
+      "listing_id": "KPF-000281",
+      "name": "Zaštitni PVC pokrivač za okrugle bazene 549 cm – Bestway 58039",
+      "price_rsd": 4399,
+      "slug": "bestway-58039-pvc-pokrivac-za-bazen",
+      "category": "dvoriste-i-basta",
+      "group": "bazeni-plaza-kampovanje",
+      "date_added_sort": "2026-06-05",
+      "img_thumb": "/images/products/bestway-58039-pvc-pokrivac-za-bazen-01-thumb.webp",
+      "brand": "Bestway",
+      "sku": "58039",
+      "gtin13": "6941607354605"
+    }
+  ]
+}
