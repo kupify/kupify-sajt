@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 77,
+  "total_products": 78,
   "page_size": 18,
   "products": [
     {
@@ -977,6 +977,19 @@
       "brand": "Gembird",
       "sku": "WM-90T-01",
       "gtin13": "8716309126182"
+    },
+    {
+      "listing_id": "KPF-000282",
+      "name": "Zidni zglobni nosač za TV 20-60\" do 30kg – NET XA20031",
+      "price_rsd": 1499,
+      "slug": "net-xa20031-zidni-zglobni-tv-nosac",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "date_added_sort": "2026-06-13",
+      "img_thumb": "/images/products/net-xa20031-zidni-zglobni-tv-nosac-01-thumb.webp",
+      "brand": "NET",
+      "sku": "XA20031",
+      "gtin13": "2244112255771"
     },
     {
       "listing_id": "KPF-000237",
