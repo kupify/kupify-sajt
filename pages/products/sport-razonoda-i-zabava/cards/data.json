@@ -1,6 +1,6 @@
 {
   "category": "sport-razonoda-i-zabava",
-  "total_products": 26,
+  "total_products": 28,
   "page_size": 18,
   "products": [
     {
@@ -158,6 +158,32 @@
       "brand": "Bestway",
       "sku": "62068",
       "gtin13": "6941607307564"
+    },
+    {
+      "listing_id": "KPF-000286",
+      "name": "Fotelja na naduvavanje sa tabureom, bež – Bestway Comfi Cube 75137",
+      "price_rsd": 4499,
+      "slug": "bestway-75137-bez-fotelja-na-naduvavanje-sa-tabureom",
+      "category": "sport-razonoda-i-zabava",
+      "group": "bazeni-plaza-kampovanje",
+      "date_added_sort": "2026-06-19",
+      "img_thumb": "/images/products/bestway-75137-bez-fotelja-na-naduvavanje-sa-tabureom-01-thumb.webp",
+      "brand": "Bestway",
+      "sku": "75137",
+      "gtin13": "6941607373002"
+    },
+    {
+      "listing_id": "KPF-000285",
+      "name": "Fotelja na naduvavanje sa tabureom, zelena – Bestway Comfi Cube 75137",
+      "price_rsd": 4499,
+      "slug": "bestway-75137-zelena-fotelja-na-naduvavanje-sa-tabureom",
+      "category": "sport-razonoda-i-zabava",
+      "group": "bazeni-plaza-kampovanje",
+      "date_added_sort": "2026-06-19",
+      "img_thumb": "/images/products/bestway-75137-zelena-fotelja-na-naduvavanje-sa-tabureom-01-thumb.webp",
+      "brand": "Bestway",
+      "sku": "75137",
+      "gtin13": "6941607373002"
     },
     {
       "listing_id": "KPF-000264",
