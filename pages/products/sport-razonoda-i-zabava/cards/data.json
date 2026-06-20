@@ -1,6 +1,6 @@
 {
   "category": "sport-razonoda-i-zabava",
-  "total_products": 28,
+  "total_products": 30,
   "page_size": 18,
   "products": [
     {
@@ -313,6 +313,32 @@
       "brand": "Bestway",
       "sku": "58242",
       "gtin13": "6941607354735"
+    },
+    {
+      "listing_id": "KPF-000287",
+      "name": "Solarni pokrivač za grejanje i zaštitu bazena 457 / 488 cm – Bestway 58253",
+      "price_rsd": 4599,
+      "slug": "bestway-58253-solarni-pokrivac-za-bazen",
+      "category": "sport-razonoda-i-zabava",
+      "group": "bazeni-plaza-kampovanje",
+      "date_added_sort": "2026-06-20",
+      "img_thumb": "/images/products/bestway-58253-solarni-pokrivac-za-bazen-01-thumb.webp",
+      "brand": "Bestway",
+      "sku": "58253",
+      "gtin13": "6942138918953"
+    },
+    {
+      "listing_id": "KPF-000284",
+      "name": "Solarni pokrivač za grejanje i zaštitu bazena 549 cm – Bestway 58173",
+      "price_rsd": 5899,
+      "slug": "bestway-58173-solarni-pokrivac-za-bazen",
+      "category": "sport-razonoda-i-zabava",
+      "group": "bazeni-plaza-kampovanje",
+      "date_added_sort": "2026-06-20",
+      "img_thumb": "/images/products/bestway-58173-solarni-pokrivac-za-bazen-01-thumb.webp",
+      "brand": "Bestway",
+      "sku": "58173",
+      "gtin13": "6941607354674"
     },
     {
       "listing_id": "KPF-000002",
