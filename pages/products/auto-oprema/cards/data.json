@@ -1,6 +1,6 @@
 {
   "category": "auto-oprema",
-  "total_products": 23,
+  "total_products": 24,
   "page_size": 18,
   "products": [
     {
@@ -171,6 +171,19 @@
       "brand": "Gembird",
       "sku": "TA-CHWAV-01",
       "gtin13": "8716309125550"
+    },
+    {
+      "listing_id": "KPF-000289",
+      "name": "Magnetni držač za telefon za auto ventilaciju – XO C82",
+      "price_rsd": 399,
+      "slug": "xo-c82-magnetni-drzac-za-telefon-auto-ventilaciju",
+      "category": "auto-oprema",
+      "group": "drzaci-za-telefone-i-tablete",
+      "date_added_sort": "2026-06-21",
+      "img_thumb": "/images/products/xo-c82-magnetni-drzac-za-telefon-auto-ventilaciju-01-thumb.webp",
+      "brand": "XO",
+      "sku": "C82",
+      "gtin13": "6920680879571"
     },
     {
       "listing_id": "KPF-000010",
