@@ -1,6 +1,6 @@
 {
   "category": "sport-razonoda-i-zabava",
-  "total_products": 31,
+  "total_products": 32,
   "page_size": 18,
   "products": [
     {
@@ -236,6 +236,19 @@
       "brand": "Bestway",
       "sku": "58701",
       "gtin13": "6941607347317"
+    },
+    {
+      "listing_id": "KPF-000290",
+      "name": "Polisferne loptice za filter pumpu bazena, 500g - Bestway 58475",
+      "price_rsd": 1999,
+      "slug": "bestway-58475-polisferne-filter-kuglice-za-bazen",
+      "category": "sport-razonoda-i-zabava",
+      "group": "bazeni-plaza-kampovanje",
+      "date_added_sort": "2026-06-22",
+      "img_thumb": "/images/products/bestway-58475-polisferne-filter-kuglice-za-bazen-01-thumb.webp",
+      "brand": "Bestway",
+      "sku": "58475",
+      "gtin13": "6941607354483"
     },
     {
       "listing_id": "KPF-000189",
