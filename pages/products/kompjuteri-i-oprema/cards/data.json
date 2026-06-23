@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 108,
+  "total_products": 110,
   "page_size": 18,
   "products": [
     {
@@ -54,6 +54,19 @@
       "brand": "Ugreen",
       "sku": "CM185 50706",
       "gtin13": "6957303857067"
+    },
+    {
+      "listing_id": "KPF-000292",
+      "name": "4-u-1 gejmerski set sa LED osvetljenjem \"Ghost\" – Gembird GGS-UMGL4-02",
+      "price_rsd": 3799,
+      "slug": "gembird-ggs-umgl4-02-4-u-1-gejmerski-set-ghost",
+      "category": "kompjuteri-i-oprema",
+      "group": "gejmerski-kompleti",
+      "date_added_sort": "2026-06-23",
+      "img_thumb": "/images/products/gembird-ggs-umgl4-02-4-u-1-gejmerski-set-ghost-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "GGS-UMGL4-02",
+      "gtin13": "8716309118101"
     },
     {
       "listing_id": "KPF-000165",
@@ -548,6 +561,19 @@
       "brand": "Gembird",
       "sku": "MA-D1-02",
       "gtin13": "8716309127561"
+    },
+    {
+      "listing_id": "KPF-000291",
+      "name": "Podesivo postolje za monitor i laptop – Gembird MS-TABLE-01",
+      "price_rsd": 1399,
+      "slug": "gembird-ms-table-01-podesivo-postolje-za-monitor-i-laptop",
+      "category": "kompjuteri-i-oprema",
+      "group": "postolja-za-monitor",
+      "date_added_sort": "2026-06-23",
+      "img_thumb": "/images/products/gembird-ms-table-01-podesivo-postolje-za-monitor-i-laptop-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MS-TABLE-01",
+      "gtin13": "8716309126205"
     },
     {
       "listing_id": "KPF-000195",

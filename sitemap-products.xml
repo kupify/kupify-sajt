@@ -1740,4 +1740,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://kupify.rs/pages/products/kompjuteri-i-oprema/gembird-ms-table-01-podesivo-postolje-za-monitor-i-laptop/</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kupify.rs/pages/products/kompjuteri-i-oprema/gembird-ggs-umgl4-02-4-u-1-gejmerski-set-ghost/</loc>
+    <lastmod>2026-06-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
