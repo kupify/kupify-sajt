@@ -1,6 +1,6 @@
 {
   "category": "bela-tehnika-i-kucni-aparati",
-  "total_products": 4,
+  "total_products": 5,
   "page_size": 18,
   "products": [
     {
@@ -32,7 +32,7 @@
     {
       "listing_id": "KPF-000156",
       "name": "Usmerivač vazduha za klima uređaje – Kettz RAZ0460",
-      "price_rsd": 2199,
+      "price_rsd": 2399,
       "slug": "usmerivac-vazduha-klima-uredjaja-kettz-raz0406",
       "category": "bela-tehnika-i-kucni-aparati",
       "group": "klima-uredjaji-oprema",
@@ -41,6 +41,19 @@
       "brand": "Kettz",
       "sku": "RAZ0460",
       "gtin13": "8607000292903"
+    },
+    {
+      "listing_id": "KPF-000294",
+      "name": "Ventilator sa postoljem - crni, 25.5 cm – Zilan ZLN1092",
+      "price_rsd": 2399,
+      "slug": "zilan-zln1092-ventilator-sa-postoljem-crni",
+      "category": "bela-tehnika-i-kucni-aparati",
+      "group": "ventilatori",
+      "date_added_sort": "2026-06-28",
+      "img_thumb": "/images/products/zilan-zln1092-ventilator-sa-postoljem-crni-01-thumb.webp",
+      "brand": "Zilan",
+      "sku": "ZLN1092",
+      "gtin13": "8682744811092"
     },
     {
       "listing_id": "KPF-000006",

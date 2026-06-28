@@ -1,6 +1,6 @@
 {
   "category": "sport-razonoda-i-zabava",
-  "total_products": 32,
+  "total_products": 33,
   "page_size": 18,
   "products": [
     {
@@ -67,6 +67,19 @@
       "brand": "Bestway",
       "sku": "62289 PowerTouch Pocket",
       "gtin13": "6941607368268"
+    },
+    {
+      "listing_id": "KPF-000293",
+      "name": "Filter pumpa sa polisfernim kuglicama, za bazene 5678 L/h – Bestway 58870",
+      "price_rsd": 11699,
+      "slug": "bestway-58870-polisferna-filter-pumpa-za-bazen",
+      "category": "sport-razonoda-i-zabava",
+      "group": "bazeni-plaza-kampovanje",
+      "date_added_sort": "2026-06-27",
+      "img_thumb": "/images/products/bestway-58870-polisferna-filter-pumpa-za-bazen-01-thumb.webp",
+      "brand": "Bestway",
+      "sku": "58870",
+      "gtin13": "6941607369081"
     },
     {
       "listing_id": "KPF-000230",
