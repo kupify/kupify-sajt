@@ -1,6 +1,6 @@
 {
   "category": "sport-razonoda-i-zabava",
-  "total_products": 33,
+  "total_products": 35,
   "page_size": 18,
   "products": [
     {
@@ -161,7 +161,7 @@
     },
     {
       "listing_id": "KPF-000229",
-      "name": "Flasteri za popravku bazena, set 10 kom (6.5x6.5cm) – Bestway 62068",
+      "name": "Flasteri za popravku bazena, set 10 kom (6.5x6.5cm) – Bestway 62091",
       "price_rsd": 499,
       "slug": "bestway-62068-set-flastera-za-popravku-bazena",
       "category": "sport-razonoda-i-zabava",
@@ -169,7 +169,7 @@
       "date_added_sort": "2026-04-25",
       "img_thumb": "/images/products/bestway-62068-set-flastera-za-popravku-bazena-01-thumb.webp",
       "brand": "Bestway",
-      "sku": "62068",
+      "sku": "62091",
       "gtin13": "6941607307564"
     },
     {
@@ -210,6 +210,19 @@
       "brand": "Bestway",
       "sku": "75127",
       "gtin13": "6941607348635"
+    },
+    {
+      "listing_id": "KPF-000296",
+      "name": "Mrežica za bazen sa teleskopskom drškom – Bestway 58635",
+      "price_rsd": 1999,
+      "slug": "bestway-58635-mrezica-za-bazen-sa-drskom",
+      "category": "sport-razonoda-i-zabava",
+      "group": "bazeni-plaza-kampovanje",
+      "date_added_sort": "2026-07-01",
+      "img_thumb": "/images/products/bestway-58635-mrezica-za-bazen-sa-drskom-01-thumb.webp",
+      "brand": "Bestway",
+      "sku": "58635",
+      "gtin13": "6941607347027"
     },
     {
       "listing_id": "KPF-000190",
@@ -390,6 +403,19 @@
       "brand": "Bestway",
       "sku": "58619",
       "gtin13": "6941607347010"
+    },
+    {
+      "listing_id": "KPF-000295",
+      "name": "Zaštitni PVC pokrivač za okrugle bazene 305 cm – Bestway 58036",
+      "price_rsd": 1999,
+      "slug": "bestway-58036-pvc-pokrivac-bazena",
+      "category": "sport-razonoda-i-zabava",
+      "group": "bazeni-plaza-kampovanje",
+      "date_added_sort": "2026-07-01",
+      "img_thumb": "/images/products/bestway-58036-pvc-pokrivac-bazena-01-thumb.webp",
+      "brand": "Bestway",
+      "sku": "58036",
+      "gtin13": "6941607354575"
     },
     {
       "listing_id": "KPF-000272",

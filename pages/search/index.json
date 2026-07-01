@@ -2738,15 +2738,15 @@
     },
     {
       "listing_id": "KPF-000229",
-      "name": "Flasteri za popravku bazena, set 10 kom (6.5x6.5cm) – Bestway 62068",
+      "name": "Flasteri za popravku bazena, set 10 kom (6.5x6.5cm) – Bestway 62091",
       "slug": "bestway-62068-set-flastera-za-popravku-bazena",
       "category": "sport-razonoda-i-zabava",
       "group": "bazeni-plaza-kampovanje",
       "brand": "Bestway",
-      "sku": "62068",
+      "sku": "62091",
       "price_rsd": 499,
       "img_thumb": "/images/products/bestway-62068-set-flastera-za-popravku-bazena-01-thumb.webp",
-      "q_ascii": "flasteri za popravku bazena, set 10 kom (6.5x6.5cm) – bestway 62068 bestway 62068 sport-razonoda-i-zabava bazeni-plaza-kampovanje bestway-62068-set-flastera-za-popravku-bazena 6941607307564"
+      "q_ascii": "flasteri za popravku bazena, set 10 kom (6.5x6.5cm) – bestway 62091 bestway 62091 sport-razonoda-i-zabava bazeni-plaza-kampovanje bestway-62068-set-flastera-za-popravku-bazena 6941607307564"
     },
     {
       "listing_id": "KPF-000230",
@@ -3527,6 +3527,30 @@
       "price_rsd": 2399,
       "img_thumb": "/images/products/zilan-zln1092-ventilator-sa-postoljem-crni-01-thumb.webp",
       "q_ascii": "ventilator sa postoljem - crni, 25.5 cm – zilan zln1092 zilan zln1092 bela-tehnika-i-kucni-aparati ventilatori zilan-zln1092-ventilator-sa-postoljem-crni 8682744811092"
+    },
+    {
+      "listing_id": "KPF-000295",
+      "name": "Zaštitni PVC pokrivač za okrugle bazene 305 cm – Bestway 58036",
+      "slug": "bestway-58036-pvc-pokrivac-bazena",
+      "category": "sport-razonoda-i-zabava",
+      "group": "bazeni-plaza-kampovanje",
+      "brand": "Bestway",
+      "sku": "58036",
+      "price_rsd": 1999,
+      "img_thumb": "/images/products/bestway-58036-pvc-pokrivac-bazena-01-thumb.webp",
+      "q_ascii": "zastitni pvc pokrivac za okrugle bazene 305 cm – bestway 58036 bestway 58036 sport-razonoda-i-zabava bazeni-plaza-kampovanje bestway-58036-pvc-pokrivac-bazena 6941607354575"
+    },
+    {
+      "listing_id": "KPF-000296",
+      "name": "Mrežica za bazen sa teleskopskom drškom – Bestway 58635",
+      "slug": "bestway-58635-mrezica-za-bazen-sa-drskom",
+      "category": "sport-razonoda-i-zabava",
+      "group": "bazeni-plaza-kampovanje",
+      "brand": "Bestway",
+      "sku": "58635",
+      "price_rsd": 1999,
+      "img_thumb": "/images/products/bestway-58635-mrezica-za-bazen-sa-drskom-01-thumb.webp",
+      "q_ascii": "mrezica za bazen sa teleskopskom drskom – bestway 58635 bestway 58635 sport-razonoda-i-zabava bazeni-plaza-kampovanje bestway-58635-mrezica-za-bazen-sa-drskom 6941607347027"
     }
   ]
 }
