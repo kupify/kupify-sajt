@@ -1,8 +1,21 @@
 {
   "category": "audio-oprema",
-  "total_products": 5,
+  "total_products": 6,
   "page_size": 18,
   "products": [
+    {
+      "listing_id": "KPF-000297",
+      "name": "1 RCA činč na 2 RCA činča muški audio kabl, 3m – Kettz R2R-30",
+      "price_rsd": 169,
+      "slug": "kettz-r2r-30-1-rca-na-2-rca-muski-audio-kabl-3m",
+      "category": "audio-oprema",
+      "group": "kablovi-i-adapteri",
+      "date_added_sort": "2026-07-05",
+      "img_thumb": "/images/products/kettz-r2r-30-1-rca-na-2-rca-muski-audio-kabl-3m-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "R2R-30",
+      "gtin13": "8606018832286"
+    },
     {
       "listing_id": "KPF-000226",
       "name": "Audio adapter kabl - stereo 6.35mm muški na 3.5mm ženski (20cm) – Gembird A-63M35F-0.2M",

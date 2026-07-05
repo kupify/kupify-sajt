@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 79,
+  "total_products": 80,
   "page_size": 18,
   "products": [
     {
@@ -15,6 +15,19 @@
       "brand": "Kettz",
       "sku": "DP2H-04",
       "gtin13": "8605054706599"
+    },
+    {
+      "listing_id": "KPF-000298",
+      "name": "AV kabl 3x RCA činč muški, 3m – Nedis CVGP24300BK30",
+      "price_rsd": 499,
+      "slug": "nedis-cvgp24300bk30-av-kabl-3-rca-cinc-muski-3m",
+      "category": "tv-i-video",
+      "group": "kablovi-i-adapteri",
+      "date_added_sort": "2026-07-05",
+      "img_thumb": "/images/products/nedis-cvgp24300bk30-av-kabl-3-rca-cinc-muski-3m-01-thumb.webp",
+      "brand": "Nedis",
+      "sku": "CVGP24300BK30",
+      "gtin13": "5412810280216"
     },
     {
       "listing_id": "KPF-000213",
