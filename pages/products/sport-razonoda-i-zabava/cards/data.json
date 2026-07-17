@@ -1,6 +1,6 @@
 {
   "category": "sport-razonoda-i-zabava",
-  "total_products": 35,
+  "total_products": 36,
   "page_size": 18,
   "products": [
     {
@@ -403,6 +403,19 @@
       "brand": "Bestway",
       "sku": "58619",
       "gtin13": "6941607347010"
+    },
+    {
+      "listing_id": "KPF-000300",
+      "name": "Zaštitni PVC pokrivač za okrugle bazene 244 cm – Bestway 58032",
+      "price_rsd": 1699,
+      "slug": "bestway-58032-pvc-pokrivac-za-bazen",
+      "category": "sport-razonoda-i-zabava",
+      "group": "bazeni-plaza-kampovanje",
+      "date_added_sort": "2026-07-17",
+      "img_thumb": "/images/products/bestway-58032-pvc-pokrivac-za-bazen-01-thumb.webp",
+      "brand": "Bestway",
+      "sku": "58032",
+      "gtin13": "6941607354568"
     },
     {
       "listing_id": "KPF-000295",
