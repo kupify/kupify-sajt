@@ -1,8 +1,21 @@
 {
   "category": "sport-razonoda-i-zabava",
-  "total_products": 36,
+  "total_products": 37,
   "page_size": 18,
   "products": [
+    {
+      "listing_id": "KPF-000301",
+      "name": "3-u-1 Teleskopska drška, mrežica i usisivač za bazen – INTEX 28002",
+      "price_rsd": 2699,
+      "slug": "intex-28002-teleskopska-drska-mrezica-usisivac-za-bazen",
+      "category": "sport-razonoda-i-zabava",
+      "group": "bazeni-plaza-kampovanje",
+      "date_added_sort": "2026-07-23",
+      "img_thumb": "/images/products/intex-28002-teleskopska-drska-mrezica-usisivac-za-bazen-01-thumb.webp",
+      "brand": "INTEX",
+      "sku": "28002",
+      "gtin13": "6941057420028"
+    },
     {
       "listing_id": "KPF-000202",
       "name": "Crevo za bazensku filter pumpu, 3m x 32mm – Bestway FlowClear 58369",
