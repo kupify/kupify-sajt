@@ -1,6 +1,6 @@
 {
   "category": "sport-razonoda-i-zabava",
-  "total_products": 37,
+  "total_products": 38,
   "page_size": 18,
   "products": [
     {
@@ -84,7 +84,7 @@
     {
       "listing_id": "KPF-000293",
       "name": "Filter pumpa sa polisfernim kuglicama za bazen 5678 l/h – Bestway 58870",
-      "price_rsd": 11699,
+      "price_rsd": 13999,
       "slug": "bestway-58870-polisferna-filter-pumpa-za-bazen",
       "category": "sport-razonoda-i-zabava",
       "group": "bazeni-plaza-kampovanje",
@@ -403,6 +403,19 @@
       "img_thumb": "/images/products/thug-life-naocare-piksel-retro-meme-01-thumb.webp",
       "brand": "Kupify",
       "sku": "Piksel-retro"
+    },
+    {
+      "listing_id": "KPF-000299",
+      "name": "Ubodni metalni držač - postolje za suncobran, 45cm – Benson 012547",
+      "price_rsd": 899,
+      "slug": "benson-012547-ubodni-metalni-drzac-za-suncobran",
+      "category": "sport-razonoda-i-zabava",
+      "group": "bazeni-plaza-kampovanje",
+      "date_added_sort": "2026-07-25",
+      "img_thumb": "/images/products/benson-012547-ubodni-metalni-drzac-za-suncobran-01-thumb.webp",
+      "brand": "Benson",
+      "sku": "012547",
+      "gtin13": "8718692626294"
     },
     {
       "listing_id": "KPF-000266",
