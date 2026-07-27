@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 80,
+  "total_products": 82,
   "page_size": 18,
   "products": [
     {
@@ -327,6 +327,32 @@
       "brand": "Kettz",
       "sku": "TVN-K3255",
       "gtin13": "8605054706810"
+    },
+    {
+      "listing_id": "KPF-000302",
+      "name": "Set-top box DVB-T2 / H.265  sa USB plejerom - Gembird GMB-MAT-818T",
+      "price_rsd": 2499,
+      "slug": "gembird-gmb-mat-818t-set-top-box",
+      "category": "tv-i-video",
+      "group": "risiveri",
+      "date_added_sort": "2026-07-27",
+      "img_thumb": "/images/products/gembird-gmb-mat-818t-set-top-box-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "GMB-MAT-818T",
+      "gtin13": "9780036810699"
+    },
+    {
+      "listing_id": "KPF-000303",
+      "name": "Set-top box DVB-T2 / H.265 sa USB plejerom - Velteh 00T211",
+      "price_rsd": 2399,
+      "slug": "velteh-00t211-set-top-box",
+      "category": "tv-i-video",
+      "group": "risiveri",
+      "date_added_sort": "2026-07-27",
+      "img_thumb": "/images/products/velteh-00t211-set-top-box-01-thumb.webp",
+      "brand": "Velteh",
+      "sku": "00T211",
+      "gtin13": "8605054701563"
     },
     {
       "listing_id": "KPF-000076",
