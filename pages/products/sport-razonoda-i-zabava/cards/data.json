@@ -1,6 +1,6 @@
 {
   "category": "sport-razonoda-i-zabava",
-  "total_products": 38,
+  "total_products": 39,
   "page_size": 18,
   "products": [
     {
@@ -275,6 +275,19 @@
       "brand": "Bestway",
       "sku": "58701",
       "gtin13": "6941607347317"
+    },
+    {
+      "listing_id": "KPF-000305",
+      "name": "Plutajući termometar za bazen – Bestway 58072",
+      "price_rsd": 599,
+      "slug": "bestway-58072-plutajuci-termometar-za-bazen",
+      "category": "sport-razonoda-i-zabava",
+      "group": "bazeni-plaza-kampovanje",
+      "date_added_sort": "2026-08-01",
+      "img_thumb": "/images/products/bestway-58072-plutajuci-termometar-za-bazen-01-thumb.webp",
+      "brand": "Bestway",
+      "sku": "58072",
+      "gtin13": "6941607346754"
     },
     {
       "listing_id": "KPF-000290",

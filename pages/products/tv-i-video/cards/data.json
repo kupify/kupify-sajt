@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 82,
+  "total_products": 83,
   "page_size": 18,
   "products": [
     {
@@ -46,11 +46,11 @@
       "listing_id": "KPF-000069",
       "name": "Fiksni zidni nosač za TV 14-42\" do 25kg – Gembird WM-42F-05",
       "price_rsd": 399,
-      "slug": "fiksni-zidni-nosac-za-tv-gembird-wm-42f-05",
+      "slug": "gembird-wm-42f-05-fiksni-zidni-tv-nosac",
       "category": "tv-i-video",
       "group": "tv-nosaci",
       "date_added_sort": "2026-01-09",
-      "img_thumb": "/images/products/fiksni-zidni-nosac-za-tv-gembird-wm-42f-05-01-thumb.webp",
+      "img_thumb": "/images/products/gembird-wm-42f-05-fiksni-zidni-tv-nosac-01-thumb.webp",
       "brand": "Gembird",
       "sku": "WM-42F-05",
       "gtin13": "8607826723438"
@@ -353,6 +353,19 @@
       "brand": "Velteh",
       "sku": "00T211",
       "gtin13": "8605054701563"
+    },
+    {
+      "listing_id": "KPF-000304",
+      "name": "Set-top box DVB-T2/C sa USB plejerom – Gembird GMB-TDT-033",
+      "price_rsd": 1999,
+      "slug": "gembird-gmb-tdt-033-set-top-box",
+      "category": "tv-i-video",
+      "group": "risiveri",
+      "date_added_sort": "2026-08-01",
+      "img_thumb": "/images/products/gembird-gmb-tdt-033-set-top-box-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "GMB-TDT-033",
+      "gtin13": "9780041861327"
     },
     {
       "listing_id": "KPF-000076",

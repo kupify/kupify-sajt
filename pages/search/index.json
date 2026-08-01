@@ -819,14 +819,14 @@
     {
       "listing_id": "KPF-000069",
       "name": "Fiksni zidni nosač za TV 14-42\" do 25kg – Gembird WM-42F-05",
-      "slug": "fiksni-zidni-nosac-za-tv-gembird-wm-42f-05",
+      "slug": "gembird-wm-42f-05-fiksni-zidni-tv-nosac",
       "category": "tv-i-video",
       "group": "tv-nosaci",
       "brand": "Gembird",
       "sku": "WM-42F-05",
       "price_rsd": 399,
-      "img_thumb": "/images/products/fiksni-zidni-nosac-za-tv-gembird-wm-42f-05-01-thumb.webp",
-      "q_ascii": "fiksni zidni nosac za tv 14-42\" do 25kg – gembird wm-42f-05 gembird wm-42f-05 tv-i-video tv-nosaci fiksni-zidni-nosac-za-tv-gembird-wm-42f-05 8607826723438"
+      "img_thumb": "/images/products/gembird-wm-42f-05-fiksni-zidni-tv-nosac-01-thumb.webp",
+      "q_ascii": "fiksni zidni nosac za tv 14-42\" do 25kg – gembird wm-42f-05 gembird wm-42f-05 tv-i-video tv-nosaci gembird-wm-42f-05-fiksni-zidni-tv-nosac 8607826723438"
     },
     {
       "listing_id": "KPF-000070",
@@ -3635,6 +3635,30 @@
       "price_rsd": 2399,
       "img_thumb": "/images/products/velteh-00t211-set-top-box-01-thumb.webp",
       "q_ascii": "set-top box dvb-t2 / h.265 sa usb plejerom - velteh 00t211 velteh 00t211 tv-i-video risiveri velteh-00t211-set-top-box 8605054701563"
+    },
+    {
+      "listing_id": "KPF-000304",
+      "name": "Set-top box DVB-T2/C sa USB plejerom – Gembird GMB-TDT-033",
+      "slug": "gembird-gmb-tdt-033-set-top-box",
+      "category": "tv-i-video",
+      "group": "risiveri",
+      "brand": "Gembird",
+      "sku": "GMB-TDT-033",
+      "price_rsd": 1999,
+      "img_thumb": "/images/products/gembird-gmb-tdt-033-set-top-box-01-thumb.webp",
+      "q_ascii": "set-top box dvb-t2/c sa usb plejerom – gembird gmb-tdt-033 gembird gmb-tdt-033 tv-i-video risiveri gembird-gmb-tdt-033-set-top-box 9780041861327"
+    },
+    {
+      "listing_id": "KPF-000305",
+      "name": "Plutajući termometar za bazen – Bestway 58072",
+      "slug": "bestway-58072-plutajuci-termometar-za-bazen",
+      "category": "sport-razonoda-i-zabava",
+      "group": "bazeni-plaza-kampovanje",
+      "brand": "Bestway",
+      "sku": "58072",
+      "price_rsd": 599,
+      "img_thumb": "/images/products/bestway-58072-plutajuci-termometar-za-bazen-01-thumb.webp",
+      "q_ascii": "plutajuci termometar za bazen – bestway 58072 bestway 58072 sport-razonoda-i-zabava bazeni-plaza-kampovanje bestway-58072-plutajuci-termometar-za-bazen 6941607346754"
     }
   ]
 }
