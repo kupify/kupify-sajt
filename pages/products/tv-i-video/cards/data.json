@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 83,
+  "total_products": 85,
   "page_size": 18,
   "products": [
     {
@@ -927,6 +927,19 @@
       "gtin13": "8716309130417"
     },
     {
+      "listing_id": "KPF-000306",
+      "name": "Zglobni zidni nosač za TV 60-120\" do 70kg – Kettz CER-55Z",
+      "price_rsd": 7999,
+      "slug": "kettz-cer-55z-zglobni-zidni-tv-nosac",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "date_added_sort": "2026-08-02",
+      "img_thumb": "/images/products/kettz-cer-55z-zglobni-zidni-tv-nosac-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "CER-55Z",
+      "gtin13": "8605054711722"
+    },
+    {
       "listing_id": "KPF-000219",
       "name": "Zidni nosač projektora sa teleskopskom rukom – Nedis PJWM200BK",
       "price_rsd": 7099,
@@ -1042,6 +1055,19 @@
       "brand": "Gembird",
       "sku": "WM-90T-01",
       "gtin13": "8716309126182"
+    },
+    {
+      "listing_id": "KPF-000307",
+      "name": "Zidni nosač za TV 65-120\" do 120kg, sa nagibom – Kettz CER-72T",
+      "price_rsd": 3999,
+      "slug": "kettz-cer-72t-zidni-tv-nosac-nagibni",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "date_added_sort": "2026-08-02",
+      "img_thumb": "/images/products/kettz-cer-72t-zidni-tv-nosac-nagibni-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "CER-72T",
+      "gtin13": "8605054711753"
     },
     {
       "listing_id": "KPF-000282",
