@@ -3683,6 +3683,42 @@
       "price_rsd": 3999,
       "img_thumb": "/images/products/kettz-cer-72t-zidni-tv-nosac-nagibni-01-thumb.webp",
       "q_ascii": "zidni nosac za tv 65-120\" do 120kg, sa nagibom – kettz cer-72t kettz cer-72t tv-i-video tv-nosaci kettz-cer-72t-zidni-tv-nosac-nagibni 8605054711753"
+    },
+    {
+      "listing_id": "KPF-000308",
+      "name": "Set-top box DVB-T2 sa USB plejerom - Gembird GMB-T2-404",
+      "slug": "gembird-gmb-t2-404-set-top-box",
+      "category": "tv-i-video",
+      "group": "risiveri",
+      "brand": "Gembird",
+      "sku": "GMB-T2-404",
+      "price_rsd": 2199,
+      "img_thumb": "/images/products/gembird-gmb-t2-404-set-top-box-01-thumb.webp",
+      "q_ascii": "set-top box dvb-t2 sa usb plejerom - gembird gmb-t2-404 gembird gmb-t2-404 tv-i-video risiveri gembird-gmb-t2-404-set-top-box 9780041920192"
+    },
+    {
+      "listing_id": "KPF-000309",
+      "name": "Zidni nosač za TV 32\"-100\" do 75 kg, sistem kuka – Superior TV Wall Mount 32-100 PRO",
+      "slug": "superior-tv-wall-mount-32-100-pro-zidni-tv-nosac",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "brand": "Superior",
+      "sku": "TV Wall Mount 32-100 PRO",
+      "price_rsd": 2499,
+      "img_thumb": "/images/products/superior-tv-wall-mount-32-100-pro-zidni-tv-nosac-01-thumb.webp",
+      "q_ascii": "zidni nosac za tv 32\"-100\" do 75 kg, sistem kuka – superior tv wall mount 32-100 pro superior tv wall mount 32-100 pro tv-i-video tv-nosaci superior-tv-wall-mount-32-100-pro-zidni-tv-nosac 8054242081817"
+    },
+    {
+      "listing_id": "KPF-000310",
+      "name": "Metalna polica za Set-top Box za montažu na TV ili zid – Maclean MC-904",
+      "slug": "maclean-mc-904-metalna-polica-za-set-top-box",
+      "category": "tv-i-video",
+      "group": "police-za-tv-opremu",
+      "brand": "Maclean",
+      "sku": "MC-904",
+      "price_rsd": 3699,
+      "img_thumb": "/images/products/maclean-mc-904-metalna-polica-za-set-top-box-01-thumb.webp",
+      "q_ascii": "metalna polica za set-top box za montazu na tv ili zid – maclean mc-904 maclean mc-904 tv-i-video police-za-tv-opremu maclean-mc-904-metalna-polica-za-set-top-box 5902211121169"
     }
   ]
 }
