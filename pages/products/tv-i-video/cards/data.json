@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 88,
+  "total_products": 90,
   "page_size": 18,
   "products": [
     {
@@ -303,6 +303,19 @@
       "gtin13": "8716309128087"
     },
     {
+      "listing_id": "KPF-000311",
+      "name": "Plafonski rotirajući nosač za TV 23-60\" do 40 kg – Xstand 23/60 Air",
+      "price_rsd": 3999,
+      "slug": "xstand-23-60-air-plafonski-tv-nosac",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "date_added_sort": "2026-08-16",
+      "img_thumb": "/images/products/xstand-23-60-air-plafonski-tv-nosac-01-thumb.webp",
+      "brand": "Xstand",
+      "sku": "Xstand 23/60 Air",
+      "gtin13": "8605062709681"
+    },
+    {
       "listing_id": "KPF-000013",
       "name": "Plafonski rotirajući nosač za TV 37\"-70\" do 50kg – Kettz TVN-K1103",
       "price_rsd": 4999,
@@ -314,6 +327,19 @@
       "brand": "Kettz",
       "sku": "TVN-K1103",
       "gtin13": "8606018839728"
+    },
+    {
+      "listing_id": "KPF-000312",
+      "name": "Plafonski rotirajući nosač za TV 37-75\" do 55kg – Xstand 37/75 Air",
+      "price_rsd": 4999,
+      "slug": "xstand-3775-air-plafonski-tv-nosac",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "date_added_sort": "2026-08-16",
+      "img_thumb": "/images/products/xstand-3775-air-plafonski-tv-nosac-01-thumb.webp",
+      "brand": "Xstand",
+      "sku": "Xstand 37/75 Air",
+      "gtin13": "8605062709698"
     },
     {
       "listing_id": "KPF-000094",
