@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 110,
+  "total_products": 111,
   "page_size": 18,
   "products": [
     {
@@ -457,6 +457,19 @@
       "brand": "Gembird",
       "sku": "CAM83U",
       "gtin13": "4711421695152"
+    },
+    {
+      "listing_id": "KPF-000313",
+      "name": "Komplet multimedijalna žičana tastatura i miš – Gembird KBS-UM-04",
+      "price_rsd": 1349,
+      "slug": "gembird-kbs-um-04-set-tastatura-i-mis",
+      "category": "kompjuteri-i-oprema",
+      "group": "tastature",
+      "date_added_sort": "2026-08-17",
+      "img_thumb": "/images/products/gembird-kbs-um-04-set-tastatura-i-mis-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "KBS-UM-04",
+      "gtin13": "8716309118125"
     },
     {
       "listing_id": "KPF-000198",

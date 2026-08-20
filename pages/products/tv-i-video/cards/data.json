@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 90,
+  "total_products": 91,
   "page_size": 18,
   "products": [
     {
@@ -925,6 +925,19 @@
       "brand": "Gembird",
       "sku": "WM-80ST-02",
       "gtin13": "8716309126229"
+    },
+    {
+      "listing_id": "KPF-000314",
+      "name": "Zglobni zidni nosač za TV 37-86\", do 35 kg – Kettz CER-45Z",
+      "price_rsd": 2999,
+      "slug": "kettz-cer-45z-zglobni-zidni-tv-nosac",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "date_added_sort": "2026-08-19",
+      "img_thumb": "/images/products/kettz-cer-45z-zglobni-zidni-tv-nosac-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "CER-45Z",
+      "gtin13": "8605054711715"
     },
     {
       "listing_id": "KPF-000220",

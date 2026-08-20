@@ -3743,6 +3743,30 @@
       "price_rsd": 4999,
       "img_thumb": "/images/products/xstand-3775-air-plafonski-tv-nosac-01-thumb.webp",
       "q_ascii": "plafonski rotirajuci nosac za tv 37-75\" do 55kg – xstand 37/75 air xstand xstand 37/75 air tv-i-video tv-nosaci xstand-3775-air-plafonski-tv-nosac 8605062709698"
+    },
+    {
+      "listing_id": "KPF-000313",
+      "name": "Komplet multimedijalna žičana tastatura i miš – Gembird KBS-UM-04",
+      "slug": "gembird-kbs-um-04-set-tastatura-i-mis",
+      "category": "kompjuteri-i-oprema",
+      "group": "tastature",
+      "brand": "Gembird",
+      "sku": "KBS-UM-04",
+      "price_rsd": 1349,
+      "img_thumb": "/images/products/gembird-kbs-um-04-set-tastatura-i-mis-01-thumb.webp",
+      "q_ascii": "komplet multimedijalna zicana tastatura i mis – gembird kbs-um-04 gembird kbs-um-04 kompjuteri-i-oprema tastature gembird-kbs-um-04-set-tastatura-i-mis 8716309118125"
+    },
+    {
+      "listing_id": "KPF-000314",
+      "name": "Zglobni zidni nosač za TV 37-86\", do 35 kg – Kettz CER-45Z",
+      "slug": "kettz-cer-45z-zglobni-zidni-tv-nosac",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "brand": "Kettz",
+      "sku": "CER-45Z",
+      "price_rsd": 2999,
+      "img_thumb": "/images/products/kettz-cer-45z-zglobni-zidni-tv-nosac-01-thumb.webp",
+      "q_ascii": "zglobni zidni nosac za tv 37-86\", do 35 kg – kettz cer-45z kettz cer-45z tv-i-video tv-nosaci kettz-cer-45z-zglobni-zidni-tv-nosac 8605054711715"
     }
   ]
 }
