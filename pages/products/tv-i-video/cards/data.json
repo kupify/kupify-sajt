@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 91,
+  "total_products": 92,
   "page_size": 18,
   "products": [
     {
@@ -327,6 +327,19 @@
       "brand": "Kettz",
       "sku": "TVN-K1103",
       "gtin13": "8606018839728"
+    },
+    {
+      "listing_id": "KPF-000318",
+      "name": "Plafonski rotirajući nosač za TV 37-75\" do 45kg – Kettz CER-11PF",
+      "price_rsd": 3499,
+      "slug": "kettz-cer-11pf-plafonski-tv-nosac",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "date_added_sort": "2026-08-22",
+      "img_thumb": "/images/products/kettz-cer-11pf-plafonski-tv-nosac-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "CER-11PF",
+      "gtin13": "8605054711760"
     },
     {
       "listing_id": "KPF-000312",

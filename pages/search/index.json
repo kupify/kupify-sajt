@@ -1898,7 +1898,7 @@
     },
     {
       "listing_id": "KPF-000159",
-      "name": "Bluetooth 5.0 audio prijemnik sa mikrofonom - handsfree za automobil – Ugreen CM309",
+      "name": "Bluetooth 5.4 audio prijemnik za auto sa handsfree funkcijom – Ugreen CM309",
       "slug": "bluetooth-audio-prijemnik-auto-handsfree-ugreen-cm309",
       "category": "auto-oprema",
       "group": "auto-audio-adapteri",
@@ -1906,7 +1906,7 @@
       "sku": "CM309",
       "price_rsd": 1399,
       "img_thumb": "/images/products/bluetooth-audio-prijemnik-auto-handsfree-ugreen-cm309-01-thumb.webp",
-      "q_ascii": "bluetooth 5.0 audio prijemnik sa mikrofonom - handsfree za automobil – ugreen cm309 ugreen cm309 auto-oprema auto-audio-adapteri bluetooth-audio-prijemnik-auto-handsfree-ugreen-cm309 6957303876013"
+      "q_ascii": "bluetooth 5.4 audio prijemnik za auto sa handsfree funkcijom – ugreen cm309 ugreen cm309 auto-oprema auto-audio-adapteri bluetooth-audio-prijemnik-auto-handsfree-ugreen-cm309 6957303876013"
     },
     {
       "listing_id": "KPF-000160",
@@ -3364,13 +3364,13 @@
       "listing_id": "KPF-000281",
       "name": "Zaštitni PVC pokrivač za okrugle bazene 549 cm – Bestway 58039",
       "slug": "bestway-58039-pvc-pokrivac-za-bazen",
-      "category": "dvoriste-i-basta",
+      "category": "sport-razonoda-i-zabava",
       "group": "bazeni-plaza-kampovanje",
       "brand": "Bestway",
       "sku": "58039",
       "price_rsd": 4399,
       "img_thumb": "/images/products/bestway-58039-pvc-pokrivac-za-bazen-01-thumb.webp",
-      "q_ascii": "zastitni pvc pokrivac za okrugle bazene 549 cm – bestway 58039 bestway 58039 dvoriste-i-basta bazeni-plaza-kampovanje bestway-58039-pvc-pokrivac-za-bazen 6941607354605"
+      "q_ascii": "zastitni pvc pokrivac za okrugle bazene 549 cm – bestway 58039 bestway 58039 sport-razonoda-i-zabava bazeni-plaza-kampovanje bestway-58039-pvc-pokrivac-za-bazen 6941607354605"
     },
     {
       "listing_id": "KPF-000282",
@@ -3767,6 +3767,54 @@
       "price_rsd": 2999,
       "img_thumb": "/images/products/kettz-cer-45z-zglobni-zidni-tv-nosac-01-thumb.webp",
       "q_ascii": "zglobni zidni nosac za tv 37-86\", do 35 kg – kettz cer-45z kettz cer-45z tv-i-video tv-nosaci kettz-cer-45z-zglobni-zidni-tv-nosac 8605054711715"
+    },
+    {
+      "listing_id": "KPF-000315",
+      "name": "Postolje za hlađenje laptopa do 15\" – Gembird NBS-1F15-04",
+      "slug": "gembird-nbs-1f15-04-postolje-za-hladjenje-laptopa",
+      "category": "kompjuteri-i-oprema",
+      "group": "laptop-postolja",
+      "brand": "Gembird",
+      "sku": "NBS-1F15-04",
+      "price_rsd": 669,
+      "img_thumb": "/images/products/gembird-nbs-1f15-04-postolje-za-hladjenje-laptopa-01-thumb.webp",
+      "q_ascii": "postolje za hladjenje laptopa do 15\" – gembird nbs-1f15-04 gembird nbs-1f15-04 kompjuteri-i-oprema laptop-postolja gembird-nbs-1f15-04-postolje-za-hladjenje-laptopa 8716309110167"
+    },
+    {
+      "listing_id": "KPF-000316",
+      "name": "Postolje za hlađenje laptopa do 17\" – Gembird N2000IV",
+      "slug": "gembird-n2000iv-postolje-za-hladjenje-laptopa",
+      "category": "kompjuteri-i-oprema",
+      "group": "laptop-postolja",
+      "brand": "Gembird",
+      "sku": "N2000IV",
+      "price_rsd": 1199,
+      "img_thumb": "/images/products/gembird-n2000iv-postolje-za-hladjenje-laptopa-01-thumb.webp",
+      "q_ascii": "postolje za hladjenje laptopa do 17\" – gembird n2000iv gembird n2000iv kompjuteri-i-oprema laptop-postolja gembird-n2000iv-postolje-za-hladjenje-laptopa 6902804011697"
+    },
+    {
+      "listing_id": "KPF-000317",
+      "name": "Bluetooth 5.4 audio prijemnik za auto sa handsfree funkcijom – UGREEN CM723",
+      "slug": "ugreen-cm723-35002-bluetooth-handsfree-auto-prijemnik",
+      "category": "auto-oprema",
+      "group": "auto-audio-adapteri",
+      "brand": "UGREEN",
+      "sku": "35002",
+      "price_rsd": 2999,
+      "img_thumb": "/images/products/ugreen-cm723-35002-bluetooth-handsfree-auto-prijemnik-01-thumb.webp",
+      "q_ascii": "bluetooth 5.4 audio prijemnik za auto sa handsfree funkcijom – ugreen cm723 ugreen 35002 auto-oprema auto-audio-adapteri ugreen-cm723-35002-bluetooth-handsfree-auto-prijemnik 6941876230020"
+    },
+    {
+      "listing_id": "KPF-000318",
+      "name": "Plafonski rotirajući nosač za TV 37-75\" do 45kg – Kettz CER-11PF",
+      "slug": "kettz-cer-11pf-plafonski-tv-nosac",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "brand": "Kettz",
+      "sku": "CER-11PF",
+      "price_rsd": 3499,
+      "img_thumb": "/images/products/kettz-cer-11pf-plafonski-tv-nosac-01-thumb.webp",
+      "q_ascii": "plafonski rotirajuci nosac za tv 37-75\" do 45kg – kettz cer-11pf kettz cer-11pf tv-i-video tv-nosaci kettz-cer-11pf-plafonski-tv-nosac 8605054711760"
     }
   ]
 }

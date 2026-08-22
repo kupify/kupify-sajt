@@ -1,6 +1,6 @@
 {
   "category": "auto-oprema",
-  "total_products": 24,
+  "total_products": 25,
   "page_size": 18,
   "products": [
     {
@@ -31,7 +31,7 @@
     },
     {
       "listing_id": "KPF-000159",
-      "name": "Bluetooth 5.0 audio prijemnik sa mikrofonom - handsfree za automobil – Ugreen CM309",
+      "name": "Bluetooth 5.4 audio prijemnik za auto sa handsfree funkcijom – Ugreen CM309",
       "price_rsd": 1399,
       "slug": "bluetooth-audio-prijemnik-auto-handsfree-ugreen-cm309",
       "category": "auto-oprema",
@@ -41,6 +41,19 @@
       "brand": "Ugreen",
       "sku": "CM309",
       "gtin13": "6957303876013"
+    },
+    {
+      "listing_id": "KPF-000317",
+      "name": "Bluetooth 5.4 audio prijemnik za auto sa handsfree funkcijom – UGREEN CM723",
+      "price_rsd": 2999,
+      "slug": "ugreen-cm723-35002-bluetooth-handsfree-auto-prijemnik",
+      "category": "auto-oprema",
+      "group": "auto-audio-adapteri",
+      "date_added_sort": "2026-08-21",
+      "img_thumb": "/images/products/ugreen-cm723-35002-bluetooth-handsfree-auto-prijemnik-01-thumb.webp",
+      "brand": "UGREEN",
+      "sku": "35002",
+      "gtin13": "6941876230020"
     },
     {
       "listing_id": "KPF-000161",
