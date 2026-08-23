@@ -3800,7 +3800,7 @@
       "group": "auto-audio-adapteri",
       "brand": "UGREEN",
       "sku": "35002",
-      "price_rsd": 2999,
+      "price_rsd": 2399,
       "img_thumb": "/images/products/ugreen-cm723-35002-bluetooth-handsfree-auto-prijemnik-01-thumb.webp",
       "q_ascii": "bluetooth 5.4 audio prijemnik za auto sa handsfree funkcijom – ugreen cm723 ugreen 35002 auto-oprema auto-audio-adapteri ugreen-cm723-35002-bluetooth-handsfree-auto-prijemnik 6941876230020"
     },
@@ -3815,6 +3815,18 @@
       "price_rsd": 3499,
       "img_thumb": "/images/products/kettz-cer-11pf-plafonski-tv-nosac-01-thumb.webp",
       "q_ascii": "plafonski rotirajuci nosac za tv 37-75\" do 45kg – kettz cer-11pf kettz cer-11pf tv-i-video tv-nosaci kettz-cer-11pf-plafonski-tv-nosac 8605054711760"
+    },
+    {
+      "listing_id": "KPF-000319",
+      "name": "USB desktop mikrofon za PC, 360° – UGREEN CM564",
+      "slug": "ugreen-cm564-usb-pc-mikrofon",
+      "category": "kompjuteri-i-oprema",
+      "group": "",
+      "brand": "UGREEN",
+      "sku": "CM564",
+      "price_rsd": 2199,
+      "img_thumb": "/images/products/ugreen-cm564-usb-pc-mikrofon-01-thumb.webp",
+      "q_ascii": "usb desktop mikrofon za pc, 360° – ugreen cm564 ugreen cm564 kompjuteri-i-oprema ugreen-cm564-usb-pc-mikrofon 6957303894161"
     }
   ]
 }

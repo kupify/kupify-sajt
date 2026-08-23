@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 113,
+  "total_products": 114,
   "page_size": 18,
   "products": [
     {
@@ -1249,6 +1249,19 @@
       "brand": "Ugreen",
       "sku": "CM390",
       "gtin13": "6957303888894"
+    },
+    {
+      "listing_id": "KPF-000319",
+      "name": "USB desktop mikrofon za PC, 360° – UGREEN CM564",
+      "price_rsd": 2199,
+      "slug": "ugreen-cm564-usb-pc-mikrofon",
+      "category": "kompjuteri-i-oprema",
+      "group": "",
+      "date_added_sort": "2026-08-23",
+      "img_thumb": "/images/products/ugreen-cm564-usb-pc-mikrofon-01-thumb.webp",
+      "brand": "UGREEN",
+      "sku": "CM564",
+      "gtin13": "6957303894161"
     },
     {
       "listing_id": "KPF-000118",
