@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 114,
+  "total_products": 115,
   "page_size": 18,
   "products": [
     {
@@ -132,6 +132,19 @@
       "brand": "Gembird",
       "sku": "GMB-500-12",
       "gtin13": "6945398958468"
+    },
+    {
+      "listing_id": "KPF-000320",
+      "name": "ATX napajanje za PC 560W – Gembird GMB-560-12",
+      "price_rsd": 1899,
+      "slug": "gembird-gmb-560-12-atx-pc-napajanje-560w",
+      "category": "kompjuteri-i-oprema",
+      "group": "pc-napajanja",
+      "date_added_sort": "2026-08-25",
+      "img_thumb": "/images/products/gembird-gmb-560-12-atx-pc-napajanje-560w-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "GMB-560-12",
+      "gtin13": "6945398958470"
     },
     {
       "listing_id": "KPF-000246",
