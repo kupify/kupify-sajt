@@ -1,6 +1,6 @@
 {
   "category": "foto-aparati-i-kamere",
-  "total_products": 12,
+  "total_products": 13,
   "page_size": 18,
   "products": [
     {
@@ -125,6 +125,19 @@
       "date_added_sort": "2025-12-10",
       "img_thumb": "/images/products/rotirajuci-drzac-za-telefon-za-stativ-tripod-01-thumb.webp",
       "brand": "Kupify"
+    },
+    {
+      "listing_id": "KPF-000321",
+      "name": "Stativ za foto aparate i kamere visine do 130cm – Nedis TPOD2100BZ",
+      "price_rsd": 2599,
+      "slug": "nedis-tpod2100bz-stativ-za-foto-aparate-kamere",
+      "category": "foto-aparati-i-kamere",
+      "group": "",
+      "date_added_sort": "2026-08-26",
+      "img_thumb": "/images/products/nedis-tpod2100bz-stativ-za-foto-aparate-kamere-01-thumb.webp",
+      "brand": "Nedis",
+      "sku": "TPOD2100BZ",
+      "gtin13": "5412810292400"
     },
     {
       "listing_id": "KPF-000240",

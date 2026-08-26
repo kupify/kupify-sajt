@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 92,
+  "total_products": 93,
   "page_size": 18,
   "products": [
     {
@@ -639,6 +639,18 @@
       "brand": "Gembird",
       "sku": "TVS-70T-01",
       "gtin13": "8716309128988"
+    },
+    {
+      "listing_id": "KPF-000322",
+      "name": "Stalak sa točkićima i policama za TV 35-75\" – Gembird TVS-75S-02",
+      "price_rsd": 10999,
+      "slug": "gembird-tvs-75s-02-tv-stalak-sa-tockicima",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "date_added_sort": "2026-08-26",
+      "img_thumb": "/images/products/gembird-tvs-75s-02-tv-stalak-sa-tockicima-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "TVS-75S-02"
     },
     {
       "listing_id": "KPF-000031",
