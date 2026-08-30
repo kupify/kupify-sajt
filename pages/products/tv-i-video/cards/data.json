@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 93,
+  "total_products": 95,
   "page_size": 18,
   "products": [
     {
@@ -641,6 +641,19 @@
       "gtin13": "8716309128988"
     },
     {
+      "listing_id": "KPF-000324",
+      "name": "Stalak sa točkićima i policama za TV 35-100\" – Gembird TVS-100F-01",
+      "price_rsd": 19999,
+      "slug": "gembird-tvs-100f-01-tv-stalak-sa-tockicima",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "date_added_sort": "2026-08-31",
+      "img_thumb": "/images/products/gembird-tvs-100f-01-tv-stalak-sa-tockicima-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "TVS-100F-01",
+      "gtin13": "8716309128421"
+    },
+    {
       "listing_id": "KPF-000322",
       "name": "Stalak sa točkićima i policama za TV 35-75\" – Gembird TVS-75S-02",
       "price_rsd": 10999,
@@ -651,6 +664,19 @@
       "img_thumb": "/images/products/gembird-tvs-75s-02-tv-stalak-sa-tockicima-01-thumb.webp",
       "brand": "Gembird",
       "sku": "TVS-75S-02"
+    },
+    {
+      "listing_id": "KPF-000323",
+      "name": "Stalak sa točkićima i policom za TV 55-86\" – Gembird TVS-86F-02",
+      "price_rsd": 12999,
+      "slug": "gembird-tvs-86f-02-tv-stalak-sa-tockicima",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "date_added_sort": "2026-08-30",
+      "img_thumb": "/images/products/gembird-tvs-86f-02-tv-stalak-sa-tockicima-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "TVS-86F-02",
+      "gtin13": "8716309134149"
     },
     {
       "listing_id": "KPF-000031",
