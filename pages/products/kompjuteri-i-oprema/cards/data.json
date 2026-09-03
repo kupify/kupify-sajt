@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 115,
+  "total_products": 116,
   "page_size": 18,
   "products": [
     {
@@ -1145,6 +1145,19 @@
       "brand": "Gembird",
       "sku": "MS-D1ST-04",
       "gtin13": "8716309135405"
+    },
+    {
+      "listing_id": "KPF-000325",
+      "name": "USB 2.0 HUB sa 4 porta – Gembird UHB-U2P4-02",
+      "price_rsd": 469,
+      "slug": "gembird-uhb-u2p4-02-usb-2-0-hub-4-porta",
+      "category": "kompjuteri-i-oprema",
+      "group": "usb-hubovi",
+      "date_added_sort": "2026-09-02",
+      "img_thumb": "/images/products/gembird-uhb-u2p4-02-usb-2-0-hub-4-porta-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "UHB-U2P4-02",
+      "gtin13": "9780201379617"
     },
     {
       "listing_id": "KPF-000098",

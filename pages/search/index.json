@@ -3887,6 +3887,42 @@
       "price_rsd": 19999,
       "img_thumb": "/images/products/gembird-tvs-100f-01-tv-stalak-sa-tockicima-01-thumb.webp",
       "q_ascii": "stalak sa tockicima i policama za tv 35-100\" – gembird tvs-100f-01 gembird tvs-100f-01 tv-i-video tv-nosaci gembird-tvs-100f-01-tv-stalak-sa-tockicima 8716309128421"
+    },
+    {
+      "listing_id": "KPF-000325",
+      "name": "USB 2.0 HUB sa 4 porta – Gembird UHB-U2P4-02",
+      "slug": "gembird-uhb-u2p4-02-usb-2-0-hub-4-porta",
+      "category": "kompjuteri-i-oprema",
+      "group": "usb-hubovi",
+      "brand": "Gembird",
+      "sku": "UHB-U2P4-02",
+      "price_rsd": 469,
+      "img_thumb": "/images/products/gembird-uhb-u2p4-02-usb-2-0-hub-4-porta-01-thumb.webp",
+      "q_ascii": "usb 2.0 hub sa 4 porta – gembird uhb-u2p4-02 gembird uhb-u2p4-02 kompjuteri-i-oprema usb-hubovi gembird-uhb-u2p4-02-usb-2-0-hub-4-porta 9780201379617"
+    },
+    {
+      "listing_id": "KPF-000326",
+      "name": "Stono postolje - stalak za TV 23-43\" – Superior Universal tabletop TV stand 23-43",
+      "slug": "superior-universal-tabletop-tv-stand-23-43-stono-postolje",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "brand": "Superior",
+      "sku": "Universal tabletop TV stand 23-43",
+      "price_rsd": 4699,
+      "img_thumb": "/images/products/superior-universal-tabletop-tv-stand-23-43-stono-postolje-01-thumb.webp",
+      "q_ascii": "stono postolje - stalak za tv 23-43\" – superior universal tabletop tv stand 23-43 superior universal tabletop tv stand 23-43 tv-i-video tv-nosaci superior-universal-tabletop-tv-stand-23-43-stono-postolje 8054242081459"
+    },
+    {
+      "listing_id": "KPF-000327",
+      "name": "Sobna TV / FM antena sa pojačivačem 36dB – Gembird GMB-028",
+      "slug": "gembird-gmb-028-sobna-tv-fm-antena",
+      "category": "tv-i-video",
+      "group": "antene",
+      "brand": "Gembird",
+      "sku": "GMB-028",
+      "price_rsd": 1699,
+      "img_thumb": "/images/products/gembird-gmb-028-sobna-tv-fm-antena-01-thumb.webp",
+      "q_ascii": "sobna tv / fm antena sa pojacivacem 36db – gembird gmb-028 gembird gmb-028 tv-i-video antene gembird-gmb-028-sobna-tv-fm-antena 9780111222195"
     }
   ]
 }
