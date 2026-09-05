@@ -88,3 +88,6 @@
 
 # 2026-08-22 | URL migration | KPF-000281 | /pages/products/dvoriste-i-basta/bestway-58039-pvc-pokrivac-za-bazen/ -> /pages/products/sport-razonoda-i-zabava/bestway-58039-pvc-pokrivac-za-bazen/
 /pages/products/dvoriste-i-basta/bestway-58039-pvc-pokrivac-za-bazen/ /pages/products/sport-razonoda-i-zabava/bestway-58039-pvc-pokrivac-za-bazen/ 301
+
+# 2026-09-05 | URL migration | KPF-000326 | /pages/products/tv-i-video/superior-universal-tabletop-tv-stand-23-43-stono-postolje/ -> /pages/products/tv-i-video/superior-supstv019-stono-tv-postolje/
+/pages/products/tv-i-video/superior-universal-tabletop-tv-stand-23-43-stono-postolje/ /pages/products/tv-i-video/superior-supstv019-stono-tv-postolje/ 301

@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 97,
+  "total_products": 99,
   "page_size": 18,
   "products": [
     {
@@ -654,6 +654,19 @@
       "gtin13": "8716309128988"
     },
     {
+      "listing_id": "KPF-000330",
+      "name": "Stalak - postolje za TV 37-70\" sa točkićima i policom – Superior SUPSTV022",
+      "price_rsd": 17999,
+      "slug": "superior-supstv022-tv-stalak-sa-tockicima",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "date_added_sort": "2026-09-05",
+      "img_thumb": "/images/products/superior-supstv022-tv-stalak-sa-tockicima-01-thumb.webp",
+      "brand": "Superior",
+      "sku": "SUPSTV022",
+      "gtin13": "8054242081565"
+    },
+    {
       "listing_id": "KPF-000324",
       "name": "Stalak sa točkićima i policama za TV 35-100\" – Gembird TVS-100F-01",
       "price_rsd": 19999,
@@ -706,15 +719,15 @@
     },
     {
       "listing_id": "KPF-000326",
-      "name": "Stono postolje - stalak za TV 23-43\" – Superior Universal tabletop TV stand 23-43",
+      "name": "Stono postolje - stalak za TV 23-43\" – Superior SUPSTV019",
       "price_rsd": 4699,
-      "slug": "superior-universal-tabletop-tv-stand-23-43-stono-postolje",
+      "slug": "superior-supstv019-stono-tv-postolje",
       "category": "tv-i-video",
       "group": "tv-nosaci",
       "date_added_sort": "2026-09-03",
-      "img_thumb": "/images/products/superior-universal-tabletop-tv-stand-23-43-stono-postolje-01-thumb.webp",
+      "img_thumb": "/images/products/superior-supstv019-stono-tv-postolje-01-thumb.webp",
       "brand": "Superior",
-      "sku": "Universal tabletop TV stand 23-43",
+      "sku": "SUPSTV019",
       "gtin13": "8054242081459"
     },
     {
@@ -742,6 +755,19 @@
       "brand": "Gembird",
       "sku": "TVS-D75S-01",
       "gtin13": "8716309135085"
+    },
+    {
+      "listing_id": "KPF-000329",
+      "name": "Univerzalne nogice za TV 23-70\" do 50kg – Superior SUPSTV018",
+      "price_rsd": 4399,
+      "slug": "superior-supstv018-univerzalne-tv-nogice",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "date_added_sort": "2026-09-05",
+      "img_thumb": "/images/products/superior-supstv018-univerzalne-tv-nogice-01-thumb.webp",
+      "brand": "Superior",
+      "sku": "SUPSTV018",
+      "gtin13": "8054242081282"
     },
     {
       "listing_id": "KPF-000204",

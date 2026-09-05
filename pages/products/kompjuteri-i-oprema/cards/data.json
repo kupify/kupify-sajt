@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 116,
+  "total_products": 117,
   "page_size": 18,
   "products": [
     {
@@ -1431,6 +1431,19 @@
       "brand": "MediaRange",
       "sku": "MR1955",
       "gtin13": "4260664871271"
+    },
+    {
+      "listing_id": "KPF-000328",
+      "name": "Ventilator kuler za PC kućište 120mm – DeepCool FD12 V2",
+      "price_rsd": 1599,
+      "slug": "deepcool-fd12-v2-kuler-za-pc-kuciste",
+      "category": "kompjuteri-i-oprema",
+      "group": "hladjenje",
+      "date_added_sort": "2026-09-04",
+      "img_thumb": "/images/products/deepcool-fd12-v2-kuler-za-pc-kuciste-01-thumb.webp",
+      "brand": "DeepCool",
+      "sku": "FD12 V2",
+      "gtin13": "6933412785385"
     },
     {
       "listing_id": "KPF-000173",

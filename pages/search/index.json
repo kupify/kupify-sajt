@@ -3902,15 +3902,15 @@
     },
     {
       "listing_id": "KPF-000326",
-      "name": "Stono postolje - stalak za TV 23-43\" – Superior Universal tabletop TV stand 23-43",
-      "slug": "superior-universal-tabletop-tv-stand-23-43-stono-postolje",
+      "name": "Stono postolje - stalak za TV 23-43\" – Superior SUPSTV019",
+      "slug": "superior-supstv019-stono-tv-postolje",
       "category": "tv-i-video",
       "group": "tv-nosaci",
       "brand": "Superior",
-      "sku": "Universal tabletop TV stand 23-43",
+      "sku": "SUPSTV019",
       "price_rsd": 4699,
-      "img_thumb": "/images/products/superior-universal-tabletop-tv-stand-23-43-stono-postolje-01-thumb.webp",
-      "q_ascii": "stono postolje - stalak za tv 23-43\" – superior universal tabletop tv stand 23-43 superior universal tabletop tv stand 23-43 tv-i-video tv-nosaci superior-universal-tabletop-tv-stand-23-43-stono-postolje 8054242081459"
+      "img_thumb": "/images/products/superior-supstv019-stono-tv-postolje-01-thumb.webp",
+      "q_ascii": "stono postolje - stalak za tv 23-43\" – superior supstv019 superior supstv019 tv-i-video tv-nosaci superior-supstv019-stono-tv-postolje 8054242081459"
     },
     {
       "listing_id": "KPF-000327",
@@ -3923,6 +3923,42 @@
       "price_rsd": 1699,
       "img_thumb": "/images/products/gembird-gmb-028-sobna-tv-fm-antena-01-thumb.webp",
       "q_ascii": "sobna tv / fm antena sa pojacivacem 36db – gembird gmb-028 gembird gmb-028 tv-i-video antene gembird-gmb-028-sobna-tv-fm-antena 9780111222195"
+    },
+    {
+      "listing_id": "KPF-000328",
+      "name": "Ventilator kuler za PC kućište 120mm – DeepCool FD12 V2",
+      "slug": "deepcool-fd12-v2-kuler-za-pc-kuciste",
+      "category": "kompjuteri-i-oprema",
+      "group": "hladjenje",
+      "brand": "DeepCool",
+      "sku": "FD12 V2",
+      "price_rsd": 1599,
+      "img_thumb": "/images/products/deepcool-fd12-v2-kuler-za-pc-kuciste-01-thumb.webp",
+      "q_ascii": "ventilator kuler za pc kuciste 120mm – deepcool fd12 v2 deepcool fd12 v2 kompjuteri-i-oprema hladjenje deepcool-fd12-v2-kuler-za-pc-kuciste 6933412785385"
+    },
+    {
+      "listing_id": "KPF-000329",
+      "name": "Univerzalne nogice za TV 23-70\" do 50kg – Superior SUPSTV018",
+      "slug": "superior-supstv018-univerzalne-tv-nogice",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "brand": "Superior",
+      "sku": "SUPSTV018",
+      "price_rsd": 4399,
+      "img_thumb": "/images/products/superior-supstv018-univerzalne-tv-nogice-01-thumb.webp",
+      "q_ascii": "univerzalne nogice za tv 23-70\" do 50kg – superior supstv018 superior supstv018 tv-i-video tv-nosaci superior-supstv018-univerzalne-tv-nogice 8054242081282"
+    },
+    {
+      "listing_id": "KPF-000330",
+      "name": "Stalak - postolje za TV 37-70\" sa točkićima i policom – Superior SUPSTV022",
+      "slug": "superior-supstv022-tv-stalak-sa-tockicima",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "brand": "Superior",
+      "sku": "SUPSTV022",
+      "price_rsd": 17999,
+      "img_thumb": "/images/products/superior-supstv022-tv-stalak-sa-tockicima-01-thumb.webp",
+      "q_ascii": "stalak - postolje za tv 37-70\" sa tockicima i policom – superior supstv022 superior supstv022 tv-i-video tv-nosaci superior-supstv022-tv-stalak-sa-tockicima 8054242081565"
     }
   ]
 }
