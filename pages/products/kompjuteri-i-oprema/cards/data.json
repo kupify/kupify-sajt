@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 118,
+  "total_products": 119,
   "page_size": 18,
   "products": [
     {
@@ -106,6 +106,19 @@
       "brand": "DeepCool",
       "sku": "FL12 SE",
       "gtin13": "6933412785309"
+    },
+    {
+      "listing_id": "KPF-000331",
+      "name": "Adapter USB-A muški na USB-C ženski – UGREEN US276",
+      "price_rsd": 499,
+      "slug": "ugreen-us276-adapter-usb-a-muski-na-usb-c-zenski",
+      "category": "kompjuteri-i-oprema",
+      "group": "usb-adapteri",
+      "date_added_sort": "2026-09-06",
+      "img_thumb": "/images/products/ugreen-us276-adapter-usb-a-muski-na-usb-c-zenski-01-thumb.webp",
+      "brand": "UGREEN",
+      "sku": "US276",
+      "gtin13": "6957303855339"
     },
     {
       "listing_id": "KPF-000247",
