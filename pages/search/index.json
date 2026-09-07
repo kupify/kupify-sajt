@@ -3983,6 +3983,30 @@
       "price_rsd": 3499,
       "img_thumb": "/images/products/ugreen-us222-eksterno-kuciste-za-sata-hdd-01-thumb.webp",
       "q_ascii": "eksterno kuciste za 3.5\" sata hard disk, usb 3.0 – ugreen us222 ugreen us222 kompjuteri-i-oprema hdd-ssd-oprema ugreen-us222-eksterno-kuciste-za-sata-hdd 6957303854226"
+    },
+    {
+      "listing_id": "KPF-000333",
+      "name": "Full HD 1080p web kamera sa 2 mikrofona – UGREEN CM678",
+      "slug": "ugreen-cm678-full-hd-1080p-web-kamera",
+      "category": "kompjuteri-i-oprema",
+      "group": "web-kamere",
+      "brand": "UGREEN",
+      "sku": "CM678",
+      "price_rsd": 2999,
+      "img_thumb": "/images/products/ugreen-cm678-full-hd-1080p-web-kamera-01-thumb.webp",
+      "q_ascii": "full hd 1080p web kamera sa 2 mikrofona – ugreen cm678 ugreen cm678 kompjuteri-i-oprema web-kamere ugreen-cm678-full-hd-1080p-web-kamera 6941876217281"
+    },
+    {
+      "listing_id": "KPF-000334",
+      "name": "Bluetooth 5.1 audio prijemnik, 3.5 mm i 2 RCA – UGREEN CM106",
+      "slug": "ugreen-cm106-bluetooth-audio-prijemnik",
+      "category": "audio-oprema",
+      "group": "bluetooth-adapteri",
+      "brand": "UGREEN",
+      "sku": "CM106",
+      "price_rsd": 2999,
+      "img_thumb": "/images/products/ugreen-cm106-bluetooth-audio-prijemnik-01-thumb.webp",
+      "q_ascii": "bluetooth 5.1 audio prijemnik, 3.5 mm i 2 rca – ugreen cm106 ugreen cm106 audio-oprema bluetooth-adapteri ugreen-cm106-bluetooth-audio-prijemnik 6941876230600"
     }
   ]
 }

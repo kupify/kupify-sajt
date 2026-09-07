@@ -1,6 +1,6 @@
 {
   "category": "audio-oprema",
-  "total_products": 6,
+  "total_products": 7,
   "page_size": 18,
   "products": [
     {
@@ -41,6 +41,19 @@
       "brand": "Gembird",
       "sku": "CCA-415W",
       "gtin13": "8716309035507"
+    },
+    {
+      "listing_id": "KPF-000334",
+      "name": "Bluetooth 5.1 audio prijemnik, 3.5 mm i 2 RCA – UGREEN CM106",
+      "price_rsd": 2999,
+      "slug": "ugreen-cm106-bluetooth-audio-prijemnik",
+      "category": "audio-oprema",
+      "group": "bluetooth-adapteri",
+      "date_added_sort": "2026-09-07",
+      "img_thumb": "/images/products/ugreen-cm106-bluetooth-audio-prijemnik-01-thumb.webp",
+      "brand": "UGREEN",
+      "sku": "CM106",
+      "gtin13": "6941876230600"
     },
     {
       "listing_id": "KPF-000276",

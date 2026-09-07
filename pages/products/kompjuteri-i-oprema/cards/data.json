@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 119,
+  "total_products": 120,
   "page_size": 18,
   "products": [
     {
@@ -379,6 +379,19 @@
       "brand": "Ugreen",
       "sku": "US222",
       "gtin13": "6957303854226"
+    },
+    {
+      "listing_id": "KPF-000333",
+      "name": "Full HD 1080p web kamera sa 2 mikrofona – UGREEN CM678",
+      "price_rsd": 2999,
+      "slug": "ugreen-cm678-full-hd-1080p-web-kamera",
+      "category": "kompjuteri-i-oprema",
+      "group": "web-kamere",
+      "date_added_sort": "2026-09-07",
+      "img_thumb": "/images/products/ugreen-cm678-full-hd-1080p-web-kamera-01-thumb.webp",
+      "brand": "UGREEN",
+      "sku": "CM678",
+      "gtin13": "6941876217281"
     },
     {
       "listing_id": "KPF-000177",
