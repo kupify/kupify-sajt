@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 120,
+  "total_products": 121,
   "page_size": 18,
   "products": [
     {
@@ -223,6 +223,19 @@
       "brand": "Gembird",
       "sku": "GMB-650-12",
       "gtin13": "6945398958472"
+    },
+    {
+      "listing_id": "KPF-000336",
+      "name": "ATX napajanje za PC 750W – DeepCool GamerStorm PF750X 80 PLUS Bronze",
+      "price_rsd": 8899,
+      "slug": "deepcool-pf750x-atx-pc-napajanje-750w-80-plus-bronze",
+      "category": "kompjuteri-i-oprema",
+      "group": "pc-napajanja",
+      "date_added_sort": "2026-09-09",
+      "img_thumb": "/images/products/deepcool-pf750x-atx-pc-napajanje-750w-80-plus-bronze-01-thumb.webp",
+      "brand": "DeepCool",
+      "sku": "PF750X",
+      "gtin13": "6933412756415"
     },
     {
       "listing_id": "KPF-000001",

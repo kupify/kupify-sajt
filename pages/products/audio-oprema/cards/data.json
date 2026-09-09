@@ -1,6 +1,6 @@
 {
   "category": "audio-oprema",
-  "total_products": 7,
+  "total_products": 8,
   "page_size": 18,
   "products": [
     {
@@ -15,6 +15,19 @@
       "brand": "Kettz",
       "sku": "R2R-30",
       "gtin13": "8606018832286"
+    },
+    {
+      "listing_id": "KPF-000335",
+      "name": "2-u-1 Bluetooth 5.0 audio predajnik i prijemnik – UGREEN CM403",
+      "price_rsd": 2299,
+      "slug": "ugreen-cm403-bluetooth-audio-predajnik-prijemnik",
+      "category": "audio-oprema",
+      "group": "bluetooth-adapteri",
+      "date_added_sort": "2026-09-08",
+      "img_thumb": "/images/products/ugreen-cm403-bluetooth-audio-predajnik-prijemnik-01-thumb.webp",
+      "brand": "UGREEN",
+      "sku": "CM403",
+      "gtin13": "6957303888931"
     },
     {
       "listing_id": "KPF-000226",
