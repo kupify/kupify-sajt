@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 99,
+  "total_products": 100,
   "page_size": 18,
   "products": [
     {
@@ -236,6 +236,19 @@
       "brand": "Maclean",
       "sku": "MC-904",
       "gtin13": "5902211121169"
+    },
+    {
+      "listing_id": "KPF-000337",
+      "name": "Mini DisplayPort na HDMI adapter, 4K – Gembird A-mDPM-HDMIF4K-01",
+      "price_rsd": 639,
+      "slug": "gembird-a-mdpm-hdmif4k-01-mini-dp-na-hdmi-adapter",
+      "category": "tv-i-video",
+      "group": "kablovi-i-adapteri",
+      "date_added_sort": "2026-09-10",
+      "img_thumb": "/images/products/gembird-a-mdpm-hdmif4k-01-mini-dp-na-hdmi-adapter-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "A-mDPM-HDMIF4K-01",
+      "gtin13": "8716309113519"
     },
     {
       "listing_id": "KPF-000012",
