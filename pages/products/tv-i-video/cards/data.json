@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 100,
+  "total_products": 101,
   "page_size": 18,
   "products": [
     {
@@ -457,6 +457,19 @@
       "brand": "Kettz",
       "sku": "NP-K220",
       "gtin13": "8605054706711"
+    },
+    {
+      "listing_id": "KPF-000338",
+      "name": "Sobna antena sa pojačivačem 28db – Falcom ANT-208",
+      "price_rsd": 2699,
+      "slug": "falcom-ant-208-sobna-tv-antena",
+      "category": "tv-i-video",
+      "group": "antene",
+      "date_added_sort": "2026-09-11",
+      "img_thumb": "/images/products/falcom-ant-208-sobna-tv-antena-01-thumb.webp",
+      "brand": "Falcom",
+      "sku": "ANT-208",
+      "gtin13": "3856001014563"
     },
     {
       "listing_id": "KPF-000015",
