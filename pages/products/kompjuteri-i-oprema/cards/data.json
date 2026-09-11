@@ -368,6 +368,19 @@
       "gtin13": "4712702636000"
     },
     {
+      "listing_id": "KPF-000332",
+      "name": "Eksterno kućište za 3.5\" i 2.5\" SATA hard disk, USB 3.0 – UGREEN US222",
+      "price_rsd": 3499,
+      "slug": "ugreen-us222-eksterno-kuciste-za-sata-hdd",
+      "category": "kompjuteri-i-oprema",
+      "group": "hdd-ssd-oprema",
+      "date_added_sort": "2026-09-06",
+      "img_thumb": "/images/products/ugreen-us222-eksterno-kuciste-za-sata-hdd-01-thumb.webp",
+      "brand": "Ugreen",
+      "sku": "US222",
+      "gtin13": "6957303854226"
+    },
+    {
       "listing_id": "KPF-000225",
       "name": "Eksterno kućište za 3.5\" SATA hard disk, USB 3.0 – Gembird EE3-U3S-3",
       "price_rsd": 2499,
@@ -379,19 +392,6 @@
       "brand": "Gembird",
       "sku": "EE3-U3S-3",
       "gtin13": "8716309097604"
-    },
-    {
-      "listing_id": "KPF-000332",
-      "name": "Eksterno kućište za 3.5\" SATA hard disk, USB 3.0 – UGREEN US222",
-      "price_rsd": 3499,
-      "slug": "ugreen-us222-eksterno-kuciste-za-sata-hdd",
-      "category": "kompjuteri-i-oprema",
-      "group": "hdd-ssd-oprema",
-      "date_added_sort": "2026-09-06",
-      "img_thumb": "/images/products/ugreen-us222-eksterno-kuciste-za-sata-hdd-01-thumb.webp",
-      "brand": "Ugreen",
-      "sku": "US222",
-      "gtin13": "6957303854226"
     },
     {
       "listing_id": "KPF-000333",
