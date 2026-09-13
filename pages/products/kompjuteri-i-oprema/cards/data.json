@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 122,
+  "total_products": 123,
   "page_size": 18,
   "products": [
     {
@@ -1392,6 +1392,19 @@
       "brand": "MediaRange",
       "sku": "MR1905-1",
       "gtin13": "4260664879718"
+    },
+    {
+      "listing_id": "KPF-000342",
+      "name": "USB fleš memorija 256GB (USB 3.2 Gen 1) – TeamGroup C186 Black",
+      "price_rsd": 4499,
+      "slug": "teamgroup-c186-usb-fles-memorija-256gb",
+      "category": "kompjuteri-i-oprema",
+      "group": "usb-flash",
+      "date_added_sort": "2026-09-12",
+      "img_thumb": "/images/products/teamgroup-c186-usb-fles-memorija-256gb-01-thumb.webp",
+      "brand": "TeamGroup",
+      "sku": "C186",
+      "gtin13": "765441043190"
     },
     {
       "listing_id": "KPF-000181",
