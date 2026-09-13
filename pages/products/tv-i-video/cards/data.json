@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 104,
+  "total_products": 105,
   "page_size": 18,
   "products": [
     {
@@ -132,6 +132,19 @@
       "brand": "Gembird",
       "sku": "WM-70F-03",
       "gtin13": "8716309128032"
+    },
+    {
+      "listing_id": "KPF-000343",
+      "name": "Fiksni zidni nosač za TV 37-86\" do 45 kg – Kettz CER-60F",
+      "price_rsd": 1399,
+      "slug": "kettz-cer-60f-fiksni-zidni-tv-nosac",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "date_added_sort": "2026-09-13",
+      "img_thumb": "/images/products/kettz-cer-60f-fiksni-zidni-tv-nosac-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "CER-60F",
+      "gtin13": "8605054711654"
     },
     {
       "listing_id": "KPF-000187",
