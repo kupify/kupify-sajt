@@ -1,6 +1,6 @@
 {
   "category": "audio-oprema",
-  "total_products": 8,
+  "total_products": 9,
   "page_size": 18,
   "products": [
     {
@@ -80,6 +80,19 @@
       "brand": "Gembird",
       "sku": "SPK-BT-19",
       "gtin13": "8716309121712"
+    },
+    {
+      "listing_id": "KPF-000348",
+      "name": "Stereo kabl 3.5mm muško - muški, 1.2m – Gembird CCA-404",
+      "price_rsd": 199,
+      "slug": "gembird-cca-404-audio-kabl-3-5-mm-muski",
+      "category": "audio-oprema",
+      "group": "kablovi",
+      "date_added_sort": "2026-09-14",
+      "img_thumb": "/images/products/gembird-cca-404-audio-kabl-3-5-mm-muski-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "CCA-404",
+      "gtin13": "8716309024570"
     },
     {
       "listing_id": "KPF-000072",

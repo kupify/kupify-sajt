@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 123,
+  "total_products": 126,
   "page_size": 18,
   "products": [
     {
@@ -835,6 +835,19 @@
       "gtin13": "8716309113670"
     },
     {
+      "listing_id": "KPF-000347",
+      "name": "Standardna USB tastatura, US raspored – Gembird KB-U-103",
+      "price_rsd": 599,
+      "slug": "gembird-kb-u-103-pc-tastatura",
+      "category": "kompjuteri-i-oprema",
+      "group": "tastature",
+      "date_added_sort": "2026-09-14",
+      "img_thumb": "/images/products/gembird-kb-u-103-pc-tastatura-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "KB-U-103",
+      "gtin13": "8716309083980"
+    },
+    {
       "listing_id": "KPF-000032",
       "name": "Stoni držač za monitor 17-32\" sa jednom rukom – Gembird MA-D1-033",
       "price_rsd": 1899,
@@ -1407,6 +1420,19 @@
       "gtin13": "765441043190"
     },
     {
+      "listing_id": "KPF-000345",
+      "name": "USB fleš memorija 256GB (USB 3.2 Gen 1) – TeamGroup S5 Black",
+      "price_rsd": 4499,
+      "slug": "teamgroup-s5-usb-fles-memorija-256gb",
+      "category": "kompjuteri-i-oprema",
+      "group": "usb-flash",
+      "date_added_sort": "2026-09-13",
+      "img_thumb": "/images/products/teamgroup-s5-usb-fles-memorija-256gb-01-thumb.webp",
+      "brand": "TeamGroup",
+      "sku": "S5 TS53256GB01",
+      "gtin13": "4711430806693"
+    },
+    {
       "listing_id": "KPF-000181",
       "name": "USB fleš memorija 256GB, 300MB/s (USB 3.2 Gen 1) – MediaRange MR1903",
       "price_rsd": 4399,
@@ -1509,6 +1535,19 @@
       "brand": "MediaRange",
       "sku": "MR1955",
       "gtin13": "4260664871271"
+    },
+    {
+      "listing_id": "KPF-000346",
+      "name": "USB-C čitač SD i microSD kartica sa USB 2.0 portom – Gembird UHB-CR3-02",
+      "price_rsd": 599,
+      "slug": "gembird-uhb-cr3-02-usb-c-citac-memorijskih-kartica",
+      "category": "kompjuteri-i-oprema",
+      "group": "citaci-kartica",
+      "date_added_sort": "2026-09-14",
+      "img_thumb": "/images/products/gembird-uhb-cr3-02-usb-c-citac-memorijskih-kartica-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "UHB-CR3-02",
+      "gtin13": "8716309100793"
     },
     {
       "listing_id": "KPF-000328",
