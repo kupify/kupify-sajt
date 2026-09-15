@@ -1,6 +1,6 @@
 {
   "category": "mobilni-telefoni-i-oprema",
-  "total_products": 9,
+  "total_products": 11,
   "page_size": 18,
   "products": [
     {
@@ -15,6 +15,19 @@
       "brand": "UGREEN",
       "sku": "CD289 90549",
       "gtin13": "6957303895496"
+    },
+    {
+      "listing_id": "KPF-000350",
+      "name": "4-u-1 Brzi punjač USB-C PD GaN 30W – Ugreen CD314",
+      "price_rsd": 2999,
+      "slug": "ugreen-cd314-brzi-punjac-uticnica",
+      "category": "mobilni-telefoni-i-oprema",
+      "group": "punjaci",
+      "date_added_sort": "2026-09-15",
+      "img_thumb": "/images/products/ugreen-cd314-brzi-punjac-uticnica-01-thumb.webp",
+      "brand": "Ugreen",
+      "sku": "CD314",
+      "gtin13": "6957303896134"
     },
     {
       "listing_id": "KPF-000209",
@@ -119,6 +132,19 @@
       "brand": "Ugreen",
       "sku": "AV161",
       "gtin13": "6957303881543"
+    },
+    {
+      "listing_id": "KPF-000349",
+      "name": "Višenamenski stoni držač za telefon ili tablet – Ugreen LP142",
+      "price_rsd": 2999,
+      "slug": "ugreen-lp142-stoni-drzac-za-telefon-tablet",
+      "category": "mobilni-telefoni-i-oprema",
+      "group": "stoni-drzaci-za-telefon",
+      "date_added_sort": "2026-09-15",
+      "img_thumb": "/images/products/ugreen-lp142-stoni-drzac-za-telefon-tablet-01-thumb.webp",
+      "brand": "Ugreen",
+      "sku": "LP142",
+      "gtin13": "6957303853946"
     }
   ]
 }
