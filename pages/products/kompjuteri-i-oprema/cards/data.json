@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 126,
+  "total_products": 127,
   "page_size": 18,
   "products": [
     {
@@ -807,6 +807,19 @@
       "img_thumb": "/images/products/eksterno-kuciste-2-5-inca-hdd-ssd-usb-3-0-silicon-power-armor-a30-01-thumb.webp",
       "brand": "Silicon Power",
       "sku": "Armor A30"
+    },
+    {
+      "listing_id": "KPF-000351",
+      "name": "Sklopivo postolje za laptop ili tablet 8-17.3\" – Ugreen LP451",
+      "price_rsd": 2399,
+      "slug": "ugreen-lp451-sklopivo-postolje-za-laptop-tablet",
+      "category": "kompjuteri-i-oprema",
+      "group": "laptop-postolja",
+      "date_added_sort": "2026-09-16",
+      "img_thumb": "/images/products/ugreen-lp451-sklopivo-postolje-za-laptop-tablet-01-thumb.webp",
+      "brand": "Ugreen",
+      "sku": "LP451",
+      "gtin13": "6957303842896"
     },
     {
       "listing_id": "KPF-000250",
