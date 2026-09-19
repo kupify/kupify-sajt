@@ -1,6 +1,6 @@
 {
   "category": "mobilni-telefoni-i-oprema",
-  "total_products": 11,
+  "total_products": 13,
   "page_size": 18,
   "products": [
     {
@@ -15,6 +15,19 @@
       "brand": "UGREEN",
       "sku": "CD289 90549",
       "gtin13": "6957303895496"
+    },
+    {
+      "listing_id": "KPF-000352",
+      "name": "3-u-1 USB-C i USB-A brzi punjač 65W, PD i QC 3.0 – Gembird TA-UC-PDQC65-01-W",
+      "price_rsd": 2199,
+      "slug": "gembird-ta-uc-pdqc65-01-w-brzi-punjac-65w",
+      "category": "mobilni-telefoni-i-oprema",
+      "group": "punjaci",
+      "date_added_sort": "2026-09-19",
+      "img_thumb": "/images/products/gembird-ta-uc-pdqc65-01-w-brzi-punjac-65w-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "TA-UC-PDQC65-01-W",
+      "gtin13": "8716309128674"
     },
     {
       "listing_id": "KPF-000350",
@@ -41,6 +54,19 @@
       "brand": "UGREEN",
       "sku": "CD271",
       "gtin13": "6957303849147"
+    },
+    {
+      "listing_id": "KPF-000353",
+      "name": "Brzi punjač USB-C GaN PD 20W – UGREEN Nexode Mini CD318",
+      "price_rsd": 2999,
+      "slug": "ugreen-cd318-brzi-punjac-usb-c-20w",
+      "category": "mobilni-telefoni-i-oprema",
+      "group": "punjaci",
+      "date_added_sort": "2026-09-19",
+      "img_thumb": "/images/products/ugreen-cd318-brzi-punjac-usb-c-20w-01-thumb.webp",
+      "brand": "Ugreen",
+      "sku": "CD318",
+      "gtin13": "6957303896646"
     },
     {
       "listing_id": "KPF-000180",
