@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 105,
+  "total_products": 106,
   "page_size": 18,
   "products": [
     {
@@ -288,6 +288,19 @@
       "brand": "Kettz",
       "sku": "NAV-K92",
       "gtin13": "8605054706766"
+    },
+    {
+      "listing_id": "KPF-000355",
+      "name": "Plafonski ili zidni teleskopski nosač za projektor - Kettz 0KP002",
+      "price_rsd": 2499,
+      "slug": "kettz-0kp002-plafonski-zidni-nosac-projektora",
+      "category": "tv-i-video",
+      "group": "nosaci-za-projektore",
+      "date_added_sort": "2026-09-20",
+      "img_thumb": "/images/products/kettz-0kp002-plafonski-zidni-nosac-projektora-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "0KP002",
+      "gtin13": "8605054708166"
     },
     {
       "listing_id": "KPF-000034",

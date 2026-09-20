@@ -1,6 +1,6 @@
 {
   "category": "mobilni-telefoni-i-oprema",
-  "total_products": 13,
+  "total_products": 14,
   "page_size": 18,
   "products": [
     {
@@ -80,6 +80,19 @@
       "brand": "UGREEN",
       "sku": "LP106",
       "gtin13": "6957303832859"
+    },
+    {
+      "listing_id": "KPF-000354",
+      "name": "Stono postolje za tablet ili telefon – Gembird TA-TS-01",
+      "price_rsd": 299,
+      "slug": "gembird-ta-ts-01-postolje-za-tablet-telefon",
+      "category": "mobilni-telefoni-i-oprema",
+      "group": "stoni-drzaci-za-telefon",
+      "date_added_sort": "2026-09-20",
+      "img_thumb": "/images/products/gembird-ta-ts-01-postolje-za-tablet-telefon-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "TA-TS-01",
+      "gtin13": "8716309092586"
     },
     {
       "listing_id": "KPF-000139",

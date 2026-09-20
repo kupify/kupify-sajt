@@ -2739,14 +2739,14 @@
     {
       "listing_id": "KPF-000229",
       "name": "Flasteri za popravku bazena, set 10 kom (6.5x6.5cm) – Bestway 62091",
-      "slug": "bestway-62068-set-flastera-za-popravku-bazena",
+      "slug": "bestway-62091-set-flastera-za-popravku-bazena",
       "category": "sport-razonoda-i-zabava",
       "group": "bazeni-plaza-kampovanje",
       "brand": "Bestway",
       "sku": "62091",
       "price_rsd": 499,
-      "img_thumb": "/images/products/bestway-62068-set-flastera-za-popravku-bazena-01-thumb.webp",
-      "q_ascii": "flasteri za popravku bazena, set 10 kom (6.5x6.5cm) – bestway 62091 bestway 62091 sport-razonoda-i-zabava bazeni-plaza-kampovanje bestway-62068-set-flastera-za-popravku-bazena 6941607307564"
+      "img_thumb": "/images/products/bestway-62091-set-flastera-za-popravku-bazena-01-thumb.webp",
+      "q_ascii": "flasteri za popravku bazena, set 10 kom (6.5x6.5cm) – bestway 62091 bestway 62091 sport-razonoda-i-zabava bazeni-plaza-kampovanje bestway-62091-set-flastera-za-popravku-bazena 6941607307564"
     },
     {
       "listing_id": "KPF-000230",
@@ -4235,6 +4235,30 @@
       "price_rsd": 2999,
       "img_thumb": "/images/products/ugreen-cd318-brzi-punjac-usb-c-20w-01-thumb.webp",
       "q_ascii": "brzi punjac usb-c gan pd 20w – ugreen nexode mini cd318 ugreen cd318 mobilni-telefoni-i-oprema punjaci ugreen-cd318-brzi-punjac-usb-c-20w 6957303896646"
+    },
+    {
+      "listing_id": "KPF-000354",
+      "name": "Stono postolje za tablet ili telefon – Gembird TA-TS-01",
+      "slug": "gembird-ta-ts-01-postolje-za-tablet-telefon",
+      "category": "mobilni-telefoni-i-oprema",
+      "group": "stoni-drzaci-za-telefon",
+      "brand": "Gembird",
+      "sku": "TA-TS-01",
+      "price_rsd": 299,
+      "img_thumb": "/images/products/gembird-ta-ts-01-postolje-za-tablet-telefon-01-thumb.webp",
+      "q_ascii": "stono postolje za tablet ili telefon – gembird ta-ts-01 gembird ta-ts-01 mobilni-telefoni-i-oprema stoni-drzaci-za-telefon gembird-ta-ts-01-postolje-za-tablet-telefon 8716309092586"
+    },
+    {
+      "listing_id": "KPF-000355",
+      "name": "Plafonski ili zidni teleskopski nosač za projektor - Kettz 0KP002",
+      "slug": "kettz-0kp002-plafonski-zidni-nosac-projektora",
+      "category": "tv-i-video",
+      "group": "nosaci-za-projektore",
+      "brand": "Kettz",
+      "sku": "0KP002",
+      "price_rsd": 2499,
+      "img_thumb": "/images/products/kettz-0kp002-plafonski-zidni-nosac-projektora-01-thumb.webp",
+      "q_ascii": "plafonski ili zidni teleskopski nosac za projektor - kettz 0kp002 kettz 0kp002 tv-i-video nosaci-za-projektore kettz-0kp002-plafonski-zidni-nosac-projektora 8605054708166"
     }
   ]
 }
