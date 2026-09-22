@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 106,
+  "total_products": 108,
   "page_size": 18,
   "products": [
     {
@@ -405,6 +405,19 @@
       "brand": "Nedis",
       "sku": "PJCM100BK",
       "gtin13": "5412810274239"
+    },
+    {
+      "listing_id": "KPF-000356",
+      "name": "Pločica pojačivača mrežaste antene, 18-31dB – Techsony TSWA-49R",
+      "price_rsd": 399,
+      "slug": "techsony-tswa-49r-plocica-pojacivaca-mrezaste-antene",
+      "category": "tv-i-video",
+      "group": "antene",
+      "date_added_sort": "2026-09-22",
+      "img_thumb": "/images/products/techsony-tswa-49r-plocica-pojacivaca-mrezaste-antene-01-thumb.webp",
+      "brand": "Techsony",
+      "sku": "TSWA-49R",
+      "gtin13": "8606010040870"
     },
     {
       "listing_id": "KPF-000003",
@@ -833,6 +846,19 @@
       "brand": "Gembird",
       "sku": "TVS-D75S-01",
       "gtin13": "8716309135085"
+    },
+    {
+      "listing_id": "KPF-000357",
+      "name": "Strujni adapter 12V za pojačivač panel antene – Gembird NPA-AC42",
+      "price_rsd": 399,
+      "slug": "gembird-npa-ac42-strujni-adapter-za-antensko-pojacalo",
+      "category": "tv-i-video",
+      "group": "antene",
+      "date_added_sort": "2026-09-22",
+      "img_thumb": "/images/products/gembird-npa-ac42-strujni-adapter-za-antensko-pojacalo-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "NPA-AC42",
+      "gtin13": "9780111231203"
     },
     {
       "listing_id": "KPF-000329",
