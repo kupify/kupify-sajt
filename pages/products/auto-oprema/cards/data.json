@@ -1,8 +1,21 @@
 {
   "category": "auto-oprema",
-  "total_products": 25,
+  "total_products": 26,
   "page_size": 18,
   "products": [
+    {
+      "listing_id": "KPF-000358",
+      "name": "Auto DVR kamera, Full HD 160°, GPS, WiFi – Pioneer VREC-Z710SH",
+      "price_rsd": 29999,
+      "slug": "pioneer-vrec-z710sh-auto-dvr-kamera",
+      "category": "auto-oprema",
+      "group": "kamere",
+      "date_added_sort": "2026-09-23",
+      "img_thumb": "/images/products/pioneer-vrec-z710sh-auto-dvr-kamera-01-thumb.webp",
+      "brand": "Pioneer",
+      "sku": "VREC-Z710SH",
+      "gtin13": "4988028501333"
+    },
     {
       "listing_id": "KPF-000158",
       "name": "Auto FM antena sa pojačivačem za šofersajbnu – Kettz KT-AA02",

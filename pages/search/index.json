@@ -4283,6 +4283,30 @@
       "price_rsd": 399,
       "img_thumb": "/images/products/gembird-npa-ac42-strujni-adapter-za-antensko-pojacalo-01-thumb.webp",
       "q_ascii": "strujni adapter 12v za pojacivac panel antene – gembird npa-ac42 gembird npa-ac42 tv-i-video antene gembird-npa-ac42-strujni-adapter-za-antensko-pojacalo 9780111231203"
+    },
+    {
+      "listing_id": "KPF-000358",
+      "name": "Auto DVR kamera, Full HD 160°, GPS, WiFi – Pioneer VREC-Z710SH",
+      "slug": "pioneer-vrec-z710sh-auto-dvr-kamera",
+      "category": "auto-oprema",
+      "group": "kamere",
+      "brand": "Pioneer",
+      "sku": "VREC-Z710SH",
+      "price_rsd": 29999,
+      "img_thumb": "/images/products/pioneer-vrec-z710sh-auto-dvr-kamera-01-thumb.webp",
+      "q_ascii": "auto dvr kamera, full hd 160°, gps, wifi – pioneer vrec-z710sh pioneer vrec-z710sh auto-oprema kamere pioneer-vrec-z710sh-auto-dvr-kamera 4988028501333"
+    },
+    {
+      "listing_id": "KPF-000359",
+      "name": "LED Smart Projektor 4K, 500 ANSI do 300\" – Kettz KT-P300",
+      "slug": "kettz-kt-p300-led-smart-projektor",
+      "category": "tv-i-video",
+      "group": "projektori",
+      "brand": "Kettz",
+      "sku": "KT-P300",
+      "price_rsd": 26999,
+      "img_thumb": "/images/products/kettz-kt-p300-led-smart-projektor-01-thumb.webp",
+      "q_ascii": "led smart projektor 4k, 500 ansi do 300\" – kettz kt-p300 kettz kt-p300 tv-i-video projektori kettz-kt-p300-led-smart-projektor 8605054707343"
     }
   ]
 }

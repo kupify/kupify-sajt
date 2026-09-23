@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 108,
+  "total_products": 109,
   "page_size": 18,
   "products": [
     {
@@ -223,6 +223,19 @@
       "brand": "Kettz",
       "sku": "DT-K090",
       "gtin13": "8605054711050"
+    },
+    {
+      "listing_id": "KPF-000359",
+      "name": "LED Smart Projektor 4K, 500 ANSI do 300\" – Kettz KT-P300",
+      "price_rsd": 26999,
+      "slug": "kettz-kt-p300-led-smart-projektor",
+      "category": "tv-i-video",
+      "group": "projektori",
+      "date_added_sort": "2026-09-23",
+      "img_thumb": "/images/products/kettz-kt-p300-led-smart-projektor-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "KT-P300",
+      "gtin13": "8605054707343"
     },
     {
       "listing_id": "KPF-000261",
