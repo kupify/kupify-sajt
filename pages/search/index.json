@@ -4307,6 +4307,30 @@
       "price_rsd": 26999,
       "img_thumb": "/images/products/kettz-kt-p300-led-smart-projektor-01-thumb.webp",
       "q_ascii": "led smart projektor 4k, 500 ansi do 300\" – kettz kt-p300 kettz kt-p300 tv-i-video projektori kettz-kt-p300-led-smart-projektor 8605054707343"
+    },
+    {
+      "listing_id": "KPF-000360",
+      "name": "Produžni audio kabl - 3.5 mm muški na ženski, 5 m – Gembird CCA-421S-5M",
+      "slug": "gembird-cca-421s-5m-audio-kabl-3-5mm-5m",
+      "category": "audio-oprema",
+      "group": "kablovi",
+      "brand": "Gembird",
+      "sku": "CCA-421S-5M",
+      "price_rsd": 199,
+      "img_thumb": "/images/products/gembird-cca-421s-5m-audio-kabl-3-5mm-5m-01-thumb.webp",
+      "q_ascii": "produzni audio kabl - 3.5 mm muski na zenski, 5 m – gembird cca-421s-5m gembird cca-421s-5m audio-oprema kablovi gembird-cca-421s-5m-audio-kabl-3-5mm-5m 8716309046374"
+    },
+    {
+      "listing_id": "KPF-000361",
+      "name": "Auto DVR kamera na retrovizoru – Pioneer VREC-150MD",
+      "slug": "pioneer-vrec-150md-auto-dvr-kamera",
+      "category": "auto-oprema",
+      "group": "kamere",
+      "brand": "Pioneer",
+      "sku": "VREC-150MD",
+      "price_rsd": 22999,
+      "img_thumb": "/images/products/pioneer-vrec-150md-auto-dvr-kamera-01-thumb.webp",
+      "q_ascii": "auto dvr kamera na retrovizoru – pioneer vrec-150md pioneer vrec-150md auto-oprema kamere pioneer-vrec-150md-auto-dvr-kamera 4988028487378"
     }
   ]
 }

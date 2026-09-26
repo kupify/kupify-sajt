@@ -1,6 +1,6 @@
 {
   "category": "audio-oprema",
-  "total_products": 9,
+  "total_products": 10,
   "page_size": 18,
   "products": [
     {
@@ -67,6 +67,19 @@
       "brand": "UGREEN",
       "sku": "CM106",
       "gtin13": "6941876230600"
+    },
+    {
+      "listing_id": "KPF-000360",
+      "name": "Produžni audio kabl - 3.5 mm muški na ženski, 5 m – Gembird CCA-421S-5M",
+      "price_rsd": 199,
+      "slug": "gembird-cca-421s-5m-audio-kabl-3-5mm-5m",
+      "category": "audio-oprema",
+      "group": "kablovi",
+      "date_added_sort": "2026-09-25",
+      "img_thumb": "/images/products/gembird-cca-421s-5m-audio-kabl-3-5mm-5m-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "CCA-421S-5M",
+      "gtin13": "8716309046374"
     },
     {
       "listing_id": "KPF-000276",

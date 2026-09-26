@@ -1,8 +1,21 @@
 {
   "category": "auto-oprema",
-  "total_products": 26,
+  "total_products": 27,
   "page_size": 18,
   "products": [
+    {
+      "listing_id": "KPF-000361",
+      "name": "Auto DVR kamera na retrovizoru – Pioneer VREC-150MD",
+      "price_rsd": 22999,
+      "slug": "pioneer-vrec-150md-auto-dvr-kamera",
+      "category": "auto-oprema",
+      "group": "kamere",
+      "date_added_sort": "2026-09-26",
+      "img_thumb": "/images/products/pioneer-vrec-150md-auto-dvr-kamera-01-thumb.webp",
+      "brand": "Pioneer",
+      "sku": "VREC-150MD",
+      "gtin13": "4988028487378"
+    },
     {
       "listing_id": "KPF-000358",
       "name": "Auto DVR kamera, Full HD 160°, GPS, WiFi – Pioneer VREC-Z710SH",
