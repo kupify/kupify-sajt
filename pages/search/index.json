@@ -848,7 +848,7 @@
       "group": "antene",
       "brand": "Vega",
       "sku": "ANT-408",
-      "price_rsd": 1499,
+      "price_rsd": 1599,
       "img_thumb": "/images/products/vega-ant-408-spoljna-tv-antena-sa-pojacivacem-01-thumb.webp",
       "q_ascii": "spoljna mrezasta tv antena sa pojacivacem 15-32 db – vega ant-408 vega ant-408 tv-i-video antene vega-ant-408-spoljna-tv-antena-sa-pojacivacem 3856001016277"
     },
@@ -1856,7 +1856,7 @@
       "group": "antene",
       "brand": "FO-KES",
       "sku": "TV Panel V2.0",
-      "price_rsd": 1499,
+      "price_rsd": 1599,
       "img_thumb": "/images/products/spoljna-tv-antena-sa-pojacivacem-fokes-tv-panel-v20-01-thumb.webp",
       "q_ascii": "spoljna tv antena sa pojacivacem 15-32db – fo-kes tv panel v2.0 fo-kes tv panel v2.0 tv-i-video antene spoljna-tv-antena-sa-pojacivacem-fokes-tv-panel-v20 8606110289018"
     },
@@ -4331,6 +4331,18 @@
       "price_rsd": 22999,
       "img_thumb": "/images/products/pioneer-vrec-150md-auto-dvr-kamera-01-thumb.webp",
       "q_ascii": "auto dvr kamera na retrovizoru – pioneer vrec-150md pioneer vrec-150md auto-oprema kamere pioneer-vrec-150md-auto-dvr-kamera 4988028487378"
+    },
+    {
+      "listing_id": "KPF-000362",
+      "name": "9-u-1 USB-C HUB adapter sa 9 portova – Gembird A-CM-COMBO9-03",
+      "slug": "gembird-a-cm-combo9-03-usb-c-hub-9-portova",
+      "category": "kompjuteri-i-oprema",
+      "group": "usb-hubovi",
+      "brand": "Gembird",
+      "sku": "A-CM-COMBO9-03",
+      "price_rsd": 3799,
+      "img_thumb": "/images/products/gembird-a-cm-combo9-03-usb-c-hub-9-portova-01-thumb.webp",
+      "q_ascii": "9-u-1 usb-c hub adapter sa 9 portova – gembird a-cm-combo9-03 gembird a-cm-combo9-03 kompjuteri-i-oprema usb-hubovi gembird-a-cm-combo9-03-usb-c-hub-9-portova 8602231782346"
     }
   ]
 }
