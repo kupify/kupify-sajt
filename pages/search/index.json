@@ -4343,6 +4343,30 @@
       "price_rsd": 3799,
       "img_thumb": "/images/products/gembird-a-cm-combo9-03-usb-c-hub-9-portova-01-thumb.webp",
       "q_ascii": "9-u-1 usb-c hub adapter sa 9 portova – gembird a-cm-combo9-03 gembird a-cm-combo9-03 kompjuteri-i-oprema usb-hubovi gembird-a-cm-combo9-03-usb-c-hub-9-portova 8602231782346"
+    },
+    {
+      "listing_id": "KPF-000363",
+      "name": "Kvarcna grejalica sa 2 štapa, 400/800W – Zilan ZLN8380",
+      "slug": "zilan-zln8380-kvarcna-grejalica-800w",
+      "category": "bela-tehnika-i-kucni-aparati",
+      "group": "grejna-tela",
+      "brand": "Zilan",
+      "sku": "ZLN8380",
+      "price_rsd": 1499,
+      "img_thumb": "/images/products/zilan-zln8380-kvarcna-grejalica-800w-01-thumb.webp",
+      "q_ascii": "kvarcna grejalica sa 2 stapa, 400/800w – zilan zln8380 zilan zln8380 bela-tehnika-i-kucni-aparati grejna-tela zilan-zln8380-kvarcna-grejalica-800w 6423154008380"
+    },
+    {
+      "listing_id": "KPF-000364",
+      "name": "Kvarcna grijalica sa 3 štapa 400/800/1200W – Zilan ZLN8397",
+      "slug": "zilan-zln8397-kvarcna-grejalica-1200w",
+      "category": "bela-tehnika-i-kucni-aparati",
+      "group": "grejna-tela",
+      "brand": "Zilan",
+      "sku": "ZLN8397",
+      "price_rsd": 3099,
+      "img_thumb": "/images/products/zilan-zln8397-kvarcna-grejalica-1200w-01-thumb.webp",
+      "q_ascii": "kvarcna grijalica sa 3 stapa 400/800/1200w – zilan zln8397 zilan zln8397 bela-tehnika-i-kucni-aparati grejna-tela zilan-zln8397-kvarcna-grejalica-1200w 6423154008397"
     }
   ]
 }

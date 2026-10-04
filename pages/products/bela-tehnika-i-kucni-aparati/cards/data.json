@@ -1,6 +1,6 @@
 {
   "category": "bela-tehnika-i-kucni-aparati",
-  "total_products": 5,
+  "total_products": 7,
   "page_size": 18,
   "products": [
     {
@@ -17,6 +17,19 @@
       "gtin13": "8716309128773"
     },
     {
+      "listing_id": "KPF-000363",
+      "name": "Kvarcna grejalica sa 2 štapa, 400/800W – Zilan ZLN8380",
+      "price_rsd": 1499,
+      "slug": "zilan-zln8380-kvarcna-grejalica-800w",
+      "category": "bela-tehnika-i-kucni-aparati",
+      "group": "grejna-tela",
+      "date_added_sort": "2026-10-04",
+      "img_thumb": "/images/products/zilan-zln8380-kvarcna-grejalica-800w-01-thumb.webp",
+      "brand": "Zilan",
+      "sku": "ZLN8380",
+      "gtin13": "6423154008380"
+    },
+    {
       "listing_id": "KPF-000033",
       "name": "Kvarcna grejalica sa 3 štapa 400/800/1200W – Zilan ZLN1084 BK",
       "price_rsd": 1999,
@@ -28,6 +41,19 @@
       "brand": "Zilan",
       "sku": "ZLN1084 BK",
       "gtin13": "6423154021501"
+    },
+    {
+      "listing_id": "KPF-000364",
+      "name": "Kvarcna grijalica sa 3 štapa 400/800/1200W – Zilan ZLN8397",
+      "price_rsd": 3099,
+      "slug": "zilan-zln8397-kvarcna-grejalica-1200w",
+      "category": "bela-tehnika-i-kucni-aparati",
+      "group": "grejna-tela",
+      "date_added_sort": "2026-10-04",
+      "img_thumb": "/images/products/zilan-zln8397-kvarcna-grejalica-1200w-01-thumb.webp",
+      "brand": "Zilan",
+      "sku": "ZLN8397",
+      "gtin13": "6423154008397"
     },
     {
       "listing_id": "KPF-000156",
