@@ -1,6 +1,6 @@
 {
   "category": "bela-tehnika-i-kucni-aparati",
-  "total_products": 7,
+  "total_products": 9,
   "page_size": 18,
   "products": [
     {
@@ -17,6 +17,32 @@
       "gtin13": "8716309128773"
     },
     {
+      "listing_id": "KPF-000366",
+      "name": "Kalorifer grejalica sa ventilatorom, 2000W – Zilan ZLN6151",
+      "price_rsd": 1999,
+      "slug": "zilan-zln6151-kalorifer-grejalica-sa-ventilatorom-2000w",
+      "category": "bela-tehnika-i-kucni-aparati",
+      "group": "grejna-tela",
+      "date_added_sort": "2026-10-05",
+      "img_thumb": "/images/products/zilan-zln6151-kalorifer-grejalica-sa-ventilatorom-2000w-01-thumb.webp",
+      "brand": "Zilan",
+      "sku": "ZLN6151",
+      "gtin13": "8682744805510"
+    },
+    {
+      "listing_id": "KPF-000365",
+      "name": "Konvektorska grejalica sa ventilatorom, 2000 W – Zilan ZLN6850 BK",
+      "price_rsd": 3399,
+      "slug": "zilan-zln6850-bk-konvektorska-grejalica-2000w",
+      "category": "bela-tehnika-i-kucni-aparati",
+      "group": "grejna-tela",
+      "date_added_sort": "2026-10-05",
+      "img_thumb": "/images/products/zilan-zln6850-bk-konvektorska-grejalica-2000w-01-thumb.webp",
+      "brand": "Zilan",
+      "sku": "ZLN6850 BK",
+      "gtin13": "6423154022881"
+    },
+    {
       "listing_id": "KPF-000363",
       "name": "Kvarcna grejalica sa 2 štapa, 400/800W – Zilan ZLN8380",
       "price_rsd": 1499,
@@ -31,11 +57,11 @@
     },
     {
       "listing_id": "KPF-000033",
-      "name": "Kvarcna grejalica sa 3 štapa 400/800/1200W – Zilan ZLN1084 BK",
+      "name": "Kvarcna grejalica sa 3 štapa, 400/800/1200W – Zilan ZLN1084 BK",
       "price_rsd": 1999,
       "slug": "kvarcna-grejalica-3-stapa-400-800-1200w-zilan-zln1084-bk",
       "category": "bela-tehnika-i-kucni-aparati",
-      "group": "grejanje",
+      "group": "grejna-tela",
       "date_added_sort": "2025-12-18",
       "img_thumb": "/images/products/kvarcna-grejalica-3-stapa-400-800-1200w-zilan-zln1084-bk-01-thumb.webp",
       "brand": "Zilan",

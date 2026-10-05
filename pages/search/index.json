@@ -386,15 +386,15 @@
     },
     {
       "listing_id": "KPF-000033",
-      "name": "Kvarcna grejalica sa 3 štapa 400/800/1200W – Zilan ZLN1084 BK",
+      "name": "Kvarcna grejalica sa 3 štapa, 400/800/1200W – Zilan ZLN1084 BK",
       "slug": "kvarcna-grejalica-3-stapa-400-800-1200w-zilan-zln1084-bk",
       "category": "bela-tehnika-i-kucni-aparati",
-      "group": "grejanje",
+      "group": "grejna-tela",
       "brand": "Zilan",
       "sku": "ZLN1084 BK",
       "price_rsd": 1999,
       "img_thumb": "/images/products/kvarcna-grejalica-3-stapa-400-800-1200w-zilan-zln1084-bk-01-thumb.webp",
-      "q_ascii": "kvarcna grejalica sa 3 stapa 400/800/1200w – zilan zln1084 bk zilan zln1084 bk bela-tehnika-i-kucni-aparati grejanje kvarcna-grejalica-3-stapa-400-800-1200w-zilan-zln1084-bk 6423154021501"
+      "q_ascii": "kvarcna grejalica sa 3 stapa, 400/800/1200w – zilan zln1084 bk zilan zln1084 bk bela-tehnika-i-kucni-aparati grejna-tela kvarcna-grejalica-3-stapa-400-800-1200w-zilan-zln1084-bk 6423154021501"
     },
     {
       "listing_id": "KPF-000034",
@@ -4367,6 +4367,30 @@
       "price_rsd": 3099,
       "img_thumb": "/images/products/zilan-zln8397-kvarcna-grejalica-1200w-01-thumb.webp",
       "q_ascii": "kvarcna grijalica sa 3 stapa 400/800/1200w – zilan zln8397 zilan zln8397 bela-tehnika-i-kucni-aparati grejna-tela zilan-zln8397-kvarcna-grejalica-1200w 6423154008397"
+    },
+    {
+      "listing_id": "KPF-000365",
+      "name": "Konvektorska grejalica sa ventilatorom, 2000 W – Zilan ZLN6850 BK",
+      "slug": "zilan-zln6850-bk-konvektorska-grejalica-2000w",
+      "category": "bela-tehnika-i-kucni-aparati",
+      "group": "grejna-tela",
+      "brand": "Zilan",
+      "sku": "ZLN6850 BK",
+      "price_rsd": 3399,
+      "img_thumb": "/images/products/zilan-zln6850-bk-konvektorska-grejalica-2000w-01-thumb.webp",
+      "q_ascii": "konvektorska grejalica sa ventilatorom, 2000 w – zilan zln6850 bk zilan zln6850 bk bela-tehnika-i-kucni-aparati grejna-tela zilan-zln6850-bk-konvektorska-grejalica-2000w 6423154022881"
+    },
+    {
+      "listing_id": "KPF-000366",
+      "name": "Kalorifer grejalica sa ventilatorom, 2000W – Zilan ZLN6151",
+      "slug": "zilan-zln6151-kalorifer-grejalica-sa-ventilatorom-2000w",
+      "category": "bela-tehnika-i-kucni-aparati",
+      "group": "grejna-tela",
+      "brand": "Zilan",
+      "sku": "ZLN6151",
+      "price_rsd": 1999,
+      "img_thumb": "/images/products/zilan-zln6151-kalorifer-grejalica-sa-ventilatorom-2000w-01-thumb.webp",
+      "q_ascii": "kalorifer grejalica sa ventilatorom, 2000w – zilan zln6151 zilan zln6151 bela-tehnika-i-kucni-aparati grejna-tela zilan-zln6151-kalorifer-grejalica-sa-ventilatorom-2000w 8682744805510"
     }
   ]
 }
