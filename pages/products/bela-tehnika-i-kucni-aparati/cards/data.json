@@ -1,6 +1,6 @@
 {
   "category": "bela-tehnika-i-kucni-aparati",
-  "total_products": 9,
+  "total_products": 11,
   "page_size": 18,
   "products": [
     {
@@ -28,6 +28,19 @@
       "brand": "Zilan",
       "sku": "ZLN6151",
       "gtin13": "8682744805510"
+    },
+    {
+      "listing_id": "KPF-000367",
+      "name": "Kalorifer grejalica sa ventilatorom, 2000W, crna – Zilan ZLN6172",
+      "price_rsd": 1699,
+      "slug": "zilan-zln6172-kalorifer-grejalica-2000w-crna",
+      "category": "bela-tehnika-i-kucni-aparati",
+      "group": "grejna-tela",
+      "date_added_sort": "2026-10-06",
+      "img_thumb": "/images/products/zilan-zln6172-kalorifer-grejalica-2000w-crna-01-thumb.webp",
+      "brand": "Zilan",
+      "sku": "ZLN6172",
+      "gtin13": "6423154021631"
     },
     {
       "listing_id": "KPF-000365",
@@ -80,6 +93,19 @@
       "brand": "Zilan",
       "sku": "ZLN8397",
       "gtin13": "6423154008397"
+    },
+    {
+      "listing_id": "KPF-000368",
+      "name": "Minijaturna keramička grejalica, 400W – Zilan ZLN2281",
+      "price_rsd": 2399,
+      "slug": "zilan-zln2281-mini-keramicka-grejalica-400w",
+      "category": "bela-tehnika-i-kucni-aparati",
+      "group": "grejna-tela",
+      "date_added_sort": "2026-10-07",
+      "img_thumb": "/images/products/zilan-zln2281-mini-keramicka-grejalica-400w-01-thumb.webp",
+      "brand": "Zilan",
+      "sku": "ZLN2281",
+      "gtin13": "8682744802281"
     },
     {
       "listing_id": "KPF-000156",

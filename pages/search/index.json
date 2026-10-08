@@ -206,7 +206,7 @@
     },
     {
       "listing_id": "KPF-000018",
-      "name": "Sobna TV antena sa pojačivačem – Kettz DT-K024",
+      "name": "Sobna TV antena sa pojačivačem, USB napajanje – Kettz DT-K024",
       "slug": "sobna-tv-antena-sa-pojacivacem-kettz-dt-k024",
       "category": "tv-i-video",
       "group": "antene",
@@ -214,7 +214,7 @@
       "sku": "DT-K024",
       "price_rsd": 1299,
       "img_thumb": "/images/products/sobna-tv-antena-sa-pojacivacem-kettz-dt-k024-01-thumb.webp",
-      "q_ascii": "sobna tv antena sa pojacivacem – kettz dt-k024 kettz dt-k024 tv-i-video antene sobna-tv-antena-sa-pojacivacem-kettz-dt-k024 8605054711043"
+      "q_ascii": "sobna tv antena sa pojacivacem, usb napajanje – kettz dt-k024 kettz dt-k024 tv-i-video antene sobna-tv-antena-sa-pojacivacem-kettz-dt-k024 8605054711043"
     },
     {
       "listing_id": "KPF-000019",
@@ -4391,6 +4391,30 @@
       "price_rsd": 1999,
       "img_thumb": "/images/products/zilan-zln6151-kalorifer-grejalica-sa-ventilatorom-2000w-01-thumb.webp",
       "q_ascii": "kalorifer grejalica sa ventilatorom, 2000w – zilan zln6151 zilan zln6151 bela-tehnika-i-kucni-aparati grejna-tela zilan-zln6151-kalorifer-grejalica-sa-ventilatorom-2000w 8682744805510"
+    },
+    {
+      "listing_id": "KPF-000367",
+      "name": "Kalorifer grejalica sa ventilatorom, 2000W, crna – Zilan ZLN6172",
+      "slug": "zilan-zln6172-kalorifer-grejalica-2000w-crna",
+      "category": "bela-tehnika-i-kucni-aparati",
+      "group": "grejna-tela",
+      "brand": "Zilan",
+      "sku": "ZLN6172",
+      "price_rsd": 1699,
+      "img_thumb": "/images/products/zilan-zln6172-kalorifer-grejalica-2000w-crna-01-thumb.webp",
+      "q_ascii": "kalorifer grejalica sa ventilatorom, 2000w, crna – zilan zln6172 zilan zln6172 bela-tehnika-i-kucni-aparati grejna-tela zilan-zln6172-kalorifer-grejalica-2000w-crna 6423154021631"
+    },
+    {
+      "listing_id": "KPF-000368",
+      "name": "Minijaturna keramička grejalica, 400W – Zilan ZLN2281",
+      "slug": "zilan-zln2281-mini-keramicka-grejalica-400w",
+      "category": "bela-tehnika-i-kucni-aparati",
+      "group": "grejna-tela",
+      "brand": "Zilan",
+      "sku": "ZLN2281",
+      "price_rsd": 2399,
+      "img_thumb": "/images/products/zilan-zln2281-mini-keramicka-grejalica-400w-01-thumb.webp",
+      "q_ascii": "minijaturna keramicka grejalica, 400w – zilan zln2281 zilan zln2281 bela-tehnika-i-kucni-aparati grejna-tela zilan-zln2281-mini-keramicka-grejalica-400w 8682744802281"
     }
   ]
 }
