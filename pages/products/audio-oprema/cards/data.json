@@ -1,6 +1,6 @@
 {
   "category": "audio-oprema",
-  "total_products": 10,
+  "total_products": 11,
   "page_size": 18,
   "products": [
     {
@@ -119,6 +119,19 @@
       "brand": "Gembird",
       "sku": "WM-SB-01",
       "gtin13": "8716309128056"
+    },
+    {
+      "listing_id": "KPF-000370",
+      "name": "Zidni nosači za satelitske zvučnike do 3,5 kg (2 kom.) – Kettz NZV-028",
+      "price_rsd": 839,
+      "slug": "kettz-nzv-028-zidni-nosaci-za-zvucnike",
+      "category": "audio-oprema",
+      "group": "nosaci-za-zvucnike",
+      "date_added_sort": "2026-10-10",
+      "img_thumb": "/images/products/kettz-nzv-028-zidni-nosaci-za-zvucnike-01-thumb.webp",
+      "brand": "Kettz",
+      "sku": "NZV-028",
+      "gtin13": "8606018831302"
     },
     {
       "listing_id": "KPF-000241",

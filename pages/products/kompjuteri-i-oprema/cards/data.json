@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 128,
+  "total_products": 129,
   "page_size": 18,
   "products": [
     {
@@ -418,6 +418,19 @@
       "brand": "UGREEN",
       "sku": "CM678",
       "gtin13": "6941876217281"
+    },
+    {
+      "listing_id": "KPF-000369",
+      "name": "Gejmerske bluetooth slušalice sa mikrofonom – A4Tech Bloody A4-GR370",
+      "price_rsd": 4299,
+      "slug": "a4tech-bloody-a4-gr370-gejmerske-bluetooth-slusalice-sa-mikrofonom",
+      "category": "kompjuteri-i-oprema",
+      "group": "slusalice",
+      "date_added_sort": "2026-10-08",
+      "img_thumb": "/images/products/a4tech-bloody-a4-gr370-gejmerske-bluetooth-slusalice-sa-mikrofonom-01-thumb.webp",
+      "brand": "A4Tech",
+      "sku": "Bloody A4-GR370",
+      "gtin13": "4711422002317"
     },
     {
       "listing_id": "KPF-000177",
