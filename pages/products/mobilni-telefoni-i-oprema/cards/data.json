@@ -1,6 +1,6 @@
 {
   "category": "mobilni-telefoni-i-oprema",
-  "total_products": 15,
+  "total_products": 16,
   "page_size": 18,
   "products": [
     {
@@ -54,6 +54,19 @@
       "brand": "UGREEN",
       "sku": "CD271",
       "gtin13": "6957303849147"
+    },
+    {
+      "listing_id": "KPF-000372",
+      "name": "Adapter USB 3.1 muški na USB-C ženski – Gembird CCP-USB3-AMCM-0M",
+      "price_rsd": 199,
+      "slug": "gembird-ccp-usb3-amcm-0m-adapter-usb-3-1-muski-na-usb-c-zenski",
+      "category": "mobilni-telefoni-i-oprema",
+      "group": "kablovi-i-adapteri",
+      "date_added_sort": "2026-10-12",
+      "img_thumb": "/images/products/gembird-ccp-usb3-amcm-0m-adapter-usb-3-1-muski-na-usb-c-zenski-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "CCP-USB3-AMCM-0M",
+      "gtin13": "9956323457766"
     },
     {
       "listing_id": "KPF-000353",

@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 129,
+  "total_products": 134,
   "page_size": 18,
   "products": [
     {
@@ -251,6 +251,19 @@
       "gtin13": "6933412756415"
     },
     {
+      "listing_id": "KPF-000377",
+      "name": "Bežična numerička tastatura za laptop i PC – Gembird KPD-W-02",
+      "price_rsd": 899,
+      "slug": "gembird-kpd-w-02-bezicna-numericka-tastatura",
+      "category": "kompjuteri-i-oprema",
+      "group": "tastature",
+      "date_added_sort": "2026-10-12",
+      "img_thumb": "/images/products/gembird-kpd-w-02-bezicna-numericka-tastatura-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "KPD-W-02",
+      "gtin13": "8716309124935"
+    },
+    {
       "listing_id": "KPF-000001",
       "name": "Bežični optički miš 2.4 GHz 800-1600 DPI – Gembird MUSW-4B-01-W",
       "price_rsd": 599,
@@ -405,6 +418,19 @@
       "brand": "Gembird",
       "sku": "EE3-U3S-3",
       "gtin13": "8716309097604"
+    },
+    {
+      "listing_id": "KPF-000376",
+      "name": "Fioka za montažu HDD/SSD umesto CD/DVD na laptopu, 12.7mm – Gembird MF-95-02",
+      "price_rsd": 799,
+      "slug": "gembird-mf-95-02-fioka-za-hard-disk-12-7mm",
+      "category": "kompjuteri-i-oprema",
+      "group": "hdd-ssd-oprema",
+      "date_added_sort": "2026-10-12",
+      "img_thumb": "/images/products/gembird-mf-95-02-fioka-za-hard-disk-12-7mm-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MF-95-02",
+      "gtin13": "8716309086912"
     },
     {
       "listing_id": "KPF-000333",
@@ -589,6 +615,19 @@
       "gtin13": "8716309086639"
     },
     {
+      "listing_id": "KPF-000373",
+      "name": "Molex muški na 2 SATA ženski razdelnik kabl, 15cm – Gembird CC-SATA-PSY",
+      "price_rsd": 199,
+      "slug": "gembird-cc-sata-psy-adapter-kabl-molex-muski-na-2-sata-zenski",
+      "category": "kompjuteri-i-oprema",
+      "group": "kablovi-i-adapteri",
+      "date_added_sort": "2026-10-12",
+      "img_thumb": "/images/products/gembird-cc-sata-psy-adapter-kabl-molex-muski-na-2-sata-zenski-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "CC-SATA-PSY",
+      "gtin13": "8716309039246"
+    },
+    {
       "listing_id": "KPF-000217",
       "name": "Nosač za 2 monitora 17-35\" sa rukama sa gasnim oprugama – Gembird MA-DA2-03",
       "price_rsd": 6899,
@@ -745,6 +784,19 @@
       "gtin13": "8716309101424"
     },
     {
+      "listing_id": "KPF-000375",
+      "name": "Postolje za monitor ili laptop – Gembird MS-TABLE-03",
+      "price_rsd": 1499,
+      "slug": "gembird-ms-table-03-postolje-za-monitor-laptop",
+      "category": "kompjuteri-i-oprema",
+      "group": "postolja-za-monitor",
+      "date_added_sort": "2026-10-12",
+      "img_thumb": "/images/products/gembird-ms-table-03-postolje-za-monitor-laptop-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MS-TABLE-03",
+      "gtin13": "8716309127769"
+    },
+    {
       "listing_id": "KPF-000051",
       "name": "Postolje – stoni nosač za dva monitora 17-32“ sa staklenom bazom Gembird MS-D2ST-01",
       "price_rsd": 3499,
@@ -789,7 +841,7 @@
       "price_rsd": 199,
       "slug": "gembird-cc-satam-data-xl-sata-3-kabl-100cm",
       "category": "kompjuteri-i-oprema",
-      "group": "kablovi",
+      "group": "kablovi-i-adapteri",
       "date_added_sort": "2026-05-15",
       "img_thumb": "/images/products/gembird-cc-satam-data-xl-sata-3-kabl-100cm-01-thumb.webp",
       "brand": "Gembird",
@@ -802,7 +854,7 @@
       "price_rsd": 129,
       "slug": "gembird-cc-satam-data-0-3m-sata-3-kabl-30cm",
       "category": "kompjuteri-i-oprema",
-      "group": "kablovi",
+      "group": "kablovi-i-adapteri",
       "date_added_sort": "2026-05-15",
       "img_thumb": "/images/products/gembird-cc-satam-data-0-3m-sata-3-kabl-30cm-01-thumb.webp",
       "brand": "Gembird",
@@ -815,12 +867,25 @@
       "price_rsd": 179,
       "slug": "gembird-cc-satam-data-sata-3-kabl-50cm",
       "category": "kompjuteri-i-oprema",
-      "group": "kablovi",
+      "group": "kablovi-i-adapteri",
       "date_added_sort": "2026-05-15",
       "img_thumb": "/images/products/gembird-cc-satam-data-sata-3-kabl-50cm-01-thumb.webp",
       "brand": "Gembird",
       "sku": "CC-SATAM-DATA",
       "gtin13": "8716309093385"
+    },
+    {
+      "listing_id": "KPF-000374",
+      "name": "SATA muški na Molex ženski adapter kabl, 15cm – Gembird CC-SATA-PS-M",
+      "price_rsd": 169,
+      "slug": "gembird-cc-sata-ps-m-adapter-kabl-sata-muski-moleks-zenski-15cm",
+      "category": "kompjuteri-i-oprema",
+      "group": "kablovi-i-adapteri",
+      "date_added_sort": "2026-10-12",
+      "img_thumb": "/images/products/gembird-cc-sata-ps-m-adapter-kabl-sata-muski-moleks-zenski-15cm-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "CC-SATA-PS-M",
+      "gtin13": "8716309086776"
     },
     {
       "listing_id": "KPF-000109",
