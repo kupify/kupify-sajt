@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 134,
+  "total_products": 137,
   "page_size": 18,
   "products": [
     {
@@ -392,6 +392,19 @@
       "brand": "Silicon Power",
       "sku": "SP020TBPHDA60S3K",
       "gtin13": "4712702636000"
+    },
+    {
+      "listing_id": "KPF-000380",
+      "name": "Eksterno kućište za 2.5\" SATA hard disk, USB 3.0 – UGREEN US221",
+      "price_rsd": 1499,
+      "slug": "ugreen-us221-eksterno-kuciste-za-sata-hdd",
+      "category": "kompjuteri-i-oprema",
+      "group": "hdd-ssd-oprema",
+      "date_added_sort": "2026-10-17",
+      "img_thumb": "/images/products/ugreen-us221-eksterno-kuciste-za-sata-hdd-01-thumb.webp",
+      "brand": "UGREEN",
+      "sku": "US221",
+      "gtin13": "6957303857432"
     },
     {
       "listing_id": "KPF-000332",
@@ -1392,6 +1405,32 @@
       "brand": "UGREEN",
       "sku": "CM219-25851",
       "gtin13": "6957303859856"
+    },
+    {
+      "listing_id": "KPF-000378",
+      "name": "USB 3.0 hub, 4 porta, ulaz za napajanje - UGREEN CM653 15548",
+      "price_rsd": 1499,
+      "slug": "ugreen-cm653-15548-usb-hub-4-porta",
+      "category": "kompjuteri-i-oprema",
+      "group": "usb-hubovi",
+      "date_added_sort": "2026-10-16",
+      "img_thumb": "/images/products/ugreen-cm653-15548-usb-hub-4-porta-01-thumb.webp",
+      "brand": "Ugreen",
+      "sku": "CM653 15548",
+      "gtin13": "6941876215485"
+    },
+    {
+      "listing_id": "KPF-000379",
+      "name": "USB 3.0 hub, 4 porta, ulaz za napajanje – UGREEN CM416 (10915)",
+      "price_rsd": 1299,
+      "slug": "ugreen-cm416-usb-hub-4-porta",
+      "category": "kompjuteri-i-oprema",
+      "group": "usb-hubovi",
+      "date_added_sort": "2026-10-16",
+      "img_thumb": "/images/products/ugreen-cm416-usb-hub-4-porta-01-thumb.webp",
+      "brand": "Ugreen",
+      "sku": "CM416",
+      "gtin13": "6957303819157"
     },
     {
       "listing_id": "KPF-000166",

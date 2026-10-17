@@ -4523,6 +4523,42 @@
       "price_rsd": 899,
       "img_thumb": "/images/products/gembird-kpd-w-02-bezicna-numericka-tastatura-01-thumb.webp",
       "q_ascii": "bezicna numericka tastatura za laptop i pc – gembird kpd-w-02 gembird kpd-w-02 kompjuteri-i-oprema tastature gembird-kpd-w-02-bezicna-numericka-tastatura 8716309124935"
+    },
+    {
+      "listing_id": "KPF-000378",
+      "name": "USB 3.0 hub, 4 porta, ulaz za napajanje - UGREEN CM653 15548",
+      "slug": "ugreen-cm653-15548-usb-hub-4-porta",
+      "category": "kompjuteri-i-oprema",
+      "group": "usb-hubovi",
+      "brand": "Ugreen",
+      "sku": "CM653 15548",
+      "price_rsd": 1499,
+      "img_thumb": "/images/products/ugreen-cm653-15548-usb-hub-4-porta-01-thumb.webp",
+      "q_ascii": "usb 3.0 hub, 4 porta, ulaz za napajanje - ugreen cm653 15548 ugreen cm653 15548 kompjuteri-i-oprema usb-hubovi ugreen-cm653-15548-usb-hub-4-porta 6941876215485"
+    },
+    {
+      "listing_id": "KPF-000379",
+      "name": "USB 3.0 hub, 4 porta, ulaz za napajanje – UGREEN CM416 (10915)",
+      "slug": "ugreen-cm416-usb-hub-4-porta",
+      "category": "kompjuteri-i-oprema",
+      "group": "usb-hubovi",
+      "brand": "Ugreen",
+      "sku": "CM416",
+      "price_rsd": 1299,
+      "img_thumb": "/images/products/ugreen-cm416-usb-hub-4-porta-01-thumb.webp",
+      "q_ascii": "usb 3.0 hub, 4 porta, ulaz za napajanje – ugreen cm416 (10915) ugreen cm416 kompjuteri-i-oprema usb-hubovi ugreen-cm416-usb-hub-4-porta 6957303819157"
+    },
+    {
+      "listing_id": "KPF-000380",
+      "name": "Eksterno kućište za 2.5\" SATA hard disk, USB 3.0 – UGREEN US221",
+      "slug": "ugreen-us221-eksterno-kuciste-za-sata-hdd",
+      "category": "kompjuteri-i-oprema",
+      "group": "hdd-ssd-oprema",
+      "brand": "UGREEN",
+      "sku": "US221",
+      "price_rsd": 1499,
+      "img_thumb": "/images/products/ugreen-us221-eksterno-kuciste-za-sata-hdd-01-thumb.webp",
+      "q_ascii": "eksterno kuciste za 2.5\" sata hard disk, usb 3.0 – ugreen us221 ugreen us221 kompjuteri-i-oprema hdd-ssd-oprema ugreen-us221-eksterno-kuciste-za-sata-hdd 6957303857432"
     }
   ]
 }
