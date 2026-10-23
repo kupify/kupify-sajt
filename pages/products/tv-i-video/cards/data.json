@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 109,
+  "total_products": 110,
   "page_size": 18,
   "products": [
     {
@@ -210,6 +210,19 @@
       "brand": "Gembird",
       "sku": "DSW-HDMI-34",
       "gtin13": "8716309085717"
+    },
+    {
+      "listing_id": "KPF-000381",
+      "name": "HDMI switch sa 5 ulaza na 1 izlaz, 4K – Gembird DSW-HDMI-53",
+      "price_rsd": 1599,
+      "slug": "gembird-dsw-hdmi-53-hdmi-switch-5-na-1",
+      "category": "tv-i-video",
+      "group": "hdmi-adapteri",
+      "date_added_sort": "2026-10-22",
+      "img_thumb": "/images/products/gembird-dsw-hdmi-53-hdmi-switch-5-na-1-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "DSW-HDMI-53",
+      "gtin13": "8716309087049"
     },
     {
       "listing_id": "KPF-000020",

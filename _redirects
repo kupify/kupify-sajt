@@ -94,3 +94,6 @@
 
 # 2026-09-19 | URL migration | KPF-000229 | /pages/products/sport-razonoda-i-zabava/bestway-62068-set-flastera-za-popravku-bazena/ -> /pages/products/sport-razonoda-i-zabava/bestway-62091-set-flastera-za-popravku-bazena/
 /pages/products/sport-razonoda-i-zabava/bestway-62068-set-flastera-za-popravku-bazena/ /pages/products/sport-razonoda-i-zabava/bestway-62091-set-flastera-za-popravku-bazena/ 301
+
+# 2026-10-23 | URL migration | KPF-000382 | /pages/products/audio-oprema/gembird-cca-423-3-5mm-produzni-audio-kabl-2m/ -> /pages/products/audio-oprema/gembird-cca-423-2m-3-5mm-produzni-audio-kabl-2m/
+/pages/products/audio-oprema/gembird-cca-423-3-5mm-produzni-audio-kabl-2m/ /pages/products/audio-oprema/gembird-cca-423-2m-3-5mm-produzni-audio-kabl-2m/ 301

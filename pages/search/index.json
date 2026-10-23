@@ -4559,6 +4559,42 @@
       "price_rsd": 1499,
       "img_thumb": "/images/products/ugreen-us221-eksterno-kuciste-za-sata-hdd-01-thumb.webp",
       "q_ascii": "eksterno kuciste za 2.5\" sata hard disk, usb 3.0 – ugreen us221 ugreen us221 kompjuteri-i-oprema hdd-ssd-oprema ugreen-us221-eksterno-kuciste-za-sata-hdd 6957303857432"
+    },
+    {
+      "listing_id": "KPF-000381",
+      "name": "HDMI switch sa 5 ulaza na 1 izlaz, 4K – Gembird DSW-HDMI-53",
+      "slug": "gembird-dsw-hdmi-53-hdmi-switch-5-na-1",
+      "category": "tv-i-video",
+      "group": "hdmi-adapteri",
+      "brand": "Gembird",
+      "sku": "DSW-HDMI-53",
+      "price_rsd": 1599,
+      "img_thumb": "/images/products/gembird-dsw-hdmi-53-hdmi-switch-5-na-1-01-thumb.webp",
+      "q_ascii": "hdmi switch sa 5 ulaza na 1 izlaz, 4k – gembird dsw-hdmi-53 gembird dsw-hdmi-53 tv-i-video hdmi-adapteri gembird-dsw-hdmi-53-hdmi-switch-5-na-1 8716309087049"
+    },
+    {
+      "listing_id": "KPF-000382",
+      "name": "Produžni audio kabl 3.5mm muško - ženski, 2m – Gembird CCA-423-2M",
+      "slug": "gembird-cca-423-2m-3-5mm-produzni-audio-kabl-2m",
+      "category": "audio-oprema",
+      "group": "kablovi-i-adapteri",
+      "brand": "Gembird",
+      "sku": "CCA-423-2M",
+      "price_rsd": 179,
+      "img_thumb": "/images/products/gembird-cca-423-2m-3-5mm-produzni-audio-kabl-2m-01-thumb.webp",
+      "q_ascii": "produzni audio kabl 3.5mm musko - zenski, 2m – gembird cca-423-2m gembird cca-423-2m audio-oprema kablovi-i-adapteri gembird-cca-423-2m-3-5mm-produzni-audio-kabl-2m 8716309092029"
+    },
+    {
+      "listing_id": "KPF-000383",
+      "name": "Produžni audio kabl 3.5mm muško - ženski, 1.5m – Gembird CCA-423",
+      "slug": "gembird-cca-423-3-5mm-produzni-audio-kabl-1-5m",
+      "category": "audio-oprema",
+      "group": "kablovi-i-adapteri",
+      "brand": "Gembird",
+      "sku": "CCA-423",
+      "price_rsd": 149,
+      "img_thumb": "/images/products/gembird-cca-423-3-5mm-produzni-audio-kabl-1-5m-01-thumb.webp",
+      "q_ascii": "produzni audio kabl 3.5mm musko - zenski, 1.5m – gembird cca-423 gembird cca-423 audio-oprema kablovi-i-adapteri gembird-cca-423-3-5mm-produzni-audio-kabl-1-5m 8716309024563"
     }
   ]
 }

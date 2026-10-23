@@ -2280,4 +2280,22 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://kupify.rs/pages/products/tv-i-video/gembird-dsw-hdmi-53-hdmi-switch-5-na-1/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kupify.rs/pages/products/audio-oprema/gembird-cca-423-2m-3-5mm-produzni-audio-kabl-2m/</loc>
+    <lastmod>2026-10-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kupify.rs/pages/products/audio-oprema/gembird-cca-423-3-5mm-produzni-audio-kabl-1-5m/</loc>
+    <lastmod>2026-10-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>
