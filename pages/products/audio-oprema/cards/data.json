@@ -1,6 +1,6 @@
 {
   "category": "audio-oprema",
-  "total_products": 13,
+  "total_products": 14,
   "page_size": 18,
   "products": [
     {
@@ -106,6 +106,19 @@
       "brand": "Gembird",
       "sku": "CCA-423-2M",
       "gtin13": "8716309092029"
+    },
+    {
+      "listing_id": "KPF-000384",
+      "name": "Produžni audio kabl 3.5mm muško - ženski, 3m – Gembird CCA-423-3M",
+      "price_rsd": 199,
+      "slug": "gembird-cca-423-3m-3-5mm-produzni-audio-kabl-3m",
+      "category": "audio-oprema",
+      "group": "kablovi-i-adapteri",
+      "date_added_sort": "2026-10-27",
+      "img_thumb": "/images/products/gembird-cca-423-3m-3-5mm-produzni-audio-kabl-3m-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "CCA-423-3M",
+      "gtin13": "8716309073257"
     },
     {
       "listing_id": "KPF-000276",

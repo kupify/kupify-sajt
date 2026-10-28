@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 137,
+  "total_products": 138,
   "page_size": 18,
   "products": [
     {
@@ -743,6 +743,19 @@
       "brand": "Gembird",
       "sku": "MS-TABLE-D-01",
       "gtin13": "8716309135207"
+    },
+    {
+      "listing_id": "KPF-000385",
+      "name": "Podesivo stono postolje za monitor 17-32\" – Gembird MS-D1-01",
+      "price_rsd": 4999,
+      "slug": "gembird-ms-d1-01-nosac-postolje-za-monitor",
+      "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitore",
+      "date_added_sort": "2026-10-28",
+      "img_thumb": "/images/products/gembird-ms-d1-01-nosac-postolje-za-monitor-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MS-D1-01",
+      "gtin13": "8716309127622"
     },
     {
       "listing_id": "KPF-000131",
