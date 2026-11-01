@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 110,
+  "total_products": 111,
   "page_size": 18,
   "products": [
     {
@@ -769,6 +769,19 @@
       "brand": "Superior",
       "sku": "SUPSTV022",
       "gtin13": "8054242081565"
+    },
+    {
+      "listing_id": "KPF-000388",
+      "name": "Stalak - postolje za TV 43-86\" sa policom – Gembird TVS-86ST-01",
+      "price_rsd": 10999,
+      "slug": "gembird-tvs-86st-01-tv-stalak",
+      "category": "tv-i-video",
+      "group": "tv-nosaci",
+      "date_added_sort": "2026-11-01",
+      "img_thumb": "/images/products/gembird-tvs-86st-01-tv-stalak-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "TVS-86ST-01",
+      "gtin13": "8716309135108"
     },
     {
       "listing_id": "KPF-000341",

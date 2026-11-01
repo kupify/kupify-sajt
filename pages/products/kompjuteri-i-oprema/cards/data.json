@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 138,
+  "total_products": 141,
   "page_size": 18,
   "products": [
     {
@@ -615,6 +615,19 @@
       "gtin13": "6971690790042"
     },
     {
+      "listing_id": "KPF-000386",
+      "name": "Mehanička gejmerska tastatura, RGB, sa osloncem – A4Tech A4-S525N",
+      "price_rsd": 5899,
+      "slug": "a4tech-a4-s525n-mehanicka-gejmerska-tastatura",
+      "category": "kompjuteri-i-oprema",
+      "group": "tastature",
+      "date_added_sort": "2026-10-31",
+      "img_thumb": "/images/products/a4tech-a4-s525n-mehanicka-gejmerska-tastatura-01-thumb.webp",
+      "brand": "A4Tech",
+      "sku": "A4-S525N",
+      "gtin13": "4711421002066"
+    },
+    {
       "listing_id": "KPF-000280",
       "name": "Mini USB metalni ventilator za radni sto, 10cm – Gembird NF-03",
       "price_rsd": 599,
@@ -769,6 +782,19 @@
       "brand": "Gembird",
       "sku": "MS-D1ST-02",
       "gtin13": "8716309127271"
+    },
+    {
+      "listing_id": "KPF-000387",
+      "name": "Postolje za 2 monitora ili laptop – Gembird MS-TABLE2-01",
+      "price_rsd": 2399,
+      "slug": "gembird-ms-table2-01-postolje-za-monitor-laptop",
+      "category": "kompjuteri-i-oprema",
+      "group": "postolja-za-monitor",
+      "date_added_sort": "2026-11-01",
+      "img_thumb": "/images/products/gembird-ms-table2-01-postolje-za-monitor-laptop-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MS-TABLE2-01",
+      "gtin13": "8716309127776"
     },
     {
       "listing_id": "KPF-000315",
@@ -1158,6 +1184,19 @@
       "brand": "Gembird",
       "sku": "MA-D1-01",
       "gtin13": "8716309126069"
+    },
+    {
+      "listing_id": "KPF-000389",
+      "name": "Stoni nosač sa 2 ruke sa gasnim oprugama za monitor i laptop – Gembird MA-DA3-02",
+      "price_rsd": 11999,
+      "slug": "gembird-ma-da3-02-stoni-nosac-za-monitor-laptop",
+      "category": "kompjuteri-i-oprema",
+      "group": "nosaci-za-monitore",
+      "date_added_sort": "2026-11-01",
+      "img_thumb": "/images/products/gembird-ma-da3-02-stoni-nosac-za-monitor-laptop-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MA-DA3-02",
+      "gtin13": "8716309127653"
     },
     {
       "listing_id": "KPF-000048",
