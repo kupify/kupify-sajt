@@ -1,6 +1,6 @@
 {
   "category": "bela-tehnika-i-kucni-aparati",
-  "total_products": 11,
+  "total_products": 12,
   "page_size": 18,
   "products": [
     {
@@ -132,6 +132,19 @@
       "brand": "Zilan",
       "sku": "ZLN1092",
       "gtin13": "8682744811092"
+    },
+    {
+      "listing_id": "KPF-000391",
+      "name": "Zidna keramička grejalica sa daljinskim, LED displej, 2000W – Zilan ZLN2090",
+      "price_rsd": 7999,
+      "slug": "zilan-zln2090-zidna-keramicka-grejalica-2000w",
+      "category": "bela-tehnika-i-kucni-aparati",
+      "group": "grejna-tela",
+      "date_added_sort": "2026-11-02",
+      "img_thumb": "/images/products/zilan-zln2090-zidna-keramicka-grejalica-2000w-01-thumb.webp",
+      "brand": "Zilan",
+      "sku": "ZLN2090",
+      "gtin13": "8682744802090"
     },
     {
       "listing_id": "KPF-000006",
