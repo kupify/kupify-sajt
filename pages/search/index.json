@@ -4691,6 +4691,30 @@
       "price_rsd": 7999,
       "img_thumb": "/images/products/zilan-zln2090-zidna-keramicka-grejalica-2000w-01-thumb.webp",
       "q_ascii": "zidna keramicka grejalica sa daljinskim, led displej, 2000w – zilan zln2090 zilan zln2090 bela-tehnika-i-kucni-aparati grejna-tela zilan-zln2090-zidna-keramicka-grejalica-2000w 8682744802090"
+    },
+    {
+      "listing_id": "KPF-000392",
+      "name": "USB tastatura sa srpskim rasporedom – Gembird KB-U-103-YU",
+      "slug": "gembird-kb-u-103-yu-usb-tastatura-srb",
+      "category": "kompjuteri-i-oprema",
+      "group": "tastature",
+      "brand": "Gembird",
+      "sku": "KB-U-103-YU",
+      "price_rsd": 799,
+      "img_thumb": "/images/products/gembird-kb-u-103-yu-usb-tastatura-srb-01-thumb.webp",
+      "q_ascii": "usb tastatura sa srpskim rasporedom – gembird kb-u-103-yu gembird kb-u-103-yu kompjuteri-i-oprema tastature gembird-kb-u-103-yu-usb-tastatura-srb 8716309121538"
+    },
+    {
+      "listing_id": "KPF-000393",
+      "name": "Optički miš sa USB kablom, 1000dpi – Gembird MUS-3B-02",
+      "slug": "gembird-mus-3b-02-usb-opticki-mis",
+      "category": "kompjuteri-i-oprema",
+      "group": "misevi",
+      "brand": "Gembird",
+      "sku": "MUS-3B-02",
+      "price_rsd": 399,
+      "img_thumb": "/images/products/gembird-mus-3b-02-usb-opticki-mis-01-thumb.webp",
+      "q_ascii": "opticki mis sa usb kablom, 1000dpi – gembird mus-3b-02 gembird mus-3b-02 kompjuteri-i-oprema misevi gembird-mus-3b-02-usb-opticki-mis 8716309104265"
     }
   ]
 }

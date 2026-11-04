@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 142,
+  "total_products": 144,
   "page_size": 18,
   "products": [
     {
@@ -665,6 +665,19 @@
       "brand": "Gembird",
       "sku": "MA-DA2-03",
       "gtin13": "8716309127424"
+    },
+    {
+      "listing_id": "KPF-000393",
+      "name": "Optički miš sa USB kablom, 1000dpi – Gembird MUS-3B-02",
+      "price_rsd": 399,
+      "slug": "gembird-mus-3b-02-usb-opticki-mis",
+      "category": "kompjuteri-i-oprema",
+      "group": "misevi",
+      "date_added_sort": "2026-11-02",
+      "img_thumb": "/images/products/gembird-mus-3b-02-usb-opticki-mis-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MUS-3B-02",
+      "gtin13": "8716309104265"
     },
     {
       "listing_id": "KPF-000179",
@@ -1678,6 +1691,19 @@
       "brand": "Kettz",
       "sku": "KTZ-CR230AC",
       "gtin13": "8605054711562"
+    },
+    {
+      "listing_id": "KPF-000392",
+      "name": "USB tastatura sa srpskim rasporedom – Gembird KB-U-103-YU",
+      "price_rsd": 799,
+      "slug": "gembird-kb-u-103-yu-usb-tastatura-srb",
+      "category": "kompjuteri-i-oprema",
+      "group": "tastature",
+      "date_added_sort": "2026-11-02",
+      "img_thumb": "/images/products/gembird-kb-u-103-yu-usb-tastatura-srb-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "KB-U-103-YU",
+      "gtin13": "8716309121538"
     },
     {
       "listing_id": "KPF-000101",
