@@ -1,6 +1,6 @@
 {
   "category": "auto-oprema",
-  "total_products": 27,
+  "total_products": 28,
   "page_size": 18,
   "products": [
     {
@@ -210,6 +210,19 @@
       "brand": "Gembird",
       "sku": "TA-CHWAV-01",
       "gtin13": "8716309125550"
+    },
+    {
+      "listing_id": "KPF-000396",
+      "name": "LED ambijentalno osvetljenje za auto enterijer – AUXITO 5-LGX-APP-1T5",
+      "price_rsd": 2599,
+      "slug": "auxito-5-lgx-app-1t5-led-ambijentalno-osvetljenje-za-auto",
+      "category": "auto-oprema",
+      "group": "led-rasveta",
+      "date_added_sort": "2026-11-10",
+      "img_thumb": "/images/products/auxito-5-lgx-app-1t5-led-ambijentalno-osvetljenje-za-auto-01-thumb.webp",
+      "brand": "AUXITO",
+      "sku": "5-LGX-APP-1T5",
+      "gtin13": "6978771030233"
     },
     {
       "listing_id": "KPF-000289",
