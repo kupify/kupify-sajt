@@ -1745,12 +1745,12 @@
       "name": "EU na UK adapter za utičnice (šuko) 13A – Gembird A-AC-EUFUKM-01",
       "slug": "strujni-adapter-eu-na-uk-gembird-a-ac-eufukm-01",
       "category": "elektro-i-rasveta",
-      "group": "",
+      "group": "putni-adapteri",
       "brand": "Gembird",
       "sku": "A-AC-EUFUKM-01",
       "price_rsd": 499,
       "img_thumb": "/images/products/strujni-adapter-eu-na-uk-gembird-a-ac-eufukm-01-01-thumb.webp",
-      "q_ascii": "eu na uk adapter za uticnice (suko) 13a – gembird a-ac-eufukm-01 gembird a-ac-eufukm-01 elektro-i-rasveta strujni-adapter-eu-na-uk-gembird-a-ac-eufukm-01 8716309128292"
+      "q_ascii": "eu na uk adapter za uticnice (suko) 13a – gembird a-ac-eufukm-01 gembird a-ac-eufukm-01 elektro-i-rasveta putni-adapteri strujni-adapter-eu-na-uk-gembird-a-ac-eufukm-01 8716309128292"
     },
     {
       "listing_id": "KPF-000147",
@@ -4751,6 +4751,18 @@
       "price_rsd": 2599,
       "img_thumb": "/images/products/auxito-5-lgx-app-1t5-led-ambijentalno-osvetljenje-za-auto-01-thumb.webp",
       "q_ascii": "led ambijentalno osvetljenje za auto enterijer – auxito 5-lgx-app-1t5 auxito 5-lgx-app-1t5 auto-oprema led-rasveta auxito-5-lgx-app-1t5-led-ambijentalno-osvetljenje-za-auto 6978771030233"
+    },
+    {
+      "listing_id": "KPF-000397",
+      "name": "LED USB ambijentalno osvetljenje za auto enterijer – AUXITO LGX-1T2-2M",
+      "slug": "auxito-lgx-1t2-2m-led-usb-ambijentalno-osvetljenje-za-auto",
+      "category": "auto-oprema",
+      "group": "led-rasveta",
+      "brand": "AUXITO",
+      "sku": "LGX-1T2-2M",
+      "price_rsd": 2499,
+      "img_thumb": "/images/products/auxito-lgx-1t2-2m-led-usb-ambijentalno-osvetljenje-za-auto-01-thumb.webp",
+      "q_ascii": "led usb ambijentalno osvetljenje za auto enterijer – auxito lgx-1t2-2m auxito lgx-1t2-2m auto-oprema led-rasveta auxito-lgx-1t2-2m-led-usb-ambijentalno-osvetljenje-za-auto 6978771030240"
     }
   ]
 }

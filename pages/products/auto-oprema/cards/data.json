@@ -1,6 +1,6 @@
 {
   "category": "auto-oprema",
-  "total_products": 28,
+  "total_products": 29,
   "page_size": 18,
   "products": [
     {
@@ -223,6 +223,19 @@
       "brand": "AUXITO",
       "sku": "5-LGX-APP-1T5",
       "gtin13": "6978771030233"
+    },
+    {
+      "listing_id": "KPF-000397",
+      "name": "LED USB ambijentalno osvetljenje za auto enterijer – AUXITO LGX-1T2-2M",
+      "price_rsd": 2499,
+      "slug": "auxito-lgx-1t2-2m-led-usb-ambijentalno-osvetljenje-za-auto",
+      "category": "auto-oprema",
+      "group": "led-rasveta",
+      "date_added_sort": "2026-11-10",
+      "img_thumb": "/images/products/auxito-lgx-1t2-2m-led-usb-ambijentalno-osvetljenje-za-auto-01-thumb.webp",
+      "brand": "AUXITO",
+      "sku": "LGX-1T2-2M",
+      "gtin13": "6978771030240"
     },
     {
       "listing_id": "KPF-000289",
