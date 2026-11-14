@@ -97,3 +97,6 @@
 
 # 2026-10-23 | URL migration | KPF-000382 | /pages/products/audio-oprema/gembird-cca-423-3-5mm-produzni-audio-kabl-2m/ -> /pages/products/audio-oprema/gembird-cca-423-2m-3-5mm-produzni-audio-kabl-2m/
 /pages/products/audio-oprema/gembird-cca-423-3-5mm-produzni-audio-kabl-2m/ /pages/products/audio-oprema/gembird-cca-423-2m-3-5mm-produzni-audio-kabl-2m/ 301
+
+# 2026-11-14 | URL migration | KPF-000401 | /pages/products/kompjuteri-i-oprema/deepcool-rf120b-led-kuler-za-pc-kuciste/ -> /pages/products/kompjuteri-i-oprema/deepcool-rf120b-led-kuler-za-pc-plavi/
+/pages/products/kompjuteri-i-oprema/deepcool-rf120b-led-kuler-za-pc-kuciste/ /pages/products/kompjuteri-i-oprema/deepcool-rf120b-led-kuler-za-pc-plavi/ 301

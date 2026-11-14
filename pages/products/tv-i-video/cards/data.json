@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 112,
+  "total_products": 113,
   "page_size": 18,
   "products": [
     {
@@ -1262,6 +1262,19 @@
       "brand": "Kettz",
       "sku": "CER-55Z",
       "gtin13": "8605054711722"
+    },
+    {
+      "listing_id": "KPF-000400",
+      "name": "Zidni L nosač za antenu, 45cm – Falcom NL45",
+      "price_rsd": 2499,
+      "slug": "falcom-nl45-zidni-l-antenski-nosac",
+      "category": "tv-i-video",
+      "group": "antene",
+      "date_added_sort": "2026-11-12",
+      "img_thumb": "/images/products/falcom-nl45-zidni-l-antenski-nosac-01-thumb.webp",
+      "brand": "Falcom",
+      "sku": "NL45",
+      "gtin13": "3856001012552"
     },
     {
       "listing_id": "KPF-000219",
