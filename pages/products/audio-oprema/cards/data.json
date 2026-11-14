@@ -1,6 +1,6 @@
 {
   "category": "audio-oprema",
-  "total_products": 14,
+  "total_products": 15,
   "page_size": 18,
   "products": [
     {
@@ -28,6 +28,18 @@
       "brand": "UGREEN",
       "sku": "CM403",
       "gtin13": "6957303888931"
+    },
+    {
+      "listing_id": "KPF-000402",
+      "name": "Audio adapter 1 RCA činč muški na 2 RCA činča ženska – AC18",
+      "price_rsd": 59,
+      "slug": "ac18-audio-adapter-1-rca-muski-na-2-rca-zenska",
+      "category": "audio-oprema",
+      "group": "kablovi-i-adapteri",
+      "date_added_sort": "2026-11-12",
+      "img_thumb": "/images/products/ac18-audio-adapter-1-rca-muski-na-2-rca-zenska-01-thumb.webp",
+      "sku": "AC18",
+      "gtin13": "8606006530910"
     },
     {
       "listing_id": "KPF-000226",

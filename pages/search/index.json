@@ -4765,6 +4765,18 @@
       "q_ascii": "led usb ambijentalno osvetljenje za auto enterijer – auxito lgx-1t2-2m auxito lgx-1t2-2m auto-oprema led-rasveta auxito-lgx-1t2-2m-led-usb-ambijentalno-osvetljenje-za-auto 6978771030240"
     },
     {
+      "listing_id": "KPF-000399",
+      "name": "EU, USA, AU na UK putni adapter za utičnice, 13A – Virone TA-7",
+      "slug": "virone-ta-7-strujni-travel-adapter-eu-us-au-na-uk",
+      "category": "elektro-i-rasveta",
+      "group": "putni-adapteri",
+      "brand": "Virone",
+      "sku": "TA-7",
+      "price_rsd": 599,
+      "img_thumb": "/images/products/virone-ta-7-strujni-travel-adapter-eu-us-au-na-uk-01-thumb.webp",
+      "q_ascii": "eu, usa, au na uk putni adapter za uticnice, 13a – virone ta-7 virone ta-7 elektro-i-rasveta putni-adapteri virone-ta-7-strujni-travel-adapter-eu-us-au-na-uk 5908254828423"
+    },
+    {
       "listing_id": "KPF-000400",
       "name": "Zidni L nosač za antenu, 45cm – Falcom NL45",
       "slug": "falcom-nl45-zidni-l-antenski-nosac",
@@ -4787,6 +4799,42 @@
       "price_rsd": 899,
       "img_thumb": "/images/products/deepcool-rf120b-led-kuler-za-pc-plavi-01-thumb.webp",
       "q_ascii": "led kuler za pc, plavi, 120mm – deepcool rf120b deepcool rf120b kompjuteri-i-oprema hladjenje deepcool-rf120b-led-kuler-za-pc-plavi 6933412710417"
+    },
+    {
+      "listing_id": "KPF-000402",
+      "name": "Audio adapter 1 RCA činč muški na 2 RCA činča ženska – AC18",
+      "slug": "ac18-audio-adapter-1-rca-muski-na-2-rca-zenska",
+      "category": "audio-oprema",
+      "group": "kablovi-i-adapteri",
+      "brand": "",
+      "sku": "AC18",
+      "price_rsd": 59,
+      "img_thumb": "/images/products/ac18-audio-adapter-1-rca-muski-na-2-rca-zenska-01-thumb.webp",
+      "q_ascii": "audio adapter 1 rca cinc muski na 2 rca cinca zenska – ac18 ac18 audio-oprema kablovi-i-adapteri ac18-audio-adapter-1-rca-muski-na-2-rca-zenska 8606006530910"
+    },
+    {
+      "listing_id": "KPF-000403",
+      "name": "USB-C na HDMI adapter, 4K – Gembird A-CM-HDMIF-03",
+      "slug": "gembird-a-cm-hdmif-03-usb-c-hdmi-adapter-4k",
+      "category": "tv-i-video",
+      "group": "kablovi-i-adapteri",
+      "brand": "Gembird",
+      "sku": "A-CM-HDMIF-03",
+      "price_rsd": 899,
+      "img_thumb": "/images/products/gembird-a-cm-hdmif-03-usb-c-hdmi-adapter-4k-01-thumb.webp",
+      "q_ascii": "usb-c na hdmi adapter, 4k – gembird a-cm-hdmif-03 gembird a-cm-hdmif-03 tv-i-video kablovi-i-adapteri gembird-a-cm-hdmif-03-usb-c-hdmi-adapter-4k 8609292517429"
+    },
+    {
+      "listing_id": "KPF-000404",
+      "name": "LED kuler za PC, beli, 120mm – DeepCool RF120W",
+      "slug": "deepcool-rf120w-led-kuler-za-pc-beli",
+      "category": "kompjuteri-i-oprema",
+      "group": "hladjenje",
+      "brand": "DeepCool",
+      "sku": "RF120W",
+      "price_rsd": 899,
+      "img_thumb": "/images/products/deepcool-rf120w-led-kuler-za-pc-beli-01-thumb.webp",
+      "q_ascii": "led kuler za pc, beli, 120mm – deepcool rf120w deepcool rf120w kompjuteri-i-oprema hladjenje deepcool-rf120w-led-kuler-za-pc-beli 6933412710424"
     }
   ]
 }

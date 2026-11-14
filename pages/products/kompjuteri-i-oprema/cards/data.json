@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 146,
+  "total_products": 147,
   "page_size": 18,
   "products": [
     {
@@ -613,6 +613,19 @@
       "brand": "Cudy",
       "sku": "FS108D V4.0",
       "gtin13": "6971690790042"
+    },
+    {
+      "listing_id": "KPF-000404",
+      "name": "LED kuler za PC, beli, 120mm – DeepCool RF120W",
+      "price_rsd": 899,
+      "slug": "deepcool-rf120w-led-kuler-za-pc-beli",
+      "category": "kompjuteri-i-oprema",
+      "group": "hladjenje",
+      "date_added_sort": "2026-11-13",
+      "img_thumb": "/images/products/deepcool-rf120w-led-kuler-za-pc-beli-01-thumb.webp",
+      "brand": "DeepCool",
+      "sku": "RF120W",
+      "gtin13": "6933412710424"
     },
     {
       "listing_id": "KPF-000401",

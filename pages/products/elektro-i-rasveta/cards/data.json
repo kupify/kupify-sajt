@@ -1,6 +1,6 @@
 {
   "category": "elektro-i-rasveta",
-  "total_products": 2,
+  "total_products": 3,
   "page_size": 18,
   "products": [
     {
@@ -15,6 +15,19 @@
       "brand": "Gembird",
       "sku": "A-AC-EUFUKM-01",
       "gtin13": "8716309128292"
+    },
+    {
+      "listing_id": "KPF-000399",
+      "name": "EU, USA, AU na UK putni adapter za utičnice, 13A – Virone TA-7",
+      "price_rsd": 599,
+      "slug": "virone-ta-7-strujni-travel-adapter-eu-us-au-na-uk",
+      "category": "elektro-i-rasveta",
+      "group": "putni-adapteri",
+      "date_added_sort": "2026-11-11",
+      "img_thumb": "/images/products/virone-ta-7-strujni-travel-adapter-eu-us-au-na-uk-01-thumb.webp",
+      "brand": "Virone",
+      "sku": "TA-7",
+      "gtin13": "5908254828423"
     },
     {
       "listing_id": "KPF-000008",

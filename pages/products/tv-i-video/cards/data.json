@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 113,
+  "total_products": 114,
   "page_size": 18,
   "products": [
     {
@@ -989,6 +989,19 @@
       "brand": "Gembird",
       "sku": "A-CM-HDMIF-01",
       "gtin13": "8716309097642"
+    },
+    {
+      "listing_id": "KPF-000403",
+      "name": "USB-C na HDMI adapter, 4K – Gembird A-CM-HDMIF-03",
+      "price_rsd": 899,
+      "slug": "gembird-a-cm-hdmif-03-usb-c-hdmi-adapter-4k",
+      "category": "tv-i-video",
+      "group": "kablovi-i-adapteri",
+      "date_added_sort": "2026-11-12",
+      "img_thumb": "/images/products/gembird-a-cm-hdmif-03-usb-c-hdmi-adapter-4k-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "A-CM-HDMIF-03",
+      "gtin13": "8609292517429"
     },
     {
       "listing_id": "KPF-000133",
