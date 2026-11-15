@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 147,
+  "total_products": 150,
   "page_size": 18,
   "products": [
     {
@@ -249,6 +249,19 @@
       "brand": "DeepCool",
       "sku": "PF750X",
       "gtin13": "6933412756415"
+    },
+    {
+      "listing_id": "KPF-000407",
+      "name": "ATX napajanje za PC 750W, 80 Plus Bronze – UGD Power U750",
+      "price_rsd": 7799,
+      "slug": "ugd-power-u750-atx-pc-napajanje-750w",
+      "category": "kompjuteri-i-oprema",
+      "group": "napajanja",
+      "date_added_sort": "2026-11-15",
+      "img_thumb": "/images/products/ugd-power-u750-atx-pc-napajanje-750w-01-thumb.webp",
+      "brand": "UGD Power",
+      "sku": "U750",
+      "gtin13": "8606035700018"
     },
     {
       "listing_id": "KPF-000377",
@@ -628,6 +641,19 @@
       "gtin13": "6933412710424"
     },
     {
+      "listing_id": "KPF-000405",
+      "name": "LED kuler za PC, crveni, 120mm – DeepCool RF120R",
+      "price_rsd": 899,
+      "slug": "deepcool-rf120r-led-kuler-za-pc-crveni",
+      "category": "kompjuteri-i-oprema",
+      "group": "hladjenje",
+      "date_added_sort": "2026-11-14",
+      "img_thumb": "/images/products/deepcool-rf120r-led-kuler-za-pc-crveni-01-thumb.webp",
+      "brand": "DeepCool",
+      "sku": "RF120R",
+      "gtin13": "6933412710400"
+    },
+    {
       "listing_id": "KPF-000401",
       "name": "LED kuler za PC, plavi, 120mm – DeepCool RF120B",
       "price_rsd": 899,
@@ -873,6 +899,19 @@
       "brand": "Gembird",
       "sku": "NBS-1F17T-01",
       "gtin13": "8716309101424"
+    },
+    {
+      "listing_id": "KPF-000406",
+      "name": "Postolje za hlađenje laptopa – DeepCool WIND PAL MINI",
+      "price_rsd": 1199,
+      "slug": "deepcool-wind-pal-mini-postolje-za-hladjenje-laptopa",
+      "category": "kompjuteri-i-oprema",
+      "group": "laptop-postolja",
+      "date_added_sort": "2026-11-15",
+      "img_thumb": "/images/products/deepcool-wind-pal-mini-postolje-za-hladjenje-laptopa-01-thumb.webp",
+      "brand": "DeepCool",
+      "sku": "WIND PAL MINI",
+      "gtin13": "6933412775287"
     },
     {
       "listing_id": "KPF-000375",

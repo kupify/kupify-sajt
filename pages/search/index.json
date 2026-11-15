@@ -4835,6 +4835,42 @@
       "price_rsd": 899,
       "img_thumb": "/images/products/deepcool-rf120w-led-kuler-za-pc-beli-01-thumb.webp",
       "q_ascii": "led kuler za pc, beli, 120mm – deepcool rf120w deepcool rf120w kompjuteri-i-oprema hladjenje deepcool-rf120w-led-kuler-za-pc-beli 6933412710424"
+    },
+    {
+      "listing_id": "KPF-000405",
+      "name": "LED kuler za PC, crveni, 120mm – DeepCool RF120R",
+      "slug": "deepcool-rf120r-led-kuler-za-pc-crveni",
+      "category": "kompjuteri-i-oprema",
+      "group": "hladjenje",
+      "brand": "DeepCool",
+      "sku": "RF120R",
+      "price_rsd": 899,
+      "img_thumb": "/images/products/deepcool-rf120r-led-kuler-za-pc-crveni-01-thumb.webp",
+      "q_ascii": "led kuler za pc, crveni, 120mm – deepcool rf120r deepcool rf120r kompjuteri-i-oprema hladjenje deepcool-rf120r-led-kuler-za-pc-crveni 6933412710400"
+    },
+    {
+      "listing_id": "KPF-000406",
+      "name": "Postolje za hlađenje laptopa – DeepCool WIND PAL MINI",
+      "slug": "deepcool-wind-pal-mini-postolje-za-hladjenje-laptopa",
+      "category": "kompjuteri-i-oprema",
+      "group": "laptop-postolja",
+      "brand": "DeepCool",
+      "sku": "WIND PAL MINI",
+      "price_rsd": 1199,
+      "img_thumb": "/images/products/deepcool-wind-pal-mini-postolje-za-hladjenje-laptopa-01-thumb.webp",
+      "q_ascii": "postolje za hladjenje laptopa – deepcool wind pal mini deepcool wind pal mini kompjuteri-i-oprema laptop-postolja deepcool-wind-pal-mini-postolje-za-hladjenje-laptopa 6933412775287"
+    },
+    {
+      "listing_id": "KPF-000407",
+      "name": "ATX napajanje za PC 750W, 80 Plus Bronze – UGD Power U750",
+      "slug": "ugd-power-u750-atx-pc-napajanje-750w",
+      "category": "kompjuteri-i-oprema",
+      "group": "napajanja",
+      "brand": "UGD Power",
+      "sku": "U750",
+      "price_rsd": 7799,
+      "img_thumb": "/images/products/ugd-power-u750-atx-pc-napajanje-750w-01-thumb.webp",
+      "q_ascii": "atx napajanje za pc 750w, 80 plus bronze – ugd power u750 ugd power u750 kompjuteri-i-oprema napajanja ugd-power-u750-atx-pc-napajanje-750w 8606035700018"
     }
   ]
 }
