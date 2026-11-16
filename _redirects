@@ -100,3 +100,6 @@
 
 # 2026-11-14 | URL migration | KPF-000401 | /pages/products/kompjuteri-i-oprema/deepcool-rf120b-led-kuler-za-pc-kuciste/ -> /pages/products/kompjuteri-i-oprema/deepcool-rf120b-led-kuler-za-pc-plavi/
 /pages/products/kompjuteri-i-oprema/deepcool-rf120b-led-kuler-za-pc-kuciste/ /pages/products/kompjuteri-i-oprema/deepcool-rf120b-led-kuler-za-pc-plavi/ 301
+
+# 2026-11-16 | URL migration | KPF-000352 | /pages/products/mobilni-telefoni-i-oprema/gembird-ta-uc-pdqc65-01-w-brzi-punjac-65w/ -> /pages/products/mobilni-telefoni-i-oprema/gembird-ta-uc-pdqc65-01-w-brzi-punjac-67w/
+/pages/products/mobilni-telefoni-i-oprema/gembird-ta-uc-pdqc65-01-w-brzi-punjac-65w/ /pages/products/mobilni-telefoni-i-oprema/gembird-ta-uc-pdqc65-01-w-brzi-punjac-67w/ 301

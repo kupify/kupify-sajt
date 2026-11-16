@@ -1,6 +1,6 @@
 {
   "category": "mobilni-telefoni-i-oprema",
-  "total_products": 16,
+  "total_products": 17,
   "page_size": 18,
   "products": [
     {
@@ -17,14 +17,27 @@
       "gtin13": "6957303895496"
     },
     {
+      "listing_id": "KPF-000398",
+      "name": "3-u-1 USB-C i USB-A brzi punjač 67W, PD i QC 3.0 – Gembird TA-UC-PDQC65-01-BK",
+      "price_rsd": 2299,
+      "slug": "gembird-ta-uc-pdqc65-01-bk-brzi-punjac-67w",
+      "category": "mobilni-telefoni-i-oprema",
+      "group": "punjaci",
+      "date_added_sort": "2026-11-11",
+      "img_thumb": "/images/products/gembird-ta-uc-pdqc65-01-bk-brzi-punjac-67w-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "TA-UC-PDQC65-01-BK",
+      "gtin13": "8716309128650"
+    },
+    {
       "listing_id": "KPF-000352",
-      "name": "3-u-1 USB-C i USB-A brzi punjač 65W, PD i QC 3.0 – Gembird TA-UC-PDQC65-01-W",
+      "name": "3-u-1 USB-C i USB-A brzi punjač 67W, PD i QC 3.0 – Gembird TA-UC-PDQC65-01-W",
       "price_rsd": 2199,
-      "slug": "gembird-ta-uc-pdqc65-01-w-brzi-punjac-65w",
+      "slug": "gembird-ta-uc-pdqc65-01-w-brzi-punjac-67w",
       "category": "mobilni-telefoni-i-oprema",
       "group": "punjaci",
       "date_added_sort": "2026-09-19",
-      "img_thumb": "/images/products/gembird-ta-uc-pdqc65-01-w-brzi-punjac-65w-01-thumb.webp",
+      "img_thumb": "/images/products/gembird-ta-uc-pdqc65-01-w-brzi-punjac-67w-01-thumb.webp",
       "brand": "Gembird",
       "sku": "TA-UC-PDQC65-01-W",
       "gtin13": "8716309128674"

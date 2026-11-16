@@ -4214,15 +4214,15 @@
     },
     {
       "listing_id": "KPF-000352",
-      "name": "3-u-1 USB-C i USB-A brzi punjač 65W, PD i QC 3.0 – Gembird TA-UC-PDQC65-01-W",
-      "slug": "gembird-ta-uc-pdqc65-01-w-brzi-punjac-65w",
+      "name": "3-u-1 USB-C i USB-A brzi punjač 67W, PD i QC 3.0 – Gembird TA-UC-PDQC65-01-W",
+      "slug": "gembird-ta-uc-pdqc65-01-w-brzi-punjac-67w",
       "category": "mobilni-telefoni-i-oprema",
       "group": "punjaci",
       "brand": "Gembird",
       "sku": "TA-UC-PDQC65-01-W",
       "price_rsd": 2199,
-      "img_thumb": "/images/products/gembird-ta-uc-pdqc65-01-w-brzi-punjac-65w-01-thumb.webp",
-      "q_ascii": "3-u-1 usb-c i usb-a brzi punjac 65w, pd i qc 3.0 – gembird ta-uc-pdqc65-01-w gembird ta-uc-pdqc65-01-w mobilni-telefoni-i-oprema punjaci gembird-ta-uc-pdqc65-01-w-brzi-punjac-65w 8716309128674"
+      "img_thumb": "/images/products/gembird-ta-uc-pdqc65-01-w-brzi-punjac-67w-01-thumb.webp",
+      "q_ascii": "3-u-1 usb-c i usb-a brzi punjac 67w, pd i qc 3.0 – gembird ta-uc-pdqc65-01-w gembird ta-uc-pdqc65-01-w mobilni-telefoni-i-oprema punjaci gembird-ta-uc-pdqc65-01-w-brzi-punjac-67w 8716309128674"
     },
     {
       "listing_id": "KPF-000353",
@@ -4765,6 +4765,18 @@
       "q_ascii": "led usb ambijentalno osvetljenje za auto enterijer – auxito lgx-1t2-2m auxito lgx-1t2-2m auto-oprema led-rasveta auxito-lgx-1t2-2m-led-usb-ambijentalno-osvetljenje-za-auto 6978771030240"
     },
     {
+      "listing_id": "KPF-000398",
+      "name": "3-u-1 USB-C i USB-A brzi punjač 67W, PD i QC 3.0 – Gembird TA-UC-PDQC65-01-BK",
+      "slug": "gembird-ta-uc-pdqc65-01-bk-brzi-punjac-67w",
+      "category": "mobilni-telefoni-i-oprema",
+      "group": "punjaci",
+      "brand": "Gembird",
+      "sku": "TA-UC-PDQC65-01-BK",
+      "price_rsd": 2299,
+      "img_thumb": "/images/products/gembird-ta-uc-pdqc65-01-bk-brzi-punjac-67w-01-thumb.webp",
+      "q_ascii": "3-u-1 usb-c i usb-a brzi punjac 67w, pd i qc 3.0 – gembird ta-uc-pdqc65-01-bk gembird ta-uc-pdqc65-01-bk mobilni-telefoni-i-oprema punjaci gembird-ta-uc-pdqc65-01-bk-brzi-punjac-67w 8716309128650"
+    },
+    {
       "listing_id": "KPF-000399",
       "name": "EU, USA, AU na UK putni adapter za utičnice, 13A – Virone TA-7",
       "slug": "virone-ta-7-strujni-travel-adapter-eu-us-au-na-uk",
@@ -4871,6 +4883,18 @@
       "price_rsd": 7799,
       "img_thumb": "/images/products/ugd-power-u750-atx-pc-napajanje-750w-01-thumb.webp",
       "q_ascii": "atx napajanje za pc 750w, 80 plus bronze – ugd power u750 ugd power u750 kompjuteri-i-oprema napajanja ugd-power-u750-atx-pc-napajanje-750w 8606035700018"
+    },
+    {
+      "listing_id": "KPF-000408",
+      "name": "Postolje za hlađenje laptopa do 17\" – Gembird N2000FS",
+      "slug": "gembird-n2000fs-postolje-za-hladjenje-laptopa",
+      "category": "kompjuteri-i-oprema",
+      "group": "laptop-postolja",
+      "brand": "Gembird",
+      "sku": "N2000FS",
+      "price_rsd": 1099,
+      "img_thumb": "/images/products/gembird-n2000fs-postolje-za-hladjenje-laptopa-01-thumb.webp",
+      "q_ascii": "postolje za hladjenje laptopa do 17\" – gembird n2000fs gembird n2000fs kompjuteri-i-oprema laptop-postolja gembird-n2000fs-postolje-za-hladjenje-laptopa 9780201379624"
     }
   ]
 }

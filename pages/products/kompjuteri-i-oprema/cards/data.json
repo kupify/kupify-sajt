@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 150,
+  "total_products": 151,
   "page_size": 18,
   "products": [
     {
@@ -873,6 +873,19 @@
       "brand": "Gembird",
       "sku": "NBS-1F15-04",
       "gtin13": "8716309110167"
+    },
+    {
+      "listing_id": "KPF-000408",
+      "name": "Postolje za hlađenje laptopa do 17\" – Gembird N2000FS",
+      "price_rsd": 1099,
+      "slug": "gembird-n2000fs-postolje-za-hladjenje-laptopa",
+      "category": "kompjuteri-i-oprema",
+      "group": "laptop-postolja",
+      "date_added_sort": "2026-11-15",
+      "img_thumb": "/images/products/gembird-n2000fs-postolje-za-hladjenje-laptopa-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "N2000FS",
+      "gtin13": "9780201379624"
     },
     {
       "listing_id": "KPF-000316",
