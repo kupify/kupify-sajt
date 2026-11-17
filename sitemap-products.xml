@@ -2448,4 +2448,16 @@
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://kupify.rs/pages/products/audio-oprema/gembird-spk-107-stereo-pc-zvucnici/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kupify.rs/pages/products/tv-i-video/nedis-cvbw34912at-adapter-dvi-d-muski-na-hdmi-zenski/</loc>
+    <lastmod>2026-11-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
 </urlset>

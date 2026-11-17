@@ -1,6 +1,6 @@
 {
   "category": "tv-i-video",
-  "total_products": 114,
+  "total_products": 115,
   "page_size": 18,
   "products": [
     {
@@ -15,6 +15,19 @@
       "brand": "Kettz",
       "sku": "DP2H-04",
       "gtin13": "8605054706599"
+    },
+    {
+      "listing_id": "KPF-000410",
+      "name": "Adapter DVI-D (24+1) muški na HDMI ženski – Nedis CVBW34912AT",
+      "price_rsd": 599,
+      "slug": "nedis-cvbw34912at-adapter-dvi-d-muski-na-hdmi-zenski",
+      "category": "tv-i-video",
+      "group": "kablovi-i-adapteri",
+      "date_added_sort": "2026-11-17",
+      "img_thumb": "/images/products/nedis-cvbw34912at-adapter-dvi-d-muski-na-hdmi-zenski-01-thumb.webp",
+      "brand": "Nedis",
+      "sku": "CVBW34912AT",
+      "gtin13": "5412810265466"
     },
     {
       "listing_id": "KPF-000298",

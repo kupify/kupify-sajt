@@ -4895,6 +4895,30 @@
       "price_rsd": 1099,
       "img_thumb": "/images/products/gembird-n2000fs-postolje-za-hladjenje-laptopa-01-thumb.webp",
       "q_ascii": "postolje za hladjenje laptopa do 17\" – gembird n2000fs gembird n2000fs kompjuteri-i-oprema laptop-postolja gembird-n2000fs-postolje-za-hladjenje-laptopa 9780201379624"
+    },
+    {
+      "listing_id": "KPF-000409",
+      "name": "Stereo zvučnici sa USB napajanjem, 3.5mm, 2x3W – Gembird SPK-107",
+      "slug": "gembird-spk-107-stereo-pc-zvucnici",
+      "category": "audio-oprema",
+      "group": "zvucnici",
+      "brand": "Gembird",
+      "sku": "SPK-107",
+      "price_rsd": 729,
+      "img_thumb": "/images/products/gembird-spk-107-stereo-pc-zvucnici-01-thumb.webp",
+      "q_ascii": "stereo zvucnici sa usb napajanjem, 3.5mm, 2x3w – gembird spk-107 gembird spk-107 audio-oprema zvucnici gembird-spk-107-stereo-pc-zvucnici 6902804011695"
+    },
+    {
+      "listing_id": "KPF-000410",
+      "name": "Adapter DVI-D (24+1) muški na HDMI ženski – Nedis CVBW34912AT",
+      "slug": "nedis-cvbw34912at-adapter-dvi-d-muski-na-hdmi-zenski",
+      "category": "tv-i-video",
+      "group": "kablovi-i-adapteri",
+      "brand": "Nedis",
+      "sku": "CVBW34912AT",
+      "price_rsd": 599,
+      "img_thumb": "/images/products/nedis-cvbw34912at-adapter-dvi-d-muski-na-hdmi-zenski-01-thumb.webp",
+      "q_ascii": "adapter dvi-d (24+1) muski na hdmi zenski – nedis cvbw34912at nedis cvbw34912at tv-i-video kablovi-i-adapteri nedis-cvbw34912at-adapter-dvi-d-muski-na-hdmi-zenski 5412810265466"
     }
   ]
 }

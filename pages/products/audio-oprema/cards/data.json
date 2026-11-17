@@ -1,6 +1,6 @@
 {
   "category": "audio-oprema",
-  "total_products": 15,
+  "total_products": 16,
   "page_size": 18,
   "products": [
     {
@@ -157,6 +157,19 @@
       "brand": "Gembird",
       "sku": "CCA-404",
       "gtin13": "8716309024570"
+    },
+    {
+      "listing_id": "KPF-000409",
+      "name": "Stereo zvučnici sa USB napajanjem, 3.5mm, 2x3W – Gembird SPK-107",
+      "price_rsd": 729,
+      "slug": "gembird-spk-107-stereo-pc-zvucnici",
+      "category": "audio-oprema",
+      "group": "zvucnici",
+      "date_added_sort": "2026-11-17",
+      "img_thumb": "/images/products/gembird-spk-107-stereo-pc-zvucnici-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "SPK-107",
+      "gtin13": "6902804011695"
     },
     {
       "listing_id": "KPF-000072",
