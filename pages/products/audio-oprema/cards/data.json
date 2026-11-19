@@ -1,6 +1,6 @@
 {
   "category": "audio-oprema",
-  "total_products": 16,
+  "total_products": 17,
   "page_size": 18,
   "products": [
     {
@@ -183,6 +183,19 @@
       "brand": "Gembird",
       "sku": "WM-SB-01",
       "gtin13": "8716309128056"
+    },
+    {
+      "listing_id": "KPF-000412",
+      "name": "USB-C na 3.5mm audio adapter sa DAC čipom – Gembird CCA-UC3.5F-01-DAC",
+      "price_rsd": 399,
+      "slug": "gembird-cca-uc35f-01-dac-usb-c-na-3-5mm-audio-adapter",
+      "category": "audio-oprema",
+      "group": "kablovi-i-adapteri",
+      "date_added_sort": "2026-11-19",
+      "img_thumb": "/images/products/gembird-cca-uc35f-01-dac-usb-c-na-3-5mm-audio-adapter-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "CCA-UC3.5F-01-DAC",
+      "gtin13": "8621691331345"
     },
     {
       "listing_id": "KPF-000370",
