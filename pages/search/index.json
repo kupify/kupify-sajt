@@ -4250,7 +4250,7 @@
     },
     {
       "listing_id": "KPF-000355",
-      "name": "Plafonski ili zidni teleskopski nosač za projektor - Kettz 0KP002",
+      "name": "Plafonski ili zidni teleskopski nosač za projektor – Kettz 0KP002",
       "slug": "kettz-0kp002-plafonski-zidni-nosac-projektora",
       "category": "tv-i-video",
       "group": "nosaci-za-projektore",
@@ -4258,7 +4258,7 @@
       "sku": "0KP002",
       "price_rsd": 2499,
       "img_thumb": "/images/products/kettz-0kp002-plafonski-zidni-nosac-projektora-01-thumb.webp",
-      "q_ascii": "plafonski ili zidni teleskopski nosac za projektor - kettz 0kp002 kettz 0kp002 tv-i-video nosaci-za-projektore kettz-0kp002-plafonski-zidni-nosac-projektora 8605054708166"
+      "q_ascii": "plafonski ili zidni teleskopski nosac za projektor – kettz 0kp002 kettz 0kp002 tv-i-video nosaci-za-projektore kettz-0kp002-plafonski-zidni-nosac-projektora 8605054708166"
     },
     {
       "listing_id": "KPF-000356",
@@ -4931,6 +4931,18 @@
       "price_rsd": 399,
       "img_thumb": "/images/products/gembird-cca-uc35f-01-dac-usb-c-na-3-5mm-audio-adapter-01-thumb.webp",
       "q_ascii": "usb-c na 3.5mm audio adapter sa dac cipom – gembird cca-uc3.5f-01-dac gembird cca-uc3.5f-01-dac audio-oprema kablovi-i-adapteri gembird-cca-uc35f-01-dac-usb-c-na-3-5mm-audio-adapter 8621691331345"
+    },
+    {
+      "listing_id": "KPF-000413",
+      "name": "Mini keramička grejalica sa efektom vatre, 400W – Home FKH 401",
+      "slug": "home-fkh-401-mini-keramicka-grejalica",
+      "category": "bela-tehnika-i-kucni-aparati",
+      "group": "grejna-tela",
+      "brand": "Home",
+      "sku": "FKH 401",
+      "price_rsd": 4699,
+      "img_thumb": "/images/products/home-fkh-401-mini-keramicka-grejalica-01-thumb.webp",
+      "q_ascii": "mini keramicka grejalica sa efektom vatre, 400w – home fkh 401 home fkh 401 bela-tehnika-i-kucni-aparati grejna-tela home-fkh-401-mini-keramicka-grejalica 5999084953607"
     }
   ]
 }

@@ -1,6 +1,6 @@
 {
   "category": "bela-tehnika-i-kucni-aparati",
-  "total_products": 12,
+  "total_products": 13,
   "page_size": 18,
   "products": [
     {
@@ -93,6 +93,19 @@
       "brand": "Zilan",
       "sku": "ZLN8397",
       "gtin13": "6423154008397"
+    },
+    {
+      "listing_id": "KPF-000413",
+      "name": "Mini keramička grejalica sa efektom vatre, 400W – Home FKH 401",
+      "price_rsd": 4699,
+      "slug": "home-fkh-401-mini-keramicka-grejalica",
+      "category": "bela-tehnika-i-kucni-aparati",
+      "group": "grejna-tela",
+      "date_added_sort": "2026-11-20",
+      "img_thumb": "/images/products/home-fkh-401-mini-keramicka-grejalica-01-thumb.webp",
+      "brand": "Home",
+      "sku": "FKH 401",
+      "gtin13": "5999084953607"
     },
     {
       "listing_id": "KPF-000368",
