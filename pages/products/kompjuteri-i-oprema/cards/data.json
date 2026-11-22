@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 151,
+  "total_products": 154,
   "page_size": 18,
   "products": [
     {
@@ -600,6 +600,45 @@
       "brand": "Gembird",
       "sku": "CAM83U",
       "gtin13": "4711421695152"
+    },
+    {
+      "listing_id": "KPF-000414",
+      "name": "Kabl za PC napajanje i UPS (C13 na C14), 1.8m – Gembird PC-189-VDE",
+      "price_rsd": 479,
+      "slug": "gembird-pc-189-vde-kabl-za-pc-napajanje-ups",
+      "category": "kompjuteri-i-oprema",
+      "group": "kablovi-i-adapteri",
+      "date_added_sort": "2026-11-22",
+      "img_thumb": "/images/products/gembird-pc-189-vde-kabl-za-pc-napajanje-ups-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "PC-189-VDE",
+      "gtin13": "8716309023757"
+    },
+    {
+      "listing_id": "KPF-000415",
+      "name": "Kabl za PC napajanje i UPS (C13 na C14), 3m – Gembird PC-189-VDE-3M",
+      "price_rsd": 699,
+      "slug": "gembird-pc-189-vde-kabl-za-pc-napajanje-ups-3m",
+      "category": "kompjuteri-i-oprema",
+      "group": "kablovi-i-adapteri",
+      "date_added_sort": "2026-11-22",
+      "img_thumb": "/images/products/gembird-pc-189-vde-kabl-za-pc-napajanje-ups-3m-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "PC-189-VDE-3M",
+      "gtin13": "8716309037884"
+    },
+    {
+      "listing_id": "KPF-000416",
+      "name": "Kabl za PC napajanje i UPS (C13 na C14), 5m – Gembird PC-189-VDE-5M",
+      "price_rsd": 999,
+      "slug": "gembird-pc-189-vde-kabl-za-pc-napajanje-ups-5m",
+      "category": "kompjuteri-i-oprema",
+      "group": "kablovi-i-adapteri",
+      "date_added_sort": "2026-11-22",
+      "img_thumb": "/images/products/gembird-pc-189-vde-kabl-za-pc-napajanje-ups-5m-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "PC-189-VDE-5M",
+      "gtin13": "8716309037877"
     },
     {
       "listing_id": "KPF-000313",
