@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 154,
+  "total_products": 155,
   "page_size": 18,
   "products": [
     {
@@ -990,6 +990,19 @@
       "brand": "Gembird",
       "sku": "MS-D2ST-01",
       "gtin13": "8716309135245"
+    },
+    {
+      "listing_id": "KPF-000417",
+      "name": "Produžni kabl sa UPS-a C14 na 3 šuko utičnice, 16A – Gembird EG-PSU3-01",
+      "price_rsd": 699,
+      "slug": "gembird-eg-psu3-01-produzni-kabl-sa-ups-c14-na-3-suko-uticnice",
+      "category": "kompjuteri-i-oprema",
+      "group": "kablovi-i-adapteri",
+      "date_added_sort": "2026-11-23",
+      "img_thumb": "/images/products/gembird-eg-psu3-01-produzni-kabl-sa-ups-c14-na-3-suko-uticnice-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "EG-PSU3-01",
+      "gtin13": "8716309102674"
     },
     {
       "listing_id": "KPF-000279",

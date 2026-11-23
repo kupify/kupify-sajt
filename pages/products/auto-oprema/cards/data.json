@@ -1,6 +1,6 @@
 {
   "category": "auto-oprema",
-  "total_products": 29,
+  "total_products": 30,
   "page_size": 18,
   "products": [
     {
@@ -197,6 +197,19 @@
       "brand": "Gembird",
       "sku": "TA-CHHR-02",
       "gtin13": "8716309087278"
+    },
+    {
+      "listing_id": "KPF-000418",
+      "name": "Dvosistemski auto zvučnici 150W, 87mm – Alpine SXE-0825S",
+      "price_rsd": 3199,
+      "slug": "alpine-sxe-0825s-auto-zvucnici-dvosistemski-koaksijalni",
+      "category": "auto-oprema",
+      "group": "auto-zvucnici",
+      "date_added_sort": "2026-11-23",
+      "img_thumb": "/images/products/alpine-sxe-0825s-auto-zvucnici-dvosistemski-koaksijalni-01-thumb.webp",
+      "brand": "Alpine",
+      "sku": "SXE-0825S",
+      "gtin13": "4958043515561"
     },
     {
       "listing_id": "KPF-000277",
