@@ -1,6 +1,6 @@
 {
   "category": "mobilni-telefoni-i-oprema",
-  "total_products": 17,
+  "total_products": 18,
   "page_size": 18,
   "products": [
     {
@@ -210,6 +210,19 @@
       "brand": "Ugreen",
       "sku": "AV161",
       "gtin13": "6957303881543"
+    },
+    {
+      "listing_id": "KPF-000422",
+      "name": "USB-C na Lightning kabl, 2m – UGREEN US171 (60752)",
+      "price_rsd": 2299,
+      "slug": "ugreen-us171-60752-usb-c-na-lightning-kabl-2m",
+      "category": "mobilni-telefoni-i-oprema",
+      "group": "kablovi-i-adapteri",
+      "date_added_sort": "2026-11-24",
+      "img_thumb": "/images/products/ugreen-us171-60752-usb-c-na-lightning-kabl-2m-01-thumb.webp",
+      "brand": "UGREEN",
+      "sku": "US171 (60752)",
+      "gtin13": "6957303867523"
     },
     {
       "listing_id": "KPF-000349",

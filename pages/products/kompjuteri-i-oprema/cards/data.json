@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 155,
+  "total_products": 158,
   "page_size": 18,
   "products": [
     {
@@ -652,6 +652,19 @@
       "brand": "Gembird",
       "sku": "KBS-UM-04",
       "gtin13": "8716309118125"
+    },
+    {
+      "listing_id": "KPF-000419",
+      "name": "Kuler za PC kućište. Molex priključak, 80mm – DeepCool XFAN 80",
+      "price_rsd": 299,
+      "slug": "deepcool-xfan-80-kuler-za-pc",
+      "category": "kompjuteri-i-oprema",
+      "group": "hladjenje",
+      "date_added_sort": "2026-11-24",
+      "img_thumb": "/images/products/deepcool-xfan-80-kuler-za-pc-01-thumb.webp",
+      "brand": "DeepCool",
+      "sku": "XFAN 80",
+      "gtin13": "6933412703242"
     },
     {
       "listing_id": "KPF-000198",
@@ -1912,6 +1925,32 @@
       "brand": "Gembird",
       "sku": "UHB-CR3-02",
       "gtin13": "8716309100793"
+    },
+    {
+      "listing_id": "KPF-000420",
+      "name": "Ventilator - kuler za PC kućište, 90mm – Gembird FANCASE2",
+      "price_rsd": 399,
+      "slug": "gembird-fancase2-kuler-za-pc-kuciste",
+      "category": "kompjuteri-i-oprema",
+      "group": "hladjenje",
+      "date_added_sort": "2026-11-24",
+      "img_thumb": "/images/products/gembird-fancase2-kuler-za-pc-kuciste-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "FANCASE2",
+      "gtin13": "8716309033329"
+    },
+    {
+      "listing_id": "KPF-000421",
+      "name": "Ventilator - kuler za PC kućište, 90mm – Gembird FANCASE2/BALL",
+      "price_rsd": 449,
+      "slug": "gembird-fancase2-ball-kuler-za-pc-kuciste",
+      "category": "kompjuteri-i-oprema",
+      "group": "hladjenje",
+      "date_added_sort": "2026-11-24",
+      "img_thumb": "/images/products/gembird-fancase2-ball-kuler-za-pc-kuciste-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "FANCASE2/BALL",
+      "gtin13": "8716309033336"
     },
     {
       "listing_id": "KPF-000328",

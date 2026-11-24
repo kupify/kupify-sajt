@@ -44,7 +44,8 @@ window.initProductAnalytics = function () {
         cta: 'viber',
         page_section: 'product',
         item_name: data.name,
-        item_category: item.item_category
+        item_category: item.item_category,
+        link_url: viberBtn.href
       });
 
       setTimeout(() => {
