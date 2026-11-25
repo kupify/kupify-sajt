@@ -109,3 +109,9 @@
 
 # 2026-11-25 | URL migration | KPF-000062 | /pages/products/kompjuteri-i-oprema/stoni-mikrofon-za-pc-laptop-gembird-mic-d-02/ -> /pages/products/audio-oprema/gembird-mic-d-02-stoni-mikrofon-za-pc-laptop/
 /pages/products/kompjuteri-i-oprema/stoni-mikrofon-za-pc-laptop-gembird-mic-d-02/ /pages/products/audio-oprema/gembird-mic-d-02-stoni-mikrofon-za-pc-laptop/ 301
+
+# 2026-11-25 | URL migration | KPF-000319 | /pages/products/kompjuteri-i-oprema/ugreen-cm564-usb-pc-mikrofon/ -> /pages/products/audio-oprema/ugreen-cm564-usb-pc-mikrofon/
+/pages/products/kompjuteri-i-oprema/ugreen-cm564-usb-pc-mikrofon/ /pages/products/audio-oprema/ugreen-cm564-usb-pc-mikrofon/ 301
+
+# 2026-11-25 | URL migration | KPF-000067 | /pages/products/kompjuteri-i-oprema/stoni-mikrofon-za-pc-laptop-gembird-mic-205/ -> /pages/products/audio-oprema/gembird-mic-205-stoni-mikrofon-za-pc-laptop/
+/pages/products/kompjuteri-i-oprema/stoni-mikrofon-za-pc-laptop-gembird-mic-205/ /pages/products/audio-oprema/gembird-mic-205-stoni-mikrofon-za-pc-laptop/ 301

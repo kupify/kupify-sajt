@@ -1,6 +1,6 @@
 {
   "category": "audio-oprema",
-  "total_products": 20,
+  "total_products": 22,
   "page_size": 18,
   "products": [
     {
@@ -198,6 +198,19 @@
       "gtin13": "6902804011695"
     },
     {
+      "listing_id": "KPF-000067",
+      "name": "Stoni mikrofon za PC ili laptop – Gembird MIC-205",
+      "price_rsd": 599,
+      "slug": "gembird-mic-205-stoni-mikrofon-za-pc-laptop",
+      "category": "audio-oprema",
+      "group": "mikrofoni",
+      "date_added_sort": "2026-01-09",
+      "img_thumb": "/images/products/gembird-mic-205-stoni-mikrofon-za-pc-laptop-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MIC-205",
+      "gtin13": "8716309079914"
+    },
+    {
       "listing_id": "KPF-000062",
       "name": "Stoni mikrofon za PC ili laptop – Gembird MIC-D-02",
       "price_rsd": 499,
@@ -222,6 +235,19 @@
       "brand": "Gembird",
       "sku": "WM-SB-01",
       "gtin13": "8716309128056"
+    },
+    {
+      "listing_id": "KPF-000319",
+      "name": "USB desktop mikrofon za PC, 360° – UGREEN CM564",
+      "price_rsd": 2199,
+      "slug": "ugreen-cm564-usb-pc-mikrofon",
+      "category": "audio-oprema",
+      "group": "mikrofoni",
+      "date_added_sort": "2026-08-23",
+      "img_thumb": "/images/products/ugreen-cm564-usb-pc-mikrofon-01-thumb.webp",
+      "brand": "UGREEN",
+      "sku": "CM564",
+      "gtin13": "6957303894161"
     },
     {
       "listing_id": "KPF-000412",
