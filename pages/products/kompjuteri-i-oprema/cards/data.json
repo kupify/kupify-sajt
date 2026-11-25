@@ -1,6 +1,6 @@
 {
   "category": "kompjuteri-i-oprema",
-  "total_products": 158,
+  "total_products": 157,
   "page_size": 18,
   "products": [
     {
@@ -1184,19 +1184,6 @@
       "brand": "Gembird",
       "sku": "MIC-205",
       "gtin13": "8716309079914"
-    },
-    {
-      "listing_id": "KPF-000062",
-      "name": "Stoni mikrofon za PC ili laptop – Gembird MIC-D-02",
-      "price_rsd": 479,
-      "slug": "stoni-mikrofon-za-pc-laptop-gembird-mic-d-02",
-      "category": "kompjuteri-i-oprema",
-      "group": "mikrofoni",
-      "date_added_sort": "2026-01-09",
-      "img_thumb": "/images/products/stoni-mikrofon-za-pc-laptop-gembird-mic-d-02-01-thumb.webp",
-      "brand": "Gembird",
-      "sku": "MIC-D-02",
-      "gtin13": "8716309100557"
     },
     {
       "listing_id": "KPF-000053",

@@ -106,3 +106,6 @@
 
 # 2026-11-22 | URL migration | KPF-000024 | /pages/products/uredjenje-kuce/sigurnosna-bravica-za-prozor-zastita-za-decu/ -> /pages/products/uredjenje-kuce/kupify-sbp-klj-01-sigurnosna-bravica-za-prozor/
 /pages/products/uredjenje-kuce/sigurnosna-bravica-za-prozor-zastita-za-decu/ /pages/products/uredjenje-kuce/kupify-sbp-klj-01-sigurnosna-bravica-za-prozor/ 301
+
+# 2026-11-25 | URL migration | KPF-000062 | /pages/products/kompjuteri-i-oprema/stoni-mikrofon-za-pc-laptop-gembird-mic-d-02/ -> /pages/products/audio-oprema/gembird-mic-d-02-stoni-mikrofon-za-pc-laptop/
+/pages/products/kompjuteri-i-oprema/stoni-mikrofon-za-pc-laptop-gembird-mic-d-02/ /pages/products/audio-oprema/gembird-mic-d-02-stoni-mikrofon-za-pc-laptop/ 301

@@ -735,14 +735,14 @@
     {
       "listing_id": "KPF-000062",
       "name": "Stoni mikrofon za PC ili laptop – Gembird MIC-D-02",
-      "slug": "stoni-mikrofon-za-pc-laptop-gembird-mic-d-02",
-      "category": "kompjuteri-i-oprema",
+      "slug": "gembird-mic-d-02-stoni-mikrofon-za-pc-laptop",
+      "category": "audio-oprema",
       "group": "mikrofoni",
       "brand": "Gembird",
       "sku": "MIC-D-02",
-      "price_rsd": 479,
-      "img_thumb": "/images/products/stoni-mikrofon-za-pc-laptop-gembird-mic-d-02-01-thumb.webp",
-      "q_ascii": "stoni mikrofon za pc ili laptop – gembird mic-d-02 gembird mic-d-02 kompjuteri-i-oprema mikrofoni stoni-mikrofon-za-pc-laptop-gembird-mic-d-02 8716309100557"
+      "price_rsd": 499,
+      "img_thumb": "/images/products/gembird-mic-d-02-stoni-mikrofon-za-pc-laptop-01-thumb.webp",
+      "q_ascii": "stoni mikrofon za pc ili laptop – gembird mic-d-02 gembird mic-d-02 audio-oprema mikrofoni gembird-mic-d-02-stoni-mikrofon-za-pc-laptop 8716309100557"
     },
     {
       "listing_id": "KPF-000063",
@@ -5051,6 +5051,30 @@
       "price_rsd": 2299,
       "img_thumb": "/images/products/ugreen-us171-60752-usb-c-na-lightning-kabl-2m-01-thumb.webp",
       "q_ascii": "usb-c na lightning kabl, 2m – ugreen us171 (60752) ugreen us171 (60752) mobilni-telefoni-i-oprema kablovi-i-adapteri ugreen-us171-60752-usb-c-na-lightning-kabl-2m 6957303867523"
+    },
+    {
+      "listing_id": "KPF-000423",
+      "name": "Bluetooth zvučnici 2.1, 42W RMS, USB, SD – Microlab M280BT",
+      "slug": "microlab-m280bt-bluetooth-zvucnici",
+      "category": "audio-oprema",
+      "group": "zvucnici",
+      "brand": "Microlab",
+      "sku": "M280BT",
+      "price_rsd": 6199,
+      "img_thumb": "/images/products/microlab-m280bt-bluetooth-zvucnici-01-thumb.webp",
+      "q_ascii": "bluetooth zvucnici 2.1, 42w rms, usb, sd – microlab m280bt microlab m280bt audio-oprema zvucnici microlab-m280bt-bluetooth-zvucnici 6945198857330"
+    },
+    {
+      "listing_id": "KPF-000424",
+      "name": "Mini mikrofon za laptop i PC, 3.5mm – Gembird MIC-203",
+      "slug": "gembird-mic-203-mini-mikrofon-za-pc-laptop",
+      "category": "audio-oprema",
+      "group": "mikrofoni",
+      "brand": "Gembird",
+      "sku": "MIC-203",
+      "price_rsd": 399,
+      "img_thumb": "/images/products/gembird-mic-203-mini-mikrofon-za-pc-laptop-01-thumb.webp",
+      "q_ascii": "mini mikrofon za laptop i pc, 3.5mm – gembird mic-203 gembird mic-203 audio-oprema mikrofoni gembird-mic-203-mini-mikrofon-za-pc-laptop 8716309079891"
     }
   ]
 }

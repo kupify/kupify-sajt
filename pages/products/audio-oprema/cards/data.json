@@ -1,6 +1,6 @@
 {
   "category": "audio-oprema",
-  "total_products": 17,
+  "total_products": 20,
   "page_size": 18,
   "products": [
     {
@@ -79,6 +79,32 @@
       "brand": "UGREEN",
       "sku": "CM106",
       "gtin13": "6941876230600"
+    },
+    {
+      "listing_id": "KPF-000423",
+      "name": "Bluetooth zvučnici 2.1, 42W RMS, USB, SD – Microlab M280BT",
+      "price_rsd": 6199,
+      "slug": "microlab-m280bt-bluetooth-zvucnici",
+      "category": "audio-oprema",
+      "group": "zvucnici",
+      "date_added_sort": "2026-11-25",
+      "img_thumb": "/images/products/microlab-m280bt-bluetooth-zvucnici-01-thumb.webp",
+      "brand": "Microlab",
+      "sku": "M280BT",
+      "gtin13": "6945198857330"
+    },
+    {
+      "listing_id": "KPF-000424",
+      "name": "Mini mikrofon za laptop i PC, 3.5mm – Gembird MIC-203",
+      "price_rsd": 399,
+      "slug": "gembird-mic-203-mini-mikrofon-za-pc-laptop",
+      "category": "audio-oprema",
+      "group": "mikrofoni",
+      "date_added_sort": "2026-11-25",
+      "img_thumb": "/images/products/gembird-mic-203-mini-mikrofon-za-pc-laptop-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MIC-203",
+      "gtin13": "8716309079891"
     },
     {
       "listing_id": "KPF-000360",
@@ -170,6 +196,19 @@
       "brand": "Gembird",
       "sku": "SPK-107",
       "gtin13": "6902804011695"
+    },
+    {
+      "listing_id": "KPF-000062",
+      "name": "Stoni mikrofon za PC ili laptop – Gembird MIC-D-02",
+      "price_rsd": 499,
+      "slug": "gembird-mic-d-02-stoni-mikrofon-za-pc-laptop",
+      "category": "audio-oprema",
+      "group": "mikrofoni",
+      "date_added_sort": "2026-01-09",
+      "img_thumb": "/images/products/gembird-mic-d-02-stoni-mikrofon-za-pc-laptop-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "MIC-D-02",
+      "gtin13": "8716309100557"
     },
     {
       "listing_id": "KPF-000072",

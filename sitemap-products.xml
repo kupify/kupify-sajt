@@ -367,8 +367,8 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://kupify.rs/pages/products/kompjuteri-i-oprema/stoni-mikrofon-za-pc-laptop-gembird-mic-d-02/</loc>
-    <lastmod>2026-01-09</lastmod>
+    <loc>https://kupify.rs/pages/products/audio-oprema/gembird-mic-d-02-stoni-mikrofon-za-pc-laptop/</loc>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
@@ -2523,6 +2523,18 @@
   <url>
     <loc>https://kupify.rs/pages/products/mobilni-telefoni-i-oprema/ugreen-us171-60752-usb-c-na-lightning-kabl-2m/</loc>
     <lastmod>2026-11-24</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kupify.rs/pages/products/audio-oprema/microlab-m280bt-bluetooth-zvucnici/</loc>
+    <lastmod>2026-11-25</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://kupify.rs/pages/products/audio-oprema/gembird-mic-203-mini-mikrofon-za-pc-laptop/</loc>
+    <lastmod>2026-11-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
