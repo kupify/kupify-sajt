@@ -18,11 +18,14 @@ body.js-ready {
     opacity: 1;
     transition: opacity 120ms ease;
 }
- /* rReset Default podešavanja za UL */
-ul {
+
+/* Globalna podešavanja tekstualnih lista */
+
+:is(ul, ol):not(nav *, footer *) {
   padding-inline-start: 1.25rem;
 }
-li + li {
+
+:is(ul, ol):not(nav *, footer *) > li + li {
   margin-top: 0.4rem;
 }
 

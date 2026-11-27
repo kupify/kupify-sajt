@@ -1,6 +1,6 @@
 {
   "category": "audio-oprema",
-  "total_products": 22,
+  "total_products": 23,
   "page_size": 18,
   "products": [
     {
@@ -92,6 +92,19 @@
       "brand": "Microlab",
       "sku": "M280BT",
       "gtin13": "6945198857330"
+    },
+    {
+      "listing_id": "KPF-000425",
+      "name": "LED RGB stereo zvučnici, USB, 3.5mm – Gembird SPK-B26",
+      "price_rsd": 899,
+      "slug": "gembird-spk-b26-led-zvucnici",
+      "category": "audio-oprema",
+      "group": "zvucnici",
+      "date_added_sort": "2026-11-26",
+      "img_thumb": "/images/products/gembird-spk-b26-led-zvucnici-01-thumb.webp",
+      "brand": "Gembird",
+      "sku": "SPK-B26",
+      "gtin13": "8602046512350"
     },
     {
       "listing_id": "KPF-000424",
