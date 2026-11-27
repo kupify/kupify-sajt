@@ -18,6 +18,13 @@ body.js-ready {
     opacity: 1;
     transition: opacity 120ms ease;
 }
+ /* rReset Default podešavanja za UL */
+ul {
+  padding-inline-start: 1.25rem;
+}
+li + li {
+  margin-top: 0.4rem;
+}
 
 /* ─────────────────────────────
    Top loader bar (na ivici headera)
@@ -1365,7 +1372,7 @@ div.tekst-lista {
     font-size: 1rem;
     font-weight: 600;
     margin-bottom: 0rem;
-    padding-top: 1.5rem;
+    padding-top: 1rem;
 }
 
 
@@ -1743,7 +1750,7 @@ div.tekst-lista {
 
     .product-faq h3 {
         font-size: 0.85rem;
-        padding-top: 1.2rem;
+        padding-top: 0.9rem;
     }
 
     .internal-code {
